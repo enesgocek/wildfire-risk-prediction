@@ -13,6 +13,8 @@ dependencies = [
   "earthengine-api>=1,<2",
   "python-dotenv>=1,<2",
   "pyyaml>=6,<7",
+  "geopandas>=1,<2",
+  "shapely>=2,<3",
 ]
 
 [dependency-groups]

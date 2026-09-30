@@ -19,7 +19,7 @@ Başlıca veri kaynakları:
 - **NASA FIRMS VIIRS:** aktif yangın tespitleri.
 - **ERA5-Land:** tarihsel meteorolojik veriler.
 - **Sentinel-2:** bitki örtüsü ve nem göstergeleri.
-- **ESA WorldCover ve yükseklik verileri:** arazi örtüsü ve topografya.
+- **Arazi örtüsü ve yükseklik verileri:** geçmiş yıllara uygun kaynak seçimi ve topografya.
 
 Türkiye verisinin yeterliliğine göre İtalya ve benzer Akdeniz iklimine sahip
 ülkelerden ek eğitim verisi de değerlendirilebilir.
@@ -37,8 +37,9 @@ olmak üzere yangın riskine uygun ölçütlerle değerlendirilecek.
 
 ## Mevcut durum
 
-Python ortamı, proje yapılandırması, deney takibi ve temel kontroller hazır.
-Veri toplama ve model eğitimi henüz başlamadı.
+Python ortamı, deney takibi ve Earth Engine erişimi hazır. Dört ilin çalışma
+alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu. Arazi örtüsü
+uygunluk seçimi, yangın verisi toplama ve model eğitimi sıradaki aşamalar.
 
 ## Kurulum
 

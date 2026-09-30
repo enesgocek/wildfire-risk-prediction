@@ -10,7 +10,7 @@ Kapsam, veri kuralları ve mevcut durum tek belgede toplanmıştır.
 - [Servis erişimleri](#dış-servis-erişim-durumu)
 
 Başlangıç prensibi: yalnızca kullanılan kod ve klasörler tutulur. Veri/model/arayüz
-klasörleri ihtiyaç doğduğunda oluşturulur. Üretilen dosyalar `outputs/` altında toplanır.
+klasörleri ihtiyaç doğduğunda oluşturulur. Rapor ve deney çıktıları `outputs/`, coğrafi veriler `data/` altında tutulur.
 
 Sadeleştirme sonrası kurulum, 18 test, lint/format ve yeni MLflow deneyi başarıyla
 doğrulandı. Önceki deney kayıtları yeni konuma taşındı; taşımadan önce alınan veritabanı
@@ -148,30 +148,68 @@ kendiliğinden düzeltmez; domain farkı ayrıca değerlendirilir.
 Pilot iller: **Antalya, Muğla, İzmir, Mersin**. Kapsam değişiklikleri yeni AOI/dataset
 sürümü gerektirir; deneyler arasında sessizce il eklenmez veya çıkarılmaz.
 
-İl sınırlarını içeren gerçek AOI ve 5 km grid henüz üretilmedi. Boş veya tahmini GeoJSON
-dosyaları gerçek teslimat olarak sunulmayacaktır. İkinci haftaya başlarken:
+30 Eylül 2026 tarihinde FAO GAUL 2025 il sınırlarından `TR_PILOT_V1` çalışma alanı
+oluşturuldu. Kaynak: `FAO/GAUL/2025/level1`. Dört il haritada ve kaynak adlarıyla doğrulandı.
+Birleşik AOI, aradaki il dışı boşlukları doldurmaz.
 
-1. Tek bir güvenilir idari sınır kaynağı seç; lisansını, sürümünü ve indirme tarihini kaydet.
-2. Dört ilin sınırlarını doğrula, geometri hatalarını gider ve birleşik AOI oluştur.
-3. Metre tabanlı uygun projeksiyonu seç ve grid başlangıç noktasını sabitle.
-   EPSG:4326 üzerinde dereceyi 5 km kabul etme. Grid üretim CRS'si henüz seçilmedi.
-4. Benzersiz ve tekrar üretilebilir `grid_id` üret; il sınırını aşan gridlerde il eşleştirme
-   kuralını önceden belirle. Grid geometrisi, AOI kesişimi ve alan oranını sakla.
-5. Arazi örtüsü kaynağı/sürümü ile vegetation uygunluk eşiğini belgeleyerek gridleri işaretle.
-   Tüm gridleri sakla; uygunluk bayrağı ile model kapsamını belirle.
-6. `data/aoi/aoi.geojson`, `data/aoi/grid_5km.geojson` ve AOI manifestini üret/doğrula.
+Grid sürümü `E6933_5K_V1`; üretim ve alan hesaplama sistemi EPSG:6933, başlangıç noktası
+(0, 0), hücre boyutu projeksiyonda 5.000 × 5.000 metredir. Eşit alan projeksiyonunda
+her tam hücre yaklaşık 25 km²'dir; yeryüzündeki kenar uzunlukları her yerde tam 5 km değildir.
+GeoJSON geometrileri EPSG:4326 ile saklanır; alan hesabı için EPSG:6933'e dönüştürülür.
 
-Bu işlemler tamamlanmadan il sınırları ve gridler kesinleşmiş kabul edilmez.
+Earth Engine'deki CRS ayrıştırma sorununu aşmak için eşdeğer açık WKT kullanıldı.
+Bellek sınırı nedeniyle aday grid, AOI'yi çevreleyen basit dikdörtgende üretildi;
+ayrıntılı kesişim hesabı GeoPandas/Shapely ile yerelde tamamlandı.
 
+| Kontrol | Sonuç |
+|---|---|
+| Aday hücre | 12.006 |
+| AOI ile pozitif alan kesişimi bulunan hücre | 2.899 |
+| Benzersiz nihai grid kimliği | 2.899 |
+| Geçersiz veya boş nihai geometri | 0 |
+| EPSG:6933 ile AOI alanı | 60.727,113920 km² |
+| Kapsanan AOI alanı farkı | Yaklaşık 3,49 × 10⁻¹⁰ km² |
+
+Tam hücre geometrisi korunur. `cell_area_km2`, `aoi_area_km2` ve `aoi_fraction`
+alanları çalışma alanı içinde kalan bölümü tanımlar. Çok küçük sınır parçaları şimdilik
+korunur; bu 2.899 hücrenin tamamı henüz model için uygun bitki örtüsü alanı sayılmaz.
+Uydu özellikleri ve yangın etiketleri hazırlanırken hücrenin AOI dışı bölümü maskelenmelidir.
+İl bazında eşleştirme kuralı henüz belirlenmedi.
+
+### Dosyalar ve tekrar üretim
+
+- `scripts/define_aoi.js`: Code Editor'da dört ili seçer, AOI'yi Drive'a aktarır.
+- `scripts/build_grid.js`: bağımsız çalışır; AOI ve kimlikli aday grid ihracını tanımlar.
+- `data/aoi/aoi.geojson`: birleşik pilot çalışma alanı.
+- `data/interim/grid_5km_candidates.geojson`: Drive'dan indirilen aday grid; Git'e girmez.
+- `scripts/check_aoi_grid.py`: yerel AOI ve aday grid kontrolü.
+- `scripts/prepare_grid.py`: AOI ile kesişen hücreleri seçer ve alan oranlarını hesaplar.
+- `data/aoi/grid_5km.geojson`: nihai coğrafi grid.
+- `data/aoi/manifest.json`: kaynak, sürüm, sayısal kontroller ve dosya SHA-256 özetleri.
+- `outputs/reports/grid_preparation.json`: yerel hazırlık raporu.
+
+İki JavaScript dosyası Google Earth Engine Code Editor'da çalıştırılır. Tasks sekmesinden
+AOI ve aday grid GeoJSON ihracı başlatılır; indirmeler yukarıdaki konumlara kaydedilir.
+`build_grid.js` önizlemesi yalnızca ilk 200 aday hücreyi gösterir.
+
+Proje kökünde PowerShell ile:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/check_aoi_grid.py
+.\.venv\Scripts\python.exe scripts/prepare_grid.py
+```
+
+Kaynak veya parametre değişirse yeni AOI/grid sürümü ve güncel manifest gerekir.
 
 ## İkinci Haftaya Geçiş
 
-1. Google Earth Engine project/auth ve non-commercial erişimini tamamla.
-2. İl sınırları, AOI/grid ve vegetation uygunluk kriterlerini üretip sürümle.
+1. Nihai gridin harita üzerinde görsel kontrolünü yap.
+2. Geçmiş yıllara uygun arazi örtüsü kaynağını, sürümünü ve bitki örtüsü uygunluk
+   kriterini seç. Sonraki yıllara ait yangın izlerini geçmiş özelliklere taşımamaya dikkat et.
 3. FIRMS 2018–2024 veri bulunabilirliğini il/yıl/sensör bazında incele. NRT yerine
    mümkün olduğunca standard/science-quality geçmiş veri kullan. 2025 final verisinin
    bulunabilirliği kontrol edilebilir; model geliştirmede performans veya içerik keşfi yapılmaz.
-4. EFFIS geçmiş perimeter erişimini doğrula; gerekiyorsa kullanıcı tarafından veri isteği başlat.
+4. EFFIS geçmiş perimeter erişimini doğrula; gerekiyorsa veri isteği başlat.
 5. Coverage/missingness raporu çıkar. Ham veri formatını ve provenance manifestini sabitle.
 6. Tekrarlı hotspot temizliği ve olay gruplama kurallarını train dönemi üzerinde geliştir.
    Yıl sınırını aşan olayları ayrı denetle.
@@ -180,84 +218,46 @@ Bu işlemler tamamlanmadan il sınırları ve gridler kesinleşmiş kabul edilme
 8. Train/validation olay ve grid dağılımı yeterlilik raporu çıkar. Dış ülke verisi gerekip
    gerekmediğini bu raporla değerlendir. Türkiye 2025'i kararı vermek için kullanma.
 
-İlk haftadaki klasörler gerçek AOI veya fire dataset yerine geçmez. Gerçek veri ve
-leakage denetimi tamamlanmadan model eğitimine başlanmaz.
-
+Coğrafi altyapı hazırdır. Gerçek yangın verisi ve leakage denetimi tamamlanmadan
+model eğitimine başlanmaz.
 
 ## İlk Hafta Durumu
 
-30 Eylül 2026 — yerel kurulum. GitHub yüklemesi kullanıcıya bırakılır.
+30 Eylül 2026 — Python altyapısı, GitHub deposu, Earth Engine erişimi ve pilot grid hazır.
 
-### Hazırlananlar
+- Sade klasör yapısı, merkezi YAML yapılandırması ve bağımlılık kilidi oluşturuldu.
+- Yapılandırma doğrulama ve final test erişim kontrolü hazırlandı.
+- Yerel MLflow altyapı deneyi doğrulandı; bu deney gerçek model başarısı ölçmez.
+- İlk kurulumda 18 test, Ruff ve temiz ortam kontrolü başarılı oldu.
+- GeoPandas/Shapely eklendi; AOI ve grid geometrileri, kimlikler ve kapsama kontrol edildi.
+- GitHub deposu: https://github.com/enesgocek/wildfire-risk-prediction
+- Günlük çalışma özeti: `Diary/30-09-2026.md`.
 
-- Kullanılan Python modülleri ve sade klasör yapısı; boş gelecek klasörleri kaldırıldı.
-- Dört il ve 24 saatlik tahmin için merkezi YAML yapılandırması.
-- Proje tanımı, AOI kararı, veri protokolü ve ikinci hafta iş listesi.
-- `.gitignore`, `.env.example`, Python sürüm kaydı ve bağımlılık tanımı.
-- Tek komutluk Windows kurulum betiği.
-- Yapılandırma doğrulama ve final test erişim kontrolü.
-- MLflow altyapı deneyi ve noninteractive GEE erişim kontrolü.
-
-### Doğrulama
-
-| Kontrol | Sonuç |
-|---|---|
-| Ortam | Python 3.12.14; bağımlılıklar kuruldu |
-| Kilit | `uv.lock`; 110 package çözümü (platform/build dahil), kurulu ortamda 109 package |
-| Ana klasörde setup.ps1 | Başarılı |
-| pytest | 18 test geçti |
-| Ruff lint ve format | Başarılı |
-| MLflow smoke | FINISHED; `b329fff5c0cb43468c56fe66c7954cef` |
-| MLflow sağlık ve arayüz | İkisi de HTTP 200; API üzerinden run FINISHED okundu |
-| Temiz kopya | Git'e girecek dosyalarla yeni ortam, setup, 18 test ve smoke başarılı |
-| GEE kontrolü | `not_configured`; gerçek API erişimi doğrulanmadı |
-| Git | main üzerinde yerel depo; commit ve remote yok |
-| Ignore kontrolü | .env, .venv, büyük veri/model, MLflow ve yerel raporlar hariç |
-
-Kurulum Windows üzerinde doğrulandı; farklı işletim sisteminde henüz denenmedi.
-Gerçek bağımsız bilgisayar clone testi, GitHub yüklemesinden sonra yapılabilir. Yerel temiz
-kopya doğrulaması mevcut sanal ortamı kopyalamadan yapıldı. Geçici doğrulama kopyaları
-temizlenir; sonuç kaydı `outputs/reports/reproducibility.json` içinde saklanır.
-
-MLflow sunucusu kontrol sonrası kapatıldı; README komutuyla tekrar başlatılabilir.
-İlk smoke run commit öncesinde üretildiğinden `git_revision=uncommitted` içerir.
-
-Sandbox hesabıyla oluşturulan Git deposuna erişim için yalnızca bu proje yolu kullanıcı
-Git ayarındaki `safe.directory` listesine eklendi. Yerel Git config yazma işlemi doğrulandı;
-kullanıcı terminalinden commit/push için Git kimliği ve GitHub authentication ayrıca gerekir.
-
-### Kullanıcı hesabı gerektirenler
-
-- GitHub repo oluşturma, commit ve push.
-- Google Cloud/Earth Engine kaydı ve non-commercial uygunluk doğrulaması.
-- `GEE_PROJECT_ID` ve authentication tamamlandıktan sonra gerçek GEE API kontrolü.
-
-İlk hafta GEE erişimi doğrulanmadıkça tüm dış erişim işleri tamamlanmış kabul edilmez.
-
+Kurulum Windows ve Python 3.12 üzerinde doğrulandı. Farklı işletim sistemi veya bağımsız
+bir bilgisayar üzerinde clone testi henüz yapılmadı. Yerel raporlar `outputs/reports/`
+altında; MLflow kayıtları `outputs/mlflow/` altında tutulur ve Git'e gönderilmez.
 
 ## Dış Servis Erişim Durumu
 
-İlk kurulum tarihi: 30 Eylül 2026.
+30 Eylül 2026 itibarıyla:
 
-| Servis | Durum | Gereken işlem |
+| Servis | Durum | Sıradaki işlem |
 |---|---|---|
-| GitHub | Kullanıcı tarafından yapılacak | Boş repo oluştur, remote/commit/push |
-| MLflow | Doğrulandı: smoke FINISHED, sağlık/arayüz HTTP 200 | README ile yerel sunucuyu başlat |
-| Earth Engine | Proje kimliği verilmedi | Google Cloud projesi, kayıt, API ve authentication |
-| GEE non-commercial | Doğrulanmadı | Google hesabında uygunluk doğrulaması |
-| NASA FIRMS | Veri erişimi henüz denenmedi | İkinci hafta tarihsel veri erişimini incele |
-| EFFIS | Erişim/istek henüz başlatılmadı | Geçmiş perimeter erişimi ve gerekirse data request |
+| GitHub | main dalı ve origin bağlantısı hazır; ilk dosyalar yüklendi | Sonraki değişiklikleri commit/push ile kaydet |
+| MLflow | Smoke deneyi, sağlık ve arayüz kontrolü doğrulandı | Modelleme aşamasında deneyleri kaydet |
+| Earth Engine | Python API erişimi doğrulandı; Code Editor ihracı çalıştı | Veri kaynaklarını aşamalı incele |
+| GEE non-commercial | Cloud konsolunda kayıt görüldü; geçerlilik 8 Şubat 2028'e kadar | Gerektiğinde konsoldaki durumu tekrar kontrol et |
+| NASA FIRMS | Tarihsel veri erişimi henüz denenmedi | Veri erişimini ve kapsamını incele |
+| EFFIS | Erişim/istek henüz başlatılmadı | Geçmiş perimeter erişimini incele |
 
-`scripts/check_gee_access.py` gerçek API erişimini test eder, non-commercial hesabın
-uygunluğunu otomatik onaylamaz. Google hesabı/Cloud project bilgisi sağlanmadığından
-Earth Engine erişimi tamamlandı olarak işaretlenemez. Bu işlem kullanıcı hesabıyla yapılmalıdır.
+`scripts/check_gee_access.py` sonucu `api_verified: true` olarak kaydedildi.
+Non-commercial kayıt durumunu Python betiği doğrulamaz; bu bilgi Cloud konsolundan
+ayrıca kontrol edildi. Yerel `outputs/reports/gee_access.json` raporundaki
+`must_be_confirmed_in_google_console` alanı bu ayrımı belirtir.
 
 Resmî kaynaklar:
-- https://developers.google.com/earth-engine/guides/access
-- https://developers.google.com/earth-engine/guides/auth
-- https://mlflow.org/docs/latest/self-hosting/architecture/tracking-server/
 
-Yerel makinedeki güncel API sonucu `outputs/reports/gee_access.json` içinde bulunur;
-bu dosya Git'e yüklenmez. API kontrolü, non-commercial kayıt durumu ve kaynak veri
-erişimi birbirinden ayrı kontrollerdir.
-
+- [Earth Engine erişimi](https://developers.google.com/earth-engine/guides/access)
+- [Earth Engine kimlik doğrulama](https://developers.google.com/earth-engine/guides/auth)
+- [FAO GAUL 2025 il sınırları](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2025_level1)
+- [MLflow tracking server](https://mlflow.org/docs/latest/self-hosting/architecture/tracking-server/)

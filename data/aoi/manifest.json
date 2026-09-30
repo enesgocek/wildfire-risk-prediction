@@ -1,0 +1,37 @@
+{
+  "prepared_on": "2026-09-30",
+  "aoi_id": "TR_PILOT_V1",
+  "provinces": [
+    "Antalya",
+    "Muğla",
+    "İzmir",
+    "Mersin"
+  ],
+  "boundary_source": "FAO/GAUL/2025/level1",
+  "boundary_source_url": "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2025_level1",
+  "boundary_attribution": "Food and Agriculture Organization of the United Nations (FAO), GAUL 2025",
+  "boundary_license": "CC-BY-4.0",
+  "cell_size_m": 5000,
+  "grid_origin_m": [
+    0,
+    0
+  ],
+  "grid_id_pattern": "E6933_5K_V1_C{column}_R{row}",
+  "geometry_policy": "Keep full cells with positive AOI intersection; mask outside AOI downstream.",
+  "vegetation_eligibility": "not_yet_defined",
+  "candidate_count": 12006,
+  "retained_count": 2899,
+  "removed_count": 9107,
+  "unique_grid_ids": 2899,
+  "aoi_area_km2": 60727.113919828436,
+  "covered_aoi_area_km2": 60727.11391982809,
+  "area_difference_km2": 3.4924596548080444e-10,
+  "min_aoi_fraction": 3.5428169074058163e-06,
+  "max_aoi_fraction": 1.0,
+  "calculation_crs": "EPSG:6933",
+  "output_geometry_crs": "EPSG:4326",
+  "grid_version": "E6933_5K_V1",
+  "aoi_sha256": "d727a6c1e320650a47fd18c7077af847a82d4c99cdc87e49a3c32cb144ea7c22",
+  "candidates_sha256": "95198e352594f4c474179e67411dcc6b6d5f8a18c17a57efc9de7334a65df8b0",
+  "grid_sha256": "5695da5111855daa6696b22d213a8ab340e24e561cec3c222ad7152af3de9abe"
+}
