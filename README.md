@@ -1,101 +1,55 @@
-# Orman Yangını Riski — Pilot Proje
+# Orman Yangını Risk Tahmini
 
-Antalya, Muğla, İzmir ve Mersin'de 5×5 km gridler için sonraki 24 saatin yangın
-riski üzerinde çalışıyoruz. Şu an ilk hafta altyapısı hazır; gerçek veri ve model henüz yok.
+Antalya, Muğla, İzmir ve Mersin'de önümüzdeki 24 saat içinde yangın oluşma riskini
+hesaplamayı amaçlayan bir bitirme projesi.
 
-## Nereden başlamalıyım?
+Meteorolojik veriler, uydu görüntüleri ve arazi özellikleri bir araya getirilerek
+5 × 5 km alanlar için yangın olasılığı üretilecek. Sonuçların bir harita üzerinden
+sunulması ve risk üzerinde etkili faktörlerin incelenmesi hedefleniyor.
 
-- [Proje rehberi](docs/PROJECT.md): kapsam, veri kuralları, mevcut durum ve sıradaki işler.
-- [Orijinal yol haritası](docs/ROADMAP.md): bütün projenin haftalık planı.
-- `configs/project.yaml`: iller, tahmin ufku ve eğitim/validation/test yılları.
+## Kapsam
 
-Orijinal yol haritasındaki Hatay önerisi yerine **Mersin** seçilmiştir.
-Güncel kararlar proje rehberi ve yapılandırmada bulunur.
+Çalışma, dört ildeki orman ve diğer uygun bitki örtüsü alanlarını kapsıyor.
+Yangın etiketleri NASA FIRMS VIIRS kayıtlarından oluşturulacak; aynı yangına ait
+tekrarlı tespitler tek olay altında toplanacak. İlk uydu tespiti, gerçek yangın
+başlangıç zamanını yaklaşık olarak temsil ediyor.
 
-## Klasörlerin amacı
+Başlıca veri kaynakları:
 
-```text
-configs/  → Proje ayarları
-docs/     → Proje kararları ve yol haritası
-src/      → Şu an kullanılan Python kodu
-scripts/  → Kurulum ve kontrol komutları
-tests/    → Mevcut kodun kontrolleri
-outputs/  → Deneyler, raporlar ve önbellek (Git'e girmez)
+- **NASA FIRMS VIIRS:** aktif yangın tespitleri.
+- **ERA5-Land:** tarihsel meteorolojik veriler.
+- **Sentinel-2:** bitki örtüsü ve nem göstergeleri.
+- **ESA WorldCover ve yükseklik verileri:** arazi örtüsü ve topografya.
+
+Türkiye verisinin yeterliliğine göre İtalya ve benzer Akdeniz iklimine sahip
+ülkelerden ek eğitim verisi de değerlendirilebilir.
+
+## Modelleme ve değerlendirme
+
+İlk modeller Random Forest ve XGBoost olacak; FWI bağımsız bir karşılaştırma
+ölçütü olarak kullanılacak. Uydu görüntülerinden elde edilen temsillerin katkısı,
+temel modellerin sonuçları değerlendirildikten sonra araştırılacak.
+
+Veri ayrımı: **2018–2023 eğitim**, **2024 doğrulama**, **2025 final test**.
+Final test, model ve parametre seçiminden ayrı tutulacak. Özellikler tahmin anında
+bilinebilen verilerden üretilecek. Başarı, PR-AUC ve olasılık kalibrasyonu başta
+olmak üzere yangın riskine uygun ölçütlerle değerlendirilecek.
+
+## Mevcut durum
+
+Python ortamı, proje yapılandırması, deney takibi ve temel kontroller hazır.
+Veri toplama ve model eğitimi henüz başlamadı.
+
+## Kurulum
+
+Python 3.12 ve uv ile:
+
+```bash
+uv sync --locked
+uv run --locked pytest
 ```
 
-Veri toplarken `data/`, model ve arayüz geliştirilirken ilgili klasörler eklenecek.
-Boş gelecek klasörleri tutulmaz. `.venv` Python ortamıdır; günlük çalışmada düzenlenmez.
-Kökteki `pyproject.toml`, `uv.lock`, `.python-version` ve `.gitignore` teknik altyapıdır.
+Windows için kurulum betiği: `scripts/setup.ps1`.
 
-## Antigravity ve kurulum
-
-Klasörü Antigravity'de açın. Python interpreter: `.venv\Scripts\python.exe`.
-Windows PowerShell'de proje kökünden:
-
-```powershell
-.\scripts\setup.ps1
-```
-
-uv kurulu değilse Python 3.12 yolu verilebilir:
-
-```powershell
-.\scripts\setup.ps1 -PythonExe 'C:\Python312\python.exe'
-```
-
-[uv kurulum yönergesi](https://docs.astral.sh/uv/getting-started/installation/).
-Python sürüm hedefi `.python-version`, paket sürümleri `uv.lock` içinde tutulur.
-uv kurulu başka bir işletim sisteminde `uv sync --locked` kullanılabilir;
-mevcut kurulum Windows üzerinde doğrulanmıştır.
-
-## Kontroller ve ilk deney
-
-Mevcut bilgisayarda uv PATH'te olmadığından doğrudan proje içindeki uv kullanılır:
-
-```powershell
-.\.venv\Scripts\uv.exe run --locked pytest
-.\.venv\Scripts\uv.exe run --locked ruff check .
-.\.venv\Scripts\uv.exe run --locked python scripts/smoke_experiment.py
-```
-
-Bu deney yalnızca altyapıyı kontrol eder; gerçek veri kullanmaz veya model eğitmez.
-Sonuçlar `outputs/reports/` altında tutulur. uv PATH'teyse tam yol yerine `uv` yazılabilir.
-
-## MLflow deney ekranı
-
-```powershell
-.\.venv\Scripts\uv.exe run --locked mlflow server --backend-store-uri sqlite:///outputs/mlflow/mlflow.db --host 127.0.0.1 --port 5000
-```
-
-Proje kökünden başlatıp <http://127.0.0.1:5000> adresini açın. Ctrl+C ile durdurun.
-Veritabanı ve deney dosyaları `outputs/mlflow/` altındadır. Önceki deney kaydı korunmuştur.
-Bu klasör için ayrı yedekleme gerekir; Git'e yüklenmez.
-
-## Earth Engine erişimi
-
-Google Cloud/Earth Engine projenizi kaydedip API ve non-commercial doğrulamasını tamamlayın.
-Setup'ın oluşturduğu `.env` içinde `GEE_PROJECT_ID` değerini doldurun:
-
-```powershell
-.\.venv\Scripts\uv.exe run --locked earthengine authenticate
-.\.venv\Scripts\uv.exe run --locked python scripts/check_gee_access.py
-```
-
-Kontrol sonucu `outputs/reports/gee_access.json` içine yazılır.
-Çıkış kodu 0 başarılı API isteği, 1 erişim hatası, 2 ayarlanmamış proje kimliğidir.
-API başarısı non-commercial statüsünü doğrulamaz; o adım Google hesabında tamamlanır.
-[Google erişim yönergesi](https://developers.google.com/earth-engine/guides/access).
-
-## GitHub'a yükleme
-
-Yerel Git deposu hazır; commit ve uzak depo bağlantısı size bırakıldı.
-GitHub'da boş depo oluşturduktan sonra:
-
-```powershell
-git status --short
-git add .
-git commit -m "Initialize research infrastructure"
-git remote add origin https://github.com/KULLANICI_ADIN/wildfire-risk-prediction.git
-git push -u origin main
-```
-
-`.env`, `.venv`, `outputs` ve büyük veri/model dosyaları Git'e girmez.
+Ayrıntılar için [proje rehberi](docs/PROJECT.md) ve
+[yol haritası](docs/ROADMAP.md).
