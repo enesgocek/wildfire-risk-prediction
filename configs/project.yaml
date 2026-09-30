@@ -1,0 +1,17 @@
+project:
+  name: wildfire-risk-prediction
+  scope: pilot
+  provinces: [Antalya, Muğla, İzmir, Mersin]
+prediction:
+  grid_size_m: 5000
+  horizon_hours: 24
+  issue_time_utc: "00:00"
+  target: fire_next_24h
+splits:
+  train: [2018, 2023]
+  validation: [2024, 2024]
+  final_test: [2025, 2025]
+experiment:
+  seed: 42
+  primary_metric: pr_auc
+  name: week01-infrastructure
