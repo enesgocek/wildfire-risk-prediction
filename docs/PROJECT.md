@@ -201,11 +201,87 @@ Proje kökünde PowerShell ile:
 
 Kaynak veya parametre değişirse yeni AOI/grid sürümü ve güncel manifest gerekir.
 
+## Arazi Örtüsü İncelemesi — 1 Ekim 2026
+
+Gridin genel görünümü ve Antalya kıyısındaki sınır hücreleri görsel olarak kontrol edildi.
+Copernicus `COPERNICUS/Landcover/100m/Proba-V-C3/Global/2017` sınıflandırması
+Earth Engine'den kaynak piksel hizası korunarak indirildi. Bu kaynak inceleme adayıdır;
+model girdisi veya nihai uygunluk maskesi olarak kesinleştirilmedi. Referans yılı 2017
+olması, ürünün 2017'de yayımlandığı anlamına gelmez; üretim/yayın ve yardımcı veri
+provenance'ı modelde kullanımdan önce değerlendirilecek.
+
+- Ham raster: `data/raw/landcover/landcover_copernicus_2017.tif`.
+- Kaynak SHA-256: `ee8bd6c9f742dbbdfcdcbbb6ecc446499f05d676eaeb202c4345c11ea6006470`.
+- CRS: EPSG:3857; piksel boyutu projeksiyonda 100 × 100 metre.
+- Boyut: 9.959 × 4.750 piksel; tek int16 bant; nodata -9999.
+- İndirilen dikdörtgende eksik piksel yok; 417 sınıflandırılamayan piksel var.
+- Pilot alan içinde bilinmeyen sınıfa rastlanmadı.
+
+Hesap yalnızca her hücrenin AOI içindeki bölümünde yapıldı. EPSG:3857 eşit alanlı
+olmadığından WGS84 üzerinde piksel köşelerinden yaklaşık alan ağırlıkları üretildi.
+`exactextract` kısmi piksel kesişimleri ve alan ağırlıklarıyla sınıf oranlarını hesapladı.
+Oranlar 0–1 aralığında; çok küçük kayan nokta taşmaları tolerans içinde değerlendirilir.
+
+İlk hesapta raster kaynak adlarının ayrılmaması alan sonucunu bozdu. Kaynaklar
+`landcover` ve `pixel_area` olarak adlandırılarak sorun düzeltildi; yanlış tablo yeniden
+üretildi. Betik artık toplam raster/AOI alan farkını CSV yazılmadan önce denetler.
+
+| Kontrol | Sonuç |
+|---|---|
+| İşlenen hücre | 2.899 |
+| Hesaplanan toplam alan | 60.727,113921 km² |
+| AOI ile toplam alan farkı | Yaklaşık 1,67 m² |
+| En büyük hücre bazında göreli alan farkı | Yaklaşık 8,45 × 10⁻⁶ |
+| Seçili örtü oranı medyanı | %94,79 |
+| Oranı sıfır olan hücre | 15 |
+| Oranı %20 altında olan hücre | 174 |
+| AOI bölümü 1 km²'den küçük hücre | 108 |
+
+`natural_vegetation_fraction`, kaynakta orman, çalı ve otsu bitki olarak sınıflandırılmış
+alanların toplamını ifade eder. Canlı yeşillik, yalnızca ağaç örtüsü veya kesin doğal alan
+ölçümü değildir; kaynak bazı odunsu tarım alanlarını orman/çalı sınıfına dahil edebilir.
+Histogram hücre sayısıyla oluşturulur, toplam arazi alanı dağılımı değildir.
+Mersin merkezindeki yerleşim sınıfı kullanıcı tarafından yerel gözlemle karşılaştırıldı;
+belirgin uyumsuzluk görülmedi. Bu, bütün kaynak için doğruluk ölçümü yerine geçmez.
+
+Bütün hücreler korunuyor. Örtü ve alan eşikleri, yangın kayıtları geldikten sonra eğitim
+dönemi üzerinden değerlendirilecek; 2025 final test bu karara dahil edilmeyecek.
+
+### İşlem sırası ve yerel çıktılar
+
+1. `scripts/preview_grid.py`: grid haritası.
+2. `scripts/inspect_landcover.js`: Earth Engine inceleme ve GeoTIFF ihracı.
+3. `scripts/check_landcover.py`: kaynak raster kontrolü.
+4. `scripts/prepare_grid_aoi_parts.py`: hesaplama için AOI içi hücre geometrileri.
+5. `scripts/prepare_landcover_weights.py`: piksel alan ağırlıkları.
+6. `scripts/calculate_landcover_fractions.py`: hücre bazında örtü tablosu.
+7. `scripts/preview_landcover_fractions.py`: harita ve histogram.
+
+Ara çıktılar `data/interim/`, kontrol raporları `outputs/reports/`, görseller
+`outputs/figures/` altında. Ham raster, ara dosyalar ve yerel çıktılar Git'e girmez;
+betikler ve bağımlılık kilidi Git'te tutulur. Raster yeniden indirilecekse mevcut kaynak
+kimliği, tarih ve piksel hizasıyla karşılaştırılır; kaynak değişimi sessizce yapılmaz.
+
+### FIRMS indirme isteği
+
+1 Ekim 2026 tarihinde Türkiye, buffer 0 km, VIIRS S-NPP Collection 2,
+2018-01-01–2024-12-31, CSV için istek gönderildi. İstek numarası **815579**.
+Alındı e-postası geldi; indirme bağlantısı bekleniyor. Veri henüz indirilip kontrol edilmedi.
+Geldiğinde kaynak/sürüm, standard-processing durumu, alan şeması ve zaman kapsamı
+kontrol edilecek; ham dosya korunacak ve dört il filtresi yerelde uygulanacak.
+2025 final test bu indirme isteğine dahil edilmedi.
+
+Kaynaklar:
+
+- [Copernicus CGLS-LC100 Collection 3](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global)
+- [Exactextract işlemleri](https://isciences.github.io/exactextract/operations.html)
+- [FIRMS arşiv indirmesi](https://firms.modaps.eosdis.nasa.gov/download/)
+
 ## İkinci Haftaya Geçiş
 
-1. Nihai gridin harita üzerinde görsel kontrolünü yap.
-2. Geçmiş yıllara uygun arazi örtüsü kaynağını, sürümünü ve bitki örtüsü uygunluk
-   kriterini seç. Sonraki yıllara ait yangın izlerini geçmiş özelliklere taşımamaya dikkat et.
+1. FIRMS 815579 numaralı isteğin indirme bağlantısı geldiğinde ham dosyayı kaydet ve kontrol et.
+2. Arazi örtüsü adayının modelde kullanımını ve uygunluk kriterini eğitim verisiyle değerlendir.
+   Sonraki yıllara ait yangın izlerini geçmiş özelliklere taşımamaya dikkat et.
 3. FIRMS 2018–2024 veri bulunabilirliğini il/yıl/sensör bazında incele. NRT yerine
    mümkün olduğunca standard/science-quality geçmiş veri kullan. 2025 final verisinin
    bulunabilirliği kontrol edilebilir; model geliştirmede performans veya içerik keşfi yapılmaz.
@@ -239,7 +315,7 @@ altında; MLflow kayıtları `outputs/mlflow/` altında tutulur ve Git'e gönder
 
 ## Dış Servis Erişim Durumu
 
-30 Eylül 2026 itibarıyla:
+1 Ekim 2026 itibarıyla:
 
 | Servis | Durum | Sıradaki işlem |
 |---|---|---|
@@ -247,7 +323,7 @@ altında; MLflow kayıtları `outputs/mlflow/` altında tutulur ve Git'e gönder
 | MLflow | Smoke deneyi, sağlık ve arayüz kontrolü doğrulandı | Modelleme aşamasında deneyleri kaydet |
 | Earth Engine | Python API erişimi doğrulandı; Code Editor ihracı çalıştı | Veri kaynaklarını aşamalı incele |
 | GEE non-commercial | Cloud konsolunda kayıt görüldü; geçerlilik 8 Şubat 2028'e kadar | Gerektiğinde konsoldaki durumu tekrar kontrol et |
-| NASA FIRMS | Tarihsel veri erişimi henüz denenmedi | Veri erişimini ve kapsamını incele |
+| NASA FIRMS | 815579 numaralı Türkiye 2018–2024 isteği alındı; indirme bekleniyor | Gelen CSV dosyasını ve kapsamını kontrol et |
 | EFFIS | Erişim/istek henüz başlatılmadı | Geçmiş perimeter erişimini incele |
 
 `scripts/check_gee_access.py` sonucu `api_verified: true` olarak kaydedildi.
