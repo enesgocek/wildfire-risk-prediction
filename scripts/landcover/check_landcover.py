@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import rasterio
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 raster_path = ROOT / "data/raw/landcover/landcover_copernicus_2017.tif"
 report_path = ROOT / "outputs/reports/landcover_check.json"
 

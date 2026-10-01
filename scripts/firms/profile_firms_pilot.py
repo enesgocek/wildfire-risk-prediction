@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 source_path = ROOT / "data/interim/firms_pilot_2018_2024.csv"
 output_dir = ROOT / "outputs/reports"

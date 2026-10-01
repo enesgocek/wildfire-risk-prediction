@@ -9,7 +9,7 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 output_path = ROOT / "outputs/figures/landcover_fractions_preview.png"
 
 parts = gpd.read_file(ROOT / "data/interim/grid_aoi_parts.geojson").to_crs(6933)

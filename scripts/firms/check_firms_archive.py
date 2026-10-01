@@ -1,12 +1,27 @@
+import argparse
 import hashlib
 import json
 from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
-source_path = ROOT / "data/raw/firms/815579/fire_archive_SV-C2_815579.csv"
-report_path = ROOT / "outputs/reports/firms_archive_check.json"
+ROOT = Path(__file__).resolve().parents[2]
+
+parser = argparse.ArgumentParser(description="FIRMS arşiv kontrolü")
+parser.add_argument(
+    "--source",
+    default="data/raw/firms/815579/fire_archive_SV-C2_815579.csv",
+)
+parser.add_argument(
+    "--report",
+    default="outputs/reports/firms_archive_check.json",
+)
+parser.add_argument("--start", default="2018-01-01")
+parser.add_argument("--end", default="2025-01-01")
+args = parser.parse_args()
+
+source_path = ROOT / args.source
+report_path = ROOT / args.report
 
 # Tarih, saat ve kaynak kodlarını metin olarak koru
 df = pd.read_csv(source_path, dtype="string")
@@ -60,7 +75,7 @@ timestamps = pd.to_datetime(
 ).where(valid_time)
 
 outside_period = dates.notna() & (
-    (dates < pd.Timestamp("2018-01-01", tz="UTC")) | (dates >= pd.Timestamp("2025-01-01", tz="UTC"))
+    (dates < pd.Timestamp(args.start, tz="UTC")) | (dates >= pd.Timestamp(args.end, tz="UTC"))
 )
 
 

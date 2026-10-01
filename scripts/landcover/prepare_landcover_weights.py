@@ -6,7 +6,7 @@ import numpy as np
 import rasterio
 from pyproj import Geod, Transformer
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 source_path = ROOT / "data/raw/landcover/landcover_copernicus_2017.tif"
 output_path = ROOT / "data/interim/landcover_pixel_area_m2.tif"
 report_path = ROOT / "outputs/reports/landcover_weights.json"

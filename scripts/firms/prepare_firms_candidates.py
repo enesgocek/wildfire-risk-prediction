@@ -1,14 +1,34 @@
+import argparse
 import json
 from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
-source_path = ROOT / "data/interim/firms_pilot_2018_2024.csv"
-audit_path = ROOT / "data/interim/firms_pilot_candidate_audit.csv"
-candidate_path = ROOT / "data/interim/firms_fire_candidates_2018_2024.csv"
-report_path = ROOT / "outputs/reports/firms_candidates.json"
+parser = argparse.ArgumentParser(description="FIRMS aday tespit seçimi")
+parser.add_argument(
+    "--source",
+    default="data/interim/firms_pilot_2018_2024.csv",
+)
+parser.add_argument(
+    "--audit",
+    default="data/interim/firms_pilot_candidate_audit.csv",
+)
+parser.add_argument(
+    "--output",
+    default="data/interim/firms_fire_candidates_2018_2024.csv",
+)
+parser.add_argument(
+    "--report",
+    default="outputs/reports/firms_candidates.json",
+)
+args = parser.parse_args()
+
+source_path = ROOT / args.source
+audit_path = ROOT / args.audit
+candidate_path = ROOT / args.output
+report_path = ROOT / args.report
 
 df = pd.read_csv(source_path, dtype="string")
 

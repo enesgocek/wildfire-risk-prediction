@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 source = ROOT / "data/raw/firms/815579/fire_archive_SV-C2_815579.csv"
 
 raw = pd.read_csv(source, usecols=["acq_date"], dtype="string")

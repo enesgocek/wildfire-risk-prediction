@@ -40,9 +40,10 @@ olmak üzere yangın riskine uygun ölçütlerle değerlendirilecek.
 Python ortamı, deney takibi ve Earth Engine erişimi hazır. Dört ilin çalışma
 alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu. Copernicus
 2017 arazi örtüsü için hücre bazında sınıf oranları çıkarıldı; kaynağın modelde
-kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP 2018–2024 arşivi
-kontrol edildi; pilot tespitler ve geçici olay gruplaması adayları hazırlandı.
-Gözlem boşlukları inceleniyor; NOAA-20 indirmesi bekleniyor. Yangın olayları,
+kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP ve
+NOAA-20 arşivleri (2018–2024) kontrol edildi; iki uydudan 33.255 geçici aday tespit
+kaynak kimlikleriyle ortak tabloda toplandı. Gözlem boşlukları ve örnek
+yanmış alanlar inceleniyor. Yangın olayları,
 eğitim etiketleri ve model henüz hazırlanmadı.
 
 ## Kurulum
@@ -58,3 +59,11 @@ Windows için kurulum betiği: `scripts/setup.ps1`.
 
 Ayrıntılar için [proje rehberi](docs/PROJECT.md) ve
 [yol haritası](docs/ROADMAP.md).
+
+## Klasör düzeni
+
+- `scripts/`: çalıştırılabilir betikler; [işlem sırası ve komutlar](scripts/README.md).
+- `src/`: ortak Python kodu; `configs/`: proje ayarları; `tests/`: otomatik kontroller.
+- `data/`: coğrafi veriler, ham kaynaklar ve ara tablolar.
+- `outputs/`: raporlar, görseller ve deney kayıtları.
+- `docs/`: proje rehberi ve yol haritası; `Diary/`: günlük çalışma kayıtları.

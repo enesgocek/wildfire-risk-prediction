@@ -1,3 +1,4 @@
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -8,13 +9,30 @@ import pandas as pd
 import shapely
 from pyproj import Transformer
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
-source_path = ROOT / "data/raw/firms/815579/fire_archive_SV-C2_815579.csv"
+parser = argparse.ArgumentParser(description="FIRMS pilot alan hazırlığı")
+parser.add_argument(
+    "--source",
+    default="data/raw/firms/815579/fire_archive_SV-C2_815579.csv",
+)
+parser.add_argument(
+    "--output",
+    default="data/interim/firms_pilot_2018_2024.csv",
+)
+parser.add_argument(
+    "--report",
+    default="outputs/reports/firms_pilot_preparation.json",
+)
+parser.add_argument("--start", default="2018-01-01")
+parser.add_argument("--end", default="2025-01-01")
+args = parser.parse_args()
+
+source_path = ROOT / args.source
 aoi_path = ROOT / "data/aoi/aoi.geojson"
 grid_path = ROOT / "data/aoi/grid_5km.geojson"
-output_path = ROOT / "data/interim/firms_pilot_2018_2024.csv"
-report_path = ROOT / "outputs/reports/firms_pilot_preparation.json"
+output_path = ROOT / args.output
+report_path = ROOT / args.report
 
 df = pd.read_csv(source_path, dtype="string")
 
@@ -78,8 +96,8 @@ timestamps = pd.to_datetime(
 )
 
 if (
-    (timestamps < pd.Timestamp("2018-01-01", tz="UTC"))
-    | (timestamps >= pd.Timestamp("2025-01-01", tz="UTC"))
+    (timestamps < pd.Timestamp(args.start, tz="UTC"))
+    | (timestamps >= pd.Timestamp(args.end, tz="UTC"))
 ).any():
     raise ValueError("İstenen dönem dışında tespit var.")
 

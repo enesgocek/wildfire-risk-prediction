@@ -14,7 +14,7 @@ from mlflow import MlflowClient
 
 from wildfire_risk_prediction.config import load_config
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def main() -> None:

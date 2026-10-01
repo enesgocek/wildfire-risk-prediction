@@ -10,7 +10,7 @@ from exactextract import exact_extract
 from exactextract.operation import Operation
 from exactextract.raster import RasterioRasterSource
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 source_path = ROOT / "data/raw/landcover/landcover_copernicus_2017.tif"
 weights_path = ROOT / "data/interim/landcover_pixel_area_m2.tif"

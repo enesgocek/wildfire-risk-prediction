@@ -3,7 +3,7 @@ from pathlib import Path
 import geopandas as gpd
 import shapely
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 output_path = ROOT / "data/interim/grid_aoi_parts.geojson"
 
 aoi = gpd.read_file(ROOT / "data/aoi/aoi.geojson").to_crs(6933)

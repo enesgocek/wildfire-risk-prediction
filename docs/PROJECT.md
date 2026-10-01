@@ -178,12 +178,12 @@ Uydu özellikleri ve yangın etiketleri hazırlanırken hücrenin AOI dışı b�
 
 ### Dosyalar ve tekrar üretim
 
-- `scripts/define_aoi.js`: Code Editor'da dört ili seçer, AOI'yi Drive'a aktarır.
-- `scripts/build_grid.js`: bağımsız çalışır; AOI ve kimlikli aday grid ihracını tanımlar.
+- `scripts/earth_engine/define_aoi.js`: Code Editor'da dört ili seçer, AOI'yi Drive'a aktarır.
+- `scripts/earth_engine/build_grid.js`: bağımsız çalışır; AOI ve kimlikli aday grid ihracını tanımlar.
 - `data/aoi/aoi.geojson`: birleşik pilot çalışma alanı.
 - `data/interim/grid_5km_candidates.geojson`: Drive'dan indirilen aday grid; Git'e girmez.
-- `scripts/check_aoi_grid.py`: yerel AOI ve aday grid kontrolü.
-- `scripts/prepare_grid.py`: AOI ile kesişen hücreleri seçer ve alan oranlarını hesaplar.
+- `scripts/geography/check_aoi_grid.py`: yerel AOI ve aday grid kontrolü.
+- `scripts/geography/prepare_grid.py`: AOI ile kesişen hücreleri seçer ve alan oranlarını hesaplar.
 - `data/aoi/grid_5km.geojson`: nihai coğrafi grid.
 - `data/aoi/manifest.json`: kaynak, sürüm, sayısal kontroller ve dosya SHA-256 özetleri.
 - `outputs/reports/grid_preparation.json`: yerel hazırlık raporu.
@@ -195,8 +195,8 @@ AOI ve aday grid GeoJSON ihracı başlatılır; indirmeler yukarıdaki konumlara
 Proje kökünde PowerShell ile:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts/check_aoi_grid.py
-.\.venv\Scripts\python.exe scripts/prepare_grid.py
+.\.venv\Scripts\python.exe scripts/geography/check_aoi_grid.py
+.\.venv\Scripts\python.exe scripts/geography/prepare_grid.py
 ```
 
 Kaynak veya parametre değişirse yeni AOI/grid sürümü ve güncel manifest gerekir.
@@ -249,13 +249,13 @@ dönemi üzerinden değerlendirilecek; 2025 final test bu karara dahil edilmeyec
 
 ### İşlem sırası ve yerel çıktılar
 
-1. `scripts/preview_grid.py`: grid haritası.
-2. `scripts/inspect_landcover.js`: Earth Engine inceleme ve GeoTIFF ihracı.
-3. `scripts/check_landcover.py`: kaynak raster kontrolü.
-4. `scripts/prepare_grid_aoi_parts.py`: hesaplama için AOI içi hücre geometrileri.
-5. `scripts/prepare_landcover_weights.py`: piksel alan ağırlıkları.
-6. `scripts/calculate_landcover_fractions.py`: hücre bazında örtü tablosu.
-7. `scripts/preview_landcover_fractions.py`: harita ve histogram.
+1. `scripts/geography/preview_grid.py`: grid haritası.
+2. `scripts/earth_engine/inspect_landcover.js`: Earth Engine inceleme ve GeoTIFF ihracı.
+3. `scripts/landcover/check_landcover.py`: kaynak raster kontrolü.
+4. `scripts/geography/prepare_grid_aoi_parts.py`: hesaplama için AOI içi hücre geometrileri.
+5. `scripts/landcover/prepare_landcover_weights.py`: piksel alan ağırlıkları.
+6. `scripts/landcover/calculate_landcover_fractions.py`: hücre bazında örtü tablosu.
+7. `scripts/landcover/preview_landcover_fractions.py`: harita ve histogram.
 
 Ara çıktılar `data/interim/`, kontrol raporları `outputs/reports/`, görseller
 `outputs/figures/` altında. Ham raster, ara dosyalar ve yerel çıktılar Git'e girmez;
@@ -281,19 +281,39 @@ gün içinde başladığı için o gün de kısmi gözlem içeriyor. Diğer 11 g
 sayılmıyor. Günlük tespit sayısı tam gözlem kapsamını kanıtlamaz. Eksik gözlem günleri
 “yangın yok” etiketi olarak kullanılmayacak; nihai coverage maskesi henüz üretilmedi.
 
-NOAA-20 için Türkiye, buffer 0 km, 2018-04-01–2024-12-31, CSV talebinin indirme
-bildirimi bekleniyor; talep numarası henüz kaydedilmedi. Ek sensör kapsamı, tekrarlar ve
-2018'in ilk üç ayındaki tek sensör durumu değerlendirilmeden kaynaklar birleştirilmeyecek.
+NOAA-20 arşivi 815590 numaralı talepten indirildi: Türkiye, buffer 0 km,
+2018-04-01–2024-12-31. 284.963 ham kaydın temel kontrolleri geçti; 37.196 pilot
+kayıttan 16.993 geçici aday seçildi. Kaynak SHA-256:
+`f3b0a716c335e89976fcc2620cc29dc871938411c6ad5b7f8737a4e55c6e46ec`.
+
+S-NPP boşluğundaki 15 günde NOAA-20 Türkiye genelinde 1.108, pilotta 173 tespit,
+seçim kuralıyla 23 aday sağladı. Bu, bütün hücrelerde tam kapsam olduğunu kanıtlamaz.
+İki kaynak 33.255 benzersiz tespit kimliğiyle ortak inceleme tablosunda tutuluyor:
+30.295 eğitim ve 2.960 doğrulama adayı; toplam 1.343 hücre. Tekrar silinmedi,
+olay gruplaması yapılmadı. Sensör/talep/kaynak kayıt kimlikleri korunuyor.
+2018'in ilk üç ayındaki tek sensör kapsamı ayrıca değerlendirilecek.
+
+2019 ve 2021 eğitim örnekleri günlük ve 6 saatlik grafiklerde incelendi; MODIS
+MCD64A1 yanmış alanları görsel karşılaştırma için açıldı. Henüz doğrudan hotspot/raster
+örtüşme ölçümü veya olay doğrulaması yapılmadı. Yangın sonrası yanmış alan bilgisi
+etiket incelemesine yardımcıdır; yangın öncesi model özelliği olarak kullanılmaz.
 2025 final test verisi bu işlemlere dahil edilmedi.
 
 İşlem sırası:
 
-1. `scripts/check_firms_archive.py`: ham CSV kontrolü.
-2. `scripts/prepare_firms_pilot.py`: AOI seçimi, UTC zamanı ve grid eşleştirme.
-3. `scripts/profile_firms_pilot.py`: tür/güven dağılımları ve eğitimde sabit kaynak yoğunluğu.
-4. `scripts/prepare_firms_candidates.py`: geçici adaylar ve seçim denetim tablosu.
-5. `scripts/preview_firms_candidates.py`: yalnızca eğitim dönemi haritası ve aylık grafiği.
-6. `scripts/check_firms_coverage.py`: eğitim döneminde günlük Türkiye tespit sayıları.
+1. `scripts/firms/check_firms_archive.py`: ham CSV kontrolü.
+2. `scripts/firms/prepare_firms_pilot.py`: AOI seçimi, UTC zamanı ve grid eşleştirme.
+3. `scripts/firms/profile_firms_pilot.py`: tür/güven dağılımları ve eğitimde sabit kaynak yoğunluğu.
+4. `scripts/firms/prepare_firms_candidates.py`: geçici adaylar ve seçim denetim tablosu.
+5. `scripts/firms/preview_firms_candidates.py`: yalnızca eğitim dönemi haritası ve aylık grafiği.
+6. `scripts/firms/check_firms_coverage.py`: eğitim döneminde günlük S-NPP Türkiye tespit sayıları.
+7. `scripts/firms/combine_firms_candidates.py`: iki kaynağın izlenebilir ortak aday tablosu.
+8. `scripts/firms/preview_firms_event_samples.py`: eğitim örneklerinde günlük/6 saatlik inceleme.
+9. `scripts/earth_engine/inspect_burned_area_samples.js`: MODIS yanmış alan karşılaştırması.
+
+Betikler konuya göre alt klasörlerde tutulur; güncel komutlar ve kaynak farkları
+`scripts/README.md` dosyasında açıklanır. Python betikleri proje kökünü kendi dosya
+konumlarından bulur. Veri dizinleri taşınmadı; betik klasörleri veri ayrımını değiştirmez.
 
 Ham dosyalar `data/raw/firms/`, ara tablolar `data/interim/`, raporlar ve görseller
 `outputs/` altında tutulur ve Git'e girmez. Ayrıntılı çalışma kaydı: `Diary/01-10-2026.md`.
@@ -307,7 +327,7 @@ FIRMS kaynakları: [Arşiv indirmesi](https://firms.modaps.eosdis.nasa.gov/downl
 
 ## İkinci Haftaya Geçiş
 
-1. NOAA-20 indirmesi geldiğinde ham dosyayı ayrı kaynak klasörüne kaydet; kalite ve kapsamını kontrol et.
+1. S-NPP/NOAA-20 adaylarının gözlem kapsamı ve işlem geçmişini kesinleştir; yanmış alan karşılaştırmasını ilerlet.
 2. Arazi örtüsü adayının modelde kullanımını ve uygunluk kriterini eğitim verisiyle değerlendir.
    Sonraki yıllara ait yangın izlerini geçmiş özelliklere taşımamaya dikkat et.
 3. FIRMS 2018–2024 veri bulunabilirliğini il/yıl/sensör bazında incele. NRT yerine
@@ -351,10 +371,10 @@ altında; MLflow kayıtları `outputs/mlflow/` altında tutulur ve Git'e gönder
 | MLflow | Smoke deneyi, sağlık ve arayüz kontrolü doğrulandı | Modelleme aşamasında deneyleri kaydet |
 | Earth Engine | Python API erişimi doğrulandı; Code Editor ihracı çalıştı | Veri kaynaklarını aşamalı incele |
 | GEE non-commercial | Cloud konsolunda kayıt görüldü; geçerlilik 8 Şubat 2028'e kadar | Gerektiğinde konsoldaki durumu tekrar kontrol et |
-| NASA FIRMS | S-NPP arşivi kontrol edildi; NOAA-20 indirmesi bekleniyor | Ek sensörün kalite ve kapsamını karşılaştır |
+| NASA FIRMS | S-NPP ve NOAA-20 arşivleri kontrol edildi; ortak aday tablosu hazır | Gözlem kapsamı ve olay gruplama kurallarını doğrula |
 | EFFIS | Erişim/istek henüz başlatılmadı | Geçmiş perimeter erişimini incele |
 
-`scripts/check_gee_access.py` sonucu `api_verified: true` olarak kaydedildi.
+`scripts/environment/check_gee_access.py` sonucu `api_verified: true` olarak kaydedildi.
 Non-commercial kayıt durumunu Python betiği doğrulamaz; bu bilgi Cloud konsolundan
 ayrıca kontrol edildi. Yerel `outputs/reports/gee_access.json` raporundaki
 `must_be_confirmed_in_google_console` alanı bu ayrımı belirtir.

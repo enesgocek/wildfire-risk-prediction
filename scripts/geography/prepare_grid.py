@@ -5,7 +5,7 @@ from pathlib import Path
 import geopandas as gpd
 import shapely
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 aoi_path = ROOT / "data/aoi/aoi.geojson"
 candidate_path = ROOT / "data/interim/grid_5km_candidates.geojson"

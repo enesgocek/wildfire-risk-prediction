@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 output_path = ROOT / "outputs/figures/grid_preview.png"
 
 aoi = gpd.read_file(ROOT / "data/aoi/aoi.geojson").to_crs(6933)
