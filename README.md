@@ -40,8 +40,10 @@ olmak üzere yangın riskine uygun ölçütlerle değerlendirilecek.
 Python ortamı, deney takibi ve Earth Engine erişimi hazır. Dört ilin çalışma
 alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu. Copernicus
 2017 arazi örtüsü için hücre bazında sınıf oranları çıkarıldı; kaynağın modelde
-kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS 2018–2024 verisi için
-indirme isteği gönderildi. Yangın etiketleri ve model eğitimi henüz hazırlanmadı.
+kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP 2018–2024 arşivi
+kontrol edildi; pilot tespitler ve geçici olay gruplaması adayları hazırlandı.
+Gözlem boşlukları inceleniyor; NOAA-20 indirmesi bekleniyor. Yangın olayları,
+eğitim etiketleri ve model henüz hazırlanmadı.
 
 ## Kurulum
 

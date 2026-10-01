@@ -262,24 +262,52 @@ Ara çıktılar `data/interim/`, kontrol raporları `outputs/reports/`, görsell
 betikler ve bağımlılık kilidi Git'te tutulur. Raster yeniden indirilecekse mevcut kaynak
 kimliği, tarih ve piksel hizasıyla karşılaştırılır; kaynak değişimi sessizce yapılmaz.
 
-### FIRMS indirme isteği
+### FIRMS arşivi ve gözlem kapsamı — 1 Ekim 2026
 
-1 Ekim 2026 tarihinde Türkiye, buffer 0 km, VIIRS S-NPP Collection 2,
-2018-01-01–2024-12-31, CSV için istek gönderildi. İstek numarası **815579**.
-Alındı e-postası geldi; indirme bağlantısı bekleniyor. Veri henüz indirilip kontrol edilmedi.
-Geldiğinde kaynak/sürüm, standard-processing durumu, alan şeması ve zaman kapsamı
-kontrol edilecek; ham dosya korunacak ve dört il filtresi yerelde uygulanacak.
-2025 final test bu indirme isteğine dahil edilmedi.
+815579 numaralı Türkiye S-NPP arşivi indirildi ve kontrol edildi. 2018–2024 dönemindeki
+277.291 ham kayıtta eksik alan, geçersiz koordinat/zaman, dönem dışı veya birebir tekrar
+bulunmadı. Kaynak SHA-256:
+`346d9e4e09d49d21166e98049635d64326c9330cd42b15b2f44c19456b54d5d2`.
 
-Kaynaklar:
+Pilot AOI içinde 35.107 tespit 1.118 gride eşleştirildi. `type=0` ve güven `n/h`
+seçimiyle 16.262 geçici aday oluşturuldu; bütün kayıtlar seçim gerekçeleriyle korunuyor.
+14.833 aday eğitim, 1.429 aday doğrulama döneminde. Bunlar olay veya kesin etiket değil.
+Kaynak işlem geçmişi ve type yeniden işleme durumu modellemeden önce doğrulanacak;
+CSV `version=2` alanı üretim yazılım sürümünün tek başına kanıtı değildir.
 
-- [Copernicus CGLS-LC100 Collection 3](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global)
-- [Exactextract işlemleri](https://isciences.github.io/exactextract/operations.html)
-- [FIRMS arşiv indirmesi](https://firms.modaps.eosdis.nasa.gov/download/)
+Eğitim döneminde Türkiye genelinde 26 sıfır kayıt günü bulundu. 27 Temmuz–10 Ağustos
+2022 arasındaki 15 günlük boşluk resmi S-NPP kesintisiyle örtüşüyor; kesinti 26 Temmuz'da
+gün içinde başladığı için o gün de kısmi gözlem içeriyor. Diğer 11 gün henüz kesin kesinti
+sayılmıyor. Günlük tespit sayısı tam gözlem kapsamını kanıtlamaz. Eksik gözlem günleri
+“yangın yok” etiketi olarak kullanılmayacak; nihai coverage maskesi henüz üretilmedi.
+
+NOAA-20 için Türkiye, buffer 0 km, 2018-04-01–2024-12-31, CSV talebinin indirme
+bildirimi bekleniyor; talep numarası henüz kaydedilmedi. Ek sensör kapsamı, tekrarlar ve
+2018'in ilk üç ayındaki tek sensör durumu değerlendirilmeden kaynaklar birleştirilmeyecek.
+2025 final test verisi bu işlemlere dahil edilmedi.
+
+İşlem sırası:
+
+1. `scripts/check_firms_archive.py`: ham CSV kontrolü.
+2. `scripts/prepare_firms_pilot.py`: AOI seçimi, UTC zamanı ve grid eşleştirme.
+3. `scripts/profile_firms_pilot.py`: tür/güven dağılımları ve eğitimde sabit kaynak yoğunluğu.
+4. `scripts/prepare_firms_candidates.py`: geçici adaylar ve seçim denetim tablosu.
+5. `scripts/preview_firms_candidates.py`: yalnızca eğitim dönemi haritası ve aylık grafiği.
+6. `scripts/check_firms_coverage.py`: eğitim döneminde günlük Türkiye tespit sayıları.
+
+Ham dosyalar `data/raw/firms/`, ara tablolar `data/interim/`, raporlar ve görseller
+`outputs/` altında tutulur ve Git'e girmez. Ayrıntılı çalışma kaydı: `Diary/01-10-2026.md`.
+
+Arazi örtüsü kaynakları: [Copernicus CGLS-LC100 Collection 3](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global),
+[Exactextract işlemleri](https://isciences.github.io/exactextract/operations.html).
+
+FIRMS kaynakları: [Arşiv indirmesi](https://firms.modaps.eosdis.nasa.gov/download/),
+[NASA kesinti kayıtları](https://modaps.modaps.eosdis.nasa.gov/services/production/outages_suomi_npp.html),
+[NOAA-20 arşiv kapsamı](https://firms2.modaps.eosdis.nasa.gov/content/academy/data_api/firms_api_use.html).
 
 ## İkinci Haftaya Geçiş
 
-1. FIRMS 815579 numaralı isteğin indirme bağlantısı geldiğinde ham dosyayı kaydet ve kontrol et.
+1. NOAA-20 indirmesi geldiğinde ham dosyayı ayrı kaynak klasörüne kaydet; kalite ve kapsamını kontrol et.
 2. Arazi örtüsü adayının modelde kullanımını ve uygunluk kriterini eğitim verisiyle değerlendir.
    Sonraki yıllara ait yangın izlerini geçmiş özelliklere taşımamaya dikkat et.
 3. FIRMS 2018–2024 veri bulunabilirliğini il/yıl/sensör bazında incele. NRT yerine
@@ -323,7 +351,7 @@ altında; MLflow kayıtları `outputs/mlflow/` altında tutulur ve Git'e gönder
 | MLflow | Smoke deneyi, sağlık ve arayüz kontrolü doğrulandı | Modelleme aşamasında deneyleri kaydet |
 | Earth Engine | Python API erişimi doğrulandı; Code Editor ihracı çalıştı | Veri kaynaklarını aşamalı incele |
 | GEE non-commercial | Cloud konsolunda kayıt görüldü; geçerlilik 8 Şubat 2028'e kadar | Gerektiğinde konsoldaki durumu tekrar kontrol et |
-| NASA FIRMS | 815579 numaralı Türkiye 2018–2024 isteği alındı; indirme bekleniyor | Gelen CSV dosyasını ve kapsamını kontrol et |
+| NASA FIRMS | S-NPP arşivi kontrol edildi; NOAA-20 indirmesi bekleniyor | Ek sensörün kalite ve kapsamını karşılaştır |
 | EFFIS | Erişim/istek henüz başlatılmadı | Geçmiş perimeter erişimini incele |
 
 `scripts/check_gee_access.py` sonucu `api_verified: true` olarak kaydedildi.
