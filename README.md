@@ -42,8 +42,10 @@ alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu.
 2017 arazi örtüsü için hücre bazında sınıf oranları çıkarıldı; kaynağın modelde
 kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP ve
 NOAA-20 arşivleri (2018–2024) kontrol edildi; iki uydudan 33.255 geçici aday tespit
-kaynak kimlikleriyle ortak tabloda toplandı. Gözlem boşlukları ve örnek
-yanmış alanlar inceleniyor. Yangın olayları,
+kaynak kimlikleriyle ortak tabloda toplandı. Olay gruplama ayarları ve altı şüpheli kaynak eğitim döneminde incelendi.
+FIRMS Type alanının üretim geçmişi için NASA yanıtı bekleniyor. Özgün MODIS
+dosyasında kontrol edilen beş Nisan 2018 pikseli yanmamış sınıfında doğrulandı;
+bu sonuç otomatik eleme gerekçesi değil. Yangın olayları,
 eğitim etiketleri ve model henüz hazırlanmadı.
 
 ## Kurulum

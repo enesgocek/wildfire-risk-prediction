@@ -62,3 +62,50 @@ inspect(
 );
 
 Map.centerObject(area2019, 12);
+
+// Yerel hotspot/yanmış alan karşılaştırması için aylık örnek ihracı.
+// Native SR-ORG:6974 GeoTIFF etiketi bazı araçlarda elipsoidal yorumlanabilir.
+// Yerel analizden önce küresel MODIS CRS (R=6371007.181 m) doğrulanmalıdır.
+// Ham dosya korunur; gerekli metadata düzeltmesi ara çalışma kopyasına uygulanır.
+// Aylar ayrı tutulur; sıfır yanma kodu ve kalite bilgisi korunur.
+function exportSampleMonth(start, end, area, filename) {
+    var monthly = source.filterDate(start, end).filterBounds(area);
+    if (monthly.size().getInfo() !== 1) {
+        throw new Error(filename + ': tam bir aylık görüntü bekleniyordu.');
+    }
+    var original = ee.Image(monthly.first());
+    var projection = original.select('BurnDate').projection().getInfo();
+    var image = original
+        .select(['BurnDate', 'Uncertainty', 'QA', 'FirstDay', 'LastDay'])
+        .toInt16()
+        .unmask(-9999, false);
+
+    print(filename + ' — kaynak kimliği:', original.get('system:index'));
+    print(filename + ' — kaynak piksel hizası:', projection);
+
+    Export.image.toDrive({
+        image: image,
+        description: filename,
+        folder: 'wildfire-risk-prediction',
+        fileNamePrefix: filename,
+        region: area,
+        crs: projection.crs,
+        crsTransform: projection.transform,
+        maxPixels: 10000000,
+        fileFormat: 'GeoTIFF',
+        formatOptions: {cloudOptimized: true, noData: -9999}
+    });
+}
+
+exportSampleMonth(
+    '2021-07-01', '2021-08-01', area2021,
+    'burned_area_sample_2021_07'
+);
+exportSampleMonth(
+    '2021-08-01', '2021-09-01', area2021,
+    'burned_area_sample_2021_08'
+);
+exportSampleMonth(
+    '2019-08-01', '2019-09-01', area2019,
+    'burned_area_sample_2019_08'
+);

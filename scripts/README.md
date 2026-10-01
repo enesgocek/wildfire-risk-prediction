@@ -100,3 +100,38 @@ Sıfır tespit günü, doğrulanmış gözlem kesintisi veya güvenilir negatif 
 
 Bu karşılaştırma yardımcı incelemedir; olay doğrulaması tamamlanmadı. Yangın sonrası
 veri tahmin girdisi olarak kullanılmaz. 2025 final test bu hazırlık dosyalarına dahil değildir.
+
+
+## Olay gruplama ve tarihsel kaynak denetimi
+
+Aşağıdaki işlemler yalnızca eğitim dönemindeki keşif ve etiket incelemesidir;
+kesin yangın olayları veya otomatik eleme politikası oluşturmaz.
+
+1. `geography/prepare_burned_area_samples.py`: indirilen beş bantlı MODIS
+   örneklerinin ara kopyalarında doğrulanmış sinusoidal CRS tanımını düzeltir;
+   ham rasterları değiştirmez.
+2. `firms/preview_firms_burned_area_overlay.py`: FIRMS adaylarını hazırlanan
+   MODIS örnek pikselleriyle karşılaştırır.
+3. `firms/explore_event_grouping.py`: 500/1.000/2.000 metre ve 24/48/72 saat
+   ayarlarını karşılaştırır; nihai eşik seçmez.
+4. `firms/preview_firms_event_samples.py --grouping`: gruplama örneklerini ve
+   uzun zincirleme kümeyi görselleştirir.
+5. `firms/profile_firms_pilot.py --source-audit`: eğitimdeki iki sensörün bütün
+   türlerini kaynak hücrelerinde inceler.
+6. Aynı betiğin `--static-proximity` seçeneği önceki/aynı/sonraki type=2
+   yakınlığını; `--historical-review` seçeneği H01–H06 hedefli inceleme
+   örneklerini hazırlar. Seçenekler ayrı çalıştırılır.
+7. `earth_engine/inspect_historical_sources.js`: Code Editor'da seçili H01–H06
+   vakasının tarihli Sentinel-2, örtü ve MODIS değer/maskelerini gösterir.
+
+Bu betikler yerel çıktılarını yeniden yazabilir. Kaynak denetimi için pilot
+bütün-tür tabloları; gruplama için ortak aday tablosu önceden hazırlanmalıdır.
+HDF4 kaynak okuması için `pyhdf` kilitli bağımlılıklara eklendi. Native HDF
+karşılaştırması bu oturumda kısa Python kontrolleriyle yapıldı; henüz ayrı bir
+komut satırı betiği yok. Dosya kimliği, SHA-256, piksel adresleri ve sonuçlar
+proje rehberinde kayıtlıdır.
+
+1 Ekim 2026 kapanışında FIRMS 815579/815590 Type üretim teyidi için NASA
+yanıtı bekleniyor. H01/H03/H04/H05/H06 Nisan native MODIS pikselleri yanmamış
+sınıfında doğrulandı; bu durum küçük yangını kesin dışlamaz. Genel EE maskesi
+sıfıra doldurulmaz. Kalan aylar ve H02 native kaynak kontrolü bekliyor.

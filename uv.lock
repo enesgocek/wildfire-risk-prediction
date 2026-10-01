@@ -1268,6 +1268,20 @@ wheels = [
 ]
 
 [[package]]
+name = "pyhdf"
+version = "0.11.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2d/cf/5717eee8aed4afd493aecf111c1a459ee7569f27671df6aacf40c39599f3/pyhdf-0.11.7.tar.gz", hash = "sha256:5c015589e0d01c191f70855a016ccd8c19106aba7390c9204f3e2a1b7080d335", size = 156049, upload-time = "2026-07-11T20:04:22.993Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/eb/47/1a6633b8dcc13aa672a30c02b35464faec8bad4d1138a263b87ea0e0469e/pyhdf-0.11.7-cp312-cp312-macosx_26_0_arm64.whl", hash = "sha256:6394743c17cae4b25de06e4da89ce7b8aaa4519c166db207e29902838e25e0c7", size = 550107, upload-time = "2026-07-11T20:05:03.968Z" },
+    { url = "https://files.pythonhosted.org/packages/72/0f/a02b210a3b474cf725645707d785bc3193cf5c3dd393e6437967b07562ef/pyhdf-0.11.7-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:610fd02cd7e5535d932dcd301f2bdf51292a78494691cb4156bfbbc0354f5ed2", size = 3331578, upload-time = "2026-07-11T20:05:05.16Z" },
+    { url = "https://files.pythonhosted.org/packages/4d/53/6b3521f5e4d705c6c3941b1e8c14f417831c4a815351792c14363f0a5015/pyhdf-0.11.7-cp312-cp312-win_amd64.whl", hash = "sha256:a5cb1b5242a6a8a59acb04e098015f232ee7f54094120e9473b72c6d9eadf147", size = 760061, upload-time = "2026-07-11T20:05:06.393Z" },
+]
+
+[[package]]
 name = "pyogrio"
 version = "0.13.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1739,6 +1753,7 @@ dependencies = [
     { name = "mlflow" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pyhdf" },
     { name = "pyproj" },
     { name = "python-dotenv" },
     { name = "pyyaml" },
@@ -1762,6 +1777,7 @@ requires-dist = [
     { name = "mlflow", specifier = ">=3.7,<4" },
     { name = "numpy", specifier = ">=2,<3" },
     { name = "pandas", specifier = ">=2,<3" },
+    { name = "pyhdf", specifier = ">=0.11.7,<0.12" },
     { name = "pyproj", specifier = ">=3.7,<4" },
     { name = "python-dotenv", specifier = ">=1,<2" },
     { name = "pyyaml", specifier = ">=6,<7" },

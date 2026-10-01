@@ -385,3 +385,426 @@ Resmî kaynaklar:
 - [Earth Engine kimlik doğrulama](https://developers.google.com/earth-engine/guides/auth)
 - [FAO GAUL 2025 il sınırları](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2025_level1)
 - [MLflow tracking server](https://mlflow.org/docs/latest/self-hosting/architecture/tracking-server/)
+
+
+## Tarihsel kaynak incelemesi — H01 (1 Ekim 2026)
+
+Bu kayıt, kullanıcının Earth Engine Console çıktılarından alınmıştır. Ham görüntüler
+ve makine tarafından dışa aktarılmış inceleme raporu henüz arşivlenmedi. H01,
+SNPP_815579_3922, 23 Nisan 2018 00:30 UTC, 38.73095 N / 26.93221 E.
+Sonraki ilk yakın type=2 kaydı 16 Mayıs 2019 00:06 UTC'dir; tesis kuruluş tarihi değildir.
+
+| Gözlem | Değer / kapsam |
+|---|---|
+| Önceki Sentinel-2 görüntüsü | 2018-02-27 09:06 UTC; 20180227T085921_20180227T090625_T35SMC |
+| Sonraki Sentinel-2 görüntüsü | 2018-04-28 09:09 UTC; 20180428T085601_20180428T090404_T35SMC |
+| Sonraki sabit kayıt dönemi görüntüsü | 2019-05-28 09:09 UTC; 20190528T085609_20190528T090917_T35SMC |
+| 2017 nokta örtüsü | Sınıf 50 (kentsel/yapılaşmış), urban %100; ağaç/çalı/ot %0 |
+| NDVI medyanı: önce / sonra | 0.10886075949367088 / 0.06386333771353482 |
+| NBR medyanı: önce / sonra | 0.25608732157850544 / 0.01234773219020419 |
+| MODIS Nisan 2018 | BurnDate ve Uncertainty: -9999; QA=3; FirstDay=76, LastDay=141 |
+| MODIS Mayıs 2018 | BurnDate ve Uncertainty: -9999; QA=3; FirstDay=104, LastDay=170 |
+
+Örtü kaydı noktanın düştüğü 100 m kaynak pikselidir; indeksler 100 m yarıçaplı
+çevrede her indeks için ortak geçerli piksellerin medyanıdır. Bunlar aynı örnekleme
+alanı değildir. 2017 sınıfı yer gerçeği olarak kabul edilmez. Görsellerdeki renk
+farkı, farklı mevsimlerde seçilmiş görüntüler ve yaklaşık 55 günlük önceki görüntü
+aralığı nedeniyle tek başına yangın kanıtı değildir. NDVI/NBR değişiminin nedeni doğrulanmadı.
+
+-9999, inceleme betiğinin maskeli veriye atadığı değerdir; kaynak ürünün yanmamış
+sınıfı değildir. Her iki ayda QA_land=1, QA_valid=1, QA_shortened_period=0,
+QA_special_condition=0 olması, eksik BurnDate değerini kullanılabilir yapmaz.
+Kaynak bant maskeleri betiğin sonraki sürümünde ayrıca gösterilir.
+
+Karar: H01 için orman yangını doğrulanmadı; sabit kaynak olasılığı da kesinleştirilmedi.
+İlk görsel orman/yanma yorumundan kesin etiket çıkarılmaz. Hiçbir tespit elenmedi.
+Bu altı vaka hedefli örneklerdir; tüm verinin doğruluk oranını ölçmez. Eğitim dönemi
+ile sınırlıdır; 2024 doğrulama ve 2025 final test kural seçimine dahil edilmez.
+
+2017 referans yılı, ürünün 2017'de yayımlandığı anlamına gelmez. Collection 3'ün
+2020 tarihli kaynak kaydı nedeniyle bu ürün burada tarihsel etiket incelemesinde
+kullanılır; gerçek zamanda mevcut model özelliği sayılmadan önce erişilebilirlik
+ve yayın tarihi ayrıca denetlenmelidir.
+Kaynak: [Copernicus arazi örtüsü resmî veri kataloğu](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global).
+
+Sıradaki inceleme H02'dir. Aynı betikte vaka seçimi, görüntü tarihleri, kalite
+oranları, nokta örtüsü, indeksler ve MODIS bant maskeleri birlikte gösterilir.
+Sonraki sabit kayıt dönemi, kaydın tam UTC zamanından başlayan 46 günlük penceredir.
+Başvuru öncesi eksikler arasında tam kaynak sürümü ve indirme tarihi, yeniden
+üretilebilir inceleme çıktıları, etiket karar günlüğü, bağımsız doğrulama, gözlem
+kapsamı ve veri sızıntısı denetimi bulunur. TÜBİTAK programı seçilmedi; bu çalışmalar
+bir programın koşullarını sağladığı iddiası değildir.
+
+
+## Tarihsel kaynak incelemesi — H02 (1 Ekim 2026)
+
+Kaynak: kullanıcının paylaştığı Console çıktısı ve sekiz Earth Engine ekran görüntüsü.
+Henüz makine tarafından dışa aktarılmış görüntü/rapor arşivi değildir.
+Aday SNPP_815579_32141, 2018-10-19 10:56 UTC, 38.78931 N / 26.91908 E.
+Yakındaki ilk sonraki type=2 kaydı 2018-12-12 00:11 UTC; bu tarih tesisin kuruluşu
+veya faaliyete geçiş tarihi olarak yorumlanmaz.
+
+| Gözlem | Değer / kapsam |
+|---|---|
+| Önceki görüntü | 2018-10-10 09:09 UTC; 20181010T090019_20181010T090126_T35SMD |
+| Sonraki görüntü | 2018-11-04 09:09 UTC; 20181104T090131_20181104T090130_T35SMD |
+| Önce: görüntü / uygun görüntü sayısı | 30 / 3; çekirdek açık alan oranı 1, bağlam 0.9954432579319354 |
+| Sonra: görüntü / uygun görüntü sayısı | 18 / 3; çekirdek açık alan oranı 1, bağlam 0.9996857419263404 |
+| Sonraki sabit kayıt dönemi | 18 görüntü; 100 m çevresi en az %90 açık görüntü 0; görüntü seçilmedi |
+| 2017 nokta örtüsü | Sınıf 40 (tarım); tree/shrub/grass/urban örtü oranları %0 |
+| NDVI medyanı: önce / sonra | 0.019686543927208346 / 0.041016031646887365 |
+| NBR medyanı: önce / sonra | -0.04528891202498698 / -0.020373697718448262 |
+| MODIS Ekim ve Kasım 2018 | BurnDate ve Uncertainty maskesi 0; her iki değer -9999; FirstDay/LastDay -9999; QA=0 |
+
+Her iki MODIS ayında QA_land=0, QA_valid=0, QA_shortened_period=0,
+QA_special_condition=0. Ürün bu pikseli kara/geçerli gözlem olarak işaretlemiyor.
+Kıyıdaki karışık piksel veya ürünün kara/su maskesi olası açıklamalardır;
+nedeni doğrulanmadı. MODIS bu noktada yanmış/yanmamış kararı için kullanılamaz.
+Haritada turuncu piksel görülmemesi yangın yokluğu kanıtı değildir.
+
+Görsel gözlem: 10 Ekim görüntüsünde, yani adaydan önce, noktanın yakınında tank
+benzeri dairesel yapılar, yollar ve tesis düzeni görülüyor; 4 Kasım'da da mevcut.
+Bu görseller, bu aday için sonradan yapılaşma varsayımını desteklemiyor. Ancak 2017
+örtü sınıfı ile 2018 görüntüsünün uyumsuzluğu 2017'de de aynı tesisin mevcut
+olduğunu kanıtlamaz; değişim ve sınıflandırma hatası olasılıkları ayrıştırılmadı.
+2017 ürününde sınıf 40 tarımdır; diğer dört örtü oranının sıfır olması tarım
+oranının sıfır olduğu anlamına gelmez; crops-coverfraction henüz örneklenmedi.
+
+İndeks medyanları düşük; sonrasında her iki indeks de artıyor. Bu karşılaştırma
+bitki yanmasını destekleyen belirgin bir düşüş göstermiyor. Medyanların farkı,
+piksel bazında değişim medyanı değildir; kesin bir yanma eşiği uygulanmadı.
+Önceki görüntü yaklaşık 9 gün, sonraki yaklaşık 16 gün uzakta; bu aralıkta kısa
+olayların gözden kaçması mümkündür. Kıyı/su yakınındaki NBR değişimleri yangın
+olarak yorumlanmaz. İnceleme çemberi VIIRS piksel ayak izi veya konum doğruluğu
+sınırı değildir; tesisin hangi ekipmanının tespiti ürettiği belirlenmedi.
+
+Geçici değerlendirme: adaydan önce mevcut tesis bağlamı nedeniyle sanayi kaynaklı
+ısı olasılığı destekleniyor. Orman/bitki yangını doğrulanmadı; kesin kaynak
+ataması veya otomatik eleme yapılmadı. Yakında tesis bulunması, tesiste ya da
+çevresinde gerçek yangın olasılığını tek başına dışlamaz. H03 aynı yöntemle
+incelenecek; bu hedefli örneklerden tüm veri için hata oranı çıkarılmayacak.
+Kaynaklar: [Copernicus örtü sınıfları](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global),
+[MODIS bant ve QA açıklamaları](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD64A1).
+
+
+## Tarihsel kaynak incelemesi — H03 (1 Ekim 2026)
+
+Kaynak: kullanıcının Console çıktısı ve yedi ekran görüntüsü; bağımsız saha
+kanıtı veya arşivlenmiş ham görüntü dışa aktarımı değildir.
+Aday SNPP_815579_3073, 2018-04-06 00:49 UTC, 38.82114 N / 27.06561 E.
+Yakındaki ilk sonraki type=2 kaydı 2019-06-19 23:59 UTC; tesis kuruluş tarihi değildir.
+
+| Gözlem | Değer / kapsam |
+|---|---|
+| Önceki görüntü | 2018-01-28 09:09 UTC; 20180128T090221_20180128T090925_T35SNC |
+| Sonraki görüntü | 2018-04-28 09:09 UTC; 20180428T085601_20180428T090404_T35SMD |
+| Sonraki sabit kayıt dönemi | 2019-06-22 09:09 UTC; 20190622T085601_20190622T085827_T35SNC |
+| Kaynak / uygun görüntü sayıları | Önce 66 / 3; sonra 36 / 4; sonraki sabit dönem 36 / 27 |
+| Seçilen görüntülerin açık alan oranları | Üçünde de çekirdek ve bağlam oranları 1 |
+| 2017 nokta örtüsü | Sınıf 30; grass %49, shrub %9, tree %3, urban %35 |
+| NDVI medyanı: önce / sonra | 0.33733493397358943 / 0.2139439433813095 |
+| NBR medyanı: önce / sonra | 0.11261281596193534 / 0.05232649073004723 |
+| MODIS Nisan 2018 | BurnDate/Uncertainty -9999, iki kaynak maskesi 0; QA=3; FirstDay=80, LastDay=141 |
+| MODIS Mayıs 2018 | BurnDate/Uncertainty -9999, iki kaynak maskesi 0; QA=3; FirstDay=102, LastDay=170 |
+
+Her iki MODIS ayında QA_land=1, QA_valid=1, QA_shortened_period=0,
+QA_special_condition=0. Buna rağmen BurnDate ve Uncertainty kaynak maskeleri 0;
+betikteki -9999 yanmamış sınıfı değildir. Bu gözlemle yangın yokluğu kararı verilmez.
+
+Görsel gözlem: 28 Ocak 2018 tarihli Sentinel katmanında aday çevresinde açık renkli
+uzun yapılar ve yollar zaten görülüyor. Nisan ve Haziran 2019 görüntülerinde de
+benzer yerleşim düzeni mevcut. Yapıların işlevi ve ısı üreten ekipman doğrulanmadı.
+Tarihli Sentinel katmanının dışındaki Google uydu altlığının çekim tarihi
+belirlenmedi; 2018 arazi durumu kanıtı olarak kullanılmaz. Altlıktaki telif/yıl
+bilgisi görüntünün çekim tarihini belirlemez.
+
+2017 pikselinin sınıf 30 olması, tüm alanın orman olduğu anlamına gelmez; aynı
+pikselde %35 yapılaşmış örtü ve %3 ağaç örtüsü tahmini var. Nokta pikseli ile
+100 m çevrenin indeks medyanları farklı örnekleme alanlarıdır. Ot/çalı örtüsü
+orman değildir; bununla birlikte otsu/çalılık yangını proje kapsamı açısından
+ayrıca değerlendirilmelidir. Sınıf değerleri kesin yer gerçeği değildir.
+
+Önceki görüntü adaydan yaklaşık 68 gün önce, sonraki yaklaşık 22 gün sonradır.
+NDVI medyanı yaklaşık 0.1234, NBR medyanı yaklaşık 0.0603 azalıyor; bu medyan
+farkları piksel bazında değişim medyanı veya yangın eşiği değildir. Ocak/Nisan
+mevsimselliği, yüzey/bitki değişimi, gölge ve farklı Sentinel tile/projeksiyonları
+etkisi dışlanmadı. Azalma tek başına yangın, ağaç kesimi veya inşaat nedeni
+atamaya yeterli değildir; %100 açık alan kalite ölçütü bu nedenleri ayrıştırmaz.
+
+Geçici değerlendirme: adaydan önce yapılaşmış ve bitkili karma çevre mevcut;
+yangın ve ağaç kesimi doğrulanmadı. Sabit kaynak olasılığı incelenmeye devam ediyor;
+yapı varlığı kesin kaynak ataması veya tüm yakın tespitlerin elenmesi anlamına gelmez.
+Hiçbir tespit elenmedi. H01–H03, sonradan type=2 görülen konumların otomatik olarak
+arazi dönüşümü veya yanlış yangın tespiti sayılmaması gerektiğini gösteren hedefli
+incelemelerdir; tüm veri doğruluğu için temsil edici örneklem değildir.
+Sıradaki H04, adaydan önce yakın type=2 kaydı bulunan kategoriye aittir.
+
+
+## Tarihsel kaynak incelemesi — H04 (1 Ekim 2026)
+
+Kaynak: kullanıcının Console çıktısı ve dokuz ekran görüntüsü; görüntüler henüz
+ham raster olarak arşivlenmedi. Aday SNPP_815579_3395, 2018-04-13 00:18 UTC,
+38.42831 N / 27.21594 E. Denetim tablosunda 100 m içinde son önceki type=2 kaydı
+2018-03-12 00:18 UTC (adaydan 32 gün önce), ilk sonraki kayıt
+2018-04-29 23:08 UTC. Bunlar kaynak sınıflandırma kayıtlarıdır; tesis kimliği
+ve faaliyet başlangıcı kanıtı değildir.
+
+| Gözlem | Değer / kapsam |
+|---|---|
+| Önceki görüntü | 2018-01-28 09:09 UTC; 20180128T090221_20180128T090925_T35SNC |
+| Sonraki görüntü | 2018-04-28 09:09 UTC; 20180428T085601_20180428T090404_T35SNC |
+| Sonraki sabit kayıt dönemi | 2018-06-02 09:09 UTC; 20180602T085549_20180602T090540_T35SNC |
+| Kaynak / uygun görüntü sayıları | Önce 17 / 1; sonra 9 / 1; sonraki sabit dönem 9 / 2 |
+| Seçilen görüntülerin açık alan oranları | Üçünde de çekirdek ve bağlam oranları 1 |
+| 2017 nokta örtüsü | Sınıf 50; urban %93, grass %6, shrub %0, tree %0 |
+| NDVI medyanı: önce / sonra | 0.17358967499114103 / 0.14613095238095236 |
+| NBR medyanı: önce / sonra | 0.09458720612356479 / 0.045950209293853454 |
+| MODIS Nisan 2018 | BurnDate/Uncertainty -9999; iki kaynak maskesi 0; QA=3; FirstDay=91, LastDay=141 |
+| MODIS Mayıs 2018 | BurnDate/Uncertainty -9999; iki kaynak maskesi 0; QA=3; FirstDay=104, LastDay=166 |
+
+Her iki MODIS ayında QA_land=1, QA_valid=1, QA_shortened_period=0,
+QA_special_condition=0; maskeli BurnDate ve Uncertainty nedeniyle yanmış/yanmamış
+kararı verilemez. Haritadaki turuncu alan yokluğu yangın yokluğu olarak kaydedilmez.
+
+Görsel gözlem: Ocak 2018 görüntüsünde aday çevresinde yollar ve yapılar zaten var;
+Nisan ve Haziran görüntülerinde de benzer yapılaşmış düzen görülüyor. Tesisin
+adı, işlevi ve ısı üreten ekipman belirlenmedi. Tarihi belirsiz Google uydu
+altlığı, tarihli Sentinel görüntüsünün yerine geçmiş arazi kanıtı sayılmaz.
+2017 nokta örtüsü bu yapılaşmış bağlamı destekliyor; tüm VIIRS ayak izinin örtüsü
+veya kesin yer gerçeği olarak yorumlanmaz.
+
+Önceki görüntü adaydan yaklaşık 75 gün önce, sonraki yaklaşık 15 gün sonra.
+NDVI medyan farkı yaklaşık 0.0275, NBR medyan farkı yaklaşık 0.0486 azalmadır;
+mevsim, gölge ve yüzey değişimleri ayrıştırılmadı. Piksel bazında değişim medyanı
+veya kabul edilmiş yanma eşiği değildir. Bu karşılaştırmada belirgin bir bitki
+yangını izi seçilmedi; kısa veya küçük yangın dışlanmadı.
+
+Geçici değerlendirme: adaydan önce yapılaşmış çevre ve yakın type=2 kaydı birlikte
+sabit/tekrarlayan ısı kaynağı olasılığını destekliyor. Adayın kesin kaynağı ve yangın
+niteliği doğrulanmadı; şehir veya tesis içindeki gerçek yangın olasılığı da bu
+kanıtlarla dışlanamaz. Hiçbir kayıt elenmedi. FIRMS type alanının kaynak üretim
+sürümü sorunu çözülmeden bu kayıtlar kesin doğrulama etiketi olarak kullanılmaz.
+Sıradaki H05 aynı prior_static kategorisindedir; nihai filtre henüz belirlenmedi.
+
+
+## Tarihsel kaynak incelemesi — H05 (1 Ekim 2026)
+
+Kaynak: kullanıcının Console çıktısı ve beş ekran görüntüsü.
+Aday N20_815590_158, 2018-04-03 22:56 UTC, 36.26247 N / 33.73007 E.
+Kategori prior_static. Önceki denetim tablosunda 100 m içinde son önceki type=2
+kaydı 2018-03-19 23:28 UTC; ilk sonraki kayıt 2018-04-13 23:09 UTC.
+Bu kayıtlar kaynak kimliği veya tesis kuruluş tarihi değildir.
+
+| Gözlem | Değer / kapsam |
+|---|---|
+| Önceki dönem | 16 kaynak görüntü; kalite koşulunu sağlayan 0; görüntü seçilmedi |
+| Sonraki görüntü | 2018-04-04 08:35 UTC; 20180404T082559_20180404T083550_T36SWF |
+| Sonraki dönem: kaynak / uygun sayı | 9 / 5; çekirdek açıklık 0.9233220373273985, bağlam 0.9576766611327935 |
+| Sonraki sabit kayıt dönemi görüntüsü | 2018-04-14 08:30 UTC; 20180414T082559_20180414T083052_T36SWF |
+| Sabit dönem: kaynak / uygun sayı | 10 / 6; çekirdek açıklık 0.9374336148904961, bağlam 0.9044768887346338 |
+| 2017 nokta örtüsü | Sınıf 60 (çıplak/seyrek bitkili); grass %0, shrub %6, tree %0, urban %0 |
+| NDVI/NBR önce-sonra | Önceki görüntü yok; hesaplanmadı, bu beklenen davranış |
+| MODIS Nisan 2018 | BurnDate/Uncertainty -9999, kaynak maskeleri 0; QA=3; FirstDay=85, LastDay=138 |
+| MODIS Mayıs 2018 | BurnDate/Uncertainty -9999, kaynak maskeleri 0; QA=3; FirstDay=103, LastDay=175 |
+
+İki MODIS ayında QA_land=1, QA_valid=1, QA_shortened_period=0,
+QA_special_condition=0; maskeli yanma tarihi nedeniyle yangın yokluğu kararı verilmez.
+İlk sonraki Sentinel görüntüsü adaydan yaklaşık 9 saat 39 dakika sonradır
+(Console dakika hassasiyetinde). Görüntülerde tesis benzeri yapılar mevcut;
+kesin tesis/ekipman kimliği ve ısı kaynağı doğrulanmadı. Önceki uygun görüntü
+olmadığından görüntü karşılaştırmasıyla önceki arazi durumu ya da yanma değişimi
+belirlenemez. Maskeli deliklerden görünen Google uydu altlığı tarihli Sentinel
+verisi değildir; bu delikler tarihsel yapı veya yanma kanıtı sayılmaz.
+
+Geçici değerlendirme: önceki yakın type=2 kaydı ve adaydan kısa süre sonraki
+teşhis amaçlı görüntüde tesis bağlamı, sabit ısı kaynağı olasılığını destekliyor;
+yangın/sabit kaynak etiketi kesinleşmedi. Hiçbir kayıt elenmedi. Kullanıcının
+sonradan paylaştığı 2017 örtü özellikleri kayda eklendi. Sınıf 60 ve urban %0,
+2018 tarihli görüntüdeki tesis bağlamını geçersiz kılmaz; farklı yıl, çözünürlük,
+örnekleme alanı ve sınıflandırma hatası olasılıkları ayrıştırılmadı. Bu piksel
+2017 için ağaç örtüsü göstermiyor; tüm çevrenin ormansız olduğu veya yangın
+olmadığı sonucu çıkarılmaz. Önceki uygun görüntü bulunmaması belirsizliği sürüyor.
+
+Örnekleme kapsamı: H01–H03, 100 m içinde yalnızca adaydan sonra type=2 görülen;
+H04–H06, adaydan önce type=2 bulunan hedefli inceleme örnekleridir. Seçim eğitim
+verisi, aday yoğunluğu ve konumlar arası mesafe üzerinden yapılmıştır; rastgele
+veya temsil edici doğruluk örneklemi değildir. Amaç yanlış eleme riskini ve
+filtre tasarımının sınırlarını incelemektir. Bu altı örnekten tüm verinin hata
+oranı veya bir eleme kuralının duyarlılığı/özgüllüğü hesaplanamaz. Sonraki filtre
+kontrolü, sabit kaynağa yakın gerçek bitki yangınlarını ve sabit kayda uzak
+örnekleri de kapsamalı; seçim yöntemi ve belirsiz kararlar ayrıca raporlanmalıdır.
+
+
+## Tarihsel kaynak incelemesi — H06 ve altı vaka özeti (1 Ekim 2026)
+
+Kaynak: kullanıcının Console çıktısı ve dokuz ekran görüntüsü.
+Aday N20_815590_1070, 2018-04-21 00:18 UTC, 37.25166 N / 30.44355 E.
+Denetim tablosunda 100 m içinde son önceki type=2 kaydı 2018-04-18 00:24 UTC,
+ilk sonraki kayıt 2018-04-24 00:12 UTC. Bunlar tesis kuruluş tarihleri değildir.
+
+| Gözlem | Değer / kapsam |
+|---|---|
+| Önceki görüntü | 2018-04-15 08:59 UTC; 20180415T084601_20180415T085037_T35SQB |
+| Sonraki görüntü | 2018-04-22 08:49 UTC; 20180422T083601_20180422T084821_T36STG |
+| Sonraki sabit kayıt dönemi | 2018-04-30 08:45 UTC; 20180430T084559_20180430T084557_T35SQB |
+| Kaynak / uygun görüntü sayıları | Önce 73 / 25; sonra 34 / 12; sonraki sabit dönem 34 / 12 |
+| Önce açık alan oranı | Çekirdek 1; bağlam 0.9996863607515535 |
+| Sonra açık alan oranı | Çekirdek 1; bağlam 1 |
+| Sonraki sabit dönem açık alan oranı | Çekirdek 0.9042166851608999; bağlam 0.9018321451940624 |
+| 2017 nokta örtüsü | Sınıf 30; grass %52, shrub %19, tree %9, urban %0 |
+| NDVI medyanı: önce / sonra | 0.10081708574843856 / 0.13803625851869583 |
+| NBR medyanı: önce / sonra | -0.1374941342092914 / -0.10471203923225403 |
+| MODIS Nisan 2018 | BurnDate/Uncertainty -9999; iki kaynak maskesi 0; QA=3; FirstDay=76, LastDay=141 |
+| MODIS Mayıs 2018 | BurnDate/Uncertainty -9999; iki kaynak maskesi 0; QA=3; FirstDay=100, LastDay=166 |
+
+İki MODIS ayında QA_land=1, QA_valid=1, QA_shortened_period=0,
+QA_special_condition=0; maskeli yanma tarihi nedeniyle yangın yokluğu kararı verilmez.
+Önceki görüntü yaklaşık 6 gün önce, sonraki yaklaşık 1 gün 8.5 saat sonra;
+H01/H03/H04'e göre daha yakın tarihli bir karşılaştırmadır. Görüntülerde
+adaydan önce tesis benzeri yapı düzeni mevcut. Kesin tesis/ekipman adı belirlenmedi.
+2017 nokta örtüsünde urban %0 olması bu görsel gözlemi ortadan kaldırmaz;
+karma piksel, tarih farkı ve sınıflandırma hatası olasılıkları ayrıştırılmadı.
+
+NDVI medyanı yaklaşık 0.0372, NBR medyanı yaklaşık 0.0328 artıyor; bu çiftte
+belirgin bitki yanmasını destekleyen azalma görülmedi. Yangın kesin dışlanmadı.
+Önce ve sonra farklı Sentinel tile/UTM bölgeleri kullanılmış; ortak maske,
+hizalama/yeniden örnekleme ve bakış/gölge etkileri nedeniyle küçük farklar
+kesin fiziksel değişim sayılmamalı. İndekslerin işareti doğrudan olay türü değildir.
+Maskeli deliklerden ve tarihli görüntü alanı dışından görünen Google altlığı,
+tarihli Sentinel gözlemi olarak yorumlanmaz.
+
+Geçici değerlendirme: önceki yakın type=2 kaydı ve adaydan önce mevcut tesis
+bağlamı, sabit ısı kaynağı olasılığını destekliyor; kesin kaynak ve yangın
+etiketi doğrulanmadı. Hiçbir kayıt elenmedi.
+
+Altı hedefli vakanın ilk inceleme turu tamamlandı; olay doğrulaması ve filtre
+kalibrasyonu tamamlanmadı. Ortak sonuçlar:
+
+- Yakın type=2 kaydı otomatik eleme için yeterli değil; kayıt zamanı tesis tarihi değildir.
+- Arazi örtü haritası, tarihli görüntü ve tespitin kaynak sınıfı birlikte ele alınmalı.
+- Ağaç örtüsünün azlığı ot/çalı yangınını dışlamaz; tesis yakınında gerçek yangın olabilir.
+- Tüm altı örnekte MODIS yanma tarihi maskeli geldi; bunlar negatif etiket yapılmaz.
+  Bu örüntünün Earth Engine bant maskesi/ingestion davranışıyla ilişkisi ayrıca incelenmeli;
+  mevcut çıktılardan tümünün yanmamış olduğu varsayılmaz.
+- Hedefli örneklerden tüm veri için doğruluk veya yanlış eleme oranı çıkarılamaz.
+- FIRMS arşivinin type alanını üreten işleme sürümü ve bilinen düzeltmelerin indirilen
+  dosyalara uygulanıp uygulanmadığı, mevcut CSV version=2 değerinden çıkarılamaz.
+  Bu kaynak denetimi kapanmadan type temelli nihai filtre dondurulmaz.
+
+Sıradaki çalışma: FIRMS kaynak üretim sürümünü doğrulamak ve maskeli MODIS yanma
+bandının anlamını kaynak düzeyinde kontrol etmek. Ardından eğitim döneminde
+sabit kaynağa yakın gerçek bitki yangınlarını da kapsayan karşılaştırma örnekleri
+ile aday filtrelerin etkisi ölçülecek. 2025 final test bu karar sürecine katılmayacak.
+
+
+## Kaynak anlamı denetimi — 1 Ekim 2026
+
+Resmî VIIRS C2 kılavuzu 1.2, bölüm 6.1 ve FIRMS duyurusu, aylık Vxx14IMGML
+üretim sürümü 1/2'de bazı type=2 kaynakların type=0 yazılabildiğini; Mayıs 2025'te
+hatanın düzeltilip aylık ürünlerin üretim sürümü 3'e yeniden işlendiğini bildiriyor.
+FIRMS CSV Collection/Version alanı ile bu aylık üretim sürümü aynı kavram değildir.
+815579 ve 815590 teslimlerinin düzeltilmiş type değerlerini içerdiği henüz teyit
+edilmedi; CSV version=2 tek başına hata veya düzeltme kanıtı değildir.
+Genel Readme metni NOAA-20 standart ürün durumu konusunda güncel teslimle uyumsuz
+bilgi içeriyor; bu metin tek başına talebe özgü işlem geçmişi sayılmaz.
+
+MODIS bağımsız salt okunur kontrolü: doğrudan Earth Engine varlığından, hiçbir
+updateMask/selfMask uygulanmadan H06, Nisan 2018 noktası native projeksiyonda
+örneklendi. BurnDate/Uncertainty maskeleri 0; QA/FirstDay/LastDay maskeleri 1.
+QA=3, FirstDay=76, LastDay=141. Bu maske inceleme betiğinden kaynaklanmıyor.
+NASA ham HDF kılavuzunda BurnDate 0=yanmamış, -1=eşlenmemiş, -2=su; belirsizlik
+yanmamış ve eşlenmemiş piksellerde 0. Earth Engine maskesiyle ham HDF değerinin
+birebir ilişkisi henüz doğrulanmadı. Bu nedenle maskeli bant 0 ile doldurulup
+negatif etikete çevrilmez. Var olan yanmış piksel eşleşmeleri bu kontrolde değişmedi.
+Yerel salt okunur kontrol raporu: outputs/reports/firms_modis_source_semantics_check.json.
+
+Resmî kaynaklar:
+- https://ladsweb.modaps.eosdis.nasa.gov/archive/Document%20Archive/Science%20Data%20Product%20Documentation/VIIRS_C2_AF-375m_User_Guide_1.2.pdf
+- https://firms2.modaps.eosdis.nasa.gov/api/data_availability/
+- https://firms.modaps.eosdis.nasa.gov/download/Readme.txt
+- https://lpdaac.usgs.gov/documents/1006/MCD64_User_Guide_V61.pdf
+- https://developers.google.com/earth-engine/apidocs/ee-image-unmask
+
+FIRMS destek sorusu taslağı (gönderilmedi):
+
+Subject: Confirm corrected VIIRS fire Type field for archive requests 815579 and 815590
+
+Hello FIRMS team,
+We downloaded Turkey VIIRS Collection 2 archive CSVs for requests 815579
+(S-NPP, 2018-01-01 through 2024-12-31) and 815590 (NOAA-20, 2018-04-01 through
+2024-12-31). Both CSVs contain version=2 and a type field.
+The VIIRS C2 375 m User Guide v1.2 section 6.1 describes the monthly production
+versions 1/2 Type error corrected in May 2025 and reprocessed to version 3.
+Do these two delivered FIRMS requests include the corrected Type classifications?
+Does CSV version=2 denote Collection 2 rather than the monthly production version?
+Please identify the underlying production/reprocessing version and whether any
+2018–2024 months in either request still use the affected Type classifications.
+Thank you.
+
+Earth Engine veri desteği sorusu taslağı (gönderilmedi):
+
+For MODIS/061/MCD64A1 image 2018_04_01, at longitude 30.44355 and latitude
+37.25166 sampled in the native BurnDate projection, BurnDate and Uncertainty
+have mask=0, while QA=3, FirstDay=76 and LastDay=141 are unmasked. No user
+updateMask/selfMask was applied. How are native HDF BurnDate values 0 (unburned),
+-1 (unmapped), and -2 (water) mapped to Earth Engine values and per-band masks?
+Is this expected ingestion behavior or a data issue? We need to distinguish
+valid unburned pixels from unavailable observations without filling masked data.
+
+Açık işler: talebe özgü FIRMS üretim sürümü teyidi ve ham HDF/EE maske eşdeğerliği.
+Her iki soru çözülene kadar otomatik kaynak elemesi ve negatif etiket üretimi yok.
+
+
+### Ham MODIS erişim hazırlığı — 1 Ekim 2026
+
+H06 Nisan 2018 noktası için NASA CMR granül sorgusu, aynı Collection 6.1 ve
+h20v05 tile dosyasını döndürdü: MCD64A1.A2018091.h20v05.061.2021354033000
+(CMR G2595802694-LPCLOUD). Oturumsuz doğrudan HEAD isteği HTTP 403 verdi;
+kimliği doğrulanmış tarayıcı indirmesi henüz yapılmadı. Karşılaştırma tamamlanmadı.
+Ham dosya hedefi data/raw/burned_area/source_checks/; klasör oluşturuldu.
+Dosya indirildiğinde kimlik, SHA-256, native grid/piksel adresi, bütün beş bant
+ve ham fill değerleri EE değer/maskeleriyle birlikte denetlenecek. Koleksiyon
+aynı olsa da yeniden işleme tarihi farkı ayrıca raporlanmalı.
+
+Mevcut Rasterio ortamında HDF4 sürücüsü yok (HDF5 farklı formattır). pyhdf için
+Python 3.12 Windows amd64 hazır wheel bulundu; henüz kurulmadı. Bağımlılık
+projenin pyproject/lock yöntemiyle ayrıca eklenmeli, gizli ortam değişikliği
+ve HDF dosyasının GeoTIFF'e rastgele dönüştürülmesi yapılmamalı.
+Erişim/uyumluluk raporu outputs/reports/modis_native_source_access_check.json.
+
+
+### 2026-10-01 — Nisan 2018 native HDF ile maskeli MODIS değerlerinin doğrulanması
+
+Kullanıcı Earthdata üzerinden `MCD64A1.A2018091.h20v05.061.2021354033000.hdf`
+dosyasını indirdi ve `data/raw/burned_area/source_checks` klasörüne yerleştirdi.
+Dosya HDF4 olarak açıldı. SHA-256: `792bfbfa260a5f5f3e2fe512dcf19712d5e010cd27a3432374aae1247afe74a9`.
+`pyhdf` bağımlılığı kullanıcı tarafından uv ile eklendi.
+
+Piksel satır/sütunu dosyanın StructMetadata sınırlarından ve kendi sinusoidal
+küresel yarıçapından (6371007.181 m) hesaplandı; tam sayı alt sınırı kullanıldı.
+H06 için sıfır tabanlı satır 659, sütun 1015 bulundu. Native değerler:
+BurnDate=0, Uncertainty=0, QA=3, FirstDay=76, LastDay=141.
+H06 merkezinin 3x3 komşuluğunda BurnDate=0 ve QA=3 bulundu.
+
+Aynı dosya H01, H03, H04 ve H05 noktalarını da kapsıyor. Beş noktanın
+Nisan 2018 kaynak pikselinde BurnDate=0, Uncertainty=0 ve QA=3 okundu.
+Earth Engine `MODIS/061/MCD64A1/2018_04_01` üzerinden yeniden yapılan
+okumada beş noktada BurnDate ve Uncertainty maskeli; QA/FirstDay/LastDay
+native dosyayla birebir aynı. Ayrıntılı satır/sütun ve bant değerleri
+`outputs/reports/modis_native_hdf_comparison.json` dosyasına kaydedildi.
+
+Bu bulgu önceki maskeli EE çıktısından çıkarılan belirsizliği, yalnızca
+kontrol edilen bu beş Nisan pikseli için giderir: native ürün bunları
+**yanmamış** sınıfında kaydetmiştir. -9999 native BurnDate değildir;
+betiğin maskeli değer yerine koyduğu işarettir. Bu noktalar için veri yok
+sonucu artık kullanılmamalıdır. Ancak tüm maskeli EE piksellerini sıfırla
+doldurmak için genel kural çıkarılmadı; bütün varlığın veya üretim granülünün
+birebir eşliği kanıtlanmış değildir. H02'nin Ekim/Kasım ayları ve diğer
+vakaların Mayıs ayları henüz native dosyadan kontrol edilmedi.
+
+Ürünün yanmamış sınıfı, küçük/kısa süreli yangının kesinlikle olmadığını
+kanıtlamaz ve otomatik eleme gerekçesi değildir. H05'in aday öncesi uygun
+Sentinel-2 görüntüsü bulunmaması devam eden bir sınırlamadır. FIRMS
+815579/815590 isteklerindeki Type alanının düzeltilmiş üretimden geldiği
+henüz doğrulanmadı; kullanıcı NASA'ya e-posta gönderdiğini bildirdi ve
+cevap bekleniyor. Hiçbir kayıt elenmedi; 2025 test verisine erişilmedi.
