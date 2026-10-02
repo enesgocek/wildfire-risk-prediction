@@ -32,7 +32,9 @@ temel modellerin sonuçları değerlendirildikten sonra araştırılacak.
 
 Veri ayrımı: **2018–2023 eğitim**, **2024 doğrulama**, **2025 final test**.
 Final test, model ve parametre seçiminden ayrı tutulacak. Özellikler tahmin anında
-bilinebilen verilerden üretilecek. Başarı, PR-AUC ve olasılık kalibrasyonu başta
+bilinebilen verilerden üretilecek. Mevcut ERA5-Land hazırlığı geriye dönük yeniden
+analiz içindir; canlı tahmin anındaki erişilebilirliği henüz doğrulanmadı.
+Başarı, PR-AUC ve olasılık kalibrasyonu başta
 olmak üzere yangın riskine uygun ölçütlerle değerlendirilecek.
 
 ## Mevcut durum
@@ -43,10 +45,16 @@ alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu.
 kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP ve
 NOAA-20 arşivleri (2018–2024) kontrol edildi; iki uydudan 33.255 geçici aday tespit
 kaynak kimlikleriyle ortak tabloda toplandı. Olay gruplama ayarları ve altı şüpheli kaynak eğitim döneminde incelendi.
-FIRMS Type alanının üretim geçmişi için NASA yanıtı bekleniyor. Özgün MODIS
+FIRMS Type alanının üretim geçmişi için NASA teyidi açık; ilk e-postada teslim
+sorunu yaşandı. Özgün MODIS
 dosyasında kontrol edilen beş Nisan 2018 pikseli yanmamış sınıfında doğrulandı;
 bu sonuç otomatik eleme gerekçesi değil. Yangın olayları,
 eğitim etiketleri ve model henüz hazırlanmadı.
+
+ERA5-Land meteoroloji hattı hazır; 2018–2019 yıllarının 730 günü ve 2.116.270
+hücre-gün kaydı denetlendi. Sıradaki meteoroloji dönemi 2020. Eksik/kısmi meteoroloji
+kapsamı ile negatif yağış değerlerinin modelde ele alınması henüz kesinleşmedi.
+Kısa [durum raporu](docs/STATUS.md) ve [kalite incelemesi](docs/QUALITY_REVIEW_2026-10-02.md).
 
 ## Kurulum
 

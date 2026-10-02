@@ -1,8 +1,10 @@
-> **1 Ekim 2026 durum notu:** Bu belge başlangıç yol haritasıdır; tamamlanmış
+> **3 Ekim 2026 durum notu:** Bu belge başlangıç yol haritasıdır; tamamlanmış
 > işler ve kesinleştirilmiş kapsam için PROJECT.md esas alınır. Pilot iller
 > Antalya, Muğla, İzmir ve Mersin; grid 2.899 hücredir. Örtü uygunluk eşiği ve
 > olay gruplama kuralı seçilmedi, model/etiket üretimine geçilmedi. FIRMS Type
-> üretim teyidi için NASA yanıtı bekleniyor. 2025 final test kapalı tutuluyor.
+> üretim teyidi açık; ilk e-postada teslim sorunu yaşandı. 2018–2019 meteoroloji
+> hazırlığı denetlendi; sonraki oturumda 2020’den devam edilecek. Kısa güncel durum STATUS.md'de.
+> 2025 final test kapalı tutuluyor.
 
 # **EGE VE AKDENİZ ORMAN YANGINI ERKEN UYARI SİSTEMİ** 
 

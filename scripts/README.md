@@ -13,6 +13,8 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 | `landcover/` | Raster kontrolü, alan ağırlıkları ve hücre örtü oranları |
 | `firms/` | Yangın arşivleri, pilot kayıtlar, adaylar ve inceleme |
 | `earth_engine/` | Earth Engine inceleme ve dışa aktarma kodları |
+| `meteorology/` | ERA5-Land indirme ve günlük alan ağırlıklı özellikler |
+| `quality/` | Tamamlanmış kaynak ve ara tabloların yerel bütünlük denetimi |
 
 `setup.ps1` ortam kurulumu için kökte kalır. Raporlar `outputs/reports/`, görseller
 `outputs/figures/`, ara tablolar `data/interim/` altında oluşturulur. Betikler mevcut
@@ -135,3 +137,88 @@ proje rehberinde kayıtlıdır.
 yanıtı bekleniyor. H01/H03/H04/H05/H06 Nisan native MODIS pikselleri yanmamış
 sınıfında doğrulandı; bu durum küçük yangını kesin dışlamaz. Genel EE maskesi
 sıfıra doldurulmaz. Kalan aylar ve H02 native kaynak kontrolü bekliyor.
+
+
+## Meteoroloji — ERA5-Land geçmiş özellikleri
+
+`scripts/meteorology/prepare_era5_land.py` üç açık aşama içerir:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_era5_land.py weights
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_era5_land.py download --start 2018-01-01 --end 2018-02-01
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_era5_land.py prepare --start 2018-01-01 --end 2018-02-01
+```
+
+`weights` yereldir: native 0,1 derece kaynak piksellerini AOI içi 5 km hücre
+bölümleriyle EPSG:6933 üzerinde kesiştirir. `download` mevcut Earth Engine
+kimlik doğrulamasıyla günlük native rasterları indirir; Drive görevi açmaz.
+`prepare` yereldir: geçerli kaynak alanlarıyla ağırlıklı ortalamalar ve her
+özellik için geçerli alan oranını çıkarır. Sıfır geçerli alan boş değer kalır.
+
+Bitiş tarihi hariçtir. Yalnızca 2018–2024 tahmin tarihleri kabul edilir; 2025
+sorgusu girişte reddedilir. Geçmiş 14 günlük pencere için 2017 saatleri gerekebilir.
+T=00 UTC için kullanılan kaynak saatleri kesinlikle T'den öncedir. Saatlik
+yağışın zaman damgası saat sonu olduğu için toplam fiziksel pencere
+(T-h-1 saat,T-1 saat] olur; tam önceki UTC takvim günü toplamı değildir.
+
+Çıktılar: data/raw/meteorology/era5_land_daily altında günlük TIF+provenance JSON;
+data/interim/meteorology/daily altında hücre tabloları; outputs/reports/meteorology
+altında kalite raporları. Dosyalar ham saatlik arşiv değil, source-side günlük
+agregalardır. Mevcut hash/grid bilgisi doğrulanan indirmeler atlanır; işlem kesilirse
+aynı download komutu kalan günlerden devam eder. Ay bazında çalıştırmak ilerlemeyi
+izlemeyi kolaylaştırır. prepare komutu aynı günlük ara CSV'leri yeniden üretir.
+
+Sıcaklık/çiy noktası C; rüzgâr m/s; yağış ham saatlik toplamlarından mm; toprak
+suyu hacim oranıdır. Yağış 24/72/168/336 saat için saklanır. Negatif yağış
+korunur ve negatif-saat sayıları raporlanır; düzeltme/uygunluk eşiği bu betikte
+uygulanmaz. Rüzgâr hızı her saatin u/v bileşenlerinden türetilir. Maksimum
+sütunları, piksel içi zamansal maksimumların alan ağırlıklı ortalamasıdır;
+hücrenin mekânsal maksimumu değildir. Bağıl nem henüz türetilmez.
+
+Bu sürüm retrospective reanalysis araştırması içindir. available_at bilinmiyor
+ve boş tutulur; canlı tahmin anında verinin erişilebilirliği iddia edilmez.
+İlk doğrulama: 2018-01-01 ve 2018-07-02, 2.899 hücre/gün. Tüm dönem henüz indirilmedi.
+
+
+Ocak 2018 toplu kontrolü geçti (31 gün, 89.869 hücre-gün).
+Rapor: `outputs/reports/meteorology/audit_2018-01.json`.
+2018 yılının kalanını hazırlamak için, indirme başarıyla bittikten sonra
+ikinci komutu çalıştırın:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_era5_land.py download --start 2018-02-01 --end 2019-01-01
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_era5_land.py prepare --start 2018-02-01 --end 2019-01-01
+```
+
+Bu aralık uzun sürebilir. İndirme kesilirse aynı komut doğrulanmış mevcut
+dosyaları atlar. Ocak denetiminde günlük 189 hücrede eksik veri ve 310
+hücrede kısmi sıcaklık kapsamı saptandı; bu kayıtlar henüz elenmedi.
+
+## Yerel veri bütünlüğü denetimi
+
+```powershell
+.\.venv\Scripts\python.exe scripts/quality/audit_project.py
+```
+
+Varsayılan Ocak 2018 meteorolojisini, AOI/grid, FIRMS, gruplama ve örtü/MODIS
+çıktılarıyla birlikte denetler. Yeni veri indirmez; girdileri değiştirmez.
+2018 indirme **ve prepare** tamamlandıktan sonra tüm yıl için:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/quality/audit_project.py --weather-start 2018-01-01 --weather-end 2019-01-01
+```
+
+Eksik/uyumsuz girdi varsa sıfırdan farklı çıkış kodu döner; rapor
+`outputs/reports/quality/` altındadır. `passed_with_open_gates`, yapısal
+kontrollerin geçtiğini belirtir; etiket doğruluğu veya modellemeye hazır veri
+anlamına gelmez. Devam eden indirme aralığı kontrol için seçilmemelidir.
+
+
+3 Ekim kapanışı: 2018 ve 2019 yılları indirilip hazırlanmış ve denetlenmiştir.
+2019 denetim komutu:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/quality/audit_project.py --weather-start 2019-01-01 --weather-end 2020-01-01
+```
+
+Sonraki oturumda 2020 yılı hazırlanacak; bugün yeni indirme başlatılmadı.

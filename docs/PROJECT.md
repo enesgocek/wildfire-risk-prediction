@@ -2,6 +2,12 @@
 
 Kapsam, veri kuralları ve mevcut durum tek belgede toplanmıştır.
 
+**3 Ekim güncel durum:** 2018 ve 2019 meteoroloji verileri denetlendi;
+toplam 730 gün ve 2.116.270 hücre-gün. Sonraki oturumda 2020’den devam edilecek. Nihai olay/etiket/model henüz yok. Kısa özet
+[STATUS.md](STATUS.md), denetim kapsamı [kalite incelemesinde](QUALITY_REVIEW_2026-10-02.md).
+Bu belge tarihli ilerleme kayıtlarını da içerir; eski durum notları tamamlanmış
+sonraki işlerin önüne geçmez.
+
 - [Proje tanımı](#proje-tanımı--güncel-pilot-kapsamı)
 - [Veri ve değerlendirme kuralları](#veri-ve-değerlendirme-protokolü)
 - [Çalışma alanı](#çalışma-alanı-kararı)
@@ -808,3 +814,256 @@ Sentinel-2 görüntüsü bulunmaması devam eden bir sınırlamadır. FIRMS
 815579/815590 isteklerindeki Type alanının düzeltilmiş üretimden geldiği
 henüz doğrulanmadı; kullanıcı NASA'ya e-posta gönderdiğini bildirdi ve
 cevap bekleniyor. Hiçbir kayıt elenmedi; 2025 test verisine erişilmedi.
+
+
+### 2 Ekim 2026 — Meteoroloji kaynağı için ilk bağımsız kontrol
+
+Kullanıcı NASA FIRMS yanıtını beklerken bağımsız meteoroloji hazırlığına devam
+edilmesini istedi. ERA5-Land saatlik Earth Engine kaynağı incelendi:
+`ECMWF/ERA5_LAND/HOURLY`. Bu, geçmişi yeniden hesaplayan reanalysis ürünüdür;
+verinin gözlem zamanı geçmişte olsa da aynı anda erişilebilir olduğu varsayılmaz.
+Operasyonel hava tahmini doğrulaması veya gerçek zamanlı özellik tablosu oluşturulmadı.
+
+Kaynak belgeler:
+- https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_HOURLY
+- https://confluence.ecmwf.int/spaces/CKB/pages/140385202/ERA5-Land+data+documentation
+
+Native Earth Engine grid EPSG:4326 ve 0,1 derece aralıklıdır; 5 km pilot gridden
+daha kabadır. İnceleme için AOI oranı >=0,99 olan mevcut hücrelerden dört kontrol
+konumuna en yakın hücre merkezleri seçildi. Bunlar nokta örnekleridir; il ortalaması
+veya hücre alan ortalaması değildir. Kontrol konumları Antalya (30,7;37,1), Muğla
+(28,36;37,21), İzmir (27,18;38,4), Mersin (34,5;36,9). Gerçek seçilen merkez ve
+grid kimlikleri raporda kayıtlıdır. Bu örnekleme nihai mekânsal eşleme kararı değildir.
+
+İncelenen iki pencere [2017-12-31,2018-01-02) ve [2018-07-01,2018-07-03).
+96 farklı saat x 4 nokta = 384 kayıt. 2017 verisi eğitim etiketlerine dahil değildir;
+2018 başındaki geçmiş pencerelerin hazırlık ihtiyacını kontrol etmek içindir.
+2024/2025 gözlemleri sorgulanmadı.
+
+Seçilen bantlar: temperature_2m, dewpoint_temperature_2m (K), 10 m rüzgârın
+u/v bileşenleri (m/s), total_precipitation ve total_precipitation_hourly (m),
+volumetric_soil_water_layer_1 (hacim oranı). Her bandın maskesi, native piksel
+x/y kimliği, saat ve kaynak görüntü kimliğinin zaman bilgisi korundu. İlk kontrol
+örneğinde yedi bant için 384/384 geçerli kayıt bulundu; bu, tüm pilot/yıl kapsamının
+eksiksiz olduğunu kanıtlamaz. Sıcaklık aralığı 273,2456–309,9385 K (yaklaşık
+0,10–36,79 C). Kaynak değerler dönüştürülmeden saklandı.
+
+Yağışın birikimli bandı saatlik gibi toplanmamalıdır. ECMWF belgesine göre 00 UTC
+birikimi önceki günün tamamını kapsar; yeni birikim 01 UTC'de yeni güne başlar.
+Saatlik yağış 01 UTC için o andaki birikime, diğer saatlerde ardışık birikim
+farkına eşit olmalıdır. 376 ardışık-saat karşılaştırmasında maksimum fark 0 m
+bulundu; gece yarısı geçişleri dahil. 11 negatif saatlik değer var; minimum
+-7,450580596923828e-09 m (yaklaşık -0,00000745 mm). Bunlar fiziksel negatif
+yağış olarak yorumlanmaz; neden ve düzeltme politikası henüz genel veri üzerinde
+belirlenmedi. Ham değerler korunur, sıfıra kesme otomatik uygulanmadı.
+
+İlk sorgu her saat için sampleRegions yaptığı için EE eşzamanlı aggregation
+limitine takıldı. Küçük örnek saatleri toBands ile istifleyip tek sampleRegions
+kullanarak sorgu tamamlandı. Bu yöntem yalnızca küçük kaynak kontrolü için;
+yıllık/bütün-pilot sorgusu aynı şekilde genişletilmez (bant/sorgu limitleri).
+Earth Engine ihracı veya batch görevi başlatılmadı.
+
+Yerel örnek: `data/raw/meteorology/source_checks/era5_land_hourly_small_sample.csv`.
+SHA-256: `2531ad89050819577c63ec2e01607ec3df40bb9d2d575a6a20e10c175185f792`.
+Rapor: `outputs/reports/era5_land_source_check.json`.
+Bunlar kısa, salt kaynak kontrolüyle hazırlandı; ayrı kalıcı meteoroloji betiği
+henüz oluşturulmadı. Bu kontrol henüz kalıcı bir betiğe dönüştürülmedi.
+
+Sıradaki uygulama: bu sınırlı kontrolü yeniden üretilebilir betik hâline getirmek;
+sonra küçük günlük geçmiş özellik örneği ve zamansal denetim. 00:00 UTC T anı
+için gerçekleşmiş tahmin-günü sıcaklık/yağış bilgisi kullanılmayacak. Fiziksel
+birikim aralığı ile kaynak zaman etiketi ayrı tutulacak. İlk inceleme taslağı
+T'den kesin önceki saatlerle çalışır; yağışın saat sonu damgası nedeniyle
+pencereler açıkça belgelenir. 3/7/14 günlük geçmiş pencereler hazırlanırken
+2018 başlangıcından önce yeterli 2017 saatleri gerekir. available_at bilinmiyorsa
+uydurulmaz; reanalysis araştırması, operasyonel kullanılabilirlik testiyle ayrılır.
+Bağıl nem türetme formülü, yağış düzeltme eşiği ve tam pilot mekânsal eşleme
+henüz seçilmedi. Model/etiket üretilmedi, FIRMS kayıtları elenmedi.
+
+
+### 2 Ekim 2026 — NASA e-postasının geçici teslim sorunu
+
+Kullanıcının paylaştığı Gmail bildirimi, support@earthdata.nasa.gov adresine
+ilk mesajın henüz teslim edilmediğini gösteriyor: alıcı sunucuya bağlantı
+zaman aşımına uğramış. Bildirim kalıcı başarısızlık değil; Gmail 46 saat daha
+yeniden deneyeceğini belirtiyor. Önceki yanıt-bekleme durumu bu teslim
+belirsizliğiyle birlikte okunmalıdır; NASA'nın mesajı aldığı doğrulanmadı.
+
+Resmî Earthdata forumunda benzer bir teslim sorununda LAADS kullanıcı
+hizmetleri earthdata-support@nasa.gov adresini önermiş ve kullanıcı teslimin
+başarılı olduğunu bildirmiş (2024 kaydı, güncel teslim garantisi değildir):
+https://forum.earthdata.nasa.gov/viewtopic.php?t=6100
+Bu adres güncel Earthdata Login belgelerinde de bulunuyor; doğrudan FIRMS
+teknik ekibi olduğu varsayılmayacak. Orijinal sorunun bu adrese, gerekirse FIRMS
+archive/VIIRS ekibine yönlendirme talebiyle iletilmesi kullanıcıya önerildi.
+Asistan e-posta göndermedi; kullanıcının yeniden gönderdiği henüz doğrulanmadı.
+Meteoroloji kaynak hazırlığı bu teslim sorunundan bağımsız ilerleyebilir.
+
+
+### 2 Ekim 2026 — Meteoroloji zaman ve mekân denetiminin devamı
+
+384 kaydın SHA-256'sı tekrar doğrulandı. Grid/zaman anahtarları benzersiz;
+her örnek konum/gün için 24 saat var. Çiy noktası sıcaklığı hava sıcaklığını
+geçmiyor; dört konumda native kaynak piksel kimliği zamanla sabit. Negatif
+saatlik yağışın minimumu -0,00000745058 mm, toplamı yaklaşık -0,00007023635 mm;
+bu dar örnekten genel düzeltme eşiği çıkarılmadı.
+
+Örnek CSV üzerinden dört nokta x iki tahmin anı (2018-01-01 00 UTC ve
+2018-07-02 00 UTC) için sekiz satırlık geçmiş özellik kontrolü yapıldı.
+Her satırda [T-24 saat,T) zaman etiketli 24 gözlem var; son kaynak saati
+T-1 saat ve bütün kaynak etiketleri kesin olarak T'den önce. Ortalama/min/max
+sıcaklık C, ortalama çiy noktası C, saatlik sqrt(u²+v²) üzerinden ortalama/maksimum
+rüzgâr m/s, ham yağış toplamı mm ve ortalama üst toprak su hacim oranı çıkarıldı.
+Toprak su oranı bağıl hava nemi değildir; bağıl nem türetilmedi.
+
+Saatlik yağış son saati kapsadığı için bu etiket seçiminin fiziksel yağış
+penceresi (T-25 saat,T-1 saat] olur. Bu, tam önceki UTC takvim günü toplamı
+değildir; özellikle böyle adlandırılmadı. available_at boş bırakıldı. Bu sekiz
+satır model hazır veri değil; geçmiş pencereler için denetim örneğidir.
+Kaynak saat sırası, tamlık, birimler ve benzersiz anahtar kontrolleri geçti.
+Ara CSV: data/interim/meteorology/source_checks/era5_land_daily_past_sample.csv.
+Rapor: outputs/reports/era5_land_daily_past_sample_check.json.
+
+Tam pilot gridin (data/aoi/grid_5km.geojson, 2.899 hücre) EPSG:6933 merkezleri
+2018-01-01 00 UTC ERA5-Land native pikselleriyle eşlendi. Ara aday dikdörtgen
+12.006 hücre içerir ve tam pilotla karıştırılmadı. 2.899 merkez için kayıt geldi;
+849 farklı native piksel, aynı native pikselde en çok dört pilot merkezi var.
+711 native pikselde seçilen altı bant geçerli, 138 native pikselde maskeli.
+Maskeli bantlar 353 pilot merkezini etkiliyor: 321 AOI oranı <0,99, 32 >=0,99.
+Bu, yalnızca bir saatin ve merkez yönteminin kontrolüdür; tüm gün/yıl kapsamı,
+maskenin nedeni veya hücrenin tamamının veri dışı olduğu iddia edilmez.
+
+pixelCoordinates bu kaynakta köşe tabanlı tamsayı değil, (sütun+0,5,satır+0,5)
+piksel merkezi koordinatlarını döndürdü. Ters affine alt tamsayı +0,5 hesabı
+bütün 2.899 kayıtta eşleşti. İlk tamsayı eşitlik varsayımı denetimde başarısız
+oldu ve merkez koordinatı sözleşmesiyle düzeltildi; veri dosyası kaybı yok.
+Ara eşleme: data/interim/meteorology/source_checks/era5_land_grid_centroid_diagnostic.csv.
+Rapor: outputs/reports/era5_land_grid_centroid_check.json.
+
+Hiçbir hücre elenmedi, maskeli sıcaklık/yağış sıfırla doldurulmadı, en yakın
+kara pikseliyle gizli ikame yapılmadı. Nihai hava verisi eşleme kuralı seçilmeden
+AOI içi alanla kesişim ve geçerli kaynak alanı ağırlıkları incelenmeli.
+2018–2024 toplu indirmesi henüz başlatılmadı; 2025 kapalı. Kaynak kontrolünün
+kalıcı bir betiğe dönüştürülmesi sıradaki uygulama adımıdır.
+
+
+### 2 Ekim 2026 — Kalıcı meteoroloji veri hazırlama hattı
+
+Kullanıcının yol haritasına dönüp meteoroloji işini ilerletme talimatıyla
+scripts/meteorology/prepare_era5_land.py oluşturuldu. Antigravity'deki başka
+bir ajana görev verme önerisi geri çekildi; bu sohbet üzerinden uygulama yapıldı.
+
+Üç aşama: weights (yerel native kaynak/AOI kesişimleri), download (EE'den günlük
+agregalı native GeoTIFF+manifest), prepare (yerel alan ağırlıklı günlük tablo).
+Mevcut AOI içi geometri kaynak SHA'sı doğrulanır. 2.899 hücre için 6.213 pozitif
+kaynak piksel kesişimi hesaplandı; toplam kesişim alanlarıyla AOI parça alanları
+arasında en büyük bağıl fark 7,98e-13'ten küçük. Her raster 37x93 native piksel,
+EPSG:4326 ve 0,1 derece gridinde. İnterpolasyon veya en yakın kara doldurması yok.
+
+Geçerli kaynak saatleri [T-h,T), T=00 UTC. 336 saatlik kaynak listesinin
+benzersiz zaman sayısı, ilk/son saati ve 24 saatlik pencere sayısı doğrulanır.
+Native pikselde ilgili bandın bütün saatleri geçerli değilse o özellik maskeli
+kalır. Her alan ortalaması yalnızca geçerli kaynak kesişimlerinden hesaplanır;
+geçerli alan payı ayrı sütundur. Sıfır geçerli alan NaN, yağıştaki gerçek sıfır
+ise geçerli sıfırdır. Hücre çıkarılmaz ve uygunluk oranı eşiği seçilmez.
+
+13 çıktı: sıcaklık ortalama/min/max, çiy noktası ortalaması, saatlik u/v'den
+rüzgâr hızı ortalama/max, üst toprak su oranı ortalaması, 24/72/168/336 saat
+ham yağış toplamları, 24/336 saat negatif yağış-saatlerinin alan ortalamaları.
+Maksimumlar piksel içi zamansal maksimumların alan ağırlıklı ortalamasıdır.
+Yağış son-saati T-1 saat; fiziksel pencere (T-h-1 saat,T-1 saat]. Birikim bandı
+saatlik gibi toplanmaz. Negatif yağış ham olarak tutulur; fiziksel düzeltme veya
+model eksik değer politikası bu aşamada kesinleşmez. Bağıl nem formülü seçilmedi;
+çiy noktası saklanır. Operasyonel forecast/erişilebilirlik iddiası yok.
+
+2018-01-01 ve 2018-07-02 için native rasterlar indirildi ve toplam 5.798
+hücre-gün satırı hazırlandı. Her gün sıcaklıkta 2.400 hücre tam alanla geçerli,
+310 kısmi, 189 sıfır geçerli alan. İlk günün eski merkez yönteminde 353
+maskeli hücresinden 164'ü geçerli alan kesişimiyle veri aldı. 189 hücre için
+hücrenin tümü yangına uygunsuz veya bütün meteoroloji kaynakları eksik sonucu
+çıkarılmaz; bu kaynağın bu yöntemle kapsamadığı alan olarak kalır.
+
+İki gün x dört önceki kontrol noktası x sekiz özellik native rasterdan yeniden
+okunup bağımsız saatlik CSV hesaplarıyla karşılaştırıldı. En büyük mutlak fark
+8,91e-7; float32 toleransı içinde. Zaman/anahtar/saat tamlığı ve raster hizası
+kontrolleri geçti. Testlere alan ağırlığı, kısmi/tam eksik veri, gerçek sıfır
+yağış ve final-test tarih sınırı kontrolleri eklendi. 26 test, Ruff lint ve
+28 Python dosyası biçim kontrolü geçti.
+
+2018–2024 toplu indirmesi henüz yapılmadı. Betik açık start/end ile ay veya
+aralık bazında çalışır; doğrulanmış mevcut rasterları atlayarak devam edebilir.
+2025 tahmin tarihleri remote erişimden önce reddedilir. 2018 başındaki 14 günlük
+geçmiş için 2017-12-18 saatlerinden yararlanılır; 2017 yangın etiketi değildir.
+Tam dönem için kullanıcı terminalinde çalıştırılacak ilk ay komutları betik
+rehberine eklendi. NASA ilk e-postasının teslimi doğrulanmadı; alternatif adrese
+önerilen yeniden gönderimin yapıldığı henüz teyit edilmedi.
+
+
+### 2 Ekim 2026 — Ocak 2018 meteoroloji toplu kontrolü
+
+Kullanıcının download/prepare çalıştırması sonrası 2018-01-01 dahil,
+2018-02-01 hariç 31 günün dosyaları yerelden denetlendi: 2.899 hücre/gün,
+toplam 89.869 benzersiz hücre-gün. Her TIF ve CSV SHA-256 kaydı, kaynak/sürüm,
+bant sırası metadatası, AOI ağırlık manifesti, raster boyutu/CRS/hizası,
+günlük ve dönem raporu eşleşti. CSV'deki bütün 13 özellik kaynak raster ve
+kesişim ağırlıklarından yeniden hesaplandı; en büyük mutlak CSV yuvarlama
+farkı 2,85e-14'ten küçük. Bu kontrol mekânsal hazırlamayı doğrular; saatlik
+kaynağın bağımsız doğrulaması önceki iki gün/dört nokta örneğiyle sınırlıdır.
+
+Zaman sütunları ve geçmiş pencereler, benzersiz anahtarlar, NaN-geçerli alan
+ilişkisi, sıcaklık min/ortalama/max sırası, çiy noktası, rüzgâr ve toprak suyu
+aralık kontrolleri geçti. Her gün sıcaklıkta 2.400 hücre tam alan, 310 kısmi
+alan, aynı 189 hücre sıfır geçerli kaynak alanıyla temsil ediliyor. 84.010
+satırda 13 özelliğin tamamı dolu; 5.859 satırda eksik veri var. Kısmi alanla
+üretilen dolu satırlar, tüm hücre alanının gözlendiği anlamına gelmez.
+
+24 saatlik ham yağış toplamında 35 hücre-gün negatif; minimum yaklaşık
+-0,0000119209 mm. 72/168/336 saat toplamlarında negatif yok. Ham değerler
+korundu; model için düzeltme ve eksik/kısmi alan politikası henüz seçilmedi.
+Hücre elemesi veya eksik veriyi sıfırla doldurma yapılmadı.
+
+Denetim raporu: outputs/reports/meteorology/audit_2018-01.json.
+Ocak veri hazırlaması kontrolü geçti; eğitim tablosu henüz nihai değil.
+Sıradaki indirme aralığı 2018-02-01 dahil, 2019-01-01 hariçtir; sonrasında
+2018 yılı birlikte denetlenecek. 2019–2023 eğitim dönemi ve 2024 doğrulama
+dönemi sonraki aşamalardır; 2025 kapalıdır. available_at bilinmiyor ve boş;
+bu özellikler geriye dönük yeniden analiz araştırması içindir.
+
+
+### 2 Ekim 2026 — 2018 meteoroloji yılı tamamlandı
+
+Kullanıcı Şubat–Aralık indirme ve prepare işlemlerini tamamladı. Kalıcı yerel
+denetim 2018-01-01 dahil / 2019-01-01 hariç çalıştırıldı. Coğrafya, FIRMS,
+örtü/MODIS ve meteoroloji denetimleri geçti. 365 günlük dosya, 2.899 hücre/gün,
+toplam 1.058.135 benzersiz hücre-gün. Metadata, dosya özetleri, zaman sütunları,
+geçerli alan oranları ve 13 özelliğin kaynak rasterlardan yeniden hesabı doğrulandı.
+
+989.150 satırda bütün özellikler dolu; 68.985 satırda eksik veri var. Sıcaklıkta
+her gün 2.400 tam kapsamlı, 310 kısmi kapsamlı ve aynı 189 sıfır kapsamlı hücre
+bulunuyor. Dolu satır, tam alan kapsamı veya bağımsız yangın örneği anlamına gelmez.
+Sıcaklık min/ortalama/max, çiy noktası, rüzgâr ve toprak suyu fiziksel ilişki/aralık
+kontrolleri geçti. Alan kapsamı eşit olan kayıtlar arasında ilişkiler karşılaştırıldı.
+
+24 saatlik ham yağışta 1.527 negatif hücre-gün var; minimum -0,0000484151 mm.
+72/168/336 saat toplamlarında negatif yok. Ham veri değiştirilmedi ve hiçbir
+hücre elenmedi; model öncesi eksik/kısmi kapsam ve yağış düzeltme kuralları açık.
+
+Raporlar:
+- outputs/reports/quality/project_audit_2018-01-01_2019-01-01.json
+- outputs/reports/quality/weather_diagnostics_2018.json
+
+2018 meteoroloji hazırlaması doğrulandı; nihai eğitim veri seti henüz hazır değil.
+Sıradaki çalışma 2019 meteoroloji indirme ve prepare, ardından aynı yıllık denetim.
+2020–2023 eğitim ve 2024 doğrulama sonraki dönemler; 2025 final testi kapalı.
+
+
+### 3 Ekim 2026 — 2019 meteoroloji kontrolü ve kapanış
+
+2019'un 365 günü ve 1.058.135 hücre-gün doğrulandı; 2018–2019 toplamı
+2.116.270 satır. Kaynak raster/CSV özetleri, zaman pencereleri, alan oranları
+ve bütün özelliklerin yeniden hesabı geçti. Günlük kapsam sıcaklıkta 2.400 tam,
+310 kısmi, aynı 189 eksik hücre. 24/72 saat ham yağışta 10.221/909 negatif
+hücre-gün; minimum -0,0000163227 mm. 168/336 saat toplamlarında negatif yok.
+35 test, lint/format ve paket/kilit kontrolleri geçti. Ayrıntılar 3 Ekim günlüğü
+ve outputs/reports/quality altındaki 2019 raporlarında. Eğitim veri seti henüz
+nihai değil. Kullanıcı GitHub push sonrası mola istedi; sonraki dönem 2020.
