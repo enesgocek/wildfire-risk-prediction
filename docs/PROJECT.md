@@ -2,8 +2,11 @@
 
 Kapsam, veri kuralları ve mevcut durum tek belgede toplanmıştır.
 
-**3 Ekim güncel durum:** 2018 ve 2019 meteoroloji verileri denetlendi;
-toplam 730 gün ve 2.116.270 hücre-gün. Sonraki oturumda 2020’den devam edilecek. Nihai olay/etiket/model henüz yok. Kısa özet
+**3 Ekim güncel durum:** 2018–2024 meteorolojisi tamamlandı ve yıllık
+denetimlerden geçti: 2.557 gün ve 7.412.743 hücre-gün. İlk meteoroloji kullanım
+kuralı eğitimde incelendi ve tam döneme uygulandı; bütün günlük çıktılar denetlendi.
+[Kural ve kapsamı](WEATHER_POLICY.md). Sırada olay/etiket hazırlığını ilerletmek var.
+2025 final testi kapalı; nihai olay/etiket/model henüz yok. Kısa özet
 [STATUS.md](STATUS.md), denetim kapsamı [kalite incelemesinde](QUALITY_REVIEW_2026-10-02.md).
 Bu belge tarihli ilerleme kayıtlarını da içerir; eski durum notları tamamlanmış
 sonraki işlerin önüne geçmez.
@@ -1067,3 +1070,67 @@ hücre-gün; minimum -0,0000163227 mm. 168/336 saat toplamlarında negatif yok.
 35 test, lint/format ve paket/kilit kontrolleri geçti. Ayrıntılar 3 Ekim günlüğü
 ve outputs/reports/quality altındaki 2019 raporlarında. Eğitim veri seti henüz
 nihai değil. Kullanıcı GitHub push sonrası mola istedi; sonraki dönem 2020.
+
+### 3 Ekim 2026 — meteoroloji devri ve 2018–2024 tamamlanması
+
+Kullanıcı 2020 indirme/hazırlama işlemini tamamladı; 366 gün ve 1.061.034
+hücre-gün denetimden geçti. Ardından 2021–2024 çalışmalarını bu sohbete devretti.
+Tek seferlik complete_remaining_years.py akışı her yıl download -> prepare ->
+audit sırasını uyguladı; bir yıl geçmeden sonraki yıla ilerlemedi. En fazla üç
+bağımsız ay indirildi; geçici bağlantı hataları için sınırlı yeniden deneme var.
+
+| Dönem | Gün | Hücre-gün |
+|---|---:|---:|
+| Eğitim, 2018–2023 | 2.191 | 6.351.709 |
+| Doğrulama, 2024 | 366 | 1.061.034 |
+| Toplam | 2.557 | 7.412.743 |
+
+Tüm yıllık denetimler geçti. Kapanışta yıllık raporların zaman aralıkları,
+işleme betiği sürümü, günlük CSV özetleri ve 13 özelliğin native geçerli piksel
+kapsamının eşitliği kontrol edildi. Tarih boşluğu/tekrarı veya denetim sonrası
+CSV değişikliği bulunmadı. Yerel özet: outputs/reports/quality/meteorology_2018_2024_summary.json.
+47 test ve kod kontrolleri geçti. Kaynak hesaplama sürümü era5_land_past_v1
+ve ham değerler korundu; saatlik kaynak yeniden bağımsız olarak tüm dönem için
+hesaplanmadı. ERA5-Land hâlâ geriye dönük yeniden analizdir; canlı erişilebilirlik
+kanıtlanmış değildir.
+
+Günlük sıcaklık kapsamı: 2.400 tam, 310 kısmi, 189 sıfır hücre. 6.929.470
+kayıtta tüm özellikler dolu; 483.273 kayıtta eksik özellik var. Ham 24/72 saat
+yağış toplamlarında 28.728/1.296 negatif kayıt; tüm dönem minimumu yaklaşık
+-0,0000484151 mm. 168/336 saat toplamlarında negatif kayıt yok. Model için
+kapsam/yağış politikası ve hücre uygunluğu henüz belirlenmedi.
+
+Toplu çalışma tamamlandı; kullanıcıyla manuel adımlara dönülecek. Öncelik
+meteoroloji işleme kuralları, ardından olay/etiket hazırlığı. 2025 final testi
+açılmadı; nihai eğitim tablosu ve model henüz yok.
+
+### 3 Ekim 2026 — ilk meteoroloji kullanım kuralı
+
+weather_model_v1, ham gözlemleri koruyan ilk geriye dönük deney kuralı olarak
+hazırlandı. Tam alan ana deney; %90 ayrı duyarlılık deneyi. NaN ve kısmi kayıtlar
+korunur. Küçük negatif toplamlar yeni yağış sütununda işlenir; büyük negatifler
+işaretlenir. Bu, saatlik kaynağı düzeltme veya nihai arazi/yangın uygunluğu değildir.
+Yöntem, kaynaklar ve sınırlar: [WEATHER_POLICY.md](WEATHER_POLICY.md).
+
+Eğitim döneminde bütün 6.351.709 kayıtta kural incelendi. Ana profil 5.258.400
+hücre-gün ve 25.004/30.295 geçici aday tespiti kapsıyor; kapsam kaybı model
+raporunda açıklanacak. %90 profil 5.403.006 hücre-gün ve 26.106 aday kapsıyor.
+Hiçbir tespit veya hava kaydı elenmedi; inceleme etiket üretmedi. 61 test ve
+üç örnek günün dosya doğrulaması geçti. Tam dönem dönüşümü, kullanıcıyla manuel
+adım için hazırlanan prepare_model_weather.py komutuyla yapılacak. 2025 kapalı.
+
+### 3 Ekim 2026 — tam dönem model meteorolojisi doğrulandı
+
+Kullanıcının manuel hazırlaması tamamlandı. Hazırlama raporu ve 2.557 günlük
+kaynak/çıktı CSV'si bağımsız kapanış kontrolünden geçti. Tarih boşluğu, tekrar,
+anahtar/sürüm/şema uyuşmazlığı yok; kaynak özetleri yıllık denetimlerle aynı.
+Özgün sütunlar, eksik değerler ve 7.412.743 kaydın tamamı korunuyor. Kapsam,
+yağış dönüşümü ve bütün uygunluk bayrakları kaynak değerlerden tekrar doğrulandı.
+
+Ana meteoroloji profili 5.258.400 eğitim ve 878.400 doğrulama hücre-gününü kapsar.
+%90 profili sırasıyla 5.403.006 ve 902.556 kaydı kapsar; kalan kayıtlar silinmedi.
+24/72 saatlik küçük negatif toplam bayrakları 28.728/1.296; büyük negatif yok.
+Yerel kapanış raporu: outputs/reports/quality/model_weather_2018_2024_audit.json.
+Saatlik kaynak yeniden hesaplanmadı; mevcut yıllık kaynak denetimleri temel alındı.
+2025 okunmadı. Nihai etiket/eğitim tablosu hazır değil; sonraki aşama FIRMS tür
+üretim geçmişi, olay kuralları ve negatif etiket gözlem kapsamını kesinleştirmek.

@@ -214,11 +214,72 @@ kontrollerin geçtiğini belirtir; etiket doğruluğu veya modellemeye hazır ve
 anlamına gelmez. Devam eden indirme aralığı kontrol için seçilmemelidir.
 
 
-3 Ekim kapanışı: 2018 ve 2019 yılları indirilip hazırlanmış ve denetlenmiştir.
+3 Ekim ilk oturum kapanışı: 2018 ve 2019 yılları indirilip hazırlanmış ve denetlenmiştir.
 2019 denetim komutu:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/quality/audit_project.py --weather-start 2019-01-01 --weather-end 2020-01-01
 ```
 
-Sonraki oturumda 2020 yılı hazırlanacak; bugün yeni indirme başlatılmadı.
+Bu ilk oturumun ardından 2020 kullanıcı tarafından hazırlanmış, 2021–2024
+kullanıcının devriyle aşağıdaki tek seferlik akışta tamamlanmıştır.
+
+
+## Kullanıcının devrettiği 2021–2024 toplu meteoroloji çalışması
+
+2020 yıllık denetimi geçtikten sonra tek seferlik akış:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/meteorology/complete_remaining_years.py
+```
+
+Yıllar sırayla işlenir. Her yıl en fazla üç bağımsız aylık indirme işlemiyle
+hazırlanır; indirmeler bittikten sonra prepare ve yıllık audit çalışır. Denetim
+geçmeden sonraki yıla ilerlenmez. Geçici bağlantı hatalarında beşe kadar deneme
+vardır; veri/provenance hataları yeniden denenmez. İşlem kesilirse aynı komut
+indirilmiş dosyaları doğrulayarak devam edebilir. Günlükler outputs/logs/meteorology,
+çalışma durumu outputs/reports/meteorology/remaining_years_run.json altında.
+Bu tek çalıştırmadır; zamanlayıcı veya sürekli servis kurmaz. 2025 kapalıdır.
+Tüm yıllar bitince kullanıcıyla manuel çalışma düzenine dönülür.
+
+3 Ekim son durum: 2018–2024 dönemi tamamlandı; tüm yıllık denetimler geçti.
+Yıllık raporlar outputs/reports/quality altında; tüm dönem özeti
+meteorology_2018_2024_summary.json dosyasındadır. Yeni bir indirme yılı kalmadı.
+Sonraki işlemler kullanıcıyla yeniden manuel adımlarla yürütülecek.
+
+## Model için meteoroloji kullanım kuralı
+
+Kurallar ve kapsam: [WEATHER_POLICY.md](../docs/WEATHER_POLICY.md).
+Ham günlükler değiştirilmez. Bütün kayıtlar ayrı model_v1/daily dizininde tutulur;
+meteoroloji kullanım profilleri ve türetilmiş yağış sütunları eklenir. Etiket
+üretilmez; bu henüz nihai eğitim tablosu değildir.
+
+Kural incelemesi yalnızca 2018–2023 eğitim verisini tarar ve kaynak/kod özetli
+manifest oluşturur. 3 Ekim'de bu adım tamamlandı; yeniden üretmek gerektiğinde:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_model_weather.py review
+```
+
+3 Ekim'de kullanıcı sabit kuralı 2018–2024'e manuel uyguladı; bütün günlük
+çıktılar denetlendi. Yeniden üretmek için inceleme manifesti ve yıllık kaynak denetimleri
+mevcut olmalıdır:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/meteorology/prepare_model_weather.py prepare --start 2018-01-01 --end 2025-01-01
+```
+
+End hariçtir; 2025 günü okunmaz. Sonuçlar data/interim/meteorology/model_v1/daily,
+dönem raporu outputs/reports/meteorology/model_weather_2018-01-01_2025-01-01.json
+altında. Doğrulama her gün kaynak özetini, anahtar/tarih/sürümü, geri okunan
+özgün sütunları ve uygun kayıtların model değerlerini kontrol eder. Hata olursa
+işlem durur. Yeniden çalıştırma kaynakları doğrulayıp ayrı türetilmiş dosyaları
+yeniden üretir; ham gözlemleri değiştirmez.
+
+Tam dönem kapanış kontrolü 2.557 günlük kaynak/çıktı CSV'sinin özetlerini,
+özgün sütunların korunmasını, tarih/anahtar/şema/sürümü ve bağımsız hesaplanan
+yağış/alan kapsamı bayraklarını doğruladı. Rapor:
+outputs/reports/quality/model_weather_2018_2024_audit.json.
+Yerel kontrol betiği outputs/verification/audit_completed_model_weather.py altında;
+ara veriler ve yerel raporlarla birlikte Git kapsamı dışındadır. 2025 okunmadı;
+nihai yangın etiketleri oluşturulmadı.

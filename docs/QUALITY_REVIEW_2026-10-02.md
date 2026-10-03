@@ -61,3 +61,64 @@ geçti; 35 test ve kod/bağımlılık kontrolleri başarılı. 2019'da günlük 
 189 eksik hücre, 310 kısmi sıcaklık kapsamlı hücre var. Ham 24/72 saat yağışta
 10.221/909 negatif hücre-gün; minimum -0,0000163227 mm. Bu değerler korundu;
 eksik/kısmi kapsam ve yağış işleme politikası açık. 2025 final testi kapalı.
+
+## 3 Ekim ikinci oturum — bütün meteoroloji dönemi
+
+2020 kullanıcı tarafından hazırlandı ve denetlendi; kullanıcı devriyle
+2021–2024 indirme, hazırlama ve yıllık denetim tamamlandı. Toplam 2.557 gün,
+7.412.743 hücre-gün; eğitim 6.351.709, doğrulama 1.061.034 kayıt.
+Tüm yıl denetimleri passed_with_open_gates durumunda, hata listeleri boş.
+
+Yıllık denetime fiziksel ilişkiler ve özellik bazında min/max, eksik ve negatif
+kayıt istatistikleri eklendi. Sıcaklık min/ortalama/max, çiy noktası/sıcaklık,
+rüzgâr ortalama/max ilişkileri aynı alan kapsamıyla kontrol ediliyor; toprak
+nemi ve negatif yağış saat sayıları sınırları denetleniyor. Ham yağışın küçük
+negatif değerleri düzeltilmedi. Yeni akış ve kalite testleriyle toplam 47 test geçti.
+
+Tüm dönem kapanış kontrolünde yıllık aralıklar eksiksiz ve tekrarsız birleşti;
+aynı işleme betiği kullanıldığı ve bütün günlük CSV özetlerinin yıllık denetimle
+hâlâ eşleştiği doğrulandı. 2.557 günlük native rasterda 13 özelliğin geçerli
+piksel kapsamı aynı; fiziksel karşılaştırmalarda farklı kapsam sorunu bulunmadı.
+Yerel rapor: outputs/reports/quality/meteorology_2018_2024_summary.json.
+
+Günlük 189 eksik hücre ve 310 kısmi sıcaklık kapsamı tüm dönemde sürüyor.
+483.273 kayıtta eksik özellik, 6.929.470 kayıtta tüm özellikler dolu. Ham
+24/72 saat yağışta 28.728/1.296 negatif kayıt; minimum yaklaşık -0,0000484151 mm.
+Bu sayılar nihai model uygunluğunu göstermez. Yukarıdaki kaynak erişilebilirliği,
+etiket doğruluğu, eksik/kısmi kapsam ve işleme politikası sınırları devam ediyor.
+2025 final testi okunmadı; saatlik kaynak tüm dönem için bağımsız yeniden
+hesaplanmadı. Tek seferlik toplu akış bitti; manuel çalışma düzenine dönülecek.
+
+## 3 Ekim sonraki aşama — model meteorolojisi kural incelemesi
+
+[weather_model_v1](WEATHER_POLICY.md) eklendi. Kaynak ve günlük gözlem özetleri
+korunarak yalnızca 2018–2023 eğitim dönemi tarandı. Alan kapsamı, eksik değer,
+küçük/büyük negatif yağış ve tam/%90/pozitif kapsam profillerinin etkisi ölçüldü.
+Kurallar model performansına fit edilmedi; nihai etiket ve arazi uygunluğu değildir.
+Ana profil 5.291 geçici adayın bulunduğu kayıtları kapsamıyor; kayıtlar tutulur
+ve bu sınır model değerlendirmesinde raporlanmalıdır.
+
+14 yeni sınır/eksik veri/negatif yağış/test izolasyonu testiyle toplam 61 test
+geçti. Üç gerçek günde çıktı geri okundu; kaynak sütunlar korundu, uygun satırlarda
+model değerleri dolu ve yağış negatif değil. Kaynak dosya özetleri değişmedi.
+2018–2024 için türetilmiş tabloların tam üretimi ve kapanış kontrolü henüz
+yapılmadı; kullanıcı manuel prepare komutuyla bu adımı başlatacak.
+
+## 3 Ekim kapanış — tam dönem türetilmiş meteoroloji
+
+Kullanıcı hazırlama işlemini tamamladı. Dönem raporu ile 2018–2024'ün bütün
+2.557 günlük kaynak ve çıktı dosyası salt okunur kapanış denetiminden geçti.
+Tarih/grid/sürüm/şema ve dosya özetleri eşleşiyor; özgün sütunlar, NaN değerler
+ve 7.412.743 kaydın tamamı korunuyor. Yağış dönüşümü ve bütün kapsam/uygunluk
+bayrakları hazırlama dönüşümü çağrılmadan kaynak değerlerden tekrar hesaplandı.
+Eğitim sayıları önceki eğitim incelemesiyle aynı; doğrulamaya sabit kural uygulanmış.
+
+Ana meteoroloji profili 5.258.400 eğitim ve 878.400 doğrulama kaydını kapsar;
+%90 profili 5.403.006/902.556, pozitif kapsam profili 5.937.610/991.860.
+483.273 eksik kayıt ve 792.670 dolu/kısmi kayıt korunuyor. 24/72 saatte
+28.728/1.296 küçük negatif toplam bayraklandı; daha büyük negatif yok.
+Rapor: outputs/reports/quality/model_weather_2018_2024_audit.json.
+Saatlik kaynak tekrar hesaplanmadı; önceki yıllık kaynak denetimleri kullanıldı.
+2025 final testi okunmadı. Bu kontrol meteoroloji aşamasını kapatır; FIRMS tür
+üretim geçmişi, olay/etiket, negatif gözlem kapsamı ve kaynak erişilebilirliği
+konuları açık. Nihai eğitim veri setinin hazır olduğu anlamına gelmez.

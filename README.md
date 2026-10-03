@@ -51,9 +51,12 @@ dosyasında kontrol edilen beş Nisan 2018 pikseli yanmamış sınıfında doğr
 bu sonuç otomatik eleme gerekçesi değil. Yangın olayları,
 eğitim etiketleri ve model henüz hazırlanmadı.
 
-ERA5-Land meteoroloji hattı hazır; 2018–2019 yıllarının 730 günü ve 2.116.270
-hücre-gün kaydı denetlendi. Sıradaki meteoroloji dönemi 2020. Eksik/kısmi meteoroloji
-kapsamı ile negatif yağış değerlerinin modelde ele alınması henüz kesinleşmedi.
+ERA5-Land meteorolojisi 2018–2024 için tamamlandı ve yıllık denetimlerden geçti:
+2.557 gün, 7.412.743 hücre-gün. Bunun 6.351.709 kaydı eğitim, 1.061.034 kaydı
+doğrulama dönemindedir. 2025 final testi kapalıdır. İlk deney için
+[meteoroloji kullanım kuralı](docs/WEATHER_POLICY.md) hazır; eğitim döneminde
+etkisi ölçüldü. Yeni sütunlar tam döneme uygulandı; 2.557 günlük kaynak ve çıktı
+dosyası bağımsız kapanış kontrolünden geçti. Ham sütunlar ve bütün kayıtlar korundu.
 Kısa [durum raporu](docs/STATUS.md) ve [kalite incelemesi](docs/QUALITY_REVIEW_2026-10-02.md).
 
 ## Kurulum

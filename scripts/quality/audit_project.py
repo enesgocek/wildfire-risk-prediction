@@ -228,6 +228,37 @@ def check_landcover_modis():
     }
 
 
+def check_weather_values(df):
+    """Compare physical relationships only where spatial coverage agrees."""
+    for low, high in [
+        ("temperature_min_c", "temperature_mean_c"),
+        ("temperature_mean_c", "temperature_max_c"),
+        ("dewpoint_mean_c", "temperature_mean_c"),
+        ("wind_speed_mean_ms", "wind_speed_max_ms"),
+    ]:
+        comparable = (
+            df[low].notna()
+            & df[high].notna()
+            & np.isclose(
+                df[low + "_valid_area_fraction"],
+                df[high + "_valid_area_fraction"],
+                rtol=0,
+                atol=1e-12,
+            )
+        )
+        require(
+            (df.loc[comparable, low] <= df.loc[comparable, high] + 1e-5).all(),
+            f"Physical relationship: {low} > {high}",
+        )
+    require(df.wind_speed_mean_ms.dropna().ge(0).all(), "Negative wind speed")
+    require(df.soil_water_layer_1_mean.dropna().between(0, 1).all(), "Soil water range")
+    for hours in [24, 336]:
+        require(
+            df[f"rain_negative_hours_{hours}h_mean"].dropna().between(0, hours + 1e-8).all(),
+            "Negative-rain hour-count range",
+        )
+
+
 def check_weather(start, end):
     requested = list(met.days(start, end))
     manifest = met.read_weights()
@@ -236,6 +267,10 @@ def check_weather(start, end):
     gi, pi = weights.grid_index.to_numpy(int), weights.pixel_index.to_numpy(int)
     areas, totals = weights.area_m2.to_numpy(), grids.area_m2.to_numpy()
     summaries = []
+    statistics = {
+        f: {"minimum": None, "maximum": None, "missing_rows": 0, "negative_rows": 0}
+        for f in met.FEATURES
+    }
     for day in requested:
         path = met.RAW / f"{day}.tif"
         met.verify_archive(path, day, manifest)
@@ -273,12 +308,29 @@ def check_weather(start, end):
             value, coverage = met.area_mean(values[i], gi, pi, areas, totals)
             np.testing.assert_allclose(df[feature], value, rtol=1e-12, atol=1e-12, equal_nan=True)
             actual_coverage = df[feature + "_valid_area_fraction"]
+            require(actual_coverage.between(0, 1).all(), "Coverage outside [0,1]")
             np.testing.assert_allclose(actual_coverage, coverage, rtol=0, atol=1e-12)
             require(np.array_equal(df[feature].isna(), actual_coverage.eq(0)), "NaN/coverage")
             require(
                 int(df[feature].isna().sum()) == summary["zero_valid_area_by_feature"][feature],
                 "Missing-area report mismatch",
             )
+            stats = statistics[feature]
+            valid_values = df[feature].dropna()
+            if len(valid_values):
+                require(np.isfinite(valid_values).all(), "Infinite feature values")
+                low, high = float(valid_values.min()), float(valid_values.max())
+                stats["minimum"] = low if stats["minimum"] is None else min(stats["minimum"], low)
+                stats["maximum"] = high if stats["maximum"] is None else max(stats["maximum"], high)
+            stats["missing_rows"] += int(df[feature].isna().sum())
+            stats["negative_rows"] += int(df[feature].lt(0).sum())
+            if "raw_mm" in feature:
+                require(
+                    int(df[feature].lt(0).sum())
+                    == summary["negative_raw_rain_grid_count"][feature],
+                    "Negative rainfall report mismatch",
+                )
+        check_weather_values(df)
         fraction = df.temperature_mean_c_valid_area_fraction
         summaries.append(
             {
@@ -296,6 +348,8 @@ def check_weather(start, end):
         "end_exclusive": end,
         "days": summaries,
         "total_rows": sum(d["rows"] for d in summaries),
+        "feature_statistics": statistics,
+        "physical_relationship_checks": "passed",
         "limit": "Spatial recomputation; hourly source aggregation not independently rerun.",
     }
 
