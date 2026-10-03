@@ -1134,3 +1134,158 @@ Yerel kapanış raporu: outputs/reports/quality/model_weather_2018_2024_audit.js
 Saatlik kaynak yeniden hesaplanmadı; mevcut yıllık kaynak denetimleri temel alındı.
 2025 okunmadı. Nihai etiket/eğitim tablosu hazır değil; sonraki aşama FIRMS tür
 üretim geçmişi, olay kuralları ve negatif etiket gözlem kapsamını kesinleştirmek.
+
+### 3 Ekim 2026 — Earthdata alındı bildirimi doğrulandı
+
+Kullanıcı Earthdata Support otomatik yanıtının ekran görüntüsünü paylaştı.
+2 Ekim 2026 tarihli bildirim, 815579/815590 arşivlerinin düzeltilmiş VIIRS Type
+alanını içerip içermediği sorusunun alındığını ve **#115134** destek kaydının
+açıldığını doğruluyor. Önceki teslim belirsizliği giderildi. Bu teknik teyit
+değildir; yanıt bekleniyor. Sonraki insan yanıtı aynı konu/kayıt üzerinden izlenecek.
+Asistan yeni e-posta göndermedi. Gözlem kapsamı hazırlığı bağımsız ilerliyor.
+
+### 3 Ekim 2026 — iki sensörün gözlem kapsamı ön incelemesi
+
+review_observation_coverage.py ve yedi regresyon testi eklendi. Resmî NASA
+kesinti sayfaları kaynak özetleriyle kaydedildi; sadece eğitimde 71 S-NPP ve
+75 NOAA-20 tablo aralığı ayrıştırıldı. Arşiv/pilot/aday kaynak eşleşmesi ve günlük
+toplamlar doğrulandı. 4.382 sensör-gün kaydı üretildi. S-NPP'de 26, NOAA-20'de
+12 Türkiye sıfır günü var; bunların sırasıyla 16/1'i tablo aralıklarıyla çakışıyor.
+Tabloların ürün/bant sınırlamaları var; bu çakışma pilot yangın gözleminin
+kesildiğine hüküm değil. NOAA-20 ilk 90 gün talep dışında ve NaN.
+
+İki kaynağın da sıfır olduğu 2019-01-14'te CMR üzerinden S-NPP için 5, NOAA-20
+için 3 yangın/geolocation granülü zaman anahtarıyla eşleşti. Katalog bulunabilirliği
+bulutsuz pilot gözlemi değildir. 2019-01-13 kontrolü ve 2022-07-28 kesinti örneği
+de sorgulandı; ürün dosyaları indirilmedi. İlk manuel örnek 2019-01-14 10:18 UTC
+S-NPP yangın maskesi + geolocation çifti olarak hazırlanıyor. 68 test başarılı.
+Sonuçlar/sınırlar: [FIRMS_OBSERVATION_COVERAGE.md](FIRMS_OBSERVATION_COVERAGE.md).
+Negatif etiket, nihai gözlem maskesi veya yeni filtre üretilmedi; 2025 kapalı.
+
+### 3 Ekim 2026 — ilk indirilen L2 çiftinin denetimi
+
+2019-01-14 10:18–10:24 UTC S-NPP maskesi ve gerçek geolocation üretim girdisi
+boyut, kimlik, zaman ve doğal dizi düzeni kontrollerini geçti. Konum dosyasının
+NASA MD5 özeti eşleşiyor; yangın CMR kaydında resmî özet yok. Bütün geçişteki
+54 seyrek yangın kaydının koordinatı/sınıfı dizilerle doğrulandı. Pilot kutusunda
+13.128 merkez var, gerçek dört il poligonunda 0. Bu örnek bölgesel bulut/yangın
+yorumuna yetmiyor; sıfır merkez, sıfır piksel ayak izi kesişimi kararı değil.
+
+10:24 UTC çiftinin katalog poligonları pilotu kapsıyor; gerçek piksel/QA denetimi
+indirmeden sonra yapılacak. Yerel denetim betiği ve sekiz test eklendi; toplam
+76 test başarılı. Tüm hücrelerde günlük kapsam belirsiz; negatif etiket yok.
+
+### 3 Ekim 2026 — ikinci L2 çiftinin pilot QA sonucu
+
+10:24 UTC çifti indirildi ve bütünlük/eşleşme denetimini geçti. Pilot içindeki
+349.456 merkezde 286.357 bulut, 18.226 nominal girdili kara, 44.542 bowtie
+silinmiş ve 331 su var; yangın sınıfı sıfır. Nominal girdili kara merkezi 443
+hücrede bulunuyor; bu tamamen bulutsuz hücre veya günlük yangın yokluğu demek
+değil. Alan oranı hesaplanmadı; günlük gözlem durumu belirsiz tutuldu.
+
+Geometri basitleştirilmeden mekânsal indeksle eşleştirme hızlandırıldı. QA sınıf
+çapraz sayımı ve bir regresyon testi eklendi; toplam 77 test başarılı. Sonraki
+00:42 UTC çiftinin katalog poligonları kontrol edildi, indirme listesi hazır.
+
+### 3 Ekim 2026 — gece geçişinin denetimi ve iki örnek karşılaştırması
+
+00:42 UTC çiftinin bütünlüğü, gerçek konum girdisi ve 246 seyrek yangın kaydıyla
+doğal koordinat/sınıf eşleşmesi doğrulandı. Pilot merkezlerinde 109.727 nominal
+girdili kara ve 129.964 bulut var; yangın sınıfı sıfır. Gece/gündüz birleşiminde
+2.182 hücrede en az bir nominal girdili kara merkezi var; bu iki örnekte 717
+hücrede yok. Tam hücre/gün kapsamı ve günlük negatif izin verilmedi.
+
+Kaynak ve coğrafya özetlerini denetleyen kalıcı karşılaştırma betiği eklendi;
+dört regresyon testiyle toplam 81 test başarılı. Sıradaki 12:00/22:42 S-NPP
+çiftleri için metadata/poligon kontrolü ve manuel indirme listesi hazırlandı.
+
+### 3 Ekim 2026 — beş S-NPP örneğinin denetimi tamamlandı
+
+12:00 ve 22:42 UTC çiftleri doğru klasörlerde; CMR kimlik/boyut, konum MD5,
+gerçek geolocation girdisi, doğal dizi/seyrek yangın eşleşmesi denetimlerini geçti.
+Pilot nominal girdili kara merkezleri 10.291 ve 10.140; yangın sınıfı sıfır.
+22:42'deki 423 işlenmemiş merkez gözlem sayılmadı. Beş örneğin hücre birleşiminde
+2.327 hücrede en az bir nominal girdili kara merkezi var, 572 hücrede yok.
+Günlük negatif veya tam alan kapsamı kararı verilmedi; sırada NOAA-20 var.
+
+### 3 Ekim 2026 — NOAA-20 karşılaştırmasının hazırlığı
+
+09:30/11:12/23:30 UTC NOAA-20 çiftlerinin CMR metadata'sı ve pilotla kesişen
+katalog poligonları doğrulandı; manuel liste/klasörler hazır. Ürünler henüz
+indirilmedi. Kod iki sensör/sürümü ayrı tanıyor; gerçek konum üretim girdisi
+zorunlu, rapor adları çakışmıyor, boş seyrek diziler ele alınıyor.
+
+12 yeni testle toplam 93 test başarılı. Genişletilmiş kodla beş S-NPP çiftinin
+tüm sınıf/QA/merkez sayımları, ham dosya özetleri ve hücre CSV özetleri öncekiyle
+birebir eşleşti; 2.327/572 sonucu değişmedi. Gerçek NOAA-20 okuma ve iki sensör
+karşılaştırması indirmeden sonra yapılacak; günlük negatif veya alan eşiği yok.
+
+### 3 Ekim 2026 — iki sensörün sekiz örneği denetlendi
+
+İndirilen üç NOAA-20 çiftinin bütünlük, gerçek konum girdisi ve piksel/QA
+kontrolleri geçti. Pilot yangın sınıfı sıfır; 1.141 hücrede en az bir nominal
+kara merkezi var. Beş S-NPP ile birleşimde 2.419 hücrede böyle bir merkez
+bulundu, 480 hücrede yok. NOAA-20 ek 92 hücre sağladı. Kaynak özetleri,
+JSON/CSV toplamları ve hücre birleşimleri bağımsız geri okuma ile doğrulandı;
+günlük negatif izin verilmedi, tam hücre/gün kapsamı çıkarılmadı.
+
+Sıradaki kontrol 13 Ocak 2019 01:00 S-NPP geçişi: FIRMS arşivinde 01:02
+termal tespit adayı olan örnek için iki dosyanın metadata/poligon/zaman ön
+kontrolü ve manuel liste hazır. İndirme sonrasında gerçek piksel eşleşmesi
+sınanacak; aday doğrulanmış orman yangını etiketi değildir. NASA teknik
+yanıtı bekleniyor; nihai etiketler ve eğitim tablosu henüz hazır değil.
+
+### 3 Ekim 2026 — tespit bulunan örneğin eşleştirme kontrolü
+
+13 Ocak 2019 01:00 UTC S-NPP çiftinin bütünlüğü, gerçek konum girdisi ve
+174 seyrek yangın koordinat/sınıfı denetlendi. Pilotun üç nominal güvenli
+yangın pikseli aynı granüldeki üç FIRMS kaydıyla tekil yuvarlanmış konum,
+güven sınıfı ve hücre bakımından eşleşti. Seçilen adayın konum farkı 0,406 m;
+girdi/konum QA nominal ve artık bowtie bayrağı yok. Diğer kayıtlardan birinin
+artık bowtie bayrağı ayrıca korunuyor. Yeni eleme kuralı veya etiket seçilmedi.
+
+Kalıcı kontrol betiği ve sekiz regresyon testi eklendi; 101 test ve kod/biçim
+kontrolleri başarılı. Bu kontrol termal tespit hattını doğruluyor; NASA Type
+alanını veya gerçek bitki örtüsü yangınını teyit etmiyor. Sırada piksel alanı
+ve geçiş zamanına dayanan gözlem hesabı var; merkez sayımı günlük negatif
+etikete çevrilmeyecek. 2025 final test kapalı.
+
+### 3 Ekim 2026 — tarama zamanı ve yaklaşık alan tanısı
+
+Dokuz eğitim örneği tarama içi yaklaşık geometriyle işlendi. 32 satırlık tarama
+sınırı aşılmadı; kenar/eksik komşuda ekstrapolasyon yapılmadı. AOI parçalarıyla
+kırpılan poligonlar geometrik birleşimle tek kez sayıldı. Gerçek tarama UTC
+zarfı, dosyanın TAI93 ofseti ve kalite/mod bilgisi kaydedildi; hedef zaman
+sınırına denk gelen tarama `boundary_unknown` sayılıyor.
+
+Sekiz 14 Ocak örneğinin yaklaşık nominal yangınsız kara alanı 36.011,819 km²
+(tüm pilotun %59,30'u); NOAA-20 ek yaklaşık 2.583,143 km² sağlıyor. Bu tam
+gün gözlem, bitki örtüsü kapsamı veya negatif etiket kriteri değildir.
+Üç kontrolün arşiv boyutlarıyla karşılaştırmasında scan yönünde yaklaşık
+%1–9, track yönünde %4 fark var; fiziksel ayak izi doğruluğu kesinleşmedi.
+Yaklaşık alanlar eğitim etiketlerine aktarılmadı.
+
+22 yeni regresyon testiyle toplam 123 test geçti. Bağımsız geri okuma dokuz
+örneğin kaynak özetlerini, alan/CSV/JSON/GPKG ve saatlerini doğruladı; sekiz
+geçişin birleşimi bağımsız global geometri birleşimiyle eşleşti. Yöntem ve
+üretim öncesi açık koşullar [gözlem alanı kaydında](OBSERVATION_AREA_METHOD.md).
+Tam dönem edinme boyutu/kapsamı ayrıca planlanmalı. NASA Type teyidi açık;
+2025 final test kapalı, nihai olay/etiket tablosu henüz hazır değil.
+
+### 4 Ekim 2026 — geometri tanısı ve katalog kapasitesi
+
+Dokuz yerel örnekte 1.176 termal tespit incelendi: 1.145 yerel geometri ölçümü,
+31 ölçümsüz tarama/ görüntü kenarı kaydı. İki sensör ve üç örnek birleştirme
+bölgesi kapsandı; arşiv fiziksel boyut referansı hâlâ üç kayıt. Boyut farklarını
+yuvarlama tek başına açıklamıyor; sabit yüzde düzeltmesi seçilmedi.
+
+Eğitim dönemi için dört CMR sayım sorgusu 37.705 katalog kaydı verdi. NOAA-20
+başlangıcı mevcut talebe uygun 2018-04-01. Yangın/konum kayıtları henüz
+eşleşmiş indirme listesi değildir. Yerel örnek ortalama boyutlarıyla hacim
+senaryosu yaklaşık 3,16 TiB; kesin tüm katalog hacmi değil. Ham indirme yapılmadı.
+
+25 yeni testle güncel toplam 148 test geçti. Yeni çıktıların kaynak özetleri,
+kayıt muhasebesi, eski kontrol ölçümleri ve hacim hesabı geri okuma kontrolünü
+geçti. [Ayrıntılı inceleme](GEOMETRY_DIAGNOSIS_2026-10-04.md). Sırada dosya
+eşleme/eksik ürün incelemesi ve veri erişim/işleme planı var. NASA Type ve
+nihai gözlem/etiket kuralı açık; 2025 kapalı.

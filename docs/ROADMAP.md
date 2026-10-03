@@ -2,7 +2,8 @@
 > işler ve kesinleştirilmiş kapsam için PROJECT.md esas alınır. Pilot iller
 > Antalya, Muğla, İzmir ve Mersin; grid 2.899 hücredir. Örtü uygunluk eşiği ve
 > olay gruplama kuralı seçilmedi, model/etiket üretimine geçilmedi. FIRMS Type
-> üretim teyidi açık; ilk e-postada teslim sorunu yaşandı. 2018–2024 meteorolojisi
+> üretim teyidi açık; Earthdata #115134 alındı bildirimi geldi, teknik yanıt bekleniyor.
+> 2018–2024 meteorolojisi
 > tamamlandı ve denetlendi: 2.557 gün, 7.412.743 hücre-gün. İlk meteoroloji kullanım
 > kuralı tam döneme uygulandı ve günlük çıktılar doğrulandı. Nihai olay/etiket
 > hazırlığı sırada.

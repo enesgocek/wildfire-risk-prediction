@@ -11,8 +11,8 @@ sunulması ve risk üzerinde etkili faktörlerin incelenmesi hedefleniyor.
 
 Çalışma, dört ildeki orman ve diğer uygun bitki örtüsü alanlarını kapsıyor.
 Yangın etiketleri NASA FIRMS VIIRS kayıtlarından oluşturulacak; aynı yangına ait
-tekrarlı tespitler tek olay altında toplanacak. İlk uydu tespiti, gerçek yangın
-başlangıç zamanını yaklaşık olarak temsil ediyor.
+tekrarlı tespitler tek olay altında toplanacak. Hedef zaman olayın ilk uydu
+tespitidir; gerçek tutuşma zamanı doğrudan ölçülmez.
 
 Başlıca veri kaynakları:
 
@@ -45,8 +45,8 @@ alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu.
 kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP ve
 NOAA-20 arşivleri (2018–2024) kontrol edildi; iki uydudan 33.255 geçici aday tespit
 kaynak kimlikleriyle ortak tabloda toplandı. Olay gruplama ayarları ve altı şüpheli kaynak eğitim döneminde incelendi.
-FIRMS Type alanının üretim geçmişi için NASA teyidi açık; ilk e-postada teslim
-sorunu yaşandı. Özgün MODIS
+FIRMS Type alanının üretim geçmişi için NASA teknik yanıtı bekleniyor;
+Earthdata talebi **#115134** destek kaydıyla aldığını doğruladı. Özgün MODIS
 dosyasında kontrol edilen beş Nisan 2018 pikseli yanmamış sınıfında doğrulandı;
 bu sonuç otomatik eleme gerekçesi değil. Yangın olayları,
 eğitim etiketleri ve model henüz hazırlanmadı.
@@ -58,6 +58,13 @@ doğrulama dönemindedir. 2025 final testi kapalıdır. İlk deney için
 etkisi ölçüldü. Yeni sütunlar tam döneme uygulandı; 2.557 günlük kaynak ve çıktı
 dosyası bağımsız kapanış kontrolünden geçti. Ham sütunlar ve bütün kayıtlar korundu.
 Kısa [durum raporu](docs/STATUS.md) ve [kalite incelemesi](docs/QUALITY_REVIEW_2026-10-02.md).
+İki sensörün örnek maskeleri ve FIRMS eşleşmesi denetlendi.
+[Yaklaşık gözlem alanı yöntemi](docs/OBSERVATION_AREA_METHOD.md) tarama/örtüşme
+hesabını sınar; fiziksel doğruluğu henüz kesinleştirilmediği için günlük negatif
+etiket üretiminde kullanılmıyor.
+4 Ekim'de [geometri tanısı ve veri hacmi incelemesi](docs/GEOMETRY_DIAGNOSIS_2026-10-04.md)
+tamamlandı: dokuz örnekte 1.176 termal tespit incelendi, eğitim katalog kayıtları
+sayıldı. Fiziksel doğruluk ve nihai gözlem kuralı açık; 148 otomatik test başarılı.
 
 ## Kurulum
 
