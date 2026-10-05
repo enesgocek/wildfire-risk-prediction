@@ -140,3 +140,27 @@ nihai eğitim tablosu üretilmedi.
 katalog kayıtları sayıldı. Üç referansta yuvarlama tek başına boyut farkını
 açıklamıyor; otomatik düzeltme seçilmedi. Güncel toplam 148 test başarılı.
 Ayrıntılar: [geometri ve hacim incelemesi](GEOMETRY_DIAGNOSIS_2026-10-04.md).
+
+5 Ekim'de mevcut sekiz geçişli eğitim örneğinin sınır hassasiyeti ölçüldü.
+Ortak AOI iç alanında ±25 koordinat metresi senaryoları kapsamı yaklaşık
+%58,69–60,12 aralığına taşıyor; sıfır senaryosu %59,41. Bu kalibre edilmiş
+hata aralığı değil; fiziksel yöntem, üretim eşiği ve etiket seçilmedi.
+Yerel/global hesap farkları ayrıca açıkça kaydedildi.
+[Denetim ve ayrıntılar](AREA_BOUNDARY_SENSITIVITY_2026-10-05.md).
+
+Aynı eğitim gününde sabit hesap ızgarasının 50/100/200 m çözünürlük ve dört
+başlangıç konumu karşılaştırıldı. Mevcut yaklaşık poligonun merkez örneklemesi
+incelendi; doğal VIIRS dizisi veya resmî fiziksel ayak izi yeniden kurulmadı.
+Hücrelerin %95'inde başlangıç açıklığı sırasıyla yaklaşık 0,203/0,580/1,639
+yüzde puanı. Küçük AOI parçaları daha hassas; üretim eşiği seçilmedi.
+12 senaryo ve altı bağımsız kare-birleşim kontrolü geçti; tam test kümesi 257.
+[Izgara incelemesi](AREA_GRID_SENSITIVITY_2026-10-05.md).
+
+Doğal tarama kalite/saat incelemesi de tamamlandı. Sekiz granule yedi
+sensör/yörünge kaydına ait; aynı yörüngenin ardışık parçaları yeniden gözlem
+sayılmıyor. Bu kış gününde uygun kara merkezi bulunan hücrelerin en uzun
+zaman boşluğunun medyanı 22,746 saat; 480 hücrede böyle merkez kaydı yok.
+Merkezlerin tarama zarfları sürekli gözlem veya tam hücre kapsamı değildir.
+Zaman/mod/QA sayımları referanslarla ve bağımsız olay-süpürme hesabıyla
+eşleşti. Negatif etiket/eşik seçilmedi; yaz ve yangınlı eğitim örnekleriyle
+kontrol açık. [Ayrıntılar](OBSERVATION_TIMING_2026-10-05.md).

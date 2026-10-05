@@ -400,6 +400,79 @@ altında; hesap tutarlılığını sınar, fiziksel ayak izi doğruluğunu serti
 
 ### Genişletilmiş yerel geometri tanısı ve katalog kapasitesi
 
+Tam eğitim metadata envanteri için `firms/inventory_l2_catalogue.py` eklendi.
+CMR Search-After sayfaları önbelleğe alınır; sensör/tarih/sürüm, kayıt tekilliği,
+sayfa sayısı ve nominal çiftler denetlenir. Satellite binary dosyası indirilmez.
+Mevcut önbelleği ağ bağlantısı olmadan yeniden denetlemek için:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/firms/inventory_l2_catalogue.py --offline
+```
+
+Eksik veya hizasız sayfada durur. Zaman eşlemesi gerçek InputPointer doğrulaması
+veya negatif etiket değildir. Disk sınırı ve kullanıcıya sunulan seçenekler:
+[erişim planı](../docs/L2_STORAGE_OPTIONS_2026-10-04.md).
+
+Tek geçiş ücretsiz Colab pilotunun kimlik bilgisi içermeyen paketini üretmek için:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/build_l2_pilot_bundle.py
+```
+
+outputs/cloud_pilot altında notebook ve ZIP oluşur. Paket özgün denetim kodunu,
+AOI/grid ve kaynak metadata/ref sonuçlarını taşır; ham uydu veya hesap bilgisi
+taşımaz. `cloud/run_l2_pilot.py` yalnızca sabit eğitim çiftini alıp tüm yerel
+piksel sayımlarını karşılaştırır. [Kullanım](../docs/COLAB_PILOT.md).
+
+Colab'dan indirilen sonuç ZIP'ini kod çalıştırmadan bağımsız doğrulamak için:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_l2_pilot_results.py outputs/cloud_pilot/received/l2_pilot_results_087c96b09f720ba0.zip
+```
+
+Argüman indirilen sonuç ZIP'inin yoludur; paket referansı varsayılan olarak
+outputs/cloud_pilot/l2_pilot_isolated_bundle.zip. Eksik/çift/fazladan dosya,
+kaynak/kod kimliği, QA veya CSV farkında durur. Rapor
+outputs/reports/observation_coverage/colab_pilot_received_verification.json.
+4 Ekim gerçek Colab sonucu geçti; bütün dönemin kapasitesi ayrıca sınanacak.
+
+İki sensörlü sabit 14 Ocak 2019 günü için Colab deneme paketini üretmek:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/build_l2_day_bundle.py
+```
+
+outputs/cloud_day altında l2_day_isolated.ipynb ve l2_day_bundle.zip oluşur.
+8 çift sırayla işlenir; cloud worker doğrulanmış çıktıları checkpoint ve ZIP'e
+yazdıktan sonra sadece kendi geçici ham kopyalarını temizler. Yerel kaynak
+modunda silme yok. Sonuç ZIP'ini bağımsız doğrulamak:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_l2_day_results.py outputs/cloud_day/received/l2_day_results.zip
+```
+
+Checkpoint geri yükleme, kaynak/çıktı kimliği ve bütün referans sütunları
+denetlenir. Yerel prova kontrolü için yalnızca `--local-rehearsal` seçeneği
+eklenir; bu rapor bulut denetiminden ayrı adlandırılır.
+[Kullanım, disk/bellek ölçümü ve sınırlar](../docs/COLAB_DAY_PILOT.md).
+
+Doğrulanmış mevcut küçük sonuçla Drive kayıt/geri yükleme notebook'u üretmek:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/build_l2_drive_bundle.py
+```
+
+outputs/cloud_drive/l2_drive_storage.ipynb ve l2_drive_bundle.zip oluşur.
+Yeni uydu indirmez. Kayıt kancası, doğrulanmış ZIP ve tamamlanma kaydını
+saklamadan ham temizliğe dönmez. Gerçek Drive denemesinden gelen ZIP denetimi:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_l2_drive_proof.py outputs/cloud_drive/received/l2_drive_proof.zip
+```
+
+Yerel prova için --local-rehearsal ayrı rapor üretir; gerçek Drive başarısı
+olarak kabul edilmez. [Kullanım ve saklama protokolü](../docs/COLAB_DRIVE_STORAGE.md).
+
 4 Ekim'de dokuz örneğin 1.176 seyrek termal tespiti incelendi. 1.145 tespitte
 tarama içi geometri ölçüldü; 31 kenar kaydı ölçümsüz tutuldu. Bu fiziksel ayak
 izi sertifikası değil; boyut referansı hâlâ üç eski FIRMS kontrol kaydıdır.
@@ -419,6 +492,99 @@ l2_geometry_diagnosis ve l2_training_capacity_snapshot adlı yerel raporlarda.
 Katalog sayımı eşleşmiş girdi listesi değildir; boyutlar dokuz yerel örnekten
 ölçeklenen senaryolardır. Her iki araç negatif etikete izin vermez.
 [İnceleme ve sınırlar](../docs/GEOMETRY_DIAGNOSIS_2026-10-04.md).
+
+Mevcut 14 Ocak 2019 birleşiminin sınır ofseti tanısı (yeni indirme/etiket yok):
+
+```powershell
+.\.venv\Scripts\python.exe scripts/firms/check_area_boundary_sensitivity.py
+```
+
+Kaynak SHA/CSV/geometri kimliği korunur; bütün 2.899 hücre raporda tutulur.
+Ofsetler EPSG:6933 koordinat mesafesi senaryolarıdır; fiziksel hata payı değildir.
+[Hesap farkları ve sonraki kontrol](../docs/AREA_BOUNDARY_SENSITIVITY_2026-10-05.md).
+
+Aynı yaklaşık alanı sabit ince ızgarada 50/100/200 m ve dört başlangıçla
+karşılaştırmak, sonra tüm sütun/istatistikleri ve seçilmiş kare birleşimlerini
+bağımsız doğrulamak:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/firms/check_area_grid_sensitivity.py
+.\.venv\Scripts\python.exe scripts/firms/verify_area_grid_sensitivity.py
+```
+
+Doğal VIIRS yeniden örneklemesi veya etiket üretimi değildir. 5 km model
+ızgarası aynı kalır; yeni indirme yok. [Kapsam ve bulgular](../docs/AREA_GRID_SENSITIVITY_2026-10-05.md).
+
+Mevcut eğitim örneklerinin doğal tarama satırlarını UTC saatlerine,
+sensör/yörünge kimliklerine ve ayrı kalite sayımlarına bağlamak:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/firms/audit_l2_observation_timing.py
+.\.venv\Scripts\python.exe scripts/firms/verify_l2_observation_timing.py
+```
+
+Sekiz granule yedi sensör/yörünge kaydıdır; aynı yörüngenin ardışık parçaları
+yeniden gözlem sayılmaz. CSV kimlikleri metin olarak okunur. Gün başı/sonu
+dahil zaman zarfı boşlukları bağımsız olay-süpürme hesabıyla doğrulanır.
+Merkez kayıtları fiziksel kapsam veya sürekli gözlem değildir; unknown/false
+etiket politikası korunur. Yeni indirme yok; yaklaşık 7,93 MB tanı CSV'si.
+[Kapsam ve sonuç](../docs/OBSERVATION_TIMING_2026-10-05.md).
+
+Eğitim döneminden yaz kontrol adaylarını ve alternatif Colab trafik
+boyutlarını mevcut yerel katalogla hazırlamak (ham indirme yapmaz):
+
+```powershell
+.\.venv\Scripts\python.exe scripts/firms/prepare_summer_l2_controls.py
+.\.venv\Scripts\python.exe outputs/verification/verify_summer_controls.py
+```
+
+İkinci komut yerel denetim betiğidir, Git kapsamı dışındaki `outputs/` altında.
+2018–2023 yaz tabakaları, Type 0/2 ayrı sayımları ve eşleşmeyen kayıtlar
+raporda kalır. Kullanıcı kapsam seçmeden yeni Colab işi başlamaz.
+[Seçenekler ve sınırlamalar](../docs/SUMMER_CONTROL_OPTIONS_2026-10-05.md).
+
+Kullanıcının seçtiği B kapsamı için yeni Colab paketi:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/build_l2_summer_bundle.py
+```
+
+Yalnızca seçilen 12 dosyanın public CMR metadatasını alır. Altı çift Colab'da
+tek komutla sırayla işlenir, her çift Drive'a ayrı kayıt olarak doğrulanır;
+ham dosyalar başarılı kayıt sonrası temizlenir. Mevcut kış pilotu değişmez.
+Notebook/Paket `outputs/cloud_summer/` altında. Gerçek sonuç gelince:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_l2_summer_results.py outputs/cloud_summer/received/l2_summer_results.zip
+```
+
+[Çalıştırma, otomatik devam ve sınırlar](../docs/COLAB_SUMMER_CONTROL.md).
+
+Kullanıcının seçtiği Temmuz 2023 aylık kapsamı: hazır B günü yeniden kullanılır,
+264 yeni çift Colab'da tek iş olarak sırayla indirilir/denetlenir. Günlük alanlar
+çakışmalar birleştirilerek hesaplanır; çıktı küçük CSV/rapor paketidir. Tam
+geometri Drive çift kayıtlarında korunur. Hazırlama yalnızca public metadata alır:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/build_l2_month_bundle.py
+```
+
+Paket/notebook `outputs/cloud_month/` altında. İşe başladıktan sonra aynı
+paketi kullan; yeniden üretim sürüm/ZIP kimliğini değiştirebilir. Gelen tam ay:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_l2_month_results.py outputs/cloud_month/received/l2_month_2023_07_results.zip
+```
+
+Kısmi sonuç için `--allow-partial` gerekir. Tam aylık ham/geometri yeniden
+hesaplama veya uzak Drive kanıtı iddia edilmez.
+[Aylık çalıştırma ve devam](../docs/COLAB_MONTH_2023_07.md).
+
+6 Ekim kapanışında tam Temmuz sonucu 31/31 gün için yeniden doğrulandı.
+[Sonuç ve resmî FIRMS arşiv boşluğu](../docs/COLAB_MONTH_RESULTS_2023_07.md).
+Google Cloud CPU denemesi henüz başlatılmadı; mevcut Colab kodunun sabit
+Drive/yol kontrolleri doğrudan GCP yürütmesi olarak kullanılmamalı.
+[Manuel yapılandırma, süre ve maliyet kontrolleri](../docs/GCP_CPU_PREFLIGHT.md).
 
 ## Model için meteoroloji kullanım kuralı
 
