@@ -1,5 +1,18 @@
 # Ücretsiz deneme için CPU kapasite sorgusu
 
+6 Ekim sonraki güncelleme: kullanıcı Free Trial / TRY13,623 kredi teyit etti.
+Tam 71 kalan ay için üretim paketi hazırlandı; ilk uzun çalışma 8 saat / Stop
+olarak [güncel rehberde](GCP_PRODUCTION_RUN.md) anlatılır. VM bu hazırlık
+sırasında kapalı; aşağıdaki 2 saat bilgileri önceki prova ayarlarıdır.
+
+Güncel durum: kullanıcı Frankfurt'ta VM oluşturdu; ilk gerçek GCP kaynak
+kontrolü ve yerel bağımsız sonuç denetimi geçti. Mevcut 2 saat/Stop ve Free trial
+sınırı korunarak [bir/iki işçi denemesi](GCP_PARALLEL_BENCHMARK.md) de tamamlandı:
+aynı altı geçişte 1,886 kat hızlanma ve eş GCP sonuçları doğrulandı. Kullanıcı
+sonuç indirdikten sonra VM'yi Stop yaptığını bildirdi; boot disk silinmedi.
+Tam dönem bütçesi veya uzaktaki fatura ölçülmedi. Aşağıdaki kota/form kayıtları tarihsel denetim
+izidir; us-central1 değerleri Frankfurt kotası olarak yorumlanmaz.
+
 Kullanıcı 6 Ekim 2026'da hesabı yeniden açtı. Son Overview ekranı aktif
 Free trial, kalan 13.650 TRY ve 26 Ekim bitişini gösteriyor. Kullanıcının
 cebinden ödeme çıkmayacak; Upgrade, peşin ödeme ve kredi dışı kullanım yok.
@@ -151,6 +164,63 @@ ayarlar yeniden girilebilir; otomatik zamanlayıcı veya gece işi kurulmadı.
 Sonraki oturum: açık ayarları tamamlamak, GCP işçisi/kalıcı sonuç yolunu
 hazırlamak, Free trial durumunu ve kısa denemenin maliyetini doğrulamak;
 ardından oluşturma ve küçük hız karşılaştırması. Tam dönem başlatılmayacak.
+
+Kapanış push'undan sonra kullanıcı aynı gece devam etmek istedi. Sabaha
+erteleme tercihi geri alındı; form/Frankfurt kota ve GCP yürütme hazırlığı
+tamamlanmadığı için son görüntü oluşturma onayı olarak kabul edilmedi.
+Kullanıcı Create'e henüz basmadığını, formun açık olduğunu doğruladı.
+VM henüz oluşturulmadı. Sıradaki manuel adım OS/disk ayarlarını tamamlamak;
+Frankfurt kotası ve GCP iş paketi henüz açık. Diskin Stop sonrasında
+kaldığı ve kredi tüketmeye devam edebildiği korunuyor.
+
+Yeni OS and storage ekranında 30 GB Balanced Persistent Disk ve Free
+lisans doğrulandı. Ancak kullanıcı Ubuntu 26.04 LTS seçmiş; mevcut Python
+3.12 kilidi için istenen Ubuntu 24.04 LTS henüz seçilmedi. Snapshot schedule
+alanında default-schedule-1 bağlı olduğu açıkça görülüyor; formdaki bu
+seçim kaldırılmalı. Yeni tahmin 255,70 USD/ay (makine 252,10 + disk 3,60),
+yaklaşık 0,35 USD/saat. Snapshot/log/ağ gibi değişken kalemler dahil
+nihai harcama garantisi değildir.
+
+Diğer form kontrolleri: Observability > Install Ops Agent kapalı; Networking
+HTTP/HTTPS ingress kutuları boş (NASA'ya dışarı HTTPS indirmesi için gelen
+web trafiği açılmaz); Machine configuration süre = 2 saat, Stop ve kısa
+deneme için Automatic restart = Off. Networking/Security/Advanced
+ayrıntıları henüz görülmedi; varsayılanların değiştirilmiş olup olmadığı
+kanıtsız kabul edilmez. Frankfurt kotası ve GCP yürütme paketi açık.
+
+Son üç ekran Ubuntu 24.04, 30 GB Balanced disk, No backups / No schedule,
+replication kutuları boş, 2 saat/Stop ve Automatic restart Off gösteriyor.
+Kullanıcının gönderdiği Equivalent code bu ayarları doğruluyor: europe-west3-c,
+Standard, pd-balanced, disk auto-delete=yes (VM silinince), yeniden başlama
+kapalı ve 7200s süre. Startup metadata, HTTP/HTTPS tag veya snapshot policy
+talimatı yok; Ops Agent kurulum talimatı da yok. Tek default subnet arayüzü,
+Premium tier ve mevcut varsayılan service account/scope'lar seçilmiş. Bu
+hesap adı parola/token değildir; depoya kimlik bilgisi yazılmadı.
+
+Frankfurt CPU/disk/instance kotası henüz paylaşılmadı. İlk GCP taşınabilirlik
+paketi hazırlanıp mevcut yerel kaynaklarla prova edildi; mevcut 195 MB
+tek geçişi kullanır, paralel iş veya tam dönem kuyruğu henüz hazır değildir.
+[Paket ve kullanım](GCP_PORTABILITY_PILOT.md). VM henüz oluşturulmadı.
+
+GCP ilk paketinin gerçek yerel kaynak provası, bağımsız geri okuması ve
+356 test/121 dosya kod-biçim kontrolü tamamlandı. Kullanıcı şimdi oluşturmayı
+yetkilendiriyor. Form ve yürütme ön hazırlığı uygun; Frankfurt kotası ayrı
+okunmamış olarak açıkça tutuluyor. Son tercih, bölgesel kota ve kaynak
+uygunluğunun oluşturma isteğinde Google tarafından denetlenmesiyle
+ilerlemek. Kota/kapasite hatasında yükseltme veya daha büyük kaynak seçimi
+yapılmayacak; hata ve VM/disk durumu incelenecek. Create başarıyla
+tamamlanmış sayılmadı; Running durumu ve erişim kullanıcıdan bekleniyor.
+Deneme yalnızca tek geçiştir; 71 aylık üretim kuyruğu henüz hazır değildir.
+
+Kullanıcı wildfire-cpu-pilot SSH terminalini paylaştı; VM oluşturuldu ve
+erişim sağlandı. Karşılama Ubuntu 24.04.5 LTS / x86_64, yaklaşık 28 GB
+dosya sistemi ve düşük başlangıç RAM kullanımını gösteriyor. Google'ın
+oluşturma işlemi bu VM için kota/kaynak kontrolünü geçti; Frankfurt toplam
+kota/usage tablosu ayrıca okunmuş sayılmıyor. Terminaldeki 00:58:32 UTC
+6 Ekim bilgisi Türkiye saatinde 03:58:32'dir; VM oluşturma anı veya kesin
+otomatik durma zamanı bu karşılama damgasından çıkarılmadı. Henüz pilot
+paket kurma/işleme sonucu yok. Kullanıcıya hazırlanan ZIP'i SSH tarayıcısı
+üzerinden yükleme, Ubuntu venv hazırlığı ve SHA doğrulama adımları verilecek.
 
 Resmî ayar kaynakları:
 [süre sınırı](https://docs.cloud.google.com/compute/docs/instances/limit-vm-runtime),

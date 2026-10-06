@@ -1,4 +1,4 @@
-# Kısa proje durum raporu — 6 Ekim 2026
+# Kısa proje durum raporu — 7 Ekim 2026
 
 ## Amacımız
 
@@ -25,6 +25,48 @@ yapmayacak; hedefimiz ölçülmüş ve doğrulanmış bir risk olasılığı sun
   çıktı dosyaları bağımsız kapanış kontrolünden geçti. Hiçbir kayıt silinmedi.
 
 ## Şu anki aşama
+
+Kullanıcı küçük gün örneklemini ana plan olarak seçmedi; bütün eğitim
+aylarıyla devam etmeyi istedi. 2018–2023'ün 72 ayından Temmuz 2023 hazır,
+kalan 71 ay / 18.441 nominal çift otomatik GCP kuyruğunda. İlk ay Ağustos
+2023. Gün/ay başına ayrı komut yerine Drive'a doğrulanmış kayıt ve aynı
+paketle devam etme uygulanır. İlk uzun çalışma için 8 saat / Stop önerildi;
+VM ayarı kullanıcı tarafından değiştirilecek, yeni üretim henüz başlamadı.
+Free Trial ve TRY13,623 kredi kullanıcı tarafından teyit edildi; canlı
+Billing araçla okunamadı, ücretli yükseltme yapılmadı.
+[Üretim paketi ve sıralı başlatma](GCP_PRODUCTION_RUN.md).
+Önceki 7/14/21 gün incelemesi yalnızca tarihsel alternatif olarak korunur;
+model yeterliliği kanıtı değildir.
+
+7 Ekim kapanışı: üretim hâlâ başlatılmadı. 8 saat ilk uzun çalışma için üst
+sınırdır; toplam kuyruk bitiş garantisi değildir. Doğrulanmış çift/gün/ay
+kayıtları sonraki oturumda atlanır; kesintide henüz kalıcı kaydı doğrulanmamış
+son işler yeniden gerekebilir. Başlatıcı terminalden bağımsız çalışır; bildirim
+göndermez. İlk kayıt ve oturum sonu VM durum kontrolü gerekir. Sonraki süre
+gerçek üretim ölçümüyle seçilecek; otomatik VM Start ve ücretli Upgrade yok.
+Sonuçlar bağımsız kopyayla doğrulandıktan sonra VM/disk ve diğer oluşturulmuş
+kaynaklar kaldırılacak, proje billing bağlantısı devre dışı bırakılacak ve
+ilgili Cloud Billing hesabı kapatılacak.
+[İş sonu temizlik planı](GCP_FINAL_CLEANUP.md).
+Yarın devam noktası: kapalı VM'de 8 saat / Stop / restart Off ayarını doğrulama,
+Start sonrası yeni Google son zamanını alma, hazır üretim ZIP'ini uygulama
+ve ilk gerçek kalıcı kaydı denetleme. Canlı kaynak durumu son kullanıcı
+bildirimine dayanır; bu kapanışta yeni bulut işlemi yapılmadı.
+7 Ekim kapanış denetimi: tam kümede 512 test başarılı; Ruff kod denetimi,
+158 Python dosyası biçim kontrolü ve donmuş üretim paketi bütünlüğü geçti.
+
+GCP → Drive kalıcılık kontrolünün V2 sonucu yerelde doğrulandı. İlk çalışmada
+ZIP MIME etiketi kontrolü düzeltildi; V2 gerçek Drive'a kaydetme, tamamlanma
+öncesi kesinti ve ayrı süreçte geri yükleme kontrolünü geçtiğini bildirdi.
+Ürün 3,98 MB; 5+1 bilimsel geri okuma, farklı PID 1327/1336, hazırlanmış
+paket/manifest/ürün SHA ve ZIP CRC eşleşti. Yeni ham veri/üretim ayı yok.
+Yerelde remote payload tekrar indirilmedi; SSH kopması veya VM Stop/Start
+sonrası resume sınanmadı. Kullanıcı sonuçtan sonra VM'yi Stop yaptığını
+bildirdi. Süre/disk/ödeme ayarı değişmedi. Uzun ay kuyruğu/günlük birleşim
+GCP sarmalayıcısı hazırlandı; yerel kontroller gerçek yeni VM üretimini
+başlamış veya kusursuzluğu kanıtlamış saydırmaz.
+[Sonuç ve kapsam](GCP_DRIVE_PROOF_RESULTS.md),
+[MIME düzeltmesi](GCP_DRIVE_MIME_REPAIR.md).
 
 Veri toplama ve kalite kontrolündeyiz. Nihai yangın olay kataloğu, günlük yangın
 etiketleri ve eğitim tablosu henüz hazır değil; model eğitimine başlamadık.
@@ -64,13 +106,37 @@ Bulut kaynağı, harcama veya ücretli hesap
 yükseltme başlatılmadı. Kullanıcı cebinden ödeme çıkmamasını kesin sınır
 olarak belirtti; ücretli yükseltme/kredi dışı kullanım yapılmayacak.
 [Krediyle hızlandırma seçenekleri](CLOUD_CREDIT_OPTIONS_2026-10-05.md).
-[GCP ayarları ve gün sonu kontrolü](GCP_CPU_PREFLIGHT.md): kullanıcı Frankfurt
-europe-west3, e2-standard-8 ve Standard modelini seçti; formda 2 saat/Stop
-doğrulandı. Son fiyat tahmini mevcut 10 GB diskle yaklaşık 0,35 USD/saat.
-Ubuntu 24.04 / 30 GB disk, otomatik restart Off, snapshot/Ops Agent ve
-Frankfurt kotası henüz doğrulanmadı. GCP işçisi ve kalıcı çıktı aktarımı
-hazırlanacak. Kullanıcı oluşturmayı sabah oturumuna bıraktı; gece işi veya
-zamanlayıcı kurulmadı, VM oluşturulmadı.
+[GCP ayarları](GCP_CPU_PREFLIGHT.md): kullanıcı aynı gece devam ederek
+Frankfurt europe-west3-c / e2-standard-8 / Ubuntu 24.04 / 30 GB VM oluşturdu.
+2 saat/Stop, restart Off, No backups ayarları Equivalent code ile doğrulandı;
+oluşturma Google'ın kota/kaynak denetimini geçti. Yaklaşık 0,35 USD/saat
+form tahmini toplam harcama tavanı değildir; Free trial/Upgrade yasağı sürüyor.
+[Tek geçiş GCP sonucu](GCP_PORTABILITY_PILOT.md) bağımsız yerel kontrolden
+geçti: 194,70 MB iki kaynak, QA ve 2.899 hücrenin bütün sütunları referansla
+tam eşleşti. Son çalıştırmanın kurulum dahil süresi 134,84 saniye; VM'nin
+önceki denemeleri/boş bekleme ve toplam faturalama süresi değil.
+[Bir/iki işçi denemesi](GCP_PARALLEL_BENCHMARK.md) de tamamlandı ve 42,02 MB
+sonuç bağımsız yerel kontrolden geçti. Aynı altı yaz geçişi 432,39 / 229,29
+saniye: 1,886 kat hızlanma, %46,97 süre azalması. Kaynak/QA ve sayım/tarama
+CSV'leri Colab referansıyla tam eşleşti. İki GCP kolunun alan sütunları ve
+kaydedilmiş geometrileri de tam eşit. Colab'a göre çok küçük sayısal alan/
+sınır farkları ölçülüp açık toleranslarla ayrı raporlandı; bit eşitliği veya
+fiziksel ayak izi doğruluğu iddia edilmedi. Yeni yerel ham indirme veya üretim
+ayı yok; bütün yıllara hız/bütçe oranı uygulanmadı. Kullanıcı dosyayı aldıktan
+sonra VM'yi Stop yaptığını bildirdi; uzaktan durum/fatura okunmadı, boot disk
+silinmedi. Üretim kuyruğu ve VM dışı kalıcı kayıt sırada. Güncel tam test kümesi
+386 başarılı; Ruff kod/128 Python dosyası biçimi geçti.
+
+Uzun üretim için [süre/kayıt tasarımı](GCP_PRODUCTION_READINESS.md) incelendi:
+benchmark üretim/resume kodu değildir, Colab ayı sabit dizinlere bağlıdır.
+Yeni sağlayıcı bağımsız kayıt çekirdeği ve gerçek alınmış GCP ürünüyle yerel
+kesinti/yeniden yükleme provası geçti; tamamlanma kaydı en son yayımlanıyor.
+Altı bilimsel geri okuma, 21 yeni koruyucu test, toplam 407 test ve Ruff/132
+dosya başarılı. VM dışı depo bağlantısı, gerçek restore, ayrılmış launcher ve
+yeni üretim işçisi açık; kusursuzluk/tam dönem kapasite iddiası yok. İlk depo
+kanıtında mevcut 2 saat sınırı korunacak; sonrasında 6/8 saat seçenekleri
+ölçümle seçilecek. Ayar değişmedi, VM yeniden başlatılmadı. Drive/Cloud Storage
+seçimi kullanıcıya soruldu; sağlayıcıya bağlı çalışma henüz uygulanmadı.
 [Gerçek sonuç ve seçenekler](COLAB_SUMMER_RESULTS_2026-10-05.md).
 [Yeni notebook ve otomatik kayıt](COLAB_SUMMER_CONTROL.md).
 [Seçenekler, açık eşleşmeler ve sonraki iş](SUMMER_CONTROL_OPTIONS_2026-10-05.md).
