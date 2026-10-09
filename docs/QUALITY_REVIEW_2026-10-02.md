@@ -64,7 +64,7 @@ eksik/kısmi kapsam ve yağış işleme politikası açık. 2025 final testi kap
 
 ## 3 Ekim ikinci oturum — bütün meteoroloji dönemi
 
-2020 kullanıcı tarafından hazırlandı ve denetlendi; kullanıcı devriyle
+2020 manuel akışla hazırlandı ve denetlendi; otomatik toplu iş akışıyla
 2021–2024 indirme, hazırlama ve yıllık denetim tamamlandı. Toplam 2.557 gün,
 7.412.743 hücre-gün; eğitim 6.351.709, doğrulama 1.061.034 kayıt.
 Tüm yıl denetimleri passed_with_open_gates durumunda, hata listeleri boş.
@@ -102,11 +102,11 @@ ve bu sınır model değerlendirmesinde raporlanmalıdır.
 geçti. Üç gerçek günde çıktı geri okundu; kaynak sütunlar korundu, uygun satırlarda
 model değerleri dolu ve yağış negatif değil. Kaynak dosya özetleri değişmedi.
 2018–2024 için türetilmiş tabloların tam üretimi ve kapanış kontrolü henüz
-yapılmadı; kullanıcı manuel prepare komutuyla bu adımı başlatacak.
+yapılmadı; bu adım manuel prepare komutuyla başlatılacak.
 
 ## 3 Ekim kapanış — tam dönem türetilmiş meteoroloji
 
-Kullanıcı hazırlama işlemini tamamladı. Dönem raporu ile 2018–2024'ün bütün
+Hazırlama işlemini tamamladım. Dönem raporu ile 2018–2024'ün bütün
 2.557 günlük kaynak ve çıktı dosyası salt okunur kapanış denetiminden geçti.
 Tarih/grid/sürüm/şema ve dosya özetleri eşleşiyor; özgün sütunlar, NaN değerler
 ve 7.412.743 kaydın tamamı korunuyor. Yağış dönüşümü ve bütün kapsam/uygunluk

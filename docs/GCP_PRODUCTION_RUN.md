@@ -1,6 +1,10 @@
 # Tam eğitim dönemi: GCP çalıştırma rehberi — 6 Ekim 2026
 
-Kullanıcı bütün eğitim aylarıyla devam etmeyi seçti. Örnek gün seçimi ana plan
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+Bütün eğitim aylarıyla devam etmeyi seçtim. Örnek gün seçimi ana plan
 değil. Temmuz 2023 hazır; kalan **71 ay / 18.441 nominal çift** tek kuyruğa
 kondu. İlk ay Ağustos 2023. Bir çalışma dilimi bitince aynı paket tamamlanmış
 kayıtları Drive'dan doğrulayarak devam eder. Her gün veya ay için ayrı komut yok.
@@ -15,7 +19,7 @@ ayarları korunur. Bu adım yeni VM oluşturmaz.
 
 İlk uzun çalışma 8 saatliktir; bütün dönem 8 saatte bitecek demek değildir.
 Paket sonraki çalışmalar için 24 saate kadar mutlak son zamanı kabul eder;
-Google tarafındaki sınır ayrıca kullanıcı tarafından seçilir. Otomatik Start yok.
+Google tarafındaki sınır ayrıca manuel olarak seçilir. Otomatik Start yok.
 
 8 saat ilk üretim çalışmasının üst sınırıdır; toplam işin bitiş tahmini değildir.
 Amaç ilk uzun çalışmada gerçek günlük hız, dört işçi ve Drive kayıt yükünü
@@ -26,7 +30,7 @@ henüz ölçülmedi, sıfır tekrar maliyeti iddiası yoktur. Ani kesintide yaln
 doğrulanmamış işler yeniden gerekebilir. İlk ölçüm uygunsa sonraki çalışmada
 aynı paketle 24 saate kadar daha uzun süre seçilebilir; 8 saat/gün zorunluluğu yok.
 
-Kullanıcının 6 Ekim beyanı: **Free Trial, TRY13,623 kredi**. Canlı Billing
+6 Ekim hesap durumu bildirimi: **Free Trial, TRY13,623 kredi**. Canlı Billing
 ekranına araçla erişilemedi. Upgrade/Activate paid account uygulanmaz.
 Google, Free Trial sırasında ücret alınmadığını; yükseltme yapılmadan süre/kredi
 bittiğinde kaynakların duracağını belirtir. Disk gibi saklanan kaynaklar,
@@ -148,7 +152,7 @@ ilk kayıt kontrolü ve çalışma dilimi sonrasında Console'da **Stopped** kon
 gerekir. Kuyruk bittiğinde veya normal hata çıkışında `--poweroff` guest shutdown
 ister. Başlatma öncesi hata ya da supervisor arızasında Google süre sınırı
 bağımsız Stop korumasıdır; hata görülürse beklemek yerine manuel Stop uygulanır.
-Kullanıcının geç fark etmesi tamamlanmış Drive kayıtlarına bir oturum zaman aşımı
+Sonuçların daha sonra kontrol edilmesi tamamlanmış Drive kayıtlarına bir oturum zaman aşımı
 uygulamaz. OAuth Testing token'ının yenilenmesi gerekmesi sonuçların silinmesi
 değildir; deneme bitişinden önce VM'deki gerekli raporlar dışarı alınır.
 

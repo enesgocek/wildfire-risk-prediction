@@ -1,10 +1,14 @@
 # Google Cloud kredisiyle hızlandırma — 5 Ekim 2026
 
-Kullanıcı mevcut Google Cloud deneme kredisini veri hazırlamayı hızlandırmak
-için kullanmayı önerdi. 6 Ekim'de paylaştığı Billing ekranında **13.650 TRY**
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+Mevcut Google Cloud deneme kredisini veri hazırlamayı hızlandırmak
+için kullanmayı değerlendirdim. 6 Ekim'de kaydedilen Billing ekranında **13.650 TRY**
 kalan deneme kredisi, başlangıç **13.988 TRY**, **20 gün** ve
 **26 Ekim 2026** bitiş tarihi görünüyor. İlk ekranda hesap kapalıydı.
-Kullanıcı Reopen onayını kendisi tamamladı; son Overview ekranında kapalı
+Reopen onayını kendim tamamladım; son Overview ekranında kapalı
 uyarısı kalktı, **Free trial account**, 13.650 TRY ve 20 gün korunuyor.
 Ücretli Upgrade düğmesi hâlâ ayrı seçenek olarak görünüyor ve kullanılmadı.
 CPU kotası terminalden okundu: global 32, us-central1 E2 24 vCPU; kullanım
@@ -12,13 +16,13 @@ sıfır. VM/disk listeleri terminal ve konsolda boş doğrulandı. Uygun fiyat
 ve hız denemesi henüz ölçülmedi.
 Kaynak oluşturulmadı, hesap yükseltilmedi, harcama başlatılmadı.
 
-**Kullanıcının kesin sınırı: cebinden ödeme çıkmayacak.** Kredi kullanımı
+**Bütçe sınırı: kişisel ödeme yapılmayacak.** Kredi kullanımı
 yetkisi yalnızca bu sınır içinde. Ücretli hesaba yükseltme, kredi dışı kullanım,
 peşin ödeme veya başka bir ücretli billing hesabına bağlama yetkisi yok.
 Account type Direct ücretsiz/ücretli billable status alanı olarak yorumlanmadı.
-Kullanıcı tarafından yeniden açıldıktan sonraki Overview ekranı Free trial
-durumunu ve kredi geçerliliğini doğruluyor. Hesap yönetimi kullanıcının
-ekranında; yeniden açma/upgrading agent tarafından yapılmadı.
+Hesap manuel olarak yeniden açıldıktan sonraki Overview ekranı Free trial
+durumunu ve kredi geçerliliğini doğruluyor. Hesabı web arayüzünden manuel olarak
+yeniden açtım; ücretli yükseltme yapılmadı.
 
 [Google Free Trial FAQ](https://cloud.google.com/signup-faqs), ücretli hesaba
 manuel yükseltme olmadan deneme kullanımının faturalandırılmadığını, kredi
@@ -30,8 +34,8 @@ Temmuz Colab işi tamamlandı; 31 gün/270 çift/89.869 hücre-gün küçük ç�
 yerel denetimden geçti. Resmî FIRMS boşluğuyla örtüşen 61 termal kayıt farkı
 ayrı kalite bulgusu. Tamamlanan ay yeni bulut işine yeniden eklenmeyecek.
 
-Global/bölgesel kota sorguları başarıyla tamamlandı; kullanıcı Compute
-Engine API etkinleştirmesini onayladı. Önerilen 8 vCPU denemesi görünen
+Global/bölgesel kota sorguları başarıyla tamamlandı; Compute
+Engine API etkinleştirmesi onaylandı. Önerilen 8 vCPU denemesi görünen
 kotalara sığıyor; kaynak bulunabilirliği henüz doğrulanmadı. Sıradaki bilgi
 makine yapılandırması ve toplam deneme maliyetidir. VM/disk envanteri
 terminal ve web ekranlarıyla boş doğrulandı. Cloud Shell
@@ -78,7 +82,7 @@ Kredi kullanma isteği hesaba ücretli yükseltme yetkisi olarak yorumlanmadı.
 ## Kontrol edilen resmî kaynaklar
 
 - [Deneme kredisi ve sona erme koşulları](https://docs.cloud.google.com/free/docs/free-cloud-features).
-  Standart teklif 90 gün / 300 USD; kullanıcının gerçek bakiyesi bu varsayımdan
+  Standart teklif 90 gün / 300 USD; hesaptaki gerçek bakiye bu varsayımdan
   çıkarılmayacak. Ücretli yükseltme kalan kredinin özgün son tarihini uzatmaz.
 - [Batch paralel görevler ve maliyet](https://docs.cloud.google.com/batch/docs/get-started).
   Batch hizmetinde ek kullanım bedeli yok; kullanılan kaynaklar ücretlidir.

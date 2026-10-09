@@ -1,70 +1,44 @@
 # Orman Yangını Risk Tahmini
 
-Antalya, Muğla, İzmir ve Mersin'de önümüzdeki 24 saat içinde yangın oluşma riskini
-hesaplamayı amaçlayan bir bitirme projesi.
+Antalya, Muğla, İzmir ve Mersin'de, sonraki 24 saat içinde yeni bir yangın
+olayının ilk uydu tespitine ilişkin olasılığı modellemeyi amaçlayan bitirme
+araştırmasıdır. Çalışma, meteoroloji, uydu gözlemleri ve arazi özelliklerini
+yaklaşık 25 km² hücreler üzerinde birleştirir. İlk uydu tespiti gerçek tutuşma
+zamanının doğrudan ölçümü değildir.
 
-Meteorolojik veriler, uydu görüntüleri ve arazi özellikleri bir araya getirilerek
-5 × 5 km alanlar için yangın olasılığı üretilecek. Sonuçların bir harita üzerinden
-sunulması ve risk üzerinde etkili faktörlerin incelenmesi hedefleniyor.
+## Araştırma durumu
 
-## Kapsam
+9 Ekim 2026 itibarıyla coğrafi altyapı ve 2018–2024 meteoroloji hazırlığı
+tamamlanmıştır. Uydu gözlem tanılarının eğitim dönemi boyunca işlenmesi
+sürmektedir. Nihai olay kataloğu, negatif etiket politikası, model veri seti
+ve eğitilmiş model henüz tamamlanmamıştır. Güncel ilerleme ve kanıt sınırları
+[durum raporunda](docs/STATUS.md) tutulur.
 
-Çalışma, dört ildeki orman ve diğer uygun bitki örtüsü alanlarını kapsıyor.
-Yangın etiketleri NASA FIRMS VIIRS kayıtlarından oluşturulacak; aynı yangına ait
-tekrarlı tespitler tek olay altında toplanacak. Hedef zaman olayın ilk uydu
-tespitidir; gerçek tutuşma zamanı doğrudan ölçülmez.
+2209-A başvurusunun bitirme projesi danışmanıyla hazırlanması planlanmaktadır.
+Bu depo henüz TÜBİTAK destekli veya kabul edilmiş bir proje olarak sunulmaz.
 
-Başlıca veri kaynakları:
+## Kapsam ve değerlendirme
 
-- **NASA FIRMS VIIRS:** aktif yangın tespitleri.
-- **ERA5-Land:** tarihsel meteorolojik veriler.
-- **Sentinel-2:** bitki örtüsü ve nem göstergeleri.
-- **Arazi örtüsü ve yükseklik verileri:** geçmiş yıllara uygun kaynak seçimi ve topografya.
+- Pilot: Antalya, Muğla, İzmir, Mersin; 2.899 coğrafi hücre.
+- Temel kaynaklar: NASA FIRMS VIIRS, ERA5-Land, bitki örtüsü ve arazi verileri.
+- Veri ayrımı: **2018–2023 eğitim**, **2024 doğrulama**, **2025 kapalı final test**.
+- Tahmin: 00:00 UTC'de, sonraki 24 saat için yeni olayın ilk aktif tespiti.
+- Model karşılaştırmaları: FWI uygunluğu, Random Forest ve XGBoost; ek yöntemler
+  temel karşılaştırmaların sonuçlarına göre değerlendirilir.
+- Değerlendirme: PR-AUC, olasılık kalibrasyonu, olay yakalama ve yanlış alarm yükü.
 
-Türkiye verisinin yeterliliğine göre İtalya ve benzer Akdeniz iklimine sahip
-ülkelerden ek eğitim verisi de değerlendirilebilir.
+Eksik uydu gözlemi yangın yokluğu olarak etiketlenmez. Mevcut ERA5-Land tablosu
+geriye dönük yeniden analiz verisidir; canlı tahmin anındaki erişilebilirliği
+henüz doğrulanmamıştır. Bilimsel sözleşme [proje rehberindedir](docs/PROJECT.md).
 
-## Modelleme ve değerlendirme
+## Belgeler
 
-İlk modeller Random Forest ve XGBoost olacak; FWI bağımsız bir karşılaştırma
-ölçütü olarak kullanılacak. Uydu görüntülerinden elde edilen temsillerin katkısı,
-temel modellerin sonuçları değerlendirildikten sonra araştırılacak.
-
-Veri ayrımı: **2018–2023 eğitim**, **2024 doğrulama**, **2025 final test**.
-Final test, model ve parametre seçiminden ayrı tutulacak. Özellikler tahmin anında
-bilinebilen verilerden üretilecek. Mevcut ERA5-Land hazırlığı geriye dönük yeniden
-analiz içindir; canlı tahmin anındaki erişilebilirliği henüz doğrulanmadı.
-Başarı, PR-AUC ve olasılık kalibrasyonu başta
-olmak üzere yangın riskine uygun ölçütlerle değerlendirilecek.
-
-## Mevcut durum
-
-Python ortamı, deney takibi ve Earth Engine erişimi hazır. Dört ilin çalışma
-alanı ve yaklaşık 25 km² büyüklüğünde 2.899 grid hücresi oluşturuldu. Copernicus
-2017 arazi örtüsü için hücre bazında sınıf oranları çıkarıldı; kaynağın modelde
-kullanımı ve uygunluk eşiği henüz kesinleşmedi. FIRMS S-NPP ve
-NOAA-20 arşivleri (2018–2024) kontrol edildi; iki uydudan 33.255 geçici aday tespit
-kaynak kimlikleriyle ortak tabloda toplandı. Olay gruplama ayarları ve altı şüpheli kaynak eğitim döneminde incelendi.
-FIRMS Type alanının üretim geçmişi için NASA teknik yanıtı bekleniyor;
-Earthdata talebi **#115134** destek kaydıyla aldığını doğruladı. Özgün MODIS
-dosyasında kontrol edilen beş Nisan 2018 pikseli yanmamış sınıfında doğrulandı;
-bu sonuç otomatik eleme gerekçesi değil. Yangın olayları,
-eğitim etiketleri ve model henüz hazırlanmadı.
-
-ERA5-Land meteorolojisi 2018–2024 için tamamlandı ve yıllık denetimlerden geçti:
-2.557 gün, 7.412.743 hücre-gün. Bunun 6.351.709 kaydı eğitim, 1.061.034 kaydı
-doğrulama dönemindedir. 2025 final testi kapalıdır. İlk deney için
-[meteoroloji kullanım kuralı](docs/WEATHER_POLICY.md) hazır; eğitim döneminde
-etkisi ölçüldü. Yeni sütunlar tam döneme uygulandı; 2.557 günlük kaynak ve çıktı
-dosyası bağımsız kapanış kontrolünden geçti. Ham sütunlar ve bütün kayıtlar korundu.
-Kısa [durum raporu](docs/STATUS.md) ve [kalite incelemesi](docs/QUALITY_REVIEW_2026-10-02.md).
-İki sensörün örnek maskeleri ve FIRMS eşleşmesi denetlendi.
-[Yaklaşık gözlem alanı yöntemi](docs/OBSERVATION_AREA_METHOD.md) tarama/örtüşme
-hesabını sınar; fiziksel doğruluğu henüz kesinleştirilmediği için günlük negatif
-etiket üretiminde kullanılmıyor.
-4 Ekim'de [geometri tanısı ve veri hacmi incelemesi](docs/GEOMETRY_DIAGNOSIS_2026-10-04.md)
-tamamlandı: dokuz örnekte 1.176 termal tespit incelendi, eğitim katalog kayıtları
-sayıldı. Fiziksel doğruluk ve nihai gözlem kuralı açık; 148 otomatik test başarılı.
+- [Belge dizini ve mimari](docs/README.md)
+- [Güncel durum](docs/STATUS.md) · [Aşamalı yol haritası](docs/ROADMAP.md)
+- [Araştırma planı](docs/research/RESEARCH_PLAN.md) · [Kanıt dizini](docs/research/EVIDENCE_REGISTER.md)
+- [2209-A hazırlığı](docs/research/2209A_PREPARATION.md)
+- [Araştırma günlüğü](Diary/README.md) · [Araç kullanım kaydı](docs/research/AI_USE.md)
+- [Betikler ve komutlar](scripts/README.md)
 
 ## Kurulum
 
@@ -75,15 +49,29 @@ uv sync --locked
 uv run --locked pytest
 ```
 
-Windows için kurulum betiği: `scripts/setup.ps1`.
-
-Ayrıntılar için [proje rehberi](docs/PROJECT.md) ve
-[yol haritası](docs/ROADMAP.md).
+Windows kurulumu: `scripts/setup.ps1`. Büyük kaynak verileri, bulut sonuçları
+ve özel bağlantı dosyaları depoya dahil değildir. Gerçek dosya gerektiren
+kontrollerin kapsamı ilgili test ve işlem raporunda belirtilir.
 
 ## Klasör düzeni
 
-- `scripts/`: çalıştırılabilir betikler; [işlem sırası ve komutlar](scripts/README.md).
-- `src/`: ortak Python kodu; `configs/`: proje ayarları; `tests/`: otomatik kontroller.
-- `data/`: coğrafi veriler, ham kaynaklar ve ara tablolar.
-- `outputs/`: raporlar, görseller ve deney kayıtları.
-- `docs/`: proje rehberi ve yol haritası; `Diary/`: günlük çalışma kayıtları.
+| Konum | Sorumluluk |
+|---|---|
+| `src/` | Ortak Python kütüphanesi |
+| `scripts/` | Görev bazlı hazırlama, yürütme ve doğrulama komutları |
+| `configs/` | Gizli bilgi içermeyen proje ve işlem yapılandırmaları |
+| `tests/` | Davranış, veri sözleşmesi ve hata senaryosu kontrolleri |
+| `data/` | Kaynak, ara ve modelleme verileri |
+| `outputs/` | Üretilmiş raporlar, deneyler, görseller, paketler ve doğrulama çıktıları |
+| `docs/` | Yöntem, uygulama, sonuç ve başvuru hazırlığı belgeleri |
+| `Diary/` | Tarihli araştırma kayıtları |
+
+Yeni katkılarda [çalışma kuralları](AGENTS.md) uygulanır. Paket kimlikleri ve
+checkpoint yolları, belge düzenlemesi gerekçesiyle değiştirilmez.
+
+Önemli güncellemeler, gerekli kontrollerden sonra commit edilip GitHub'a
+gönderilir. Her gönderimden önce dosya listesi/diff incelemesi ve
+`python scripts/quality/check_git_privacy.py --scope staged` kontrolü uygulanır.
+Kontrol bulguları gizli değeri yazdırmaz. Ham veri, özel bağlantılar ve sonuç
+arşivleri gönderilmez; otomatik tarama tek başına bütün gizlilik risklerinin
+bulunmadığını kanıtlamaz.

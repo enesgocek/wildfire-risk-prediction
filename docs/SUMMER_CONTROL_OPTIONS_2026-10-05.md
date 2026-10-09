@@ -1,7 +1,6 @@
 # Yaz kontrolü için kapsam seçenekleri — 5 Ekim 2026
 
-Kullanıcı, ayrıntılı yangın çıkış nedeni verisini bu aşamada toplamadan mevcut
-veri hazırlama hattına devam etmeyi seçti. Hedef, hücre/gün bazında sonraki
+Ayrıntılı yangın çıkış nedeni verisini bu aşamada toplamadan mevcut veri hazırlama hattına devam etmeyi seçtim. Hedef, hücre/gün bazında sonraki
 24 saatte yeni yangın olayının ilk uydu tespitine ilişkin risk. Sebep tahmini
 hedeflenmiyor. Bilinmeyen neden doğal yangın olarak kodlanmayacak; gerçek
 yangınlar insan kaynaklı oldukları varsayılarak silinmeyecek. Neden bilgisi
@@ -15,7 +14,7 @@ Henüz yeni ham indirme, Colab işi, nihai günlük etiket veya model yok.
 Bu örnekler tüm dönemi temsil eden örneklem ya da üretim eşiği kalibrasyonu
 olarak kullanılamaz.
 
-## Kullanıcının seçimine sunulan alternatifler
+## Değerlendirilen kapsam alternatifleri
 
 Boyutlar mevcut katalogdan tahmin, GB ondalık (10⁹ bayt). Alternatifler
 birbirine eklenmeyecek. Ham veri Colab'ın geçici diskine sırayla alınacak;
@@ -85,7 +84,7 @@ Raporlar ve aday dosya listeleri `outputs/reports/observation_coverage/`
 altındaki `summer_control_*` dosyalarında; veri/çıktılar Git kapsamı dışında.
 `summer_control_readback.json` başarılı bağımsız geri okuma kaydıdır.
 
-Kullanıcı **B seçeneğini seçti**. Eski doğrulanmış kış pilotunu değiştirmeyen
+**B seçeneğini seçtim**. Eski doğrulanmış kış pilotunu değiştirmeyen
 yeni Colab paketi hazırlandı. Ham çift kimliği, sınıf/kalite, yaklaşık alan
 ve zaman kontrollerinden sonra sonuçlar Drive'a çift bazında kaydedilecek.
 Ardından yerel sonuç denetimi yapılacak. [Çalıştırma](COLAB_SUMMER_CONTROL.md).

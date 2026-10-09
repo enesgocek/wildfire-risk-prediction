@@ -1,8 +1,11 @@
 # İki sensörlü bir günün Colab denemesi
 
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
 Amaç: bütün ham arşivi saklamak yerine bir dosya çiftini indirip işlemek,
-doğrulanmış küçük sonuçları saklamak ve geçici ham kopyayı silmek. Kullanıcı
-başarılı tek geçiş denemesinden sonra bu genişlemeyle devam edilmesini istedi.
+doğrulanmış küçük sonuçları saklamak ve geçici ham kopyayı silmek. Başarılı tek geçiş denemesinden sonra bu genişlemeyle devam etmeyi planladım.
 Ücretsiz CPU kullanılır; tam dönem veya ücretli kaynak başlatılmaz.
 
 Deneme 14 Ocak 2019 eğitim gününe sabit: mevcut eğitim katalog sorgusunda
@@ -100,7 +103,7 @@ outputs/reports/observation_coverage/colab_day_local_rehearsal.json.
 
 ## Gerçek Colab günü doğrulandı — 4 Ekim 2026
 
-Kullanıcının indirdiği ZIP proje içine özgün dosya değiştirilmeden kopyalandı:
+İndirdiğim ZIP proje içine özgün dosya değiştirilmeden kopyalandı:
 outputs/cloud_day/received/l2_day_results_2e3dc9f61a8fa41f.zip.
 Dosya 197.607 bayt; SHA256
 2e3dc9f61a8fa41f072e4c1f183a2ee774b0e1adb046cb0e90b13e6aa87250e2.

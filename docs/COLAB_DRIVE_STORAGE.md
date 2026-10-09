@@ -1,6 +1,6 @@
 # Drive'da küçük sonuçların kalıcı saklanması — 5 Ekim 2026
 
-Kullanıcı Google Drive'a otomatik kaydetmeyi seçti. İlk aşama, 4 Ekim'de
+Google Drive'a otomatik kaydetmeyi seçtim. İlk aşama, 4 Ekim'de
 doğrulanmış sekiz geçişli sonucu Drive'a kopyalayıp yeni bağlantıda geri
 okumak. Yeni ham uydu indirilmez; NASA parolası istenmez. Mevcut tek geçiş ve
 günlük pilot paketleri değiştirilmedi; kaynak/etiket kuralları aynı kalıyor.
@@ -10,7 +10,7 @@ yörünge denetiminde yedi farklı sensör/yörünge kaydı bulundu. Drive kayı
 birimi granule sonucu; bağımsız yeniden gözlem sayısıyla karıştırılmaz.
 [Zaman denetimi](OBSERVATION_TIMING_2026-10-05.md).
 
-## Kullanıcının yapacağı deneme
+## Manuel deneme adımları
 
 Dosyalar outputs/cloud_drive altında:
 

@@ -26,3 +26,19 @@ models/**
 node_modules/
 .DS_Store
 Thumbs.db
+
+# Private authentication files and transferred artifacts (also check the Git index).
+.config/
+**/drive_connection.json
+**/credentials.json
+**/token.json
+**/client_secret*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.docx
+*.pdf
+*.zip
+*.tar.gz
+*.hdf

@@ -1,11 +1,15 @@
 # İş yükü ve büyük gruplara geçiş — 5 Ekim 2026
 
-Kullanıcı daha büyük işlemlerle ilerlemek istiyor; mevcut iş yükünü ve kalan
-adımları sordu. Yeni indirme başlamadı. Haftalık/aylık kapsam seçimi ve
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+Daha büyük işlem gruplarını değerlendirdim; mevcut iş yükünü ve kalan
+adımları değerlendirdim. Yeni indirme başlamadı. Haftalık/aylık kapsam seçimi ve
 Google Drive'daki kullanılabilir sonuç alanı soruldu.
 
-Kullanıcı kapsam sorusuna yanıt olarak, Colab sekmesi kapanınca çalışmanın
-devam edip etmeyeceğini sordu; bu henüz haftalık/aylık kapsam seçimi değil.
+Kapsam sorusuna yanıt olarak, Colab sekmesi kapanınca çalışmanın
+devam etme koşullarını değerlendirdim; bu henüz haftalık/aylık kapsam seçimi değil.
 Google'ın güncel [Colab FAQ'sı](https://research.google.com/colaboratory/faq.html)
 kontrol edildi: kod uzak sanal makinede çalışır; boşta kalma ve azami ömür
 sınırları var. Ücretsiz çalışma sonuna kadar garanti değil; belirtilen
@@ -82,7 +86,7 @@ kaybetmeden ve eski kontrol kayıtlarını değiştirmeden ilerleyeceğiz.
 
 Öneri: mevcut sonuçlarla günlük birleşim/format ve hız denetimi; ardından
 **haftalık ilk büyük grup**. Başarılı ölçümden sonra aylık gruplara büyütme.
-Kullanıcı kapsam seçmeden haftalık/aylık yeni bulut işi hazırlığına geçilmedi;
+Kapsam kararı verilmeden haftalık/aylık yeni bulut işi hazırlığına geçilmedi;
 Drive boş alanı bilinmeden tam dönem kalıcı alan bütçesi kesinleştirilmedi.
 
 Kaynaklar: `l2_training_catalogue_inventory.json`, `summer_control_pairs.csv`

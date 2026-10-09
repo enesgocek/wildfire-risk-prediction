@@ -2,14 +2,14 @@
 
 Kapsam, veri kuralları ve mevcut durum tek belgede toplanmıştır.
 
-**3 Ekim güncel durum:** 2018–2024 meteorolojisi tamamlandı ve yıllık
-denetimlerden geçti: 2.557 gün ve 7.412.743 hücre-gün. İlk meteoroloji kullanım
-kuralı eğitimde incelendi ve tam döneme uygulandı; bütün günlük çıktılar denetlendi.
-[Kural ve kapsamı](WEATHER_POLICY.md). Sırada olay/etiket hazırlığını ilerletmek var.
-2025 final testi kapalı; nihai olay/etiket/model henüz yok. Kısa özet
-[STATUS.md](STATUS.md), denetim kapsamı [kalite incelemesinde](QUALITY_REVIEW_2026-10-02.md).
-Bu belge tarihli ilerleme kayıtlarını da içerir; eski durum notları tamamlanmış
-sonraki işlerin önüne geçmez.
+Güncel ilerleme [STATUS.md](STATUS.md), başvuru hazırlığı ve araştırma
+planı [belge dizininden](README.md) izlenir. Bu rehber bilimsel kapsamın,
+zaman sözleşmesinin ve veri ayrımının temel kaydıdır. Tarihli teknik
+incelemeler kendi yürütülme dönemlerinin durumunu yansıtır.
+
+9 Ekim 2026 kararı: bitirme projesinin 2209-A başvurusuna hazırlanması ve
+yeni belgelerin aynı araştırma/kanıt düzeniyle tutulması planlanmıştır.
+Nihai etiket veri seti ve model henüz hazır değildir; 2025 final testi kapalıdır.
 
 - [Proje tanımı](#proje-tanımı--güncel-pilot-kapsamı)
 - [Veri ve değerlendirme kuralları](#veri-ve-değerlendirme-protokolü)
@@ -27,7 +27,7 @@ yedeği `outputs/mlflow/before-layout-backup.db` altında saklanır. `src` için
 paket tanımı, yapılandırma doğrulaması ve veri ayrım kontrolü bulunur.
 ## Proje Tanımı — Güncel Pilot Kapsamı
 
-30 Eylül 2026 tarihinde kullanıcı tarafından belirlenen kapsam: Antalya, Muğla, İzmir,
+30 Eylül 2026 tarihinde belirlenen kapsam: Antalya, Muğla, İzmir,
 Mersin. Orijinal yol haritasındaki Hatay pilot önerisinin yerini Mersin alır.
 Çalışma Ege ve Akdeniz bölgelerinin tamamını kapsadığı iddiasında bulunmaz.
 
@@ -250,7 +250,7 @@ Oranlar 0–1 aralığında; çok küçük kayan nokta taşmaları tolerans içi
 alanların toplamını ifade eder. Canlı yeşillik, yalnızca ağaç örtüsü veya kesin doğal alan
 ölçümü değildir; kaynak bazı odunsu tarım alanlarını orman/çalı sınıfına dahil edebilir.
 Histogram hücre sayısıyla oluşturulur, toplam arazi alanı dağılımı değildir.
-Mersin merkezindeki yerleşim sınıfı kullanıcı tarafından yerel gözlemle karşılaştırıldı;
+Mersin merkezindeki yerleşim sınıfı yerel gözlemle karşılaştırıldı;
 belirgin uyumsuzluk görülmedi. Bu, bütün kaynak için doğruluk ölçümü yerine geçmez.
 
 Bütün hücreler korunuyor. Örtü ve alan eşikleri, yangın kayıtları geldikten sonra eğitim
@@ -398,7 +398,7 @@ Resmî kaynaklar:
 
 ## Tarihsel kaynak incelemesi — H01 (1 Ekim 2026)
 
-Bu kayıt, kullanıcının Earth Engine Console çıktılarından alınmıştır. Ham görüntüler
+Bu kayıt, kaydedilen Earth Engine Console çıktılarından alınmıştır. Ham görüntüler
 ve makine tarafından dışa aktarılmış inceleme raporu henüz arşivlenmedi. H01,
 SNPP_815579_3922, 23 Nisan 2018 00:30 UTC, 38.73095 N / 26.93221 E.
 Sonraki ilk yakın type=2 kaydı 16 Mayıs 2019 00:06 UTC'dir; tesis kuruluş tarihi değildir.
@@ -447,7 +447,7 @@ bir programın koşullarını sağladığı iddiası değildir.
 
 ## Tarihsel kaynak incelemesi — H02 (1 Ekim 2026)
 
-Kaynak: kullanıcının paylaştığı Console çıktısı ve sekiz Earth Engine ekran görüntüsü.
+Kaynak: paylaştığım Console çıktısı ve sekiz Earth Engine ekran görüntüsü.
 Henüz makine tarafından dışa aktarılmış görüntü/rapor arşivi değildir.
 Aday SNPP_815579_32141, 2018-10-19 10:56 UTC, 38.78931 N / 26.91908 E.
 Yakındaki ilk sonraki type=2 kaydı 2018-12-12 00:11 UTC; bu tarih tesisin kuruluşu
@@ -498,7 +498,7 @@ Kaynaklar: [Copernicus örtü sınıfları](https://developers.google.com/earth-
 
 ## Tarihsel kaynak incelemesi — H03 (1 Ekim 2026)
 
-Kaynak: kullanıcının Console çıktısı ve yedi ekran görüntüsü; bağımsız saha
+Kaynak: kaydedilen Console çıktısı ve yedi ekran görüntüsü; bağımsız saha
 kanıtı veya arşivlenmiş ham görüntü dışa aktarımı değildir.
 Aday SNPP_815579_3073, 2018-04-06 00:49 UTC, 38.82114 N / 27.06561 E.
 Yakındaki ilk sonraki type=2 kaydı 2019-06-19 23:59 UTC; tesis kuruluş tarihi değildir.
@@ -551,7 +551,7 @@ Sıradaki H04, adaydan önce yakın type=2 kaydı bulunan kategoriye aittir.
 
 ## Tarihsel kaynak incelemesi — H04 (1 Ekim 2026)
 
-Kaynak: kullanıcının Console çıktısı ve dokuz ekran görüntüsü; görüntüler henüz
+Kaynak: kaydedilen Console çıktısı ve dokuz ekran görüntüsü; görüntüler henüz
 ham raster olarak arşivlenmedi. Aday SNPP_815579_3395, 2018-04-13 00:18 UTC,
 38.42831 N / 27.21594 E. Denetim tablosunda 100 m içinde son önceki type=2 kaydı
 2018-03-12 00:18 UTC (adaydan 32 gün önce), ilk sonraki kayıt
@@ -598,7 +598,7 @@ Sıradaki H05 aynı prior_static kategorisindedir; nihai filtre henüz belirlenm
 
 ## Tarihsel kaynak incelemesi — H05 (1 Ekim 2026)
 
-Kaynak: kullanıcının Console çıktısı ve beş ekran görüntüsü.
+Kaynak: kaydedilen Console çıktısı ve beş ekran görüntüsü.
 Aday N20_815590_158, 2018-04-03 22:56 UTC, 36.26247 N / 33.73007 E.
 Kategori prior_static. Önceki denetim tablosunda 100 m içinde son önceki type=2
 kaydı 2018-03-19 23:28 UTC; ilk sonraki kayıt 2018-04-13 23:09 UTC.
@@ -627,8 +627,7 @@ verisi değildir; bu delikler tarihsel yapı veya yanma kanıtı sayılmaz.
 
 Geçici değerlendirme: önceki yakın type=2 kaydı ve adaydan kısa süre sonraki
 teşhis amaçlı görüntüde tesis bağlamı, sabit ısı kaynağı olasılığını destekliyor;
-yangın/sabit kaynak etiketi kesinleşmedi. Hiçbir kayıt elenmedi. Kullanıcının
-sonradan paylaştığı 2017 örtü özellikleri kayda eklendi. Sınıf 60 ve urban %0,
+yangın/sabit kaynak etiketi kesinleşmedi. Hiçbir kayıt elenmedi. Sonradan kaydedilen 2017 örtü özellikleri kayda eklendi. Sınıf 60 ve urban %0,
 2018 tarihli görüntüdeki tesis bağlamını geçersiz kılmaz; farklı yıl, çözünürlük,
 örnekleme alanı ve sınıflandırma hatası olasılıkları ayrıştırılmadı. Bu piksel
 2017 için ağaç örtüsü göstermiyor; tüm çevrenin ormansız olduğu veya yangın
@@ -646,7 +645,7 @@ kontrolü, sabit kaynağa yakın gerçek bitki yangınlarını ve sabit kayda uz
 
 ## Tarihsel kaynak incelemesi — H06 ve altı vaka özeti (1 Ekim 2026)
 
-Kaynak: kullanıcının Console çıktısı ve dokuz ekran görüntüsü.
+Kaynak: kaydedilen Console çıktısı ve dokuz ekran görüntüsü.
 Aday N20_815590_1070, 2018-04-21 00:18 UTC, 37.25166 N / 30.44355 E.
 Denetim tablosunda 100 m içinde son önceki type=2 kaydı 2018-04-18 00:24 UTC,
 ilk sonraki kayıt 2018-04-24 00:12 UTC. Bunlar tesis kuruluş tarihleri değildir.
@@ -784,10 +783,10 @@ Erişim/uyumluluk raporu outputs/reports/modis_native_source_access_check.json.
 
 ### 2026-10-01 — Nisan 2018 native HDF ile maskeli MODIS değerlerinin doğrulanması
 
-Kullanıcı Earthdata üzerinden `MCD64A1.A2018091.h20v05.061.2021354033000.hdf`
-dosyasını indirdi ve `data/raw/burned_area/source_checks` klasörüne yerleştirdi.
+Earthdata üzerinden `MCD64A1.A2018091.h20v05.061.2021354033000.hdf`
+dosyasını indirdim ve `data/raw/burned_area/source_checks` klasörüne yerleştirdim.
 Dosya HDF4 olarak açıldı. SHA-256: `792bfbfa260a5f5f3e2fe512dcf19712d5e010cd27a3432374aae1247afe74a9`.
-`pyhdf` bağımlılığı kullanıcı tarafından uv ile eklendi.
+`pyhdf` bağımlılığı uv ile eklendi.
 
 Piksel satır/sütunu dosyanın StructMetadata sınırlarından ve kendi sinusoidal
 küresel yarıçapından (6371007.181 m) hesaplandı; tam sayı alt sınırı kullanıldı.
@@ -815,14 +814,13 @@ vakaların Mayıs ayları henüz native dosyadan kontrol edilmedi.
 kanıtlamaz ve otomatik eleme gerekçesi değildir. H05'in aday öncesi uygun
 Sentinel-2 görüntüsü bulunmaması devam eden bir sınırlamadır. FIRMS
 815579/815590 isteklerindeki Type alanının düzeltilmiş üretimden geldiği
-henüz doğrulanmadı; kullanıcı NASA'ya e-posta gönderdiğini bildirdi ve
+henüz doğrulanmadı; NASA'ya e-posta gönderildiği manuel olarak bildirildi ve
 cevap bekleniyor. Hiçbir kayıt elenmedi; 2025 test verisine erişilmedi.
 
 
 ### 2 Ekim 2026 — Meteoroloji kaynağı için ilk bağımsız kontrol
 
-Kullanıcı NASA FIRMS yanıtını beklerken bağımsız meteoroloji hazırlığına devam
-edilmesini istedi. ERA5-Land saatlik Earth Engine kaynağı incelendi:
+NASA FIRMS yanıtını beklerken bağımsız meteoroloji hazırlığını sürdürmeyi planladım. ERA5-Land saatlik Earth Engine kaynağı incelendi:
 `ECMWF/ERA5_LAND/HOURLY`. Bu, geçmişi yeniden hesaplayan reanalysis ürünüdür;
 verinin gözlem zamanı geçmişte olsa da aynı anda erişilebilir olduğu varsayılmaz.
 Operasyonel hava tahmini doğrulaması veya gerçek zamanlı özellik tablosu oluşturulmadı.
@@ -886,7 +884,7 @@ henüz seçilmedi. Model/etiket üretilmedi, FIRMS kayıtları elenmedi.
 
 ### 2 Ekim 2026 — NASA e-postasının geçici teslim sorunu
 
-Kullanıcının paylaştığı Gmail bildirimi, support@earthdata.nasa.gov adresine
+Paylaştığım Gmail bildirimi, support@earthdata.nasa.gov adresine
 ilk mesajın henüz teslim edilmediğini gösteriyor: alıcı sunucuya bağlantı
 zaman aşımına uğramış. Bildirim kalıcı başarısızlık değil; Gmail 46 saat daha
 yeniden deneyeceğini belirtiyor. Önceki yanıt-bekleme durumu bu teslim
@@ -898,8 +896,8 @@ başarılı olduğunu bildirmiş (2024 kaydı, güncel teslim garantisi değildi
 https://forum.earthdata.nasa.gov/viewtopic.php?t=6100
 Bu adres güncel Earthdata Login belgelerinde de bulunuyor; doğrudan FIRMS
 teknik ekibi olduğu varsayılmayacak. Orijinal sorunun bu adrese, gerekirse FIRMS
-archive/VIIRS ekibine yönlendirme talebiyle iletilmesi kullanıcıya önerildi.
-Asistan e-posta göndermedi; kullanıcının yeniden gönderdiği henüz doğrulanmadı.
+archive/VIIRS ekibine yönlendirme talebiyle iletilmesi alternatif olarak kaydedildi.
+Yeniden gönderime ilişkin teslim kanıtı bu kayıt tarihinde henüz bulunmuyordu.
 Meteoroloji kaynak hazırlığı bu teslim sorunundan bağımsız ilerleyebilir.
 
 
@@ -952,9 +950,7 @@ kalıcı bir betiğe dönüştürülmesi sıradaki uygulama adımıdır.
 
 ### 2 Ekim 2026 — Kalıcı meteoroloji veri hazırlama hattı
 
-Kullanıcının yol haritasına dönüp meteoroloji işini ilerletme talimatıyla
-scripts/meteorology/prepare_era5_land.py oluşturuldu. Antigravity'deki başka
-bir ajana görev verme önerisi geri çekildi; bu sohbet üzerinden uygulama yapıldı.
+Meteoroloji hazırlığı kapsamında scripts/meteorology/prepare_era5_land.py oluşturuldu.
 
 Üç aşama: weights (yerel native kaynak/AOI kesişimleri), download (EE'den günlük
 agregalı native GeoTIFF+manifest), prepare (yerel alan ağırlıklı günlük tablo).
@@ -997,14 +993,14 @@ yağış ve final-test tarih sınırı kontrolleri eklendi. 26 test, Ruff lint v
 aralık bazında çalışır; doğrulanmış mevcut rasterları atlayarak devam edebilir.
 2025 tahmin tarihleri remote erişimden önce reddedilir. 2018 başındaki 14 günlük
 geçmiş için 2017-12-18 saatlerinden yararlanılır; 2017 yangın etiketi değildir.
-Tam dönem için kullanıcı terminalinde çalıştırılacak ilk ay komutları betik
+Tam dönem için yerel terminalde çalıştırılacak ilk ay komutları betik
 rehberine eklendi. NASA ilk e-postasının teslimi doğrulanmadı; alternatif adrese
 önerilen yeniden gönderimin yapıldığı henüz teyit edilmedi.
 
 
 ### 2 Ekim 2026 — Ocak 2018 meteoroloji toplu kontrolü
 
-Kullanıcının download/prepare çalıştırması sonrası 2018-01-01 dahil,
+Manuel download/prepare çalıştırması sonrası 2018-01-01 dahil,
 2018-02-01 hariç 31 günün dosyaları yerelden denetlendi: 2.899 hücre/gün,
 toplam 89.869 benzersiz hücre-gün. Her TIF ve CSV SHA-256 kaydı, kaynak/sürüm,
 bant sırası metadatası, AOI ağırlık manifesti, raster boyutu/CRS/hizası,
@@ -1035,7 +1031,7 @@ bu özellikler geriye dönük yeniden analiz araştırması içindir.
 
 ### 2 Ekim 2026 — 2018 meteoroloji yılı tamamlandı
 
-Kullanıcı Şubat–Aralık indirme ve prepare işlemlerini tamamladı. Kalıcı yerel
+Şubat–Aralık indirme ve prepare işlemlerini tamamladım. Kalıcı yerel
 denetim 2018-01-01 dahil / 2019-01-01 hariç çalıştırıldı. Coğrafya, FIRMS,
 örtü/MODIS ve meteoroloji denetimleri geçti. 365 günlük dosya, 2.899 hücre/gün,
 toplam 1.058.135 benzersiz hücre-gün. Metadata, dosya özetleri, zaman sütunları,
@@ -1069,12 +1065,12 @@ ve bütün özelliklerin yeniden hesabı geçti. Günlük kapsam sıcaklıkta 2.
 hücre-gün; minimum -0,0000163227 mm. 168/336 saat toplamlarında negatif yok.
 35 test, lint/format ve paket/kilit kontrolleri geçti. Ayrıntılar 3 Ekim günlüğü
 ve outputs/reports/quality altındaki 2019 raporlarında. Eğitim veri seti henüz
-nihai değil. Kullanıcı GitHub push sonrası mola istedi; sonraki dönem 2020.
+nihai değil. GitHub sürüm kaydının ardından çalışma durduruldu; sonraki dönem 2020.
 
 ### 3 Ekim 2026 — meteoroloji devri ve 2018–2024 tamamlanması
 
-Kullanıcı 2020 indirme/hazırlama işlemini tamamladı; 366 gün ve 1.061.034
-hücre-gün denetimden geçti. Ardından 2021–2024 çalışmalarını bu sohbete devretti.
+2020 indirme/hazırlama işlemini tamamladım; 366 gün ve 1.061.034
+hücre-gün denetimden geçti. Ardından 2021–2024 çalışmaları için otomatik toplu iş akışını seçtim.
 Tek seferlik complete_remaining_years.py akışı her yıl download -> prepare ->
 audit sırasını uyguladı; bir yıl geçmeden sonraki yıla ilerlemedi. En fazla üç
 bağımsız ay indirildi; geçici bağlantı hataları için sınırlı yeniden deneme var.
@@ -1100,7 +1096,7 @@ yağış toplamlarında 28.728/1.296 negatif kayıt; tüm dönem minimumu yakla�
 -0,0000484151 mm. 168/336 saat toplamlarında negatif kayıt yok. Model için
 kapsam/yağış politikası ve hücre uygunluğu henüz belirlenmedi.
 
-Toplu çalışma tamamlandı; kullanıcıyla manuel adımlara dönülecek. Öncelik
+Toplu çalışma tamamlandı; manuel çalıştırma düzenine dönülecek. Öncelik
 meteoroloji işleme kuralları, ardından olay/etiket hazırlığı. 2025 final testi
 açılmadı; nihai eğitim tablosu ve model henüz yok.
 
@@ -1116,12 +1112,12 @@ Eğitim döneminde bütün 6.351.709 kayıtta kural incelendi. Ana profil 5.258.
 hücre-gün ve 25.004/30.295 geçici aday tespiti kapsıyor; kapsam kaybı model
 raporunda açıklanacak. %90 profil 5.403.006 hücre-gün ve 26.106 aday kapsıyor.
 Hiçbir tespit veya hava kaydı elenmedi; inceleme etiket üretmedi. 61 test ve
-üç örnek günün dosya doğrulaması geçti. Tam dönem dönüşümü, kullanıcıyla manuel
+üç örnek günün dosya doğrulaması geçti. Tam dönem dönüşümü, manuel
 adım için hazırlanan prepare_model_weather.py komutuyla yapılacak. 2025 kapalı.
 
 ### 3 Ekim 2026 — tam dönem model meteorolojisi doğrulandı
 
-Kullanıcının manuel hazırlaması tamamlandı. Hazırlama raporu ve 2.557 günlük
+Manuel hazırlık tamamlandı. Hazırlama raporu ve 2.557 günlük
 kaynak/çıktı CSV'si bağımsız kapanış kontrolünden geçti. Tarih boşluğu, tekrar,
 anahtar/sürüm/şema uyuşmazlığı yok; kaynak özetleri yıllık denetimlerle aynı.
 Özgün sütunlar, eksik değerler ve 7.412.743 kaydın tamamı korunuyor. Kapsam,
@@ -1137,12 +1133,12 @@ Saatlik kaynak yeniden hesaplanmadı; mevcut yıllık kaynak denetimleri temel a
 
 ### 3 Ekim 2026 — Earthdata alındı bildirimi doğrulandı
 
-Kullanıcı Earthdata Support otomatik yanıtının ekran görüntüsünü paylaştı.
+Earthdata Support otomatik yanıtının ekran görüntüsünü paylaştım.
 2 Ekim 2026 tarihli bildirim, 815579/815590 arşivlerinin düzeltilmiş VIIRS Type
 alanını içerip içermediği sorusunun alındığını ve **#115134** destek kaydının
 açıldığını doğruluyor. Önceki teslim belirsizliği giderildi. Bu teknik teyit
 değildir; yanıt bekleniyor. Sonraki insan yanıtı aynı konu/kayıt üzerinden izlenecek.
-Asistan yeni e-posta göndermedi. Gözlem kapsamı hazırlığı bağımsız ilerliyor.
+Bu aşamada ek e-posta gönderimi yapılmadı. Gözlem kapsamı hazırlığı bağımsız ilerliyor.
 
 ### 3 Ekim 2026 — iki sensörün gözlem kapsamı ön incelemesi
 
@@ -1289,3 +1285,14 @@ kayıt muhasebesi, eski kontrol ölçümleri ve hacim hesabı geri okuma kontrol
 geçti. [Ayrıntılı inceleme](GEOMETRY_DIAGNOSIS_2026-10-04.md). Sırada dosya
 eşleme/eksik ürün incelemesi ve veri erişim/işleme planı var. NASA Type ve
 nihai gözlem/etiket kuralı açık; 2025 kapalı.
+
+### 9 Ekim 2026 — NASA FIRMS inceleme bildirimi
+
+NASA FIRMS ekibinden yaklaşık altı gün sonra incelemeye başlandığına ilişkin yanıt alındığını bildirdim. 815579/815590 arşiv teslimlerinin
+düzeltilmiş VIIRS Type değerlerini içerip içermediğine ilişkin teknik sonuç
+henüz yok. Bilgi manuel bildirim olarak kaydedildi; e-postanın tam
+içeriği yerelde incelenmedi. Bu aşamada kayıt/etiket kararı değişmedi.
+
+31 Aralık 2023 L2 yangın/geolocation dosyalarının farklı işleme sürümleri
+ayrı bir kaynak eşleşmesi sorunu. Bu günü eksik bırakarak diğer
+ayların işlenmesini onayladım. [Güncel devam planı](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md).

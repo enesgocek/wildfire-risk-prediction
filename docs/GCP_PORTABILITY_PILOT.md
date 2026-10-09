@@ -1,5 +1,9 @@
 # GCP üzerinde ilk kaynak doğrulama denemesi
 
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
 Bu paket bütün yılları veya paralel iş kuyruğunu çalıştırmaz. Daha önce
 Colab'da doğrulanmış **13 Ocak 2019 01:00 UTC S-NPP** geçişini, değişmeyen
 referans koduyla VM üzerinde sınar. Sonraki paralel hız denemesinden önce
@@ -21,7 +25,7 @@ VM'nin çalışma süresini durdurmaz.
 
 ## VM oluşturma ön koşulları
 
-Kullanıcının onayladığı Free trial korunur; Upgrade veya kredi dışı ödeme
+Onayladığım Free trial korunur; Upgrade veya kredi dışı ödeme
 yok. Frankfurt kotası, mevcut form ve maliyet kontrolü tamamlanmadan paket
 hazırlığı VM oluşturulduğu anlamına gelmez.
 
@@ -106,7 +110,7 @@ okumayla ayrıca doğrulandı. Bu kayıtlar yerel hazırlık kanıtıdır.
 
 ## Gerçek GCP sonucu — 6 Ekim
 
-Kullanıcı SSH kopmasından sonra bağlandı; apt update ve python3-venv başarılı.
+SSH kopmasından sonra bağlandım; apt update ve python3-venv başarılı.
 Gizli kullanıcı adı girişinde Ctrl+C ile iptal edilen denemeler başarı
 sayılmadı. Son deneme gcp_portability_passed verdi; iki çıktı received
 dizinine alınıp ayrı rapor yolunda bağımsız doğrulayıcıyla okundu.
@@ -116,6 +120,6 @@ Paket manifest kimliği, kaynak SHA'ları, tam QA, pinli paketler ve 2.899
 hücrenin bütün sütunları geçti; başarılı kaynak payload'ı 194.702.968 bayt.
 Son çalıştırmanın ortam dahil süresi 134,84 saniye, doğal işleyici süresi
 21,65 saniye. Bu süre önceki denemeler/VM boş zamanı veya toplam fatura değil.
-Negatif izin false; yalnızca tek geçiş taşınabilirliği geçti. Kullanıcı VM'nin
-Running kaldığını bildirdi. Sıradaki [bir/iki işçi denemesi](GCP_PARALLEL_BENCHMARK.md)
+Negatif izin false; yalnızca tek geçiş taşınabilirliği geçti. VM'nin
+Running kaldığını bildirdim. Sıradaki [bir/iki işçi denemesi](GCP_PARALLEL_BENCHMARK.md)
 hazır; henüz bulutta çalışmadı.

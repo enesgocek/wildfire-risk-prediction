@@ -6,7 +6,7 @@ tespit tanısıdır; henüz hücre bazında doğrulanmış gözlem maskesi veya 
 
 ## Earthdata destek kaydı
 
-Kullanıcının ekran görüntüsündeki otomatik bildirim, sorunun Earthdata Support'a
+Kaydedilen ekran görüntüsündeki otomatik bildirim, sorunun Earthdata Support'a
 ulaştığını ve **#115134** kaydının açıldığını doğruluyor (2 Ekim 2026).
 FIRMS 815579/815590 teslimlerinde Type alanının düzeltilmiş üretimden geldiği
 konusunda teknik yanıt bekleniyor. Otomatik alındı, bu sorunun cevabı değildir.
@@ -73,7 +73,7 @@ Sınırlayıcı kutu kesişimleri pilot hücreyle kesin kesişim sayılmaz.
 
 CMR'nin doğruladığı HTTPS adresleri yerel
 `outputs/reports/observation_coverage/first_l2_sample_downloads.csv` dosyasında.
-Kullanıcının indirdiği dosyalar proje kökünde
+İndirdiğim dosyalar proje kökünde
 `data/raw/firms_observation/sample_2019014_1018/` altında tutuluyor. Earthdata
 oturumu gerekebilir; giriş bilgileri kod veya Git'e yazılmayacak.
 
@@ -89,8 +89,7 @@ günlük negatif için eşik seçilmeyecek. Gözlenmiş yangın olmayan piksel d
 
 Yangın/konum dosyalarının boyutları CMR ile eşleşti. Konum dosyasının NASA MD5
 değeri doğrulandı; yangın dosyasının CMR kaydında sağlama değeri yok, yerel SHA256
-kaydedildi. Bu bütünlük denetimi antivirüs taraması değildir; kullanıcı kendi
-taramasında tehdit bulunmadığını bildirdi.
+kaydedildi. Bu bütünlük denetimi antivirüs taraması değildir; yerel antivirüs taramasında tehdit bulunmadığı ayrıca manuel olarak bildirildi.
 
 Yangın ürünü indirilen konum dosyasını doğrudan üretim girdisi olarak gösteriyor.
 Ürünler 14 Ocak 2019 10:18–10:24 UTC ve 6.496 × 6.400 pikselde eşleşiyor.
@@ -124,7 +123,7 @@ karşılaştırılacak; günlük negatif etiket için henüz karar verilmedi.
 
 ## İkinci çiftin piksel ve QA sonucu
 
-Kullanıcının indirdiği 10:24–10:30 UTC çiftinin boyut, zaman ve gerçek konum
+İndirdiğim 10:24–10:30 UTC çiftinin boyut, zaman ve gerçek konum
 girdisi eşleşmesi doğrulandı. Konum dosyası NASA MD5 kaydıyla aynı; yangın
 dosyasında resmî CMR sağlama değeri yok, yerel SHA256 kaydedildi. 6.464 × 6.400
 boyutundaki dizilerde bütün geçişin 7 yangın kaydıyla doğal satır/sütun ve koordinat
@@ -204,7 +203,7 @@ Sonraki aşama aynı günün NOAA-20 geçişleri ve kontrol günü karşılaşt�
 
 ## Kalan iki S-NPP çiftinin sonucu
 
-Kullanıcı her klasöre doğru yangın/geolocation çiftini koydu. Dört dosyanın
+Her klasöre doğru yangın/geolocation çiftini koydum. Dört dosyanın
 kimlik/boyutu CMR ile, iki konum dosyasının MD5 özeti NASA kaydıyla eşleşiyor.
 Maskelerin gerçek geolocation üretim girdileri ve zamanları eşleşti. Bütün
 geçişteki 12:00 için 37, 22:42 için 410 seyrek yangın kaydının doğal dizi
@@ -240,7 +239,7 @@ günlük durumu `unknown`. NOAA-20 ile devamındaki karşılaştırma aşağıda
 14 Ocak 2019 için üç NOAA-20 çifti CMR ile eşleşiyor: **09:30, 11:12, 23:30 UTC**.
 Altı dosyanın resmî metadata kopyası kaydedildi; yangın ve konum katalog
 poligonlarının tamamı gerçek pilot poligonuyla kesişiyor. Bu ön seçimin ardından
-altı dosya kullanıcı tarafından indirildi ve aşağıdaki gerçek piksel/QA denetimi
+altı dosya manuel olarak indirildi ve aşağıdaki gerçek piksel/QA denetimi
 tamamlandı. Konum dosyalarının beklenen MD5 değerleri metadata'da mevcut.
 Yangın ürünleri `VJ114IMG.002`, konum ürünleri `VJ103IMG.021` (CMR sürümü 2.1).
 
@@ -320,7 +319,7 @@ doğrulanmış orman yangını veya nihai pozitif etiket kabul edilmez.
 `G2923099810-LPCLOUD` yangın ve `G2126421215-LAADS` konum metadata'sı alındı.
 Her iki katalog poligonu aday konumunu kapsıyor; aday zamanı ürün aralığında.
 Konum dosyasının beklenen MD5 değeri `0ac8235a81a170a839c675a5c3f64d06`.
-İki dosya kullanıcı tarafından `data/raw/firms_observation/sample_2019013_0100/`
+İki dosya manuel olarak `data/raw/firms_observation/sample_2019013_0100/`
 klasörüne indirildi. Kontrol seçimi kaynak aday/metadata özetleriyle kaydedildi.
 Gerçek piksel/QA ve FIRMS eşleşmesi aşağıda. NASA Type alanı hakkındaki teknik
 yanıt hâlâ bekleniyor.

@@ -1,12 +1,11 @@
 # Uydu verisini sınırlı diskle işleme seçenekleri — 4 Ekim 2026
 
-## Kullanıcının sınırı ve karar yetkisi
+## Depolama sınırı ve kapsam kararı
 
-Kullanıcı 67 GB boş alan bildirdi; en az 40 GB boş alan kalmasını istiyor.
+67 GB boş alan bildirdim; en az 40 GB boş alanın korunmasını planladım.
 Yeni indirme, geçici çalışma dosyaları ve çıktılar için toplam ek alan üst
 sınırı **27 GB**. İnternet hızlı; bulutta işleme seçeneği de değerlendirilecek.
-Bu sınır toplam internet trafiğiyle aynı değildir. Kullanıcı kapsam, bilimsel
-yöntem ve hizmet/maliyet kararlarından önce seçenekleri görmek istiyor.
+Bu sınır toplam internet trafiğiyle aynı değildir. Kapsam, bilimsel yöntem ve hizmet/maliyet kararları alternatifler karşılaştırılarak alınacaktır.
 Şehir/yıl/sensör azaltılması, veri ürünü değiştirilmesi veya ücretli hizmet
 kullanımı seçilmedi. Büyük indirme ve bulut işi başlatılmadı.
 
@@ -32,7 +31,7 @@ Hiçbiri otomatik negatif yangın etiketi değildir.
 | --- | --- | --- |
 | Ücretsiz Colab'da küçük partiler | Bilgisayara yalnızca doğrulanmış çıktılar; kalıcı bulut sonuçları için kota gerekir | Şehir/yıl azaltmak gerekmez. Oturum kaynakları garanti değil; kalıcı ilerleme kaydı ve yeniden başlatma gerekir. |
 | Bilgisayarda küçük partiler | Geçici alanı sınırlayabiliriz; ücretli bulut gerekmez | Kapsam korunabilir; toplam indirme trafiği azalmayabilir. Sonuç büyüklüğü ve RAM küçük örnekte ölçülmeli. |
-| Ücretli bulut hesaplama | Ham veri bilgisayara gelmez; hesaplama/depolama maliyeti var | Uzun işler için daha fazla kontrol; fiyat ve hesap açma kararı kullanıcıya ait. Önce pilot maliyet ölçümü gerekir. |
+| Ücretli bulut hesaplama | Ham veri bilgisayara gelmez; hesaplama/depolama maliyeti var | Uzun işler için daha fazla kontrol; fiyat ve hesap açma kararı proje yürütücüsüne ait. Önce pilot maliyet ölçümü gerekir. |
 
 Ham arşivi başka bir bulut diske tamamen kopyalamak tek başına verimli çözüm
 değildir. Tercih edilecek yol, kaynak dosyalarını geçici veya uzaktan okuyup
@@ -61,7 +60,7 @@ Doğrudan S3 erişimi için aynı AWS bölgesi gereksinimi ayrıca dikkate alın
 [Colab resmi açıklaması](https://research.google.com/colaboratory/faq.html)
 ücretsiz kaynakların ve oturum sürekliliğinin garanti olmadığını belirtiyor.
 
-## Kullanıcının seçimi sonrası küçük pilot
+## Kapsam seçimi sonrası küçük pilot
 
 1. Mevcut, zaten denetlenmiş tek bir eğitim dosya çifti seçilir; tam dönem başlamaz.
 2. Seçilen ortamda kaynak kimliği ve gerekli alanlarla hesap yeniden üretilir.
@@ -71,11 +70,11 @@ Doğrudan S3 erişimi için aynı AWS bölgesi gereksinimi ayrıca dikkate alın
    Sonuçlar yeniden okunup kaynak/çıktı özetleri ve kayıt sayıları kontrol edilir.
 4. Geçici kaynak ancak çıktı doğrulanıp yeniden üretme manifesti kaydedildikten
    sonra temizlenir. Mevcut elle indirilen örnekler bu planla otomatik silinmez.
-5. Pilot bulguları ve güvenlik paylı kapasite planı kullanıcıya sunulur; sonra
+5. Pilot bulguları ve güvenlik paylı kapasite planı çalışma planında değerlendirilir; sonra
    tüm dönem için seçim yapılır. Yaklaşık ayak izi ve nihai etiket konuları açık kalır.
 
-4 Ekim'de tek geçiş Colab pilotu gerçek NASA erişimiyle geçti. Kullanıcı iki
-sensörlü bir günlük genişlemeyi onayladı. 1,46 GB kaynak sırayla bir çift
+4 Ekim'de tek geçiş Colab pilotu gerçek NASA erişimiyle geçti. Iki
+sensörlü bir günlük genişlemeyi onayladım. 1,46 GB kaynak sırayla bir çift
 halinde işlenecek; doğrulanmış küçük sonuçlar yazıldıktan sonra geçici ham
 kopyalar temizlenecek. [Çalıştırma ve sınırlar](COLAB_DAY_PILOT.md).
 Tam dönem platformu ve kalıcı çıktı depolama kararı hâlâ açık. Yerel partili

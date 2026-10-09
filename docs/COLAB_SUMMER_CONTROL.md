@@ -1,6 +1,10 @@
 # Colab yaz kontrolü — seçilen B kapsamı
 
-Kullanıcı 5 Ekim'de B seçeneğini seçti: **16 Temmuz 2023, S-NPP ve NOAA-20,
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+5 Ekim'de B seçeneğini seçtim: **16 Temmuz 2023, S-NPP ve NOAA-20,
 altı dosya çifti / 12 kaynak dosyası**. CMR metadatasıyla doğrulanan toplam
 1.097.404.203 bayt; en büyük kaynak çifti 187.472.929 bayt. Hazırlık paketi
 yaklaşık 2,95 MB. Yaz ham kaynakları yerel bilgisayara indirilmedi.
@@ -37,7 +41,7 @@ Drive/kış pilotlarının kayıtları değiştirilmez.
 
 Parça, sistemin bellek/geçici disk kullanımını sınırlayan bir kaynak çifti.
 Grup, tek çalıştırmanın otomatik tamamladığı çiftler listesi. Bu denemede bir
-grup altı çift; kullanıcının altı ayrı komut çalıştırması gerekmiyor.
+grup altı çift; altı ayrı komut çalıştırmak gerekmiyor.
 
 Deneme doğrulandıktan sonra hafta/ay grupları planlanabilir. Büyük grupta da
 birer çift işlemek ve her çiftte kayıt almak, ham dosyaları aynı anda diskte

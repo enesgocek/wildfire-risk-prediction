@@ -77,5 +77,5 @@ Yerel çıktılar `outputs/reports/observation_coverage/` altında:
 
 CSV yaklaşık 1,45 MB; büyük ham arşiv indirilmedi. Sırada eğitim örneklerinde
 tarama kalitesi ve gözlem zaman boşlukları var. Bu incelemeler ve daha geniş
-eğitim örnekleri sonrasında üretim yöntemi/eşik seçenekleri kullanıcıya
-sunulacak; bu aşamada yöntem kararı verilmedi.
+eğitim örnekleri sonrasında üretim yöntemi/eşik seçenekleri
+değerlendirilecek; bu aşamada yöntem kararı verilmedi.

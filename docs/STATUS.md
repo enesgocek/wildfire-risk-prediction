@@ -1,362 +1,103 @@
-# Kısa proje durum raporu — 7 Ekim 2026
+# Proje durum raporu — 10 Ekim 2026
 
-## Amacımız
+Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
+ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
-Antalya, Muğla, İzmir ve Mersin'de, geçmiş yangın tespitleri, hava koşulları,
-bitki örtüsü ve arazi bilgilerini kullanarak sonraki 24 saat için yangın riski
-üreten bir model ve risk haritası geliştirmek. Model kesin yangın tahmini
-yapmayacak; hedefimiz ölçülmüş ve doğrulanmış bir risk olasılığı sunmak.
+## Güncel aşama
 
-## Bugüne kadar yaptıklarımız
+10 Ekim'de paylaşılan uzak log/progress, V2 devam oturumunun `running` ve
+`remaining_months` aşamasında olduğunu gösteriyor. Bu oturumda Mayıs–Kasım
+2023 yedi ay doğrulanmış/yeniden kullanılmış; Aralık 2023 1–30 günleri
+doğrulanmış gün listesinde. Yeni çift sayacı bu çıktı anında sıfır; önceki
+kayıtlar yeniden hesaplanmadan kontrol ediliyor. Liste doğrulama ilerledikçe
+genişliyor; önceki ayların silindiği veya bütün sonuçların yerel kabul aldığı
+anlamına gelmez. Durma sınırı 10 Ekim 2026 04:43:15 UTC (07:43:15 Türkiye).
+Bu bilgi kullanıcı tarafından paylaşılan uzak çıktıdır; canlı API sorgusu değildir.
 
-- Python ortamını, deney takibini ve Earth Engine erişimini kurduk.
-- Dört ili 2.899 coğrafi hücreye ayırdık; sınırları ve alan hesaplarını doğruladık.
-- NASA FIRMS'ın iki uydu arşivini aldık; 2018–2024 için 33.255 aday tespiti
-  kaynak kayıtlarıyla eşleştirdik. Bu sayı bağımsız yangın sayısı değildir.
-- Aynı yangının tekrarlarını birleştirmek için dokuz gruplama ayarını inceledik.
-  Sanayi kaynaklarıyla karışabilecek altı örneği tarihsel görüntülerle araştırdık.
-- 2017 arazi örtüsü oranlarını hesapladık; modelde kullanım kararı henüz verilmedi.
-- Meteoroloji hazırlama hattını kurduk. 2018–2024 döneminin 2.557 günü ve
-  7.412.743 hücre-gün kaydı doğrulandı. 13 hava özelliği hazır; 6.351.709 kayıt
-  eğitim, 1.061.034 kayıt doğrulama döneminde. 2025 final testi kapalı tutuluyor.
-- İlk meteoroloji kullanım kuralını hazırladık: tam alan ana deney, %90 alan ayrı
-  duyarlılık deneyi. Küçük negatif yağış yeni sütunda işleniyor; ham veri korunuyor.
-  Eğitim incelemesi ve tam dönem uygulaması tamamlandı; bütün günlük kaynak ve
-  çıktı dosyaları bağımsız kapanış kontrolünden geçti. Hiçbir kayıt silinmedi.
+VM çalışırken bağımsız yerel özellik hazırlığı sürüyor. [Veri setine geçiş
+planı](DATASET_READINESS_2026-10-10.md), hazır parçaları, bitki örtüsü ölçeklemesini
+ve olay/etiket/birleştirme kabul adımlarını ayırır. 2.899 hücrede tek eğitim
+kesim anının 30/60 günlük bitki örtüsü denemesi tamamlandı: 5.798 özet, 92 ham
+kayıt ve bağımsız geri okuma; önceki örneğin aynı tarih/penceredeki 64 satırı
+eşleşti. [Tam grid denemesi](VEGETATION_FULL_GRID_2026-10-10.md) günlük/aylık
+serinin tamamlandığı anlamına gelmez. Bir eğitim ayının haftalık kesimleri sıradadır.
 
-## Şu anki aşama
+## Önceki oturumun kapanış incelemesi — 9 Ekim
 
-Kullanıcı küçük gün örneklemini ana plan olarak seçmedi; bütün eğitim
-aylarıyla devam etmeyi istedi. 2018–2023'ün 72 ayından Temmuz 2023 hazır,
-kalan 71 ay / 18.441 nominal çift otomatik GCP kuyruğunda. İlk ay Ağustos
-2023. Gün/ay başına ayrı komut yerine Drive'a doğrulanmış kayıt ve aynı
-paketle devam etme uygulanır. İlk uzun çalışma için 8 saat / Stop önerildi;
-VM ayarı kullanıcı tarafından değiştirilecek, yeni üretim henüz başlamadı.
-Free Trial ve TRY13,623 kredi kullanıcı tarafından teyit edildi; canlı
-Billing araçla okunamadı, ücretli yükseltme yapılmadı.
-[Üretim paketi ve sıralı başlatma](GCP_PRODUCTION_RUN.md).
-Önceki 7/14/21 gün incelemesi yalnızca tarihsel alternatif olarak korunur;
-model yeterliliği kanıtı değildir.
+Kaynak uyuşmazlığına duyarlı devam oturumu kapandı. Paylaşılan Cloud Shell
+instance sorgusunda VM `TERMINATED`; 9 Ekim 2026 10:39:32–18:13:05 UTC arasında
+yaklaşık 7 saat 33 dakika çalışmış. Son launcher/progress normal rezerv
+duruşu yerine `failed_checkpoints_retained`, `RuntimeError` bildiriyor;
+başarısız ay Kasım 2022, kaydedilen son aşama `pair_publication`.
+Kapatma isteği başarılı görünmüş; temel hata nedeni henüz doğrulanmadı.
+İndirilen teşhis arşivinde Kasım planı ve kalan 19 tam çift ZIP'in bilimsel
+geri okuması geçti; 10 görev tamamlanmamış. Kaydedilmiş disk/RAM rezerv
+ihlali yok. Arşivde çocuk hata ayrıntısı bulunmadı. İndirilen salt okunur Drive
+teşhisi geçti: Kasım manifesti eşleşiyor, kota yeterli; 19 yerel çift henüz
+uzak payload/completion olarak yayımlanmamış. Teşhis bytes/hash'leri yerel
+arşivle eşleştirildi. Geçmiş hata nedeni açık; tekrar hatada güvenli tanı
+kaydeden ayrı V2 devam sürümü hazırlandı. 9 Ekim'deki yerel hazırlık sırasında
+gerçek yeni oturum henüz başlamamıştı; sonraki uzak durum yukarıda ayrı kaydedildi.
+Son uzak progress Aralık 2022–Kasım 2023 on iki tam ay listeliyor;
+Kasım 2022 1–8 ve Aralık 2023 1–30 günleri de kayıtlı. Bu yeni oturumun
+tam aylık çıktıları henüz yerelde ayrıca kabul edilmedi.
 
-7 Ekim kapanışı: üretim hâlâ başlatılmadı. 8 saat ilk uzun çalışma için üst
-sınırdır; toplam kuyruk bitiş garantisi değildir. Doğrulanmış çift/gün/ay
-kayıtları sonraki oturumda atlanır; kesintide henüz kalıcı kaydı doğrulanmamış
-son işler yeniden gerekebilir. Başlatıcı terminalden bağımsız çalışır; bildirim
-göndermez. İlk kayıt ve oturum sonu VM durum kontrolü gerekir. Sonraki süre
-gerçek üretim ölçümüyle seçilecek; otomatik VM Start ve ücretli Upgrade yok.
-Sonuçlar bağımsız kopyayla doğrulandıktan sonra VM/disk ve diğer oluşturulmuş
-kaynaklar kaldırılacak, proje billing bağlantısı devre dışı bırakılacak ve
-ilgili Cloud Billing hesabı kapatılacak.
-[İş sonu temizlik planı](GCP_FINAL_CLEANUP.md).
-Yarın devam noktası: kapalı VM'de 8 saat / Stop / restart Off ayarını doğrulama,
-Start sonrası yeni Google son zamanını alma, hazır üretim ZIP'ini uygulama
-ve ilk gerçek kalıcı kaydı denetleme. Canlı kaynak durumu son kullanıcı
-bildirimine dayanır; bu kapanışta yeni bulut işlemi yapılmadı.
-7 Ekim kapanış denetimi: tam kümede 512 test başarılı; Ruff kod denetimi,
-158 Python dosyası biçim kontrolü ve donmuş üretim paketi bütünlüğü geçti.
+Son paylaşılan oturum sayacı 1.989 yeni çift ve 10 yeniden kullanılan çift;
+250 gün bu oturumun doğrulanan gün listesinde. Önceki tam aylara ait günler
+bu oturum sayacında ayrıca yer almıyor.
+Uzak ilerleme kaydındaki durma zamanı 9 Ekim 2026 18:39:24 UTC
+(21:39:24 Türkiye saati). Sekiz saatlik sınır, bütün veri setinin bitiş tahmini değildir.
+[Çalışma ve kaynak erteleme rehberi](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md).
+[Kapanma incelemesi ve dosya toplama adımları](GCP_CONTINUATION_FAILURE_2026-10-09.md).
+[V2 devam adımları ve karar sınırı](GCP_SOURCE_AWARE_V2_2026-10-09.md).
 
-GCP → Drive kalıcılık kontrolünün V2 sonucu yerelde doğrulandı. İlk çalışmada
-ZIP MIME etiketi kontrolü düzeltildi; V2 gerçek Drive'a kaydetme, tamamlanma
-öncesi kesinti ve ayrı süreçte geri yükleme kontrolünü geçtiğini bildirdi.
-Ürün 3,98 MB; 5+1 bilimsel geri okuma, farklı PID 1327/1336, hazırlanmış
-paket/manifest/ürün SHA ve ZIP CRC eşleşti. Yeni ham veri/üretim ayı yok.
-Yerelde remote payload tekrar indirilmedi; SSH kopması veya VM Stop/Start
-sonrası resume sınanmadı. Kullanıcı sonuçtan sonra VM'yi Stop yaptığını
-bildirdi. Süre/disk/ödeme ayarı değişmedi. Uzun ay kuyruğu/günlük birleşim
-GCP sarmalayıcısı hazırlandı; yerel kontroller gerçek yeni VM üretimini
-başlamış veya kusursuzluğu kanıtlamış saydırmaz.
-[Sonuç ve kapsam](GCP_DRIVE_PROOF_RESULTS.md),
-[MIME düzeltmesi](GCP_DRIVE_MIME_REPAIR.md).
+31 Aralık 2023'te `SNPP:2023365.0106` ve `SNPP:2023365.1048` için gerçek
+geolocation işleme sürümü uyuşmazlığı açık. Gün ertelendi; Aralık tam ay
+sayılmıyor ve `full_training_complete=false` korunuyor. NASA FIRMS Type
+yazışması ayrı bir konudur; inceleme bildirimi teknik teyit değildir.
 
-Veri toplama ve kalite kontrolündeyiz. Nihai yangın olay kataloğu, günlük yangın
-etiketleri ve eğitim tablosu henüz hazır değil; model eğitimine başlamadık.
-NASA'nın FIRMS tür alanına ilişkin açıklaması açık konu. Kullanıcının paylaştığı
-Earthdata otomatik alındı bildirimi, talebin destek kaydına ulaştığını doğruluyor:
-**#115134**, 2 Ekim 2026. Teknik yanıt bekleniyor; teslim belirsizliği artık yok.
+## Tamamlanmış altyapı ve kanıtlar
 
-5 Ekim'de kullanıcı ayrıntılı yangın çıkış nedeni zenginleştirmesini erteleyip
-mevcut hedefle devam etmeyi seçti. Bilinmeyen neden doğal yangın sayılmayacak;
-neden eksikliği raporun sınırlaması olarak tutulacak. Veri hazırlama hedefi aynı.
-Yaz kontrolü envanteri hazır: Colab için 0,35 / 1,10 / 4,02 GB alternatifler;
-Kullanıcı tek eğitim günü ve iki sensör/gündüz-gece içeren 1,10 GB B seçeneğini
-seçti ve Colab işi tamamlandı. Altı çift / 17.394 hücre-çift satırı yerel
-sonuç denetiminden geçti. 1,10 GB ham kaynak Colab'a, 21,34 MB sonuç yerel
-bilgisayara geldi. FIRMS n/h kayıtları doğal sınıflarla güven/hücre bazında
-tam eşleşti; 46 termal tespit bağımsız yangın sayısı değil. Günlük geometrik
-birleşim ve küçük sonuç formatı bağımsız kontrolden geçti. Kullanıcı Temmuz
-2023 aylık grubunu seçti ve tamamladı: 264 yeni çift ve hazır altı çift,
-31 gün, 89.869 hücre-gün kaydı yerel tablo/kaynak/zaman denetiminden geçti.
-48,30 GB yeni çift kaynak boyutu Colab kapsamı; gelen küçük ZIP 16,89 MB.
-25 günde bulut sınıfı merkezi de görüldü. NOAA-20'nin 19–22 Temmuz 2023
-günlerindeki 10 geçişte, doğal ürünün 61 termal kaydı FIRMS arşivinde yok;
-NASA'nın resmî eksik veri tablosu aynı dört günü listeliyor. Arşiv boşluğu
-kalite bulgusu olarak tutuldu, kaynaklara kayıt eklenmedi. Günlük durum
-unknown/negatif izin false; nihai yangın etiketi henüz üretilmedi.
-[Aylık sonuç ve arşiv boşluğu](COLAB_MONTH_RESULTS_2023_07.md).
-[Aylık işin çalıştırılması ve sınırlar](COLAB_MONTH_2023_07.md).
-Kullanıcı mevcut Google Cloud deneme kredisini paralel CPU işlerine ayırmayı
-önerdi. 6 Ekim ekranında 13.650 TL kalan kredi, 26 Ekim bitişi ve Free trial
-account görünüyor. Kullanıcı hesabı yeniden açtı; yeni Overview ekranında
-Free trial ve kredi korundu, kapalı uyarısı yok. Terminalde global CPU limiti
-32, us-central1 E2 limiti 24 vCPU ve her iki kullanım 0 doğrulandı. Kullanıcı
-Compute Engine API'sini etkinleştirdi. VM/disk envanteri terminal ve web
-ekranlarında boş doğrulandı. Sıradaki kontrol makine yapılandırması ve fiyat;
-önerilen 8 vCPU denemesi kota içinde, henüz başlatılmadı.
-Bulut kaynağı, harcama veya ücretli hesap
-yükseltme başlatılmadı. Kullanıcı cebinden ödeme çıkmamasını kesin sınır
-olarak belirtti; ücretli yükseltme/kredi dışı kullanım yapılmayacak.
-[Krediyle hızlandırma seçenekleri](CLOUD_CREDIT_OPTIONS_2026-10-05.md).
-[GCP ayarları](GCP_CPU_PREFLIGHT.md): kullanıcı aynı gece devam ederek
-Frankfurt europe-west3-c / e2-standard-8 / Ubuntu 24.04 / 30 GB VM oluşturdu.
-2 saat/Stop, restart Off, No backups ayarları Equivalent code ile doğrulandı;
-oluşturma Google'ın kota/kaynak denetimini geçti. Yaklaşık 0,35 USD/saat
-form tahmini toplam harcama tavanı değildir; Free trial/Upgrade yasağı sürüyor.
-[Tek geçiş GCP sonucu](GCP_PORTABILITY_PILOT.md) bağımsız yerel kontrolden
-geçti: 194,70 MB iki kaynak, QA ve 2.899 hücrenin bütün sütunları referansla
-tam eşleşti. Son çalıştırmanın kurulum dahil süresi 134,84 saniye; VM'nin
-önceki denemeleri/boş bekleme ve toplam faturalama süresi değil.
-[Bir/iki işçi denemesi](GCP_PARALLEL_BENCHMARK.md) de tamamlandı ve 42,02 MB
-sonuç bağımsız yerel kontrolden geçti. Aynı altı yaz geçişi 432,39 / 229,29
-saniye: 1,886 kat hızlanma, %46,97 süre azalması. Kaynak/QA ve sayım/tarama
-CSV'leri Colab referansıyla tam eşleşti. İki GCP kolunun alan sütunları ve
-kaydedilmiş geometrileri de tam eşit. Colab'a göre çok küçük sayısal alan/
-sınır farkları ölçülüp açık toleranslarla ayrı raporlandı; bit eşitliği veya
-fiziksel ayak izi doğruluğu iddia edilmedi. Yeni yerel ham indirme veya üretim
-ayı yok; bütün yıllara hız/bütçe oranı uygulanmadı. Kullanıcı dosyayı aldıktan
-sonra VM'yi Stop yaptığını bildirdi; uzaktan durum/fatura okunmadı, boot disk
-silinmedi. Üretim kuyruğu ve VM dışı kalıcı kayıt sırada. Güncel tam test kümesi
-386 başarılı; Ruff kod/128 Python dosyası biçimi geçti.
+| Alan | Durum | Sınır |
+|---|---|---|
+| Coğrafi altyapı | Dört il ve 2.899 hücre hazır | Model için bitki örtüsü uygunluk seçimi açık |
+| Meteoroloji | 2018–2024; 2.557 gün, 7.412.743 hücre-gün denetlendi | Eğitim 6.351.709; doğrulama 1.061.034; gerçek zaman erişimi doğrulanmadı |
+| Örtü ve arazi | 2.899 statik hücre; 32 hücrede mevsim denemesi ve 2.899 hücrede tek eğitim tarihinin 30/60 günlük 5.798 bitki örtüsü özeti denetlendi | Bütün dönem günlük seri ve habitat kararı tamamlanmadı; tarihsel erişim zamanı bilinmiyor |
+| FIRMS | İki sensörden 33.255 aday tespit | Bağımsız yangın sayısı veya nihai etiket değil |
+| Gözlem alanı | Kaynak/alan/tarama tanıları ve bulut üretim hattı mevcut | Yaklaşık geometri; negatif etiket izni yok |
+| Hızlandırma | Aynı VM baz ortalamasına karşı 1,4655 kat throughput | Üç günlük deney; tüm dönem veya donanım etkisi garantisi değil |
+| Model | Henüz eğitilmedi | Başarı yüzdesi veya operasyonel kullanım iddiası yok |
 
-Uzun üretim için [süre/kayıt tasarımı](GCP_PRODUCTION_READINESS.md) incelendi:
-benchmark üretim/resume kodu değildir, Colab ayı sabit dizinlere bağlıdır.
-Yeni sağlayıcı bağımsız kayıt çekirdeği ve gerçek alınmış GCP ürünüyle yerel
-kesinti/yeniden yükleme provası geçti; tamamlanma kaydı en son yayımlanıyor.
-Altı bilimsel geri okuma, 21 yeni koruyucu test, toplam 407 test ve Ruff/132
-dosya başarılı. VM dışı depo bağlantısı, gerçek restore, ayrılmış launcher ve
-yeni üretim işçisi açık; kusursuzluk/tam dönem kapasite iddiası yok. İlk depo
-kanıtında mevcut 2 saat sınırı korunacak; sonrasında 6/8 saat seçenekleri
-ölçümle seçilecek. Ayar değişmedi, VM yeniden başlatılmadı. Drive/Cloud Storage
-seçimi kullanıcıya soruldu; sağlayıcıya bağlı çalışma henüz uygulanmadı.
-[Gerçek sonuç ve seçenekler](COLAB_SUMMER_RESULTS_2026-10-05.md).
-[Yeni notebook ve otomatik kayıt](COLAB_SUMMER_CONTROL.md).
-[Seçenekler, açık eşleşmeler ve sonraki iş](SUMMER_CONTROL_OPTIONS_2026-10-05.md).
+Birincil rapor bağlantıları [kanıt dizininde](research/EVIDENCE_REGISTER.md).
+[Arazi hazırlığı ve bitki örtüsü örneği](LANDSCAPE_PREPARATION_2026-10-09.md)
+yerelde tamamlandı; VM'deki yangın gözlem üretiminden bağımsızdır.
+[Mevsim ve görüntü yaşı karşılaştırması](VEGETATION_WINDOW_REVIEW_2026-10-09.md)
+da yerelde denetlendi. 30 ve 60 günlük ayrı aday özelliklerin tek tarihte
+geniş kapsam denemesi 10 Ekim'de geçti; bir eğitim ayı için günlük eşleştirme
+denemesi sıradadır. Bu çalışma bütün dönem veri hazırlığı olarak sayılmadı.
+Üretim boyunca `daily_observation_status=unknown` ve
+`negative_label_permitted=false` geçerli. 2025 final testi kapalıdır.
 
-## Bundan sonra
+## Sonraki aşamalar
 
-1. FIRMS tür alanının üretim geçmişini ve olay gruplama kurallarını kesinleştirip
-   yangın tespitlerini olaylara dönüştürerek günlük etiketleri hazırlayacağız.
-   Gözlem eksikken “yangın tespit edilmedi” kaydını otomatik negatif saymayacağız.
-2. Geçmişe uygun bitki örtüsü, yükseklik ve eğim özelliklerini ekleyeceğiz.
-   Veri kaynaklarının gözlem ve yayımlanma zamanlarını kontrol edeceğiz.
-3. Veri setini sürümleyip zaman/mekân ayrımlarını ve bilgi sızıntısını test edeceğiz.
-   Önce basit modelleri karşılaştıracak, olasılıkları kalibre edeceğiz.
-4. Model kararları sabitlendikten sonra 2025 final testini açacak; sonuçları
-   API, harita ve bitirme raporuyla sunacağız. Daha karmaşık modeller katkısı
-   gösterilirse eklenecek.
+1. Oturum sonu raporlarını ve sonuçları bağımsız geri okumayla kontrol etmek.
+2. Eksik kaynakları ayrı izleyerek kalan eğitim aylarını tamamlamak.
+3. Olay gruplaması, gözlem belirsizliği ve negatif etiket kuralını gerekçelendirmek.
+4. Etiket/özellik/split manifestlerini ve sızıntı kontrollerini tamamlamak.
+5. Temel model karşılaştırmalarına, kalibrasyona ve hata analizine geçmek.
 
-## Son kapanış denetimi — 6 Ekim
+## Başvuru ve kaynak yönetimi
 
-345 test yeniden geçti; Ruff kod kontrolü ve 118 Python dosyasının biçimi
-başarılı. Ortamın 119 paketi uyumlu. Temmuz 2023 gelen ZIP'i güncel
-doğrulayıcıyla yeniden okundu: 31/31 gün, kaynak/kod kimlikleri ve kompakt
-sayısal/zaman kontrolleri başarılı, ZIP SHA değişmedi. Ham kaynaklar yeniden
-işlenmedi; uzak Drive veya tam geometri yeniden hesaplaması iddia edilmedi.
-Git aday dosyalarında tanımlı kimlik bilgisi örüntüsü veya büyük/ham artefakt
-bulunmadı; yerel doküman bağlantıları ve Git fark biçimi kontrol edildi.
+2209-A başvurusunun bitirme danışmanıyla hazırlanması; başvuru metnine yaklaşık
+1–2 hafta sonra başlanması planlanıyor. Şu anda başvuru yapılmış veya danışman
+onayı alınmış değil. [Hazırlık planı](research/2209A_PREPARATION.md).
 
-## Önceki kontrol kayıtları
+Free Trial dışına çıkılmaması ve kişisel ödeme oluşmaması sınırı korunuyor.
+VM Stop, disk ve diğer kaynakların silindiği anlamına gelmez. Kalıcı sonuçlar
+doğrulandıktan sonra [tam kaynak temizliği](GCP_FINAL_CLEANUP.md) uygulanacak.
 
-Mevcut coğrafya, FIRMS kaynak eşleşmeleri, gruplama kayıt bütünlüğü, örtü oranları,
-MODIS çalışma kopyaları ve 2018–2024 meteoroloji hesapları kontrolleri geçti.
-Yaz paketi hazırlığı aşamasındaki tam kümede 308 test ve kod/biçim kontrolleri başarılı. Önceki ortam/kilit incelemesi de
-geçmişti. Yanlış tarih/sürüm/özellik sırası taşıyan dosyalar reddediliyor;
-sıcaklık, rüzgâr ve toprak nemi tutarlılığı yıllık denetime eklendi.
-Ayrıntılı kapsam: [kalite incelemesi](QUALITY_REVIEW_2026-10-02.md).
+## Önceki kayıtlar
 
-Tüm dönemde günlük 189 hücrede veri eksik; sıcaklık kapsamı 310 hücrede kısmi.
-Toplam 483.273 kayıtta eksik hava özelliği var; 6.929.470 kayıtta 13 özellik
-dolu. Bu sayılar ara meteoroloji tablosunundur; nihai model uygunluğu değildir.
-Çok küçük negatif yağış değerleri korunup raporlandı: 24 saat toplamlarında
-28.728, 72 saat toplamlarında 1.296 negatif hücre-gün kaydı var.
-Mevcut kontrollerin geçmesi, henüz tamamlanmamış veri setinin kusursuz olduğu
-anlamına gelmez. Açık kalite konuları çözülmeden eğitim verisini kesinleştirmeyeceğiz.
-
-Kullanıcının devrettiği 2021–2024 toplu çalışma tamamlandı. Yıllık raporlar ve
-tüm dönem özeti yerelde outputs/reports/quality altında; ham/ara veriler Git
-kapsamı dışında. Sonraki işlemlerde yeniden kullanıcıyla manuel adımlarla
-ilerleyeceğiz. Meteoroloji sütunları tam döneme uygulandı ve kontrol edildi.
-Ana profil 5.258.400 eğitim, 878.400 doğrulama hücre-günü kapsıyor; %90 profil
-5.403.006 eğitim ve 902.556 doğrulama kaydı kapsıyor. Ana profilde kapsam dışındaki
-5.291 eğitim adayı tutuluyor; bu sınırlama model değerlendirmesinde açıklanacak.
-Kapanış raporu outputs/reports/quality/model_weather_2018_2024_audit.json altında.
-Sırada olay/etiket hazırlığı var. Nihai eğitim tablosu hâlâ hazırlanıyor.
-
-İki sensörün eğitim dönemi [gözlem kapsamı ön incelemesi](FIRMS_OBSERVATION_COVERAGE.md)
-tamamlandı: S-NPP 26, NOAA-20 12 Türkiye sıfır tespit günü; ikisinin de sıfır
-olduğu gün 2019-01-14. NOAA-20 talep dışındaki ilk 90 gün sıfır sayılmadı.
-Bu gün için L2 yangın maskesi ve geolocation metadata'sı bulundu. İndirilen
-10:18 UTC çifti bütünlük, kaynak eşleşmesi ve 54 seyrek yangın koordinatı
-kontrollerini geçti; pilot il poligonlarında piksel merkezi bulunmadı. Bu yüzden
-bölgesel QA incelemesi için 10:24 UTC çifti indirildi ve denetlendi. Pilot içindeki
-349.456 merkezden 286.357'si bulut, 18.226'sı nominal girdili kara; yangın sınıfı
-yok. 2.868 hücrede merkez var, 443 hücrede en az bir nominal girdili kara merkezi
-var; bunlar alan/gün kapsamı değil. 00:42 UTC gece geçişi de denetlendi: 109.727
-nominal girdili kara ve 129.964 bulut merkezi, pilot yangın sınıfı sıfır. Gece ve
-gündüz birleşiminde 2.182 hücrede en az bir nominal girdili kara merkezi var;
-717 hücrede yok. 12:00 ve 22:42 UTC çiftleri de bütünlük/konum/QA denetimini
-geçti; nominal girdili kara merkezleri sırasıyla 10.291/10.140 ve pilot yangın
-sınıfı sıfır. Beş S-NPP örneğinin birleşiminde 2.327 hücrede en az bir nominal
-girdili kara merkezi var, 572 hücrede yok. Bu, tam hücre/gün gözlemi değil.
-NOAA-20'nin 09:30/11:12/23:30 UTC çiftleri indirildi; kimlik/boyut, resmî konum
-MD5, gerçek geolocation girdisi ve piksel/QA denetimleri geçti. Üç örnekte
-1.141 hücrede en az bir nominal girdili kara merkezi var; pilot yangın sınıfı
-sıfır. Sekiz örneğin iki sensörlü birleşimi 2.419 hücre; 480 hücrede böyle bir
-merkez yok. NOAA-20 ek 92 hücre sağlıyor; bu tam hücre/gün kapsamı değildir.
-Genişletmeyle mevcut beş S-NPP CSV'si ve tüm sayımları değişmedi. Güvenilir
-günlük gözlem paydası henüz yok.
-Sıfır tespitler negatif etikete çevrilmedi.
-13 Ocak 2019 01:00 UTC S-NPP kontrol çifti de indirildi ve denetlendi. 174
-seyrek yangın kaydı doğal dizilerle eşleşti. Pilot içindeki üç nominal güvenli
-yangın pikseli, aynı geçişin üç FIRMS kaydıyla konum/güven/hücre bakımından
-eşleşiyor. Seçilen adayın konum farkı 0,406 m ve girdi/konum QA bayrakları
-nominal; artık bowtie bayrağı yok. Diğer iki kayıttan birinde artık bowtie
-bayrağı var; korunup raporlandı, yeni eleme kuralı seçilmedi. Tek geçişte
-618 hücrede en az bir nominal kara merkezi var; bu günlük alan kapsamı değil.
-Kalıcı kontrol betiği ve sekiz yeni test eklendi. NASA Type teyidi bekleniyor;
-termal eşleşme doğrulanmış orman yangını etiketi sayılmıyor.
-
-Dokuz örnekte [yaklaşık gözlem alanı yöntemi](OBSERVATION_AREA_METHOD.md) sınandı:
-tarama sınırları ayrı, aynı alanın tekrar sayımı geometrik birleşimle önleniyor,
-gerçek tarama zamanları kaydediliyor. Sekiz geçişin yaklaşık nominal yangınsız
-kara birleşimi 36.011,819 km² (%59,30); bu tam gün gözlem veya negatif kriteri
-değil. Merkezlerden çıkarılan geometri resmî ayak izi değildir. Üç kontrolün
-scan boyutları arşiv değerlerinden yaklaşık %1–9 farklı; yöntem fiziksel doğruluk
-onayı almış sayılmadı. Hesap doğruluğu ve fiziksel yöntem doğruluğu ayrı tutuluyor.
-3 Ekim'de 22 yeni testle 123 test geçti. 4 Ekim'de geometri tanısı dokuz dosyadaki
-1.176 termal tespite genişletildi: 1.145 yerel ölçüm, 31 ölçümsüz kenar kaydı.
-Fiziksel boyut referansı hâlâ üç arşiv kaydı; yuvarlama farkları tek başına
-açıklamıyor, düzeltme seçilmedi. Dört eğitim katalog sorgusunda 37.705 kayıt
-bulundu; yerel örnek ortalamalarıyla hacim senaryosu 3,16 TiB. Gerçek ürün eşleri
-ve eksikler ayrıca incelenecek. 25 ek testle güncel toplam 148 test başarılı.
-Sırada dosya eşleme ve veri erişim/işleme planı var; gözlem kuralı ve etiketler
-açık. [4 Ekim incelemesi](GEOMETRY_DIAGNOSIS_2026-10-04.md).
-
-Devam oturumunda dört ürünün tam eğitim metadata'sı denetlendi: 37.705 kayıt,
-18.711 nominal çift ve 283 eşsiz kayıt. Katalog boyutları toplamı yaklaşık
-3,17 TiB / 3,49 TB; nihai eğitim tablosunun boyutu değildir. Yeni ham dosya
-indirilmedi. Metadata/çıktı özetleri, sayımlar ve hacim geri okuma kontrolünden
-geçti; 20 yeni katalog testiyle toplam 168 test başarılı.
-
-Kullanıcının ek disk sınırı 27 GB; en az 40 GB boş alan korunacak. Kapsam,
-yöntem ve maliyet kararlarından önce seçenek sunulacak. Dört koleksiyonda
-Harmony kırpma desteği bulunmadı; girişli OPeNDAP testi açık. Bulut ve partili
-yerel işleme seçenekleri [karar belgesinde](L2_STORAGE_OPTIONS_2026-10-04.md).
-Kullanıcı henüz yol seçmedi; büyük indirme veya bulut işi başlatılmadı.
-
-Platform karşılaştırması sonrası ücretsiz Colab için tek geçiş pilot paketi
-hazırlandı. Yerel paket denemesi özgün sayımlar ve bütün grid CSV'siyle tam
-eşleşti; 7 ek testle toplam 175 test başarılı. Hesap girişli Colab denemesi
-henüz yapılmadı; tam dönem platform/maliyet kararı pilot sonrasına bırakılıyor.
-[Çalıştırma ve sınırlamalar](COLAB_PILOT.md).
-
-İlk Colab sistem kurulumu bağımlılık çakışması verdi. Pilot artık ayrı venv
-ve alt süreçte çalışıyor; 47 Linux/Python 3.12 bağımlılığı sabitlendi. Kurulum
-kontrolü ve güvenli alt süreç giriş testleri eklendi; toplam 182 test geçti.
-Temiz Colab çalışma zamanı için yeni isolated dosyalar hazırlandı.
-Sistem ortamının uyumluluğu bir model/veri doğruluğu kanıtı değildir.
-
-4 Ekim'de kullanıcı isolated Colab pilotunun bütün hücrelerini çalıştırdı.
-Gerçek sonuç ZIP'i bağımsız denetimden geçti: 2.899 hücrenin bütün sütunları,
-tam QA raporu ve kaynak/kod özetleri yerel referansla eşleşti. Yaklaşık 195 MB
-ham kaynak Colab'a, 24,5 KB sonuç yerel bilgisayara geldi. İndirme ve denetim
-35,1 saniye; ortam kurulumu hariç. Python 3.12.13 ve raporlanan paketler doğru.
-10 sonuç denetimi testi eklendi. Günlük gözlem unknown, negatif etiket izni
-false; NASA Type teyidi ve fiziksel ayak izi yöntemi açık. Tam dönem indirme
-başlatılmadı; sıradaki öneri iki sensörlü bir eğitim günüyle kapasite ve
-kesintiden devam denemesi. [Sonuç ve sınırlamalar](COLAB_PILOT.md).
-Güncel tam test kümesi 192 başarılı; kod, biçim ve Git fark kontrolleri geçti.
-
-Kullanıcı onayıyla iki sensörlü 14 Ocak 2019 Colab denemesi hazırlandı: 8 geçiş,
-16 dosya, toplam 1,46 GB; en büyük geçici çift 187,35 MB. Sırayla işleme,
-doğrulanmış checkpoint/ZIP sonrası geçici kaynak temizliği ve kesinti sonrası
-devam mekanizması eklendi. Yerel prova bütün referanslarla eşleşti; süreç
-yeniden başlatması ve yeni oturum dizinine ZIP geri yüklemesi geçti. Proje
-kaynakları korunuyor. 18 ek testle toplam 210 test başarılı. Gerçek Colab günü
-ve Linux bellek/disk ölçümü henüz çalıştırılmadı; tam dönem kararı açık.
-[Yeni deneme ve çalıştırma](COLAB_DAY_PILOT.md).
-
-Gerçek iki sensörlü Colab günü de bağımsız denetimden geçti: 8 geçiş × 2.899
-hücrenin bütün sütunları ve QA raporları tam eşleşti; bir checkpoint yeniden
-kullanılıp kalan yedi geçiş işlendi. 1,46 GB kaynak için en yüksek örneklenen
-disk artışı 188 MB, çocuk süreç RSS belleği 544 MB, yerel sonuç ZIP'i 198 KB.
-Geçiş indirme/denetim süreleri toplamı 165,94 saniye; kurulum ve bütün checkpoint
-işleri dahil değil. Ek satır/QA/transfer geri okuması ve 18 bulut günü testi
-geçti. Günlük gözlem/etiket hâlâ açık. Sırada kalıcı küçük çıktı saklama ve
-fiziksel gözlem alanı kontrolleri; tam dönem işi başlatılmadı.
-
-5 Ekim'de kullanıcı Google Drive'a otomatik sonuç kaydını seçti. Küçük ZIP'i
-içerik özetiyle ayrı sürüm olarak saklama, tamamlanma kaydı, geri okuma ve
-depolama hata kapısı hazırlandı. Sekiz geçişli mevcut sonuçla yerel kayıt ve
-geri yükleme provası geçti. Yeni notebook Drive'ı eşitleyip yeniden bağladıktan
-sonra aynı sonucu tekrar denetleyecek; yeni NASA indirmesi yapmıyor. Gerçek
-Drive denemesi henüz yapılmadı. Drive kotası ve tam dönem nihai çıktı boyutu
-açık; fiziksel gözlem/etiket kuralları değiştirilmedi.
-[Drive denemesi](COLAB_DRIVE_STORAGE.md).
-16 ek koruyucu testle güncel toplam 226 test başarılı; kod/biçim, paket ve
-notebook denetimleri geçti. Ardından 5 Ekim gerçek Drive sonucu da doğrulandı:
-eşitleme ve yeniden bağlama sonrası sekiz geçişin bütün QA/CSV sonuçları
-referansla eşleşti (23.192 hücre/geçiş satırı). Kanıt ZIP'i 187.959 bayt,
-Drive'da saklanan önceki sonuç 197.607 bayt. İçerik/kod/manifest kimliği ve
-tamamlanma kaydı geçti; yeni ham indirme veya ham arşiv yükleme yok.
-Rapor: outputs/reports/observation_coverage/drive_storage_received_verification.json.
-Uzun dönem kapasitesi ve alan/etiket yöntemi henüz onaylanmış sayılmıyor.
-
-Mevcut eğitim günü geometrisinde sınır ofseti tanısı tamamlandı. Aynı AOI iç
-karşılaştırma alanında ±25 koordinat metresi senaryoları yaklaşık kapsamı
-%58,69–60,12 aralığına taşıyor; sıfır senaryosu %59,41. Bunlar fiziksel hata
-payı değil. 2.899 hücre korundu; 22 hücrede iç karşılaştırma paydası kalmadığı
-için oran boş. Global/komşuluk hesaplarının ofsetli sonuçlarındaki küçük
-sayısal farklar ayrıca kaydedildi; üretim yöntemi/etiket eşiği seçilmedi.
-[Denetim ve sonraki adım](AREA_BOUNDARY_SENSITIVITY_2026-10-05.md).
-12 ek testle tam kümede 238 test başarılı. Sırada sabit analiz ızgarasının
-çözünürlük ve başlangıç konumu hassasiyeti; ardından gözlem/etiket kuralı var.
-
-Hesap ızgarası incelemesi de tamamlandı: mevcut eğitim gününün yaklaşık
-poligonu 50/100/200 koordinat metresi ve dört başlangıçla karşılaştırıldı.
-Modelin 5 km ızgarası aynı kaldı. Hücrelerin %95'inde başlangıç açıklığı
-yaklaşık 0,203/0,580/1,639 yüzde puanı; küçük AOI parçaları daha hassas.
-2.899 hücre ve 12 senaryonun tüm sütun/istatistik/kaynak özetleri bağımsız
-geri okundu; altı seçilmiş kare-birleşim kontrolü geçti. 19 ek testle toplam
-257 test başarılı. CSV yaklaşık 1,45 MB; yeni ham indirme yok. Bu inceleme
-doğal VIIRS dizisi veya fiziksel ayak izi doğrulaması değil; üretim çözünürlüğü,
-gözlem eşiği ve negatif etiket seçilmedi.
-[Sonuç ve kapsam](AREA_GRID_SENSITIVITY_2026-10-05.md).
-Sırada eğitim örneklerinde tarama kalitesi ve gözlem zaman boşlukları var.
-
-Tarama kalite/zaman incelemesi tamamlandı: mevcut sekiz granule yedi
-sensör/yörüngeye ait; S-NPP 10:18/10:24 bağımsız geçiş sayılmadı. 2.899
-hücrenin 480'inde seçilen kayıtlarda uygun kara merkezi yok. Uygun merkez
-bulunan hücrelerin en uzun zaman boşluğunun medyanı 22,746 saat. Bu tek kış
-gününe ait merkez tanısı, fiziksel alan/eksiksiz günlük gözlem kanıtı değil.
-Sekiz parçanın tüm eski sayım/saat/QA alanları ve 29.637 yeni hücre/tarama
-satırı bağımsız geri okumadan geçti. 17 ek testle güncel toplam 274 başarılı;
-Ruff kod/biçim geçti. Yeni ham indirme yok, üç CSV yaklaşık 7,93 MB.
-Günlük gözlem unknown ve negatif izin false. Sırada eğitim döneminden yaz,
-yangınlı ve farklı bulut koşullu küçük kontrol envanteri; eşik ve tam dönem
-işi seçilmedi. [Sonuç ve sınırlamalar](OBSERVATION_TIMING_2026-10-05.md).
-
-Yaz kontrol envanteri ve bağımsız geri okuması da tamamlandı. Eğitimden 24
-tabakalı aday ve üç maliyet alternatifi hazırlandı; kullanıcı kapsamı henüz
-seçmedi. NOAA-20'nin 679 erken eğitim tespitinin nominal katalog zamanlarıyla
-eşleşmemesi açık sorun olarak kaydedildi; hiçbiri silinmedi/negatif sayılmadı.
-Seçilen kontrol günleri bu farkın dışında. 14 ek testle tam kümede 288 test
-geçti; Ruff kod/biçim başarılı. Yeni ham indirme ve push yok.
-[Kapsam seçenekleri ve sonraki iş](SUMMER_CONTROL_OPTIONS_2026-10-05.md).
-
-Kullanıcı B kapsamını seçti. Altı çiftin otomatik Colab/Drive kayıt ve yeni
-oturumda devam paketi hazır. Metadata boyutu toplam 1,10 GB; paket 2,95 MB.
-Yerel kış kaynaklarıyla doğal denetim/alan/tarama ve ayrı ZIP geri yükleme
-provada geçti; ham kaynaklar değişmedi. Gerçek yaz Colab işi hâlâ bekliyor.
-20 yeni koruyucu testle tam kümede 308 başarılı; Ruff kod/biçim ve paket
-CRC/SHA/notebook denetimleri geçti. Yeni yerel ham indirme ve push yok.
-[Notebook, otomatik gruplar ve sonraki adım](COLAB_SUMMER_CONTROL.md).
+Güncel rapor sadeleştirilirken önceki ayrıntılı kayıtlar
+[tarihsel durum dosyasında](STATUS_HISTORY_2026-10-09.md) korunmuştur.
+Günlük çalışma ayrıntıları [araştırma günlüğündedir](../Diary/README.md).

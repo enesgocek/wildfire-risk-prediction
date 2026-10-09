@@ -73,5 +73,5 @@ Günlük gözlem `unknown`, negatif etiket izni `false` olarak kaldı.
 Eğitim döneminde yaz, yangın tespiti bulunan ve farklı bulut/tarama koşullarını
 temsil eden küçük kontrol örneklerinin envanteri hazırlanmalı. Tek kış günüyle
 eşik seçilmeyecek. Daha geniş kontrol sonrasında gözlem/etiket seçenekleri
-kullanıcıya sunulacak; üretim kuralı, tam dönem bulut işi ve NASA Type teyidi
+çalışma planında değerlendirilecek; üretim kuralı, tam dönem bulut işi ve NASA Type teyidi
 henüz tamamlanmış sayılmıyor.

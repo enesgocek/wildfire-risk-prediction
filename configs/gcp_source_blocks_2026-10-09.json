@@ -1,0 +1,32 @@
+{
+  "blocked_pairs": [
+    {
+      "fire_filename": "VNP14IMG.A2023365.0106.002.2023365085734.nc",
+      "provider_lookup": "CMR exact old name no hits; current name positive; LAADS directory lists current version",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VNP03IMG.A2023365.0106.002.2023365074552.nc",
+      "sample_id": "SNPP:2023365.0106",
+      "selected_geolocation": "VNP03IMG.A2023365.0106.002.2024006061118.nc"
+    },
+    {
+      "fire_filename": "VNP14IMG.A2023365.1048.002.2023365182925.nc",
+      "provider_lookup": "CMR exact old name no hits; current name positive; LAADS directory lists current version",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VNP03IMG.A2023365.1048.002.2023365174608.nc",
+      "sample_id": "SNPP:2023365.1048",
+      "selected_geolocation": "VNP03IMG.A2023365.1048.002.2024006064212.nc"
+    }
+  ],
+  "controller_scope_sha256": "102c9e4ab16e4450d0d94eb3511dfdbf360fd6b6292809c5457efc93d2be5837",
+  "daily_observation_status": "unknown",
+  "deferred_days": [
+    "2023-12-31"
+  ],
+  "full_training_complete": false,
+  "header_evidence_zip_sha256": "46cc7e2d296a4bcceb1d7d76abf6be9916e4b9658fda7f8bc1439e8871a745ae",
+  "month_plan_sha256": "7f44606b19aab60fe75392f8df7e6951143892caf94e58eb6b23b2bfc5f19685",
+  "negative_label_permitted": false,
+  "original_scope_sha256": "0c5302cadf0c05dce36843254300cd8719346ddac4648c78c5c20a7dfd8f7394",
+  "protocol": "gcp_unresolved_source_registry_v1",
+  "user_decision": "Defer unresolved 31 December; continue other months; investigate missing sources afterwards"
+}

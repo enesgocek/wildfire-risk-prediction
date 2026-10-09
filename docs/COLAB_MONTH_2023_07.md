@@ -1,7 +1,11 @@
 # Temmuz 2023 aylık Colab işi
 
-Kullanıcı yaklaşık dokuz saatlik aylık grubu seçti ve Drive'da 1,5 TB boş alan
-bildirdi. Kullanıcı işi tamamladı; **31 günlük küçük sonuç ZIP'i yerel
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+Yaklaşık dokuz saatlik aylık grubu seçtim ve Drive'da 1,5 TB boş alan
+bildirdim. İşi tamamladım; **31 günlük küçük sonuç ZIP'i yerel
 tablo/kaynak/zaman denetiminden geçti**. Resmî FIRMS boşluğuyla örtüşen
 61 termal kayıt farkı ayrıca raporlandı.
 [Gerçek sonuçlar ve sınırlar](COLAB_MONTH_RESULTS_2023_07.md).
@@ -50,7 +54,7 @@ Aynı notebook ve aynı paketle yeni Colab oturumunda hücreleri tekrar çalış
 Tamamlanmış günler günlük kayıtlarından alınır. Yarım günün tamamlanmış
 çiftleri ayrı denetim kayıtlarından alınır; bunlar yeniden indirilmez.
 Henüz kaydedilmemiş çiftin işi tekrar gerekebilir. Oturumu yeniden başlatmak
-kullanıcının işlemidir; kod otomatik Colab oturumu açmaz.
+manuel bir işlemdir; kod otomatik Colab oturumu açmaz.
 
 Kayıt akışı: ZIP kopyala → SHA/CRC ve sayısal geri okuma → tamamlanma kaydı
 yaz → Colab'daki ham çifti temizle. Bozuk/sürümü farklı kayıt işlemi durdurur.

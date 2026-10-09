@@ -1,11 +1,15 @@
 # Uzun GCP üretimine geçiş — 6 Ekim 2026
 
-**Güncel karar:** Kullanıcı örneklem yerine bütün eğitim aylarının üretimine
-geçmemizi istedi. Kalan 71 ay / 18.441 nominal çift için yeni üretim paketi,
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+**Güncel karar:** Örneklem yerine bütün eğitim aylarının üretimine
+geçilmesini planladım. Kalan 71 ay / 18.441 nominal çift için yeni üretim paketi,
 Drive kayıtları, günlük geometrik birleşim ve kesintiden devam mekanizması
 hazırlandı. Başlatma için [güncel rehber](GCP_PRODUCTION_RUN.md) kullanılır.
 İlk uzun çalışma 8 saat / Stop; dört işçi hızlanması ve gerçek Stop/Start
-devamı henüz VM'de ölçülmedi. Kullanıcı Free Trial / TRY13,623 bildirdi.
+devamı henüz VM'de ölçülmedi. Free Trial / TRY13,623 bildirdim.
 Yeni VM üretimi bu notun yazıldığı sırada başlamadı.
 
 **Aşağıdaki bölümler önceki hazırlık aşamalarının tarihsel kaydıdır.**
@@ -15,7 +19,7 @@ güncel çalıştırma adımlarının yerine kullanılmaz.
 Güncel kapı sonucu: V2 gerçek Drive yazma/geri okuma ve ayrı süreç restore
 kontrolünü geçtiğini bildirdi; alınan JSON ve hazırlanmış ZIP/manifest/ürün
 yerelde doğrulandı. 3,98 MB ürün, 5+1 bilimsel geri okuma, PID 1327/1336,
-kesinti true. Kullanıcı sonuçtan sonra VM Stop bildirdi. Yerel bağımsız
+kesinti true. Sonuçtan sonra VM Stop bildirdim. Yerel bağımsız
 remote payload indirmesi, VM Stop/Start resume ve SSH kopması sınanmadı.
 Yeni üretim ayı/ham veri yok. Önceki hazırlık notları tarihsel aşamaları
 anlatır; sarmalayıcı sonradan hazırlandı. Güncel kalan büyük iş canlı üretim
@@ -81,7 +85,7 @@ gerçek bulut kayıt ve restart kanıtı halen bir sonraki kapıdır.
 | Aşama / süre | Amaç | Uygulandı mı? |
 |---|---|---|
 | Mevcut 2 saat sınırı | Küçük sonuçla gerçek bulut kayıt/geri yükleme kanıtı; sonra kısa yeni üretim örneği | VM sınırı mevcut; yeni üretim başlamadı |
-| 6 saat, önerilen sonraki seçenek | Kayıt ve tam günlük iş ölçümü sonrası daha büyük gruplar | Kullanıcı seçimi bekleniyor, ayar değişmedi |
+| 6 saat, önerilen sonraki seçenek | Kayıt ve tam günlük iş ölçümü sonrası daha büyük gruplar | Kapsam kararı bekleniyor, ayar değişmedi |
 | 8 saat | Ölçülen grup süresi 6 saate sığmıyorsa daha uzun çalışma | Seçilmedi; otomatik kredi/süre taahhüdü yok |
 
 Sınırda yeni çift başlatmak yerine kayıt rezervi bırakılır. Tamamlananlar
@@ -94,7 +98,7 @@ indirme yapılması gerekmez. Sonraki **öneri**, 1–3 Ağustos 2023: katalogda
 26 çift/52 dosya, yaklaşık 4,76 GB yalnızca VM'ye. İki işçili altı-geçiş
 hızından saf çift evresi yaklaşık 16,56 dakika çıkar; günlük birleşim,
 uzak kayıt, kurulum/retry dahil değil ve çalışma süresi garantisi değil.
-Bu yeni kapsam henüz kullanıcıya yürütme için verilmedi/onaylanmış sayılmadı.
+Bu yeni kapsam henüz yürütme planı olarak kesinleştirilmedi.
 
 Ağustos ayı seçeneği 278 çift, yaklaşık 50,83 GB toplam akış; saf çift evresi
 aynı kaba hızla 2,95 saat. Ayın tamamının bu sürede biteceği söylenmiyor.
@@ -127,8 +131,7 @@ Uzun üretim ay kuyruğu/günlük union sarmalayıcısı bu küçük paketin kap
 değildir. VM yeniden başlatılmadı; süre/scope/disk ayarı değiştirilmedi.
 
 Önceki Google Drive tercihi kayıtta korunuyor. GCP için Drive ile devam
-veya deneme kredisi içinde Cloud Storage kullanma seçeneği kullanıcıya
-soruldu; bu turda yanıt gelmedi. Sağlayıcı seçimi gerektirmeyen çekirdek
+veya deneme kredisi içinde Cloud Storage kullanma seçeneği değerlendirildi; bu aşamada sağlayıcı seçimi kesinleşmedi. Sağlayıcı seçimi gerektirmeyen çekirdek
 tamamlandı; bucket/OAuth bağlantısı veya ücretli kaynak oluşturulmadı.
 Drive'ın 1,5 TB alanı biliniyor; GCP VM'de Drive mount olmuş sayılmıyor.
 Cloud Storage seçilirse mevcut VM service-account scope'ları storage.read_only;

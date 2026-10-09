@@ -75,8 +75,8 @@ kural, kod ve kaynak özetleri `data/interim/meteorology/model_v1/policy_manifes
 ## Uygulama ve sınırlar
 
 61 test geçti. Üç gerçek örnek günün (2018-01-01, 2018-04-29, 2024-12-31)
-dosya yazma/geri okuma kontrollerinden sonra kullanıcı tam dönem dönüşümünü
-manuel tamamladı. 2.557 gün ve 7.412.743 kaydın kaynak/çıktı dosyaları bağımsız
+dosya yazma/geri okuma kontrollerinden sonra tam dönem dönüşümü
+manuel olarak tamamlandı. 2.557 gün ve 7.412.743 kaydın kaynak/çıktı dosyaları bağımsız
 kapanış kontrolünden geçti. Komutlar
 [betik rehberinde](../scripts/README.md#model-için-meteoroloji-kullanım-kuralı).
 

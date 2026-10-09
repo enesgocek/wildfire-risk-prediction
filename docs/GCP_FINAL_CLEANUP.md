@@ -1,14 +1,15 @@
 # GCP iş sonu: sonuçları koru, kaynakları kaldır, faturalandırmayı kapat
 
-Kullanıcının 6 Ekim 2026 talimatı: cebinden ödeme çıkmayacak; GCP işi bitince
+6 Ekim 2026 bütçe ve kaynak yönetimi kararı: kişisel ödeme çıkmayacak; GCP işi bitince
 kullanılan bulut kaynakları açık veya saklanmış olarak bırakılmayacak.
 Bu belge plan ve kabul ölçütüdür; canlı hesap/kaynak temizliği yapılmış değildir.
-Şu anki en son kullanıcı bildirimi VM Stop, Free Trial, TRY13,623 kredidir.
+6 Ekim tarihli hazırlık kaydında VM Stop, Free Trial ve TRY13,623 kredi bildirilmiştir.
+Bu değerler canlı durum değildir; güncel işlem aşaması [STATUS.md](STATUS.md) içindedir.
 
 ## Çalışırken
 
 - Free Trial korunur; Upgrade / Activate paid account uygulanmaz. Google bu
-  statüde kullanıcının faturalandırılmadığını ve yükseltme olmadan kredi/süre
+  statüde hesap sahibinin faturalandırılmadığını ve yükseltme olmadan kredi/süre
   bittiğinde kaynakların duracağını belirtir. Bu, başka bir ücretli hesabın veya
   sonradan değişen statünün kontrol edildiği anlamına gelmez.
 - İlk üretim oturumu en çok 8 saat / Stop / automatic restart Off. Sonraki süre
@@ -68,7 +69,7 @@ kaldırmak ile bütün hesap geçmişini silmek aynı işlem değildir.
 Kart kaldırma ayrıca incelenebilir; Google'ın ödeme yöntemi kuralları tek/ana
 kartın kaldırılmasını sınırlayabilir. Yeni kart ekleme veya başka Google
 aboneliklerini etkileyebilecek genel ödeme profili kapatma otomatik yapılmaz.
-Kullanıcının Drive depolama aboneliği bu GCP temizliğiyle iptal edilmez.
+Mevcut Drive depolama aboneliği bu GCP temizliğiyle iptal edilmez.
 
 ## Resmî dayanaklar
 

@@ -1,7 +1,7 @@
 # B yaz kontrolü sonucu — 5 Ekim 2026
 
-Kullanıcı bütün hücreleri yaklaşık 15 dakikada çalıştırdı ve sonucu
-`outputs/cloud_summer/received/l2_summer_results.zip` altına koydu.
+Bütün hücreleri yaklaşık 15 dakikada çalıştırdım ve sonucu
+`outputs/cloud_summer/received/l2_summer_results.zip` altına koydum.
 **Altı çiftin tamamı yerel sonuç denetiminden geçti.**
 
 | Ölçüm | Sonuç |
@@ -17,7 +17,7 @@ Kullanıcı bütün hücreleri yaklaşık 15 dakikada çalıştırdı ve sonucu
 | Sensör/yörünge kimliği | 6 |
 
 12,58 dakika ortam kurulumu, kalıcı kayıt ve özet ZIP üretimini kapsamıyor.
-Yaklaşık 15 dakika kullanıcının bildirimi; bağımsız tam süre ölçümü değil.
+Yaklaşık 15 dakika manuel süre bildirimi; bağımsız tam süre ölçümü değil.
 Disk ölçümü 0,2 saniye örneklemeli; ortamın kesin toplam tepe alanı değil.
 
 ## Denetimin kapsamı
@@ -72,4 +72,4 @@ Temmuz 2023'ün tüm katalog kapsamı 270 çift/49,40 GB; B dışında 264 çift
 Büyük gruplar süre/kalıcı çıktı boyutunu artırır; birer çift işleyerek geçici
 ham disk kullanımı sınırlanabilir. Transferler katalog tahmini; B'nin kaynak
 boyutu UMM ile doğrulandı. Yeni grup/nihai etiket eşiği seçilmedi, indirme
-başlatılmadı. Kullanıcının 27 GB ek yerel disk sınırı korunuyor.
+başlatılmadı. 27 GB ek yerel disk sınırı korunuyor.

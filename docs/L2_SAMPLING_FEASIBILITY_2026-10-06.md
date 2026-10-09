@@ -3,7 +3,7 @@
 **Sonuç:** Eğitim tarihlerini örneklemek işlem yükünü belirgin azaltabiliyor.
 Modelin bu kapsamla yeterli olacağı henüz kanıtlanmadı. Bu inceleme yerelde
 yapıldı; VM başlatılmadı, yeni ham uydu verisi indirilmedi, etiket üretilmedi.
-Kullanıcı daha küçük kapsamı ölçmemizi, gerektiğinde tam döneme dönmemizi istedi.
+Daha küçük kapsamın yeterliliğini ölçmeyi ve gerektiğinde tam döneme dönmeyi planladım.
 
 ## Ölçtüğümüz seçenekler
 
@@ -93,8 +93,8 @@ Meteoroloji ve bitki örtüsü uygunluğu nihai negatif etiket değildir.
    bulut/eksik veri yanlılığını kendiliğinden düzeltmez.
 
 Hiçbir üretim kapsamı/VM süresi/ödeme ayarı bu incelemeyle değiştirilmedi.
-Ücretsiz krediyi tamamen tüketmek hedef değildir; kullanıcı gerektiğinde
-tam dönem seçeneğine dönmeye izin verdi, ücretli yükseltme yasağı sürüyor.
+Ücretsiz krediyi tamamen tüketmek hedef değildir; gerektiğinde
+tam dönem seçeneğine dönülmesi benimsendi, ücretli yükseltme yasağı sürüyor.
 
 ## Dosyalar ve doğrulama
 

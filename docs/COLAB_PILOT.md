@@ -1,7 +1,11 @@
 # Tek uydu geçişiyle ücretsiz bulut denemesi
 
-İlk öneri Colab'ın ücretsiz CPU ortamında küçük deneme. Kullanıcı Colab,
-Google Cloud/Vertex, Claude ve Kaggle seçeneklerini değerlendirmemizi istedi.
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
+İlk öneri Colab'ın ücretsiz CPU ortamında küçük deneme. Colab,
+Google Cloud/Vertex, Claude ve Kaggle seçenekleri değerlendirildi.
 Bu seçim tüm dönemin platformunu kesinleştirmez; ücretli kaynak oluşturulmaz.
 
 | Seçenek | Bu aşamadaki değerlendirme |
@@ -35,10 +39,10 @@ ikisi birlikte güncellenir.
 
 Pilot yalnızca **13 Ocak 2019 01:00 UTC S-NPP** geçişini indirir: yangın
 dosyası 994.759 bayt, konum dosyası 193.708.209 bayt. Toplam 194.702.968 bayt
-Colab'ın geçici diskine gelir; kullanıcının bilgisayarına gelmez. Paket kurulumları
+Colab'ın geçici diskine gelir; yerel bilgisayara gelmez. Paket kurulumları
 da Colab ortamındadır. Ücretsiz CPU ortamı kullanılmalı.
 
-## Kullanıcının yapacağı giriş ve çalıştırma
+## Manuel kimlik doğrulama ve çalıştırma
 
 1. [Colab](https://colab.research.google.com/) aç; Google hesabınla giriş yap.
 2. Notebook yükleme bölümünde l2_pilot_isolated.ipynb dosyasını seç. Ücretsiz CPU
@@ -84,7 +88,7 @@ protokol trafiği ölçümü değildir. Tam dönem planı için daha geniş örn
 
 ## 4 Ekim gerçek Colab sonucunun bağımsız kontrolü
 
-Kullanıcı bütün hücreleri çalıştırdı. İndirilen `l2_pilot_results.zip` dosyası
+Bütün hücreleri çalıştırdım. İndirilen `l2_pilot_results.zip` dosyası
 24.472 bayt; yerel kopyası outputs/cloud_pilot/received altında tutuluyor.
 `verify_l2_pilot_results.py` ZIP'i çıkartmadan veya içerikten kod çalıştırmadan
 okudu. Dosya listesi/CRC, referans paket özetleri, kaynak ve çalışan kod kimliği,
@@ -108,4 +112,4 @@ henüz doğrulanmış değil. Sonraki öneri, her iki sensörü içeren bir eği
 üzerinde bellek/disk ve kesintiden devam ölçümü; henüz başlatılmadı.
 
 Ham örnekler otomatik silinmez. Oturum sona erince Colab geçici dosyaları
-kaybolabilir; küçük sonuç ZIP'i kullanıcı tarafından indirilmelidir.
+kaybolabilir; küçük sonuç ZIP'i manuel olarak indirilmelidir.

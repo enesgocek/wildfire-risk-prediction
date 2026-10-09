@@ -1,6 +1,6 @@
 # Temmuz 2023 aylık sonuç denetimi
 
-Kullanıcı Colab işini tamamlayıp sonuç ZIP'ini ilgili klasöre yerleştirdi.
+Colab işini tamamlayıp sonuç ZIP'ini ilgili klasöre yerleştirdim.
 Tam ayın bağımsız yerel tablo/kaynak/zaman denetimi geçti. FIRMS arşivi ile
 karşılaştırma, resmî eksik veri günleriyle örtüşen ayrı bir kalite bulgusu verdi.
 Bu sonuç nihai eğitim tablosu veya yangın etiketi değildir.
@@ -76,8 +76,7 @@ metriklerini içermiyor. Tam iş süresi veya hız darboğazı bu ZIP'ten kesin
 dahil gerçek ağ trafiği ölçümü değildir.
 
 Temmuz ayı gözlem tanıları tamamlandı. 6 Ekim'de Google Cloud Free trial
-kredisi ve son tarihi, global ve us-central1 kotaları okundu. Kullanıcı
-Frankfurt formunu seçti; o bölgenin kotası ve GCP işçisi açık. Oluşturma
+kredisi ve son tarihi, global ve us-central1 kotaları okundu. Frankfurt formunu seçtim; o bölgenin kotası ve GCP işçisi açık. Oluşturma
 sabah oturumuna ertelendi; yeni kaynak/harcama başlatılmadı.
 Yeni bulut işi tamamlanan ayı yeniden işleme kapsamına dahil etmeyecek.
 

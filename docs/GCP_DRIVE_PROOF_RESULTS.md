@@ -1,7 +1,7 @@
 # Drive kalıcılık kontrolünün sonucu — 6 Ekim 2026
 
-V2 VM işi Passed verdi. Kullanıcı sonuç JSON'unu ilgili klasöre aktardı ve
-VM'yi Stop yaptığını bildirdi. Yerel doğrulayıcı, alınan özet ile hazırlanmış
+V2 VM işi Passed verdi. Sonuç JSON'unu ilgili klasöre aktardım ve
+VM'yi Stop yaptığımı bildirdim. Yerel doğrulayıcı, alınan özet ile hazırlanmış
 paket/manifest/ürün byte özetlerini ve ZIP üyeleri/CRC'sini kontrol etti;
 `returned_drive_proof_summary_validated` sonucu başarılı.
 
@@ -15,7 +15,7 @@ paket/manifest/ürün byte özetlerini ve ZIP üyeleri/CRC'sini kontrol etti;
 | Depo | Gerçek Drive backend; filesystem_only false |
 | Yeni ham veri / üretim ayı | 0 / 0 |
 | Negatif etiket izni | false |
-| VM | Kullanıcı Stop bildirdi; yerel araç canlı Compute API durumunu okumadı |
+| VM | Stop bildirdim; yerel araç canlı Compute API durumunu okumadı |
 
 Alınan JSON SHA256:
 `691547f74d29b1c42a351e8728c054001b269702a6b8f90de4e7c4839d7a93d4`.

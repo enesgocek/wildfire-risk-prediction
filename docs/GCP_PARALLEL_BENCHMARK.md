@@ -1,5 +1,9 @@
 # GCP: bir ve iki işçi karşılaştırması
 
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
 İlk GCP tek geçiş sonucu bağımsız yerel kontrolden geçti: iki kaynak SHA'sı,
 tam QA raporu ve 2.899 hücrenin bütün sütunları referansla aynı. Kaynak
 194.702.968 bayt; 134,84 saniye son çalıştırmanın ortam kontrolü/kurulumu
@@ -93,8 +97,8 @@ biçimi başarılı. Yeni GCP paralel işi henüz çalıştırılmadı.
 
 ## Gerçek sonuç ve bağımsız denetim — 6 Ekim
 
-Kullanıcı işi tamamlayıp 42.022.268 bayt ZIP'i received dizinine aldı ve VM'yi
-Stop yaptığını bildirdi. Uzak VM durumunu veya faturayı API ile okumadık;
+İşi tamamlayıp 42.022.268 bayt ZIP'i received dizinine aldım ve VM'yi
+Stop yaptığımı bildirdim. Uzak VM durumunu veya faturayı API ile okumadık;
 disk silinmiş sayılmaz. Sonuç ZIP SHA256:
 `8658f6af2ebd05f69c13626e57738bb373a7fdb1c821e08a1ffb89e2573c97b5`.
 

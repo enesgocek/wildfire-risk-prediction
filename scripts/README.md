@@ -4,6 +4,20 @@ Komutları proje kökünden (`wildfire-risk-prediction`) çalıştır.
 Python yorumlayıcısı `.venv/Scripts/python.exe`; JavaScript dosyaları Earth Engine
 Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
+## Güncel bulut çalışması
+
+Mevcut kaynak erteleme akışı ve çalıştırma sırası
+[devam rehberinde](../docs/GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md),
+ölçülen hız [sonuç raporunda](../docs/GCP_ACCELERATION_RESULTS_2026-10-08.md) açıklanır.
+9 Ekim son oturumu hata durumunda kapanmıştır. Yeniden üretimden önce
+[kapanma arşivi ve salt okunur teşhis adımları](../docs/GCP_CONTINUATION_FAILURE_2026-10-09.md)
+izlenir; kalan 19 çiftin yerel bilimsel denetimi geçmiştir, kesin hata nedeni açık.
+Drive teşhisi sonrası yeni oturum için [V2 devam rehberi](../docs/GCP_SOURCE_AWARE_V2_2026-10-09.md)
+kullanılır. Bilimsel paketler aynı; V2 yalnız güvenli hata tanılarını ekler.
+Aşağıdaki önceki pilot komutları dönemsel işlemlerdir; tüm betikler sırayla
+yeniden çalıştırılmaz. Paket hash'leri, kaynak kapsamı ve checkpoint kimlikleri
+korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleştirilir.
+
 ## Klasörler
 
 | Klasör | Amaç |
@@ -15,6 +29,7 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 | `earth_engine/` | Earth Engine inceleme ve dışa aktarma kodları |
 | `meteorology/` | ERA5-Land indirme ve günlük alan ağırlıklı özellikler |
 | `quality/` | Tamamlanmış kaynak ve ara tabloların yerel bütünlük denetimi |
+| `cloud/` | Colab/GCP paketleri, sınırlı yürütme, checkpoint ve bağımsız sonuç doğrulama |
 
 `setup.ps1` ortam kurulumu için kökte kalır. Raporlar `outputs/reports/`, görseller
 `outputs/figures/`, ara tablolar `data/interim/` altında oluşturulur. Betikler mevcut
@@ -48,6 +63,48 @@ Raster indirildikten ve AOI içi geometriler hazırlandıktan sonra:
 4. `landcover/preview_landcover_fractions.py`
 
 2017 örtü tablosu inceleme adayıdır; model girdisi olarak henüz kesinleşmedi.
+
+### Arazi özellikleri ve geçmiş bitki örtüsü örneği
+
+SRTM istatistiklerini mevcut AOI içi geometrilere göre indirmek ve önceki örtü
+tablosuyla yerelde birleştirmek için aşağıdaki ayrı akış kullanılır. İndirme
+mevcut Earth Engine araştırma erişimini kullanır; VM başlatmaz. Doğrulanmış ham
+arazi grupları yeniden kullanılabilir. `prepare` eksik hücre varken final tablo yazmaz.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/prepare_landscape.py download-terrain
+.\.venv\Scripts\python.exe scripts/landcover/prepare_landscape.py prepare
+.\.venv\Scripts\python.exe scripts/quality/verify_landscape.py
+```
+
+Yeni bir eğitim tarihi üzerinde 32 hücrelik Landsat geçmiş görüntü örneği:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/prepare_vegetation_pilot.py --date 2018-08-01 --cells 32
+```
+
+Bu ilk örnek tamamlandı; aynı çıktıların üstüne yazılmaz. Başka örnekte yeni tarih
+seçilmelidir. 60 günlük pencere, kalite maskesi ve kısmi alan bayrakları
+deneysel aday kurallardır. Bütün günlük seri veya operasyonel erişim doğrulaması değildir.
+[Sonuç ve sınırlar](../docs/LANDSCAPE_PREPARATION_2026-10-09.md).
+
+### Mevsim ve günlük geçmişe göre seçim denetimi
+
+2018'de aynı 32 hücre/dört tarih üzerinde 16/30/60 günlük pencereleri karşılaştıran
+ayrı sürüm aşağıdadır. İndirme adımı yalnız Earth Engine erişimi kullanır; diğer
+adımlar yereldir. Doğrulanmış ham kayıtlar aynı kaynak/kod sözleşmesiyle yeniden
+kullanılır. Dosyalar `seasonal_v1` altında ilk örnekten ayrı tutulur.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/review_vegetation_windows.py download
+.\.venv\Scripts\python.exe scripts/landcover/review_vegetation_windows.py prepare
+.\.venv\Scripts\python.exe scripts/landcover/prepare_vegetation_asof_pilot.py
+.\.venv\Scripts\python.exe scripts/quality/verify_vegetation_windows.py
+.\.venv\Scripts\python.exe scripts/landcover/preview_vegetation_windows.py
+```
+
+Bu deneme tamamlandı. Günlük tablolar 44 örnek tarih içindir; bütün seri veya
+operasyonel uygunluk değildir. [Sonuç ve ölçekleme planı](../docs/VEGETATION_WINDOW_REVIEW_2026-10-09.md).
 
 ## FIRMS
 
@@ -239,11 +296,11 @@ anlamına gelmez. Devam eden indirme aralığı kontrol için seçilmemelidir.
 .\.venv\Scripts\python.exe scripts/quality/audit_project.py --weather-start 2019-01-01 --weather-end 2020-01-01
 ```
 
-Bu ilk oturumun ardından 2020 kullanıcı tarafından hazırlanmış, 2021–2024
-kullanıcının devriyle aşağıdaki tek seferlik akışta tamamlanmıştır.
+Bu ilk oturumun ardından 2020 manuel olarak hazırlanmış, 2021–2024
+otomatik toplu iş akışıyla aşağıdaki tek seferlik akışta tamamlanmıştır.
 
 
-## Kullanıcının devrettiği 2021–2024 toplu meteoroloji çalışması
+## Otomatik akışla yürütülen 2021–2024 toplu meteoroloji çalışması
 
 2020 yıllık denetimi geçtikten sonra tek seferlik akış:
 
@@ -258,12 +315,12 @@ vardır; veri/provenance hataları yeniden denenmez. İşlem kesilirse aynı kom
 indirilmiş dosyaları doğrulayarak devam edebilir. Günlükler outputs/logs/meteorology,
 çalışma durumu outputs/reports/meteorology/remaining_years_run.json altında.
 Bu tek çalıştırmadır; zamanlayıcı veya sürekli servis kurmaz. 2025 kapalıdır.
-Tüm yıllar bitince kullanıcıyla manuel çalışma düzenine dönülür.
+Tüm yıllar bitince manuel çalışma düzenine dönülür.
 
 3 Ekim son durum: 2018–2024 dönemi tamamlandı; tüm yıllık denetimler geçti.
 Yıllık raporlar outputs/reports/quality altında; tüm dönem özeti
 meteorology_2018_2024_summary.json dosyasındadır. Yeni bir indirme yılı kalmadı.
-Sonraki işlemler kullanıcıyla yeniden manuel adımlarla yürütülecek.
+Sonraki işlemler yeniden manuel adımlarla yürütülecek.
 
 ## VIIRS L2 yerel örnek denetimi
 
@@ -410,7 +467,7 @@ Mevcut önbelleği ağ bağlantısı olmadan yeniden denetlemek için:
 ```
 
 Eksik veya hizasız sayfada durur. Zaman eşlemesi gerçek InputPointer doğrulaması
-veya negatif etiket değildir. Disk sınırı ve kullanıcıya sunulan seçenekler:
+veya negatif etiket değildir. Disk sınırı ve değerlendirilen seçenekler:
 [erişim planı](../docs/L2_STORAGE_OPTIONS_2026-10-04.md).
 
 Tek geçiş ücretsiz Colab pilotunun kimlik bilgisi içermeyen paketini üretmek için:
@@ -540,10 +597,10 @@ boyutlarını mevcut yerel katalogla hazırlamak (ham indirme yapmaz):
 
 İkinci komut yerel denetim betiğidir, Git kapsamı dışındaki `outputs/` altında.
 2018–2023 yaz tabakaları, Type 0/2 ayrı sayımları ve eşleşmeyen kayıtlar
-raporda kalır. Kullanıcı kapsam seçmeden yeni Colab işi başlamaz.
+raporda kalır. Kapsam kararı verilmeden yeni Colab işi başlamaz.
 [Seçenekler ve sınırlamalar](../docs/SUMMER_CONTROL_OPTIONS_2026-10-05.md).
 
-Kullanıcının seçtiği B kapsamı için yeni Colab paketi:
+Seçtiğim B kapsamı için yeni Colab paketi:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/cloud/build_l2_summer_bundle.py
@@ -560,7 +617,7 @@ Notebook/Paket `outputs/cloud_summer/` altında. Gerçek sonuç gelince:
 
 [Çalıştırma, otomatik devam ve sınırlar](../docs/COLAB_SUMMER_CONTROL.md).
 
-Kullanıcının seçtiği Temmuz 2023 aylık kapsamı: hazır B günü yeniden kullanılır,
+Seçtiğim Temmuz 2023 aylık kapsamı: hazır B günü yeniden kullanılır,
 264 yeni çift Colab'da tek iş olarak sırayla indirilir/denetlenir. Günlük alanlar
 çakışmalar birleştirilerek hesaplanır; çıktı küçük CSV/rapor paketidir. Tam
 geometri Drive çift kayıtlarında korunur. Hazırlama yalnızca public metadata alır:
@@ -600,7 +657,7 @@ manifest oluşturur. 3 Ekim'de bu adım tamamlandı; yeniden üretmek gerektiği
 .\.venv\Scripts\python.exe scripts/meteorology/prepare_model_weather.py review
 ```
 
-3 Ekim'de kullanıcı sabit kuralı 2018–2024'e manuel uyguladı; bütün günlük
+3 Ekim'de sabit kural 2018–2024'e manuel olarak uygulandı; bütün günlük
 çıktılar denetlendi. Yeniden üretmek için inceleme manifesti ve yıllık kaynak denetimleri
 mevcut olmalıdır:
 
@@ -622,3 +679,74 @@ outputs/reports/quality/model_weather_2018_2024_audit.json.
 Yerel kontrol betiği outputs/verification/audit_completed_model_weather.py altında;
 ara veriler ve yerel raporlarla birlikte Git kapsamı dışındadır. 2025 okunmadı;
 nihai yangın etiketleri oluşturulmadı.
+
+## Bütün hücrelerde sınırlı bitki örtüsü hazırlığı
+
+10 Ekim 2026 denemesi: tek eğitim kesim anı, 2.899 hücre, ayrı 30/60 günlük
+pencereler. Aylık/günlük seri değildir. Mevcut Earth Engine erişimiyle en
+fazla iki istek eşzamanlı çalışır; 64 hücrelik grup başına kaynak kimlikleri,
+ham integraller ve sözleşme kaydedilir. Önceki mevsim denemeleri korunur.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/prepare_vegetation_full_grid.py download --date 2018-08-01
+.\.venv\Scripts\python.exe scripts/quality/verify_vegetation_full_grid.py --date 2018-08-01
+```
+
+Kesilmiş hazırlık aynı komutla sürdürülür; var olan gruplar sözleşme ve değer
+kontrolünden sonra tekrar kullanılır. Giriş geometri/kod/tarih/grup sözleşmesi
+değişirse devam reddedilir; kabul edilmiş JSON elle değiştirilmez. Bütün
+gruplar varsa `download` yerine `prepare` ile yalnız yerel tablo üretilebilir.
+Varsayılan tarih eğitim içindedir; 2024 ve 2025 bu girişte reddedilir.
+
+Çıktı `data/interim/vegetation/full_grid_v1/2018-08-01_b64/`; ham kayıtlar
+`data/raw/vegetation/full_grid_v1/2018-08-01_b64/`; raporlar
+`outputs/reports/landscape/full_grid_v1/2018-08-01_b64/` altındadır.
+Geri okuma ham integrallerden ortak dönüşümü çağırmadan hesap yapar ve
+önceki 32 hücrelik aynı tarih/pencere özetleriyle karşılaştırır. Tarihsel
+erişilebilirlik hâlâ bilinmiyor; yangın etiketi veya operasyonel uygunluk üretilmez.
+[Veri setine geçiş planı](../docs/DATASET_READINESS_2026-10-10.md).
+
+## Bir eğitim ayının günlük bitki örtüsü adayları
+
+`prepare_vegetation_month.py` yalnız 2018–2023 eğitim aylarına açıktır. Ayın
+1. gününden başlayan yedi günlük kesim takvimiyle ayrı 30/60 günlük bütün-grid
+özetlerini hazırlar. Var olan tam kesim manifestleri hash ve integral kontrolünden
+geçerek yeniden kullanılır; kabul edilmiş kesim tabloları yeniden yazılmaz.
+Yarım kalan ham gruplar aynı sözleşmeyle devam eder.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/prepare_vegetation_month.py download --month 2018-08
+.\.venv\Scripts\python.exe scripts/quality/verify_vegetation_month.py --month 2018-08
+```
+
+Ham gruplama yine en fazla iki Earth Engine isteğiyle yürür. Bütün kesimler
+hazırsa ilk komutta `download` yerine `prepare` yalnız yerel eşleştirme yapar.
+Tamamlanmış aylık manifest varsa hazırlama komutu onu değiştirmeyi reddeder;
+kontrol için ikinci komut kullanılır. Aylık tablolar
+`data/interim/vegetation/month_v1/YYYY-MM/`, raporlar
+`outputs/reports/landscape/month_v1/YYYY-MM/` altındadır.
+
+Günlük satırlar taze günlük görüntüler değildir. En yakın **destekli geçmiş**
+özet deneysel olarak en fazla sekiz gün korunur; kaynak/pencere/manifest ve
+görüntü yaşı kaydedilir. Gelecekten geri doldurma, interpolasyon veya eksik
+30 günlük değeri 60 günlük değerle değiştirme yoktur. `available_at` bilinmediği
+için tablo geriye dönük adaydır; operasyonel uygunluk ve yangın etiketi üretmez.
+Yedi günlük kesim/sekiz günlük saklama kararının model katkısı henüz ölçülmedi.
+
+## GitHub gönderimi öncesinde gizlilik
+
+10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten
+sonra commit ve normal push yapılır. Önce aday dosya listesi ve diff okunur;
+ardından yalnız açık proje dosyaları stage edilir ve index içeriği taranır:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/quality/check_git_privacy.py --scope working
+.\.venv\Scripts\python.exe scripts/quality/check_git_privacy.py --scope staged
+```
+
+İkinci komut çalışma dosyasını değil Git'e eklenecek gerçek blob'u okur.
+Yasak veri/özel dosya yolları, ikili/büyük blob'lar ve bilinen kimlik bilgisi
+kalıpları gönderimi engeller. Çıktıda yalnız dosya/kural/satır gösterilir;
+eşleşen değer yazdırılmaz. `.gitignore` ve bu tarama manuel dosya/diff
+incelemesinin yerine geçmez. Bu işlem saatli bir görev veya bulut kaynağı
+başlatma izni değildir; force-push yapılmaz.

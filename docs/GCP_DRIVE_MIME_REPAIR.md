@@ -1,9 +1,13 @@
 # Drive ZIP türü düzeltmesi — 6 Ekim 2026
 
+> Dönemsel uygulama kaydı. Kurulum, maliyet ve bekleyen iş ifadeleri belgenin
+> ilgili çalışma aşamasına aittir. Güncel durum [STATUS.md](STATUS.md), mevcut
+> üretim yolu [devam rehberinde](GCP_SOURCE_AWARE_CONTINUATION_2026-10-09.md) izlenir.
+
 Gerçek VM çalışması, worker'da ValueError ile durdu. Salt okuma teşhisi:
 package_integrity/private_connection/oauth_refresh/drive_folder_access PASS;
-drive_object_listing FAIL: Drive object type. Kullanıcı yalnızca MIME sayımını
-paylaştı: **application/x-zip, 1 dosya**. Token, dosya kimliği veya içeriği
+drive_object_listing FAIL: Drive object type. Yalnızca MIME sayımını
+paylaştım: **application/x-zip, 1 dosya**. Token, dosya kimliği veya içeriği
 sohbetle paylaşılmadı. İlk yüklemenin bir dosya oluşturduğu görülüyor; geri
 okuma/completion başarısı henüz kanıtlanmadı.
 
@@ -34,7 +38,7 @@ altında aç. Mevcut özel bağlantı dosyası aynen kullanılır, yeniden OAuth
 V2 hata mesajları doğrulanmış kodun yalnızca sabit kontrol etiketleri ve
 HTTP kodlarını gösterir; rastgele exception/response/credential gövdesi yok.
 Süre/Stop, ödeme ve VM ayarı değiştirilmedi. Yeni NASA ham indirme yok.
-Gerçek bulut v2 çalışması ve kullanıcıdan dönen rapor hâlâ bekleniyor.
+Gerçek bulut v2 çalışması ve indirilen rapor hâlâ bekleniyor.
 
 Son v2 paketle yerel save/restore ayrı süreçlerde gerçek bilimsel ürünle
 geçti; tüm 467 test ve Ruff/144 Python dosyası biçimi geçti. İlk yüklenmiş
