@@ -33,6 +33,21 @@ Bilgisayar açık ve uyanık olmalıdır. Tarayıcı sekmesine bağlı değildir
 bilgisayar kapanırsa veya uykuya geçerse kesintisiz çalışma garantisi yoktur.
 İşletim sisteminin uyku/güç ayarları otomatik değiştirilmez.
 
+## 10 Ekim başlatma kaydı
+
+Toplu çağrı 10 Ekim 2026 yaklaşık 01:38 Türkiye saatinde başladı:
+`training_2018_2023_20261010_26d6769c`. Kod commit'i `edb8d6f`.
+Son yetkili yerel süreç kontrolünde üst süreç ve hazırlık çocukları canlı;
+Ocak 2018'in ilk kesiminde 54/92 ham grup kaydedilmişti. Seçili 72 ayın
+bu yeni çağrıdaki kabul listesi henüz boş; daha önce kabul edilmiş Şubat ve
+Ağustos kayıtlarının silindiği anlamına gelmez. Toplam 24 saat sınırı yaklaşık
+11 Ekim 01:38 Türkiye saatine karşılık gelir; tamamlanma garantisi değildir.
+
+Kısıtlı araç ortamındaki ilk süreç sorgusu dışarıda başlatılmış süreçleri
+göremedi ve yanlış yokluk izlenimi verdi. Yetkili salt okunur CIM sorgusu
+aynı işin canlılığını doğruladı; ikinci iş başlatılmadı, kilitler kaldırılmadı.
+Yerel denetim: aynı iş dizininde `process_inspection_001.json`.
+
 ## İzleme ve kesinti sonrası devam
 
 Her çağrı ayrı `job_id` ile

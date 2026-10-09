@@ -51,6 +51,11 @@ dayanır; değişkenlerin tahmin katkısı eğitim deneyiyle ölçülecektir.
    hazır. Kış kısa penceresinde %13,845 eksik var; daha geniş pencereyle
    kısa pencerenin eksikleri sessizce doldurulmaz.
 
+Kalan aylar için [otomatik toplu hazırlık](VEGETATION_TRAINING_AUTORUN_2026-10-10.md)
+başladı. Aylar tek tek sohbet onayıyla açılmaz; ayrı bilimsel kayıt/denetim
+birimi olarak otomatik ilerler. Tam dönem kabulü ve habitat/etiket işleri
+henüz tamamlanmadı.
+
 Kaynak `available_at` bilinmediğinden özellikler geriye dönük aday olarak
 tutulur. Üretimde tahmin anında gerçekten bulunabilen kaynakların sözleşmesi
 ayrıca kurulacaktır. 2025 kapalı final testine bu çalışmada erişilmez.

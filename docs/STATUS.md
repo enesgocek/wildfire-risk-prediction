@@ -21,8 +21,12 @@ ve olay/etiket/birleştirme kabul adımlarını ayırır. Şubat ve Ağustos 201
 hazırlandı ve bağımsız geri okumalar geçti. [Kış–yaz incelemesi](VEGETATION_TRAINING_SUPPORT_2026-10-10.md)
 Şubat kısa penceresinde %13,845 destek eksikliği gösterdi; eksikler korundu.
 72 eğitim ayının ikisi hazırdır. [Sınırlı kuyruk](VEGETATION_PERIOD_QUEUE_2026-10-10.md)
-doğrulanmış yeniden kullanım, süre ve disk denetimleriyle hazır; bu yerel
-çağrı tamamlandı. Bütün dönem seri ve tarihsel erişim doğrulaması tamamlanmadı.
+doğrulanmış yeniden kullanım, süre ve disk denetimleriyle hazır. Sonrasında
+[otomatik toplu hazırlık](VEGETATION_TRAINING_AUTORUN_2026-10-10.md) başladı:
+2018–2023 seçili, dört saatlik alt kuyruklar, toplam 24 saat sınırı ve
+10 GiB disk rezervi. Son yerel süreç/log kontrolünde `running`, Ocak 2018
+hazırlığı sürüyor; yeni çağrıda henüz tam ay kabul edilmedi. Önceden kabul
+edilmiş iki ay korunuyor. Bütün dönem seri ve tarihsel erişim doğrulaması tamamlanmadı.
 
 ## Önceki oturumun kapanış incelemesi — 9 Ekim
 
