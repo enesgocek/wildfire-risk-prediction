@@ -53,6 +53,14 @@ geri okuma kodu/testleri ve sonuç raporlamasında araç desteği kullanıldı.
 Gerçek hazırlık ve iki otomatik denetim [aylık raporda](../VEGETATION_MONTH_2018_08_2026-10-10.md)
 kayıtlıdır. Bunlar saha doğrulaması veya danışman onayı olarak sunulmadı.
 
+## Eğitim kuyruğu ve destek incelemesi
+
+10 Ekim 2026'da sınırlı dönem kuyruğu, yeniden kullanım/süre/disk kontrolleri,
+destek ve görüntü yaşı inceleme kodu, testleri ve raporlamasında araç desteği
+kullanıldı. Gerçek Ağustos yeniden okuması ile yeni Şubat hazırlığının
+durumu [kuyruk raporunda](../VEGETATION_PERIOD_QUEUE_2026-10-10.md) ayrı tutuldu.
+Otomatik kontroller habitat/etiket kararı veya uzman onayı sayılmadı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

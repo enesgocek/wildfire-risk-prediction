@@ -737,6 +737,35 @@ görüntü yaşı kaydedilir. Gelecekten geri doldurma, interpolasyon veya eksik
 için tablo geriye dönük adaydır; operasyonel uygunluk ve yangın etiketi üretmez.
 Yedi günlük kesim/sekiz günlük saklama kararının model katkısı henüz ölçülmedi.
 
+## Bitki örtüsünü eğitim aylarına kontrollü genişletme
+
+`prepare_vegetation_period.py`, kabul edilmiş aylık üretim kodunu değiştirmeden
+2018–2023 aylarını sırayla hazırlar/doğrular. Mevcut aylarda bağımsız geri okuma
+yapar; yeniden veri isteği yapmaz. Tek yazar kilidi, kod/grid hash'leri, yeni ay
+bütçesi, aktif çocuk süreci kapsayan süre sınırı ve ay başında disk kontrolü vardır.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/prepare_vegetation_period.py plan --start 2018-01 --end 2023-12
+.\.venv\Scripts\python.exe scripts/landcover/prepare_vegetation_period.py run --start 2018-02 --end 2018-02 --max-new-months 1 --max-run-minutes 45 --min-free-gib 10
+```
+
+Plan ağ kullanmaz; manifest varlığı doğrulama değildir. Kesinti sonrası aynı
+aralık yeniden çağrılır, tamamlanmış kayıtlar korunur. Varsayılan bir yeni ay
+ve 45 dakikadır; bilgisayarı kapatınca süren bir hizmet değildir. Raporlar
+`outputs/reports/landscape/period_v1/<run_id>/` içinde kalır.
+[Kuyruk, bütçe ve kilit rehberi](../docs/VEGETATION_PERIOD_QUEUE_2026-10-10.md).
+
+Seçili eğitim aylarının destek/yaş karşılaştırması önce her ayın bağımsız
+geri okumasını çalıştırır; yalnız doğrulanmış tablolardan istatistik üretir:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/quality/review_vegetation_months.py --months 2018-08 --report-name august_training_2018_v1.json
+```
+
+Çıktı `outputs/reports/landscape/month_comparison_v1/` içindedir. Kabul edilmiş
+inceleme raporu değiştirilmez; farklı kapsam/sonuç için yeni rapor adı kullanılır.
+Görüntü yaşı yüzdelikleri günlük taşınan hücre-gün kayıtlarını tanımlar.
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten
