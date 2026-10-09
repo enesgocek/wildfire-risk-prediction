@@ -50,6 +50,14 @@ Yerel denetim: aynı iş dizininde `process_inspection_001.json`.
 
 ## İzleme ve kesinti sonrası devam
 
+10 Ekim yaklaşık 02:45 Türkiye saati durum kaydı: süreç canlı, `running`;
+Mayıs 2018 hazırlanıyor. Yeni çağrıda Ocak–Nisan kabul edilmiş; önceki
+Ağustos ile toplam beş tam ay ve 67 kalan ay var. Yerel gözlem
+`progress_inspection_002.json` içinde. Ocak/Mart'ın 21,09/23,20 dakikalık
+hazırlama ölçümlerinden kalan dönem için kaba tahmin 24–28 ek saat;
+bütün dönem garantisi değildir. Bu hızda 24 saatlik çağrı sınırına tamamlanma
+öncesinde ulaşılabilir; sonraki devam çağrısı mevcut dosyaları yeniden kullanır.
+
 Her çağrı ayrı `job_id` ile
 `outputs/reports/landscape/training_supervisor_v1/<job_id>/progress.json`
 yazar. `current_month`, `verified_months`, `active_batch_report`, toplam
