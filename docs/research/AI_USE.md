@@ -70,6 +70,14 @@ kontrolleri, davranış testleri ve yöntem metninde araç desteği kullanıldı
 Gerçek yeniden kullanım denemesi ile tam dönem planı
 [toplu hazırlık raporunda](../VEGETATION_TRAINING_AUTORUN_2026-10-10.md) ayrıldı.
 
+## Habitat kapsamının ön incelemesi
+
+10 Ekim'de statik örtü bileşimi ve alan paydalarını inceleyen kod, davranış
+testleri ve rapor yazımında araç desteği kullanıldı. Gerçek 2.899 hücre için
+15 keşif senaryosu ve ayrı sınıf-formülü geri okuması
+[habitat raporunda](../HABITAT_REVIEW_2026-10-10.md) kayıtlıdır. Eşikler nihai
+habitat kararı veya uzman onayı olarak sunulmadı; canlı üretim kodu değiştirilmedi.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

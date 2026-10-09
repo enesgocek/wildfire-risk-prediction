@@ -780,6 +780,18 @@ iş için bilgisayar açık ve uyanık kalmalıdır. Canlı üst rapor
 `outputs/reports/landscape/training_supervisor_v1/<job_id>/progress.json`
 içindedir. [Toplu çalışma ve izleme](../docs/VEGETATION_TRAINING_AUTORUN_2026-10-10.md).
 
+## Çevrimdışı habitat kapsamı incelemesi
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/review_habitat.py
+```
+
+Kabul edilmiş statik girdilerin hash'lerini kontrol eder; bütün hücreleri ve
+keşif amaçlı örtü/eşik senaryolarını yeni bir
+`outputs/reports/habitat/review_v1/<run_id>/` dizinine yazar. Ağ isteği yapmaz,
+habitat maskesi veya etiket seçmez. Canlı bitki örtüsü işinin girdilerini değiştirmez.
+[Yöntem ve gerçek sonuç](../docs/HABITAT_REVIEW_2026-10-10.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten

@@ -32,6 +32,13 @@ ek süre öngörülüyor; kaynak değişimi ve tekrar geri okuma nedeniyle garan
 24 saatlik çağrı sınırı 11 Ekim 01:38 civarı; bütün aylar bitmeden durabilir.
 Bütün dönem seri ve tarihsel erişim doğrulaması tamamlanmadı.
 
+Bitki örtüsü kuyruğu sürerken [habitat kapsamı ön incelemesi](HABITAT_REVIEW_2026-10-10.md)
+tamamlandı. Statik 2.899 hücrenin tamamı korundu; 15 keşif eşiği karşılaştırıldı.
+2017 haritasında 10 tamamen su sınıfı hücre ve önceki 17 küçük arazi destek
+işareti görüldü. 28 ilgili test ve ayrı sınıf-formülü geri okuması geçti.
+Habitat uygunluğu seçilmedi, etiket üretilmedi. 02:52 Türkiye saati sorgusunda
+arka plan üst süreci canlı, Mayıs hazırlanıyor; üretim kaynak hash'leri değişmedi.
+
 ## Önceki oturumun kapanış incelemesi — 9 Ekim
 
 Kaynak uyuşmazlığına duyarlı devam oturumu kapandı. Paylaşılan Cloud Shell

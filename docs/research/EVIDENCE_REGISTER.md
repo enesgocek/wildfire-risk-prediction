@@ -32,6 +32,12 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 | E17 | Şubat 2018 için 162.344 yeni günlük aday kabul edildi; Şubat/Ağustos toplam 342.082 satırın bağımsız destek/yaş incelemesi geçti | [Kış–yaz tam grid incelemesi](../VEGETATION_TRAINING_SUPPORT_2026-10-10.md), `outputs/reports/landscape/month_comparison_v1/winter_summer_training_2018_v1.json` | 72 eğitim ayının ikisi; kış kısa penceresinde %13,845 eksik; etiket/model/operasyonel erişim yok |
 
+E18 — 10 Ekim: [Habitat ön incelemesi](../HABITAT_REVIEW_2026-10-10.md)
+bütün 2.899 statik hücreyi ve 15 örtü/eşik senaryosunu geri okudu.
+Kanıt: `outputs/reports/habitat/review_v1/20261009T235212Z_3c2c021b/`.
+Sınır: matematiksel sınıf/alan çapraz kontrolü; uygunluk, yangın etiketi,
+güncel habitat doğruluğu veya uzman onayı değildir.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
