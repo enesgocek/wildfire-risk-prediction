@@ -60,6 +60,8 @@ destek ve görüntü yaşı inceleme kodu, testleri ve raporlamasında araç des
 kullanıldı. Gerçek Ağustos yeniden okuması ile yeni Şubat hazırlığının
 durumu [kuyruk raporunda](../VEGETATION_PERIOD_QUEUE_2026-10-10.md) ayrı tutuldu.
 Otomatik kontroller habitat/etiket kararı veya uzman onayı sayılmadı.
+Şubat hazırlığı ve iki ayın tam geri okuma/destek/yaş sonucu
+[kış–yaz raporuna](../VEGETATION_TRAINING_SUPPORT_2026-10-10.md) işlendi.
 
 ## Resmî kaynak
 

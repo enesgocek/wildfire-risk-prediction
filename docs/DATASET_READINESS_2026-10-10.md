@@ -11,7 +11,7 @@ operasyonel erişim onayı değildir.
 | Coğrafi anahtar | Dört il, 2.899 hücre, AOI kesişimleri | Küçük sınır hücrelerinin destek alanını izlemek; bütün hücreleri otomatik orman saymamak |
 | Meteoroloji | 2018–2024 için 7.412.743 hücre-gün yerel denetimden geçti | Mevcut 11 aday özellik ve uygunluk bayraklarını anahtar/zaman sözleşmesiyle birleştirmek |
 | Arazi ve örtü | 2.899 hücrenin statik tablosu hazır | Kıyı/sınır desteği, tarihsel harita erişimi ve habitat tanımını gerekçelendirmek |
-| Bitki örtüsü | Örnek/tam grid denemeleri ve Ağustos 2018'in 179.738 günlük adayı denetlendi | Eğitim dönemine kontrollü genişletme; deneysel kesim/saklama kararının model katkısını değerlendirmek |
+| Bitki örtüsü | Örnek/tam grid denemeleri ve Şubat/Ağustos 2018'in 342.082 günlük adayı denetlendi | Sınırlı kuyrukla kalan 70 eğitim ayına genişletme; kesim/saklama kararının model katkısını değerlendirmek |
 | Uydu gözlem tanıları | VM üzerinde kalan eğitim ayları işleniyor | Oturum raporlarını ve sonuç arşivlerini yerelde geri okumak; eksik kaynakları ayrı tutmak |
 | Olay ve hedef | İlk aktif tespit için 24 saatlik hedef tanımı kayıtlı | Tekrarlayan tespitleri olaylara gruplayıp belirsizlik ve güvenilir negatif politikası oluşturmak |
 | Nihai tablo | Henüz oluşturulmadı | Kaynak manifestleri, anahtar/zaman kontrolleri ve bölünme denetimleriyle kabul etmek |
@@ -46,8 +46,10 @@ dayanır; değişkenlerin tahmin katkısı eğitim deneyiyle ölçülecektir.
    denemesi tamamlandı: Ağustos 2018, beş kesim ve 179.738 satır; iki bağımsız
    yerel geri okuma geçti. Yedi günlük aralık/sekiz günlük saklama deneysel
    adaydır; henüz model kalitesine göre doğrulanmış değildir.
-4. Ölçülen kapsam/süre/çıktı boyutundan sonra eğitim yıllarına yayma. Daha geniş
-   pencereyle kısa pencerenin eksikleri sessizce doldurulmaz.
+4. Şubat 2018 kış genişlemesi ve iki ayın destek/yaş incelemesi geçti. Eğitim
+   yıllarına yayma için tek yazar, kaynak hash'i, disk ve süre bütçeli kuyruk
+   hazır. Kış kısa penceresinde %13,845 eksik var; daha geniş pencereyle
+   kısa pencerenin eksikleri sessizce doldurulmaz.
 
 Kaynak `available_at` bilinmediğinden özellikler geriye dönük aday olarak
 tutulur. Üretimde tahmin anında gerçekten bulunabilen kaynakların sözleşmesi
@@ -67,5 +69,5 @@ ve öğrenilen dönüşümler yalnız eğitim verisine/folduna fit edilir. Eğit
 aşan olaylar ayrıca denetlenir. Bu şartlar sağlanmadan model başarısı veya
 veri setinin tamamlandığı ilan edilmez.
 
-Güncel uygulama sonucu [aylık bitki örtüsü raporunda](VEGETATION_MONTH_2018_08_2026-10-10.md)
+Güncel uygulama sonucu [kış–yaz bitki örtüsü raporunda](VEGETATION_TRAINING_SUPPORT_2026-10-10.md)
 ve [STATUS](STATUS.md) dosyasında kayıtlıdır. VM'ye müdahale edilmedi.

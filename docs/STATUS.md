@@ -16,11 +16,13 @@ Bu bilgi kullanıcı tarafından paylaşılan uzak çıktıdır; canlı API sorg
 
 VM çalışırken bağımsız yerel özellik hazırlığı sürüyor. [Veri setine geçiş
 planı](DATASET_READINESS_2026-10-10.md), hazır parçaları, bitki örtüsü ölçeklemesini
-ve olay/etiket/birleştirme kabul adımlarını ayırır. Ağustos 2018'in beş haftalık
-kesimindeki 28.990 bitki örtüsü özetinden 179.738 günlük aday satır hazırlandı.
-2.899 hücrede ayrı 30/60 günlük pencereler ve geçmişe göre seçim iki yerel
-geri okumadan geçti. [Aylık deneme](VEGETATION_MONTH_2018_08_2026-10-10.md)
-tek eğitim ayıdır; bütün dönem seri ve tarihsel erişim doğrulaması tamamlanmadı.
+ve olay/etiket/birleştirme kabul adımlarını ayırır. Şubat ve Ağustos 2018 için
+2.899 hücrede ayrı 30/60 günlük pencerelerden 342.082 günlük aday satır
+hazırlandı ve bağımsız geri okumalar geçti. [Kış–yaz incelemesi](VEGETATION_TRAINING_SUPPORT_2026-10-10.md)
+Şubat kısa penceresinde %13,845 destek eksikliği gösterdi; eksikler korundu.
+72 eğitim ayının ikisi hazırdır. [Sınırlı kuyruk](VEGETATION_PERIOD_QUEUE_2026-10-10.md)
+doğrulanmış yeniden kullanım, süre ve disk denetimleriyle hazır; bu yerel
+çağrı tamamlandı. Bütün dönem seri ve tarihsel erişim doğrulaması tamamlanmadı.
 
 ## Önceki oturumun kapanış incelemesi — 9 Ekim
 
@@ -62,7 +64,7 @@ yazışması ayrı bir konudur; inceleme bildirimi teknik teyit değildir.
 |---|---|---|
 | Coğrafi altyapı | Dört il ve 2.899 hücre hazır | Model için bitki örtüsü uygunluk seçimi açık |
 | Meteoroloji | 2018–2024; 2.557 gün, 7.412.743 hücre-gün denetlendi | Eğitim 6.351.709; doğrulama 1.061.034; gerçek zaman erişimi doğrulanmadı |
-| Örtü ve arazi | 2.899 statik hücre; mevsim/tam grid denemeleri ve Ağustos 2018'in 179.738 günlük bitki örtüsü adayı denetlendi | Bütün dönem günlük seri ve habitat kararı tamamlanmadı; tarihsel erişim zamanı bilinmiyor |
+| Örtü ve arazi | 2.899 statik hücre; mevsim/tam grid denemeleri ve iki eğitim ayının 342.082 günlük bitki örtüsü adayı denetlendi | Kalan 70 eğitim ayı ve habitat kararı tamamlanmadı; tarihsel erişim zamanı bilinmiyor |
 | FIRMS | İki sensörden 33.255 aday tespit | Bağımsız yangın sayısı veya nihai etiket değil |
 | Gözlem alanı | Kaynak/alan/tarama tanıları ve bulut üretim hattı mevcut | Yaklaşık geometri; negatif etiket izni yok |
 | Hızlandırma | Aynı VM baz ortalamasına karşı 1,4655 kat throughput | Üç günlük deney; tüm dönem veya donanım etkisi garantisi değil |
@@ -72,8 +74,8 @@ Birincil rapor bağlantıları [kanıt dizininde](research/EVIDENCE_REGISTER.md)
 [Arazi hazırlığı ve bitki örtüsü örneği](LANDSCAPE_PREPARATION_2026-10-09.md)
 yerelde tamamlandı; VM'deki yangın gözlem üretiminden bağımsızdır.
 [Mevsim ve görüntü yaşı karşılaştırması](VEGETATION_WINDOW_REVIEW_2026-10-09.md)
-da yerelde denetlendi. 30 ve 60 günlük ayrı aday özelliklerin tek eğitim
-ayındaki günlük eşleştirme denemesi 10 Ekim'de geçti. Bu çalışma bütün dönem
+da yerelde denetlendi. 30 ve 60 günlük ayrı aday özelliklerin iki eğitim
+ayındaki günlük eşleştirme ve destek/yaş incelemesi 10 Ekim'de geçti. Bu çalışma bütün dönem
 veri hazırlığı veya operasyonel kullanım onayı olarak sayılmadı.
 Üretim boyunca `daily_observation_status=unknown` ve
 `negative_label_permitted=false` geçerli. 2025 final testi kapalıdır.

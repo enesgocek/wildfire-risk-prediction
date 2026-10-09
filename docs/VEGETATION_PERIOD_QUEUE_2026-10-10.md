@@ -70,7 +70,9 @@ Ağustos 2018 yeniden kullanım çağrısı geçti: 179.738 satır, sıfır yeni
 
 Şubat 2018, önceki mevsim denemesindeki sabit kış ayı olarak geniş kapsam
 hazırlığına alındı; yangın etiketleri veya model performansına göre seçilmedi.
-Sonuç ve destek eksikleri hazırlık tamamlandıktan sonra kaydedilecektir.
+Hazırlık ve kuyruk kabulü tamamlandı: 162.344 satır, dört yeni kesim,
+1.059,188 saniye. [Kış–yaz destek/yaş sonucu](VEGETATION_TRAINING_SUPPORT_2026-10-10.md)
+iki ayın tekrar bağımsız geri okumasını ve açık sınırlamaları kaydeder.
 
 İlk yeni kesim (1 Şubat 2018) 5.798 satırla bağımsız geri okumadan geçti.
 30 günlük pencerede 626, 60 günlük pencerede 32 hücre desteksizdi; AOI'nin en
