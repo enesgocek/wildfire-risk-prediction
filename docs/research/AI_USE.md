@@ -46,6 +46,13 @@ Gerçek veri isteği, önceki örnekle sayısal eşleştirme ve ağ kapalı chec
 kontrolü [tarihli raporda](../VEGETATION_FULL_GRID_2026-10-10.md) kayıtlıdır.
 Bu otomatik kontroller bağımsız saha/uzman doğrulaması olarak sunulmadı.
 
+## Bir eğitim ayının günlük eşleştirmesi
+
+10 Ekim 2026'da eğitim ayı hazırlığı, geçmişe göre günlük seçim, bağımsız
+geri okuma kodu/testleri ve sonuç raporlamasında araç desteği kullanıldı.
+Gerçek hazırlık ve iki otomatik denetim [aylık raporda](../VEGETATION_MONTH_2018_08_2026-10-10.md)
+kayıtlıdır. Bunlar saha doğrulaması veya danışman onayı olarak sunulmadı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

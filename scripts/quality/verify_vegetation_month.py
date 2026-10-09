@@ -4,6 +4,8 @@ import argparse
 import hashlib
 import importlib.util
 import json
+import re
+from datetime import timedelta
 from pathlib import Path
 
 import numpy as np
@@ -31,11 +33,12 @@ def require(condition, name):
 
 
 def verify(month):
+    require(isinstance(month, str) and re.fullmatch(r"\d{4}-\d{2}", month), "Month format")
+    first = pd.Timestamp(month + "-01", tz="UTC")
+    require(2018 <= first.year <= 2023, "Training-only month")
     directory = ROOT / "data/interim/vegetation/month_v1" / month
     manifest_path = directory / "manifest.json"
     manifest = json.loads(manifest_path.read_text())
-    first = pd.Timestamp(month + "-01", tz="UTC")
-    require(2018 <= first.year <= 2023, "Training-only month")
     dates = pd.date_range(first, periods=first.days_in_month, freq="D")
     cutoffs = dates[::7]
     require(
@@ -123,7 +126,7 @@ def verify(month):
                 source.window_days.eq(window)
                 & source.valid_area_m2.gt(0)
                 & source.cutoff.le(date)
-                & source.cutoff.ge(date - pd.Timedelta(days=8))
+                & source.cutoff.ge(date.to_pydatetime() - timedelta(days=8))
             ]
             chosen = (
                 eligible.sort_values("cutoff")
@@ -205,13 +208,28 @@ def verify(month):
     }
 
 
+def write_report(path, report):
+    encoded = json.dumps(report, indent=2) + "\n"
+    if path.exists():
+        require(
+            path.read_text(encoding="utf-8") == encoded,
+            "Accepted report retained; use a new report name",
+        )
+        return
+    temporary = path.with_suffix(".tmp")
+    temporary.write_text(encoded, encoding="utf-8")
+    temporary.replace(path)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--month", default="2018-08")
+    parser.add_argument("--report-name", default="local_readback.json")
     args = parser.parse_args()
+    require(re.fullmatch(r"[a-z0-9_]+\.json", args.report_name), "Report filename")
     report = verify(args.month)
-    path = ROOT / "outputs/reports/landscape/month_v1" / args.month / "local_readback.json"
-    path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    path = ROOT / "outputs/reports/landscape/month_v1" / args.month / args.report_name
+    write_report(path, report)
     print(json.dumps(report, indent=2))
 
 

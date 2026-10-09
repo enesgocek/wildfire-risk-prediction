@@ -11,7 +11,7 @@ operasyonel erişim onayı değildir.
 | Coğrafi anahtar | Dört il, 2.899 hücre, AOI kesişimleri | Küçük sınır hücrelerinin destek alanını izlemek; bütün hücreleri otomatik orman saymamak |
 | Meteoroloji | 2018–2024 için 7.412.743 hücre-gün yerel denetimden geçti | Mevcut 11 aday özellik ve uygunluk bayraklarını anahtar/zaman sözleşmesiyle birleştirmek |
 | Arazi ve örtü | 2.899 hücrenin statik tablosu hazır | Kıyı/sınır desteği, tarihsel harita erişimi ve habitat tanımını gerekçelendirmek |
-| Bitki örtüsü | 32 hücre, dört mevsim, üç pencere denetlendi | Önce 2.899 hücrede tek eğitim kesim anı; ardından haftalık kesimlerle bir eğitim ayı |
+| Bitki örtüsü | Örnek/tam grid denemeleri ve Ağustos 2018'in 179.738 günlük adayı denetlendi | Eğitim dönemine kontrollü genişletme; deneysel kesim/saklama kararının model katkısını değerlendirmek |
 | Uydu gözlem tanıları | VM üzerinde kalan eğitim ayları işleniyor | Oturum raporlarını ve sonuç arşivlerini yerelde geri okumak; eksik kaynakları ayrı tutmak |
 | Olay ve hedef | İlk aktif tespit için 24 saatlik hedef tanımı kayıtlı | Tekrarlayan tespitleri olaylara gruplayıp belirsizlik ve güvenilir negatif politikası oluşturmak |
 | Nihai tablo | Henüz oluşturulmadı | Kaynak manifestleri, anahtar/zaman kontrolleri ve bölünme denetimleriyle kabul etmek |
@@ -42,9 +42,10 @@ dayanır; değişkenlerin tahmin katkısı eğitim deneyiyle ölçülecektir.
    gruplarla sınırlı hazırlık. İki eşzamanlı istek; ham integral ve sahne kimlikleri
    kalıcı kayıtlı. Kesim tarihi ve grup sözleşmesi değişirse checkpoint yeniden kullanımı reddedilir.
 2. Ham integrallerin bağımsız yerel geri okuması ve eski 32 hücrelik örnekle eşleştirme.
-3. İlk adım geçerse aynı eğitim ayının haftalık kesimlerinde günlük geçmişe göre
-   eşleştirme denemesi. Yedi günlük aralık/sekiz günlük saklama deneysel adaydır;
-   henüz model kalitesine göre doğrulanmış değildir.
+3. Aynı eğitim ayının haftalık kesimlerinde günlük geçmişe göre eşleştirme
+   denemesi tamamlandı: Ağustos 2018, beş kesim ve 179.738 satır; iki bağımsız
+   yerel geri okuma geçti. Yedi günlük aralık/sekiz günlük saklama deneysel
+   adaydır; henüz model kalitesine göre doğrulanmış değildir.
 4. Ölçülen kapsam/süre/çıktı boyutundan sonra eğitim yıllarına yayma. Daha geniş
    pencereyle kısa pencerenin eksikleri sessizce doldurulmaz.
 
@@ -66,5 +67,5 @@ ve öğrenilen dönüşümler yalnız eğitim verisine/folduna fit edilir. Eğit
 aşan olaylar ayrıca denetlenir. Bu şartlar sağlanmadan model başarısı veya
 veri setinin tamamlandığı ilan edilmez.
 
-Güncel uygulama sonucu, tarihli bitki örtüsü raporuna ve [STATUS](STATUS.md)
-dosyasına eklenecektir. VM'ye ek yük veya yeni kaynak oluşturma gerekmez.
+Güncel uygulama sonucu [aylık bitki örtüsü raporunda](VEGETATION_MONTH_2018_08_2026-10-10.md)
+ve [STATUS](STATUS.md) dosyasında kayıtlıdır. VM'ye müdahale edilmedi.

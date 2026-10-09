@@ -66,6 +66,9 @@ yeterli sayılmaz; Git index içeriği ayrıca kontrol edilir. Bulgu varsa
 giderilmeden push yapılmaz. Kod/dokümantasyon ve küçük açık yapılandırmalar
 izlenebilir commit'lerle gönderilir; force-push veya geçmiş silme yapılmaz.
 Bu kalıcı tercih zamanlanmış görev ya da bulut işi başlatma yetkisi değildir.
+Gönderim hedefi `https://github.com/enesgocek/wildfire-risk-prediction`, mevcut
+`main` dalıdır. Kullanıcı 10 Ekim'de bu deponun kendisine ait olduğunu ve
+kontrol edilmiş kod/rapor commit'lerinin gönderimini ayrıca açıkça teyit etti.
 Standart içerik kontrolü: `python scripts/quality/check_git_privacy.py --scope staged`.
 Otomatik kontrol bütün olası sızıntıları kanıtlamaz; staged diff, dosya listesi
 ve boyut incelemesiyle birlikte uygulanır. Kimlik bilgisi bulguları değerleri

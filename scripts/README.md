@@ -726,6 +726,10 @@ kontrol için ikinci komut kullanılır. Aylık tablolar
 `data/interim/vegetation/month_v1/YYYY-MM/`, raporlar
 `outputs/reports/landscape/month_v1/YYYY-MM/` altındadır.
 
+Denetim raporu aynı sonuçta korunur; farklı sonuç kabul edilmiş raporu
+değiştirmez. Yeni denetim kaydı için `--report-name local_readback_v2.json`
+kullanılır. Eğitim dışı aylar kaynak dosyaları okunmadan reddedilir.
+
 Günlük satırlar taze günlük görüntüler değildir. En yakın **destekli geçmiş**
 özet deneysel olarak en fazla sekiz gün korunur; kaynak/pencere/manifest ve
 görüntü yaşı kaydedilir. Gelecekten geri doldurma, interpolasyon veya eksik

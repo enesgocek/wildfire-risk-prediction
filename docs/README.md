@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 9 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 10 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. TÜBİTAK belirli bir Git
 klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği için seçilmiştir.
 
@@ -22,6 +22,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Bitki örtüsü mevsim karşılaştırması](VEGETATION_WINDOW_REVIEW_2026-10-09.md) | 16/30/60 günlük destek, görüntü yaşı ve günlük geçmişe göre seçim örneği |
 | [Veri setine geçiş planı](DATASET_READINESS_2026-10-10.md) | Hazır parçalar, özellik anlamları, bitki örtüsü ölçekleme ve nihai etiket/birleştirme ölçütleri |
 | [Bütün hücrelerde bitki örtüsü denemesi](VEGETATION_FULL_GRID_2026-10-10.md) | 2.899 hücre, iki geçmiş pencere, ham integral geri okuması ve checkpoint tekrar kullanımı |
+| [Ağustos 2018 günlük bitki örtüsü adayları](VEGETATION_MONTH_2018_08_2026-10-10.md) | Beş haftalık kesim, 179.738 günlük aday satır, iki geri okuma ve erişim sınırları |
 | [Kaynak ertelemeli oturum kapanışı](GCP_CONTINUATION_FAILURE_2026-10-09.md) | RuntimeError bildirimi, uzak ilerleme ve güvenli teşhis arşivi toplama |
 | [V2 güvenli tanı ve devam](GCP_SOURCE_AWARE_V2_2026-10-09.md) | Drive raporu çapraz kontrolü, değişmeyen checkpoint kuralları ve yeniden deneme adımları |
 
