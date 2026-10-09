@@ -25,6 +25,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Ağustos 2018 günlük bitki örtüsü adayları](VEGETATION_MONTH_2018_08_2026-10-10.md) | Beş haftalık kesim, 179.738 günlük aday satır, iki geri okuma ve erişim sınırları |
 | [Bitki örtüsü eğitim dönemi kuyruğu](VEGETATION_PERIOD_QUEUE_2026-10-10.md) | 72 aylık plan, tek yazar, kaynak/disk/süre kontrolleri ve doğrulanmış yeniden kullanım |
 | [Bitki örtüsü kış–yaz tam grid incelemesi](VEGETATION_TRAINING_SUPPORT_2026-10-10.md) | İki eğitim ayında 342.082 aday, destek eksikliği, görüntü yaşı ve tekrar geri okuma |
+| [Bitki örtüsü otomatik toplu hazırlığı](VEGETATION_TRAINING_AUTORUN_2026-10-10.md) | Dört saatlik alt kuyrukların otomatik devamı, toplam süre sınırı, canlı kabul ve yerel süreç koşulu |
 | [Kaynak ertelemeli oturum kapanışı](GCP_CONTINUATION_FAILURE_2026-10-09.md) | RuntimeError bildirimi, uzak ilerleme ve güvenli teşhis arşivi toplama |
 | [V2 güvenli tanı ve devam](GCP_SOURCE_AWARE_V2_2026-10-09.md) | Drive raporu çapraz kontrolü, değişmeyen checkpoint kuralları ve yeniden deneme adımları |
 

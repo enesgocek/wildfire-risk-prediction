@@ -147,7 +147,13 @@ def verified_entry(month, report_path):
     }
 
 
-def run(start, end, max_new_months=1, max_run_minutes=45, min_free_gib=10):
+def write_progress(directory, report, on_progress):
+    save(directory / "progress.json", report)
+    if on_progress is not None:
+        on_progress(directory, json.loads(json.dumps(report)))
+
+
+def run(start, end, max_new_months=1, max_run_minutes=45, min_free_gib=10, on_progress=None):
     selected = plan(start, end)
     if type(max_new_months) is not int or not 1 <= max_new_months <= 72:
         raise ValueError("New month budget must be 1–72")
@@ -175,7 +181,7 @@ def run(start, end, max_new_months=1, max_run_minutes=45, min_free_gib=10):
     with single_writer():
         directory.mkdir(parents=True, exist_ok=False)
         try:
-            save(directory / "progress.json", report)
+            write_progress(directory, report, on_progress)
             for month in selected["selected_months"]:
                 report["current_month"] = month
                 require_unchanged(pinned)
@@ -189,7 +195,7 @@ def run(start, end, max_new_months=1, max_run_minutes=45, min_free_gib=10):
                 if shutil.disk_usage(ROOT).free < min_free_gib * GIB:
                     report["status"] = "paused_disk_reserve"
                     break
-                save(directory / "progress.json", report)
+                write_progress(directory, report, on_progress)
                 if not existing:
                     print(f"QUEUE PREPARE {month}: two requests, one month", flush=True)
                     run_child(
@@ -224,7 +230,7 @@ def run(start, end, max_new_months=1, max_run_minutes=45, min_free_gib=10):
                 entry["action"] = "verified_reused" if existing else "prepared_verified"
                 report["verified_months"].append(entry)
                 report["new_months"] += int(not existing)
-                save(directory / "progress.json", report)
+                write_progress(directory, report, on_progress)
                 print(f"QUEUE MONTH VERIFIED {month}: {entry['daily_rows']} rows", flush=True)
             else:
                 report["status"] = "selected_training_range_verified"
@@ -240,7 +246,7 @@ def run(start, end, max_new_months=1, max_run_minutes=45, min_free_gib=10):
             # External error text/credentials are never echoed or added to public reports.
         finally:
             report["elapsed_seconds"] = round(time.monotonic() - begun, 3)
-            save(directory / "progress.json", report)
+            write_progress(directory, report, on_progress)
     return report, directory
 
 

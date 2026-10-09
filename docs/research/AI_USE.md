@@ -63,6 +63,13 @@ Otomatik kontroller habitat/etiket kararı veya uzman onayı sayılmadı.
 Şubat hazırlığı ve iki ayın tam geri okuma/destek/yaş sonucu
 [kış–yaz raporuna](../VEGETATION_TRAINING_SUPPORT_2026-10-10.md) işlendi.
 
+## Otomatik toplu yürütme
+
+10 Ekim'deki otomatik toplu yürütme, canlı kabul kaydı, sınırlı devam/stop
+kontrolleri, davranış testleri ve yöntem metninde araç desteği kullanıldı.
+Gerçek yeniden kullanım denemesi ile tam dönem planı
+[toplu hazırlık raporunda](../VEGETATION_TRAINING_AUTORUN_2026-10-10.md) ayrıldı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

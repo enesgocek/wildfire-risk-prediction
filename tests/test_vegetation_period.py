@@ -179,6 +179,20 @@ def test_existing_lock_is_never_removed_or_bypassed(workspace):
     assert path.read_text() == "another process"
 
 
+def test_live_callback_cannot_mutate_queue_acceptance(workspace, monkeypatch):
+    calls, observed = [], []
+    monkeypatch.setattr(queue, "run_child", fake_children(calls))
+
+    def observer(directory, report):
+        assert (directory / "progress.json").is_file()
+        observed.append(len(report["verified_months"]))
+        report["verified_months"].clear()
+
+    report, _ = queue.run("2018-08", "2018-08", on_progress=observer)
+    assert observed[-1] == 1
+    assert len(report["verified_months"]) == 1
+
+
 def test_child_is_killed_and_reaped_at_deadline(workspace):
     path = workspace / "private_child.log"
     with pytest.raises(subprocess.TimeoutExpired):

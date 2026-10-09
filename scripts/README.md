@@ -766,6 +766,20 @@ geri okumasını çalıştırır; yalnız doğrulanmış tablolardan istatistik 
 inceleme raporu değiştirilmez; farklı kapsam/sonuç için yeni rapor adı kullanılır.
 Görüntü yaşı yüzdelikleri günlük taşınan hücre-gün kayıtlarını tanımlar.
 
+## Bitki örtüsünün otomatik toplu yürütülmesi
+
+Eğitim aylarını sohbetten tek tek başlatmadan ilerleten üst süreç:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/landcover/run_vegetation_training.py --start 2018-01 --end 2023-12 --hours 24 --batch-minutes 240 --min-free-gib 10
+```
+
+Dört saatlik süre duruşunda yeni alt kuyruk otomatik açılır; hata/disk/kesinti
+durumunda açılmaz. Toplam 24 saat sınırı bitiş garantisi değildir. Bu yerel
+iş için bilgisayar açık ve uyanık kalmalıdır. Canlı üst rapor
+`outputs/reports/landscape/training_supervisor_v1/<job_id>/progress.json`
+içindedir. [Toplu çalışma ve izleme](../docs/VEGETATION_TRAINING_AUTORUN_2026-10-10.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten
