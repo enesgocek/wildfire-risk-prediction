@@ -143,6 +143,14 @@ kullanıldı. [Deneme raporu](../FEATURE_JOIN_PILOT_2026-10-10.md), tek eğitim
 gününde özellik tutarlılığını nihai etiket/model kabulünden ayırır. Kaynak
 eksikleri veya tarihsel erişim belirsizliği araç desteğiyle kapatılmış sayılmadı.
 
+## Gün geçişleri ve hedef kabul hazırlığı
+
+10 Ekim'de bağımsız özellik günlerinin geri okuması, kapalı etiket kabul
+kontrolü, pencere/split davranış testleri ve dokuz eski keşif kataloğunun
+çevrimdışı denetiminde araç desteği kullanıldı. [Rapor](../TARGET_ADMISSION_REVIEW_2026-10-10.md)
+bu hazırlığı nihai olay/etiket kabulünden ayırır. Uzman veya bağımsız saha
+onayı araçla üretilmiş gibi gösterilmedi; bilimsel kabul kararları açık kaldı.
+
 ## Resmî kaynak
 
 

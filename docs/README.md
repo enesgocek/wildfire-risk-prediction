@@ -22,6 +22,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Bitki örtüsü mevsim karşılaştırması](VEGETATION_WINDOW_REVIEW_2026-10-09.md) | 16/30/60 günlük destek, görüntü yaşı ve günlük geçmişe göre seçim örneği |
 | [Veri setine geçiş planı](DATASET_READINESS_2026-10-10.md) | Hazır parçalar, özellik anlamları, bitki örtüsü ölçekleme ve nihai etiket/birleştirme ölçütleri |
 | [Özellik birleştirme denemesi](FEATURE_JOIN_PILOT_2026-10-10.md) | Tek eğitim gününde 27 aday, ayrı kalite/provenance, anahtar ve geçmiş zaman kontrolleri |
+| [Hedef kabul hazırlığı ve gün geçişleri](TARGET_ADMISSION_REVIEW_2026-10-10.md) | Dört eğitim günü, dokuz keşif kataloğu, kapalı etiket kapısı ve zaman/split sınırları |
 | [Bütün hücrelerde bitki örtüsü denemesi](VEGETATION_FULL_GRID_2026-10-10.md) | 2.899 hücre, iki geçmiş pencere, ham integral geri okuması ve checkpoint tekrar kullanımı |
 | [Ağustos 2018 günlük bitki örtüsü adayları](VEGETATION_MONTH_2018_08_2026-10-10.md) | Beş haftalık kesim, 179.738 günlük aday satır, iki geri okuma ve erişim sınırları |
 | [Bitki örtüsü eğitim dönemi kuyruğu](VEGETATION_PERIOD_QUEUE_2026-10-10.md) | 72 aylık plan, tek yazar, kaynak/disk/süre kontrolleri ve doğrulanmış yeniden kullanım |

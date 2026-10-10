@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Gün geçişleri ve hedef kabul hazırlığı](TARGET_ADMISSION_REVIEW_2026-10-10.md)
+yerelde geçti. Birleştirme artık dört eğitim gününde 11.596 hücre-günü
+kapsıyor; kesim/taşıma yaşları ve ayrı pencere eksikleri korundu. Dokuz
+eski keşif kataloğunun hedef pencereleri/boş hedefleri geri okundu; 0/1
+etiket üretilmedi. 54 ilgili test geçti. Mevcut etiket kabul kapısı kapalı;
+olay, ilk hücre, habitat ve negatif gözlem kararları açık.
+
 Veri hazırlıkları sürerken [özellik birleştirme denemesi](FEATURE_JOIN_PILOT_2026-10-10.md)
 tamamlandı: 1 Ağustos 2018'in 2.899 hücresinde 27 aday özellik; kaynak
 değerleri ve eksikler CSV geri okumasında korundu. Kalite/provenance ayrı,

@@ -69,6 +69,12 @@ ayrıca kurulacaktır. 2025 kapalı final testine bu çalışmada erişilmez.
 
 ## Etiket ve son birleştirme
 
+[Hedef kabul hazırlığı](TARGET_ADMISSION_REVIEW_2026-10-10.md), mevcut
+bilimsel kararlar açıkken 0/1 atamasını reddeden kontrolü ve dokuz eğitim
+keşif kataloğunun hedef penceresi geri okumasını tamamladı. Özellikler
+kesim günü/ertesi gün/ay sonu dahil dört günde kontrol edildi. Bu, nihai
+etiket politikasının veya bütün dönem birleştirmesinin kabulü değildir.
+
 [Olay gruplaması geri okuması](EVENT_GROUPING_REVIEW_2026-10-10.md), dokuz
 senaryonun matematiksel eşleşmesini ve inceleme kataloglarını tamamladı.
 Uzun süre/geniş alan zincirleri ve ilk anda çok hücreli gruplar otomatik

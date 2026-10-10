@@ -98,6 +98,16 @@ Sınır: tek eğitim günü özellik birleştirmesi; kaynakların mevcut kabul
 kayıtları kullanıldı, ham çıkarım yeniden yapılmadı. Etiket, habitat,
 tam veri seti, operasyonel erişim veya model başarısı kabulü değildir.
 
+E26 — 10 Ekim: [Gün geçişleri ve hedef kabul hazırlığı](../TARGET_ADMISSION_REVIEW_2026-10-10.md)
+dört eğitim gününde özellik geri okumasını ve dokuz keşif kataloğunda
+sağdan kapalı 24 saat penceresi/boş hedef kontrolünü tamamladı. Kanıt:
+`outputs/reports/dataset/target_admission_v1/20261010T121239Z_ce73888e/readback.json`;
+SHA-256 `3e597acd1c8349c2fc486eefe785d469b6e93b75e98e0a72fb085a670a989e01`.
+15 katalog/kod girdisi değişmedi. 0/1 ataması yok; senaryo seçilmedi.
+Sınır: mevcut kataloglardan zaman/kabul hazırlığı; kaynak çıkarımı veya
+nihai olay/negatif etiket doğrulaması değil. Gerçek split olay kimliği
+denetimi nihai olay tablosunu bekler; mevcut davranış sentetikte sınandı.
+
 ## Yeni kanıt ekleme
 
 

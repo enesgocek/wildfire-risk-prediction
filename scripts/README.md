@@ -20,7 +20,13 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Etiket kabulü hazırlığı için `python scripts/quality/audit_target_admission.py`,
+önceden kabul edilmiş dokuz eğitim keşif kataloğunu okur. Hedef pencerelerini
+ve boş hedef alanını yeni dosyalarda kontrol eder; olay/senaryo seçmez, 0/1
+etiket üretmez. [Kabul sınırları](../docs/TARGET_ADMISSION_REVIEW_2026-10-10.md).
+
 Çevrimdışı özellik birleştirme/geri okuma denemesi:
+
 `python scripts/quality/verify_feature_join_pilot.py --day 2018-08-01`.
 Kaynakları indirmez; eski kabul/hash kayıtlarıyla aynı hücre-günde 27 adayı
 ve ayrı kalite tablosunu yeni çıktı dizininde kontrol eder. Etiket/model
