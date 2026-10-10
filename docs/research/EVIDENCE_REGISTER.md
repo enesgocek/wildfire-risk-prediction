@@ -45,7 +45,16 @@ Kanıt: `outputs/reports/events/review_v1/20261010T001137Z_320433ed/`.
 Sınır: matematiksel küme tutarlılığı; gerçek yangın kimliği, nihai etiket,
 çevrimiçi olay kimliği veya 2023–2024 olay sınırı doğrulaması değil.
 
+E20 — 10 Ekim: [V2 snapshot geri okuması](../GCP_V2_FAILURE_2026-10-10.md)
+8.794 bayt dosyanın kimliğini, ilk hata kaydını, kalan dosya boyutlarını ve
+3.511 ölçümde kaynak rezervlerini kontrol etti. Kanıt:
+`outputs/gcp_acceleration/continuation_failure_v2_2026-10-10/snapshot_readback.json`;
+kaynak SHA-256 `43c6a64e6547c2856f7ce39fcf478e12be3df40c8032d80cdfa3daf8e4062e0b`.
+Sınır: uzak durumun yerel geri okuması; ayların yeni bilimsel kabulü, tüm
+anlarda kaynak yeterliliği veya ValueError kök nedeni kanıtı değildir.
+
 ## Yeni kanıt ekleme
+
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
 yazılır. Büyük dosyanın kendisi Git'e eklenmez. Yerel makine çıktısı için SHA-256

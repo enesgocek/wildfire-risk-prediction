@@ -1,5 +1,87 @@
 # V2 erken kapanışı ve salt okunur teşhis — 10 Ekim 2026
 
+## İndirilen snapshot'ın yerel incelemesi
+
+10 Ekim'de indirilen `gcp_v2_failure_snapshot_20261010T011955892163Z.json`
+dosyası 8.794 bayt; SHA-256
+`43c6a64e6547c2856f7ce39fcf478e12be3df40c8032d80cdfa3daf8e4062e0b`.
+V2 wrapper, controller, orijinal kuyruk ve kaynak erteleme kimlikleri eşleşti.
+Yerel geri okuma `snapshot_readback.json` içinde tutuldu; kabul edilmiş
+snapshot değiştirilmedi. Kullanıcı dosyayı indirdikten sonra VM'nin tekrar
+Stopped olduğunu teyit etti; bu kayıt canlı API sorgusu değildir.
+
+İlk kaynak `SNPP:2022252.2230` için bir `ValueError CLASS_ONLY`, diğer
+çocuklarda 14 adet `-9` kaydı mevcut. 3.511 kaynak ölçümünde en düşük boş
+disk **13,05 GiB**, kullanılabilir RAM **112,08 GiB**, en yüksek süreç ağacı
+RSS **11,36 GiB**. Örneklerde VM disk/RAM rezervinin tükenmesi görülmedi;
+ölçülmeyen anlar veya çocuk adres alanı limiti bununla kesin dışlanamaz.
+
+İlk çiftin fire dosyası 657.390, geolocation dosyası 180.547.838 bayt;
+ikisinin dosya boyutu planla eşleşiyor. İlk audit, merkez tablosu, alan
+çıktıları ve `scan_times.csv` var; scan-grid/all-scans/provenance çıktıları
+yok. Dondurulmuş `child_audit` sırası, alan hesabından sonraki `source_scans`
+çağrısını incelemeyi gerektiriyor. Dosya varlığı/boyutu tek başına kaynak
+doğruluğu veya kök neden kanıtı değildir. Uzak kayıtların bildirdiği 14 tam
+ay bu küçük teşhis dosyasıyla yeni yerel aylık kabul almadı.
+
+## Tek kaynak için hazırlanan ikinci kontrol
+
+`scripts/cloud/diagnose_gcp_v2_scan_times.py`, aynı başarısız durum ve
+Eylül planına bağlı bir salt okunur yeniden üretim aracıdır. Önceden VM'ye
+yüklenen snapshot helper'ını hash ile doğrular; yeni özel bağlantı dosyası
+istemez. Mevcut iş kilidi üretim çalışırken kontrolü engeller. Bütün paket
+ve bilimsel klon üyeleri doğrulanmadan özgün fonksiyon yüklenmez.
+
+Araç kalan iki ham dosyayı ve mevcut bilimsel referansları okur; ağ/DNS
+erişimi engellidir. Yeni indirme, OAuth/Earthdata girişi, üretimi sürdürme,
+mevcut sonuç yazımı veya bilimsel kod değişikliği yapmaz. GDAL ek dosya
+yazımı ve Python bytecode yazımı kapalıdır. Okunan üretim girdilerinin
+hash'leri işlem öncesi/sonrası aynı olmalıdır. Çıktı yalnız yeni ev-dizini
+JSON'udur. Geçmiş hatanın otomatik kanıtlandığı iddia edilmez.
+
+Yerel sentetik kontrolde tam saniye ve kesirli saniye içeren UTC dizisi,
+dondurulmuş kodun varsayılan Pandas çözümlemesinde `ValueError` üretti.
+Açık `format="ISO8601"` çözümlemesi aynı nanosaniyeleri korudu. Bu yalnız
+bir hipotezdir: gerçek Eylül kaynağı yerelde bulunmadığından henüz denenmedi.
+Yeni araç mevcut `scan_times.csv` ile ham geolocation'dan özgün TAI93
+dönüşümünü karşılaştırır; ardından **değiştirilmemiş** `source_scans` çağrısını
+çalıştırır. Hata olursa yalnız hash ile doğrulanmış bilimsel dosya/fonksiyon/
+satır ve güvenli hata sınıfı kaydedilir. Serbest hata metni, traceback
+metni, yerel değişkenler veya kimlik bilgileri rapora girmez.
+
+17 yeni davranış kontrolü dahil snapshot/V2/gizlilik ile **60 test geçti**.
+Karışık hassasiyet, bir nanosaniyelik sapmanın reddi, UTC şeması, özel hata
+metninin dışlanması, ağ engeli, değişmiş helper/girdi ve salt okunur replay
+kontrol edildi. Gerçek dondurulmuş yerel paketler doğrulanıp ayrı klonda
+bilimsel import denemesi geçti. Ruff kontrolü geçti. Canlı üretim paketleri
+ve yerel bitki örtüsü hesaplama dosyaları değiştirilmedi. Bunlar VM'de tek
+kaynak denemesinin yapıldığı veya sorunun giderildiği anlamına gelmez.
+
+### Sıradaki kullanıcı adımları
+
+1. VM'yi Start yapıp SSH'ye bağlan; üretim komutunu çalıştırma.
+2. Upload File ile yalnız yeni aracı ev dizinine yükle:
+   `C:\PROJELERIM\wildfire-risk-prediction\outputs\gcp_acceleration\continuation_failure_v2_2026-10-10\diagnose_gcp_v2_scan_times.py`.
+   Önceki `collect_gcp_v2_failure_snapshot.py` aynı ev dizininde kalmalıdır.
+3. Şu komutu çalıştır; `Download:` satırı gelene kadar SSH'yi açık tut:
+
+```bash
+if printf '%s  %s\n' \
+  '308c301a837924286dcce398685ff64c2b97da64f5fd373204b6bdfef029e1b1' \
+  "$HOME/diagnose_gcp_v2_scan_times.py" | sha256sum --check; then
+  timeout 240s ~/wildfire-gcp-work/.venv/bin/python \
+    ~/diagnose_gcp_v2_scan_times.py
+fi
+```
+
+4. `Download:` satırındaki `gcp_v2_scan_time_probe_<UTC>.json` dosyasını
+   indirip aynı `continuation_failure_v2_2026-10-10/received/` klasörüne koy.
+5. VM'yi Stop yap. Araç otomatik kapatmaz. Süre sınırı veya kısa hata nedeniyle
+   JSON oluşmazsa VM'yi yine Stop yapıp yalnız kısa terminal sonucunu paylaş.
+
+Gerçek kaynağın çıktısı incelenmeden parser düzeltmesi, yeni üretim paketi
+veya uzun oturum başlatılmayacak. Checkpoint'ler ve ertelenen gün korunacak.
+
 ## Paylaşılan durum ve kanıt sınırı
 
 Kullanıcının Cloud Shell sorgusunda VM `TERMINATED`. Son başlangıç
@@ -33,7 +115,8 @@ gözlem unknown ve tam eğitim bitişi false olarak korunuyor.
 
 Kullanıcı günlükleri aldıktan sonra VM'yi tekrar Stop yaptığını teyit etti.
 Bu bir manuel bildirimdir; canlı API sorgusu yapılmadı. İndirilecek teşhis
-dosyası henüz üretilmiş veya yerelde incelenmiş değildir.
+dosyası bu ilk hazırlık aşamasında henüz üretilmiş veya yerelde incelenmiş değildi;
+sonraki yerel inceleme üst bölümde ayrı kaydedildi.
 
 ## Hazırlanan araç
 
@@ -72,7 +155,7 @@ controller paketlerinin hash kontrolleri geçti; gerçek wrapper hash'i
 eşleşti. Canlı yerel bitki örtüsü kaynak hash'leri değişmedi. Bunlar VM
 üzerindeki hatanın çözümü veya gerçek teşhis sonucu değildir.
 
-## Kullanıcı adımları
+## İlk snapshot için uygulanan toplama adımları
 
 1. VM'yi Start yapıp SSH'ye bağlan. **Üretim komutunu çalıştırma.**
 2. Upload File ile yalnız şu dosyayı ev dizinine yükle:

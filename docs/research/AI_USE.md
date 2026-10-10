@@ -92,7 +92,16 @@ salt okunur teşhis betiği ve davranış testlerinde araç desteği kullanıld�
 [Kapanış kaydı](../GCP_V2_FAILURE_2026-10-10.md) uzak bildirim ile yerel
 araç hazırlığını ayırır; hata nedeni henüz çözülmüş olarak sunulmadı.
 
+## V2 snapshot incelemesi ve tek kaynak denemesi
+
+10 Ekim V2 snapshot geri okuması, kaynak ölçümlerinin yorumu, sentetik zaman
+biçimi denemesi ve salt okunur tek-kaynak aracı/testleri için araç desteği
+kullanıldı. [Tarihli teşhis raporu](../GCP_V2_FAILURE_2026-10-10.md) gerçek
+indirilen kayıt, yerel sentetik hipotez ve henüz yapılmamış VM denemesini
+ayırır. Geçmiş hata giderilmiş veya kaynak doğrulanmış olarak sunulmadı.
+
 ## Resmî kaynak
+
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
 uygunluk sorumluluğunu başvuru sahiplerinde tutar. Proje hazırlığında önemli

@@ -14,6 +14,15 @@ tam ay, Eylül 1–5 günlerini; 510 yeni/15 yeniden kullanılan çift bildiriyo
 Yeni tam aylık sonuçların yerel kabulü yapılmadı. İlk hatanın nedeni açık;
 [ayrı V2 teşhis aracı ve toplama rehberi](GCP_V2_FAILURE_2026-10-10.md) hazır.
 Kullanıcı son log alımından sonra VM'yi tekrar Stop yaptığını teyit etti.
+İndirilen 8.794 bayt snapshot'ın V2/plan kimlik geri okuması geçti. 3.511
+ölçümde en düşük boş disk 13,05 GiB, kullanılabilir RAM 112,08 GiB; ölçümlerde
+rezerv tükenmesi görünmüyor. İki kaynak dosyasının boyutu eşleşiyor; alan
+çıktıları mevcut, scan çıktıları eksik. Karışık saniye hassasiyetinin Pandas
+çözümlemesinde hata üretebilmesi sentetik olarak gösterildi; gerçek kaynağın
+kök nedeni henüz kanıtlanmadı. Ağ kapalı, tek kaynakta özgün scan fonksiyonunu
+yeniden çalıştıran ayrı araç hazır; 60 ilgili test ve gerçek paket import
+kontrolü geçti. Üretim kodu değiştirilmedi, kuyruk yeniden başlatılmadı.
+Snapshot indirildikten sonra da VM'nin Stopped olduğu kullanıcıca teyit edildi.
 
 Önceki uzak ilerleme kaydı aşağıda zamanıyla korunmuştur:
 
