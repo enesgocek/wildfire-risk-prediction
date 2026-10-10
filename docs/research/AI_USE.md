@@ -176,6 +176,14 @@ araç desteği kullanıldı. [Kota raporu](../VEGETATION_QUOTA_CHECK_2026-10-10.
 güncel kısıtlı moddan geçmiş hatanın kesin nedeni çıkarılmadığını ve
 billing/tier/uzun iş değişikliği yapılmadığını açık tutar.
 
+## Contributor sonrası yeniden başlatma
+
+Contributor geçişi kullanıcı tarafından yapıldı ve ekranla bildirildi.
+Araç desteği, dosya/proof/hizmet kontrolü, süre sınırını koruyan yerel
+başlatma ve başlangıç kaydında kullanıldı. [Devam kaydı](../VEGETATION_QUOTA_CHECK_2026-10-10.md#contributor-güncellemesi-sonrası-devam)
+bu başlangıcı kalan kota veya bütün dönem başarısı olarak sunmaz.
+Ücretli plan/commercial kayıt/GCP VM ayarı araç tarafından değiştirilmedi.
+
 ## Resmî kaynak
 
 

@@ -64,3 +64,48 @@ gerektiren bir kod değişikliği yok. JSON/hash, checkpoint sözleşmesi,
 kimlikle hizmet ve gerçek süreç kontrolleri yapıldı. Kimlik bilgileri
 rapora alınmadı. GCP VM'deki iş bu yerel kontrolde sorgulanmadı veya
 değiştirilmedi. Etiket ve kapalı 2025 final testi açılmadı.
+
+## Contributor güncellemesi sonrası devam
+
+Sonraki kullanıcı ekranı Contributor'a başarılı geçişi ve projenin
+noncommercial kaydını gösterdi. Onay penceresinde aylık tüketim
+426,892 EECU-saat, yeni limit 1.000 idi; fark 573,108 EECU-saattir.
+Bu değer ekran bildirimi ve onay anının hesabıdır; canlı tüketim API
+ölçümü veya bütün kalan ayların kotaya sığacağına dair kanıt değildir.
+Üst bantta Free Trial devam ediyordu; commercial/ücretli Cloud geçişi
+bu devam işleminde yapılmadı.
+
+19:00:14 UTC prelaunch kontrolü aynı 265 dosyayı ve proof/runtime
+kimliklerini doğruladı. Kimlikle küçük hizmet isteği geçti; önceki
+kısıtlı mod uyarısı yeni istekte gelmedi. Eski süreç ve iki yazar kilidi
+yoktu. Kullanıcının açık yeniden başlatma isteğiyle aynı V2 çağrı,
+aynı 2018–2023 kapsamı/iki EE isteği/tek ay/10 GiB rezerviyle başlatıldı.
+
+Yeni iş: `training_iso_v2_contributor_resume_20261010_5c811bc3`.
+Başlatma 10 Ekim yaklaşık 19:02:07 UTC (22:02:07 Türkiye); üst kayıt
+19:02:11 UTC'de `running`. Gerçek Windows süreç sorgusu launcher PID
+32604, üst süreç PID 22500 ve geri okuma çocuklarını canlı gördü.
+İlk kayıt Ocak 2018 yeniden kullanımı; sonraki başlangıç snapshot'ında
+Ocak doğrulanmış ve Şubat geri okumasına geçilmiş. Bu yeni çağrı sayacıdır;
+eski 22 ayın kaybolduğu veya yeniden indirildiği anlamına gelmez.
+
+Önceki 24 saatlik 11 Ekim 11:45:01 UTC sınırı uzatılmadı. Beş dakika
+rezervle yeni limit 16,631552 saat; hedef bütçe bitişi yaklaşık 11:40 UTC
+(14:40 Türkiye). Alt çağrılar dört saatle sınırlı kalır. Başlangıçtaki
+PowerShell tarih dönüşümü bütçe guard'ına takılıp işlem oluşturmadan durdu;
+açık UTC/kültürden bağımsız tarih çözümlemesiyle doğru süre hesaplandı.
+Üretim kodu veya runtime adapter bu işlem için değiştirilmedi.
+
+Yeni iş dizininde `launch.json`, `progress.json`, `launcher.log`,
+`launcher.err.log` ve değişmez `startup_check.json` tutulur. Başlangıç
+snapshot SHA-256:
+`e6d8519b51cfde73742bde782d798eb9caccf288cdb987558eb51c3f974b50a5`.
+Prelaunch raporu aynı teşhis klasöründe `contributor_prelaunch.json`;
+SHA-256 `2d15760bf81560f1ecfe29ced8720d0a6d74ec7cbe39e18e59c6ff7bdac5f7f1`.
+Launch SHA-256 `4b19497305f0bba6d1b8a77d3fc69721330933d050341f51088d0eb94ddb3b35`.
+
+Bu kabul başlangıç/süre/kimlik/proof ve eski dosya bütünlüğüdür. Yeni
+Kasım ayının kabulü, kalan 50 ayın tamamlanması, sürekli bağlantı veya
+tüm dönem kota/verim kanıtı değildir. Bilgisayar açık/uyanık ve internete
+bağlı kalır. GCP VM'deki iş değiştirilmedi; yeni kod testi gerektiren
+bir değişiklik yok, gerçek başlangıç kontrolleri yapıldı.

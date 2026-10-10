@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Kullanıcının Contributor güncellemesi sonrası [yerel bitki örtüsü devamı](VEGETATION_QUOTA_CHECK_2026-10-10.md#contributor-güncellemesi-sonrası-devam)
+başladı: `training_iso_v2_contributor_resume_20261010_5c811bc3`;
+19:02:11 UTC üst kayıt `running`, PID 22500 ve geri okuma çocukları canlı.
+19:00 prelaunch'ta 265 dosya aynı, küçük EE isteğinde kısıtlı mod uyarısı yok.
+İlk ay yeniden doğrulanmış; eski 22 ay korunur. Aynı V2/2018–2023 kapsamı,
+iki EE isteği ve 10 GiB rezervle, önceki 24 saat sınırı uzatılmadan
+16,631552 saatlik çağrı açıldı; hedef bitiş yaklaşık 11 Ekim 14:40 Türkiye.
+Kalan bütün ayların Contributor kotasına sığacağı henüz ölçülmedi.
+Aşağıdaki duruş kaydı bu yeni çağrıdan önceki durumdur.
+
 [Bitki örtüsü kota kontrolü](VEGETATION_QUOTA_CHECK_2026-10-10.md): önceki
 yerel V2 iş 15:06:30 UTC'de Kasım 2019 hazırlanırken `EEException` ile
 durmuş; eski üst/çocuk süreçler yok. 22 tam ay ve son kesimin 91/92 grubu

@@ -136,6 +136,15 @@ Mevcut kimlikle küçük hizmet isteği geçti; SDK güncel kota aşımı/kısı
 mod bildiriyor. Sınır: eski EEException'ın nedeni, kullanılan tier/tüketim
 ve eksik grubun tamamlanması kanıtlanmadı. Kuyruk/billing değiştirilmedi.
 
+E30 — 10 Ekim: [Contributor sonrası devam](../VEGETATION_QUOTA_CHECK_2026-10-10.md#contributor-güncellemesi-sonrası-devam)
+265 korunmuş dosya ve aynı proof/runtime kimlikleriyle yeni V2 çağrısının
+başlangıcını kabul etti. Kimlikle küçük EE isteğinde kota uyarısı gelmedi;
+gerçek süreçlerde üst/çocuklar canlı, kayıt `running`. Kanıt:
+`outputs/reports/landscape/training_supervisor_v1/training_iso_v2_contributor_resume_20261010_5c811bc3/startup_check.json`;
+SHA-256 `e6d8519b51cfde73742bde782d798eb9caccf288cdb987558eb51c3f974b50a5`.
+Önceki 24 saat sınırı uzatılmadı. Sınır: başlangıç/kimlik/süre kabulü;
+Kasım'ın veya 72 ayın bitişi, kalan kota yeterliliği ve model kabulü değildir.
+
 ## Yeni kanıt ekleme
 
 
