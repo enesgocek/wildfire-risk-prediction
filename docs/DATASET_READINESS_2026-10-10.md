@@ -76,6 +76,11 @@ ayrıca kurulacaktır. 2025 kapalı final testine bu çalışmada erişilmez.
 
 ## Etiket ve son birleştirme
 
+[Parçalı kayıt pilotu](FEATURE_PARTITION_PILOT_2026-10-10.md), dört hazır
+günün 11.596 hücre-gününü ayrı feature/kalite dosyaları ve dış hash'e
+bağlı okuyucuyla geri okudu. Günlük okuma hazırlığı mevcut;
+tam dönem fiziksel üretimi yapılmış değildir.
+
 [Hedef kabul hazırlığı](TARGET_ADMISSION_REVIEW_2026-10-10.md), mevcut
 bilimsel kararlar açıkken 0/1 atamasını reddeden kontrolü ve dokuz eğitim
 keşif kataloğunun hedef penceresi geri okumasını tamamladı. Özellikler

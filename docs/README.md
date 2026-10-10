@@ -25,6 +25,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Hedef kabul hazırlığı ve gün geçişleri](TARGET_ADMISSION_REVIEW_2026-10-10.md) | Dört eğitim günü, dokuz keşif kataloğu, kapalı etiket kapısı ve zaman/split sınırları |
 | [Habitat–destek ve zor vaka paketi](DECISION_REVIEW_2026-10-10.md) | Tam kapsam envanteri, 33 habitat/53 olay-senaryo örneği ve kaynakla bağlı inceleme formu |
 | [Veri seti kabul taslağı](DATASET_ACCEPTANCE_CONTRACT_2026-10-10.md) | Anahtar, eksik değer, etiket kanıtı, veri ayrımı ve son manifest kabul koşulları |
+| [Parçalı özellik kaydı ve okuyucu](FEATURE_PARTITION_PILOT_2026-10-10.md) | Dört günün günlük feature/kalite parçaları, hash/anahtar manifesti ve kapalı dönem kontrolü |
 | [Bütün hücrelerde bitki örtüsü denemesi](VEGETATION_FULL_GRID_2026-10-10.md) | 2.899 hücre, iki geçmiş pencere, ham integral geri okuması ve checkpoint tekrar kullanımı |
 | [Ağustos 2018 günlük bitki örtüsü adayları](VEGETATION_MONTH_2018_08_2026-10-10.md) | Beş haftalık kesim, 179.738 günlük aday satır, iki geri okuma ve erişim sınırları |
 | [Bitki örtüsü eğitim dönemi kuyruğu](VEGETATION_PERIOD_QUEUE_2026-10-10.md) | 72 aylık plan, tek yazar, kaynak/disk/süre kontrolleri ve doğrulanmış yeniden kullanım |

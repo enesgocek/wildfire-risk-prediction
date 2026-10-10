@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Parçalı özellik kaydı ve okuyucu](FEATURE_PARTITION_PILOT_2026-10-10.md)
+dört kabul edilmiş eğitim gününde 11.596 hücre-günü aynen geri okudu.
+Günlük feature/kalite parçaları ayrı, hash ve anahtar envanteri kayıtlı;
+okuyucu bir gün alıyor ve yanlış dönem/bozulmuş dosyayı reddediyor.
+47 ilgili test ve ağ kapalı gerçek deneme geçti. 44 girdi değişmedi;
+etiket/imputasyon/model veya bütün ay kabulü yok. Bitki örtüsü son yerel
+progress kaydı 13:47:37 UTC'de 20 doğrulanmış ay ve Eylül 2019'da
+`running` gösteriyor; 136 eski baseline ve iki canlı kod hash'i aynı.
+
 [Habitat–meteoroloji destek ve zor vaka paketi](DECISION_REVIEW_2026-10-10.md)
 tamamlandı: 189 desteksiz, 310 kısmi ve 2.400 tam meteoroloji destekli
 hücre; 33 habitat/53 olay-senaryo örneği kaynaklarına bağlandı. Uzman

@@ -30,8 +30,10 @@ kuyruğu 2018–2023 içindir.
 
 Tam dönem büyük tek CSV/DataFrame olarak bir defada belleğe alınmaz.
 Aylık parçalar ve parçaların hash/anahtar sayısını tutan manifest tercih
-edilir. Bu fiziksel üretim henüz başlamadı; dosya biçimi/okuyucusu ayrıca
-denetlenecek. Feature, kalite/provenance ve hedef tabloları aynı anahtarla
+edilir. [Dört günlük kayıt/okuyucu pilotu](FEATURE_PARTITION_PILOT_2026-10-10.md)
+günlük CSV parçaları ve hash manifestiyle geri okundu; tam dönem fiziksel
+üretimi ve nihai biçim/verim seçimi henüz yapılmadı. Feature,
+kalite/provenance ve hedef tabloları aynı anahtarla
 ayrı tutulur; [27 aday alan](FEATURE_JOIN_PILOT_2026-10-10.md) modelin son
 özellik seçimi değildir.
 

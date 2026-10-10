@@ -118,6 +118,15 @@ Hücre × gün toplamları eski meteoroloji raporuyla eşleşti; seçili olay
 vaka ve matematiksel geri okuma; bağımsız yangın veya habitat doğrusu
 değil. Uzman formu boş, eşik/senaryo/etiket seçimi yok.
 
+E28 — 10 Ekim: [Parçalı özellik kaydı](../FEATURE_PARTITION_PILOT_2026-10-10.md)
+dört eğitim gününün 11.596 hücre-gününü günlük feature/kalite dosyalarından
+tam eşitlikle geri okudu. Kanıt:
+`outputs/reports/dataset/feature_partition_v1/20261010T135514Z_3672d40a/readback.json`;
+SHA-256 `16b508109c3531a3c3e92d463f9d4067a4108279d40122d11716cb8e5f96fe07`.
+44 girdi aynı; ağ engellenmiş süreç ve 47 ilgili test geçti. Sınır:
+depolama/anahtar/değer pilotu; tam ay/dönem üretimi, etiket, model,
+bilimsel kaynak kabulü veya bellek/verim kıyası değildir.
+
 ## Yeni kanıt ekleme
 
 

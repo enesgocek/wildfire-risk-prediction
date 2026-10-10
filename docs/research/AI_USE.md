@@ -160,6 +160,14 @@ kaynak tanımlarını ve yorumları ayırır. İnsan/uzman formunun doldurulmas�
 ve nihai habitat/olay/negatif politikası gerçekleşmiş gibi gösterilmedi.
 Kalıcı sıcak kaynak açıklaması mevcut Type alanının provenansı sayılmadı.
 
+## Günlük özellik parçası hazırlığı
+
+10 Ekim'de günlük özellik parçaları, hash'e bağlı eğitim okuyucusu,
+sınır testleri, dört günlük gerçek geri okuma ve raporlamada araç desteği
+kullanıldı. [Parça pilotu](../FEATURE_PARTITION_PILOT_2026-10-10.md),
+dosya/değer kontrolünü bilimsel kaynak ve nihai veri seti kabulünden ayırır.
+Model, etiket veya danışman onayı araçla gerçekleşmiş gibi gösterilmedi.
+
 ## Resmî kaynak
 
 

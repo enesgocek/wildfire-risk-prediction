@@ -20,6 +20,13 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Parçalı özellik kaydı denemesi:
+`python scripts/quality/verify_feature_partition_pilot.py`.
+Sabit hash'lerle kabul edilmiş dört eğitim gününü günlük dosyalara kaydeder;
+özellik/kalite tablolarını ayrı, değerleri ve NaN konumlarını aynen geri okur.
+Veri indirmez, etiket üretmez veya bütün ayı tamamlanmış saymaz.
+[Kayıt düzeni ve sonuç](../docs/FEATURE_PARTITION_PILOT_2026-10-10.md).
+
 Habitat/meteoroloji kapsamı ve kaynakla bağlı zor vaka paketi:
 `python scripts/quality/prepare_decision_review.py`. Kabul edilmiş yerel
 dosyaları okur, yeni inceleme tabloları/harita/boş uzman formu üretir;
