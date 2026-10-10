@@ -200,6 +200,15 @@ ve kullanıcı işlem rehberinde kullanıldı. [Hazırlık raporu](../GCP_THIRTE
 yerel test sonucunu uzak 13 saatlik çalışma sonucundan ayırır. Cloud ayarı,
 VM başlangıcı veya bitki örtüsü çalışma süresi bu hazırlıkta değiştirilmedi.
 
+## V4 uzak başlangıcının yorumlanması
+
+Araç desteği kullanıcı tarafından paylaşılan SSH/Cloud Shell çıktısının
+hazırlanmış V4 kimliğiyle karşılaştırılmasında, UTC/Türkiye dönüşümünde ve
+[başlangıç kaydında](../GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md#ilk-uzak-çalışma-geri-bildirimi)
+kullanıldı. İlk eski V3 progress'i yeni çalışma başarısı sayılmadı; sonraki
+V4 `running` kaydı başlangıç kanıtı olarak ayrıldı. Araç bu kontrolde canlı
+VM/API/Drive erişimi yapmadı ve yerel bitki örtüsü işini değiştirmedi.
+
 ## Resmî kaynak
 
 

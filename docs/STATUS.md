@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V4 uzak başlangıç geri bildirimi](GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md#ilk-uzak-çalışma-geri-bildirimi):
+kullanıcının 20:39:26 UTC SSH çıktısında doğru V4 hash'iyle `running`,
+`remaining_months`, canlı PID 1733 ve hata alanı `None`. Eski aylar geri
+okunarak kullanılıyor; yeni çift sıfır ve son kabul edilmiş toplam 28 ay
+değişmedi. Yeni son zaman 11 Ekim 12:16:26 Türkiye olarak kaydedilmiş;
+normal rezerv kapanışı yaklaşık 11:51–11:56 beklenir. Önceki Cloud Shell
+geri okumasında 46.800 saniye/STOP/automaticRestart false doğruydu.
+Kaynak kullanıcı çıktısıdır; bağımsız canlı VM/API veya ürün kabulü yapılmadı.
+Aşağıdaki hazırlık kaydı bu yeni uzak başlangıçtan önceki durumu anlatır.
+
 [13 saatlik V4 devam hazırlığı](GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md)
 kullanıcı isteğiyle tamamlandı. V3/controller'ın sekiz saatlik deadline kapısı
 ayrı V4 girişinde 13 saatle sınırlandı; 5 dakika supervisor/20 dakika pipeline

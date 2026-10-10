@@ -165,6 +165,15 @@ SHA-256 `16a91a44b7bb027de62498945fcb68c9c5303b2c25bb14d9cd99f3cb07fa8e19`.
 Sınır: yerel hazırlık ve geçiş kabulü; canlı VM ayarı/başlangıcı, 13 saatlik
 performans veya yeni ay/ürün/etiket kabulü değildir.
 
+E33 — 10 Ekim: [V4 uzak başlangıcı](../GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md#ilk-uzak-çalışma-geri-bildirimi)
+kullanıcı SSH çıktısında doğru wrapper, `running`, `remaining_months`, canlı
+PID ve yeni son zamanla bildirildi. Eski ay yeniden kullanımı görülür;
+yeni çift sıfırdır. Yerel özet:
+`outputs/gcp_acceleration/source_aware_v4_13h_2026-10-10/startup_20261010T203926Z_user_readback.json`;
+SHA-256 `6dbf75a2d52c2c8f7f3cc50019c4712747adb2935e6b4ddc75f10b9376f7960d`.
+Sınır: kullanıcı çıktısının kimlik/durum/timezone kontrolü; canlı bağımsız
+VM/API sorgusu, yeni ay/ürün/etiket kabulü veya gerçek kapanış değildir.
+
 ## Yeni kanıt ekleme
 
 

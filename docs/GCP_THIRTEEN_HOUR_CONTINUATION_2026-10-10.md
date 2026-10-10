@@ -165,3 +165,28 @@ tar -czf "$archive" \
 Download File ile bildirilen dosyayı indir; VM'yi tekrar Stop yap ve arşivi
 `outputs/gcp_acceleration/source_aware_v4_13h_2026-10-10/received/` içine koy.
 Yeni sonucun bağımsız kabulü bu hazırlıktan sonra yapılır.
+
+## İlk uzak çalışma geri bildirimi
+
+Kullanıcının önceki Cloud Shell çıktısında kapalı VM ayarı 46.800 saniye,
+STOP ve automaticRestart false olarak geri okunmuştur. Daha sonra paylaşılan
+SSH çıktısında 10 Ekim 20:39:26 UTC'de V4 `running`, faz `remaining_months`,
+wrapper hash'i hazırlanmış V4 ile aynıdır; hata alanı `None`. PID 1733,
+PPID 1, elapsed 20:29, CPU yüzde 69,4 ve RSS 271.396 KiB görünür.
+Log kuyruğunda Ağustos–Kasım 2023 ve Mart–Haziran 2023 aylarının yeniden
+kullanımı vardır. Yeni çift sayısı sıfırdır: eski ayların geri okunması
+henüz yeni ham işlem sayılmaz. Son kabul edilmiş toplam 28 ay bu gözlemle artmaz.
+
+İlk 17 saniyelik çıktıda progress hâlâ eski V3 finaliydi; yeni geri bildirimde
+V4 kimliği ve yeni son zaman görünür. Kayıtlı son zaman 11 Ekim
+09:16:26,085080 UTC / **12:16:26 Türkiye**. Mevcut rezervlerle normal
+poweroff yaklaşık 11:51–11:56 Türkiye çevresinde beklenir; başlangıç yükü,
+erken bitiş veya hata daha erken kapanışa neden olabilir. Bu aralık zamanlama
+beklentisidir, gerçekleşmiş kapanış değildir.
+
+Kanıt kullanıcı tarafından paylaşılan çıktıdır; araç canlı VM/API sorgusu
+yapmadı. Yerel özet, yalnız bu alanları ve timezone dönüşümünü kayıt altına alır:
+`outputs/gcp_acceleration/source_aware_v4_13h_2026-10-10/startup_20261010T203926Z_user_readback.json`;
+SHA-256 `6dbf75a2d52c2c8f7f3cc50019c4712747adb2935e6b4ddc75f10b9376f7960d`.
+Yeni bilimsel ürünlerin/Drive baytlarının kabulü ve yerel bitki örtüsü süreç
+kontrolü bu başlangıç geri bildiriminde yapılmadı.
