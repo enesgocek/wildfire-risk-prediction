@@ -127,6 +127,15 @@ SHA-256 `16b508109c3531a3c3e92d463f9d4067a4108279d40122d11716cb8e5f96fe07`.
 depolama/anahtar/değer pilotu; tam ay/dönem üretimi, etiket, model,
 bilimsel kaynak kabulü veya bellek/verim kıyası değildir.
 
+E29 — 10 Ekim: [Bitki örtüsü kota kontrolü](../VEGETATION_QUOTA_CHECK_2026-10-10.md),
+gerçek süreç yokluğu, 22 ayın korunması, 91/92 son kesim grubu ve
+265 değişmeyen dosyanın preflight kaydını içerir. Kanıt:
+`outputs/reports/landscape/network_resume_v1/20261010_4675893f/quota_observation.json`;
+SHA-256 `87470d6bb3f95ac7f201e0739622721bb9e175f2d3dd6ba3806309f7e8d7c0a9`.
+Mevcut kimlikle küçük hizmet isteği geçti; SDK güncel kota aşımı/kısıtlı
+mod bildiriyor. Sınır: eski EEException'ın nedeni, kullanılan tier/tüketim
+ve eksik grubun tamamlanması kanıtlanmadı. Kuyruk/billing değiştirilmedi.
+
 ## Yeni kanıt ekleme
 
 

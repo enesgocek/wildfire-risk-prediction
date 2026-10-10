@@ -168,6 +168,14 @@ kullanıldı. [Parça pilotu](../FEATURE_PARTITION_PILOT_2026-10-10.md),
 dosya/değer kontrolünü bilimsel kaynak ve nihai veri seti kabulünden ayırır.
 Model, etiket veya danışman onayı araçla gerçekleşmiş gibi gösterilmedi.
 
+## Bağlantı ve kota teşhisi
+
+10 Ekim bağlantı bildirimi sonrasında süreç/dosya kontrolü, güvenli
+preflight kaydı ve resmî Earth Engine kota açıklamasının incelenmesinde
+araç desteği kullanıldı. [Kota raporu](../VEGETATION_QUOTA_CHECK_2026-10-10.md),
+güncel kısıtlı moddan geçmiş hatanın kesin nedeni çıkarılmadığını ve
+billing/tier/uzun iş değişikliği yapılmadığını açık tutar.
+
 ## Resmî kaynak
 
 

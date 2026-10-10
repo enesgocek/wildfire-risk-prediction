@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Bitki örtüsü kota kontrolü](VEGETATION_QUOTA_CHECK_2026-10-10.md): önceki
+yerel V2 iş 15:06:30 UTC'de Kasım 2019 hazırlanırken `EEException` ile
+durmuş; eski üst/çocuk süreçler yok. 22 tam ay ve son kesimin 91/92 grubu
+korunmuş; 265 dosya ve checkpoint sözleşmeleri kontrol boyunca aynı.
+Kimlikle küçük hizmet isteği geçti, fakat SDK güncel noncommercial kota
+aşımı/kısıtlı mod bildiriyor. Önceki hatanın kesin nedeni bilinmiyor;
+internet kesintisi kanıtlanmadı. Tier bilinmiyor; kuyruk yeniden başlamadı,
+billing/commercial kayıt değişmedi. Önceki `running` kayıtları tarihseldir.
+
 [Parçalı özellik kaydı ve okuyucu](FEATURE_PARTITION_PILOT_2026-10-10.md)
 dört kabul edilmiş eğitim gününde 11.596 hücre-günü aynen geri okudu.
 Günlük feature/kalite parçaları ayrı, hash ve anahtar envanteri kayıtlı;
