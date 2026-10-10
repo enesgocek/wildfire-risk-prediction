@@ -118,6 +118,14 @@ tek gerçek kaynak kabulünü, gerçek eski checkpoint'in yerel yeniden kullanı
 denemesini ve henüz başlamamış yeni uzun oturumu ayırır. Parser düzeltmesi
 diğer bütün kaynak sorunlarının çözümü veya tam dönem bitişi olarak sunulmadı.
 
+## V3 oturum günlüklerinin geri okuması
+
+10 Ekim'de V3 oturum arşivinin güvenli yerel okunması, final/log/katalog
+çapraz kontrolü ve kötü arşiv/yanlış tamamlanma testleri için araç desteği
+kullanıldı. [Oturum raporu](../GCP_SOURCE_AWARE_V3_2026-10-10.md) yeni yerel
+günlük kabulünü bilimsel ürün ve nihai veri seti kabulünden ayırır. Yerel
+bitki örtüsü duruşunun yalnız sınıf/durum kaydı alındı; hata nedeni uydurulmadı.
+
 ## Resmî kaynak
 
 

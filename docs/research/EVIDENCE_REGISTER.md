@@ -70,6 +70,14 @@ kaynak SHA-256 `edfba0a8a87cdbf642e9cfd31a9d7d3115ac3281003b844135e1b127369621ea
 Sınır: tek kaynak düzeltme kabulü; yeni uzun oturum veya bütün dönem kabulü
 değil. V3'nin gerçek eski checkpoint CLI denemesi yerel/ağ kapalı kontrolüdür.
 
+E23 — 10 Ekim: [V3 oturum günlük/katalog geri okuması](../GCP_SOURCE_AWARE_V3_2026-10-10.md)
+üç eşit final, 21 tam ay log birlikteliği, 2.032 tekil yeni çift ve 235 günlük
+commit'in nominal kayıt/sayaç eşitliğini kontrol etti. Kanıt:
+`outputs/gcp_acceleration/source_aware_v3_2026-10-10/session_log_readback_accepted.json`;
+arşiv SHA-256 `19b177afebe1724770307f9e911e103b538ee7a347a283cd294f000cdb5482c7`.
+Sınır: günlük/katalog tutarlılığı; yeni ürün ZIP/Drive geri okuması veya
+tam dönem/model kabulü değil. Kaynak ölçümleri bütün anları kapsamaz.
+
 ## Yeni kanıt ekleme
 
 

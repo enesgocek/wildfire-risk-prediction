@@ -804,6 +804,20 @@ Eski atamalar korunur. İlk zaman/hücre, zincirleme ve dönem sınırı işaret
 nihai olay veya etiket değildir. 2024 grafikten çıkarılır; 2025 açılmaz.
 [Yöntem, hedef penceresi ve gerçek sonuç](../docs/EVENT_GROUPING_REVIEW_2026-10-10.md).
 
+## V3 oturumunun çevrimdışı günlük kabulü
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_gcp_v3_session_logs.py
+```
+
+Beş üyeli günlük TAR'ı bellekte, kesin dosya ve boyut sınırlarıyla okur.
+Üç final durumun kimliği/politikası, son launcher oturumunun tekil çift ve
+gün kayıtları, dondurulmuş eğitim kataloğu ve kaynak ölçümleri çapraz
+kontrol edilir. Aynı loga eklenmiş eski çağrılar yeni sayaçlara katılmaz.
+Yeni rapor üzerine yazılmaz; tekrar kontrol için `--out` ile ayrı yol
+seçilir. Ürün ZIP'i, canlı Drive, ham işleme veya VM kontrolü yapmaz.
+[Kabul sınırı ve oturum sonucu](../docs/GCP_SOURCE_AWARE_V3_2026-10-10.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten

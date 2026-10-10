@@ -5,6 +5,30 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+İndirilen V3 günlük arşivinin yerel sınır/hash, üç final durumun eşitliği,
+dondurulmuş paket kimliği ve katalog/sayaç denetimi geçti. 496.892 bayt,
+SHA-256 `19b177afebe1724770307f9e911e103b538ee7a347a283cd294f000cdb5482c7`.
+21 tam ay bildirimi ve 2.032 tekil yeni çift satırı katalogla tutarlı.
+235 günlük commit satırı var; final listede ayrıca 35 yeniden kullanıldığı
+anlaşılan gün bulunuyor. Şubat 2022 27 ve 28 günlerinin her birinde 9/9
+yeni çift satırı mevcut, fakat günlük kapanış yok. Ölçümlerde en az 12,46
+GiB boş disk/111,47 GiB kullanılabilir RAM; rezerv ihlali kaydı yok.
+[Geri okuma ve devam](GCP_SOURCE_AWARE_V3_2026-10-10.md). Bu yalnız
+günlük/katalog tutarlılığıdır; bilimsel ürün ZIP'leri ve canlı Drive bu
+arşivde ayrıca denetlenmedi. Kullanıcı indirme sonrasında VM'yi tekrar
+Stop yaptığını teyit etti. Aynı V3'nin normal rezervden devam koşulu sağlanır;
+yeni başlangıç için yeni Google deadline'ı gerekir.
+
+Bağımsız yerel bitki örtüsü üst raporu son kaydında `failed_checkpoints_retained`:
+14 ay doğrulanmış, Mart 2019 hazırlığı durmuştur. Alt kuyruk RuntimeError,
+aylık çocuk logunun güvenli son satırı ValueError bildirir; kök neden henüz
+belirlenmedi. Son üst rapor zamanı 10 Ekim 03:14:45,502942 UTC. 11 kaynak
+hash'i ilk başlatılan sürümle aynı; bu bulut denetiminde değişmedi. Yeni
+yerel kuyruk başlatılmadı, eski kayıtlar silinmedi. Önceki canlı durumlar
+aşağıda ölçüm anlarıyla korunur.
+
+İlk uzak kapanış bildirimi:
+
 Son paylaşılan V3 kapanış kaydı `paused_at_runtime_reserve` ve
 `Guest poweroff requested: True` bildiriyor. Kullanıcının Cloud Shell
 çıktısında VM `TERMINATED`; 10 Ekim 01:58:42,563–09:36:35,528 UTC arasında

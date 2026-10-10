@@ -46,6 +46,53 @@ yerleştirilir. VM tekrar Stop yapılır. Kuyruk bu kontrol açılışında
 başlatılmaz. Sonraki kabul, arşivin gerçek baytları ve katalog/log
 tutarlılığıyla yapılır; bilimsel ürün arşivlerinin kabulü ayrı kaydedilir.
 
+## İndirilen günlük arşivinin yerel geri okuması
+
+Arşiv 496.892 bayt; SHA-256
+`19b177afebe1724770307f9e911e103b538ee7a347a283cd294f000cdb5482c7`.
+Beş düzenli üye, genişletilmiş boyut 1.562.749 bayt. Link/yol kaçışı,
+yabancı veya yinelenen üye ve toplam boyut sınırları denetlendi; diske
+tar extract yapılmadı. Progress ve iki final JSON'u birebir aynı.
+Orijinal bilimsel paket, controller üyeleri ve hazırlanmış V3 SHA'sı
+kontrol edildi. Eğitim kataloğu dışında kayıt okunmadı; 2025 açılmadı.
+
+2.032 yeni çift satırı tekil ve nominal katalog kimliği/ayıyla eşleşiyor.
+235 günlük commit satırının nominal çift ihtiyacı 2.023: bu günlerdeki
+2.014 yeni çift satırı ile final sayacındaki 9 yeniden kullanım tutarlı.
+Kalan 18 yeni çift, Şubat 2022'nin 27 ve 28 günlerinde 9'ar nominal çifti
+tam açıklıyor. Günlük commit yok; bu günler tam veya Şubat ayı kapanmış
+sayılmadı. Yeniden kullanılan 9 çiftin kimliği katalog/log farkından
+çıkarılır; gerçek checkpoint baytları bu arşivde yoktur.
+
+Final gün listesinde 270 kayıt var. Commit satırı olmayan 35 kayıt Eylül
+2022'nin 1–5 günleri ve Aralık 2023'ün 1–30 günleridir; önceki kaynakların
+yeniden kullanımına dair uzak durumdur. Tam ay listesi, başlangıçta kabul
+edilmiş Temmuz 2023 + 13 month-reuse satırı + 7 yeni month-complete satırıyla
+eşleşir. Yeni aylar Mart–Eylül 2022; toplam Mart 2022–Kasım 2023 için 21.
+
+11.803 kaynak ölçümü, son örnek 27.296,086 saniye. En az 12,458 GiB boş
+disk ve 111,471 GiB kullanılabilir RAM; tepe süreç ağacı RSS 11,290 GiB.
+Kaydedilmiş dört GiB rezerv ihlali yok. Örnekler bütün anların garantisi
+değildir. Ortalama CPU %17,012; geri okuma/metadata evrelerini de içerir,
+yalnız ham işleme CPU verimi veya darboğaz ölçümü sayılmaz.
+
+Araç `scripts/cloud/verify_gcp_v3_session_logs.py`; yeni kaynak verisi
+işlemez, ağ/kimlik bilgisi/VM işlemine erişmez. Son launcher'a eklenmiş
+eski oturumlar varsa yalnız son başlangıcın sayaçları alınır; önceki
+satırlar yeni kabul kapsamına katılmaz. 17 davranış kontrolü yol/link/
+boyut/üye saldırısı, çelişen final, değişen etiket/takvim, sahte kaynak,
+yanlış sayaç/commit ve eski oturumun iki kez sayılmasını reddetti.
+Ruff geçti. Gerçek arşiv sonucu:
+`outputs/gcp_acceleration/source_aware_v3_2026-10-10/session_log_readback_accepted.json`.
+
+Bu **günlük ve katalog kabulüdür**; 21 ayın tüm bilimsel ZIP'lerinin yeni
+yerel geri okuması, canlı Drive kontrolü veya nihai model veri seti değildir.
+Kullanıcı indirme sonrası VM'nin tekrar Stopped olduğunu teyit etti.
+Son durum, V3'nin normal rezervden devam guard'ını sağlar. Aynı dosya ve
+korunan checkpoint'lerle sonraki oturum, yeni Google durma zamanını kullanır;
+27–28 Şubat'ın günlük birleşimleri ve kalan eğitim ayları devam eder.
+İlk aşamalar eski ayları doğrularken liste yeniden kısa başlayabilir.
+
 ## Paylaşılan ilk V3 çalışma durumu
 
 Kullanıcının VM sorgusunda üst Python süreci PID 1677 ile canlı, çalışma
