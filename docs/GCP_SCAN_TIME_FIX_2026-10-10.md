@@ -1,5 +1,9 @@
 # Tarama zamanı çözümleme hatası — 10 Ekim 2026
 
+Sonraki gerçek kaynak denemesi 203 scan ve native hücre sayımlarında geçti.
+[Kabul kaydı ve V3 uzun devam adımları](GCP_SOURCE_AWARE_V3_2026-10-10.md)
+ayrı belgededir; aşağıdaki hazırlık ve ilk kontrol sınırları tarihsel kayıttır.
+
 ## Gerçek kaynakta yeniden üretilen hata
 
 `SNPP:2022252.2230` için alınan ağ kapalı kontrol JSON'u 2.824 bayt;

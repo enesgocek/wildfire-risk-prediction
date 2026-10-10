@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Son indirilen 3.233 bayt gerçek kaynak adapter kontrolü kabul edildi:
+203 tarama/1.889 scan–grid satırı, native hücre sayımları ve üç UTC sütununun
+nanosaniyeleri eşleşti; girdi hash'leri aynı ve isim alanı geri yüklendi.
+[V3 devam sürümü](GCP_SOURCE_AWARE_V3_2026-10-10.md) hazır. Yeni ürünlerin
+yöntem/progress kaydında adapter kimliği açık tutuluyor; eski 15 V2 tanısı
+baytları korunarak merkezi arşive taşınacak. Eski başarılı checkpoint'ler
+yeniden hesaplanmadan doğrulanıyor. 94 ilgili test, gerçek eski checkpoint'in
+ağ kapalı V3 tekrar kullanımı ve ayrı fixture provenance biçim kontrolü geçti.
+Yeni uzun oturum henüz başlamadı. Kullanıcı son indirme sonrası VM'nin
+Stopped olduğunu teyit etti. Negatif etiket yasağı, 31 Aralık 2023 ertelemesi
+ve 2025 kapalı test sınırı korunuyor.
+
+Önceki teşhis aşamaları:
+
 Son paylaşılan Cloud Shell sorgusunda VM `TERMINATED`; 9 Ekim
 20:43:22–23:10:27 UTC arasında yaklaşık 2 saat 27 dakika çalışmış.
 Planlı 10 Ekim 04:43 UTC sınırından önce durmuş. V2 günlükte ilk hata

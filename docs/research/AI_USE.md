@@ -109,6 +109,15 @@ gerçek hata yeniden üretimini, yerel kontrollü adapter testini ve henüz
 yapılmamış gerçek kaynakta adapter kabulünü ayrı kaydeder. Uzun üretim
 başarısı veya bütün aylarda sorunun çözümü iddia edilmedi.
 
+## Gerçek adapter kabulü ve V3 hazırlığı
+
+10 Ekim'de gerçek adapter proof'unun yerel çapraz kontrolü, V3 yürütme
+provenance'ı, tanı arşivi/yarım taşıma davranışı, testler ve kullanıcı
+rehberinde araç desteği kullanıldı. [V3 raporu](../GCP_SOURCE_AWARE_V3_2026-10-10.md)
+tek gerçek kaynak kabulünü, gerçek eski checkpoint'in yerel yeniden kullanım
+denemesini ve henüz başlamamış yeni uzun oturumu ayırır. Parser düzeltmesi
+diğer bütün kaynak sorunlarının çözümü veya tam dönem bitişi olarak sunulmadı.
+
 ## Resmî kaynak
 
 

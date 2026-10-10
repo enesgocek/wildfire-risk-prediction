@@ -62,6 +62,14 @@ kaynak SHA-256 `528f74b8091232a8e54ed598b20d5acedec89e1ee07401eacbacb3b3c65476a5
 Sınır: tek kaynaktaki hata noktası; adapter ile gerçek tam hücre sayımının
 başarısı, bütün ay kabulü veya diğer hataların çözümü değildir.
 
+E22 — 10 Ekim: [Gerçek adapter kabulü](../GCP_SOURCE_AWARE_V3_2026-10-10.md)
+aynı `SNPP:2022252.2230` girdilerinde 203 scan/1.889 scan–grid satırını,
+native hücre sayımlarını ve üç UTC sütununda nanosaniye eşitliğini doğruladı.
+Kanıt: `outputs/gcp_acceleration/continuation_failure_v2_2026-10-10/scan_iso_adapter_readback.json`;
+kaynak SHA-256 `edfba0a8a87cdbf642e9cfd31a9d7d3115ac3281003b844135e1b127369621ea`.
+Sınır: tek kaynak düzeltme kabulü; yeni uzun oturum veya bütün dönem kabulü
+değil. V3'nin gerçek eski checkpoint CLI denemesi yerel/ağ kapalı kontrolüdür.
+
 ## Yeni kanıt ekleme
 
 
