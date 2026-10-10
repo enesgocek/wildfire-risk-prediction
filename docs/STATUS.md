@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İkinci V3 oturum arşivi](GCP_SOURCE_AWARE_V3_2026-10-10.md#ikinci-oturumun-kapanışı-ve-gerçek-arşiv-kontrolü)
+gerçek baytlarla ağ kapalı kabul edildi: normal süre rezervi duruşu,
+başarılı poweroff kaydı; hata alanı yok. Tam ay listesi 21'den 28'e
+çıktı (Ağustos 2021–Kasım 2023); Temmuz 2021 1–20 ve Aralık 2023 1–30
+kısmi. 1.863 yeni/18 yeniden kullanılan çift, 206 commit ve 262 gün
+katalogla tutarlı. Temmuz 21–25'in 45 nominal çift logu günlük kapanış
+sayılmadı. Kaydedilmiş disk/RAM rezerv ihlali yok. Kullanıcı indirme
+sonrası VM'yi tekrar Stop yaptığını teyit etti. Bu günlük/katalog kabulü;
+yeni bilimsel ürün ZIP'leri/Drive baytları ayrıca geri okunmadı. Gözlem
+unknown/negatif false ve 31 Aralık ertelemesi korunur; yeni VM işi yok.
+
 Kullanıcının Contributor güncellemesi sonrası [yerel bitki örtüsü devamı](VEGETATION_QUOTA_CHECK_2026-10-10.md#contributor-güncellemesi-sonrası-devam)
 başladı: `training_iso_v2_contributor_resume_20261010_5c811bc3`;
 19:02:11 UTC üst kayıt `running`, PID 22500 ve geri okuma çocukları canlı.

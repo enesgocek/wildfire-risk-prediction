@@ -184,6 +184,14 @@ başlatma ve başlangıç kaydında kullanıldı. [Devam kaydı](../VEGETATION_Q
 bu başlangıcı kalan kota veya bütün dönem başarısı olarak sunmaz.
 Ücretli plan/commercial kayıt/GCP VM ayarı araç tarafından değiştirilmedi.
 
+## İkinci V3 oturumunun arşiv kontrolü
+
+İkinci V3 günlük arşivinin yerel hash/katalog geri okuması ve raporlamasında
+araç desteği kullanıldı. [İnceleme](../GCP_SOURCE_AWARE_V3_2026-10-10.md#ikinci-oturumun-kapanışı-ve-gerçek-arşiv-kontrolü),
+normal rezerv duruşunu ve yeni ay sayımını bilimsel ürün/etiket kabulünden
+ayırır. VM Stop kullanıcı tarafından teyit edildi; araç yeni VM işi veya
+billing değişikliği yapmadı, gizli bağlantı dosyalarına erişmedi.
+
 ## Resmî kaynak
 
 

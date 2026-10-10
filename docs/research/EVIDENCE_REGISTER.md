@@ -145,6 +145,16 @@ SHA-256 `e6d8519b51cfde73742bde782d798eb9caccf288cdb987558eb51c3f974b50a5`.
 Önceki 24 saat sınırı uzatılmadı. Sınır: başlangıç/kimlik/süre kabulü;
 Kasım'ın veya 72 ayın bitişi, kalan kota yeterliliği ve model kabulü değildir.
 
+E31 — 10 Ekim: [İkinci V3 kapanışı](../GCP_SOURCE_AWARE_V3_2026-10-10.md#ikinci-oturumun-kapanışı-ve-gerçek-arşiv-kontrolü)
+482.319 bayt yeni günlük arşivini, üç eşit finali, paket kimliklerini
+ve son çağrı sayaçlarını ağ kapalı geri okudu. Kanıt:
+`outputs/gcp_acceleration/source_aware_v3_2026-10-10/session_20261010T194058Z_log_readback.json`;
+SHA-256 `90989039f9a47425709013a14386bfe86588e52aa9216a2b0560abef74db8c6f`.
+28 tam ay listesi, 1.863 yeni/18 yeniden kullanım, 206 commit ve 262
+gün katalogla tutarlı; normal rezerv/poweroff kaydı geçti. Sınır:
+günlük/katalog kabulü; yeni bilimsel ürün/Drive baytları, gözlem/etiket
+ve bütün 72 ayın kabulü değil. Temmuz'un commit olmayan beş günü korunur.
+
 ## Yeni kanıt ekleme
 
 

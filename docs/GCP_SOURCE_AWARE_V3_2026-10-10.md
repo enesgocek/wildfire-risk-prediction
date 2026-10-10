@@ -2,6 +2,9 @@
 
 ## Paylaşılan oturum kapanışı
 
+Bu ilk kapanış kaydı aşağıda tarihsel olarak korunur. Sonraki oturumun
+28 aylık sonuç incelemesi [ayrı bölümde](#ikinci-oturumun-kapanışı-ve-gerçek-arşiv-kontrolü) yer alır.
+
 Kullanıcının Cloud Shell çıktısında VM `TERMINATED`; başlangıç 10 Ekim
 01:58:42,563 UTC, duruş 09:36:35,528 UTC. Çalışma 7:37:52,965; Google'ın
 09:58:35,730711 UTC sınırından 22 dakika 0,203 saniye önce durmuş.
@@ -171,6 +174,65 @@ Sonraki normal rezerv duruşlarında V3 kimliğiyle yeniden giriş desteklenir.
 Yeni V3 hata durumunda veya bilinmeyen başka çocuk hata dosyasında başlatma
 reddedilir. Supervisor kilidi aldıktan sonraki hata, rezerv veya bitiş
 kapatma isteğine gider. Başlangıç kontrolünün reddi manuel Stop gerektirir.
+
+## İkinci oturumun kapanışı ve gerçek arşiv kontrolü
+
+Kullanıcının yeni Cloud Shell kaydında başlangıç 10 Ekim 11:28:28,787 UTC,
+duruş 19:09:19,084 UTC; VM `TERMINATED`. Çalışma 7:40:50,297, kayıtlı
+19:28:19,420127 UTC sınırından 19 dakika 0,336 saniye önce kapanmış.
+İndirme için kısa açılış sonrasında kullanıcı VM'yi tekrar Stop yaptığını
+teyit etti. Bu VM zamanları kullanıcı tarafından paylaşılan API çıktısıdır;
+yerel araç Cloud hesabına bağlanmadı.
+
+Yeni arşiv:
+`received/gcp_v3_session_20261010T194058Z_logs.tar.gz`, 482.319 bayt;
+SHA-256 `3179ab9ac3f5b7e7c15686240c7f2f891bba1c33746ef06c3b9ddee15ff54199`.
+Beş düzenli üye, toplam 1.612.559 genişletilmiş bayt, sınır/boyut/yol
+kontrollerinden geçti; diske tar extract
+yapılmadı. Progress ve iki final JSON'u aynı; son durum
+`paused_at_runtime_reserve`, kapatma isteği `True`, hata alanı yok.
+Wrapper/adapter/proof/registry/scope kimlikleri, yerel dondurulmuş paket
+ve controller üyeleri eşleşti. Ağ bağlantıları engellenerek aynı kabul
+aracı çalıştırıldı; üretim veya canlı Drive okuması yapılmadı.
+
+| Ölçü | Yeni arşivin kabul edilmiş günlük/katalog sonucu |
+|---|---|
+| Tam ay listesi | 28: Ağustos 2021–Kasım 2023 |
+| Önceki 21 aya eklenen kapanış | 7: Ağustos–Aralık 2021, Ocak–Şubat 2022 |
+| Kısmi aylar | Temmuz 2021 1–20; Aralık 2023 1–30 günleri listede |
+| Yeni çift sayacı ve tekil loglar | 1.863 |
+| Yeniden kullanım sayacı | 18; Şubat 2022'nin 27/28 günleriyle katalog farkından eşleşiyor |
+| Günlük commit satırları | 206 |
+| Final gün listesi | 262; commit olmayan 56 kayıt önceki Şubat/Aralık günleri |
+| Kapanmamış son günler | Temmuz 2021 21–25; 45 nominal çift satırı mevcut, günlük commit yok |
+
+Kapanmamış beş gündeki çift sayıları sırasıyla 10, 8, 8, 11, 8; her biri
+nominal katalog ihtiyacıyla aynı. Buna rağmen günlük/aylık kapanış kabulü
+verilmez. Commit edilmiş günlerdeki 1.818 yeni satır + 18 yeniden
+kullanım, nominal çift ihtiyacını açıklıyor; 45 kalan yeni satır
+günlük commit dışında tutuluyor. Launcher'a eklenmiş eski oturumun 2.298
+satırı yeni çağrı sayaçlarına katılmadı. Tam ay listesi, başlangıç seed'i
+Temmuz 2023 + 20 month-reuse + 7 yeni month-complete kaydıyla eşleşiyor.
+
+11.529 kaynak örneği; son örnek 27.131,709 saniye. En az 11,897 GiB boş
+disk ve 111,788 GiB kullanılabilir RAM, tepe süreç ağacı RSS 11,280 GiB.
+Kaydedilmiş rezerv ihlali yok. Ortalama CPU %16,075; geri okuma/metadata
+evreleri dahil olduğundan yalnız işleme darboğazı veya donanım faydası
+olarak yorumlanmadı. Örnekler bütün anların garantisi değildir.
+
+Yeni rapor:
+`outputs/gcp_acceleration/source_aware_v3_2026-10-10/session_20261010T194058Z_log_readback.json`;
+SHA-256 `90989039f9a47425709013a14386bfe86588e52aa9216a2b0560abef74db8c6f`.
+Durum `v3_session_log_catalogue_readback_passed`. Üretim/verifier kodu
+değişmedi; yeni gerçek arşiv ağ kapalı denetlendi, gereksiz test tekrarı
+yapılmadı. Bu günlük/sayaç/katalog kabulüdür; yeni bilimsel ürün ZIP'leri
+ve Drive payload/completion baytları ayrıca geri okunmadı.
+
+72 eğitim ayının 28'i tam ay listesinde (%38,89); kalan 44 ay kısmi
+ayları da içerir. Gözlem `unknown`, negatif izin `false`, tüm eğitim
+kabulü `false`; 31 Aralık 2023'ün iki kaynak bloğu ertelenmiş kalır.
+Yeni çağrı aynı V3 ile normal rezervden devam edebilir; yeni VM başlangıcının
+gerçek Google deadline'ı gerekir. Bu inceleme yeni VM işi başlatmadı.
 
 ## Yerel kontroller
 
