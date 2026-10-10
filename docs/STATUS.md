@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Son paylaşılan Cloud Shell sorgusunda VM `TERMINATED`; 9 Ekim
+20:43:22–23:10:27 UTC arasında yaklaşık 2 saat 27 dakika çalışmış.
+Planlı 10 Ekim 04:43 UTC sınırından önce durmuş. V2 günlükte ilk hata
+`SNPP:2022252.2230 ValueError CLASS_ONLY`, ardından çocuk `-9` kodları ve
+otomatik poweroff isteği var. Uzak progress Ekim 2022–Kasım 2023 için 14
+tam ay, Eylül 1–5 günlerini; 510 yeni/15 yeniden kullanılan çift bildiriyor.
+Yeni tam aylık sonuçların yerel kabulü yapılmadı. İlk hatanın nedeni açık;
+[ayrı V2 teşhis aracı ve toplama rehberi](GCP_V2_FAILURE_2026-10-10.md) hazır.
+Kullanıcı son log alımından sonra VM'yi tekrar Stop yaptığını teyit etti.
+
+Önceki uzak ilerleme kaydı aşağıda zamanıyla korunmuştur:
+
 10 Ekim'de paylaşılan uzak log/progress, V2 devam oturumunun `running` ve
 `remaining_months` aşamasında olduğunu gösteriyor. Bu oturumda Mayıs–Kasım
 2023 yedi ay doğrulanmış/yeniden kullanılmış; Aralık 2023 1–30 günleri

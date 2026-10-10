@@ -85,6 +85,13 @@ ilk hücre/zaman/pencere denetimi ve raporlamada araç desteği kullanıldı.
 Gerçek dokuz senaryonun sonuçları [olay incelemesinde](../EVENT_GROUPING_REVIEW_2026-10-10.md)
 kayıtlıdır. Matematiksel eşleşme, doğrulanmış yangın olayı veya etiket olarak sunulmadı.
 
+## V2 erken kapanış teşhis hazırlığı
+
+10 Ekim'de paylaşılan log/VM zamanlarının yorumlanması, V2 kimliğine bağlı
+salt okunur teşhis betiği ve davranış testlerinde araç desteği kullanıldı.
+[Kapanış kaydı](../GCP_V2_FAILURE_2026-10-10.md) uzak bildirim ile yerel
+araç hazırlığını ayırır; hata nedeni henüz çözülmüş olarak sunulmadı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
