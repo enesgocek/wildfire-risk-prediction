@@ -151,6 +151,15 @@ kontrolü, pencere/split davranış testleri ve dokuz eski keşif kataloğunun
 bu hazırlığı nihai olay/etiket kabulünden ayırır. Uzman veya bağımsız saha
 onayı araçla üretilmiş gibi gösterilmedi; bilimsel kabul kararları açık kaldı.
 
+## Habitat, veri desteği ve kabul hazırlığı
+
+10 Ekim'de kaynakla bağlı destek envanteri, amaçlı zor vaka seçimi,
+geri okuma/harita ve kabul sözleşmesi taslağında araç desteği kullanıldı.
+[Karar incelemesi](../DECISION_REVIEW_2026-10-10.md) gerçek sayıları,
+kaynak tanımlarını ve yorumları ayırır. İnsan/uzman formunun doldurulması
+ve nihai habitat/olay/negatif politikası gerçekleşmiş gibi gösterilmedi.
+Kalıcı sıcak kaynak açıklaması mevcut Type alanının provenansı sayılmadı.
+
 ## Resmî kaynak
 
 

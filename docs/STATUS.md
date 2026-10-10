@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Habitat–meteoroloji destek ve zor vaka paketi](DECISION_REVIEW_2026-10-10.md)
+tamamlandı: 189 desteksiz, 310 kısmi ve 2.400 tam meteoroloji destekli
+hücre; 33 habitat/53 olay-senaryo örneği kaynaklarına bağlandı. Uzman
+inceleme formu boş, olay/habitat kararı verilmedi. Ağ engellenmiş gerçek
+geri okuma ve 39 ilgili test geçti. [Veri seti kabul taslağı](DATASET_ACCEPTANCE_CONTRACT_2026-10-10.md)
+eksik değer, dönem kenarı, etiket kanıtı ve son freeze koşullarını ayırır.
+12:35:46 UTC yerel progress kaydı 17 doğrulanmış ay ve Haziran 2019
+hazırlığında `running` gösteriyor; eski 136 baseline dosyası değişmedi.
+
 [Gün geçişleri ve hedef kabul hazırlığı](TARGET_ADMISSION_REVIEW_2026-10-10.md)
 yerelde geçti. Birleştirme artık dört eğitim gününde 11.596 hücre-günü
 kapsıyor; kesim/taşıma yaşları ve ayrı pencere eksikleri korundu. Dokuz

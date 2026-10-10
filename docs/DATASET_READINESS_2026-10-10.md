@@ -6,6 +6,13 @@ operasyonel erişim onayı değildir.
 
 ## Hazır parçalar ve açık işler
 
+Destek/vaka hazırlığı [karar inceleme paketinde](DECISION_REVIEW_2026-10-10.md),
+nihai birleştirme/etiket kabul koşulları [kabul taslağında](DATASET_ACCEPTANCE_CONTRACT_2026-10-10.md)
+tamamlandı. Bu hazırlık kararların bilimsel onayı değildir. Son yerel
+progress (12:35:46 UTC) 17 eğitim ayı doğrulanmış ve Haziran 2019 `running`;
+kalan 55 ay aktif Haziran'ı içerir. Aşağıdaki önceki 15 ay kaydı kendi
+ölçüm anına aittir.
+
 Son güncelleme: [1 Ağustos 2018 birleştirme denemesi](FEATURE_JOIN_PILOT_2026-10-10.md)
 2.899 hücrede 27 adayı ve ayrı kalite tablosunu geri okudu. Tam veri seti
 ve etiket kabulü değildir. Yerel V2 progress kaydı 11:53:32 UTC'de

@@ -20,6 +20,12 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Habitat/meteoroloji kapsamı ve kaynakla bağlı zor vaka paketi:
+`python scripts/quality/prepare_decision_review.py`. Kabul edilmiş yerel
+dosyaları okur, yeni inceleme tabloları/harita/boş uzman formu üretir;
+uzaktan veri almaz veya habitat/olay seçmez.
+[Sonuç ve sınırlamalar](../docs/DECISION_REVIEW_2026-10-10.md).
+
 Etiket kabulü hazırlığı için `python scripts/quality/audit_target_admission.py`,
 önceden kabul edilmiş dokuz eğitim keşif kataloğunu okur. Hedef pencerelerini
 ve boş hedef alanını yeni dosyalarda kontrol eder; olay/senaryo seçmez, 0/1

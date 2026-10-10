@@ -108,6 +108,16 @@ Sınır: mevcut kataloglardan zaman/kabul hazırlığı; kaynak çıkarımı vey
 nihai olay/negatif etiket doğrulaması değil. Gerçek split olay kimliği
 denetimi nihai olay tablosunu bekler; mevcut davranış sentetikte sınandı.
 
+E27 — 10 Ekim: [Destek ve zor vaka paketi](../DECISION_REVIEW_2026-10-10.md)
+2.899 hücrenin habitat–meteoroloji destek kesişimini, 15 eşik sayımını
+ve 33 habitat/53 olay-senaryo örneğinin kaynak bağlantısını geri okudu.
+Kanıt: `outputs/reports/dataset/decision_review_v1/20261010T124447Z_f3e2eef2/readback.json`;
+SHA-256 `ad0567e829719d4b2b45cb7b696ce4442c8fc083268a670c4696b1bd642aa5a9`.
+Hücre × gün toplamları eski meteoroloji raporuyla eşleşti; seçili olay
+üyelik/ilk-son zaman/hücreleri özgün atamalarla eşleşti. Sınır: amaçlı
+vaka ve matematiksel geri okuma; bağımsız yangın veya habitat doğrusu
+değil. Uzman formu boş, eşik/senaryo/etiket seçimi yok.
+
 ## Yeni kanıt ekleme
 
 
