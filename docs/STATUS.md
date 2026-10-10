@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Kullanıcının son VM ps/log/progress çıktısında V3 üst süreci canlı
+(PID 1677, çalışma 2 dakika 14 saniye), durum `running`. Wrapper
+`792d774f53c2a7249a10f4111f2f785e08d5bd2a8153e1151c73efe493b5942e`
+ve adapter kimliği hazırlanmış sürümle eşleşiyor. Günlük 15 V2 tanısının
+korunduğunu ve `december_safe_days` aşamasına girildiğini bildiriyor.
+Uygulamanın yeni durma kaydı 10 Ekim 09:58:35,730711 UTC
+(12:58:35 Türkiye). Bu kullanıcı tarafından paylaşılan uzak başlangıç
+kaydıdır; canlı API sorgusu, yeni raw kaynak başarısı veya oturum sonu
+kabulü değildir. İlk kontrol, önceki V2 progress dosyasını göstermişti;
+Drive başlangıç kontrollerinden sonra V3 durumu yazılmıştır.
+
+Başlangıçtan önceki hazırlık:
+
 Son indirilen 3.233 bayt gerçek kaynak adapter kontrolü kabul edildi:
 203 tarama/1.889 scan–grid satırı, native hücre sayımları ve üç UTC sütununun
 nanosaniyeleri eşleşti; girdi hash'leri aynı ve isim alanı geri yüklendi.

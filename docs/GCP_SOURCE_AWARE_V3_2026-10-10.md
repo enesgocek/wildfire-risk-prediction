@@ -1,5 +1,17 @@
 # Doğrulanmış zaman çözümlemesiyle V3 devam — 10 Ekim 2026
 
+## Paylaşılan ilk V3 çalışma durumu
+
+Kullanıcının VM sorgusunda üst Python süreci PID 1677 ile canlı, çalışma
+süresi 2 dakika 14 saniye. Progress `running`; wrapper ve adapter hash'leri
+hazırlanmış sürümle eşleşiyor. Launcher 15 incelenmiş V2 tanısının saklandığını
+ve `december_safe_days` aşamasına girişini bildiriyor. Yeni uygulama deadline'ı
+10 Ekim 09:58:35,730711 UTC, Türkiye saatiyle 12:58:35. İlk progress okuması
+Drive başlangıç kontrolleri bitmeden eski V2 son durumunu göstermişti.
+Sonraki çıktı V3 durumunun yazıldığını doğruluyor. Bu uzak çıktı kullanıcı
+tarafından paylaşıldı; canlı API denetimi, yeni kaynak işlem başarısı veya
+uzun oturum bitiş kabulü değildir. Hazırlık kaydı aşağıda korunmuştur.
+
 ## Gerçek kaynak kabulü
 
 Son `gcp_scan_iso_adapter_proof_20261010T014316599475Z.json` dosyası 3.233
