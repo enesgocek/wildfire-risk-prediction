@@ -31,6 +31,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Kaynak ertelemeli oturum kapanışı](GCP_CONTINUATION_FAILURE_2026-10-09.md) | RuntimeError bildirimi, uzak ilerleme ve güvenli teşhis arşivi toplama |
 | [V2 güvenli tanı ve devam](GCP_SOURCE_AWARE_V2_2026-10-09.md) | Drive raporu çapraz kontrolü, değişmeyen checkpoint kuralları ve yeniden deneme adımları |
 | [V2 erken kapanış ve teşhis](GCP_V2_FAILURE_2026-10-10.md) | Eylül 2022 çocuk hatası, son bildirilen 14 tam ay ve kimlik bağlı salt okunur snapshot toplama |
+| [Tarama zamanı hatası ve dar düzeltme](GCP_SCAN_TIME_FIX_2026-10-10.md) | Gerçek kaynakta tarih çözümleme ValueError'ı, nanosaniye karşılaştırması ve salt okunur parser kabul denemesi |
 
 ## Klasör sorumlulukları
 

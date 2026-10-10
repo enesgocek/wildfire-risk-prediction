@@ -1,5 +1,9 @@
 # V2 erken kapanışı ve salt okunur teşhis — 10 Ekim 2026
 
+Sonraki gerçek kaynak replay'i tarih çözümleme hatasını 184. satırda yeniden
+üretti. [Dar düzeltme ve yeni kabul adımı](GCP_SCAN_TIME_FIX_2026-10-10.md)
+ayrı kayıttadır; aşağıdaki ilk hazırlık bulguları tarihsel sırasıyla korunmuştur.
+
 ## İndirilen snapshot'ın yerel incelemesi
 
 10 Ekim'de indirilen `gcp_v2_failure_snapshot_20261010T011955892163Z.json`

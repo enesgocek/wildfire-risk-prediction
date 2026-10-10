@@ -11,18 +11,29 @@ Planlı 10 Ekim 04:43 UTC sınırından önce durmuş. V2 günlükte ilk hata
 `SNPP:2022252.2230 ValueError CLASS_ONLY`, ardından çocuk `-9` kodları ve
 otomatik poweroff isteği var. Uzak progress Ekim 2022–Kasım 2023 için 14
 tam ay, Eylül 1–5 günlerini; 510 yeni/15 yeniden kullanılan çift bildiriyor.
-Yeni tam aylık sonuçların yerel kabulü yapılmadı. İlk hatanın nedeni açık;
-[ayrı V2 teşhis aracı ve toplama rehberi](GCP_V2_FAILURE_2026-10-10.md) hazır.
+Yeni tam aylık sonuçların yerel kabulü yapılmadı. İlk kaynak hatası için
+[ayrı V2 teşhis aracı ve toplama rehberi](GCP_V2_FAILURE_2026-10-10.md) kullanıldı.
 Kullanıcı son log alımından sonra VM'yi tekrar Stop yaptığını teyit etti.
 İndirilen 8.794 bayt snapshot'ın V2/plan kimlik geri okuması geçti. 3.511
 ölçümde en düşük boş disk 13,05 GiB, kullanılabilir RAM 112,08 GiB; ölçümlerde
 rezerv tükenmesi görünmüyor. İki kaynak dosyasının boyutu eşleşiyor; alan
 çıktıları mevcut, scan çıktıları eksik. Karışık saniye hassasiyetinin Pandas
 çözümlemesinde hata üretebilmesi sentetik olarak gösterildi; gerçek kaynağın
-kök nedeni henüz kanıtlanmadı. Ağ kapalı, tek kaynakta özgün scan fonksiyonunu
+kök nedeni bu ilk snapshot aşamasında henüz kanıtlanmadı. Ağ kapalı, tek
+kaynakta özgün scan fonksiyonunu
 yeniden çalıştıran ayrı araç hazır; 60 ilgili test ve gerçek paket import
 kontrolü geçti. Üretim kodu değiştirilmedi, kuyruk yeniden başlatılmadı.
 Snapshot indirildikten sonra da VM'nin Stopped olduğu kullanıcıca teyit edildi.
+
+Sonraki 2.824 bayt gerçek kaynak replay JSON'u 184. satırdaki tarih
+çözümleme ValueError'ını yeniden üretti. 203 başlangıç zamanından 202'si
+kesirli, biri tam saniye; açık ISO çözümleme üç zaman sütununda özgün ham
+TAI93 dönüşümüyle nanosaniyesine kadar eşleşti. Girdi hash'leri değişmedi.
+[Dar parser düzeltmesi ve son kısa kabul kontrolü](GCP_SCAN_TIME_FIX_2026-10-10.md)
+hazır: çalışma anında yalnız özgün scan modülündeki üç UTC çağrısı sarılıyor;
+ham zaman ve hücre eşitlik guard'ları korunuyor. 76 ilgili yerel test geçti.
+Gerçek kaynakta adapter altında bütün hücre sayımı henüz denenmedi; üretim
+başlatılmadı. Kullanıcı son JSON alımından sonra VM'yi Stop yaptığını teyit etti.
 
 Önceki uzak ilerleme kaydı aşağıda zamanıyla korunmuştur:
 

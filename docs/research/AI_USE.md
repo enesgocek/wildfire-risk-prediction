@@ -100,6 +100,15 @@ kullanıldı. [Tarihli teşhis raporu](../GCP_V2_FAILURE_2026-10-10.md) gerçek
 indirilen kayıt, yerel sentetik hipotez ve henüz yapılmamış VM denemesini
 ayırır. Geçmiş hata giderilmiş veya kaynak doğrulanmış olarak sunulmadı.
 
+## Gerçek scan hata kaydı ve dar parser düzeltmesi
+
+10 Ekim'de gerçek kaynak replay JSON'unun geri okuması, hatalı scan çağrısının
+yorumu, sınırlı ISO parser adapter'ı ve özgün fonksiyonu kullanan kontrollü
+fixture/testler için araç desteği kullanıldı. [Düzeltme hazırlığı](../GCP_SCAN_TIME_FIX_2026-10-10.md)
+gerçek hata yeniden üretimini, yerel kontrollü adapter testini ve henüz
+yapılmamış gerçek kaynakta adapter kabulünü ayrı kaydeder. Uzun üretim
+başarısı veya bütün aylarda sorunun çözümü iddia edilmedi.
+
 ## Resmî kaynak
 
 

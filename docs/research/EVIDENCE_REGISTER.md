@@ -53,6 +53,15 @@ kaynak SHA-256 `43c6a64e6547c2856f7ce39fcf478e12be3df40c8032d80cdfa3daf8e4062e0b
 Sınır: uzak durumun yerel geri okuması; ayların yeni bilimsel kabulü, tüm
 anlarda kaynak yeterliliği veya ValueError kök nedeni kanıtı değildir.
 
+E21 — 10 Ekim: [Gerçek scan zamanı replay'i](../GCP_SCAN_TIME_FIX_2026-10-10.md)
+`SNPP:2022252.2230` kaynağında özgün fonksiyonun 184. satır ValueError'ını
+yeniden üretti. Üç UTC sütununun açık ISO çözümlemesi, ham TAI93 dönüşümüyle
+nanosaniyesine kadar eşleşti; girdiler değişmedi. Kanıt:
+`outputs/gcp_acceleration/continuation_failure_v2_2026-10-10/scan_replay_readback.json`;
+kaynak SHA-256 `528f74b8091232a8e54ed598b20d5acedec89e1ee07401eacbacb3b3c65476a5`.
+Sınır: tek kaynaktaki hata noktası; adapter ile gerçek tam hücre sayımının
+başarısı, bütün ay kabulü veya diğer hataların çözümü değildir.
+
 ## Yeni kanıt ekleme
 
 
