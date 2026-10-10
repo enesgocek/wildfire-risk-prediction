@@ -135,6 +135,14 @@ gerçek parser hatasını, 5.798 satır kabulünü ve yeni yerel çalışmanın 
 gözlemini ayırır. VPN/kota nedeni, tam dönem bitişi veya model başarısı
 uydurulmadı. Özgün bilimsel kaynak hash'i ile runtime adapter kimliği ayrı tutuldu.
 
+## Özellik birleştirme denemesi
+
+10 Ekim'de ortak özellik birleştirme kodu, anahtar/zaman/sütun sınırı
+testleri, çevrimdışı gerçek veri geri okuması ve raporlamada araç desteği
+kullanıldı. [Deneme raporu](../FEATURE_JOIN_PILOT_2026-10-10.md), tek eğitim
+gününde özellik tutarlılığını nihai etiket/model kabulünden ayırır. Kaynak
+eksikleri veya tarihsel erişim belirsizliği araç desteğiyle kapatılmış sayılmadı.
+
 ## Resmî kaynak
 
 

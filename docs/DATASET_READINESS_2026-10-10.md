@@ -6,15 +6,22 @@ operasyonel erişim onayı değildir.
 
 ## Hazır parçalar ve açık işler
 
+Son güncelleme: [1 Ağustos 2018 birleştirme denemesi](FEATURE_JOIN_PILOT_2026-10-10.md)
+2.899 hücrede 27 adayı ve ayrı kalite tablosunu geri okudu. Tam veri seti
+ve etiket kabulü değildir. Yerel V2 progress kaydı 11:53:32 UTC'de
+Ocak 2018–Mart 2019 **15 ayı** doğrulanmış gösteriyor; Nisan hazırlanıyor.
+Aşağıdaki ilk hazırlık ölçümleri tarihli ön çalışmalardır; kalan ay sayısı
+bu güncel kayıt üzerinden 57'dir ve aktif Nisan ayını içerir.
+
 | Parça | Mevcut kanıt | Sıradaki iş |
 |---|---|---|
 | Coğrafi anahtar | Dört il, 2.899 hücre, AOI kesişimleri | Küçük sınır hücrelerinin destek alanını izlemek; bütün hücreleri otomatik orman saymamak |
 | Meteoroloji | 2018–2024 için 7.412.743 hücre-gün yerel denetimden geçti | Mevcut 11 aday özellik ve uygunluk bayraklarını anahtar/zaman sözleşmesiyle birleştirmek |
 | Arazi ve örtü | 2.899 hücrenin statik tablosu hazır | Kıyı/sınır desteği, tarihsel harita erişimi ve habitat tanımını gerekçelendirmek |
-| Bitki örtüsü | Örnek/tam grid denemeleri ve Ocak–Mayıs/Ağustos 2018'in 1.055.236 günlük adayı kabul kaydında | Otomatik kuyrukta kalan 66 eğitim ayına genişletme; kesim/saklama kararının model katkısını değerlendirmek |
+| Bitki örtüsü | Son yerel V2 progress kaydında Ocak 2018–Mart 2019 15 ay doğrulanmış | Kalan 57 eğitim ayına genişletme; aktif Nisan 2019 dahil; kesim/saklama kararının model katkısını değerlendirmek |
 | Uydu gözlem tanıları | VM üzerinde kalan eğitim ayları işleniyor | Oturum raporlarını ve sonuç arşivlerini yerelde geri okumak; eksik kaynakları ayrı tutmak |
 | Olay ve hedef | 24 saatlik hedef tanımı kayıtlı; 30.295 eğitim adayının dokuz gruplama grafiği ve ilk zaman/hücre/penceresi denetlendi | Zincirleme vaka incelemesi, nihai olay kimliği ve güvenilir negatif politikası oluşturmak |
-| Nihai tablo | Henüz oluşturulmadı | Kaynak manifestleri, anahtar/zaman kontrolleri ve bölünme denetimleriyle kabul etmek |
+| Nihai tablo | Henüz oluşturulmadı; tek eğitim günü için özellik/kalite birleştirmesi geri okundu | Etiket/gözlem kabulünden sonra özellik–hedef–split manifestleriyle tam dönem tablosunu kabul etmek |
 
 ## Özelliklerin anlamı
 

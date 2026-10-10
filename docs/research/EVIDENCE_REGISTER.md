@@ -88,6 +88,16 @@ Eski Ağustos'un 179.738 satırı ağ kapalı yeni entrypoint'te geçti;
 Sınır: matematiksel/zaman geri okuması ve başlangıç; 72 ay bitişi,
 bağımsız saha doğrulaması, operasyonel erişim veya model kabulü değildir.
 
+E25 — 10 Ekim: [Özellik birleştirme denemesi](../FEATURE_JOIN_PILOT_2026-10-10.md),
+1 Ağustos 2018'in 2.899 hücresinde 27 adayı, ayrı kalite tablosunu ve
+kaynak NaN konumlarını CSV'den geri okudu. 24 girdi dosyasının hash'i
+değişmedi; kabul sırasında ağ bağlantıları engellendi. Kanıt:
+`outputs/reports/dataset/feature_join_v1/20261010T120407Z_d4282cbe/readback.json`;
+SHA-256 `b1b3f95757e3ce657042a80e086e309e8efa58acced87ef993571dfbd90b71f0`.
+Sınır: tek eğitim günü özellik birleştirmesi; kaynakların mevcut kabul
+kayıtları kullanıldı, ham çıkarım yeniden yapılmadı. Etiket, habitat,
+tam veri seti, operasyonel erişim veya model başarısı kabulü değildir.
+
 ## Yeni kanıt ekleme
 
 

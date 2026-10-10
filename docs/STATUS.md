@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Veri hazırlıkları sürerken [özellik birleştirme denemesi](FEATURE_JOIN_PILOT_2026-10-10.md)
+tamamlandı: 1 Ağustos 2018'in 2.899 hücresinde 27 aday özellik; kaynak
+değerleri ve eksikler CSV geri okumasında korundu. Kalite/provenance ayrı,
+etiket veya model yok. Ağ engellenmiş gerçek kabul ve 42 ilgili test geçti.
+Son yerel bitki örtüsü progress kaydı (10 Ekim 11:53:32 UTC), Mart 2019
+dahil 15 ayın doğrulandığını ve Nisan 2019 hazırlığının `running` olduğunu
+gösteriyor. 136 eski baseline dosyası ve iki canlı kod hash'i değişmedi.
+
 Kullanıcının yeni VM ps/log/progress çıktısında V3 `running`; PID 1669,
 çalışma 9 dakika 20 saniye. Wrapper kimliği doğru, mevcut Ağustos–Ekim
 2023 aylarını yeniden kullanma satırları var. Yeni Google sınırı

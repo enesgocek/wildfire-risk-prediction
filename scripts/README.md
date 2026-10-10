@@ -20,6 +20,12 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Çevrimdışı özellik birleştirme/geri okuma denemesi:
+`python scripts/quality/verify_feature_join_pilot.py --day 2018-08-01`.
+Kaynakları indirmez; eski kabul/hash kayıtlarıyla aynı hücre-günde 27 adayı
+ve ayrı kalite tablosunu yeni çıktı dizininde kontrol eder. Etiket/model
+üretmez. [Kapsam ve sonuç](../docs/FEATURE_JOIN_PILOT_2026-10-10.md).
+
 | Klasör | Amaç |
 |---|---|
 | `environment/` | Earth Engine erişimi ve MLflow altyapı kontrolü |
