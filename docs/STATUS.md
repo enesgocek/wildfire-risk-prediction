@@ -5,6 +5,31 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Kullanıcının yeni VM ps/log/progress çıktısında V3 `running`; PID 1669,
+çalışma 9 dakika 20 saniye. Wrapper kimliği doğru, mevcut Ağustos–Ekim
+2023 aylarını yeniden kullanma satırları var. Yeni Google sınırı
+10 Ekim 19:28:19,420127 UTC (**22:28:19 Türkiye**). İlk kontrol eski
+progress/deadline'ı göstermişti; başlangıç geri okumasından sonra yenisi
+yazıldı. Bu yeni uzak çalışma kaydıdır; ikinci oturum bitiş kabulü değil.
+
+Yerel bitki örtüsü duruşunun nedeni gerçek dosyalarla yeniden üretildi:
+22 Mart 2019'un 20 ham grubunda karışık saniye hassasiyeti varsayılan Pandas
+parser'ında hata veriyor. Açık ISO dönüşümü 868 zamanı scalar ile eşleştirdi;
+aynı 5.798 satır özgün bilimsel denetimden geçti. 94 girdi ve 11 kaynak
+pinleri değişmedi. [Sınırlı düzeltme ve V2 devam](VEGETATION_ISO_RESUME_2026-10-10.md)
+hazırlandı; 105 ilgili test ve gerçek eski Ağustos ayı ağ kapalı geri okuması
+geçti. Yeni manifest/raporlarda runtime parser kimliği açık tutuluyor.
+
+Yerel V2 iş `training_iso_v2_2018_2023_20261010_50d439a4`, 10 Ekim yaklaşık
+14:45 Türkiye saatinde başlatıldı. Gerçek süreç sorgusunda PID 22892 ve
+readback çocukları canlı. Son yerel kontrolde üst kayıt `running`, eski
+14 ay yeniden doğrulanmış ve Mart 2019'un eksik kesimine geçilmiştir.
+Eski 14 ay korunmuş, 136 baseline dosyasının hash'i başlangıç sonrasında aynı.
+Yeni çağrı 24 saatle sınırlı; 11 Ekim yaklaşık 14:45'te bütün aylar bitmeden
+durabilir. Bilgisayar açık ve uyanık kalmalıdır. Eski süreç veya kilit silinmedi.
+
+Önceki kapanış ve teşhis kayıtları:
+
 İndirilen V3 günlük arşivinin yerel sınır/hash, üç final durumun eşitliği,
 dondurulmuş paket kimliği ve katalog/sayaç denetimi geçti. 496.892 bayt,
 SHA-256 `19b177afebe1724770307f9e911e103b538ee7a347a283cd294f000cdb5482c7`.
@@ -19,7 +44,7 @@ arşivde ayrıca denetlenmedi. Kullanıcı indirme sonrasında VM'yi tekrar
 Stop yaptığını teyit etti. Aynı V3'nin normal rezervden devam koşulu sağlanır;
 yeni başlangıç için yeni Google deadline'ı gerekir.
 
-Bağımsız yerel bitki örtüsü üst raporu son kaydında `failed_checkpoints_retained`:
+Teşhis öncesindeki bağımsız yerel bitki örtüsü üst raporu `failed_checkpoints_retained`:
 14 ay doğrulanmış, Mart 2019 hazırlığı durmuştur. Alt kuyruk RuntimeError,
 aylık çocuk logunun güvenli son satırı ValueError bildirir; kök neden henüz
 belirlenmedi. Son üst rapor zamanı 10 Ekim 03:14:45,502942 UTC. 11 kaynak

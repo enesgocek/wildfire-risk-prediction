@@ -93,6 +93,16 @@ korunan checkpoint'lerle sonraki oturum, yeni Google durma zamanını kullanır;
 27–28 Şubat'ın günlük birleşimleri ve kalan eğitim ayları devam eder.
 İlk aşamalar eski ayları doğrularken liste yeniden kısa başlayabilir.
 
+## Sonraki V3 başlangıcının uzak bildirimi
+
+Sonraki devam başlangıcı ayrıca bildirildi: VM PID 1669, süreç 9:20;
+progress `running` ve aynı V3 SHA. Yeni deadline 10 Ekim
+19:28:19,420127 UTC (22:28:19 Türkiye). Yeni `december_safe_days` girişinden
+sonra Ağustos/Eylül/Ekim 2023 month-reuse satırları geldi. İlk kontrol
+Drive başlangıç aşamasında eski final/deadline'ı göstermiş, sonraki
+kontrolde yeni durum yazılmıştır. Bu ikinci oturum başlangıç kaydıdır;
+yeni bitiş veya bütün dönem kabulü değil. Bulut kodu değişmedi.
+
 ## Paylaşılan ilk V3 çalışma durumu
 
 Kullanıcının VM sorgusunda üst Python süreci PID 1677 ile canlı, çalışma

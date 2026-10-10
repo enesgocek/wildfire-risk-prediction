@@ -780,6 +780,17 @@ iş için bilgisayar açık ve uyanık kalmalıdır. Canlı üst rapor
 `outputs/reports/landscape/training_supervisor_v1/<job_id>/progress.json`
 içindedir. [Toplu çalışma ve izleme](../docs/VEGETATION_TRAINING_AUTORUN_2026-10-10.md).
 
+## Bitki örtüsü ISO düzeltmesiyle sınırlı devam
+
+İlk üst iş Mart 2019 parser hatasında durmuştur. Yeni çağrı,
+`run_vegetation_training_v2.py run --proof-sha <doğrulanmış-proof-SHA>`
+ile özgün kuyruklara scoped runtime parser bağlar. Başlangıç proof/kaynak
+hash'lerini doğrular; eski 14 ay ve hazırlanmış kesimler yeniden kullanılır.
+İki istek, dört saat alt çağrı, 24 saat toplam ve 10 GiB rezerv korunur.
+Eski kaynak/manifestler değiştirilmez; yeni ürün ve raporlarda adapter
+kimliği açık kaydedilir. Çalışan kuyruk varken tekrar başlatılmaz.
+[Gerçek proof ve aktif iş](../docs/VEGETATION_ISO_RESUME_2026-10-10.md).
+
 ## Çevrimdışı habitat kapsamı incelemesi
 
 ```powershell

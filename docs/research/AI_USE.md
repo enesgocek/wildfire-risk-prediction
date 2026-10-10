@@ -126,6 +126,15 @@ kullanıldı. [Oturum raporu](../GCP_SOURCE_AWARE_V3_2026-10-10.md) yeni yerel
 günlük kabulünü bilimsel ürün ve nihai veri seti kabulünden ayırır. Yerel
 bitki örtüsü duruşunun yalnız sınıf/durum kaydı alındı; hata nedeni uydurulmadı.
 
+## Bitki örtüsü ISO teşhisi ve V2 devamı
+
+10 Ekim'de yerel duruşun gerçek dosyalarda yeniden üretimi, scoped UTC
+parser'ı, proof-gated devam sürümü, davranış testleri ve başlangıç/koruma
+kayıtlarında araç desteği kullanıldı. [V2 raporu](../VEGETATION_ISO_RESUME_2026-10-10.md)
+gerçek parser hatasını, 5.798 satır kabulünü ve yeni yerel çalışmanın ilk
+gözlemini ayırır. VPN/kota nedeni, tam dönem bitişi veya model başarısı
+uydurulmadı. Özgün bilimsel kaynak hash'i ile runtime adapter kimliği ayrı tutuldu.
+
 ## Resmî kaynak
 
 

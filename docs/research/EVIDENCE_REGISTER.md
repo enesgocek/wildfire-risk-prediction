@@ -78,6 +78,16 @@ arşiv SHA-256 `19b177afebe1724770307f9e911e103b538ee7a347a283cd294f000cdb5482c7
 Sınır: günlük/katalog tutarlılığı; yeni ürün ZIP/Drive geri okuması veya
 tam dönem/model kabulü değil. Kaynak ölçümleri bütün anları kapsamaz.
 
+E24 — 10 Ekim: [Bitki örtüsü gerçek ISO kabulü ve V2 devam](../VEGETATION_ISO_RESUME_2026-10-10.md)
+92 ham grubun 868 zamanını scalar ile eşleştirdi; 20 varsayılan parser
+hatası ve adapter altında 5.798 satır özgün geri okuması kanıtlandı.
+Kanıt: `outputs/reports/landscape/iso_adapter_v1/proof_2019_03_22.json`;
+SHA-256 `0e62593189533ad6223035e1260cd40306c23d860d667fd228adc8e57970b397`.
+Eski Ağustos'un 179.738 satırı ağ kapalı yeni entrypoint'te geçti;
+136 dosya baseline'ı ve yeni işin canlı üst/çocuk süreçleri kontrol edildi.
+Sınır: matematiksel/zaman geri okuması ve başlangıç; 72 ay bitişi,
+bağımsız saha doğrulaması, operasyonel erişim veya model kabulü değildir.
+
 ## Yeni kanıt ekleme
 
 

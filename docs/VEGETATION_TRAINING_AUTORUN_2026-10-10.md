@@ -6,6 +6,13 @@ birimi korunur; yürütme ve süre sonunda devam otomatikleşir.
 
 ## Çalıştırma ve sınırlar
 
+İlk çağrı Mart 2019'da karışık ISO saniye hassasiyetinin çözümlemesi nedeniyle
+durdu. Dondurulmuş verileri/kaynakları değiştirmeden runtime parser
+kimliği ekleyen [V2 devam](VEGETATION_ISO_RESUME_2026-10-10.md) 10 Ekim
+14:45 Türkiye saati civarında başlatıldı. Aşağıdaki V1 komutu tarihsel
+ilk çağrıdır; yeni devam için V2/proof rehberi kullanılır. Çalışan işin
+yanına ikinci kuyruk başlatılmaz.
+
 ```powershell
 .\.venv\Scripts\python.exe scripts/landcover/run_vegetation_training.py --start 2018-01 --end 2023-12 --hours 24 --batch-minutes 240 --min-free-gib 10
 ```
