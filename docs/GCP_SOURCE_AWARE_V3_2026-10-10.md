@@ -1,5 +1,51 @@
 # Doğrulanmış zaman çözümlemesiyle V3 devam — 10 Ekim 2026
 
+## Paylaşılan oturum kapanışı
+
+Kullanıcının Cloud Shell çıktısında VM `TERMINATED`; başlangıç 10 Ekim
+01:58:42,563 UTC, duruş 09:36:35,528 UTC. Çalışma 7:37:52,965; Google'ın
+09:58:35,730711 UTC sınırından 22 dakika 0,203 saniye önce durmuş.
+Son V3 progress `paused_at_runtime_reserve`, launcher ise
+`Guest poweroff requested: True` bildiriyor. Bu, hata bildirimi yerine
+normal rezerv duruşu kaydıdır. Üst denetleyici gerçek deadline'dan beş dakika
+çıkarır; pipeline yeni işe girişte ayrıca 1.200 saniye rezerv bırakır.
+Kalan işler/kapanış süresi nedeniyle gerçek poweroff bu eşikle aynı anda
+olmak zorunda değildir. Yeni API isteği bu yerel incelemede yapılmadı.
+
+| Ölçü | Paylaşılan uzak kayıt |
+|---|---|
+| Tam ay listesi | 21: Mart 2022–Kasım 2023 |
+| Önceki 14 aya eklenen | 7: Mart–Eylül 2022 |
+| Kısmi aylar | Şubat 2022 1–26; Aralık 2023 1–30 |
+| Oturum gün listesi | 270; yeniden kullanılan günler dahil |
+| Oturum çift sayacı | 2.032 yeni, 9 yeniden kullanılan |
+| Politika | Gözlem unknown, negatif izin false |
+| Ertelenen | 31 Aralık 2023; iki eski SNPP kaynak bloğu |
+
+Wrapper/adapter/proof SHA'ları hazırlanmış V3 kimlikleriyle eşleşiyor.
+Şubat'ın son çiftleri kaydedilmiş olabilir; günlük commit olmadan kalan
+iki gün veya ay tamamlanmış ilan edilmez. 72 eğitim ayının 21'i uzak tam ay
+listesindedir; kalan 51 ay kısmi ayları da içerir. Bu sonuç, kaynak ürünlerin
+yerel bilimsel geri okuması veya tüm etiket veri setinin kabulü değildir.
+
+İlk arşiv yalnız durum, final özetleri, kaynak ölçümleri ve V3 launcher
+kaydını alır. Ham NASA girdisi veya özel bağlantı JSON'u dahil edilmez.
+VM'nin kısa kontrol açılışında SSH'de:
+
+```bash
+tar -czf ~/gcp_v3_session_2026-10-10_logs.tar.gz \
+  -C "$HOME/wildfire-gcp-production-v1" \
+  progress.json acceleration_run_summary.json continuation_summary.json \
+  resource_samples.csv \
+  -C "$HOME" gcp_source_aware_launcher_v3.log
+```
+
+Komut hatasız bittikten sonra Download File ile bu arşiv alınır ve
+`outputs/gcp_acceleration/source_aware_v3_2026-10-10/received/` dizinine
+yerleştirilir. VM tekrar Stop yapılır. Kuyruk bu kontrol açılışında
+başlatılmaz. Sonraki kabul, arşivin gerçek baytları ve katalog/log
+tutarlılığıyla yapılır; bilimsel ürün arşivlerinin kabulü ayrı kaydedilir.
+
 ## Paylaşılan ilk V3 çalışma durumu
 
 Kullanıcının VM sorgusunda üst Python süreci PID 1677 ile canlı, çalışma

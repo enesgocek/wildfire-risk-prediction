@@ -5,6 +5,25 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+Son paylaşılan V3 kapanış kaydı `paused_at_runtime_reserve` ve
+`Guest poweroff requested: True` bildiriyor. Kullanıcının Cloud Shell
+çıktısında VM `TERMINATED`; 10 Ekim 01:58:42,563–09:36:35,528 UTC arasında
+7 saat 37 dakika 52,965 saniye çalışmış. Google sınırından 22 dakika önceki
+duruş, süre rezervi ve kalan işlerin kapanmasıyla uyumlu. Bu oturum hata
+durumu bildirmiyor; bütün eğitim dönemi bitmiş değil.
+
+Uzak listede Mart 2022–Kasım 2023 arasında **21 tam ay** var; önceki 14 aya
+Mart–Eylül 2022 yedi ay eklenmiş. Şubat 2022'nin 1–26 günleri ve Aralık
+2023'ün 1–30 günleri doğrulanan gün listesinde. Oturum sayacı 2.032 yeni/9
+yeniden kullanılan çift; 270 doğrulanan gün yeniden kullanım da içerir.
+Şubat'ın kalan günlerindeki çift logları günlük/aylık tamamlanma sayılmaz.
+V3/adapter/proof kimlikleri beklenenlerle eşleşiyor. Gözlem unknown, negatif
+izin false ve 31 Aralık ertelemesi korunuyor. Bu kullanıcı tarafından
+paylaşılan uzak kayıttır; yeni sonuç arşivi henüz indirilip yerelde kabul
+edilmedi. [Kapanış kaydı ve günlük toplama](GCP_SOURCE_AWARE_V3_2026-10-10.md).
+
+Önceki başlangıç kaydı:
+
 Kullanıcının son VM ps/log/progress çıktısında V3 üst süreci canlı
 (PID 1677, çalışma 2 dakika 14 saniye), durum `running`. Wrapper
 `792d774f53c2a7249a10f4111f2f785e08d5bd2a8153e1151c73efe493b5942e`
