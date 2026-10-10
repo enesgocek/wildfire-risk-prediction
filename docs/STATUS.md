@@ -39,6 +39,14 @@ işareti görüldü. 28 ilgili test ve ayrı sınıf-formülü geri okuması ge�
 Habitat uygunluğu seçilmedi, etiket üretilmedi. 02:52 Türkiye saati sorgusunda
 arka plan üst süreci canlı, Mayıs hazırlanıyor; üretim kaynak hash'leri değişmedi.
 
+[Olay gruplaması geri okuması](EVENT_GROUPING_REVIEW_2026-10-10.md) eğitimdeki
+30.295 adayın dokuz eski gruplama senaryosunu ayrı kodla eşleştirdi. Uzun
+zincirler, ilk anda çok hücreli gruplar ve dönem kenarları inceleme işaretleriyle
+korundu; nihai olay veya etiket ilan edilmedi. 56 ilgili test geçti.
+03:14 Türkiye saati süreç sorgusunda bitki örtüsü işi canlı, Mayıs kabul edilmiş
+ve Haziran hazırlanıyor; önceki Ağustos dahil altı ay/1.055.236 aday satır kayıtlı.
+Kalan 66 eğitim ayı aktif Haziran'ı içerir; tüm dönem tamamlanmış değildir.
+
 ## Önceki oturumun kapanış incelemesi — 9 Ekim
 
 Kaynak uyuşmazlığına duyarlı devam oturumu kapandı. Paylaşılan Cloud Shell
@@ -79,8 +87,9 @@ yazışması ayrı bir konudur; inceleme bildirimi teknik teyit değildir.
 |---|---|---|
 | Coğrafi altyapı | Dört il ve 2.899 hücre hazır | Model için bitki örtüsü uygunluk seçimi açık |
 | Meteoroloji | 2018–2024; 2.557 gün, 7.412.743 hücre-gün denetlendi | Eğitim 6.351.709; doğrulama 1.061.034; gerçek zaman erişimi doğrulanmadı |
-| Örtü ve arazi | 2.899 statik hücre; mevsim/tam grid denemeleri ve beş eğitim ayının 875.498 günlük bitki örtüsü adayı denetlendi | Kalan 67 eğitim ayı ve habitat kararı tamamlanmadı; tarihsel erişim zamanı bilinmiyor |
+| Örtü ve arazi | 2.899 statik hücre; mevsim/tam grid denemeleri ve altı eğitim ayının 1.055.236 günlük bitki örtüsü adayı kabul kaydında | Kalan 66 eğitim ayı ve habitat kararı tamamlanmadı; tarihsel erişim zamanı bilinmiyor |
 | FIRMS | İki sensörden 33.255 aday tespit | Bağımsız yangın sayısı veya nihai etiket değil |
+| Olay ön incelemesi | 30.295 eğitim adayının dokuz gruplama grafiği geri okundu; ilk zaman/hücre/pencere ayrı denetlendi | Zincirleme ve kaynak belirsizlikleri açık; nihai olay kimliği ve etiket yok |
 | Gözlem alanı | Kaynak/alan/tarama tanıları ve bulut üretim hattı mevcut | Yaklaşık geometri; negatif etiket izni yok |
 | Hızlandırma | Aynı VM baz ortalamasına karşı 1,4655 kat throughput | Üç günlük deney; tüm dönem veya donanım etkisi garantisi değil |
 | Model | Henüz eğitilmedi | Başarı yüzdesi veya operasyonel kullanım iddiası yok |

@@ -11,9 +11,9 @@ operasyonel erişim onayı değildir.
 | Coğrafi anahtar | Dört il, 2.899 hücre, AOI kesişimleri | Küçük sınır hücrelerinin destek alanını izlemek; bütün hücreleri otomatik orman saymamak |
 | Meteoroloji | 2018–2024 için 7.412.743 hücre-gün yerel denetimden geçti | Mevcut 11 aday özellik ve uygunluk bayraklarını anahtar/zaman sözleşmesiyle birleştirmek |
 | Arazi ve örtü | 2.899 hücrenin statik tablosu hazır | Kıyı/sınır desteği, tarihsel harita erişimi ve habitat tanımını gerekçelendirmek |
-| Bitki örtüsü | Örnek/tam grid denemeleri ve Ocak–Nisan/Ağustos 2018'in 875.498 günlük adayı denetlendi | Otomatik kuyrukta kalan 67 eğitim ayına genişletme; kesim/saklama kararının model katkısını değerlendirmek |
+| Bitki örtüsü | Örnek/tam grid denemeleri ve Ocak–Mayıs/Ağustos 2018'in 1.055.236 günlük adayı kabul kaydında | Otomatik kuyrukta kalan 66 eğitim ayına genişletme; kesim/saklama kararının model katkısını değerlendirmek |
 | Uydu gözlem tanıları | VM üzerinde kalan eğitim ayları işleniyor | Oturum raporlarını ve sonuç arşivlerini yerelde geri okumak; eksik kaynakları ayrı tutmak |
-| Olay ve hedef | İlk aktif tespit için 24 saatlik hedef tanımı kayıtlı | Tekrarlayan tespitleri olaylara gruplayıp belirsizlik ve güvenilir negatif politikası oluşturmak |
+| Olay ve hedef | 24 saatlik hedef tanımı kayıtlı; 30.295 eğitim adayının dokuz gruplama grafiği ve ilk zaman/hücre/penceresi denetlendi | Zincirleme vaka incelemesi, nihai olay kimliği ve güvenilir negatif politikası oluşturmak |
 | Nihai tablo | Henüz oluşturulmadı | Kaynak manifestleri, anahtar/zaman kontrolleri ve bölünme denetimleriyle kabul etmek |
 
 ## Özelliklerin anlamı
@@ -61,6 +61,12 @@ tutulur. Üretimde tahmin anında gerçekten bulunabilen kaynakların sözleşme
 ayrıca kurulacaktır. 2025 kapalı final testine bu çalışmada erişilmez.
 
 ## Etiket ve son birleştirme
+
+[Olay gruplaması geri okuması](EVENT_GROUPING_REVIEW_2026-10-10.md), dokuz
+senaryonun matematiksel eşleşmesini ve inceleme kataloglarını tamamladı.
+Uzun süre/geniş alan zincirleri ve ilk anda çok hücreli gruplar otomatik
+olay veya pozitif etiket kabul edilmedi. Habitat ön incelemesi de bütün
+hücreleri koruyor; nihai kapsam seçimi açık.
 
 Uydu kuyruğu biterken olay gruplaması ve gözlem politikası tasarlanabilir;
 nihai hedeflerin kabulü ilgili gözlem kanıtını bekler. `negative_label_permitted=false`

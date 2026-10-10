@@ -792,6 +792,18 @@ keşif amaçlı örtü/eşik senaryolarını yeni bir
 habitat maskesi veya etiket seçmez. Canlı bitki örtüsü işinin girdilerini değiştirmez.
 [Yöntem ve gerçek sonuç](../docs/HABITAT_REVIEW_2026-10-10.md).
 
+## Olay gruplaması için çevrimdışı geri okuma
+
+```powershell
+.\.venv\Scripts\python.exe scripts/firms/review_event_grouping.py
+```
+
+Özgün eğitim adayları ve dokuz kayıtlı gruplama senaryosu denetlenir; yeni
+inceleme katalogları `outputs/reports/events/review_v1/<run_id>/` içine yazılır.
+Eski atamalar korunur. İlk zaman/hücre, zincirleme ve dönem sınırı işaretleri
+nihai olay veya etiket değildir. 2024 grafikten çıkarılır; 2025 açılmaz.
+[Yöntem, hedef penceresi ve gerçek sonuç](../docs/EVENT_GROUPING_REVIEW_2026-10-10.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten

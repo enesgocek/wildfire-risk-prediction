@@ -38,6 +38,13 @@ Kanıt: `outputs/reports/habitat/review_v1/20261009T235212Z_3c2c021b/`.
 Sınır: matematiksel sınıf/alan çapraz kontrolü; uygunluk, yangın etiketi,
 güncel habitat doğruluğu veya uzman onayı değildir.
 
+E19 — 10 Ekim: [Olay gruplaması geri okuması](../EVENT_GROUPING_REVIEW_2026-10-10.md)
+30.295 eğitim adayının dokuz bağlantı grafiğini eski atamalarla iki yönlü
+eşleştirdi; ilk zaman/hücre/hedef penceresi ayrı geri okundu.
+Kanıt: `outputs/reports/events/review_v1/20261010T001137Z_320433ed/`.
+Sınır: matematiksel küme tutarlılığı; gerçek yangın kimliği, nihai etiket,
+çevrimiçi olay kimliği veya 2023–2024 olay sınırı doğrulaması değil.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

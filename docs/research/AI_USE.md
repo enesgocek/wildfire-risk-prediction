@@ -78,6 +78,13 @@ testleri ve rapor yazımında araç desteği kullanıldı. Gerçek 2.899 hücre 
 [habitat raporunda](../HABITAT_REVIEW_2026-10-10.md) kayıtlıdır. Eşikler nihai
 habitat kararı veya uzman onayı olarak sunulmadı; canlı üretim kodu değiştirilmedi.
 
+## Olay gruplamasının geri okuması
+
+10 Ekim'de gruplama grafiğini bağımsız kodla yeniden kurma, davranış testleri,
+ilk hücre/zaman/pencere denetimi ve raporlamada araç desteği kullanıldı.
+Gerçek dokuz senaryonun sonuçları [olay incelemesinde](../EVENT_GROUPING_REVIEW_2026-10-10.md)
+kayıtlıdır. Matematiksel eşleşme, doğrulanmış yangın olayı veya etiket olarak sunulmadı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
