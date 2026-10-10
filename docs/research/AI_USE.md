@@ -192,6 +192,14 @@ normal rezerv duruşunu ve yeni ay sayımını bilimsel ürün/etiket kabulünde
 ayırır. VM Stop kullanıcı tarafından teyit edildi; araç yeni VM işi veya
 billing değişikliği yapmadı, gizli bağlantı dosyalarına erişmedi.
 
+## 13 saatlik VM devam hazırlığı
+
+Araç desteği V3/controller süre sınırının incelenmesinde, ayrı V4 girişinin
+hazırlanmasında, son kabul edilen V3 checkpoint'ine bağlı geçiş testlerinde
+ve kullanıcı işlem rehberinde kullanıldı. [Hazırlık raporu](../GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md)
+yerel test sonucunu uzak 13 saatlik çalışma sonucundan ayırır. Cloud ayarı,
+VM başlangıcı veya bitki örtüsü çalışma süresi bu hazırlıkta değiştirilmedi.
+
 ## Resmî kaynak
 
 

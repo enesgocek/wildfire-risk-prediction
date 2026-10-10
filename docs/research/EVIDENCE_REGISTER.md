@@ -155,6 +155,16 @@ gün katalogla tutarlı; normal rezerv/poweroff kaydı geçti. Sınır:
 günlük/katalog kabulü; yeni bilimsel ürün/Drive baytları, gözlem/etiket
 ve bütün 72 ayın kabulü değil. Temmuz'un commit olmayan beş günü korunur.
 
+E32 — 10 Ekim: [13 saatlik V4 hazırlığı](../GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md)
+yerelde 20 V4 ve 46 eski regresyon kontrolü, lint/format ile geçti. İlk V3 geçişi
+üç kabul edilmiş finalin tam bayt hash'ine bağlı; bilimsel/rezerv/worker
+kuralları korunur. V3, 19 donmuş paket üyesi ve iki canlı bitki örtüsü kodu
+aynı hash'lerle okundu. Kanıt:
+`outputs/gcp_acceleration/source_aware_v4_13h_2026-10-10/prepared_readback.json`;
+SHA-256 `16a91a44b7bb027de62498945fcb68c9c5303b2c25bb14d9cd99f3cb07fa8e19`.
+Sınır: yerel hazırlık ve geçiş kabulü; canlı VM ayarı/başlangıcı, 13 saatlik
+performans veya yeni ay/ürün/etiket kabulü değildir.
+
 ## Yeni kanıt ekleme
 
 

@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[13 saatlik V4 devam hazırlığı](GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md)
+kullanıcı isteğiyle tamamlandı. V3/controller'ın sekiz saatlik deadline kapısı
+ayrı V4 girişinde 13 saatle sınırlandı; 5 dakika supervisor/20 dakika pipeline
+rezervi korunur. İlk geçiş yalnız kabul edilmiş üç V3 finalinin tam hash'ine
+izin verir. 20 V4 ve 46 eski regresyon testi, lint/format geçti; V3, 19 donmuş
+paket üyesi ve canlı bitki örtüsü kod kimlikleri aynı. VM ayarı değiştirilmedi
+ve VM başlatılmadı. Sonuç sayımı hâlâ 28 tam ay; 13 saatlik uzak sonuç yok.
+
 [İkinci V3 oturum arşivi](GCP_SOURCE_AWARE_V3_2026-10-10.md#ikinci-oturumun-kapanışı-ve-gerçek-arşiv-kontrolü)
 gerçek baytlarla ağ kapalı kabul edildi: normal süre rezervi duruşu,
 başarılı poweroff kaydı; hata alanı yok. Tam ay listesi 21'den 28'e

@@ -854,6 +854,15 @@ Yeni rapor üzerine yazılmaz; tekrar kontrol için `--out` ile ayrı yol
 seçilir. Ürün ZIP'i, canlı Drive, ham işleme veya VM kontrolü yapmaz.
 [Kabul sınırı ve oturum sonucu](../docs/GCP_SOURCE_AWARE_V3_2026-10-10.md).
 
+## 13 saatlik V4 VM devamı
+
+Dondurulmuş V3/controller sekiz saat sınırı nedeniyle daha uzun Google
+son zamanı reddeder. Ayrı `scripts/cloud/run_gcp_source_aware_continuation_v4.py`
+girişi, kabul edilmiş V3 finalinden 13 saatlik devamı mümkün kılar; aynı
+bilimsel guards, checkpoint anahtarları, worker sayısı ve rezervlerle çalışır.
+[Yükleme, kapalı VM süre ayarı ve yeni deadline adımları](../docs/GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md).
+V3 günlük doğrulayıcısı V4 kimliğine uygulanmaz; yeni sonuç ayrıca kabul edilir.
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten
