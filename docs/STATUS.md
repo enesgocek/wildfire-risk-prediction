@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Bilgisayar bakımı için bitki örtüsü duruşu](VEGETATION_MAINTENANCE_PAUSE_2026-10-11.md):
+kullanıcı isteğiyle 21:26:43 Türkiye'de kontrollü durdu; üst/çocuk süreçler ve
+iki yazıcı kilidi yok. Final `interrupted_checkpoints_retained`, hata yok;
+45 ay (Ocak 2018–Eylül 2021) ve 13 runtime pin'i, toplam 148 dosya aynı.
+Ekim 2021 kısmi kayıtları korundu. Otomatik devam yok; kullanıcının açık
+"başlat" isteği beklenir. Aşağıdaki yerel running kayıtları bu duruştan öncedir.
+
 [V4 hata denetimi ve 18 saatlik V5 hazırlığı](GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md)
 tamamlandı. Gerçek tanı arşivi/katalog geri okumasında 40 tam ay
 (Ağustos 2020–Kasım 2023), 3.020 yeni/45 yeniden kullanılan çift tutarlı.

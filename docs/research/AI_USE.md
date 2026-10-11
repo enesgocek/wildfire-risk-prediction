@@ -237,6 +237,15 @@ uydurulmaz. En fazla iki ek deneme sadece kapalı çift ReadTimeout şemasına
 uygulanır; bilimsel kodlar, etiket politikası ve billing değişmez. Kullanıcı
 18 saat istedi ve VM Stop teyidi verdi; araç bu hazırlıkta VM başlatmadı.
 
+## Bilgisayar bakımı için bitki örtüsü duruşu
+
+Kullanıcının açık isteğiyle araç desteği izole süreç/konsol kontrolü,
+kontrollü Ctrl+C, final durum/kilit/süreç ve 148 dosyanın hash geri okumasında
+kullanıldı. [Bakım duruş kaydı](../VEGETATION_MAINTENANCE_PAUSE_2026-10-11.md)
+otomatik devam olmadığını ve yeni başlatmanın kullanıcı isteğini beklediğini
+açık tutar. VM/billing/donmuş bilimsel kod değiştirilmedi; bakım işlemleri
+araç tarafından başlatılmadı. Kimlik bilgileri raporlanmadı.
+
 ## Resmî kaynak
 
 

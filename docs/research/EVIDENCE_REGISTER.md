@@ -203,6 +203,14 @@ SHA-256 `ec5ef9bdd2c946eb10b7dd0469354305ce0f9a247f9a19f65d39c4546b450c49`.
 32 V5/20 V4 ve 73 eski test geçti. Sınır: yerel günlük/katalog ve yazılım
 denetimi; ürün ZIP/Drive veya uzak 18 saatlik çalışma kabulü değildir.
 
+E37 — 11 Ekim: [Bakım için bitki örtüsü duruşu](../VEGETATION_MAINTENANCE_PAUSE_2026-10-11.md).
+İzole konsola Ctrl+C, final interrupted kayıt, gerçek süreç/kilit yokluğu;
+45 ay ve 13 runtime pin'i toplam 148 dosyada aynı hash. Kanıt:
+`outputs/reports/landscape/maintenance_pause_v1/20261011T182521Z/pause_readback.json`;
+SHA-256 `2c216e13e8c80d717a3c8cb63921803cb7325160c1e1c5a7f7e9a9b4db4e9623`.
+Sınır: duruş ve koruma kabulü; Ekim 2021 tam ay kabulü veya yeniden
+başlatma değildir. Devam için açık kullanıcı isteği gerekir.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
