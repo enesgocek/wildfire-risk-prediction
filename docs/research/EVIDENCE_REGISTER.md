@@ -174,6 +174,15 @@ SHA-256 `6dbf75a2d52c2c8f7f3cc50019c4712747adb2935e6b4ddc75f10b9376f7960d`.
 Sınır: kullanıcı çıktısının kimlik/durum/timezone kontrolü; canlı bağımsız
 VM/API sorgusu, yeni ay/ürün/etiket kabulü veya gerçek kapanış değildir.
 
+E34 — 11 Ekim: [VPN molası duruşu](../VEGETATION_VPN_PAUSE_2026-10-11.md)
+gerçek Windows süreç/konsol sınırı, kontrollü Ctrl+C, final interrupted durumu
+ve süreç/kilit yokluğu ile doğrulandı. 36 doğrulanmış ayın 108 dosyası ve
+13 runtime pin'i aynı; Ocak 2021 ham grup sayımı kısmi kapsamdır. Kanıt:
+`outputs/reports/landscape/vpn_pause_v1/20261011_ac047933/pause_readback.json`;
+SHA-256 `0f8e8826af580687cdd940d9053d164d3dede853684e3eff0a832291593ea864`.
+Sınır: kontrollü yerel duruş/hash koruma; kalan bütün ayların kabulü veya
+VPN sonrası yeniden başlatma değildir. Otomatik yeniden başlatma yok.
+
 ## Yeni kanıt ekleme
 
 

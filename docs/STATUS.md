@@ -1,9 +1,18 @@
-# Proje durum raporu — 10 Ekim 2026
+# Proje durum raporu — 11 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+[VPN molası için yerel kuyruk duruşu](VEGETATION_VPN_PAUSE_2026-10-11.md):
+kullanıcı isteğiyle 03:22 Türkiye'de kontrollü Ctrl+C;
+`interrupted_checkpoints_retained`, eski süreçler ve iki yazıcı kilidi yok.
+36 ay (2018–2020) ve runtime pinleri toplam 121 dosya hash'iyle aynı bulundu.
+Ocak 2021 kısmi; kullanıcı VPN kapalı bildirimi sonrası kontrollü devam
+bekleniyor. Otomatik yeniden başlatma yok; eski 11 Ekim 14:45 Türkiye
+süre sınırı korunur. Uydu VM işi bu yerel duruştan etkilenmedi.
+Aşağıdaki yerel `running` kayıtları bu kontrollü duruştan önceki durumlardır.
 
 [V4 uzak başlangıç geri bildirimi](GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md#ilk-uzak-çalışma-geri-bildirimi):
 kullanıcının 20:39:26 UTC SSH çıktısında doğru V4 hash'iyle `running`,

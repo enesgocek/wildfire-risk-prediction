@@ -209,6 +209,15 @@ kullanıldı. İlk eski V3 progress'i yeni çalışma başarısı sayılmadı; s
 V4 `running` kaydı başlangıç kanıtı olarak ayrıldı. Araç bu kontrolde canlı
 VM/API/Drive erişimi yapmadı ve yerel bitki örtüsü işini değiştirmedi.
 
+## VPN molası için yerel kuyruğun durdurulması
+
+Kullanıcının açık isteğiyle araç desteği, yalnız bilinen bitki örtüsü süreç
+ağacını/konsolunu doğrulama, kontrollü Ctrl+C, final süreç/kilit denetimi ve
+121 dosyanın hash geri okumasında kullanıldı. [Duruş raporu](../VEGETATION_VPN_PAUSE_2026-10-11.md)
+kayıt korumasını yeni bilimsel üretimden ayırır. Kullanıcı VPN kapalı bildirimi
+ile yeniden başlatmayı seçti; otomasyon kurulmadı. VM işi, üretim kodları ve
+billing değiştirilmedi; kimlik bilgileri okunmadı veya raporlanmadı.
+
 ## Resmî kaynak
 
 
