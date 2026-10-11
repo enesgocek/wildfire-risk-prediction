@@ -264,6 +264,14 @@ kurma davranışının kontrolünde kullanıldı. Beşlik başlangıç sayısı 
 kaybı veya beş yeni ay olarak yazılmadı; eski 40 aylık günlük/katalog kabulü
 korundu. Canlı VM/API/Drive erişimi ve yeni bilimsel ürün kabulü yapılmadı.
 
+## V5 erken kapanışının ön incelemesi — 12 Ekim
+
+Araç desteği kullanıcı Cloud Shell çıktısının birim/timezone dönüşümü ve
+[erken kapanış kaydı](../GCP_V5_EARLY_STOP_2026-10-12.md) için kullanıldı.
+64800 saniye 18 saat; nedeni kesinleşmeden sekiz saatlik ayar, OOM veya
+sunucu kesintisi sonucu yazılmadı. Canlı bulut erişimi/yeni iş/ürün kabulü
+yapılmadı; günlüklerin alınması sonraki adımdır.
+
 ## Resmî kaynak
 
 

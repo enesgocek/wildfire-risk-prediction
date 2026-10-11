@@ -1,9 +1,18 @@
-# Proje durum raporu — 11 Ekim 2026
+# Proje durum raporu — 12 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+[V5 erken kapanış ön incelemesi](GCP_V5_EARLY_STOP_2026-10-12.md):
+kullanıcı Cloud Shell çıktısında TERMINATED ve 64800 saniye/18 saat doğru.
+Gerçekleşen çalışma 1:56:55,696; duruş 12 Ekim 00:52:49 Türkiye, kayıtlı
+16:55:48 sınırından yaklaşık 16 saat önce. Normal süre rezervi değil;
+kapanış nedeni günlük alınmadan bilinmiyor. Önceki 40 aylık günlük/katalog
+kabulü korunur; yeni üretim/ürün kabulü yok. Sıradaki adım kısa günlük
+toplama, ardından VM Stop; üretim yeniden başlatılmadı. Aşağıdaki V5
+running bildirimleri bu duruştan önceki tarihsel durumlardır.
 
 [V5 uzak başlangıç bildirimi](GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md#ilk-v5-uzak-başlangıç-geri-bildirimi):
 kullanıcı SSH çıktısında doğru V5 hash'i, running/remaining_months, PID 1681

@@ -229,6 +229,14 @@ SHA-256 `295596772dfcead6b0d71999d71bfc0914c933cdacead345c437934af1a35761`.
 Sınır: kullanıcı bildirimi/kod kimliği/zaman dönüşümü; bağımsız canlı API,
 Drive veya yeni ürün/ay kabulü değil. Yeni çift sıfırdır.
 
+E40 — 12 Ekim: [V5 erken kapanış ön incelemesi](../GCP_V5_EARLY_STOP_2026-10-12.md).
+Kullanıcı Cloud Shell çıktısında TERMINATED, 64800 saniye/18 saat doğru;
+1:56:55,696 çalışma, cap'ten 16:02:59,121457 önce kapanış. Kanıt:
+`outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/early_stop_user_readback_20261012.json`;
+SHA-256 `3c99fc34c964027d4223fc780483f0f5523d77296636b8fbe8d39c17a80616da`.
+Sınır: kullanıcı API çıktısı/zaman dönüşümü; kapanış nedeni veya yeni
+ürün kabulü değildir. Günlük alınmadan hata/erken tamamlanma ayrıştırılamaz.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
