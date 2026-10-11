@@ -5,6 +5,33 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V4 hata denetimi ve 18 saatlik V5 hazırlığı](GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md)
+tamamlandı. Gerçek tanı arşivi/katalog geri okumasında 40 tam ay
+(Ağustos 2020–Kasım 2023), 3.020 yeni/45 yeniden kullanılan çift tutarlı.
+Temmuz 2020 başlangıcında 5 ReadTimeout ve ardından 19 iptal çıkışı var;
+örneklenmiş RAM/disk rezerv ihlali yok. V5 yalnız bu zaman aşımını en fazla
+iki ek denemeyle karşılar ve 18 saat/STOP için hazırdır. 32 V5/20 V4 + 73
+eski regresyon testi, lint/format geçti. Yeni uzak oturum başlatılmadı;
+kullanıcı VM Stop teyidi verdi. Ürün ZIP/Drive baytları bu arşivde yeniden
+kabul edilmedi. 31 Aralık ertelemesi/unknown/negatif false korunur.
+Aşağıdaki V4 başlangıç kayıtları tarihsel durumu anlatır.
+
+[Kesinti sonrası bitki örtüsü devamı](VEGETATION_POWER_RESUME_2026-10-11.md)
+yeni kullanıcı isteğiyle 17:53 Türkiye'de başladı. Eski süreç/kilit yok;
+121 korunan dosya, ISO proof ve Ocak 2021'in 368 ham grubu kontrol edildi.
+116 GiB civarı boş disk; küçük EE isteği geçti, kısıtlı kota uyarısı yok.
+Yeni job `training_iso_v2_power_resume_20261011_bb85a275`, PID 33832;
+başlangıçta üst/çocuklar canlı, `running`, hata dosyası boş. Son snapshot
+16 eski ayı yeniden doğruluyor; kabul edilmiş 36 ay korunur. Aynı V2/iki
+istek/10 GiB rezerv, 48 saatlik güvenlik sınırı ve seçilmiş aylar tamamlanınca
+duruş kullanılır. Önceki 14:45 sınırı doldu; kullanıcı yeni devamı yetkilendirdi.
+Aşağıdaki VPN molası kaydı bu yeni çağrıdan önceki durumu anlatır.
+15:09:55 UTC sonraki progress geri okumasında 37 ay doğrulanmış ve
+Şubat 2021'de running/hata yok; Ocak 2021 bu yeni devamda kapanmıştır.
+15:23:41 UTC kaynak zamanlı sonraki snapshot 38 ay/Mart 2021; 18:26 Türkiye
+gerçek Windows sorgusunda üst/çocuklar canlı, stderr boş. Ocak/Şubat
+manifest, tablo ve aylık readback hash'leri aynı bulundu.
+
 [VPN molası için yerel kuyruk duruşu](VEGETATION_VPN_PAUSE_2026-10-11.md):
 kullanıcı isteğiyle 03:22 Türkiye'de kontrollü Ctrl+C;
 `interrupted_checkpoints_retained`, eski süreçler ve iki yazıcı kilidi yok.

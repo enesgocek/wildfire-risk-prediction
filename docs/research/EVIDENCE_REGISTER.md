@@ -183,8 +183,27 @@ SHA-256 `0f8e8826af580687cdd940d9053d164d3dede853684e3eff0a832291593ea864`.
 Sınır: kontrollü yerel duruş/hash koruma; kalan bütün ayların kabulü veya
 VPN sonrası yeniden başlatma değildir. Otomatik yeniden başlatma yok.
 
-## Yeni kanıt ekleme
+E35 — 11 Ekim: [Kesinti sonrası yerel devam](../VEGETATION_POWER_RESUME_2026-10-11.md)
+eski süreç/kilit yokluğu, 121 dosya kimliği, ISO proof, 368 geçerli Ocak ham
+grubu, disk rezervi ve küçük EE hizmet isteğiyle başlatıldı. Yeni V2 üst/çocuk
+süreçleri gerçek Windows sorgusunda canlı; başlangıç `running`, hata dosyası boş.
+Kanıt:
+`outputs/reports/landscape/training_supervisor_v1/training_iso_v2_power_resume_20261011_bb85a275/startup_check.json`;
+SHA-256 `add9376a683e6cb4d08b56f326bc6fea25252902615bdf3e8a8fb83d92272ebc`.
+Sınır: yeniden başlatma/koruma/ham sözleşme kabulü; kalan kota, bütün aylar,
+bilimsel etiket veya 48 saatte kesin bitiş kanıtı değildir.
 
+E36 — 11 Ekim: [V4 tanı arşivi ve 18 saatlik V5](../GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md).
+30 üye/üç eşit final, 40 tam ay, 3.020 yeni/45 yeniden kullanılan çift
+katalogla tutarlı; 5 ReadTimeout/19 sonraki iptal, örneklenmiş rezerv ihlali yok.
+Geri okuma `outputs/gcp_acceleration/source_aware_v4_13h_2026-10-10/failure_readback.json`;
+SHA-256 `9d477cd9c388ed2b004ee76b33292ce1de310c9b87e9a37a1bc4d6269f971594`.
+V5 hazırlığı `outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/prepared_readback.json`;
+SHA-256 `ec5ef9bdd2c946eb10b7dd0469354305ce0f9a247f9a19f65d39c4546b450c49`.
+32 V5/20 V4 ve 73 eski test geçti. Sınır: yerel günlük/katalog ve yazılım
+denetimi; ürün ZIP/Drive veya uzak 18 saatlik çalışma kabulü değildir.
+
+## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
 yazılır. Büyük dosyanın kendisi Git'e eklenmez. Yerel makine çıktısı için SHA-256

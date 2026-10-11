@@ -218,6 +218,25 @@ kayıt korumasını yeni bilimsel üretimden ayırır. Kullanıcı VPN kapalı b
 ile yeniden başlatmayı seçti; otomasyon kurulmadı. VM işi, üretim kodları ve
 billing değiştirilmedi; kimlik bilgileri okunmadı veya raporlanmadı.
 
+## Kesinti sonrası yerel kuyruğun yeniden başlatılması
+
+Araç desteği kullanıcı isteğiyle süreç/kilit yokluğu, korunan hash'ler, ISO proof,
+ham grup sözleşmeleri, küçük EE hizmet isteği ve gerçek başlangıç kontrolünde
+kullanıldı. [Yeni devam kaydı](../VEGETATION_POWER_RESUME_2026-10-11.md),
+kullanıcının VPN kapalı/yeni devam bildirimini ve önceki süre dolduğundan açılan
+48 saatle sınırlı çağrıyı açık tutar. Bilimsel kaynaklar/billing değiştirilmedi;
+eski ay yeniden doğrulamaları yeni ay gibi sayılmadı. Kimlik bilgileri raporlanmadı.
+
+## V4 hata denetimi ve 18 saatlik yürütme hazırlığı
+
+Araç desteği, alınan arşivin sınırlı okunması, donmuş katalog/pin karşılaştırması,
+kaynak örneklerinin yorumlanması ve ayrı V5 yürütme sarmalayıcısı/testlerinde
+kullanıldı. [Denetim kaydı](../GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md)
+ReadTimeout ile sonraki iptalleri ayırır; sunucu kesintisi veya OOM sonucu
+uydurulmaz. En fazla iki ek deneme sadece kapalı çift ReadTimeout şemasına
+uygulanır; bilimsel kodlar, etiket politikası ve billing değişmez. Kullanıcı
+18 saat istedi ve VM Stop teyidi verdi; araç bu hazırlıkta VM başlatmadı.
+
 ## Resmî kaynak
 
 

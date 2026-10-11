@@ -863,6 +863,14 @@ bilimsel guards, checkpoint anahtarları, worker sayısı ve rezervlerle çalı�
 [Yükleme, kapalı VM süre ayarı ve yeni deadline adımları](../docs/GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md).
 V3 günlük doğrulayıcısı V4 kimliğine uygulanmaz; yeni sonuç ayrıca kabul edilir.
 
+## 18 saatlik V5 devam ve V4 hata denetimi
+
+`scripts/cloud/verify_gcp_v4_failure.py` alınan sınırlı tanı arşivini ağ kapalı
+denetler; çıktı yolu yeni olmalıdır. Ürün ZIP'i veya Drive kabulü yapmaz.
+Ayrı `run_gcp_source_aware_continuation_v5.py`, yalnız incelenmiş V4 finalinden
+geçiş ve sınırlı çift ReadTimeout denemesi ekler. Donmuş bilimsel/publish kodu
+değişmez. [18 saat/STOP, yükleme ve yeni deadline rehberi](../docs/GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten
