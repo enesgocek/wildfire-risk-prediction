@@ -220,6 +220,15 @@ SHA-256 `5ad90201c16a8cdb45b4410e319488f5db5870cad894eada445f376197374594`.
 Sınır: koruma ve başlangıç kabulü; ilk geri okunan iki ay yeni ay değildir,
 45 eski ay korunur. Kalan kota, tüm dönem veya kesin bitiş kanıtı yok.
 
+E39 — 11 Ekim: [V5 uzak başlangıç bildirimi](../GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md#ilk-v5-uzak-başlangıç-geri-bildirimi).
+Kullanıcı SSH çıktısında doğru V5/running/remaining_months, canlı supervisor,
+hata None ve 24 korunmuş tanı. Ay listesi bu çağrıda yeniden kuruluyor;
+başlangıç beşi eski 40 ayın kaybı değildir. Kanıt:
+`outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/startup_user_readback_20261011.json`;
+SHA-256 `295596772dfcead6b0d71999d71bfc0914c933cdacead345c437934af1a35761`.
+Sınır: kullanıcı bildirimi/kod kimliği/zaman dönüşümü; bağımsız canlı API,
+Drive veya yeni ürün/ay kabulü değil. Yeni çift sıfırdır.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

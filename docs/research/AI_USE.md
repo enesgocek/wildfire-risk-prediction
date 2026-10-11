@@ -256,6 +256,14 @@ sayılmadığını belirtir. İlk PowerShell tarih dönüşümü kapısı süre�
 durdu; düzeltme sonrası tek çağrı açıldı. VM/billing/donmuş bilimsel kod
 değiştirilmedi; kimlik bilgileri raporlanmadı.
 
+## V5 uzak başlangıcının değerlendirilmesi
+
+Araç desteği kullanıcı SSH çıktısındaki V5 kimliğinin hazırlanmış dosyayla
+eşleşmesi, UTC/Türkiye dönüşümü ve donmuş controller'ın ay listesi geri
+kurma davranışının kontrolünde kullanıldı. Beşlik başlangıç sayısı veri
+kaybı veya beş yeni ay olarak yazılmadı; eski 40 aylık günlük/katalog kabulü
+korundu. Canlı VM/API/Drive erişimi ve yeni bilimsel ürün kabulü yapılmadı.
+
 ## Resmî kaynak
 
 

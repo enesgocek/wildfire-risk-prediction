@@ -156,3 +156,27 @@ kapansa sürer; yerel bitki örtüsü için bilgisayar açık/uyku dışında ka
 Normal rezerv duruşu cap'ten yaklaşık 20–25 dakika önce beklenir; kalıcı hata
 veya erken bitiş daha erken durdurabilir. Google STOP ikinci üst sınırdır;
 Stop kaynak silme değildir. Hata tanıları incelenmeden tekrar başlatılmaz.
+
+## İlk V5 uzak başlangıç geri bildirimi
+
+Kullanıcı SSH çıktısında tam hazırlanmış V5 hash'ini, running ve
+remaining_months fazını paylaştı. İncelenen 24 V4 tanısı korunmuş;
+Ağustos–Kasım 2023 geri kullanımı günlükte var. PID 1681, PPID 1,
+elapsed 15:02, CPU %63,9 ve RSS 290.536 KiB; hata alanı None.
+Yeni çift sıfır ve bildirilen ay sayısı beştir.
+
+Bu beş ay önceki 40 ayın kaybolduğunu göstermez. Donmuş controller her
+çağrıda Temmuz 2023 seed'iyle başlar; yeniden geri okunmuş ayları ekler.
+İlk dört yeniden kullanım + seed beşi açıklar. Güncel oturumun geri okuması
+henüz tamamlanmamış; daha önceki yerel günlük/katalog kabulü 40 ay olarak
+korunur. Çift çocukları başlamadan yalnız supervisor'ın CPU kullanması bu
+geri okuma aşamasıyla uyumludur; tek snapshot gelecekteki hata yokluğunu
+garantilemez.
+
+Kaydedilmiş son zaman **12 Ekim 13:55:48 UTC / 16:55:48 Türkiye**.
+Normal rezerv duruşu yaklaşık 16:30–16:35 Türkiye çevresinde beklenir;
+hata veya erken bitiş daha erken kapatabilir. Yeni Cloud Shell scheduling
+geri okuması bu çıktıda yok; son zaman p alanından alınmıştır. Canlı VM/API,
+Drive veya yeni ürün baytları araç tarafından bağımsız okunmadı.
+Kanıt `outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/startup_user_readback_20261011.json`.
+SHA-256 `295596772dfcead6b0d71999d71bfc0914c933cdacead345c437934af1a35761`.

@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V5 uzak başlangıç bildirimi](GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md#ilk-v5-uzak-başlangıç-geri-bildirimi):
+kullanıcı SSH çıktısında doğru V5 hash'i, running/remaining_months, PID 1681
+ve hata None. 24 eski tanı korunmuş; ilk dört ay yeniden kullanılmış.
+Ay sayısı beş, bu çağrının geri okunan listesi; önceki 40 ayın kaybı değildir.
+Yeni çift sıfır; önceki yerel günlük/katalog kabulü 40 ay olarak korunur.
+Kaydedilmiş son sınır 12 Ekim 16:55:48 Türkiye; bağımsız canlı API/Drive
+veya yeni bilimsel ürün kabulü yapılmadı. Aşağıdaki V5 hazırlığı bu uzak
+başlangıçtan önceki durumu anlatır.
+
 [Bakım sonrası bitki örtüsü devamı](VEGETATION_MAINTENANCE_RESUME_2026-10-11.md)
 kullanıcının açık başlat isteğiyle 22:56:57 Türkiye'de başladı. Eski süreç/
 kilit yok; 148 kabul edilmiş dosya, 276 Ekim ham kaydı ve ISO proof aynı.
