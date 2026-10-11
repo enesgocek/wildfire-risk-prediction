@@ -237,6 +237,14 @@ SHA-256 `3c99fc34c964027d4223fc780483f0f5523d77296636b8fbe8d39c17a80616da`.
 Sınır: kullanıcı API çıktısı/zaman dönüşümü; kapanış nedeni veya yeni
 ürün kabulü değildir. Günlük alınmadan hata/erken tamamlanma ayrıştırılamaz.
 
+E41 — 12 Ekim: [V5 Drive metadata hatası bildirimi](../GCP_V5_EARLY_STOP_2026-10-12.md#sonraki-ssh-bildirimi--drive-metadata-hatası).
+Kullanıcı SSH çıktısında Temmuz 2020/pair_publication, 156 yeni çift,
+40 tam ay, FILE_METADATA 404/notFound ve parent hata/poweroff kaydı.
+Kanıt `outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/failure_user_readback_20261012.json`;
+SHA-256 `e8985c002ca25abc6bed2df27e97f91534479fed2adbcefccc5f65c153deac19`.
+Sınır: uzak kullanıcı bildirimi ve kod/HTTP sınıf yorumu; dosya kimliği,
+silinme/erişim/geçici görünürlük nedeni ve yeni ürün baytları doğrulanmadı.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

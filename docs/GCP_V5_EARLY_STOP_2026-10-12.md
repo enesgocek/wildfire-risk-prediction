@@ -29,3 +29,33 @@ VM yalnız günlük almak için Start yapılır; mevcut V5 üretim komutu tekrar
 okunur. Çıktı alınınca VM tekrar Stop yapılır. Nedene uygun devam ancak
 tanılar incelendikten sonra hazırlanır. Runtime/STOP/billing ayarı bu yerel
 incelemede değiştirilmedi; yeni bulut işi başlatılmadı.
+
+## Sonraki SSH bildirimi — Drive metadata hatası
+
+Kullanıcının yeni SSH çıktısında `failed_checkpoints_retained`, Temmuz 2020,
+`pair_publication`, RuntimeError ve `full_training_complete=False` var.
+156 yeni kaydedilmiş çift raporlanıyor; görünen son gün commit'i 17 Temmuz.
+Tam ay sayısı 40. Bu uzak bildirim yerel ürün kabulü veya Temmuz ayının tam
+kapanışı sayılmaz.
+
+Son satırlar `HTTP_DIAGNOSTIC FILE_METADATA 404 notFound`,
+`PARENT_FAILURE GOOGLE_HTTP_404 CLASS_ONLY`, `Guest poweroff requested: True`.
+Kod incelemesinde HTTP rolü Google Drive dosya metadata isteğine karşılık
+gelir; pipeline hata halinde çocukları durdurur, supervisor poweroff ister.
+Bu nedenle erken kapanışın iş hatasını izlediği destekleniyor; 18 saat
+ayarının yanlışlığı veya başarılı kuyruk tamamlanması desteklenmiyor.
+
+[Google Drive hata rehberinde](https://developers.google.com/workspace/drive/api/guides/handle-errors#404_errors)
+404, var olmayan veya bağlantının okuma erişimi bulunmayan kaynağı belirtir.
+Bu kayıt tek başına silinme, kota dolması veya geçici görünürlük gecikmesini
+ayırt etmez. `IndexedDriveStore.metadata` hem önceki dosyaları okurken hem
+yeni dosya oluşturulduktan sonra çağrılır; belirsiz upload sonrası aynı
+üretilmiş ID'yi kontrol eden başka yol da aynı HTTP rolünü üretir. Hangi
+yolun etkilendiği tam günlük/tanı ve gerekirse salt okunur Drive kontrolü
+olmadan kesinleşmez. 404 için kör yeniden üretim veya sınırsız retry eklenmedi.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/failure_user_readback_20261012.json`;
+SHA-256 `e8985c002ca25abc6bed2df27e97f91534479fed2adbcefccc5f65c153deac19`.
+Sonraki adım üç final özet, resource CSV ve V5 launcher günlüğünün yeni
+arşivini almak, VM'yi Stop yapmak ve yerelde sınırlandırılmış geri okumadır.
+Kimlik bağlantısı, tokenlar, kaynak ham verileri ve canlı paketler arşive alınmaz.

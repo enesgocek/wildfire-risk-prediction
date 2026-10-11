@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V5 kapanışının sonraki SSH bildirimi](GCP_V5_EARLY_STOP_2026-10-12.md#sonraki-ssh-bildirimi--drive-metadata-hatası):
+Temmuz 2020 pair_publication sırasında Drive FILE_METADATA 404 notFound;
+parent hata ve poweroff isteği var. Süre sınırı kaynaklı duruş değil.
+156 yeni çift ve son görünen 17 Temmuz gün commit'i uzak günlük bildirimi;
+40 tam ay korunur, Temmuz tam değil. Yerel ürün kabulü yapılmadı.
+Hangi dosya/erişim yolunun etkilendiği henüz bilinmiyor; sıradaki adım
+tam oturum günlüğü/özet arşivi, VM Stop ve salt okunur tanı. Kod/paket
+ve bulut ayarları değiştirilmedi. Aşağıdaki ön inceleme bu yeni günlükten önceydi.
+
 [V5 erken kapanış ön incelemesi](GCP_V5_EARLY_STOP_2026-10-12.md):
 kullanıcı Cloud Shell çıktısında TERMINATED ve 64800 saniye/18 saat doğru.
 Gerçekleşen çalışma 1:56:55,696; duruş 12 Ekim 00:52:49 Türkiye, kayıtlı

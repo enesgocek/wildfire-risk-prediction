@@ -272,8 +272,16 @@ Araç desteği kullanıcı Cloud Shell çıktısının birim/timezone dönüşü
 sunucu kesintisi sonucu yazılmadı. Canlı bulut erişimi/yeni iş/ürün kabulü
 yapılmadı; günlüklerin alınması sonraki adımdır.
 
-## Resmî kaynak
+## V5 Drive yayın hatasının sınıflandırılması — 12 Ekim
 
+Araç desteği kullanıcı SSH çıktısındaki FILE_METADATA/404 ve poweroff
+kaydının kodda izlenmesi, Google Drive resmî hata rehberinin kontrolü ve
+[tarihli rapor](../GCP_V5_EARLY_STOP_2026-10-12.md) için kullanıldı. Tam
+günlük ve dosya kontrolü olmadan kota, silinme veya geçici hata kesin neden
+olarak yazılmadı. Kod/paket/kimlik bilgileri değiştirilmedi; canlı Drive
+erişimi, yeni bulut işi veya yeni bilimsel ürün kabulü yapılmadı.
+
+## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
 uygunluk sorumluluğunu başvuru sahiplerinde tutar. Proje hazırlığında önemli
