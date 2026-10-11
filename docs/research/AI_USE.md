@@ -281,6 +281,17 @@ günlük ve dosya kontrolü olmadan kota, silinme veya geçici hata kesin neden
 olarak yazılmadı. Kod/paket/kimlik bilgileri değiştirilmedi; canlı Drive
 erişimi, yeni bulut işi veya yeni bilimsel ürün kabulü yapılmadı.
 
+## V5 arşiv geri okuması ve salt okunur tanı — 12 Ekim
+
+Araç desteği gerçek arşivin link/yol/boyut sınırlarıyla okunması, donmuş
+paket ve final hash'lerinin, katalog sayımlarının ve kaynak örneklerinin
+karşılaştırılması için kullanıldı. Ayrı offline verifier ve yalnız mevcut
+Drive nesnelerini okuyan sınırlı tanı yazıldı; davranış/güvenlik kontrolleri
+çalıştırıldı. Yeni ürün kabulü, tam dönem bitişi veya 404'ün kesin nedeni
+iddia edilmedi. Uzak üretim başlatılmadı; bilimsel kod, checkpoint anahtarları
+ve negatif etiket kapısı değişmedi. Geçici test erişim sorunları yerel test
+ortamıyla giderildi; başarılı test sayıları kapsamlarıyla raporlandı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

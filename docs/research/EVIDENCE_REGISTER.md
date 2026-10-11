@@ -245,6 +245,16 @@ SHA-256 `e8985c002ca25abc6bed2df27e97f91534479fed2adbcefccc5f65c153deac19`.
 Sınır: uzak kullanıcı bildirimi ve kod/HTTP sınıf yorumu; dosya kimliği,
 silinme/erişim/geçici görünürlük nedeni ve yeni ürün baytları doğrulanmadı.
 
+E42 — 12 Ekim: [V5 gerçek arşiv kabulü ve Drive tanısı](../GCP_V5_EARLY_STOP_2026-10-12.md#gerçek-arşiv-kontrolü-ve-salt-okunur-tanı-hazırlığı).
+5 normal üye, 3 aynı final; donmuş kod, 40 ay, 17 yeni gün/156 çift ve
+2.696 kaynak örneği kontrol edildi. Kanıt:
+`outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/failure_readback.json`;
+SHA-256 `b98cad5bff82fed84e1ff17f1ff234da1de074606986211e453f903129158daa`.
+25 yeni/36 Drive/51 ilgili manifest-controller testiyle salt okunur tanı hazır.
+Sınır: günlük/katalog
+kabulü, örneklenmiş kaynak kullanımı; uzak ürün bayt kabulü, canlı Drive
+kontrolü veya tarihsel dosya/404 nedeninin tespiti değildir.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

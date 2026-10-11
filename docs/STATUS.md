@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V5 gerçek arşiv kabulü ve Drive tanısı hazırlığı](GCP_V5_EARLY_STOP_2026-10-12.md#gerçek-arşiv-kontrolü-ve-salt-okunur-tanı-hazırlığı):
+beş üyeli arşiv/üç aynı final/V5 ve donmuş paket kimlikleri doğrulandı.
+40 tam ay, Temmuz 1–17 kapanışı, 156 yeni çift ve 18 Temmuz'da 5/8 çift
+günlük/katalog düzeyinde tutarlı. 2.696 kaynak örneğinde RAM/disk rezerv
+ihlali yok. Ürün/Drive baytları arşivde yok; etkilenen dosya ve 404 nedeni açık.
+Salt okunur, sınırlandırılmış tanı hazır; 25 yeni + 36 Drive + 51 ilgili
+manifest/controller testi geçti (tam eski ay bilimsel testi seçilmedi).
+Kullanıcı VM Stop teyidi verdi. Yeni uzak üretim başlatılmadı, bilimsel kod ve
+etiket koşulları değiştirilmedi. Aşağıdaki SSH yorumu gerçek arşivden önceydi.
+
 [V5 kapanışının sonraki SSH bildirimi](GCP_V5_EARLY_STOP_2026-10-12.md#sonraki-ssh-bildirimi--drive-metadata-hatası):
 Temmuz 2020 pair_publication sırasında Drive FILE_METADATA 404 notFound;
 parent hata ve poweroff isteği var. Süre sınırı kaynaklı duruş değil.
