@@ -211,6 +211,15 @@ SHA-256 `2c216e13e8c80d717a3c8cb63921803cb7325160c1e1c5a7f7e9a9b4db4e9623`.
 Sınır: duruş ve koruma kabulü; Ekim 2021 tam ay kabulü veya yeniden
 başlatma değildir. Devam için açık kullanıcı isteği gerekir.
 
+E38 — 11 Ekim: [Bakım sonrası yerel devam](../VEGETATION_MAINTENANCE_RESUME_2026-10-11.md).
+148 kabul edilmiş dosya/276 kısmi ham kayıt aynı; ISO proof, disk ve scalar
+bağlantı geçti. Yeni üst/çocuklar gerçek Windows sorgusunda canlı, running,
+stderr sıfır. Kanıt:
+`outputs/reports/landscape/training_supervisor_v1/training_iso_v2_maintenance_resume_20261011_bd22517d/startup_check.json`;
+SHA-256 `5ad90201c16a8cdb45b4410e319488f5db5870cad894eada445f376197374594`.
+Sınır: koruma ve başlangıç kabulü; ilk geri okunan iki ay yeni ay değildir,
+45 eski ay korunur. Kalan kota, tüm dönem veya kesin bitiş kanıtı yok.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

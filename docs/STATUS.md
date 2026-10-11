@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Bakım sonrası bitki örtüsü devamı](VEGETATION_MAINTENANCE_RESUME_2026-10-11.md)
+kullanıcının açık başlat isteğiyle 22:56:57 Türkiye'de başladı. Eski süreç/
+kilit yok; 148 kabul edilmiş dosya, 276 Ekim ham kaydı ve ISO proof aynı.
+115,45 GiB boş disk/küçük EE bağlantısı geçti; kota kısıt uyarısı yok.
+Yeni job `training_iso_v2_maintenance_resume_20261011_bd22517d`, PID 7036
+ve çocukları canlı, running/hata yok. İlk iki eski ay geri okunmuş;
+45 eski ay korunur, yeni tam ay kabulü henüz yok. Önceki 13 Ekim 17:53
+son sınırı korunarak beş dakika rezervli yaklaşık 42,86 saatlik devam açıldı.
+Aşağıdaki bakım duruşu kaydı bu yeni çağrıdan önceki durumu anlatır.
+
 [Bilgisayar bakımı için bitki örtüsü duruşu](VEGETATION_MAINTENANCE_PAUSE_2026-10-11.md):
 kullanıcı isteğiyle 21:26:43 Türkiye'de kontrollü durdu; üst/çocuk süreçler ve
 iki yazıcı kilidi yok. Final `interrupted_checkpoints_retained`, hata yok;

@@ -246,6 +246,16 @@ otomatik devam olmadığını ve yeni başlatmanın kullanıcı isteğini bekled
 açık tutar. VM/billing/donmuş bilimsel kod değiştirilmedi; bakım işlemleri
 araç tarafından başlatılmadı. Kimlik bilgileri raporlanmadı.
 
+## Bakım sonrası yerel devam
+
+Kullanıcının açık başlat isteğiyle araç desteği süreç/kilit yokluğu,
+korunan dosya/paket/proof hash'leri, küçük EE bağlantısı, süre hesabı ve
+gerçek başlangıç denetiminde kullanıldı. [Devam kaydı](../VEGETATION_MAINTENANCE_RESUME_2026-10-11.md)
+eski son sınırın korunduğunu ve ilk ay geri okumalarının yeni ham üretim
+sayılmadığını belirtir. İlk PowerShell tarih dönüşümü kapısı süreç açmadan
+durdu; düzeltme sonrası tek çağrı açıldı. VM/billing/donmuş bilimsel kod
+değiştirilmedi; kimlik bilgileri raporlanmadı.
+
 ## Resmî kaynak
 
 
