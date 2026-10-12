@@ -424,6 +424,14 @@ yeni üst sınır 13 Ekim 12:36:04,698919 UTC. Aynı V6 komutu hazırlanmıştı
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_scheduling_user_readback_20261012T183734Z.json`;
 SHA-256 `fccb8adaea815a93fe16569a1bdd328ec81f6448d121c563eab172cf7ecfcc9a`.
 
+E59 — 12 Ekim: [V6 yeni oturum başlangıcı](../GCP_DRIVE_RESUME_V6_2026-10-12.md#yeni-oturum-başlangıç-bildirimi--12-ekim).
+Kullanıcı SSH running/december_safe_days, 13 Ekim 12:36:04,698919 UTC
+deadline, dört geri okunan ay/sıfır yeni çift ve None hata alanları.
+Eski poweroff satırının ardından yeni phase var; önceki 58 ay kabulü
+korunur. Süreç/hash bildirimi, bağımsız canlı sorgu ve yeni ürün kabulü yok.
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_startup_user_readback_20261012T184921Z.json`;
+SHA-256 `53ec23a2ed04ada3e5b6ede9f01bef59d81b0bb563dee1198549b00b292d967c`.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

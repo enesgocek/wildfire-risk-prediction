@@ -364,3 +364,19 @@ VM sorgusu veya araç tarafından bulut başlatması yok.
 
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_scheduling_user_readback_20261012T183734Z.json`;
 SHA-256 `fccb8adaea815a93fe16569a1bdd328ec81f6448d121c563eab172cf7ecfcc9a`.
+
+## Yeni oturum başlangıç bildirimi — 12 Ekim
+
+Kullanıcının SSH çıktısında running, december_safe_days, yeni üst sınır
+13 Ekim 12:36:04,698919 UTC ve None hata/failed alanları var. Son görünen
+yeniden kullanılan aylar Ağustos–Ekim 2023; çağrı sayacı dört tam ay ve
+sıfır yeni çift. Önceki 58 aylık yerel günlük/katalog kabulü korunur;
+sayaç bu çağrının geri okumasını gösterir, ay kaybı kanıtı değildir.
+Log eklenerek yazılır: eski Guest poweroff satırından sonra yeni phase
+satırı vardır; bu satır yeni oturumun kapanış bildirimi sayılmadı.
+Süreç snapshot'ı veya wrapper hash'i bu çıktıda yok; bağımsız canlı sorgu
+yapılmadı. Yeni üretim çiftleri/ayları henüz kabul edilmedi. Aynı başlatma
+komutu tekrar çalıştırılmaz; sonraki ilerleme kontrolü beklenir.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_startup_user_readback_20261012T184921Z.json`;
+SHA-256 `53ec23a2ed04ada3e5b6ede9f01bef59d81b0bb563dee1198549b00b292d967c`.

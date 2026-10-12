@@ -5,6 +5,12 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 yeni oturum başlangıcı](GCP_DRIVE_RESUME_V6_2026-10-12.md#yeni-oturum-başlangıç-bildirimi--12-ekim):
+kullanıcı SSH çıktısında running/december_safe_days, yeni deadline ve boş
+hata alanları var. Dört ay bu çağrıda geri okunmuş; yeni çift sıfır.
+Önceki 58 aylık yerel kabul korunur. Eski poweroff satırı yeni phase
+satırından öncedir. Süreç/hash snapshot'ı yok; canlı API sorgusu yapılmadı.
+
 [V6 yeni oturum ayarı](GCP_DRIVE_RESUME_V6_2026-10-12.md#sonraki-18-saatlik-oturum-için-scheduling-bildirimi--12-ekim):
 kullanıcı RUNNING/18 saat/STOP/automaticRestart=false bildirdi. Yeni üst
 sınır 13 Ekim 15:36:04 Türkiye. Aynı V6 devam komutu hazır; üretim başlangıcı
