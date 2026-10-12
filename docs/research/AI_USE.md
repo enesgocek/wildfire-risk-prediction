@@ -326,6 +326,23 @@ ayrıldı. Uzak işi ikinci kez başlatma veya bulut ayarı değişikliği yoktu
 Bilimsel etiket/habitat/erişilebilirlik kararları araştırmacı ve danışman
 incelemesine açık kaldı; araç kullanımı kişisel saha çalışması gösterilmedi.
 
+## Veri seti hazırlık girişleri — 12 Ekim
+
+Araç desteği veri sözlüğü/roller, 72 aylık kaynak planı, teslim envanteri,
+tek yazarlı sınırlı toplu yürütme, yeniden kullanım/sonuç koruma ve nullable
+hedef eşleştirme kontrollerinin yazılması ve sınanması için kullanıldı.
+107 ilgili test ve iki gerçek aydaki yeniden kullanım/son denetim kaydedildi.
+Meteoroloji kaynak birimi resmî ürün tanımıyla karşılaştırıldı; yeni
+bilimsel kaynak seçimi veya model kararı verildiği iddia edilmedi.
+
+Kaynak referansı, uydu günlük/katalog sonucu ve aday parça denetimi ayrı
+kanıt düzeylerinde raporlandı. Tam takvim veya çağıranın onay işareti
+negatif/pozitif etiket kapısını açmadı. Hedefler bilinmeyen kaldı;
+uzman incelemesi, tüm dönem tamamlanması, operasyonel erişilebilirlik veya
+model başarısı uydurulmadı. Canlı kuyruklar değişmedi, yeni indirme/bulut
+işi ve 2025 erişimi yapılmadı. Teknik üç adımlı rehber, bilimsel kabulün
+ve ayrıca gereken 2024 hazırlığının yerine geçmez.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -123,3 +123,13 @@ Kuyruk bitmeden ilerleyebilen bu yöntem hazırlığı tamamlandı. Tam dönem
 etiketli teslim için yukarıdaki bilimsel kararlar, kalan aylık kaynak
 kabulleri ve 2024 doğrulama bileşenleri hâlâ gereklidir. Negatif kapısı
 ve tarihsel erişilebilirlik koşulları değiştirilmedi.
+
+## 12 Ekim ilerlemesi — toplu hazırlık ve teslim envanteri
+
+[Yeni işlem rehberi](DATASET_PREPARATION_RUNBOOK_2026-10-12.md) kaynak
+referansı → toplu aday birleştirme/yeniden kullanım → son parça denetimi
+adımlarını tanımlar. Veri sözlüğü ve nullable hedef eşleştirme kontrolü
+hazırdır. Kaynak referansı ve uydu günlük/katalog bilgisi ürün baytlarının
+yeni kabulü olarak sayılmaz. Tam aday takvimi 72 ay olsa bile mevcut
+sürümde etiket/model kapısı kapalı kalır. 2024 kaynak hazırlığı ve bilimsel
+kararlar hâlâ gereklidir; 2025 final erişimi açılmadı.

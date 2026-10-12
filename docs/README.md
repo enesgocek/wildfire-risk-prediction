@@ -27,6 +27,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Veri seti kabul taslağı](DATASET_ACCEPTANCE_CONTRACT_2026-10-10.md) | Anahtar, eksik değer, etiket kanıtı, veri ayrımı ve son manifest kabul koşulları |
 | [Parçalı özellik kaydı ve okuyucu](FEATURE_PARTITION_PILOT_2026-10-10.md) | Dört günün günlük feature/kalite parçaları, hash/anahtar manifesti ve kapalı dönem kontrolü |
 | [Tam aylık aday özellik geri okuması](FEATURE_MONTH_READBACK_2026-10-12.md) | Ocak/Ağustos 2018 bütün takvim günleri, 179.738 hücre-gün, kaynak eşitliği ve aday kabul sınırı |
+| [Veri setine geçiş hazırlığı](DATASET_PREPARATION_RUNBOOK_2026-10-12.md) | Veri sözlüğü, kaynak/teslim planı, devam eden toplu giriş, hedef eşleştirme ve son aday kabul komutları |
 | [Bütün hücrelerde bitki örtüsü denemesi](VEGETATION_FULL_GRID_2026-10-10.md) | 2.899 hücre, iki geçmiş pencere, ham integral geri okuması ve checkpoint tekrar kullanımı |
 | [Ağustos 2018 günlük bitki örtüsü adayları](VEGETATION_MONTH_2018_08_2026-10-10.md) | Beş haftalık kesim, 179.738 günlük aday satır, iki geri okuma ve erişim sınırları |
 | [Bitki örtüsü eğitim dönemi kuyruğu](VEGETATION_PERIOD_QUEUE_2026-10-10.md) | 72 aylık plan, tek yazar, kaynak/disk/süre kontrolleri ve doğrulanmış yeniden kullanım |

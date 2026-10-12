@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Veri setine geçiş hazırlığı](DATASET_PREPARATION_RUNBOOK_2026-10-12.md):
+veri sözlüğü, 72 aylık kaynak/teslim envanteri, hash bağlı toplu yeniden
+kullanım, nullable hedef eşleştirme ve son aday denetimi hazır. Snapshot'ta
+61 bitki örtüsü kaynak referansı, iki aday ay ve son kayıtlı 40 uydu
+günlük/katalog ayı ayrı tutuluyor; canlı V6 ilerlemesi değildir. İki gerçek
+ay/179.738 hücre-gün yeniden üretilmeden geri okundu; 107 test ve 165
+değişmeyen kaynak/yöntem hash'i geçti. Tüm dönem batch'i başlatılmadı.
+Bilimsel etiket kapıları, 2024 hazırlığı ve model_ready false korunur.
+
 [Tam aylık aday özellik geri okuması](FEATURE_MONTH_READBACK_2026-10-12.md):
 hazır Ocak/Ağustos 2018 kaynaklarıyla 62 gün, 179.738 hücre-gün ve 27 aday
 özellik ayrı günlük parçalar halinde doğrulandı. 165 kaynak/yöntem hash'i

@@ -291,6 +291,18 @@ Sınır: iki ay aday özellik kabulü; bütün dönem, saha doğrulaması, etike
 nihai habitat, operasyonel erişilebilirlik veya model başarısı değildir.
 Canlı kuyruklar ve bilimsel kapılar değiştirilmedi.
 
+E47 — 12 Ekim: [Veri setine geçiş hazırlığı](../DATASET_PREPARATION_RUNBOOK_2026-10-12.md).
+27 aday sözlüğü, 72 aylık kaynak/teslim planı, hash bağlı toplu yeniden
+kullanım, boş hedef anahtar eşleştirmesi ve son aday denetimi hazır.
+Ocak/Ağustos'ta 179.738 hücre-gün yeniden üretilmeden denetlendi;
+107 test ve 165 değişmeyen kaynak/yöntem dosyası. Kanıt
+`outputs/reports/dataset/preparation_v1/20261012T020712Z_ae295f2a/workflow_readback.json`;
+SHA-256 `8791ce3d379776ff49fa4822f827001d741a6001c2b20e3a00cf269628572f84`.
+Sınır: kaynak referansı/aday yapısal kabul; yeni tüm dönem, bilimsel
+etiket/habitat/gözlem, operasyonel veya model kabulü değildir. Snapshot'ın
+61 bitki örtüsü referansı ve tarihsel 40 uydu günlük/katalog ayı ayrıdır;
+2024 kaynak hazırlığı ve bilimsel kapılar açık, 2025 kapalı.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

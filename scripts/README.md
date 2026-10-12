@@ -889,6 +889,20 @@ engeller ve 2024/2025 aylarını kaynak okumadan reddeder. Eksik değerler
 korunur; etiket, model, tam dönem veya yeni indirme işi üretmez.
 [İki ayın gerçek geri okuması ve sınırlar](../docs/FEATURE_MONTH_READBACK_2026-10-12.md).
 
+## Aday veri seti toplu hazırlık girişi
+
+`scripts/quality/prepare_dataset.py` üç alt komut içerir: `plan`,
+`execute`, `audit`. Plan kaynak/ürün referanslarını ve yöntem hash'lerini
+sabitleyerek veri sözlüğü/teslim envanteri yazar. Execute hazır adayları
+yeniden kullanır; yeni ay üretimi yalnız `--build-missing` ile açılır.
+Audit kaynak/parça takvimini ve nullable hedef eşleştirmesini denetler;
+`--require-complete-calendar` 72 aylık eğitim takvimini zorunlu kılar.
+
+Mevcut sürüm aday özellik içindir: etiket üretmez, bilimsel kapıyı açmaz,
+2024/2025 aylarını işleyemez ve dış veri isteği yapmaz. Tam dönem çalışması
+şu hazırlık sırasında açılmadı. [Komutlar, devam yolu, gerçek deneme ve
+kabul sınırları](../docs/DATASET_PREPARATION_RUNBOOK_2026-10-12.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten
