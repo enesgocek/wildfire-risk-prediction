@@ -417,6 +417,13 @@ Arşiv SHA-256 `bdca0bccabdc580cf7f0010983985d85066ed97a042370d5d3956b9c5d6ab509
 Sınır: günlük/katalog kabulü; bilimsel ürün baytları ve canlı Drive yok.
 Kullanıcı indirme sonrası VM Stop teyidi verdi; üretim/VM ayarı değişmedi.
 
+E58 — 12 Ekim: [V6 yeni oturum scheduling bildirimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#sonraki-18-saatlik-oturum-için-scheduling-bildirimi--12-ekim).
+Kullanıcı gcloud çıktısı RUNNING/64.800 saniye/STOP/automaticRestart=false;
+yeni üst sınır 13 Ekim 12:36:04,698919 UTC. Aynı V6 komutu hazırlanmıştır,
+üretim başlangıcı doğrulanmış değildir. Bağımsız VM sorgusu yok.
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_scheduling_user_readback_20261012T183734Z.json`;
+SHA-256 `fccb8adaea815a93fe16569a1bdd328ec81f6448d121c563eab172cf7ecfcc9a`.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -352,3 +352,15 @@ VM checkpoint baytlarının ve güncel API erişiminin kontrolü başlatma
 guard'larına aittir; yerel günlük denetimi bunların yerine geçmez.
 Tamamlanma/rezerv/hata poweroff düzeni ve Free Trial sınırı korunur.
 Bu incelemede VM açılmadı ve üretim başlatılmadı.
+
+## Sonraki 18 saatlik oturum için scheduling bildirimi — 12 Ekim
+
+Kullanıcı Cloud Shell çıktısında RUNNING, 64.800 saniye, STOP ve
+automaticRestart=false bildirdi. Yeni üst sınır 13 Ekim 12:36:04,698919 UTC /
+15:36:04,698919 Türkiye. Aynı hash kontrollü V6 komutu bu yeni deadline ile
+hazırlandı; üretimin gerçekten başladığı henüz doğrulanmadı. Önceki 58 aylık
+yerel günlük/katalog kabulü korunur. Kaynak kullanıcı bildirimi; bağımsız
+VM sorgusu veya araç tarafından bulut başlatması yok.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_scheduling_user_readback_20261012T183734Z.json`;
+SHA-256 `fccb8adaea815a93fe16569a1bdd328ec81f6448d121c563eab172cf7ecfcc9a`.

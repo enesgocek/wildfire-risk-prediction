@@ -5,6 +5,11 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 yeni oturum ayarı](GCP_DRIVE_RESUME_V6_2026-10-12.md#sonraki-18-saatlik-oturum-için-scheduling-bildirimi--12-ekim):
+kullanıcı RUNNING/18 saat/STOP/automaticRestart=false bildirdi. Yeni üst
+sınır 13 Ekim 15:36:04 Türkiye. Aynı V6 devam komutu hazır; üretim başlangıcı
+henüz doğrulanmadı. Aşağıdaki kayıt önceki oturumun yerel kapanış denetimidir.
+
 [V6 kapanış arşivinin yerel denetimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#kapanış-arşivinin-yerel-denetimi--12-ekim):
 beş dosya sınırı, üç eşit final, donmuş paket/katalog, 4.829 çift satırı
 ve 58 tam-ay listesi geçti. Bu oturum 18 yeni ay kapatmış; 541 günlük
