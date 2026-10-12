@@ -313,6 +313,16 @@ kısmi envanter; tam ay kabulü değil. Kanıt
 SHA-256 `7e141075c2f619455ab64f3605926b5ba0478e67394142b2b5f017dab7c0c304`.
 Yeni bilimsel üretim/etiket kabulü, otomatik devam veya VM işlemi yok.
 
+E49 — 12 Ekim: [VPN sonrası yerel devam](../VEGETATION_VPN_RESUME_2026-10-12.md).
+62 ay/199 kaynak ve 169 kısmi Mart JSON'u aynı hash'lerde; ISO proof,
+paket/disk/scalar bağlantı kontrolü geçti. Yeni job running, gerçek süreç
+ağacı canlı ve stderr boş; ilk üç ay geri okunmuş, Nisan 2018 denetleniyor.
+Başlangıç kanıtı
+`outputs/reports/landscape/training_supervisor_v1/training_iso_v2_vpn_resume_20261012_6b68627a/startup_check.json`;
+SHA-256 `b76b4102f786c7e1596e23afad3ac4938cb96cd1365ad16e2577a7aeccb7ede3`.
+13 Ekim son sınırı/rezerv korunur; yeni ay, etiket veya model kabulü değildir.
+Bağlantı testi VPN durumunu veya kalan kota bütçesini kanıtlamaz; VM değişmedi.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

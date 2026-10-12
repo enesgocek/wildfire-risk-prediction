@@ -37,6 +37,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Bitki örtüsü duruşu ve kota kontrolü](VEGETATION_QUOTA_CHECK_2026-10-10.md) | 22 ayın korunması, 91/92 son kesim checkpoint'i, bağlantı kontrolü ve güncel EE kısıtlı mod |
 | [Bakım duruşu](VEGETATION_MAINTENANCE_PAUSE_2026-10-11.md) / [Bakım sonrası devam](VEGETATION_MAINTENANCE_RESUME_2026-10-11.md) | 45 ayın hash koruması, kontrollü yerel duruş ve aynı süre sınırıyla yeni çağrı |
 | [12 Ekim VPN duruşu](VEGETATION_VPN_PAUSE_2026-10-12.md) | 62 ayın korunması, kapanmayan istek alt sürecinin sonlandırılması ve manuel devam koşulu |
+| [12 Ekim VPN sonrası devam](VEGETATION_VPN_RESUME_2026-10-12.md) | 199 korunmuş kaynak ve 169 kısmi JSON kontrolü, bağlantı ve aynı süreyle yeni çağrı |
 | [Habitat kapsamı ön incelemesi](HABITAT_REVIEW_2026-10-10.md) | 2.899 hücrede örtü bileşimi, alan paydaları ve 15 keşif eşiği; uygunluk kararı verilmeden değerlendirme |
 | [Olay gruplaması geri okuması](EVENT_GROUPING_REVIEW_2026-10-10.md) | 30.295 eğitim adayında dokuz grafiğin geri okuması; zincirleme, ilk hücre ve dönem sınırı denetimi |
 | [Kaynak ertelemeli oturum kapanışı](GCP_CONTINUATION_FAILURE_2026-10-09.md) | RuntimeError bildirimi, uzak ilerleme ve güvenli teşhis arşivi toplama |

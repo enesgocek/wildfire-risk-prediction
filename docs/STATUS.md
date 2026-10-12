@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[VPN molası sonrası yerel devam](VEGETATION_VPN_RESUME_2026-10-12.md):
+12 Ekim 06:03:08 Türkiye'de yeni iş running; gerçek launcher/supervisor
+ve çocuk süreçler canlı, stderr boş. Önceki 62 ay/199 dosya ile Mart'ın
+169 kısmi JSON'u aynı hash'lerde; ISO proof/paket ve scalar bağlantı geçti.
+Eski aylar yeniden doğrulanıyor; yeni tam ay veya model kabulü yok.
+13 Ekim 17:53:22 son sınırı/beş dakika rezerv korunur. VM değiştirilmedi.
+
 [VPN için yerel bitki örtüsü duruşu](VEGETATION_VPN_PAUSE_2026-10-12.md):
 12 Ekim 05:30:39 Türkiye'de interrupted_checkpoints_retained; gerçek süreç
 ağacı kapandı ve iki kilit temizlendi. 62 ay (Ocak 2018–Şubat 2023) için

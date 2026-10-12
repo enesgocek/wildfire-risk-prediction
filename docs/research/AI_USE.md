@@ -352,6 +352,14 @@ yollarının tamamlandığı, süreç ve kilit yokluğu ile 199 dosyanın hash k
 denetlendi. Kullanıcı yeniden başlatmayı istemeden devam veya VM müdahalesi
 yapılmadı. Ayrıntılar tarihli VPN duruş kaydındadır.
 
+## VPN sonrası devam — 12 Ekim 2026
+
+12 Ekim VPN sonrası açık başlatma isteği için araç desteği süreç/kilit,
+199 kaynak ve 169 kısmi JSON hash'i, ISO proof/paket, disk ve küçük EE
+bağlantı kontrolünde kullanıldı. Yeni çağrı aynı son zaman ve rezervle
+başlatıldı; gerçek süreç/progress üzerinden doğrulandı. VM değiştirilmedi;
+başlangıç kontrolü yeni bilimsel ay veya model kabulü olarak sunulmadı.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
