@@ -5,12 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
-[V6 VM duruş bildirimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#vm-duruş-bildirimi--12-ekim-kapanış-günlükleri-bekleniyor):
-kullanıcı Cloud Shell çıktısında TERMINATED, 18 saat/STOP ve automaticRestart
-false. 12 Ekim 20:53:54 Türkiye duruşu, 21:13:37 üst sınırından yaklaşık
-20 dakika önce; süre rezerviyle uyumlu fakat son kuyruk sonucu henüz yok.
-Kapanış launcher/progress kayıtları bekleniyor; son 50 aylık bildirim yeni
-ay veya yerel ürün kabulüyle güncellenmedi. Üretim yeniden başlatılmadı.
+[V6 kontrollü oturum kapanışı: 58 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#kontrollü-oturum-kapanışı-58-ay--12-ekim):
+kullanıcı SSH çıktısı paused_at_runtime_reserve, doğru V6 hash'i ve
+Guest poweroff requested=True gösteriyor; hata/failed alanları None.
+Üretici 2019-02–2023-11 arasında 58 tam ay bildiriyor: 72 eğitim ayının
+%80,6'sı. Bu çağrıda 4.829 işlenmiş/beş yeniden kullanılan çift var.
+Tam kapanmamış 14 ay: 2018'in 12 ayı, kısmi Ocak 2019 ve 31 Aralık
+ertelenmiş Aralık 2023. Son görünen günlük kapanış 11 Ocak 2019;
+sonraki günlere ait kaydedilmiş çiftler günlük kapanış sayılmaz.
+Kapanış arşivinin yerel denetimi bekleniyor; yeni ürün bayt kabulü veya
+üretim başlatması yapılmadı. Önceki duruş/ilerleme kayıtları tarihlidir.
 
 [Literatür kaynaklarının ikinci kontrolü](research/LITERATURE_IDENTITY_AUDIT_2026-10-12.md):
 34 kaydın tamamında gerçek yayın/ön baskı/veri/kurum kaydı ve yazar atfı

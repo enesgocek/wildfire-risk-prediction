@@ -392,6 +392,17 @@ Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/vm_stop_user_rea
 SHA-256 `5ab9627ef285da6a890cef5639bb3b38d17930e2285ea07113669c9f9187f910`.
 Kapanış günlükleri bekleniyor; bağımsız agent VM/Drive sorgusu yok.
 
+E56 — 12 Ekim: [V6 kontrollü kapanış: 58 ay](../GCP_DRIVE_RESUME_V6_2026-10-12.md#kontrollü-oturum-kapanışı-58-ay--12-ekim).
+Kullanıcı SSH seçilmiş progress/launcher çıktısı: doğru V6 hash'i,
+paused_at_runtime_reserve, Guest poweroff requested=True; hata/failed alanları
+None. 2019-02–2023-11 tam-ay listesi 58/72 (%80,6), 4.829 işlenmiş/beş
+yeniden kullanılan çift; Ocak 2019 kısmi, 31 Aralık 2023 ertelenmiş.
+Ay listesi/sayısı ve yerel V6 hash'i kontrol edildi. Kanıt
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/final_user_readback_20261012T182251Z.json`;
+SHA-256 `0666075db8ba27974fe5c66632146980d0cac7392997cc2fbea57839d4d53149`.
+Sınır: kullanıcı uzak bildirimi; özgün kapanış arşivi ve yeni ürün baytlarının
+yerel kabulü bekleniyor. Bağımsız canlı VM/Drive sorgusu veya üretim yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

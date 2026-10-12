@@ -248,3 +248,38 @@ Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/vm_stop_user_rea
 SHA-256 `5ab9627ef285da6a890cef5639bb3b38d17930e2285ea07113669c9f9187f910`.
 Yerel kayıt saati uzak API gözlem zamanı değildir. UTC/ofset dönüşümleri
 ve süre farkları verilen zaman damgalarından tekrar hesaplandı.
+
+## Kontrollü oturum kapanışı: 58 ay — 12 Ekim
+
+Önceki duruş bildiriminin ardından kullanıcı V6 launcher son satırlarını
+ve seçilmiş progress alanlarını paylaştı. Doğru V6 hash'i,
+`paused_at_runtime_reserve`, `Guest poweroff requested: True` ve None
+hata/failed month/failed phase alanları kontrollü rezerv duruşunu bildiriyor.
+Bu kanıt önceki zamanlama yorumunu destekler; özgün kapanış dosyalarının
+baytları ve ürün arşivleri henüz yerelde denetlenmedi.
+
+Üretici listesindeki 58 ay, Şubat 2019–Kasım 2023 aralığıyla eşleşiyor.
+72 eğitim ayı için tam-ay oranı %80,6; tam kapanmamış ay sayısı 14.
+Bunlar 2018'in 12 ayı, kısmi Ocak 2019 ve 31 Aralık kaynak ertelemesi
+korunan Aralık 2023'tür. Bu 14 ayın tümü sıfırdan işlenecek aylar değildir.
+Launcher'ın görünen son günlük kapanışı 11 Ocak 2019; 12–15 Ocak'a ait
+kaydedilmiş çiftler sonraki günlerin tamamlandığını kanıtlamaz.
+
+Bu çağrıda 4.829 çift işlenmiş, beş çift yeniden kullanılmıştır. Önceki
+50 aylık bildirime göre sekiz tam ay artışı var. Çift sayısı bağımsız
+yangın sayısı veya eğitim örneklemi değildir. `full_training_complete=false`
+korunuyor; uydu işlem ilerlemesi etiket/model kabulü olarak yorumlanmıyor.
+Unknown gözlem ve negatif etiket engelini değiştiren işlem yapılmadı.
+
+Kullanıcı bildirimi ayrı JSON'a kaydedildi; ay listesi/sayısı ve yerel V6
+betik hash'i kontrol edildi. Kanıt:
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/final_user_readback_20261012T182251Z.json`;
+SHA-256 `0666075db8ba27974fe5c66632146980d0cac7392997cc2fbea57839d4d53149`.
+Yerel kayıt zamanı uzak gözlem zamanı değildir; canlı VM/Drive sorgusu yok.
+
+Sonraki adım, yalnız progress.json, acceleration_run_summary.json,
+continuation_summary.json, resource_samples.csv ve V6 launcher logunu
+zaman damgalı kapanış arşivine toplamaktır. İndirme dizini
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/received/` hazırlandı.
+Arşiv alındıktan sonra VM Stop durumunda tutulur; yerel kapanış/uyumluluk
+denetimi tamamlanmadan yeni üretim çağrısı başlatılmadı.
