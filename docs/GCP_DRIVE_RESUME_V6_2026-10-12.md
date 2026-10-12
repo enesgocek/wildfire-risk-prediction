@@ -203,3 +203,24 @@ Yeni bağımsız VM/Drive sorgusu, tekrar başlatma veya ayar değişikliği yap
 
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012T083704Z.json`;
 SHA-256 `c9e0c28b60a022506e92f212e2313a325996830ba18121b34a423f87e8c65c73`.
+
+## 50 aylık uzak ilerleme bildirimi — 12 Ekim
+
+Yeni kullanıcı SSH çıktısında aynı V6 hash'i, running ve None hata/failed
+month/failed phase alanları var. Supervisor PID 1683, PPID 1, elapsed
+10:20:59; altı çocuk süreç görünür. Üretici tam-ay sayacı 50/72 (%69,4).
+Eylül 2019 işleniyor; görünen son kapanış 18 Eylül. Bu çağrıda 2.727 çift
+işlenmiş ve beş çift yeniden kullanılmış. Önceki 48 aylık bildirime göre
+iki tam ay ve 612 işlenmiş çift artışı; supervisor elapsed farkı 2:00:32.
+Bu aralık bütün dönem hızına veya kalan işin kesin bitişine genellenmez.
+
+Tek anlık çocuk sayısı havuz sınırının düşürüldüğünü veya işin takıldığını
+göstermez. Süreç ömrü CPU yüzdeleri bütün VM kullanım yüzdesi değildir.
+Progress üst sınırı yine 12 Ekim 21:13:37 Türkiye; rezerv/hata/erken
+tamamlanmada daha erken durabilir. 31 Aralık kaynak ertelemesinin çözüldüğüne
+dair yeni kanıt yok. Tam ay isim listesi/uzak gözlem saati verilmedi.
+Yeni VM/Drive sorgusu, üretim komutu veya makine yapılandırması değişikliği yok.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012T103705Z.json`;
+SHA-256 `16119b6e7067fec0b3190ced7a97894c62eb239ae84639383f8ae41cb81376b6`.
+Kaynak kullanıcı günlük/progress/süreç bildirimi; yerel ürün bayt kabulü değil.

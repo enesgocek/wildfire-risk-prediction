@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 uzak ilerleme: 50 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#50-aylık-uzak-ilerleme-bildirimi--12-ekim):
+kullanıcı SSH çıktısında running/doğru hash ve None hata alanları var.
+Tam ay sayacı 50/72, yaklaşık %69,4; Eylül 2019 işleniyor, görünen son
+kapanış 18 Eylül. Önceki bildirime göre iki tam ay/612 çift ilerleme;
+bu çağrıda 2.727 işlenmiş/beş yeniden kullanılan çift. Süreçler aktif,
+üst sınır yine 21:13:37 Türkiye. Uzak günlük/katalog kanıtı; yeni yerel
+ürün kabulü değil. Aşağıdaki 48 aylık bildirim önceki snapshot'tır.
+
 [V6 uzak ilerleme: 48 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#48-aylık-uzak-ilerleme-bildirimi--12-ekim):
 kullanıcının SSH çıktısında running/doğru V6 hash'i ve hata alanları None.
 Tam ay sayacı 48/72; Kasım 2019 işleniyor, görünen son kapanış 11 Kasım.

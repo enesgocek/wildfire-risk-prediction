@@ -343,6 +343,16 @@ SHA-256 `c9e0c28b60a022506e92f212e2313a325996830ba18121b34a423f87e8c65c73`.
 Uzak gözlem saati/tam ay listesi yok; bağımsız VM/Drive ve yerel ürün bayt
 kabulü değil. Aralık 31 ertelemesi, bilinmeyen gözlem/negatif etiket engeli korunur.
 
+E52 — 12 Ekim: [V6 50 aylık ilerleme bildirimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#50-aylık-uzak-ilerleme-bildirimi--12-ekim).
+Kullanıcı SSH çıktısında running/doğru hash/None hata; tam-ay sayacı 50,
+Eylül 2019/18 Eylül son görünen kapanış. Önceki bildirime göre iki ay ve
+612 çift artışı, 2:00:32 supervisor elapsed farkı. İşlenmiş çift toplamı
+2.727, yeniden kullanım beş. Kanıt
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012T103705Z.json`;
+SHA-256 `16119b6e7067fec0b3190ced7a97894c62eb239ae84639383f8ae41cb81376b6`.
+Üretici gözlem saati/tam ay listesi yok; bağımsız VM/Drive veya yerel ürün
+bayt kabulü değil. Havuz sınırı ve bütün dönem ETA'sı bu snapshot'tan çıkarılmaz.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
