@@ -380,3 +380,21 @@ komutu tekrar çalıştırılmaz; sonraki ilerleme kontrolü beklenir.
 
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_startup_user_readback_20261012T184921Z.json`;
 SHA-256 `53ec23a2ed04ada3e5b6ede9f01bef59d81b0bb563dee1198549b00b292d967c`.
+
+## 59 aylık uzak ilerleme bildirimi — 13 Ekim
+
+Kullanıcı SSH çıktısında running/remaining_months, aynı yeni deadline ve
+None hata/failed alanları var. Üretici tam-ay sayacı 59/72 (%81,9),
+302 yeni işlenmiş çift. Aralık 2018 işleniyor; son görünen günlük kapanış
+17 Aralık. Önceki yerel kapanışta 58 ay vardı; yeni sayaç bir tam ay
+artışı bildiriyor. Donmuş iş sırasına göre Ocak 2019 kapanışıyla uyumlu;
+ancak ay isim listesi ve Ocak kapanış satırı bu tail'de yok.
+
+13 ay henüz tam kapanmamış; Aralık 2018 kısmi, Aralık 2023 kaynak
+ertelemesi önceki protokolden korunur. Ay sayacı ve çift sayıları bilimsel
+etiket/model kabulü değildir. Süreç/hash snapshot'ı veya ürün baytları
+gelmedi; bağımsız VM/Drive sorgusu yapılmadı. Yeni komut çalıştırılmadı.
+Son sınır 13 Ekim 15:36:04 Türkiye; normal ilerleme kontrolü sürer.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_59_user_readback_20261012T214509Z.json`;
+SHA-256 `371077849e58bb1704b2346d29cdbfcfd22cb24676f8ec9197521c0dda4da4b2`.

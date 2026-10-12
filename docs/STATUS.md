@@ -1,9 +1,16 @@
-# Proje durum raporu — 12 Ekim 2026
+# Proje durum raporu — 13 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+[V6 uzak ilerleme: 59 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#59-aylık-uzak-ilerleme-bildirimi--13-ekim):
+kullanıcı SSH running/remaining_months ve boş hata alanları bildiriyor.
+59/72 ay (%81,9); 302 yeni çift, Aralık 2018 son kapanış 17 Aralık.
+Ay isim listesi/süreç/hash yok; yeni ürün bayt kabulü yapılmadı.
+13 ay tam kapanmamış; üst sınır 13 Ekim 15:36:04 Türkiye.
+Aşağıdaki 12 Ekim kayıtları önceki snapshot'lardır.
 
 [V6 yeni oturum başlangıcı](GCP_DRIVE_RESUME_V6_2026-10-12.md#yeni-oturum-başlangıç-bildirimi--12-ekim):
 kullanıcı SSH çıktısında running/december_safe_days, yeni deadline ve boş
