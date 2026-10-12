@@ -360,6 +360,15 @@ bağlantı kontrolünde kullanıldı. Yeni çağrı aynı son zaman ve rezervle
 başlatıldı; gerçek süreç/progress üzerinden doğrulandı. VM değiştirilmedi;
 başlangıç kontrolü yeni bilimsel ay veya model kabulü olarak sunulmadı.
 
+## Bitki örtüsü tamamlanma denetimi — 12 Ekim 2026
+
+12 Ekim tamamlanma sorusu üzerine araç desteği final yerel progress,
+gerçek Windows süreç/kilit yokluğu ve 229 dosyanın hash geri okumasında
+kullanıldı. 72 aylık takvim ve aylık readback/satır sayısı sözleşmeleri
+denetlendi; özgün final kopyası yeni kanıt dizinine korundu. Bitki örtüsü
+aday özellik kabulü, bütün veri seti veya model başarısı olarak sunulmadı.
+Yeni üretim/birleştirme/bulut işi başlatılmadı; tarihsel kayıtlar korundu.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

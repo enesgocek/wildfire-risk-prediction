@@ -323,6 +323,16 @@ SHA-256 `b76b4102f786c7e1596e23afad3ac4938cb96cd1365ad16e2577a7aeccb7ede3`.
 13 Ekim son sınırı/rezerv korunur; yeni ay, etiket veya model kabulü değildir.
 Bağlantı testi VPN durumunu veya kalan kota bütçesini kanıtlamaz; VM değişmedi.
 
+E50 — 12 Ekim: [Eğitim bitki örtüsü tamamlanması](../VEGETATION_TRAINING_COMPLETE_2026-10-12.md).
+72 ay (2018–2023), selected_training_range_verified; son çağrıda 62 eski
+ay/10 yeni ay. Gerçek Windows süreçleri ve iki kilit yok; stderr boş.
+229 manifest/tablo/readback/runtime dosyası final hash'lerle eşleşti;
+2.191 gün/2.899 hücre/iki pencere 12.703.418 hücre-gün-pencere satırı.
+Kanıt `outputs/reports/landscape/training_completion_v1/20261012T082646Z/completion_readback.json`;
+SHA-256 `1d6352218200992dbc05323fcf29ae802da070af4e04fe1a0dda90d9ba9374c5`.
+Sınır: aday özellik dosya bütünlüğü ve üretim aylık kabulü; yeni bağımsız
+bilimsel hesaplama/saha doğrulaması, etiket, model veya 2024 kabulü değil.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

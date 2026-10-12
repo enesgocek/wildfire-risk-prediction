@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Eğitim bitki örtüsü kuyruğu tamamlandı](VEGETATION_TRAINING_COMPLETE_2026-10-12.md):
+12 Ekim 09:49:26 Türkiye'de selected_training_range_verified; 2018–2023
+72 ayın tamamı hazır. Son çağrıda 62 eski ay geri okundu, kalan 10 ay
+hazırlandı. Final kayıtlara göre 229 dosya hash'i aynı; gerçek süreçler ve
+iki kilit yok, hata/stderr yok. 2.191 gün/2.899 hücre/iki pencere için
+12.703.418 aday hücre-gün-pencere satırı. Bu bitki örtüsü kabulüdür;
+2024, uydu kuyruğu ve nihai etiket/model kabulü ayrı ve açık kalır.
+Aşağıdaki başlangıç ve duruş kayıtları tamamlanmadan önceki durumlardır.
+
 [VPN molası sonrası yerel devam](VEGETATION_VPN_RESUME_2026-10-12.md):
 12 Ekim 06:03:08 Türkiye'de yeni iş running; gerçek launcher/supervisor
 ve çocuk süreçler canlı, stderr boş. Önceki 62 ay/199 dosya ile Mart'ın
