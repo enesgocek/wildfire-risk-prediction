@@ -303,6 +303,13 @@ tanı/final geçişi ayrı sürümde değerlendirildi. 97 test ve 25 korunan dos
 kontrolü yöntem/kapsamıyla kaydedildi. Yeni uzak üretim başlatılmadı;
 başlatma talimatı kullanıcıya yeni gerçek deadline gereksinimiyle verildi.
 
+## İlk V6 başlangıç bildiriminin yorumu — 12 Ekim
+
+Araç desteği kullanıcı launcher bölümündeki kanıt koruma ve verified/reused
+satırlarının hazırlanmış V6 akışıyla karşılaştırılmasında kullanıldı. Altı
+eski ay yeni üretim sayılmadı; süreç/progress hash/deadline görülmediği için
+bağımsız canlı kabul yapılmadı. Önceki 40 aylık kabul ve bilimsel sınırlar korunur.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

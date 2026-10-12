@@ -143,3 +143,19 @@ Başlangıçta eski aylar geri okunurken sayacın düşmesi önceki 40 ayın kay
 anlamına gelmez. SSH kapansa da detached iş sürer. Tamamlanma, süre rezervi
 veya hata halinde mevcut supervisor poweroff ister; Google STOP sınırı
 ayrı korumadır. Stop, disk ve diğer kaynakların silinmesi değildir.
+
+## İlk uzak başlangıç bildirimi — 12 Ekim
+
+Kullanıcının SSH launcher çıktısında `Reviewed V5 Drive evidence preserved;
+retained pairs: 31` ve iki continuation phase satırı var. Görünen altı eski
+ay (2023 Ağustos–Kasım, Haziran ve Mayıs) verified/reused; en son remaining_months
+aşamasında. Bu geri okuma yeni aylık üretim değildir; önceki 40 aylık
+günlük/katalog kabulü korunur. Görünen bölümde yeni pair/day veya hata satırı yok.
+
+Kaynak kullanıcı günlük bildirimi; canlı süreç, progress wrapper hash'i,
+yeni gerçek terminationTimestamp ve yeni ürün baytları bu çıktıda yok.
+Bağımsız VM/Drive erişimi yapılmadı. Sonraki kontrol seçilmiş progress alanları,
+launcher tail ve Python süreçleridir; ikinci üretim komutu çalıştırılmaz.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/startup_user_readback_20261012.json`;
+SHA-256 `c4518db6d02740d9e56108b474b32d0b31904eb487f59cb66edbc637713a74c0`.

@@ -265,6 +265,14 @@ SHA-256 `5ba23563b9cb3eb34a857405224bcb47a7016cbbe9225ad2cab1edd47b1f3daa`.
 97 test/25 hash aynı. Sınır: üretici tanısının yerel rapor kabulü; bağımsız
 canlı Drive/31 ZIP'in yerel bilimsel kabulü veya tarihsel 404 nedeni değil.
 
+E44 — 12 Ekim: [İlk V6 uzak başlangıç bildirimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#ilk-uzak-başlangıç-bildirimi--12-ekim).
+Kullanıcı günlük bölümünde V5 kanıtları/31 retained pair korunması ve altı
+eski ayın geri okunması var. Kanıt
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/startup_user_readback_20261012.json`;
+SHA-256 `c4518db6d02740d9e56108b474b32d0b31904eb487f59cb66edbc637713a74c0`.
+Sınır: kullanıcı launcher bildirimi; canlı süreç, progress hash/deadline ve
+yeni ürün/ay kabulü değil. Görünen hata satırı yok; genel hata yokluğu kanıtı değil.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

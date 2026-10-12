@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İlk V6 uzak başlangıç bildirimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#ilk-uzak-başlangıç-bildirimi--12-ekim):
+kullanıcı launcher çıktısında V5 kanıtları/31 retained pair korunmuş ve eski
+altı ay verified/reused. Son phase remaining_months, görünen hata veya yeni
+pair/day satırı yok. Önceki 40 aylık kabul korunur; yeni ürün/ay kabulü yok.
+Canlı süreç, uzak progress kod hash'i ve yeni deadline bu çıktıyla doğrulanmadı;
+sıradaki adım salt okunur progress/süreç kontrolü. Aşağıdaki V6 hazırlık kaydı
+bu uzak başlangıç bildiriminden önceki durumu anlatır.
+
 [Drive tanı geri okuması ve V6 devam hazırlığı](GCP_DRIVE_RESUME_V6_2026-10-12.md):
 tanıda OAuth/klasör/listing başarılı, 361,60 GB boş hesap alanı ve protected
 hash'ler aynı. 31 hazır ZIP: 30 yayımlanmamış / bir payload completion olmadan
