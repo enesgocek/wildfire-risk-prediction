@@ -42,6 +42,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Tarama zamanı hatası ve dar düzeltme](GCP_SCAN_TIME_FIX_2026-10-10.md) | Gerçek kaynakta tarih çözümleme ValueError'ı, nanosaniye karşılaştırması ve salt okunur parser kabul denemesi |
 | [13 saatlik V4 devam hazırlığı](GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md) | Kabul edilmiş V3 durumundan geçiş, 13 saat STOP ayarı ve süre rezervleri |
 | [V4 hata denetimi ve 18 saatlik V5](GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md) | 40 ayın günlük/katalog kontrolü, incelenmiş tanı koruma ve sınırlı ReadTimeout denemesi |
+| [Drive tanısı ve V6 devamı](GCP_DRIVE_RESUME_V6_2026-10-12.md) | 31 hazır ZIP'in rapor geri okuması, exact V5 geçişi, yalnız metadata GET için sınırlı tekrar ve 18 saatlik başlatma |
 | [Doğrulanmış parser ile V3 devam](GCP_SOURCE_AWARE_V3_2026-10-10.md) | Gerçek kaynakta tam scan kabulü, açık çalışma zamanı provenance'ı, incelenmiş tanı arşivi ve uzun oturuma dönüş |
 
 ## Klasör sorumlulukları

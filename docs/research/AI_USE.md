@@ -292,6 +292,17 @@ iddia edilmedi. Uzak üretim başlatılmadı; bilimsel kod, checkpoint anahtarla
 ve negatif etiket kapısı değişmedi. Geçici test erişim sorunları yerel test
 ortamıyla giderildi; başarılı test sayıları kapsamlarıyla raporlandı.
 
+## Drive tanı geri okuması ve V6 — 12 Ekim
+
+Araç desteği gerçek tanı JSON'unun hash/katalog/sayımları ve kapsamlarının
+kontrolü ile V6'nın hazırlanması/test edilmesinde kullanıldı. Mevcut erişimin
+başarısı geçmiş 404'ün kesin nedenine çevrilmedi. Yetim payload completion
+olmadan tamamlandı sayılmadı. Bilimsel kod/kimlikler, kaynak ertelemesi ve
+negatif etiket kapısı korundu; metadata okuma için sınırlı tekrar ve exact
+tanı/final geçişi ayrı sürümde değerlendirildi. 97 test ve 25 korunan dosya
+kontrolü yöntem/kapsamıyla kaydedildi. Yeni uzak üretim başlatılmadı;
+başlatma talimatı kullanıcıya yeni gerçek deadline gereksinimiyle verildi.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

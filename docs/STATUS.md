@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Drive tanı geri okuması ve V6 devam hazırlığı](GCP_DRIVE_RESUME_V6_2026-10-12.md):
+tanıda OAuth/klasör/listing başarılı, 361,60 GB boş hesap alanı ve protected
+hash'ler aynı. 31 hazır ZIP: 30 yayımlanmamış / bir payload completion olmadan
+mevcut; Temmuz 18–21. Çocuk hatası yok. Tarihsel 404'ün kesin dosya/nedeni
+açık; yeni bilimsel ürün kabulü yok. V6 exact final/tanı/31 ZIP'i kontrol
+ederek geçiş yapar, yalnız aynı metadata GET 404'e en çok üç ek deneme ekler;
+upload/create tekrarı yok. 97 test ve 25 donmuş dosya hash'i geçti. VM Stop
+teyitli; yeni V6 uzak üretimi başlatılmadı. 18 saat/rezerv/poweroff, önceki
+40 ay ve Aralık 31 ertelemesi korunur. Aşağıdaki tanı hazırlığı bu yeni
+geri okumadan önceydi.
+
 [V5 gerçek arşiv kabulü ve Drive tanısı hazırlığı](GCP_V5_EARLY_STOP_2026-10-12.md#gerçek-arşiv-kontrolü-ve-salt-okunur-tanı-hazırlığı):
 beş üyeli arşiv/üç aynı final/V5 ve donmuş paket kimlikleri doğrulandı.
 40 tam ay, Temmuz 1–17 kapanışı, 156 yeni çift ve 18 Temmuz'da 5/8 çift

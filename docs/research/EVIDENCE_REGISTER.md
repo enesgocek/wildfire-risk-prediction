@@ -255,6 +255,16 @@ Sınır: günlük/katalog
 kabulü, örneklenmiş kaynak kullanımı; uzak ürün bayt kabulü, canlı Drive
 kontrolü veya tarihsel dosya/404 nedeninin tespiti değildir.
 
+E43 — 12 Ekim: [Drive tanısı ve V6 devam hazırlığı](../GCP_DRIVE_RESUME_V6_2026-10-12.md).
+Rapor hash'i/katalogla eşleşen 31 hazır ZIP; 30 not_published / bir
+payload_without_completion; protected hash'ler aynı, mevcut erişim başarılı.
+Kanıt `outputs/gcp_acceleration/source_aware_v5_18h_2026-10-11/drive_probe_readback_20261012.json`;
+SHA-256 `e5dcfdf63931c786f1e50ba1720865104caf8a31f9eee6d4194a75b3c4668112`.
+V6 hazırlığı `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/prepared_readback_v2.json`;
+SHA-256 `5ba23563b9cb3eb34a857405224bcb47a7016cbbe9225ad2cab1edd47b1f3daa`.
+97 test/25 hash aynı. Sınır: üretici tanısının yerel rapor kabulü; bağımsız
+canlı Drive/31 ZIP'in yerel bilimsel kabulü veya tarihsel 404 nedeni değil.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
