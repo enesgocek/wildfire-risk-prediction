@@ -179,3 +179,27 @@ Google API üzerinden yeni bir bağımsız scheduling kontrolü yapılmadı.
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012.json`;
 SHA-256 `68c3e0a7c0544210d2f10b9546dc67fa330bc474b702f3faf2e1d1a8ea8267cb`.
 Devam komutu ikinci kez çalıştırılmadı; kuyruk ayarları değiştirilmedi.
+
+## 48 aylık uzak ilerleme bildirimi — 12 Ekim
+
+Kullanıcının yeni SSH çıktısında doğru V6 hash'i, `running`, hata/failed
+month/failed phase alanlarında None var. Supervisor PID 1683, PPID 1;
+8 saat 20 dakika 27 saniyedir aktif ve 18 çocuk süreç görünür. Bu çağrıda
+2.115 çift işlenmiş, beş çift yeniden kullanılmış; bunlar ay sayısı değildir.
+Tam ay sayısı üretici progress'inde 48. Launcher Kasım 2019 çiftlerini
+işliyor; görünen son günlük kapanış 11 Kasım. Tam ayların isim listesi
+bu bildirime dahil değil; listesi veya yeni ürün baytları bağımsız kabul edilmedi.
+
+72 eğitim ayı hedefinde üreticinin tam-ay sayacı 48/72, yaklaşık %66,7'dir.
+Günlük/aylık işlenmiş kayıtlar bilimsel etiket veya model kabulü değildir.
+31 Aralık 2023 kaynak ertelemesi önceki protokolden korunur; bu çıktıda
+çözüldüğüne dair kanıt yok. Tek snapshot'tan kalan tüm sürenin veya bu
+oturumda bitecek ayların güvenilir tahmini yapılmaz.
+
+Progress'in üst son sınırı yine **12 Ekim 21:13:37 Türkiye**; süre rezervi,
+hata veya erken tamamlanmada daha erken poweroff mümkündür. Kullanıcı
+bildiriminin gözlem saati yok; yerel kayıt saati uzak ölçüm zamanı değildir.
+Yeni bağımsız VM/Drive sorgusu, tekrar başlatma veya ayar değişikliği yapılmadı.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012T083704Z.json`;
+SHA-256 `c9e0c28b60a022506e92f212e2313a325996830ba18121b34a423f87e8c65c73`.

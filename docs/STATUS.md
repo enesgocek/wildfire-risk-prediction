@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 uzak ilerleme: 48 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#48-aylık-uzak-ilerleme-bildirimi--12-ekim):
+kullanıcının SSH çıktısında running/doğru V6 hash'i ve hata alanları None.
+Tam ay sayacı 48/72; Kasım 2019 işleniyor, görünen son kapanış 11 Kasım.
+Bu çağrıda 2.115 yeni/beş yeniden kullanılan çift, aktif supervisor ve
+çocuklar var. Üst sınır 12 Ekim 21:13:37 Türkiye; Aralık 31 ertelemesi
+korunur. Uzak günlük/katalog kanıtıdır; yeni yerel ürün bayt kabulü değil.
+
 [Eğitim bitki örtüsü kuyruğu tamamlandı](VEGETATION_TRAINING_COMPLETE_2026-10-12.md):
 12 Ekim 09:49:26 Türkiye'de selected_training_range_verified; 2018–2023
 72 ayın tamamı hazır. Son çağrıda 62 eski ay geri okundu, kalan 10 ay

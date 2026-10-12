@@ -333,6 +333,16 @@ SHA-256 `1d6352218200992dbc05323fcf29ae802da070af4e04fe1a0dda90d9ba9374c5`.
 Sınır: aday özellik dosya bütünlüğü ve üretim aylık kabulü; yeni bağımsız
 bilimsel hesaplama/saha doğrulaması, etiket, model veya 2024 kabulü değil.
 
+E51 — 12 Ekim: [V6 48 aylık ilerleme bildirimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#48-aylık-uzak-ilerleme-bildirimi--12-ekim).
+Kaynak kullanıcı SSH progress/launcher/ps çıktısı: running/doğru hash,
+48 tam-ay sayacı, Kasım 2019/11 Kasım görünen kapanış, 2.115 yeni/beş
+yeniden kullanılan çift. Supervisor 8:20:27 ve 18 görünen çocuk süreç;
+hata alanları None. Kanıt
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012T083704Z.json`;
+SHA-256 `c9e0c28b60a022506e92f212e2313a325996830ba18121b34a423f87e8c65c73`.
+Uzak gözlem saati/tam ay listesi yok; bağımsız VM/Drive ve yerel ürün bayt
+kabulü değil. Aralık 31 ertelemesi, bilinmeyen gözlem/negatif etiket engeli korunur.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
