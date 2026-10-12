@@ -403,6 +403,20 @@ SHA-256 `0666075db8ba27974fe5c66632146980d0cac7392997cc2fbea57839d4d53149`.
 Sınır: kullanıcı uzak bildirimi; özgün kapanış arşivi ve yeni ürün baytlarının
 yerel kabulü bekleniyor. Bağımsız canlı VM/Drive sorgusu veya üretim yok.
 
+E57 — 12 Ekim: [V6 kapanış arşivi yerel denetimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#kapanış-arşivinin-yerel-denetimi--12-ekim).
+1.190.920 baytlık arşiv, beş güvenli üye ve üç eşit final. Donmuş paket/
+katalog, 4.829 yeni ve beş reused pair sayacı geçti; 18 yeni + 40 önceki
+referansla 58 tam ay. Ocak 1–11 kapalı; 12–15 günlerinde 33 pair pending.
+29.146 örnekte RAM/disk rezerv ihlali yok; tek negatif iowait ölçümü açık
+kaydedilip CPU özetinden dışlandı, ham CSV korunuyor. Aynı V6 devam kimliği
+ve ikinci hash/yanlış durum kontrolleri geçti. Kanıt dizini
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/`;
+`session_log_readback_20261012.json` SHA-256
+`a47aec42c6df357c6284625ddeb09de2909ae82b6d5489ef049182d586b5ba2a`.
+Arşiv SHA-256 `bdca0bccabdc580cf7f0010983985d85066ed97a042370d5d3956b9c5d6ab509`.
+Sınır: günlük/katalog kabulü; bilimsel ürün baytları ve canlı Drive yok.
+Kullanıcı indirme sonrası VM Stop teyidi verdi; üretim/VM ayarı değişmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

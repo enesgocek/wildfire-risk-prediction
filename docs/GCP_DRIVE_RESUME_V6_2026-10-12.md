@@ -283,3 +283,72 @@ zaman damgalı kapanış arşivine toplamaktır. İndirme dizini
 `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/received/` hazırlandı.
 Arşiv alındıktan sonra VM Stop durumunda tutulur; yerel kapanış/uyumluluk
 denetimi tamamlanmadan yeni üretim çağrısı başlatılmadı.
+
+## Kapanış arşivinin yerel denetimi — 12 Ekim
+
+Kullanıcı kapanış arşivini aktardı ve indirme sonrası VM Stop teyidi verdi.
+Dosya `received/gcp_v6_session_20261012T182437Z_logs.tar.gz`, 1.190.920 bayt;
+SHA-256 `bdca0bccabdc580cf7f0010983985d85066ed97a042370d5d3956b9c5d6ab509`.
+Beş beklenen normal dosya, boyut/isim/tekrar sınırlarıyla bellekte okundu;
+diske kontrolsüz arşiv açılmadı. Üç final JSON aynı; gerçek progress,
+paused_at_runtime_reserve, V6/adapter/proof/registry kimlikleri ve unknown/
+negative=false/full_training_complete=false sınırlarını doğruladı.
+
+Donmuş üretim paketi ve controller üyelerinin hash'leri, 18.711 nominal
+çift kataloğu ve bütün yeni pair log kimlikleri eşleşti. 4.829 pair satırı
+işlenmiş sayaçla, beş katalogdan türetilmiş reused pair de ilgili sayaçla
+eşleşti. 39 yeniden kullanılan ay + başlangıç referansı Temmuz 2023 +
+18 yeni kapanmış ay, finaldeki 58 ayı oluşturuyor. Yeni kapanmış dönem
+Şubat 2019–Temmuz 2020. 541 DAY COMMITTED satırının tamamı progress'te var;
+588 progress günü, önceki Temmuz 2020'nin 1–17 günleri ve Aralık 2023'ün
+1–30 günleriyle birlikte tutuluyor. Bu nedenle 588 günün tamamı yeni bu
+oturumda üretilmiş sayılmadı.
+
+Ocak 2019'un 1–11 günleri kapanmış. 12–15 Ocak için sırasıyla 9/8/8/8
+pair satırı, günlük nominal çift sayılarıyla eşleşiyor; bu 33 çift günlük
+commit olmadan tamamlanmış gün sayılmadı. Tam kapanmamış 14 ay ve 31 Aralık
+2023 ertelemesi korunuyor. Kaynak katalog/liste kabulü, bütün bilimsel
+checkpoint ve Drive ürün baytlarının yerel kabulü değildir.
+
+Kaynak CSV'sinde 29.146 örnek var; son örnek 63.453,644 saniye. Tüm
+örneklerde en az 9,94 GiB boş disk, 111,31 GiB kullanılabilir RAM;
+süreç ağacı RSS tepe değeri 11,68 GiB. Örneklenen 4 GiB rezerv ihlali yok.
+Tek örneğin iowait yüzdesi negatif: CSV satırı 12.246, -0,232. Tarihsel
+denetçinin bütün alanlarda negatif olmama kontrolü bu nedenle geçmedi;
+bulgu gizlenmedi ve ham CSV değiştirilmedi. Aynı iowait farkını kullanan
+CPU busy hesabını da etkileme ihtimali nedeniyle o örneğin tamamı CPU
+özetinden dışlandı. Kalan 29.145 örnekte ortalama CPU busy %13,92;
+bu ortalama geri okuma/metadata aşamalarını içerir ve işlemci darboğazı
+kanıtı değildir. RAM/disk rezerv özeti dışlanan örneği de içerir.
+
+Linux belgeleri /proc/stat iowait sayacının bazı koşullarda azalabileceğini
+belirtir; mevcut sampler wait farkını doğrudan yüzdeye çeviriyor. Bu,
+bulgu için olası açıklamadır; ham sayaçlar olmadan kesin neden belirlenmedi.
+[Linux /proc/stat belgesi](https://www.kernel.org/doc/html/latest/filesystems/proc.html#miscellaneous-kernel-statistics-in-proc-stat).
+Örnekleme bütün anları kapsamaz; üretim sampler'ı bu incelemede değiştirilmedi.
+
+Yerel denetimde tarihsel V3 okuyucunun yalnız V6 launcher/hash kimliği
+ve 18 saate uygun örnek sayısı sınırı bellekte uyarlandı. Eski okuyucu,
+canlı V6, paket ve kabul edilmiş dosyalar düzenlenmedi. İşlem ağ bağlantısı
+engellenerek yürütüldü. Denetim betiği ve rapor aynı çıktı dizininde:
+`audit_received_session.py`, `session_log_readback_20261012.json`.
+Rapor SHA-256 `a47aec42c6df357c6284625ddeb09de2909ae82b6d5489ef049182d586b5ba2a`.
+İkinci kontrol arşiv/üyelerin hash'lerini tekrar eşleştirdi; yanlış wrapper,
+failed durum ve negatif etiketi açma değişiklikleri reddedildi.
+`session_log_readback_crosscheck_20261012.json` bu kontrolü kaydeder.
+
+### Aynı sürümle sonraki 18 saatlik devam
+
+Gerçek final baytları aynı V6 reviewed_resume kimlik koşulunu geçti;
+yerel kaynak ve yükleme paketindeki V6 betiği aynı hash'te. Yeni sürüm
+veya dosya yükleme gerekmiyor. VM Start sonrası, mevcut başlatma
+bölümündeki Cloud Shell describe ile RUNNING, 64.800 saniye/STOP,
+automaticRestart=false ve yeni terminationTimestamp doğrulanır. Önceki
+12 Ekim deadline'ı tekrar kullanılmaz. Ardından aynı hash kontrollü
+komut yeni termination değeriyle yalnız bir kez çalıştırılır.
+
+Tamamlanmış aylar/çiftler tekrar doğrulanıp yeniden kullanılır. Gerçek
+VM checkpoint baytlarının ve güncel API erişiminin kontrolü başlatma
+guard'larına aittir; yerel günlük denetimi bunların yerine geçmez.
+Tamamlanma/rezerv/hata poweroff düzeni ve Free Trial sınırı korunur.
+Bu incelemede VM açılmadı ve üretim başlatılmadı.

@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 kapanış arşivinin yerel denetimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#kapanış-arşivinin-yerel-denetimi--12-ekim):
+beş dosya sınırı, üç eşit final, donmuş paket/katalog, 4.829 çift satırı
+ve 58 tam-ay listesi geçti. Bu oturum 18 yeni ay kapatmış; 541 günlük
+kapanış satırı, 588 progress günü içinde 47 önceki günle birlikte tutuluyor.
+Ocak 2019 1–11 günleri kapanmış; 12–15 günlerinde 33 çift hazır, günlük
+kapanış bekliyor. Aynı V6 ile devam kimliği uygun; yeni dosya yüklemesi
+gerekmiyor. 29.146 kaynak örneğinde disk/RAM rezerv ihlali yok; tek negatif
+iowait örneği CPU özetinden dışlanıp açık kaydedildi. Yerel kabul günlük/
+katalog kapsamındadır; bilimsel ürün baytları ve canlı Drive denetlenmedi.
+Kullanıcı indirme sonrası VM Stop teyidi verdi. Yeni 18 saatlik devam
+için Start sonrası gerçek deadline/STOP ayarı kontrolü bekleniyor.
+
 [V6 kontrollü oturum kapanışı: 58 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#kontrollü-oturum-kapanışı-58-ay--12-ekim):
 kullanıcı SSH çıktısı paused_at_runtime_reserve, doğru V6 hash'i ve
 Guest poweroff requested=True gösteriyor; hata/failed alanları None.
