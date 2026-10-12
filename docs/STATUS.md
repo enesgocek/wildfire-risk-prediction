@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Tam aylık aday özellik geri okuması](FEATURE_MONTH_READBACK_2026-10-12.md):
+hazır Ocak/Ağustos 2018 kaynaklarıyla 62 gün, 179.738 hücre-gün ve 27 aday
+özellik ayrı günlük parçalar halinde doğrulandı. 165 kaynak/yöntem hash'i
+aynı; 66 test, lint/format geçti. Eksikler korunuyor, etiket/nihai model
+kabulü yok. Yeni ağ/bulut işi açılmadı; çalışan kuyruklar değiştirilmedi.
+Bu çalışma tam dönem birleştirmesine hazırlıktır; nihai bilimsel kapılar açık.
+
+[Sonraki V6 süreç/progress bildirimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#sonraki-süreç-ve-progress-bildirimi--12-ekim):
+kullanıcının SSH çıktısında doğru V6 hash'i, running ve 53:52 süredir aktif
+PID 1683 var; 26 eski ay geri okunmuş, yeni çift sıfır ve hata alanları None.
+Progress son sınırı 12 Ekim 21:13:37 Türkiye. Önceki 40 aylık günlük/katalog
+kabulü korunur; bağımsız canlı API/Drive veya yeni ürün kabulü yapılmadı.
+Aşağıdaki ilk başlangıç kaydı bu yeni bildirimin öncesindedir.
+
 [İlk V6 uzak başlangıç bildirimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#ilk-uzak-başlangıç-bildirimi--12-ekim):
 kullanıcı launcher çıktısında V5 kanıtları/31 retained pair korunmuş ve eski
 altı ay verified/reused. Son phase remaining_months, görünen hata veya yeni

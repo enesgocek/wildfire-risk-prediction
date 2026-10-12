@@ -310,6 +310,22 @@ satırlarının hazırlanmış V6 akışıyla karşılaştırılmasında kullan�
 eski ay yeni üretim sayılmadı; süreç/progress hash/deadline görülmediği için
 bağımsız canlı kabul yapılmadı. Önceki 40 aylık kabul ve bilimsel sınırlar korunur.
 
+## Tam aylık özellik hazırlığı ve V6 bildirimi — 12 Ekim
+
+Araç desteği hazır kış/yaz eğitim aylarının kaynak kimliklerini okuyarak
+tam ay takvim manifesti ve bağımsız kaynak eşleştirme girişinin yazılması,
+test edilmesi ve iki gerçek ayda çalıştırılması için kullanıldı. 66 test
+ve 165 değişmeyen kaynak/yöntem hash'i kapsamıyla kaydedildi. CSV ondalık
+farkı önceki günlük pilotun toleransıyla değerlendirildi; kaynak değişimi,
+etiket ataması, canlı kod değişimi veya yeni dış veri isteği yapılmadı.
+İki ay bütün dönem/temsil edici örneklem veya model kabulü olarak sunulmadı.
+
+Kullanıcı V6 progress/süreç çıktısı ayrıca kayıtlandı; doğru hash,
+running/26 eski ay ve son zaman yorumu bağımsız canlı API kabulünden
+ayrıldı. Uzak işi ikinci kez başlatma veya bulut ayarı değişikliği yoktur.
+Bilimsel etiket/habitat/erişilebilirlik kararları araştırmacı ve danışman
+incelemesine açık kaldı; araç kullanımı kişisel saha çalışması gösterilmedi.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

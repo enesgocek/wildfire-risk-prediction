@@ -159,3 +159,23 @@ launcher tail ve Python süreçleridir; ikinci üretim komutu çalıştırılmaz
 
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/startup_user_readback_20261012.json`;
 SHA-256 `c4518db6d02740d9e56108b474b32d0b31904eb487f59cb66edbc637713a74c0`.
+
+## Sonraki süreç ve progress bildirimi — 12 Ekim
+
+Kullanıcının sonraki SSH çıktısında doğru V6 hash'i
+`3e68a8088e2af1b0b6d1e247c72b26caa066e45143f11b52b8bd634ca7a8320c`,
+`running`, hata/failed month/failed phase alanlarında `None` bulunuyor.
+PID 1683, PPID 1, 53 dakika 52 saniyedir aktif. %74,9 süreç ömrü CPU
+ortalamasıdır; bütün VM kullanım yüzdesi değildir. Eski ayların 26'sı
+geri okunmuş; yeni ve çift düzeyinde yeniden kullanılan sayaçlar sıfır.
+Aylık yeniden kullanım çift sayaçlarına yeni işlem olarak eklenmez.
+
+Progress'teki son sınır `2026-10-12T18:13:37.135464Z`, Türkiye saatiyle
+**12 Ekim 21:13:37**. Süre rezervi/hata/erken tamamlanmada daha erken
+poweroff isteği mümkündür. Bu bilgi kullanıcı progress bildirimi;
+Google API üzerinden yeni bir bağımsız scheduling kontrolü yapılmadı.
+
+Önceki 40 aylık günlük/katalog kabulü azalmaz; yeni ürün bayt kabulü yok.
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012.json`;
+SHA-256 `68c3e0a7c0544210d2f10b9546dc67fa330bc474b702f3faf2e1d1a8ea8267cb`.
+Devam komutu ikinci kez çalıştırılmadı; kuyruk ayarları değiştirilmedi.

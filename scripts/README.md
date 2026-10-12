@@ -871,6 +871,24 @@ Ayrı `run_gcp_source_aware_continuation_v5.py`, yalnız incelenmiş V4 finalind
 geçiş ve sınırlı çift ReadTimeout denemesi ekler. Donmuş bilimsel/publish kodu
 değişmez. [18 saat/STOP, yükleme ve yeni deadline rehberi](../docs/GCP_EIGHTEEN_HOUR_CONTINUATION_2026-10-11.md).
 
+## Hazır eğitim ayında ağ kapalı özellik birleştirmesi
+
+`scripts/quality/verify_feature_month.py`, yalnız kabul edilmiş bir eğitim
+ayını günlük aday özellik/kalite parçalarına birleştirir. Ayın bitki örtüsü
+geri okuma yolu ve dışarıdan verilen SHA-256 kimliği zorunludur. Örnek:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/quality/verify_feature_month.py `
+  --month 2018-01 `
+  --vegetation-readback outputs/reports/landscape/month_v1/2018-01/queue_20261011t235657z_ebc6cb8b.json `
+  --expected-readback-sha256 13aefe410c6dd0e81e171e096575ca48593d0484d73d73433443191f31b4bdf4
+```
+
+Yeni çıktı dizini açılır; eski ürün üzerine yazılmaz. CLI ağ erişimini
+engeller ve 2024/2025 aylarını kaynak okumadan reddeder. Eksik değerler
+korunur; etiket, model, tam dönem veya yeni indirme işi üretmez.
+[İki ayın gerçek geri okuması ve sınırlar](../docs/FEATURE_MONTH_READBACK_2026-10-12.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten

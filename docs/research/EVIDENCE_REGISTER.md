@@ -1,6 +1,6 @@
 # Araştırma kanıt dizini
 
-Son editoryal güncelleme: 10 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
+Son editoryal güncelleme: 12 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
 buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gelmez.
 
 ## Kanıt düzeyleri
@@ -272,6 +272,24 @@ eski ayın geri okunması var. Kanıt
 SHA-256 `c4518db6d02740d9e56108b474b32d0b31904eb487f59cb66edbc637713a74c0`.
 Sınır: kullanıcı launcher bildirimi; canlı süreç, progress hash/deadline ve
 yeni ürün/ay kabulü değil. Görünen hata satırı yok; genel hata yokluğu kanıtı değil.
+
+E45 — 12 Ekim: [V6 süreç/progress bildirimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#sonraki-süreç-ve-progress-bildirimi--12-ekim).
+Kullanıcı SSH çıktısında doğru V6 hash'i, running, PID 1683/53:52,
+26 eski ay, sıfır yeni çift ve hata alanları None. Progress son sınırı
+12 Ekim 21:13:37 Türkiye. Kanıt
+`outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012.json`;
+SHA-256 `68c3e0a7c0544210d2f10b9546dc67fa330bc474b702f3faf2e1d1a8ea8267cb`.
+Sınır: kullanıcı bildirimi; bağımsız Google API/Drive veya yeni bilimsel
+ürün kabulü değildir. Aylık geri okuma yeni ham işleme sayılmaz.
+
+E46 — 12 Ekim: [Tam aylık aday özellik birleştirmesi](../FEATURE_MONTH_READBACK_2026-10-12.md).
+Ocak/Ağustos 2018: 62 gün, 179.738 hücre-gün ve 27 aday; ayrı kaynak
+değer/eksiklik geri okuması, 165 değişmeyen kaynak/yöntem hash'i ve 66 test.
+Kanıt `outputs/reports/dataset/feature_month_v1/two_month_readback_20261012.json`;
+SHA-256 `ba00e9b1b612094964a4b767b889b4699a477c72888fbcd4a71abe05fe2c98da`.
+Sınır: iki ay aday özellik kabulü; bütün dönem, saha doğrulaması, etiket,
+nihai habitat, operasyonel erişilebilirlik veya model başarısı değildir.
+Canlı kuyruklar ve bilimsel kapılar değiştirilmedi.
 
 ## Yeni kanıt ekleme
 

@@ -109,3 +109,17 @@ Bekleyen kanıt: çalışan kuyrukların kalan kaynakları ve bağımsız sonuç
 geri okuması; uzman/danışmanla habitat/olay vakalarının değerlendirmesi;
 NASA teknik teyidi; gözlem/negatif politikasının bilimsel kabulü. Bekleyen
 kanıtlar bu taslakta yapılmış gibi işaretlenmez.
+
+## 12 Ekim ilerlemesi — tam aylık özellik kabulü
+
+[Ocak ve Ağustos 2018'in tam ay birleştirmeleri](FEATURE_MONTH_READBACK_2026-10-12.md)
+takvim, anahtar, kaynak değerleri/eksikleri ve parça hash'leriyle geri okundu.
+Bu ilerleme 179.738 hücre-gün aday özellik hazırlığıdır; tam eğitim dönemi,
+nihai etiket veya habitat kabulü değildir. Önceki dört günlük pilotun
+tarihsel kaydı korunur. CSV pilotu için günlük okuyucu aynı kalmış, ayrı
+aylık manifest bütün takvimin eksiksizliğini denetlemiştir.
+
+Kuyruk bitmeden ilerleyebilen bu yöntem hazırlığı tamamlandı. Tam dönem
+etiketli teslim için yukarıdaki bilimsel kararlar, kalan aylık kaynak
+kabulleri ve 2024 doğrulama bileşenleri hâlâ gereklidir. Negatif kapısı
+ve tarihsel erişilebilirlik koşulları değiştirilmedi.
