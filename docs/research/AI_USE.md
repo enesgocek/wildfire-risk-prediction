@@ -385,7 +385,21 @@ onayı, manuel saha incelemesi, model başarısı veya makale kabulü uydurulmad
 Kod, dondurulmuş paket, etiket kapısı, 2025 final ve çalışan kuyruklarda
 değişiklik yapılmadı. Ayrıntılar tarihli literatür belgesi ve kaynak sicilindedir.
 
-## Resmî kaynak ve beyan
+## Literatür kimliğinin ikinci kontrolü — 12 Ekim 2026
+
+Kullanıcının halüsinasyon/gerçek kaynak endişesi üzerine araç desteği yalnız
+açık Crossref/DataCite DOI metadata, yayıncı/konferans, yazar/kurum kayıtları
+ve küçük Zenodo dosya envanteri okumalarında kullanıldı. Makale başlığı,
+yazar atfı, yayın yeri/yılı ve proje varlığı ayrı denetlendi. 34 kayıt
+mevcut; R18/R32'nin hakemli yayın durumları önceki listede doğrulanmamıştı,
+bu eksiklik tarihli notla düzeltildi. Üç DOI tamamlandı; R30'un çalıştay
+kabulü yazar beyanı olarak ayrıldı. Genel araştırma yönü yeniden onaylanmış
+sayılmadı. Kanıt kanalları metadata sağlayıcılarının/yazarların bildirimidir;
+bağımsız bilimsel tekrar, bütün yazarların biyografik incelemesi veya sonuç
+doğruluğu garantisi olarak sunulmadı. Ham özel veri, token veya bağlantı
+JSON'u okunmadı/gönderilmedi; canlı bilimsel kod ve kuyruklar değişmedi.
+
+## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
 uygunluk sorumluluğunu başvuru sahiplerinde tutar. Proje hazırlığında önemli

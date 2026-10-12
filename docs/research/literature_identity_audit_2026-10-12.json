@@ -1,0 +1,1165 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-12",
+  "scope": "Önceki 34 kaydın varlığı, yazar atfı ve yayın/ürün statüsünün ikinci kontrolü",
+  "method_limit": "Crossref/DataCite metadata yayıncı/yazar bildirimlerinden gelir; ikinci kayıt kanalıdır, bağımsız deney veya ayrı gerçeklik incelemesi değildir. Web erişimi başarısız olduğunda birincil indeks kaydı/kurumsal kopya ayrılır.",
+  "summary": {
+    "selected_records": 34,
+    "existence_confirmed": 34,
+    "registered_records": 30,
+    "crossref_record_ids": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R06",
+      "R07",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R17",
+      "R18",
+      "R20",
+      "R21",
+      "R22",
+      "R24",
+      "R25",
+      "R26",
+      "R27",
+      "R32"
+    ],
+    "fabricated_title_or_author_mismatch_found": 0,
+    "publication_status_updates": 2,
+    "doi_fields_completed": 3,
+    "workshop_evidence_level_clarifications": 1,
+    "not_independent_experiment_replication": true
+  },
+  "corrections": [
+    {
+      "id": "R15",
+      "before": "DOI alanı boş",
+      "after": "10.1109/TGRS.2022.3192974",
+      "kind": "eksik_bibliyografik_kimlik_tamamlama"
+    },
+    {
+      "id": "R17",
+      "before": "DOI alanı boş",
+      "after": "10.24963/ijcai.2019/636",
+      "kind": "eksik_bibliyografik_kimlik_tamamlama"
+    },
+    {
+      "id": "R18",
+      "before": "2024 arXiv; dergi durumu doğrulanmamış",
+      "after": "Scientific Data, 19 Kasım 2025; DOI 10.1038/s41597-025-06271-3",
+      "kind": "yayin_durumu_ve_yil_guncellemesi"
+    },
+    {
+      "id": "R21",
+      "before": "DOI alanı boş",
+      "after": "10.1109/SSP49050.2021.9513750",
+      "kind": "eksik_bibliyografik_kimlik_tamamlama"
+    },
+    {
+      "id": "R30",
+      "before": "kabul edilmiş çalıştay olarak kaydedilmiş",
+      "after": "arXiv Comments alanındaki yazar kabul bildirimi; ayrı program doğrulaması yapılmadı",
+      "kind": "kanit_duzeyi_aciklamasi"
+    },
+    {
+      "id": "R32",
+      "before": "arXiv sürümü; yayın yeri doğrulanmamış",
+      "after": "IEEE Transactions on Geoscience and Remote Sensing 61 (2023); DOI 10.1109/TGRS.2023.3285401",
+      "kind": "yayin_durumu_guncellemesi"
+    }
+  ],
+  "records": [
+    {
+      "id": "R01",
+      "source_url": "https://doi.org/10.1139/er-2020-0019",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://doi.org/10.1139/er-2020-0019",
+        "https://api.crossref.org/works/10.1139%2Fer-2020-0019",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2003.00646"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2020,
+      "verified_authors": [
+        "Piyush Jain",
+        "Sean C.P. Coogan",
+        "Sriram Ganapathi Subramanian",
+        "Mark Crowley",
+        "Steve Taylor",
+        "Mike D. Flannigan"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1139/er-2020-0019",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2020,
+            12
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R02",
+      "source_url": "https://doi.org/10.1016/j.isprsjprs.2025.06.002",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.isprsjprs.2025.06.002",
+        "https://api.crossref.org/works/10.1016%2Fj.isprsjprs.2025.06.002"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2025,
+      "verified_authors": [
+        "Zhengsen Xu",
+        "Jonathan Li",
+        "Sibo Cheng",
+        "Xue Rui",
+        "Yu Zhao",
+        "Hongjie He",
+        "Haiyan Guan",
+        "Aryan Sharma",
+        "Matthew Erxleben",
+        "Ryan Chang",
+        "Lincoln Linlin Xu"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-8116-0334",
+        "https://orcid.org/0000-0002-4230-2467",
+        "https://orcid.org/0000-0003-3839-5821",
+        "https://orcid.org/0009-0007-5007-4867",
+        "https://orcid.org/0009-0006-2529-7981",
+        "https://orcid.org/0009-0002-6436-0059",
+        "https://orcid.org/0000-0002-3488-5199"
+      ],
+      "registered_doi": "10.1016/j.isprsjprs.2025.06.002",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R03",
+      "source_url": "https://publications.beyond-eocenter.eu/DISASTERS/Estimating_Next%20Day_s%20Forest%20Fire%20Risk.pdf",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://publications.beyond-eocenter.eu/DISASTERS/Estimating_Next%20Day_s%20Forest%20Fire%20Risk.pdf",
+        "https://api.crossref.org/works/10.3390%2Frs14051222",
+        "https://riskmap.beyond-eocenter.eu/"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2022,
+      "verified_authors": [
+        "Alexis Apostolakis",
+        "Stella Girtsou",
+        "Giorgos Giannopoulos",
+        "Nikolaos S. Bartsotas",
+        "Charalampos Kontoes"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-8650-1783"
+      ],
+      "registered_doi": "10.3390/rs14051222",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            2
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R04",
+      "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099368",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099368",
+        "https://api.crossref.org/works/10.1029%2F2022GL099368"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2022,
+      "verified_authors": [
+        "Spyros Kondylatos",
+        "Ioannis Prapas",
+        "Michele Ronco",
+        "Ioannis Papoutsis",
+        "Gustau Camps‐Valls",
+        "María Piles",
+        "Miguel‐Ángel Fernández‐Torres",
+        "Nuno Carvalhais"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-0949-8592",
+        "https://orcid.org/0000-0002-9111-4112",
+        "https://orcid.org/0000-0002-2160-2452",
+        "https://orcid.org/0000-0002-2845-9791",
+        "https://orcid.org/0000-0003-1683-2138",
+        "https://orcid.org/0000-0002-1169-3098",
+        "https://orcid.org/0000-0002-0801-199X",
+        "https://orcid.org/0000-0003-0465-1436"
+      ],
+      "registered_doi": "10.1029/2022gl099368",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            7
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R05",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/9ee3ed2dd656402f954ef9dc37e39f48-Paper-Datasets_and_Benchmarks.pdf",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/9ee3ed2dd656402f954ef9dc37e39f48-Paper-Datasets_and_Benchmarks.pdf",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2306.05144",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ee3ed2dd656402f954ef9dc37e39f48-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "publication_status": "hakemli_konferans_veri_kumesi",
+      "verified_year": 2023,
+      "verified_authors": [
+        "Kondylatos, Spyros",
+        "Prapas, Ioannis",
+        "Camps-Valls, Gustau",
+        "Papoutsis, Ioannis"
+      ],
+      "registered_doi": "10.48550/arxiv.2306.05144",
+      "registered_publication_year": 2023,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors",
+      "name_variant_note": "NeurIPS: Spyridon; arXiv/diğer yayınlar: Spyros Kondylatos. Soyadı ve ortak yazarlar eşleşir."
+    },
+    {
+      "id": "R06",
+      "source_url": "https://publikationen.bibliothek.kit.edu/1000192822/180149145",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://publikationen.bibliothek.kit.edu/1000192822/180149145",
+        "https://api.crossref.org/works/10.1088%2F3049-4753%2Fae5aa0",
+        "https://publikationen.bibliothek.kit.edu/1000192822"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Pauline Becker",
+        "Carolina Natel",
+        "Peer Nowack"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0009-0009-6298-1258",
+        "https://orcid.org/0000-0003-3103-6789",
+        "https://orcid.org/0000-0003-4588-7832"
+      ],
+      "registered_doi": "10.1088/3049-4753/ae5aa0",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            28
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R07",
+      "source_url": "https://www.nature.com/articles/s41467-025-58097-7",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-025-58097-7",
+        "https://api.crossref.org/works/10.1038%2Fs41467-025-58097-7",
+        "https://www.ecmwf.int/en/about/media-centre/news/2025/scientists-present-new-ml-tool-improved-fire-prediction"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2025,
+      "verified_authors": [
+        "Francesca Di Giuseppe",
+        "Joe McNorton",
+        "Anna Lombardi",
+        "Fredrik Wetterhall"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0001-9829-0429",
+        "https://orcid.org/0000-0003-0783-0448",
+        "https://orcid.org/0000-0001-5331-9064"
+      ],
+      "registered_doi": "10.1038/s41467-025-58097-7",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            1
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R08",
+      "source_url": "https://www.weforum.org/publications/the-next-frontier-in-fighting-wildfires-fireaid-pilot-and-scaling/",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.weforum.org/publications/the-next-frontier-in-fighting-wildfires-fireaid-pilot-and-scaling/",
+        "https://www.koc.com.tr/medya-merkezi/haberler/2023/koc-holding-orman-yanginlariyla-mucadele-projesiyle-davos-zirvesine-damga-vurdu",
+        "https://www.weforum.org/impact/artificial-intelligence-wildfire-prediction-and-prevention/"
+      ],
+      "publication_status": "kurumsal_rapor_hakemli_makale_degil",
+      "verified_year": 2023,
+      "verified_authors": [
+        "World Economic Forum",
+        "Koç Holding / KoçDigital",
+        "Deloitte"
+      ],
+      "evidence_method": "WEF ve Koç kurumsal duyuruları pilotun varlığını destekler; bağımsız başarı deneyi değil.",
+      "record_type": "kurumsal_proje_ve_rapor",
+      "author_attribution": "official_page_attribution",
+      "title_comparison": "official_record_match"
+    },
+    {
+      "id": "R09",
+      "source_url": "https://www.nature.com/articles/s41598-026-68923-7",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41598-026-68923-7",
+        "https://api.crossref.org/works/10.1038%2Fs41598-026-68923-7"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Ali Akdagli"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0003-3312-992X"
+      ],
+      "registered_doi": "10.1038/s41598-026-68923-7",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            16
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R10",
+      "source_url": "https://doi.org/10.1016/j.ecoinf.2022.101647",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.ecoinf.2022.101647",
+        "https://api.crossref.org/works/10.1016%2Fj.ecoinf.2022.101647"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2022,
+      "verified_authors": [
+        "Muzaffer Can Iban",
+        "Aliihsan Sekertekin"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1016/j.ecoinf.2022.101647",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2022,
+            7
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R11",
+      "source_url": "https://www.mdpi.com/2072-4292/16/15/2842",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.mdpi.com/2072-4292/16/15/2842",
+        "https://api.crossref.org/works/10.3390%2Frs16152842"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2024,
+      "verified_authors": [
+        "Muzaffer Can Iban",
+        "Oktay Aksu"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-3341-1338",
+        "https://orcid.org/0000-0001-5584-6079"
+      ],
+      "registered_doi": "10.3390/rs16152842",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            2
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R12",
+      "source_url": "https://link.springer.com/article/10.1007/s00477-025-03136-4",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s00477-025-03136-4",
+        "https://api.crossref.org/works/10.1007%2Fs00477-025-03136-4"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Hasan Tonbul",
+        "Sander Veraverbeke"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0003-4817-6542",
+        "https://orcid.org/0000-0003-1362-5125"
+      ],
+      "registered_doi": "10.1007/s00477-025-03136-4",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R13",
+      "source_url": "https://iforest.sisef.org/contents/?id=ifor4321-016",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://iforest.sisef.org/contents/?id=ifor4321-016",
+        "https://api.crossref.org/works/10.3832%2Fifor4321-016"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2024,
+      "verified_authors": [
+        "M Göltas",
+        "H Ayberk",
+        "O Kücük"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.3832/ifor4321-016",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            29
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R14",
+      "source_url": "https://www.nature.com/articles/s41598-026-52395-w",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41598-026-52395-w",
+        "https://api.crossref.org/works/10.1038%2Fs41598-026-52395-w"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Ahmed A. Radhi",
+        "Abdullahi A. Ibrahim"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1038/s41598-026-52395-w",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            13
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R15",
+      "source_url": "https://arxiv.org/abs/2112.02447",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2112.02447",
+        "https://api.crossref.org/works/10.1109%2FTGRS.2022.3192974",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2112.02447"
+      ],
+      "publication_status": "hakemli_dergi_surumune_ait_yazar_onbaskisi",
+      "verified_year": 2022,
+      "verified_authors": [
+        "Fantine Huot",
+        "R. Lily Hu",
+        "Nita Goyal",
+        "Tharun Sankar",
+        "Matthias Ihme",
+        "Yi-Fan Chen"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-1674-8852",
+        "https://orcid.org/0000-0002-0557-0972"
+      ],
+      "registered_doi": "10.1109/tgrs.2022.3192974",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R16",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2023/file/ebd545176bdaa9cd5d45954947bd74b7-Paper-Datasets_and_Benchmarks.pdf",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://papers.nips.cc/paper_files/paper/2023/file/ebd545176bdaa9cd5d45954947bd74b7-Paper-Datasets_and_Benchmarks.pdf",
+        "https://papers.nips.cc/paper_files/paper/2023/hash/ebd545176bdaa9cd5d45954947bd74b7-Abstract-Datasets_and_Benchmarks.html",
+        "https://github.com/SebastianGer/WildfireSpreadTS"
+      ],
+      "publication_status": "hakemli_konferans_veri_kumesi",
+      "verified_year": 2023,
+      "verified_authors": [
+        "Sebastian Gerard",
+        "Yu Zhao",
+        "Josephine Sullivan"
+      ],
+      "evidence_method": "Resmî NeurIPS program/yazar kaydı ve yazar deney deposu eşleşti.",
+      "record_type": "hakemli_konferans_veri_kumesi",
+      "author_attribution": "official_page_attribution",
+      "title_comparison": "official_record_match"
+    },
+    {
+      "id": "R17",
+      "source_url": "https://www.ijcai.org/proceedings/2019/0636.pdf",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.ijcai.org/proceedings/2019/0636.pdf",
+        "https://api.crossref.org/works/10.24963%2Fijcai.2019%2F636"
+      ],
+      "publication_status": "hakemli_konferans",
+      "verified_year": 2019,
+      "verified_authors": [
+        "David Radke",
+        "Anna Hessler",
+        "Dan Ellsworth"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.24963/ijcai.2019/636",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2019,
+            8
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R18",
+      "source_url": "https://www.nature.com/articles/s41597-025-06271-3",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41597-025-06271-3",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2412.11555",
+        "https://api.crossref.org/works/10.1038/s41597-025-06271-3",
+        "https://kth.diva-portal.org/smash/person.jsf?faces-redirect=true&language=sv&pid=authority-person%3A103467&searchType=LIST_LATEST"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2025,
+      "verified_authors": [
+        "Yu Zhao",
+        "Sebastian Gerard",
+        "Yifang Ban"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-4230-2467"
+      ],
+      "registered_doi": "10.1038/s41597-025-06271-3",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            19
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R19",
+      "source_url": "https://arxiv.org/html/2603.09042v1",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://arxiv.org/html/2603.09042v1",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2603.09042"
+      ],
+      "publication_status": "onbaski_hakemli_kabul_dogrulanmadi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Yang, Chen",
+        "Zafari, Mehdi",
+        "Duan, Ziheng",
+        "Swindlehurst, A. Lee"
+      ],
+      "registered_doi": "10.48550/arxiv.2603.09042",
+      "registered_publication_year": 2026,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R20",
+      "source_url": "https://www.nature.com/articles/s43247-026-03692-9",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s43247-026-03692-9",
+        "https://api.crossref.org/works/10.1038%2Fs43247-026-03692-9"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Yoojin Kang",
+        "Sihyun Lee",
+        "Dongjin Cho",
+        "Jungho Im"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0003-3006-6994",
+        "https://orcid.org/0009-0009-5230-451X",
+        "https://orcid.org/0000-0002-4506-6877"
+      ],
+      "registered_doi": "10.1038/s43247-026-03692-9",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            28
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R21",
+      "source_url": "https://arxiv.org/abs/2103.13555",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2103.13555",
+        "https://api.crossref.org/works/10.1109%2FSSP49050.2021.9513750",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2103.13555",
+        "https://hsong1.github.io/publications/"
+      ],
+      "publication_status": "konferans_kaydi_dogrulandi_incelenen_surum_yazar_ozeti",
+      "verified_year": 2021,
+      "verified_authors": [
+        "Hyebin Song",
+        "Garvesh Raskutti",
+        "Rebecca Willett"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1109/ssp49050.2021.9513750",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            11
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R22",
+      "source_url": "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2021.622307/full",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2021.622307/full",
+        "https://api.crossref.org/works/10.3389%2Ffeart.2021.622307"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2021,
+      "verified_authors": [
+        "Zeeshan Shirazi",
+        "Lei Wang",
+        "Valery G. Bondur"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.3389/feart.2021.622307",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            9
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R23",
+      "source_url": "https://proceedings.mlr.press/v258/teisseyre25a.html",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v258/teisseyre25a.html",
+        "https://home.ipipan.waw.pl/p.teisseyre/PUBLICATIONS/index.html"
+      ],
+      "publication_status": "hakemli_konferans",
+      "verified_year": 2025,
+      "verified_authors": [
+        "Paweł Teisseyre",
+        "Timo Martens",
+        "Jessa Bekker",
+        "Jesse Davis"
+      ],
+      "evidence_method": "PMLR kayıt ve ICS PAS yazar yayın listesi eşleşti.",
+      "record_type": "hakemli_konferans",
+      "author_attribution": "official_page_attribution",
+      "title_comparison": "official_record_match"
+    },
+    {
+      "id": "R24",
+      "source_url": "https://geog.umd.edu/node/10891",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://geog.umd.edu/node/10891",
+        "https://api.crossref.org/works/10.1016%2Fj.rse.2013.12.008"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2014,
+      "verified_authors": [
+        "Wilfrid Schroeder",
+        "Patricia Oliva",
+        "Louis Giglio",
+        "Ivan A. Csiszar"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1016/j.rse.2013.12.008",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2014,
+            3
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R25",
+      "source_url": "https://essd.copernicus.org/articles/11/529/2019/",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://essd.copernicus.org/articles/11/529/2019/",
+        "https://api.crossref.org/works/10.5194%2Fessd-11-529-2019"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2019,
+      "verified_authors": [
+        "Niels Andela",
+        "Douglas C. Morton",
+        "Louis Giglio",
+        "Ronan Paugam",
+        "Yang Chen",
+        "Stijn Hantson",
+        "Guido R. van der Werf",
+        "James T. Randerson"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0002-8241-6143",
+        "https://orcid.org/0000-0001-6429-6910",
+        "https://orcid.org/0000-0002-0993-7081",
+        "https://orcid.org/0000-0003-4607-9204",
+        "https://orcid.org/0000-0001-9042-8630"
+      ],
+      "registered_doi": "10.5194/essd-11-529-2019",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            24
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R26",
+      "source_url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+        "https://api.crossref.org/works/10.1111%2Fecog.02881"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2017,
+      "verified_authors": [
+        "David R. Roberts",
+        "Volker Bahn",
+        "Simone Ciuti",
+        "Mark S. Boyce",
+        "Jane Elith",
+        "Gurutzeta Guillera‐Arroita",
+        "Severin Hauenstein",
+        "José J. Lahoz‐Monfort",
+        "Boris Schröder",
+        "Wilfried Thuiller",
+        "David I. Warton",
+        "Brendan A. Wintle",
+        "Florian Hartig",
+        "Carsten F. Dormann"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1111/ecog.02881",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            3
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R27",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+        "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2015,
+      "verified_authors": [
+        "Takaya Saito",
+        "Marc Rehmsmeier"
+      ],
+      "public_author_orcid": [],
+      "registered_doi": "10.1371/journal.pone.0118432",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2015,
+            3,
+            4
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R28",
+      "source_url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v70/guo17a.html",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.1706.04599"
+      ],
+      "publication_status": "hakemli_konferans",
+      "verified_year": 2017,
+      "verified_authors": [
+        "Guo, Chuan",
+        "Pleiss, Geoff",
+        "Sun, Yu",
+        "Weinberger, Kilian Q."
+      ],
+      "registered_doi": "10.48550/arxiv.1706.04599",
+      "registered_publication_year": 2017,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R29",
+      "source_url": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://forest-fire.emergency.copernicus.eu/applications/data-and-services",
+        "https://confluence.ecmwf.int/spaces/CEMS/pages/382667784/CEMS-Fire%2BData%2Baccess"
+      ],
+      "publication_status": "resmi_urun_belgesi_guncel_erisim",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Copernicus Emergency Management Service / JRC",
+        "ECMWF"
+      ],
+      "evidence_method": "Bir makale değil; iki gerçek resmî servis belgesine verilmiş birleşik sicil etiketi.",
+      "record_type": "resmi_urun_belgesi",
+      "author_attribution": "official_page_attribution",
+      "title_comparison": "composite_service_label"
+    },
+    {
+      "id": "R30",
+      "source_url": "https://arxiv.org/abs/2111.02736",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2111.02736",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2111.02736"
+      ],
+      "publication_status": "calistay_kabulu_yazar_bildirimine_gore_onbaski",
+      "verified_year": 2021,
+      "verified_authors": [
+        "Prapas, Ioannis",
+        "Kondylatos, Spyros",
+        "Papoutsis, Ioannis",
+        "Camps-Valls, Gustau",
+        "Ronco, Michele",
+        "Fernández-Torres, Miguel-Ángel",
+        "Guillem, Maria Piles",
+        "Carvalhais, Nuno"
+      ],
+      "registered_doi": "10.48550/arxiv.2111.02736",
+      "registered_publication_year": 2021,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R31",
+      "source_url": "https://zenodo.org/records/6475592",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://zenodo.org/records/6475592",
+        "https://api.datacite.org/dois/10.5281%2Fzenodo.6475592",
+        "https://zenodo.org/api/records/6475592"
+      ],
+      "publication_status": "veri_kumesi_metadata",
+      "verified_year": 2022,
+      "verified_authors": [
+        "Prapas, Ioannis",
+        "Kondylatos, Spyros",
+        "Papoutsis, Ioannis"
+      ],
+      "registered_doi": "10.5281/zenodo.6475592",
+      "registered_publication_year": 2022,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors",
+      "zenodo_public_file_count": 1
+    },
+    {
+      "id": "R32",
+      "source_url": "https://ieeexplore.ieee.org/document/10149031/",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://ieeexplore.ieee.org/document/10149031/",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2212.08208",
+        "https://api.crossref.org/works/10.1109/TGRS.2023.3285401",
+        "https://rs.ipb.uni-bonn.de/publications/index.html"
+      ],
+      "publication_status": "hakemli_dergi",
+      "verified_year": 2023,
+      "verified_authors": [
+        "Mohamad Hakam Shams Eddin",
+        "Ribana Roscher",
+        "Juergen Gall"
+      ],
+      "public_author_orcid": [
+        "https://orcid.org/0000-0003-3136-4619",
+        "https://orcid.org/0000-0003-0094-6210",
+        "https://orcid.org/0000-0002-9447-3399"
+      ],
+      "registered_doi": "10.1109/tgrs.2023.3285401",
+      "registered_publication_date": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "evidence_method": "Crossref DOI kaydı ve yayıncı/yazar kaydı; varsa DataCite ek eşleşmesi",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R33",
+      "source_url": "https://arxiv.org/abs/2609.22191",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2609.22191",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2609.22191"
+      ],
+      "publication_status": "onbaski_hakemli_kabul_dogrulanmadi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Gopakumar, Arin",
+        "Pannozzo, Marco"
+      ],
+      "registered_doi": "10.48550/arxiv.2609.22191",
+      "registered_publication_year": 2026,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    },
+    {
+      "id": "R34",
+      "source_url": "https://arxiv.org/abs/2605.03148",
+      "record_existence": "confirmed",
+      "experimental_results_independently_reproduced": false,
+      "person_check_scope": "Yayımlanmış/ön baskı kaydındaki akademik yazar atfı; biyografik kimlik veya bütün deneyleri kişisel olarak yürütme incelemesi değil.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2605.03148",
+        "https://api.datacite.org/dois/10.48550%2FarXiv.2605.03148"
+      ],
+      "publication_status": "onbaski_hakemli_kabul_dogrulanmadi",
+      "verified_year": 2026,
+      "verified_authors": [
+        "Funk, Jonas V."
+      ],
+      "registered_doi": "10.48550/arxiv.2605.03148",
+      "registered_publication_year": 2026,
+      "evidence_method": "DataCite DOI kaydı ve arXiv/Zenodo/resmî konferans kaydı",
+      "title_comparison": "normalized_match",
+      "author_attribution": "record_metadata_matches_reported_authors"
+    }
+  ]
+}

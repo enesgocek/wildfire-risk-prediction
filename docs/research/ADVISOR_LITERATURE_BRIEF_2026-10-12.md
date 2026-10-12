@@ -78,3 +78,8 @@ Bir Karşılaştırma**. Bu başlık ürün adını değiştiren karar değildir
 eklerde kullanılabilir. Tarama yapılandırılmış kapsam incelemesidir;
 Scopus/WoS/TR Dizin üzerinden eksiksiz sistematik derleme değildir.
 Makale veya destek kabulü garanti edilmez.
+
+İkinci kaynak kontrolü — 12 Ekim: 34 kaydın varlığı/yazar atfı doğrulandı;
+R18/R32 hakemli yayın durumu ve eksik bibliyografik kimlikler güncellendi.
+[Kanıt bağlantılı tablo](LITERATURE_IDENTITY_AUDIT_2026-10-12.md) eklenmiştir.
+Bu kontrol bildirilen deney başarılarının bağımsız tekrarı değildir.

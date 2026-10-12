@@ -13,6 +13,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [ROADMAP.md](ROADMAP.md) | Aşamalar ve kabul ölçütleri |
 | [Araştırma planı](research/RESEARCH_PLAN.md) | Araştırma sorusu, deney tasarımı ve açık konular |
 | [12 Ekim literatür incelemesi](research/LITERATURE_REVIEW_2026-10-12.md) | Yakın Türkiye/Akdeniz çalışmaları, görev ayrımı ve savunulabilir katkı önerisi |
+| [Literatür kimlik denetimi](research/LITERATURE_IDENTITY_AUDIT_2026-10-12.md) / [Makine okunur denetim](research/literature_identity_audit_2026-10-12.json) | 34 kaydın başlık/yazar/DOI veya kurum eşleşmesi; yayın durumu düzeltmeleri ve kanıt sınırları |
 | [Literatür kaynak sicili](research/literature_sources_2026-10-12.json) / [Arama kaydı](research/literature_search_log_2026-10-12.json) | 34 seçilmiş kayıt, yayın/erişim düzeyi, arama yöntemi ve sınırları |
 | [Makale yönü deney protokolü](research/ARTICLE_RESEARCH_PROTOCOL_2026-10-12.md) | Etiket denetimi, dört hipotez, ayrım/ölçüt ve kabul kapıları; öneri |
 | [Danışman literatür özeti](research/ADVISOR_LITERATURE_BRIEF_2026-10-12.md) | Görüşmede kullanılabilecek kısa karşılaştırma ve açık araştırma kararları |

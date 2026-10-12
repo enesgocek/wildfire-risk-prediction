@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Literatür kaynaklarının ikinci kontrolü](research/LITERATURE_IDENTITY_AUDIT_2026-10-12.md):
+34 kaydın tamamında gerçek yayın/ön baskı/veri/kurum kaydı ve yazar atfı
+bulundu; 30 kayıt DOI siciliyle de eşleşti. Uydurma başlık/yazar uyuşmazlığı
+saptanmadı. R18/R32'nin önceden doğrulanmamış hakemli yayın durumları
+güncellendi; üç DOI tamamlandı, R30 kabul beyanının kanıt düzeyi ayrıldı.
+Bu yayın kimliği denetimidir; bağımsız deney, bütün başarı iddiaları veya
+özgünlük doğrulaması değildir. Önceki inceleme tarihli düzeltme notuyla korunur.
+
 [Literatür incelemesi ve önerilen makale yönü](research/LITERATURE_REVIEW_2026-10-12.md):
 12 Ekim'de 34 seçilmiş kaynak/ürün kaydı, erişim düzeyleri, arama sınırları,
 danışman özeti ve hipotez/deney protokolü hazırlandı. Türkiye'de ve Akdeniz'de

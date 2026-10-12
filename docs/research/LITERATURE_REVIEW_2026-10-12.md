@@ -4,6 +4,13 @@
 24 saat içinde yeni olayın ilk aktif yangın tespiti. Bu belge kaynaklı araştırma
 değerlendirmesidir; model sonucu, danışman onayı veya yayın kabulü değildir.
 
+İkinci kontrol notu — 12 Ekim: [kaynak varlığı denetiminde](LITERATURE_IDENTITY_AUDIT_2026-10-12.md)
+34 kaydın yayın/ön baskı/veri/kurum varlığı ve yazar atfı doğrulandı.
+R18'in 2025 Scientific Data yayını ve R32'nin 2023 IEEE TGRS yayını
+sicile işlendi; önceki yayın-yeri belirsizliği burada açıklanarak düzeltildi.
+Üç eksik DOI tamamlandı; R30 çalıştay kabulünün yazar bildirimi olduğu
+ayrıldı. Bu kayıt kontrolü deneylerin bağımsız yeniden üretimi değildir.
+
 ## Temel sonuç
 
 **Yapay zekâ ile uydu ve meteoroloji verilerini birleştirip ertesi gün yangın
@@ -173,7 +180,7 @@ makine okunur sicildedir. Burada kısa görev ve çıkarım yer alır. Bir indek
 | [R15](https://arxiv.org/abs/2112.02447) | Huot, Hu, Goyal, Sankar, Ihme ve Chen, 2022 | ABD; mevcut yangının ertesi gün yayılımı | Önceden yanan alan girdisiyle yayılım tahmini, henüz başlamamış olayın ilk tespitini tahmin etmekten ayrıdır. |
 | [R16](https://papers.nips.cc/paper_files/paper/2023/file/ebd545176bdaa9cd5d45954947bd74b7-Paper-Datasets_and_Benchmarks.pdf) | Gerard, Zhao ve Sullivan, 2023 | ABD; VIIRS ve meteoroloji, devam eden yangın | 375 m yangın görüntüleri ve çoklu veriyle yayılım izlenir. Bulut/duman etiket sorunları belirtilir; yeni olay hedefi değildir. |
 | [R17](https://www.ijcai.org/proceedings/2019/0636.pdf) | Radke, Hessler ve Ellsworth, 2019 | Mevcut yangının çevresinde yayılım | CBS ve CNN ile ilerleme tahmini yapılır; yangın başlamadan risk haritası problemimizle aynı etiket değildir. |
-| [R18](https://arxiv.org/abs/2412.11555) | Zhao, Gerard ve Ban, 2024 | Uydu zaman serisi; tespit, izleme ve tahmin | Çok görevli zaman serisi veri kaydıdır. Ön baskıdaki yangın izleme/yayılım hedefleri günlük yeni olayla eşdeğer sayılmaz. |
+| [R18](https://www.nature.com/articles/s41597-025-06271-3) | Zhao, Gerard ve Ban, 2025; ön baskı 2024 | Uydu zaman serisi; tespit, izleme ve tahmin | Çok görevli zaman serisi veri kaydıdır. İncelenen yangın izleme/yayılım hedefleri günlük yeni olayla eşdeğer sayılmaz. |
 | [R19](https://arxiv.org/html/2603.09042v1) | Yang, Zafari, Duan ve Swindlehurst, 2026 | WildfireSpreadTS; kısmi gözlem altında yayılım | Eksik gözlemi yeniden kurma ve tahmin yaklaşımı vardır. Eksiklikle çalışmak yeni değildir; bizim ilk olay etiketi sorunumuz farklıdır. |
 | [R20](https://www.nature.com/articles/s43247-026-03692-9) | Kang, Lee, Cho ve Im, 2026 | Küresel FWI; 1 derece | ERA5 ve SEAS5 ile ileri FWI tahmini yapılır. Uzun ufukta meteorolojik tehlike, yerel yeni yangın olasılığı değildir. |
 | [R21](https://arxiv.org/abs/2103.13555) | Song, Raskutti ve Willett, 2021 | Algılanmayan yangın etiketleri; California örneği | PU-OMM olay ve algılama olasılığını birlikte ele alır. Eksik etiketi modellemek daha önce çalışılmıştır; varsayımlar ayrıca incelenmelidir. |
@@ -187,7 +194,7 @@ makine okunur sicildedir. Burada kısa görev ve çıkarım yer alır. Bir indek
 | [R29](https://forest-fire.emergency.copernicus.eu/applications/data-and-services) | Copernicus Emergency Management Service, ECMWF, 2026 | Avrupa yangın hava tehlikesi ve veri hizmetleri | FWI tahmin ve haritaları hazırdır; aynı tarihli ürün/sürüm karşılaştırılmalı, FWI olay olasılığı diye adlandırılmamalıdır. |
 | [R30](https://arxiv.org/abs/2111.02736) | Prapas ve ark., 2021 | Günlük yangın tehlikesi | Kondylatos 2022 ile ilişkili araştırma ailesidir; bağımsız tekrar deney gibi sayılmaz. |
 | [R31](https://zenodo.org/records/6475592) | Prapas, Kondylatos ve Papoutsis, 2022 | Yunanistan günlük 1 km veri küpü | Kondylatos/Prapas çalışma ailesinin veri kaydıdır; veri küpü oluşturmak tek başına özgünlük değildir. |
-| [R32](https://arxiv.org/abs/2212.08208) | Shams Eddin, Roscher ve Gall, 2023 | FireCube; konuma uyarlanmış normalizasyon | Model mimarisi düzeyinde iyileştirmeler zaten vardır; farklı mimari etiketi özgün bilimsel sonuç yerine geçmez. |
+| [R32](https://ieeexplore.ieee.org/document/10149031/) | Shams Eddin, Roscher ve Gall, 2023 | FireCube; konuma uyarlanmış normalizasyon | Model mimarisi düzeyinde iyileştirmeler zaten vardır; farklı mimari etiketi özgün bilimsel sonuç yerine geçmez. |
 | [R33](https://arxiv.org/abs/2609.22191) | Gopakumar ve Pannozzo, 2026 | WildfireSpreadTS; operasyonel ölçüt karşılaştırması | AP ve eşik tabanlı ölçütlerin model sıralamasını değiştirmesi incelenir. Yanlış alarm odaklı değerlendirme tek başına yeni değildir. |
 | [R34](https://arxiv.org/abs/2605.03148) | Funk, 2026 | WildfireSpreadTS; bölgesel belirsizlik ve kalibrasyon | Yangın çevresinde değerlendirme ve belirsizlik ele alınır; bilinmeyen alanı göstermek veya kalibrasyon tek başına yenilik değildir. |
 

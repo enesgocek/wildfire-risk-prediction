@@ -20,7 +20,10 @@
       "horizon": "Tarama",
       "study_family": "derleme",
       "access_date": "2026-10-12",
-      "venue": "Environmental Reviews"
+      "venue": "Environmental Reviews",
+      "identity_audit_id": "R01",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R02",
@@ -36,7 +39,10 @@
       "horizon": "Tarama",
       "study_family": "derleme",
       "access_date": "2026-10-12",
-      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing"
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "identity_audit_id": "R02",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R03",
@@ -53,7 +59,10 @@
       "study_family": "next_day_greece",
       "access_date": "2026-10-12",
       "publisher_url": "https://www.mdpi.com/2072-4292/14/5/1222",
-      "venue": "Remote Sensing"
+      "venue": "Remote Sensing",
+      "identity_audit_id": "R03",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R04",
@@ -69,7 +78,10 @@
       "horizon": "Ertesi gün",
       "study_family": "firecube_family",
       "access_date": "2026-10-12",
-      "venue": "Geophysical Research Letters"
+      "venue": "Geophysical Research Letters",
+      "identity_audit_id": "R04",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R05",
@@ -86,7 +98,10 @@
       "study_family": "mesogeos_family",
       "access_date": "2026-10-12",
       "arxiv_url": "https://arxiv.org/abs/2306.05144",
-      "venue": "NeurIPS Datasets and Benchmarks"
+      "venue": "NeurIPS Datasets and Benchmarks",
+      "identity_audit_id": "R05",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R06",
@@ -102,7 +117,10 @@
       "horizon": "Ertesi gün",
       "study_family": "mesogeos_family",
       "access_date": "2026-10-12",
-      "venue": "Machine Learning: Earth"
+      "venue": "Machine Learning: Earth",
+      "identity_audit_id": "R06",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R07",
@@ -119,7 +137,10 @@
       "study_family": "ecmwf_pof",
       "access_date": "2026-10-12",
       "evidence_url": "https://www.ecmwf.int/en/about/media-centre/news/2025/scientists-present-new-ml-tool-improved-fire-prediction",
-      "venue": "Nature Communications"
+      "venue": "Nature Communications",
+      "identity_audit_id": "R07",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R08",
@@ -136,7 +157,10 @@
       "study_family": "fireaid",
       "access_date": "2026-10-12",
       "evidence_url": "https://www.weforum.org/impact/artificial-intelligence-wildfire-prediction-and-prevention/",
-      "venue": "World Economic Forum report / official impact page"
+      "venue": "World Economic Forum report / official impact page",
+      "identity_audit_id": "R08",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R09",
@@ -152,7 +176,10 @@
       "horizon": "Bir gün",
       "study_family": "mersin_fwi",
       "access_date": "2026-10-12",
-      "venue": "Scientific Reports"
+      "venue": "Scientific Reports",
+      "identity_audit_id": "R09",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R10",
@@ -168,7 +195,10 @@
       "horizon": "Günlük ufuk doğrulanmadı",
       "study_family": "turkey_susceptibility",
       "access_date": "2026-10-12",
-      "venue": "Ecological Informatics"
+      "venue": "Ecological Informatics",
+      "identity_audit_id": "R10",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R11",
@@ -184,7 +214,10 @@
       "horizon": "Günlük ufuk doğrulanmadı",
       "study_family": "turkey_susceptibility",
       "access_date": "2026-10-12",
-      "venue": "Remote Sensing"
+      "venue": "Remote Sensing",
+      "identity_audit_id": "R11",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R12",
@@ -200,7 +233,10 @@
       "horizon": "Günlük ufuk doğrulanmadı",
       "study_family": "turkey_susceptibility",
       "access_date": "2026-10-12",
-      "venue": "Stochastic Environmental Research and Risk Assessment"
+      "venue": "Stochastic Environmental Research and Risk Assessment",
+      "identity_audit_id": "R12",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R13",
@@ -216,7 +252,10 @@
       "horizon": "Mekânsal olasılık haritası",
       "study_family": "turkey_susceptibility",
       "access_date": "2026-10-12",
-      "venue": "iForest"
+      "venue": "iForest",
+      "identity_audit_id": "R13",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R14",
@@ -232,7 +271,10 @@
       "horizon": "24 saat sözleşmesi doğrulanmadı",
       "study_family": "turkey_iot",
       "access_date": "2026-10-12",
-      "venue": "Scientific Reports"
+      "venue": "Scientific Reports",
+      "identity_audit_id": "R14",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R15",
@@ -240,7 +282,7 @@
       "authors": "Huot, Hu, Goyal, Sankar, Ihme ve Chen",
       "year": 2022,
       "publication_status": "hakemli_dergi_surumune_ait_yazar_onbaskisi",
-      "doi": null,
+      "doi": "10.1109/TGRS.2022.3192974",
       "primary_url": "https://arxiv.org/abs/2112.02447",
       "read_level": "yazar_ozeti_ve_metadata",
       "target": "ABD; mevcut yangının ertesi gün yayılımı",
@@ -248,7 +290,10 @@
       "horizon": "Ertesi gün",
       "study_family": "spread_datasets",
       "access_date": "2026-10-12",
-      "venue": "IEEE Transactions on Geoscience and Remote Sensing; inspected author version"
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing; inspected author version",
+      "identity_audit_id": "R15",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R16",
@@ -264,7 +309,10 @@
       "horizon": "24 saatlik yayılım",
       "study_family": "spread_datasets",
       "access_date": "2026-10-12",
-      "venue": "NeurIPS Datasets and Benchmarks"
+      "venue": "NeurIPS Datasets and Benchmarks",
+      "identity_audit_id": "R16",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R17",
@@ -272,7 +320,7 @@
       "authors": "Radke, Hessler ve Ellsworth",
       "year": 2019,
       "publication_status": "hakemli_konferans",
-      "doi": null,
+      "doi": "10.24963/ijcai.2019/636",
       "primary_url": "https://www.ijcai.org/proceedings/2019/0636.pdf",
       "read_level": "tam_metin_ilgili_bolumler",
       "target": "Mevcut yangının çevresinde yayılım",
@@ -280,23 +328,31 @@
       "horizon": "Yakın gelecek yayılımı",
       "study_family": "spread_models",
       "access_date": "2026-10-12",
-      "venue": "IJCAI"
+      "venue": "IJCAI",
+      "identity_audit_id": "R17",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R18",
       "title": "TS-SatFire: A Multi-Task Satellite Image Time-Series Dataset for Wildfire Detection and Prediction",
       "authors": "Zhao, Gerard ve Ban",
-      "year": 2024,
-      "publication_status": "incelenen_surum_onbaski_dergi_durumu_dogrulanmadi",
-      "doi": null,
-      "primary_url": "https://arxiv.org/abs/2412.11555",
-      "read_level": "yazar_ozeti_ve_metadata",
+      "year": 2025,
+      "publication_status": "hakemli_dergi",
+      "doi": "10.1038/s41597-025-06271-3",
+      "primary_url": "https://www.nature.com/articles/s41597-025-06271-3",
+      "read_level": "yazar_onbaskisi_ozeti_ve_yayinci_kimlik_kaydi",
       "target": "Uydu zaman serisi; tespit, izleme ve tahmin",
       "critical_note": "Çok görevli zaman serisi veri kaydıdır. Ön baskıdaki yangın izleme/yayılım hedefleri günlük yeni olayla eşdeğer sayılmaz.",
       "horizon": "Çok görevli",
       "study_family": "spread_datasets",
       "access_date": "2026-10-12",
-      "venue": "arXiv; later venue not verified"
+      "venue": "Scientific Data",
+      "preprint_year": 2024,
+      "preprint_url": "https://arxiv.org/abs/2412.11555",
+      "identity_audit_id": "R18",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R19",
@@ -312,7 +368,10 @@
       "horizon": "Ertesi gün yayılımı",
       "study_family": "partial_observation",
       "access_date": "2026-10-12",
-      "venue": "arXiv; acceptance not verified"
+      "venue": "arXiv; acceptance not verified",
+      "identity_audit_id": "R19",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R20",
@@ -328,7 +387,10 @@
       "horizon": "31 güne kadar değerlendirilen FWI",
       "study_family": "long_range_fwi",
       "access_date": "2026-10-12",
-      "venue": "Communications Earth & Environment"
+      "venue": "Communications Earth & Environment",
+      "identity_audit_id": "R20",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R21",
@@ -336,7 +398,7 @@
       "authors": "Song, Raskutti ve Willett",
       "year": 2021,
       "publication_status": "konferans_kaydi_dogrulandi_incelenen_surum_yazar_ozeti",
-      "doi": null,
+      "doi": "10.1109/SSP49050.2021.9513750",
       "primary_url": "https://arxiv.org/abs/2103.13555",
       "read_level": "yazar_ozeti_ve_kurumsal_yayin_kaydi",
       "target": "Algılanmayan yangın etiketleri; California örneği",
@@ -345,7 +407,10 @@
       "study_family": "missing_labels",
       "access_date": "2026-10-12",
       "evidence_url": "https://hsong1.github.io/publications/",
-      "venue": "IEEE Statistical Signal Processing Workshop; inspected author abstract"
+      "venue": "IEEE Statistical Signal Processing Workshop; inspected author abstract",
+      "identity_audit_id": "R21",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R22",
@@ -361,7 +426,10 @@
       "horizon": "Koşul yatkınlığı",
       "study_family": "missing_labels",
       "access_date": "2026-10-12",
-      "venue": "Frontiers in Earth Science"
+      "venue": "Frontiers in Earth Science",
+      "identity_audit_id": "R22",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R23",
@@ -377,7 +445,10 @@
       "horizon": "Genel yöntem",
       "study_family": "missing_labels",
       "access_date": "2026-10-12",
-      "venue": "AISTATS / PMLR 258"
+      "venue": "AISTATS / PMLR 258",
+      "identity_audit_id": "R23",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R24",
@@ -393,7 +464,10 @@
       "horizon": "Uydu tespiti",
       "study_family": "sensor_product",
       "access_date": "2026-10-12",
-      "venue": "Remote Sensing of Environment"
+      "venue": "Remote Sensing of Environment",
+      "identity_audit_id": "R24",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R25",
@@ -409,7 +483,10 @@
       "horizon": "Olay özellikleri",
       "study_family": "event_catalog",
       "access_date": "2026-10-12",
-      "venue": "Earth System Science Data"
+      "venue": "Earth System Science Data",
+      "identity_audit_id": "R25",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R26",
@@ -425,7 +502,10 @@
       "horizon": "Yöntem",
       "study_family": "evaluation",
       "access_date": "2026-10-12",
-      "venue": "Ecography"
+      "venue": "Ecography",
+      "identity_audit_id": "R26",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R27",
@@ -441,7 +521,10 @@
       "horizon": "Yöntem",
       "study_family": "evaluation",
       "access_date": "2026-10-12",
-      "venue": "PLOS ONE"
+      "venue": "PLOS ONE",
+      "identity_audit_id": "R27",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R28",
@@ -457,7 +540,10 @@
       "horizon": "Yöntem",
       "study_family": "evaluation",
       "access_date": "2026-10-12",
-      "venue": "ICML / PMLR 70"
+      "venue": "ICML / PMLR 70",
+      "identity_audit_id": "R28",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R29",
@@ -474,14 +560,17 @@
       "study_family": "operational_fwi",
       "access_date": "2026-10-12",
       "evidence_url": "https://confluence.ecmwf.int/spaces/CEMS/pages/382667784/CEMS-Fire%2BData%2Baccess",
-      "venue": "Copernicus / ECMWF official service documentation"
+      "venue": "Copernicus / ECMWF official service documentation",
+      "identity_audit_id": "R29",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R30",
       "title": "Deep Learning Methods for Daily Wildfire Danger Forecasting",
       "authors": "Prapas ve ark.",
       "year": 2021,
-      "publication_status": "kabul_edilmis_calistay_yazar_onbaskisi",
+      "publication_status": "calistay_kabulu_yazar_bildirimine_gore_onbaski",
       "doi": null,
       "primary_url": "https://arxiv.org/abs/2111.02736",
       "read_level": "yazar_ozeti_ve_metadata",
@@ -490,7 +579,10 @@
       "horizon": "Ertesi gün",
       "study_family": "firecube_family",
       "access_date": "2026-10-12",
-      "venue": "NeurIPS AI for Humanitarian Assistance and Disaster Response workshop"
+      "venue": "NeurIPS AI for Humanitarian Assistance and Disaster Response workshop",
+      "identity_audit_id": "R30",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R31",
@@ -506,23 +598,31 @@
       "horizon": "Günlük kayıt",
       "study_family": "firecube_family",
       "access_date": "2026-10-12",
-      "venue": "Zenodo dataset metadata"
+      "venue": "Zenodo dataset metadata",
+      "identity_audit_id": "R31",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R32",
       "title": "Location-aware Adaptive Normalization: A Deep Learning Approach For Wildfire Danger Forecasting",
       "authors": "Shams Eddin, Roscher ve Gall",
       "year": 2023,
-      "publication_status": "incelenen_surum_onbaski_yayin_yeri_dogrulanmadi",
-      "doi": null,
-      "primary_url": "https://arxiv.org/abs/2212.08208",
-      "read_level": "yazar_ozeti_ve_metadata",
+      "publication_status": "hakemli_dergi",
+      "doi": "10.1109/TGRS.2023.3285401",
+      "primary_url": "https://ieeexplore.ieee.org/document/10149031/",
+      "read_level": "yazar_onbaskisi_ozeti_ve_yayinci_kimlik_kaydi",
       "target": "FireCube; konuma uyarlanmış normalizasyon",
       "critical_note": "Model mimarisi düzeyinde iyileştirmeler zaten vardır; farklı mimari etiketi özgün bilimsel sonuç yerine geçmez.",
       "horizon": "Ertesi gün",
       "study_family": "firecube_family",
       "access_date": "2026-10-12",
-      "venue": "arXiv; venue not verified"
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "preprint_year": 2022,
+      "preprint_url": "https://arxiv.org/abs/2212.08208",
+      "identity_audit_id": "R32",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R33",
@@ -538,7 +638,10 @@
       "horizon": "Ertesi gün yayılımı",
       "study_family": "spread_evaluation",
       "access_date": "2026-10-12",
-      "venue": "arXiv; acceptance not verified"
+      "venue": "arXiv; acceptance not verified",
+      "identity_audit_id": "R33",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     },
     {
       "id": "R34",
@@ -554,7 +657,11 @@
       "horizon": "Yangın yayılımı",
       "study_family": "spread_evaluation",
       "access_date": "2026-10-12",
-      "venue": "arXiv; acceptance not verified"
+      "venue": "arXiv; acceptance not verified",
+      "identity_audit_id": "R34",
+      "identity_audit_date": "2026-10-12",
+      "identity_status": "kayit_varligi_ve_yazar_atfi_dogrulandi"
     }
-  ]
+  ],
+  "identity_audit_note": "12 Ekim ikinci kontrolü: bütün kayıtların varlığı/yazar atfı doğrulandı; R18/R32 yayın durumu, üç DOI ve R30 kanıt düzeyi güncellendi. Önceki sınırlı inceleme bu notla izlenir; deneyler bağımsız yeniden üretilmedi."
 }

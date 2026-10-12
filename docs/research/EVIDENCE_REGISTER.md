@@ -368,7 +368,22 @@ kabulü verilmedi. Yerel belge/sicil bağlantıları ve kaynak URL'leri kanıtt�
 Kontrol kaydı `outputs/reports/literature/2026-10-12/review_validation.json`;
 SHA-256 `c8ef97af931774f4dec6b5b2b00193a8fb1509a601277945fef1c60772b10edd`.
 
-## Yeni kanıt kaydı kuralları
+E54 — 12 Ekim: [Kaynak kimliği denetimi](LITERATURE_IDENTITY_AUDIT_2026-10-12.md)
+ve [makine okunur kayıt](literature_identity_audit_2026-10-12.json).
+34 gerçek kayıt/yazar atfı, 23 Crossref dergi/konferans kaydı ve yedi ek
+DataCite kaydı; toplam 30 sicil eşleşmesi. Dört kayıtta resmî kurum/ürün/
+konferans kanalı. Hayalî başlık/yazar/başka makaleye ait DOI saptanmadı.
+R18/R32 yayın durumu düzeltildi, üç DOI tamamlandı; R30 çalıştay kabulünün
+yazar bildirimi olduğu kaydedildi. Ham açık metadata kayıtları
+`outputs/reports/literature/2026-10-12/` altındadır.
+Sınır: DOI/yayın ve yazar atfının varlığı; deneylerin bağımsız tekrarı,
+bütün başarı iddiaları veya nihai özgünlük değerlendirmesi değildir.
+Denetim JSON SHA-256:
+`69765117f897795763d609e5319a50b5fe509f0981f6cc4cef2d79126bfb843b`.
+Yerel yapı/bağlantı ve 236 değişmeyen kod/config/test kontrolü:
+`outputs/reports/literature/2026-10-12/identity_audit_validation.json`.
+
+## Yeni kanıt kaydı koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
 yazılır. Büyük dosyanın kendisi Git'e eklenmez. Yerel makine çıktısı için SHA-256
