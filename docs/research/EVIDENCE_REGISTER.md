@@ -439,6 +439,14 @@ süreç/hash ve yeni ürün bayt kabulü yok. Ocak kapanışı iş sırası çı
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_59_user_readback_20261012T214509Z.json`;
 SHA-256 `371077849e58bb1704b2346d29cdbfcfd22cb24676f8ec9197521c0dda4da4b2`.
 
+E61 — 13 Ekim: [V6 uzak ilerleme: 61 ay](../GCP_DRIVE_RESUME_V6_2026-10-12.md#61-aylık-uzak-ilerleme-bildirimi--13-ekim).
+Kullanıcı SSH running/remaining_months, 61/72 ay, 715 çift; Ekim 2018
+son kapanış 1 Ekim ve None hata alanları. Önceki snapshot'a göre iki
+ay/413 çift artışı; gözlem saatleri yok, hız/ETA çıkarılmadı. Ay isim
+listesi, süreç/hash ve yeni yerel ürün bayt kabulü yok.
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_61_user_readback_20261012T231032Z.json`;
+SHA-256 `aca4da4d729f5d33fef14805724f78cb880623b9f5ede475a80bc09682292a24`.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 uzak ilerleme: 61 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#61-aylık-uzak-ilerleme-bildirimi--13-ekim):
+kullanıcı running/remaining_months ve boş hata alanları bildiriyor.
+61/72 ay (%84,7); 715 işlenmiş çift, Ekim 2018 son kapanış 1 Ekim.
+Önceki snapshot'a göre iki ay/413 çift artış; gözlem zamanları olmadığından
+hız hesabı yok. 11 ay tam kapanmamış; yeni yerel ürün kabulü yapılmadı.
+Aşağıdaki 59 aylık kayıt önceki bildirimi korur.
+
 [V6 uzak ilerleme: 59 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#59-aylık-uzak-ilerleme-bildirimi--13-ekim):
 kullanıcı SSH running/remaining_months ve boş hata alanları bildiriyor.
 59/72 ay (%81,9); 302 yeni çift, Aralık 2018 son kapanış 17 Aralık.

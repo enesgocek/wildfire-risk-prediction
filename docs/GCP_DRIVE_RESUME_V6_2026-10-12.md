@@ -398,3 +398,20 @@ Son sınır 13 Ekim 15:36:04 Türkiye; normal ilerleme kontrolü sürer.
 
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_59_user_readback_20261012T214509Z.json`;
 SHA-256 `371077849e58bb1704b2346d29cdbfcfd22cb24676f8ec9197521c0dda4da4b2`.
+
+## 61 aylık uzak ilerleme bildirimi — 13 Ekim
+
+Kullanıcı SSH çıktısı running/remaining_months, aynı yeni deadline ve
+None hata/failed alanları gösteriyor. Üretici 61/72 tam ay (%84,7) ve
+715 işlenmiş çift bildiriyor. Önceki kullanıcı snapshot'ına göre iki
+tam ay ve 413 çift artışı var. Ekim 2018 işleniyor; son görünen günlük
+kapanış 1 Ekim. Sonraki günlerin kaydedilmiş çiftleri günlük kapanış
+sayılmadı. 11 ay tam kapanmamış; kaynak ertelemeli Aralık 2023 ayrı kalır.
+
+Ay isim listesi, wrapper hash'i ve süreç snapshot'ı alınmadı. Uzak
+bildirim yerel ürün bayt kabulü değildir. Uzak gözlem saatleri olmadığı
+için artışlar hız veya bitiş tahminine çevrilmedi. Üst sınır 13 Ekim
+15:36:04 Türkiye. Yeni başlangıç/VM ayarı/API sorgusu yapılmadı.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_61_user_readback_20261012T231032Z.json`;
+SHA-256 `aca4da4d729f5d33fef14805724f78cb880623b9f5ede475a80bc09682292a24`.
