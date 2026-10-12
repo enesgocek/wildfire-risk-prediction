@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Literatür incelemesi ve önerilen makale yönü](research/LITERATURE_REVIEW_2026-10-12.md):
+12 Ekim'de 34 seçilmiş kaynak/ürün kaydı, erişim düzeyleri, arama sınırları,
+danışman özeti ve hipotez/deney protokolü hazırlandı. Türkiye'de ve Akdeniz'de
+yakın 24 saatlik çalışmalar mevcut; genel fikrin ilk kullanımını iddia
+etmiyoruz. Olay/gözlem politikasının başarı, kapsam ve uyarı yüküne etkisi
+olası araştırma katkısıdır; henüz deney sonucu veya özgünlük ispatı değildir.
+Etiket/bağımsız referans kapısı açık, 2025 kapalı; canlı kod/paket/kuyruklar
+bu çalışma nedeniyle değiştirilmedi. Aşağıdaki ilerlemeler kendi tarihli
+yerel/uzak kanıt kapsamlarını korur.
+
 [V6 uzak ilerleme: 50 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#50-aylık-uzak-ilerleme-bildirimi--12-ekim):
 kullanıcı SSH çıktısında running/doğru hash ve None hata alanları var.
 Tam ay sayacı 50/72, yaklaşık %69,4; Eylül 2019 işleniyor, görünen son

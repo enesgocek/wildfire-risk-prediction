@@ -1,0 +1,62 @@
+{
+  "review_date": "2026-10-12",
+  "method": "Yapılandırılmış kapsam ve eleştirel tarama; tam sistematik derleme değil.",
+  "platform": "Web arama indeksi; ardından yayıncı, yazar/kurum tam metni, resmî ürün ve konferans sayfaları.",
+  "databases_not_exported": [
+    "Scopus",
+    "Web of Science",
+    "TR Dizin"
+  ],
+  "date_scope": "Temel ürün/yöntemler 2014–2026; güncel yakın çalışmalar için 2026 dahil. Arama günü 12 Ekim 2026.",
+  "languages": [
+    "İngilizce",
+    "Türkçe"
+  ],
+  "inclusion": [
+    "Gelecekteki yangın oluşumu, 24 saat tehlike veya aktif yangın tahmini",
+    "Türkiye ve Akdeniz yakın coğrafyası",
+    "İlk tespit / olay oluşturma / eksik etiket yaklaşımı",
+    "Olasılık kalibrasyonu, doğal sınıf oranı, zaman/mekân ayrımı, yanlış alarm",
+    "Görev farkını göstermek için yayılım ve FWI ürünleri"
+  ],
+  "exclusion": [
+    "Birincil kaynağı bulunamayan reklam/başarı iddiaları",
+    "İlgisiz başlık veya yanlış arXiv eşleşmesi",
+    "İmzalı/geçici erişim URL'leri",
+    "Sadece model adı benzer olan, hedefi belirsiz sonuçların sayısal başarı karşılaştırması"
+  ],
+  "counts": {
+    "selected_records": 34,
+    "screened_results": null,
+    "excluded_results": null,
+    "reason": "Arama motoru sonuç evreni ve benzersiz dışlanan kayıtlar eksiksiz tutulmadı; PRISMA akış sayısı üretilemez."
+  },
+  "query_record_note": "Aşağıdaki dizeler bu oturumda kullanılan son doğrulama sorgularıdır. Önceki keşif sorguları aile özetiyle tutulur; eksiksiz ham sorgu/sonuç dökümü iddiası yoktur.",
+  "recorded_queries": [
+    "site.nature.com/articles/s41467-025-58097-7 \"Methods\" \"2021\" probability fire validation",
+    "site.arxiv.org/html/2103.13555 response dependent missing labels wildfire",
+    "site.ecmwf.int \"Global data-driven prediction of fire activity\" 2025 Lombardi McNorton",
+    "site.frontiersin.org \"Modeling Conditions Appropriate for Wildfire\" \"Ma\" 2021 authors",
+    "site.zenodo.org/records/6475592 FireCube",
+    "site.frontiersin.org/journals/earth-science/articles/10.3389/feart.2021.622307/full \"Shirazi\" \"Authors\"",
+    "site.arxiv.org \"WildfireSpreadTS\" \"Authors\""
+  ],
+  "discovery_query_families": [
+    "wildfire next day ignition prediction machine learning meteorology satellite Mediterranean",
+    "Turkey Türkiye Mersin Izmir Antalya wildfire susceptibility SHAP",
+    "FireAId Türkiye 24 hour prediction official report",
+    "Mesogeos FireCube next-day temporal validation wildfire",
+    "wildfire response dependent missing labels positive unlabeled",
+    "wildfire calibration false alarm time spatial validation",
+    "2025 2026 wildfire danger forecasting deep learning review"
+  ],
+  "followup": "Ana kayıtlar doğrudan birincil URL'den açıldı; başarısız tam metin erişimleri kaynak sicilinde özet/indeks olarak ayrıldı.",
+  "deduplication": "Prapas çalıştayı, Kondylatos GRL ve FireCube aynı aile olarak işaretlendi. Mesogeos ile onu kullanan model makalesi veri/deney ilişkisi taşır. Veri kümesi ve ekosistem belgeleri ayrı kayıttır; 34 bağımsız hakemli deney anlamına gelmez.",
+  "access_limits": [
+    "MDPI bazı sayfalarda 429; Apostolakis için kurumsal yazar PDF'si kullanıldı.",
+    "WEF rapor PDF'si alınamadı/boyut sınırı; resmî etki sayfası ve indeks rapor parçası kullanıldı.",
+    "Bazı Nature ve Springer kayıtları özet/indeks düzeyinde; bütün yöntemler veya ekler okunmuş sayılmaz.",
+    "Yalnız arXiv sürümü incelenen çalışmaların sonradan hakemli yayımlanma durumu kesinleştirilmedi."
+  ],
+  "next_search": "Danışmanla soru dondurulduktan sonra üniversite erişimiyle Scopus/WoS/TR Dizin tekrarı, tam metin boşlukları ve ileri/geri atıf izleme; başvuru ve makale öncesi güncelleme."
+}

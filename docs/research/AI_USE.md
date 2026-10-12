@@ -369,7 +369,23 @@ denetlendi; özgün final kopyası yeni kanıt dizinine korundu. Bitki örtüsü
 aday özellik kabulü, bütün veri seti veya model başarısı olarak sunulmadı.
 Yeni üretim/birleştirme/bulut işi başlatılmadı; tarihsel kayıtlar korundu.
 
-## Resmî kaynak
+## Literatür incelemesi ve araştırma önerisi — 12 Ekim 2026
+
+Danışman görüşmesi sonrasında kullanıcının ciddi literatür incelemesi isteği
+için araç desteği web araması, birincil kaynak/ilgili yöntem okuması,
+bibliyografik kayıt, eleştirel karşılaştırma ve deney protokolü taslağında
+kullanıldı. Hakemli kaynak, ön baskı, resmî kurum beyanı ve yalnız özeti
+okunan kayıtlar ayrıldı. 34 seçilmiş kayıt eksiksiz sistematik derleme veya
+34 bağımsız tam deney olarak sunulmadı. Genel yaklaşımın daha önce yapılmış
+olduğu, önerilen katkının henüz kanıtlanmadığı açık yazıldı.
+
+Hipotez/protokol araç destekli öneridir; araştırmacı ve danışman tarafından
+tam metin, kaynak doğruluğu ve bilimsel kararlar denetlenecektir. Danışman
+onayı, manuel saha incelemesi, model başarısı veya makale kabulü uydurulmadı.
+Kod, dondurulmuş paket, etiket kapısı, 2025 final ve çalışan kuyruklarda
+değişiklik yapılmadı. Ayrıntılar tarihli literatür belgesi ve kaynak sicilindedir.
+
+## Resmî kaynak ve beyan
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
 uygunluk sorumluluğunu başvuru sahiplerinde tutar. Proje hazırlığında önemli

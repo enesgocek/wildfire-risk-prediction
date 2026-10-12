@@ -37,6 +37,18 @@ Ağırlıklar resmî program sayfasından alınmıştır. Özgünlük ve beklene
 sonuç elde edilmiş gibi yazılmayacaktır. Literatür taraması, rapor yazımı ve
 malzeme alımı tek başına araştırma iş paketi olarak kullanılmayacaktır.
 
+## Literatür güncellemesi — 12 Ekim 2026
+
+12 Ekim literatür güncellemesi: [inceleme](LITERATURE_REVIEW_2026-10-12.md)
+ve [danışman özeti](ADVISOR_LITERATURE_BRIEF_2026-10-12.md), Türkiye dahil
+yakın çalışmaların mevcut olduğunu gösterir. Başvuruda ilk 24 saatlik
+yapay zekâ/uydu birleşimi iddiası kullanılmaz. Önerilen katkı, olay/gözlem
+belirsizliğinin değerlendirme ve uyarı yüküne etkisini karşılaştırmalı
+deneyle sınamaktır. Bu olası katkı henüz doğrulanmamış ve danışman tarafından
+onaylanmamıştır; [protokol](ARTICLE_RESEARCH_PROTOCOL_2026-10-12.md) açık
+kararları ve veri kabul kapılarını içerir. Çağrı koşullarının 9 Ekim kaydı
+bu literatür çalışmasında yeniden doğrulanmadı.
+
 ## Ön çalışma ve önerilecek çalışma ayrımı
 
 Mevcut coğrafi altyapı, meteoroloji hazırlığı, kaynak kontrolleri ve hesaplama

@@ -68,7 +68,29 @@ Günlük tahmin güncellemesi, modelin her gün yeniden eğitilmesini gerektirme
 Geçmiş dönemleri Power BI ile inceleme fikri ve günlük risk arayüzü danışmanla
 değerlendirilecek ürün seçenekleridir. Henüz bu seçenekler için uygulama yapılmadı.
 
-## Kayıt düzeni
+## Literatür sonrası araştırma yönü — 12 Ekim 2026
+
+Danışmanın literatür karşılaştırması talebi üzerine
+[yapılandırılmış inceleme](LITERATURE_REVIEW_2026-10-12.md), 34 seçilmiş
+kaynak kaydı ve [deney protokolü](ARTICLE_RESEARCH_PROTOCOL_2026-10-12.md)
+hazırlandı. Bu güncelleme 9 Ekim çerçevesini sonuç elde edilmiş gibi
+değiştirmez; yeni öneri danışman değerlendirmesine açıktır.
+
+Genel 24 saatlik uydu/meteoroloji/yapay zekâ yaklaşımı, Türkiye ürünleri,
+ilk tespit çıkarımı, eksik etiket ve kalibrasyon literatürde vardır.
+Özgünlük iddiası bu bileşenlerin ilk kullanımına bağlanmaz. Öncelik, dört
+ilde olay/gözlem politikasının sonuç ve kapsama etkisini ortak incelenmiş
+değerlendirme çekirdeğinde sınamaktır. Özellik grubu ablasyonu, kalibrasyon
+ve sabit uyarı kapasitesinde olay yakalama/yanlış alarm bunu destekler.
+
+Bağımsız/uzman olay referansı ve güvenilir negatifler en kritik kapıdır;
+mevcut unknown/negative_label_permitted=false değişmez. AP ile trapez
+PR-AUC'ın uygulama tanımı deneyden önce ayrılacaktır; eğitim/2024 seçimi
+ve kapalı 2025 final düzeni korunur. FWI standart girdileri ve durum
+devri doğrulanmadıkça hesaplanmış baseline sayılmaz. Retrospektif ERA5
+araştırması, forecast arşivi olmadan operasyonel ürün kabulü değildir.
+
+## Kayıt düzeni ve kanıt
 
 Her deney veri/config/seed/kod/ortam sürümü ve çıktı konumuyla kaydedilir.
 Önemli iddialar [kanıt dizininde](EVIDENCE_REGISTER.md) izlenir. Makine çıktıları

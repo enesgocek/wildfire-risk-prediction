@@ -12,6 +12,10 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [PROJECT.md](PROJECT.md) | Bilimsel kapsam, zaman, etiket ve veri ayrımı sözleşmesi |
 | [ROADMAP.md](ROADMAP.md) | Aşamalar ve kabul ölçütleri |
 | [Araştırma planı](research/RESEARCH_PLAN.md) | Araştırma sorusu, deney tasarımı ve açık konular |
+| [12 Ekim literatür incelemesi](research/LITERATURE_REVIEW_2026-10-12.md) | Yakın Türkiye/Akdeniz çalışmaları, görev ayrımı ve savunulabilir katkı önerisi |
+| [Literatür kaynak sicili](research/literature_sources_2026-10-12.json) / [Arama kaydı](research/literature_search_log_2026-10-12.json) | 34 seçilmiş kayıt, yayın/erişim düzeyi, arama yöntemi ve sınırları |
+| [Makale yönü deney protokolü](research/ARTICLE_RESEARCH_PROTOCOL_2026-10-12.md) | Etiket denetimi, dört hipotez, ayrım/ölçüt ve kabul kapıları; öneri |
+| [Danışman literatür özeti](research/ADVISOR_LITERATURE_BRIEF_2026-10-12.md) | Görüşmede kullanılabilecek kısa karşılaştırma ve açık araştırma kararları |
 | [Kanıt dizini](research/EVIDENCE_REGISTER.md) | İddiaların rapor ve veri dayanakları |
 | [2209-A hazırlığı](research/2209A_PREPARATION.md) | Çağrı, başvuru hazırlığı ve danışmanla değerlendirilecek içerik |
 | [Araç kullanım kaydı](research/AI_USE.md) | Üretken yapay zekâ katkısı ve beyan hazırlığı |
