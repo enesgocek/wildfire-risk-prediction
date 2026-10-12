@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 VM duruş bildirimi](GCP_DRIVE_RESUME_V6_2026-10-12.md#vm-duruş-bildirimi--12-ekim-kapanış-günlükleri-bekleniyor):
+kullanıcı Cloud Shell çıktısında TERMINATED, 18 saat/STOP ve automaticRestart
+false. 12 Ekim 20:53:54 Türkiye duruşu, 21:13:37 üst sınırından yaklaşık
+20 dakika önce; süre rezerviyle uyumlu fakat son kuyruk sonucu henüz yok.
+Kapanış launcher/progress kayıtları bekleniyor; son 50 aylık bildirim yeni
+ay veya yerel ürün kabulüyle güncellenmedi. Üretim yeniden başlatılmadı.
+
 [Literatür kaynaklarının ikinci kontrolü](research/LITERATURE_IDENTITY_AUDIT_2026-10-12.md):
 34 kaydın tamamında gerçek yayın/ön baskı/veri/kurum kaydı ve yazar atfı
 bulundu; 30 kayıt DOI siciliyle de eşleşti. Uydurma başlık/yazar uyuşmazlığı

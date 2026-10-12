@@ -224,3 +224,27 @@ Yeni VM/Drive sorgusu, üretim komutu veya makine yapılandırması değişikli�
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/progress_user_readback_20261012T103705Z.json`;
 SHA-256 `16119b6e7067fec0b3190ced7a97894c62eb239ae84639383f8ae41cb81376b6`.
 Kaynak kullanıcı günlük/progress/süreç bildirimi; yerel ürün bayt kabulü değil.
+
+## VM duruş bildirimi — 12 Ekim, kapanış günlükleri bekleniyor
+
+Kullanıcının Cloud Shell `gcloud compute instances describe` çıktısında
+TERMINATED, maxRunDuration 64.800 saniye (18 saat), STOP ve automaticRestart
+false var. Başlangıç 12 Ekim 03:13:42,804; duruş 20:53:54,458 Türkiye.
+Geçen süre 17 saat 40 dakika 11,654 saniye. Google üst sınırı yine
+21:13:37,135464 Türkiye; VM bu sınırdan 19 dakika 42,677464 saniye önce durmuş.
+
+Bu zamanlama 20 dakika yayın rezerviyle uyumludur; `describe` çıktısı
+kapanışı betiğin istediğini, hata olmadığını veya kuyruğun tamamlandığını
+tek başına kanıtlamaz. Son yerel kayıtlı 50 aylık uzak bildirim korunur;
+bu duruş çıktısında yeni ay sayısı veya ürün baytı yoktur. Bağımsız canlı
+VM/Drive sorgusu yapılmadı; üretim/scheduling veya VM ayarı değiştirilmedi.
+
+Sıradaki işlem VM'yi kısa süre yalnız kapanış kayıtlarını almak için açıp
+V6 launcher ve seçilmiş progress alanlarını okumaktır. Üretim betiği tekrar
+çalıştırılmaz. Duruş nedeni/eksikler görüldükten sonra arşiv toplama ve
+devam kararı hazırlanır; inceleme sırasında VM'nin açık tutulması gerekmez.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/vm_stop_user_readback_20261012T181417Z.json`;
+SHA-256 `5ab9627ef285da6a890cef5639bb3b38d17930e2285ea07113669c9f9187f910`.
+Yerel kayıt saati uzak API gözlem zamanı değildir. UTC/ofset dönüşümleri
+ve süre farkları verilen zaman damgalarından tekrar hesaplandı.

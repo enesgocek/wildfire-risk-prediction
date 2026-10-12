@@ -383,7 +383,16 @@ Denetim JSON SHA-256:
 Yerel yapı/bağlantı ve 236 değişmeyen kod/config/test kontrolü:
 `outputs/reports/literature/2026-10-12/identity_audit_validation.json`.
 
-## Yeni kanıt kaydı koşulları
+E55 — 12 Ekim: [V6 VM duruş bildirimi](../GCP_DRIVE_RESUME_V6_2026-10-12.md#vm-duruş-bildirimi--12-ekim-kapanış-günlükleri-bekleniyor).
+Kullanıcı gcloud describe çıktısı TERMINATED/64.800 saniye/STOP/
+automaticRestart=false. Verilen damgalardan 17:40:11,654 oturum süresi
+ve Google üst sınırından 19:42,677464 önce duruş hesaplandı. Süre rezervi
+ile uyum; kesin neden, kuyruk tamamlanması veya yeni ay kabulü değil.
+Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/vm_stop_user_readback_20261012T181417Z.json`;
+SHA-256 `5ab9627ef285da6a890cef5639bb3b38d17930e2285ea07113669c9f9187f910`.
+Kapanış günlükleri bekleniyor; bağımsız agent VM/Drive sorgusu yok.
+
+## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
 yazılır. Büyük dosyanın kendisi Git'e eklenmez. Yerel makine çıktısı için SHA-256
