@@ -303,6 +303,16 @@ etiket/habitat/gözlem, operasyonel veya model kabulü değildir. Snapshot'ın
 61 bitki örtüsü referansı ve tarihsel 40 uydu günlük/katalog ayı ayrıdır;
 2024 kaynak hazırlığı ve bilimsel kapılar açık, 2025 kapalı.
 
+E48 — 12 Ekim: [Bitki örtüsü VPN duruşu](../VEGETATION_VPN_PAUSE_2026-10-12.md).
+62 ay (Ocak 2018–Şubat 2023), 199 kabul/runtime dosyası duruş öncesi ve
+sonrası aynı hash'lerde. Gerçek Windows süreç ağacı ve iki kilit kapalı;
+final interrupted_checkpoints_retained. Ctrl+C sonrasında kapanmayan tek
+istek alt süreci kimliği doğrulanarak sonlandırıldı. Mart'ın 169 ham JSON'u
+kısmi envanter; tam ay kabulü değil. Kanıt
+`outputs/reports/landscape/vpn_pause_v1/20261012T022851Z/pause_readback.json`;
+SHA-256 `7e141075c2f619455ab64f3605926b5ba0478e67394142b2b5f017dab7c0c304`.
+Yeni bilimsel üretim/etiket kabulü, otomatik devam veya VM işlemi yok.
+
 ## Yeni kanıt ekleme
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

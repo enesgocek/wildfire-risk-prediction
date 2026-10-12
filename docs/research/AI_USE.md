@@ -343,6 +343,15 @@ model başarısı uydurulmadı. Canlı kuyruklar değişmedi, yeni indirme/bulut
 işi ve 2025 erişimi yapılmadı. Teknik üç adımlı rehber, bilimsel kabulün
 ve ayrıca gereken 2024 hazırlığının yerine geçmez.
 
+## VPN duruşu — 12 Ekim 2026
+
+12 Ekim VPN molasında araç desteği gerçek yerel süreç ağacının okunması,
+izole konsola Ctrl+C gönderilmesi ve kapanmayan tek istek alt sürecinin
+kimliği doğrulanarak sonlandırılması için kullanıldı. Mevcut kesinti/temizleme
+yollarının tamamlandığı, süreç ve kilit yokluğu ile 199 dosyanın hash koruması
+denetlendi. Kullanıcı yeniden başlatmayı istemeden devam veya VM müdahalesi
+yapılmadı. Ayrıntılar tarihli VPN duruş kaydındadır.
+
 ## Resmî kaynak
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

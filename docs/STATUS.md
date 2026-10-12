@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[VPN için yerel bitki örtüsü duruşu](VEGETATION_VPN_PAUSE_2026-10-12.md):
+12 Ekim 05:30:39 Türkiye'de interrupted_checkpoints_retained; gerçek süreç
+ağacı kapandı ve iki kilit temizlendi. 62 ay (Ocak 2018–Şubat 2023) için
+199 veri/runtime dosyası hash'i aynı. Mart'ın 169 ham JSON kaydı kısmi;
+tam ay kabulü değil. Ctrl+C ardından kapanmayan tek istek alt süreci
+kimliği doğrulanarak sonlandırıldı. Kullanıcı istemeden yeniden başlatılmaz;
+VM değiştirilmedi. Aşağıdaki 61 referanslı hazırlık snapshot'ı tarihsel olarak korunur.
+
 [Veri setine geçiş hazırlığı](DATASET_PREPARATION_RUNBOOK_2026-10-12.md):
 veri sözlüğü, 72 aylık kaynak/teslim envanteri, hash bağlı toplu yeniden
 kullanım, nullable hedef eşleştirme ve son aday denetimi hazır. Snapshot'ta
