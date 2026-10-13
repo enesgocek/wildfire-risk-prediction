@@ -517,6 +517,15 @@ SHA-256 `5beba1638f7b558744a9200d1b3ed380c8ad832f69c4e4c33763a360242f52dd`.
 Sınır: eski VM client/folder eşitliği ve kurulum henüz kontrol edilmedi;
 Drive nesnesi yazılmadı, VM/üretim başlatılmadı, yeni bilimsel kabul yok.
 
+E68 — 13 Ekim: [VM özel bağlantı kurulumu SSH geri okuması](../GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#vm-kurulum-çıktısının-geri-okuması).
+Kullanıcı installer SHA-256 OK ve üç PASS bildirdi: aynı client/scope/folder,
+yenilenmiş token/folder erişimi, özel config kurulumu. İlk bulunamayan
+dosya denemesi hash kapısında durmuştu. Yerel V7/registry/installer aynı
+hash'te. Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/vm_connection_install_user_readback_20261013.json`,
+SHA-256 `0b538635157a12cd1cc2f124a7daa4ede39f0af65a5f29e6d28a1eeae21c29b8`.
+Sınır: kullanıcı uzak çıktısı; bağımsız VM sorgusu, yeni üretim veya yeni
+bilimsel kabul yok. Güncel Start'ın 18 saat/STOP ve timestamp kontrolü bekleniyor.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

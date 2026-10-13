@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[VM özel Drive bağlantısı kurulum çıktısı geçti](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#vm-kurulum-çıktısının-geri-okuması):
+kullanıcı pinned installer için SHA-256 OK ve üç PASS bildirdi: aynı
+client/scope/folder, yeni token ile folder erişimi ve private config kurulumu.
+Bu uzak SSH çıktısıdır; bağımsız VM sorgusu yapılmadı. Üretim henüz
+başlatılmadı; mevcut Start'ın 18 saat/STOP/automaticRestart=false ve yeni
+terminationTimestamp bilgisi bekleniyor. Yerel V7/registry/installer hash'leri
+aynı; bilimsel kabul 65 tam aylık önceki kapsamda kaldı.
+
 [Yerel Drive bağlantısı doğrulandı](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#terminal-kapanması-sonrası-yerel-canlı-doğrulama):
 kullanıcı Google callback mesajından sonra terminali kapattığını bildirdi.
 Özel dosya 13 Ekim 14:17:33 UTC'de değişmiş; yeni bağlantıyla canlı OAuth

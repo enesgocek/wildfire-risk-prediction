@@ -141,3 +141,23 @@ Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/local_connection
 SHA-256 `5beba1638f7b558744a9200d1b3ed380c8ad832f69c4e4c33763a360242f52dd`.
 Yeni yerel bağlantı doğrulandı; önceki başarısız izin denemesi tarihli
 bulgu olarak korunur. VM kurulumu ve üretim devamı henüz doğrulanmadı.
+
+## VM kurulum çıktısının geri okuması
+
+Kullanıcı ilk yüklemede installer dosyasının bulunamadığını bildirdi;
+hash kontrolü başarısız olduğundan `if` içindeki kurulum çalışmadı. Dosya
+yüklendikten sonraki SSH çıktısında pinned hash OK ve
+`PASS same_client_scope_folder`, `PASS renewed_token_and_existing_folder`,
+`PASS private_connection_installed` görüldü. Installer sözleşmesine göre
+eski VM client/scope/folder ile eşitlik, canlı OAuth/folder kontrolü ve
+özel config atomik kurulumu geçti. Credential değerleri paylaşılmadı.
+
+Bu kullanıcı uzak çıktı geri okumasıdır; bağımsız canlı VM sorgusu veya
+yeni üretim kabulü değildir. Yerel V7, yeni registry ve installer hash'leri
+yeniden karşılaştırıldı ve değişmedi. Aynı V7 ile devam öncesinde mevcut
+Start'ın yeni terminationTimestamp ve 18 saat/STOP/automaticRestart=false
+ayarları istenir; eski zaman kullanılmaz. Önceki 65 ay korunur, kaynak
+ertelemesi ve negatif etiket kuralları değişmez.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/vm_connection_install_user_readback_20261013.json`;
+SHA-256 `0b538635157a12cd1cc2f124a7daa4ede39f0af65a5f29e6d28a1eeae21c29b8`.
