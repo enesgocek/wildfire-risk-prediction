@@ -415,3 +415,22 @@ için artışlar hız veya bitiş tahminine çevrilmedi. Üst sınır 13 Ekim
 
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_61_user_readback_20261012T231032Z.json`;
 SHA-256 `aca4da4d729f5d33fef14805724f78cb880623b9f5ede475a80bc09682292a24`.
+
+## Yeni oturumun VM duruş bildirimi — 13 Ekim
+
+Kullanıcı Cloud Shell describe çıktısı TERMINATED, 64.800 saniye/STOP ve
+automaticRestart=false gösterdi. Ofsetli zaman damgaları Türkiye saatine
+çevrildi: başlangıç 12 Ekim 21:36:10,056; duruş 13 Ekim 06:00:30,264.
+Geçen süre 8 saat 24 dakika 20,208 saniye; duruş Google üst sınırından
+9 saat 35 dakika 34,434919 saniye önce. 18 saatlik sınıra ulaşılmamış.
+
+Bu bildirim erken tamamlanma, betik poweroff isteği veya hata durumunu
+tek başına ayırmaz. Son 61 aylık uzak sayaç ve önceki 58 aylık yerel
+günlük/katalog kabulü kendi kapsamıyla korunur. Kapanış arşivi bekleniyor;
+yeni ay/ürün kabulü veya bağımsız canlı VM sorgusu yapılmadı. Sonraki adım
+VM'yi kısa süre açıp yalnız beş kapanış kaydını indirmek ve Stop yapmaktır.
+Üretim betiği yeniden çalıştırılmaz. Yeni teslim dizini
+`outputs/gcp_acceleration/source_aware_v6_session_2026-10-13/received/`.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v6_session_2026-10-13/vm_stop_user_readback_20261013T094943Z.json`;
+SHA-256 `abf76179d989ebeb6390444defeae627d8f3af1c8607c865c6355ca391fa3a37`.

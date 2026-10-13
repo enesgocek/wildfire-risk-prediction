@@ -447,6 +447,14 @@ listesi, süreç/hash ve yeni yerel ürün bayt kabulü yok.
 Kanıt `outputs/gcp_acceleration/source_aware_v6_18h_2026-10-12/next_session_progress_61_user_readback_20261012T231032Z.json`;
 SHA-256 `aca4da4d729f5d33fef14805724f78cb880623b9f5ede475a80bc09682292a24`.
 
+E62 — 13 Ekim: [V6 yeni oturum VM duruşu](../GCP_DRIVE_RESUME_V6_2026-10-12.md#yeni-oturumun-vm-duruş-bildirimi--13-ekim).
+Kullanıcı gcloud TERMINATED/18 saat/STOP/automaticRestart=false.
+Türkiye damgaları 12 Ekim 21:36:10,056–13 Ekim 06:00:30,264;
+8:24:20,208 çalışma, Google sınırından 9:35:34,434919 erken duruş.
+Kapanış nedeni/tam-ay sonucu henüz yok; bağımsız canlı sorgu yapılmadı.
+Kanıt `outputs/gcp_acceleration/source_aware_v6_session_2026-10-13/vm_stop_user_readback_20261013T094943Z.json`;
+SHA-256 `abf76179d989ebeb6390444defeae627d8f3af1c8607c865c6355ca391fa3a37`.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 yeni oturum VM duruşu](GCP_DRIVE_RESUME_V6_2026-10-12.md#yeni-oturumun-vm-duruş-bildirimi--13-ekim):
+kullanıcı TERMINATED/18 saat/STOP ve otomatik yeniden başlatma kapalı
+bildirdi. 13 Ekim 06:00:30 Türkiye duruşu; oturum 8:24:20 sürdü,
+18 saatlik sınıra ulaşmadı. Kesin kapanış nedeni ve yeni tam-ay sayısı
+bilinmiyor; final arşiv bekleniyor. Aşağıdaki 61 aylık snapshot önceki
+ilerlemedir, yeni kapanış sonucu olarak genişletilmedi.
+
 [V6 uzak ilerleme: 61 ay](GCP_DRIVE_RESUME_V6_2026-10-12.md#61-aylık-uzak-ilerleme-bildirimi--13-ekim):
 kullanıcı running/remaining_months ve boş hata alanları bildiriyor.
 61/72 ay (%84,7); 715 işlenmiş çift, Ekim 2018 son kapanış 1 Ekim.
