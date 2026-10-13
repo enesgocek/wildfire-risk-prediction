@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[OAuth kurtarma sonrası V7 devam sınırı doğrulandı](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#oauth-kurtarma-sonrası-güncel-oturum-sınırı):
+kullanıcı Cloud Shell çıktısı RUNNING, 64800 saniye, STOP ve
+automaticRestart=false gösteriyor. Yeni sınır 14 Ekim 13:35:01.727602 UTC
+/ 16:35 Türkiye. V7 ve registry yerel hash'leri aynı. Bu kullanıcı
+ayar bildirimi ve başlatma hazırlığıdır; üretimin gerçekten başladığı
+henüz doğrulanmadı, 65 aylık önceki kabul kapsamı değişmedi.
+
 [VM özel Drive bağlantısı kurulum çıktısı geçti](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#vm-kurulum-çıktısının-geri-okuması):
 kullanıcı pinned installer için SHA-256 OK ve üç PASS bildirdi: aynı
 client/scope/folder, yeni token ile folder erişimi ve private config kurulumu.

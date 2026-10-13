@@ -161,3 +161,20 @@ ertelemesi ve negatif etiket kuralları değişmez.
 
 Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/vm_connection_install_user_readback_20261013.json`;
 SHA-256 `0b538635157a12cd1cc2f124a7daa4ede39f0af65a5f29e6d28a1eeae21c29b8`.
+
+## OAuth kurtarma sonrası güncel oturum sınırı
+
+Üç private installer PASS sonrasında kullanıcı Cloud Shell describe
+çıktısı paylaştı: RUNNING, maxRunDuration 64800 saniye, STOP ve
+automaticRestart=false. Yeni terminationTimestamp
+`2026-10-14T13:35:01.727602Z` (14 Ekim 16:35 Türkiye). Eski kapanış
+zamanı kullanılmaz. Yerel saat kontrolü 13 Ekim 19:45:06 UTC olduğundan
+yeni sınır gelecektedir; Start sonrası geçen süre üst sınırdan düşer,
+üretim çağrısı yeni bir 18 saat başlatmaz.
+
+V7 ve registry SHA-256 değerleri başlatma rehberiyle aynı. Kullanıcıya
+aynı pinned V7, yeni zaman ve --poweroff ile yalnız bir başlatma komutu
+verilir; yeni paket veya kaynak/etiket kuralı değişikliği yoktur. Bu
+kullanıcı ayar çıktısı ve yerel hazırlık kontrolüdür; bağımsız VM sorgusu
+veya üretimin gerçekten başladığı kabulü değildir. Launcher/progress
+ile running ve yeni V7 kimliği sonraki adımda doğrulanır.
