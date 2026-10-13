@@ -178,3 +178,21 @@ verilir; yeni paket veya kaynak/etiket kuralı değişikliği yoktur. Bu
 kullanıcı ayar çıktısı ve yerel hazırlık kontrolüdür; bağımsız VM sorgusu
 veya üretimin gerçekten başladığı kabulü değildir. Launcher/progress
 ile running ve yeni V7 kimliği sonraki adımda doğrulanır.
+
+## OAuth kurtarma sonrası uzak üretim ilerlemesi
+
+Kullanıcı ilk kontrolünde progress `running`, phase `june_safe_days`,
+V7 hash `37a4c4c904b49cac1bb4bc690b485fea19b41e922f24002526ca5ad9d6d0bc3b`
+ve `2026-10-14T13:35:01.727602Z` sınırı bildirdi. error_type/failed_month/
+failed_phase None; pairs_processed_this_invocation 16. Launcher'da dört
+Aralık aşaması referans ayı yeniden doğrulanmış, Haziran aşamasına
+geçilmiş ve 16 saved/verified satırı görülmüş. Önceki kapanma/hata
+satırları aynı logun önceki denemesine aittir; güncel progress ve ardından
+gelen yeni üretim satırları yeni çağrının çalıştığını gösterir.
+
+Beş tam ay değeri bu çağrıda geri okunan ayları ifade eder, önceki
+65 aylık kabulün silindiği anlamına gelmez. Bu kullanıcı uzak çıktı
+kontrolüdür; yeni tam ay veya yerel bilimsel payload kabulü yoktur.
+13 Haziran 2018 ve 31 Aralık 2023 ertelenmesi, gözlem unknown ve negatif
+etiket false koşulları korunur. Bir sonraki takipte yeni çift/gün ve
+phase ilerlemesi izlenir; başlatma komutu tekrar çalıştırılmaz.

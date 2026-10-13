@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[OAuth kurtarma sonrası V7 uzak başlangıç kontrolü geçti](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#oauth-kurtarma-sonrası-uzak-üretim-ilerlemesi):
+kullanıcı progress running/june_safe_days, doğru V7 hash'i ve güncel
+14 Ekim 13:35:01.727602 UTC sınırı bildirdi. Hata alanları None; bu çağrıda
+16 çift kaydedilip doğrulanmış. Aralık aşamasından Haziran uygun günlerine
+geçilmiş. Beş tam ay bu çağrının geri okuma sayacıdır; önceki 65 aylık
+kabul silinmedi, yeni tam ay kabulü yok. Bu uzak kullanıcı çıktısıdır;
+yerel bilimsel ürün kabulü veya tam eğitim tamamlanması değildir.
+
 [OAuth kurtarma sonrası V7 devam sınırı doğrulandı](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#oauth-kurtarma-sonrası-güncel-oturum-sınırı):
 kullanıcı Cloud Shell çıktısı RUNNING, 64800 saniye, STOP ve
 automaticRestart=false gösteriyor. Yeni sınır 14 Ekim 13:35:01.727602 UTC
