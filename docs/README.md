@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [14 Ekim V7 ilerleme kontrolü](GCP_V7_PROGRESS_2026-10-14.md) | 66 tam aylık uzak üretici bildirimi, Nisan 2018 üretimi ve açık kaynak/yerel kabul sınırları |
 | [PROJECT.md](PROJECT.md) | Bilimsel kapsam, zaman, etiket ve veri ayrımı sözleşmesi |
 | [ROADMAP.md](ROADMAP.md) | Aşamalar ve kabul ölçütleri |
 | [Araştırma planı](research/RESEARCH_PLAN.md) | Araştırma sorusu, deney tasarımı ve açık konular |

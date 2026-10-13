@@ -1,9 +1,18 @@
-# Proje durum raporu — 13 Ekim 2026
+# Proje durum raporu — 14 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+[V7 uzak ilerlemesi: 66 tam ay](GCP_V7_PROGRESS_2026-10-14.md):
+kullanıcı running/remaining_months, doğru V7 kimliği, boş hata alanları
+ve 364 işlenmiş çift bildiriyor. Nisan 2018 üretimde; 5 ve 6 Nisan
+gün kapanışları görünüyor. Önceki 65 aylık uzak kapsamdan bir ay artış
+var; eklenen ay kimliği seçilmiş çıktıda yok. 66/72 nominal ay (%91,7),
+70 tam aylık işlenebilir hedefe dört ay kalır; iki ertelenen ay ayrı.
+STOP sınırı bugün 16:35 Türkiye. Bu kullanıcı uzak çıktısıdır; yeni
+yerel bilimsel ürün kabulü veya tam eğitim tamamlanması değildir.
 
 [OAuth kurtarma sonrası V7 uzak başlangıç kontrolü geçti](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#oauth-kurtarma-sonrası-uzak-üretim-ilerlemesi):
 kullanıcı progress running/june_safe_days, doğru V7 hash'i ve güncel

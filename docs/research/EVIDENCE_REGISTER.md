@@ -526,6 +526,14 @@ SHA-256 `0b538635157a12cd1cc2f124a7daa4ede39f0af65a5f29e6d28a1eeae21c29b8`.
 Sınır: kullanıcı uzak çıktısı; bağımsız VM sorgusu, yeni üretim veya yeni
 bilimsel kabul yok. Güncel Start'ın 18 saat/STOP ve timestamp kontrolü bekleniyor.
 
+E69 — 14 Ekim: [V7 uzak ilerleme kontrolü](../GCP_V7_PROGRESS_2026-10-14.md).
+Kaynak kullanıcı VM SSH launcher/progress bildirimi: running/remaining_months,
+364 çift, 66 tam ay, doğru V7 hash'i, güncel STOP sınırı ve None hata alanları.
+Nisan 5–6 kapanışları görünüyor. Önceki 65 aylık uzak kapsamdan bir ay
+artışı; eklenen ay kimliği seçilmiş çıktıda yok. Sınır: bağımsız canlı VM
+sorgusu veya yeni yerel bilimsel ürün kabulü yok; gözlem zamanı verilmediği
+için hız/bitiş hesabı yapılmadı. İki kaynak ertelemesi ve etiket kapısı korunur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
