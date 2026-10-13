@@ -55,6 +55,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Drive tanısı ve V6 devamı](GCP_DRIVE_RESUME_V6_2026-10-12.md) | 31 hazır ZIP'in rapor geri okuması, exact V5 geçişi, yalnız metadata GET için sınırlı tekrar ve 18 saatlik başlatma |
 | [V6 Haziran 2018 kaynak hatası](GCP_V6_FAILURE_2026-10-13.md) | 65 aylık final günlük/katalog kabulü, altı gerçek geolocation kontrol hatası ve exact final bağlı salt okunur tanı |
 | [İki eksik günle V7 devamı](GCP_SOURCE_RESUME_V7_2026-10-13.md) | İkinci tanı/22 ZIP hash envanteri, exact V6 arşiv geçişi ve 18 saatlik üç aşamalı devam |
+| [V7 Drive OAuth kurtarma](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md) | Başlangıç token HTTP 400, eski progress ayrımı, aynı klasörlü izin yenileme ve özel VM kurulumu |
 | [Doğrulanmış parser ile V3 devam](GCP_SOURCE_AWARE_V3_2026-10-10.md) | Gerçek kaynakta tam scan kabulü, açık çalışma zamanı provenance'ı, incelenmiş tanı arşivi ve uzun oturuma dönüş |
 
 ## Klasör sorumlulukları

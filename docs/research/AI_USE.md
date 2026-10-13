@@ -409,6 +409,17 @@ Bu kontroller bağımsız uzman/saha incelemesi veya aynı bilimsel kaynak
 baytları olduğunun kanıtı sayılmadı. VM'ye yeni üretim başlatılmadı;
 kimlik bilgisi/özel bağlantı içeriği okunmadı veya yayımlanmadı.
 
+## V7 Drive OAuth kurtarma hazırlığı — 13 Ekim 2026
+
+Araç desteği kullanıcı launcher çıktısını kod akışıyla karşılaştırmada,
+Google resmî OAuth koşullarının araştırılmasında ve özel bağlantı renewal/
+VM kurulum kodu/testlerinde kullanıldı. [Kurtarma kaydı](../GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md)
+kullanıcı bildirimini, token ömrü hipotezini ve gerçek izin durumunu ayırır.
+Credential değerleri ve callback URL'leri loglanmadı. İlk yerel izin akışı
+başarısız; tamamlanmış Google izni veya yeni üretim kabulü uydurulmadı.
+Bilimsel V7 ve donmuş paketler aynı hash'te kaldı; insan Google izin adımı
+bekleniyor. Bu işlem bağımsız uzman doğrulaması olarak sunulmadı.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

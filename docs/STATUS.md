@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V7 OAuth hatası ve özel bağlantı kurtarma hazırlığı](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md):
+kullanıcı launcher'ı OAUTH 400 / parent GOOGLE_HTTP_400 / poweroff gösteriyor;
+18 çocuk ve 22 ZIP arşiv geçişi geçmiş, yeni state yazılmadan durmuş.
+Progress eski V6 Haziran hatasıdır; Python süreci yok ve VM Stop teyitli.
+Kesin OAuth alt nedeni UNCLASSIFIED; Testing 7 günlük token koşulu olası,
+canlı consent/issue zamanı kanıtı değil. Yerel yenileme ilk tarayıcı
+denemesinde başarısız; özel dosya hâlâ 6 Ekim mtime'ında. Aynı istemci/
+scope/folder ve token/folder erişimi doğrulanmadan değiştirmeyen renewal
+ve VM private installer hazır; 61 test/lint/format geçti. 22 donmuş dosya
+ve V7 aynı hash'te. Google insan izin adımı, başarılı aktarım ve üretim
+devamı bekleniyor; yeni ay/ürün kabulü yok, önceki 65 ay korunur.
+
 [V7 giriş sonrası poweroff bildirimi](GCP_SOURCE_RESUME_V7_2026-10-13.md#giriş-sonrası-erken-poweroff-bildirimi--13-ekim):
 kullanıcı 13 Ekim 16:49:33 Türkiye SSH kapanma isteği bildirdi; gizli
 Earthdata istemlerinden sonra gelmiş. Kesin neden, gerçek VM duruşu ve

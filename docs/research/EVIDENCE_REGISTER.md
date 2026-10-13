@@ -493,6 +493,20 @@ Sınır: 65 ay günlük/katalog kapsamı; ZIP baytları yerelde/native kabul
 edilmedi. Yeni V7 remote yürütmesi, kaynak eşdeğerliği veya tam eğitim
 kabulü yok; kullanıcı indirme sonrası VM Stop teyitli.
 
+E66 — 13 Ekim: [V7 başlangıcında OAuth 400 ve kurtarma hazırlığı](../GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md).
+Kullanıcı 18 çocuk/22 ZIP arşiv geçişi sonrası OAUTH 400 / parent 400 /
+poweroff, eski V6 progress ve boş ps bildiriyor; VM Stop teyitli. Kanıt
+`outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/oauth_failure_user_readback_20261013.json`,
+SHA-256 `d401eef335403715ec4c8a5067348c0bc42298e6d817a0f30abdd86466dec4ee`.
+Native kod sırası eski progress'i açıklıyor; OAuth alt nedeni bilinmiyor.
+Testing 7 gün koşulu resmî kaynaktan; mevcut consent/issue kanıtı değil.
+Aynı client/scope/folder erişimiyle renewal ve kilitli private installer
+hazır, 61 test/lint/format geçti. 22 donmuş dosya ve V7 değişmedi.
+Sınır: ilk yerel izin akışı başarısız; yeni yetki/VM kurulum/üretim kabulü
+henüz yok. Google insan izni beklenir; 65 aylık önceki kapsam korunur.
+Kurtarma hazırlığı `connection_recovery_prepared_20261013.json`, SHA-256
+`b74c69193b2d28b0284436a456d3c6a5b18fc0b66203cce9099784c9d1d90d94`.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

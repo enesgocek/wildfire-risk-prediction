@@ -180,3 +180,17 @@ Stop yapılır. Agent yeni bulut işi veya restart uygulamadı.
 
 Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/early_poweroff_user_readback_20261013T134933Z.json`;
 SHA-256 `87179a86e48a5acaeac9a8b96444690f846123286327abeb0609a839e7a2b160`.
+
+## Erken duruşun launcher geri okuması — 13 Ekim
+
+Sonraki kullanıcı çıktısı arşiv geçişini ve receipt varlığını, ardından
+OAUTH 400 / parent GOOGLE_HTTP_400 / poweroff durumunu gösterdi. Python
+satırı yok; kullanıcı VM Stop teyit etti. Native backend token kontrolü
+yeni state yazımından öncedir, bu yüzden progress eski V6/Haziran failed
+kaydında kalmış. Bu yeni bir Haziran kaynak hatası sayılmaz.
+
+[Özel bağlantı kurtarma rehberi](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md),
+aynı istemci/scope/folder korunarak Google izin yenileme ve VM token/folder
+kontrolünü içerir. Kesin OAuth alt nedeni görülmedi; Testing 7 gün koşulu
+olasıdır. V7 değiştirilmedi; yeni gün/ay/ürün kabulü yoktur. Önceki belirsiz
+broadcast kaydı yukarıda tarihli sınırıyla korunur.

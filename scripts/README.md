@@ -945,3 +945,13 @@ kalıpları gönderimi engeller. Çıktıda yalnız dosya/kural/satır gösteril
 eşleşen değer yazdırılmaz. `.gitignore` ve bu tarama manuel dosya/diff
 incelemesinin yerine geçmez. Bu işlem saatli bir görev veya bulut kaynağı
 başlatma izni değildir; force-push yapılmaz.
+
+
+`cloud/connect_drive.py --renew --connection <mutlak-özel-dosya>`, mevcut
+client/scope/folder korunarak izin yeniler. Exact mevcut folder erişimi
+kontrol edilmeden token dosyası değiştirilmez; yeni klasör oluşturmaz.
+`cloud/install_renewed_drive_connection.py`, Linux job lock ve pinned
+Drive modülüyle yeni/eskide aynı client/scope/folder, canlı OAuth ve
+folder erişimini karşılaştırır; sadece özel config'i 0600 ile atomik
+değiştirir. Üretim/Drive nesnesi başlatma veya bilimsel sonuç yazımı yoktur.
+Token/code/yanıt metni loglanmaz. [Kurtarma adımları](../docs/GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md).

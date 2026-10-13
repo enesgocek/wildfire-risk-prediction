@@ -6,6 +6,7 @@ import hashlib
 import http.server
 import json
 import os
+import re
 import secrets
 import time
 import urllib.parse
@@ -13,6 +14,20 @@ import webbrowser
 from pathlib import Path
 
 from drive_job_store import SCOPE, TOKEN, DriveAPI, require
+
+
+def safe_failure(error):
+    labels = {
+        "Browser could not open": "BROWSER_NOT_OPENED",
+        "Browser authorization timed out; rerun locally": "BROWSER_TIMEOUT",
+        "Offline authorization absent": "OFFLINE_AUTHORIZATION_ABSENT",
+        "Granted scope differs": "SCOPE_DIFFERS",
+        "Existing private connection required": "PRIVATE_CONNECTION_MISSING",
+        "Renewed authorization must access the existing folder": "EXISTING_FOLDER_ACCESS_FAILED",
+        "Drive HTTP 400; no secrets logged": "OAUTH_OR_DRIVE_HTTP_400",
+    }
+    message = error.args[0] if len(error.args) == 1 else None
+    return labels.get(message, "UNCLASSIFIED") if isinstance(message, str) else "UNCLASSIFIED"
 
 
 def authorize(client):
@@ -96,12 +111,42 @@ def main():
     require(os.name == "nt", "Connect from the Windows PC while the VM is stopped")
     parser = argparse.ArgumentParser()
     parser.add_argument("--renew", action="store_true")
+    parser.add_argument("--connection", type=Path)
     args = parser.parse_args()
-    target = Path(os.environ["LOCALAPPDATA"]) / "wildfire-cloud-auth" / "drive_connection.json"
+    require(args.connection is None or args.renew, "Explicit connection is renewal-only")
+    target = args.connection or (
+        Path(os.environ["LOCALAPPDATA"]) / "wildfire-cloud-auth" / "drive_connection.json"
+    )
     if args.renew:
+        require(
+            target.is_absolute() and target.is_file() and not target.is_symlink(),
+            "Existing private connection required",
+        )
         previous = json.loads(target.read_text(encoding="utf-8"))
         connection = authorize(previous)
+        require(
+            connection["client_id"] == previous["client_id"]
+            and connection["client_secret"] == previous["client_secret"]
+            and connection["scope"] == previous["scope"] == SCOPE,
+            "Renewal must preserve client and scope",
+        )
         connection["folder_id"] = previous["folder_id"]
+        require(
+            re.fullmatch(r"[A-Za-z0-9_-]{10,200}", connection["folder_id"]),
+            "Existing Drive folder identity",
+        )
+        folder = json.loads(
+            DriveAPI(connection).request(
+                f"/files/{connection['folder_id']}?fields=id,mimeType,trashed,capabilities(canAddChildren)"
+            )
+        )
+        require(
+            folder.get("id") == connection["folder_id"]
+            and folder.get("mimeType") == "application/vnd.google-apps.folder"
+            and folder.get("trashed") is False
+            and folder.get("capabilities", {}).get("canAddChildren") is True,
+            "Renewed authorization must access the existing folder",
+        )
         pending = target.with_suffix(".pending")
         with pending.open("x", encoding="utf-8") as stream:
             json.dump(connection, stream)
@@ -130,9 +175,8 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except Exception:
+    except Exception as error:
         print(
-            "Drive setup failed. Check client type, test user and API permission. "
-            "No secrets logged."
+            "Drive setup failed:", type(error).__name__, safe_failure(error), "; no secrets logged."
         )
         raise SystemExit(1) from None
