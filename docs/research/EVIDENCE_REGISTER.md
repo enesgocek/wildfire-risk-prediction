@@ -467,6 +467,19 @@ SHA-256 `ba030461e6bcdfbb6efb915f24c42da35b2fee88695499f5f7896c9b58e9af54`.
 Sınır: günlük/katalog kabulü; gerçek deklarasyon adları henüz yok, yeni
 bilimsel ürün veya canlı Drive kabulü değil. VM Stop kullanıcı teyidi var.
 
+E64 — 13 Ekim: [V6 geolocation snapshot ve CMR kontrolü](../GCP_V6_FAILURE_2026-10-13.md#kaynak-tanısının-yerel-geri-okuması).
+7.891 baytlık exact public snapshot, 14 korunan hash ve altı kaynak kimliği
+geçti. Bildirilen 2021/selected 2024 üretim damgası farklı; boyutlar planla
+aynı. CMR exact eski adlar 0/yeni adlar 1 hit; eski metadata revizyonları
+404, yeni revision 4 URL'lerinde selected adlar doğrulandı. Anonim HEAD
+303 sonucu varlık ayırmaz. Yeni iptal/payload hash tanısı hazır, birleşik
+14 test/lint geçti; gerçek VM'de çalışmadı. Giriş/GCP/source indirmesi yok.
+`outputs/gcp_acceleration/source_aware_v6_session_2026-10-13/geolocation_snapshot_readback_20261013.json`
+SHA-256 `60fb6c66f587611054d8b20184f5c444936fda00520701f642cef5756cbe6c35`;
+source snapshot SHA-256 `506ec0451d26436c562ab31a5ab74c9fea4a100c860fc4a45fcd59d103b821bc`.
+Sınır: bütün NASA arşivlerinden yokluk veya raw eşdeğerlik kanıtı değildir.
+Yeni kaynak ertelemesi/üretim veya bilimsel ürün kabulü uygulanmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

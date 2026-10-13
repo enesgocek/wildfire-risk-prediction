@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 kaynak adları ve NASA metadata kontrolü](GCP_V6_FAILURE_2026-10-13.md#kaynak-tanısının-yerel-geri-okuması):
+altı NOAA-20 çiftinde bildirilen geolocation 2021, seçilen sürüm 2024
+üretimli; granül/021 alanları aynı. Exact public snapshot geri okuması
+geçti; raw boyutlar planla eşleşiyor, checksum eşdeğerliği kanıtlanmadı.
+Anonim CMR'de altı eski ad sıfır, altı yeni ad bir hit; eski metadata
+revizyonları 404. Bu tüm NASA arşivlerinden yokluk kanıtı değil.
+13 Haziran'ı eksik tutup diğer günleri ilerletme hazırlığı için 12 iptal
+tanısı ve hazır ZIP hash envanteri toplayan yeni betik hazır; 14 birleşik
+test/lint geçti. Yeni erteleme ve devam henüz uygulanmadı; kaynak/negatif
+kontrolü korunur, 65 aylık kabul kapsamı değişmedi. VM Stop kullanıcı teyidi var.
+
 [V6 Haziran 2018 kaynak eşleşme hatası](GCP_V6_FAILURE_2026-10-13.md):
 yerel arşiv denetimi üç eşit failed final, 65 tam ay ve yedi yeni ay
 kapanışı gösterdi. 13 Haziran'ın altı NOAA-20 çiftinde actual geolocation

@@ -873,6 +873,12 @@ kimlik bilgisi okumaz, ağ/üretim/VM işlemi yapmaz. Yeni tanı JSON'u yazar.
 Linux VM'de sınırlı süreyle çalıştırılır; betik uzun üretimi başlatmaz.
 [Denetim ve kullanım](../docs/GCP_V6_FAILURE_2026-10-13.md).
 
+`cloud/collect_gcp_v6_resume_snapshot.py`, kabul edilmiş önceki public
+geolocation snapshot'ından sonra yalnız 18 bilinen çocuk tanısı, bir parent
+ve hazır pair ZIP boyut/hash envanteri toplar. Yeni/changed hata sınıfı
+reddedilir; raw, credentials, ağ ve üretim yazımı yok. Bu native ürün kabulü
+veya yeni devam komutu değildir; [13 Ekim devam hazırlığı](../docs/GCP_V6_FAILURE_2026-10-13.md#devam-için-iptal-tanılarını-ve-hazır-çıktı-hashlerini-toplama).
+
 ## 18 saatlik V5 devam ve V4 hata denetimi
 
 `scripts/cloud/verify_gcp_v4_failure.py` alınan sınırlı tanı arşivini ağ kapalı
