@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 Haziran 2018 kaynak eşleşme hatası](GCP_V6_FAILURE_2026-10-13.md):
+yerel arşiv denetimi üç eşit failed final, 65 tam ay ve yedi yeni ay
+kapanışı gösterdi. 13 Haziran'ın altı NOAA-20 çiftinde actual geolocation
+girdi kontrolü başarısız; hata sonrası poweroff istenmiş. Haziran 1–9
+kapalı; Ocak–Haziran 2018 ve Aralık 2023 toplam yedi ay tam kapanmamış.
+Kaynak örneklerinde RAM/disk rezerv ihlali yok. Exact final bağlı salt
+okunur tanı betiği hazır, sekiz test/lint geçti; VM'de henüz çalıştırılmadı.
+Sonraki adım altı görevin bildirilen/seçilen dosya adlarını almaktır.
+Kullanıcı indirme sonrası VM Stop teyidi verdi. Yeni üretim/etiket veya
+bilimsel ürün bayt kabulü yok; aşağıdaki erken duruş belirsizliği tarihlidir.
+
 [V6 yeni oturum VM duruşu](GCP_DRIVE_RESUME_V6_2026-10-12.md#yeni-oturumun-vm-duruş-bildirimi--13-ekim):
 kullanıcı TERMINATED/18 saat/STOP ve otomatik yeniden başlatma kapalı
 bildirdi. 13 Ekim 06:00:30 Türkiye duruşu; oturum 8:24:20 sürdü,

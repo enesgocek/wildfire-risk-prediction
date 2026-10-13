@@ -455,6 +455,18 @@ Kapanış nedeni/tam-ay sonucu henüz yok; bağımsız canlı sorgu yapılmadı.
 Kanıt `outputs/gcp_acceleration/source_aware_v6_session_2026-10-13/vm_stop_user_readback_20261013T094943Z.json`;
 SHA-256 `abf76179d989ebeb6390444defeae627d8f3af1c8607c865c6355ca391fa3a37`.
 
+E63 — 13 Ekim: [V6 Haziran 2018 hata denetimi](../GCP_V6_FAILURE_2026-10-13.md).
+541.148 baytlık arşiv/beş normal üye/üç eşit failed final. 65 ay, yedi yeni
+ay; 1.841 yeni/33 reused çift ve günlük/katalog sayımları eşleşti. Altı
+13 Haziran NOAA-20 kaynağı actual geolocation guard hatası; hata sonrası
+poweroff. 13.253 örnekte rezerv ihlali yok. Exact final bağlı public ad/stat
+tanısı hazır; sekiz davranış testi/lint geçti, gerçek VM'de çalışmadı.
+Arşiv SHA-256 `1bae31a2aada315c1e6e0297d935d8594790f88fa4283dca22d60abf5d975444`;
+`outputs/gcp_acceleration/source_aware_v6_session_2026-10-13/failure_session_readback_20261013.json`
+SHA-256 `ba030461e6bcdfbb6efb915f24c42da35b2fee88695499f5f7896c9b58e9af54`.
+Sınır: günlük/katalog kabulü; gerçek deklarasyon adları henüz yok, yeni
+bilimsel ürün veya canlı Drive kabulü değil. VM Stop kullanıcı teyidi var.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

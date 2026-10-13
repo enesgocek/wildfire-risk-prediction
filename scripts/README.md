@@ -863,6 +863,16 @@ bilimsel guards, checkpoint anahtarları, worker sayısı ve rezervlerle çalı�
 [Yükleme, kapalı VM süre ayarı ve yeni deadline adımları](../docs/GCP_THIRTEEN_HOUR_CONTINUATION_2026-10-10.md).
 V3 günlük doğrulayıcısı V4 kimliğine uygulanmaz; yeni sonuç ayrıca kabul edilir.
 
+## V6 Haziran 2018 kaynak adı tanısı
+
+`cloud/collect_gcp_v6_geolocation_snapshot.py`, 13 Ekim'de incelenen exact
+V6 failed finalinden yalnız altı NOAA-20 geolocation hatasının public
+dosya adlarını ve kaynak stat bilgilerini toplar. İş kilidi, paket/wrapper/
+final hash'leri ve işlem sonu değişmeme kontrolü vardır; ham kaynak veya
+kimlik bilgisi okumaz, ağ/üretim/VM işlemi yapmaz. Yeni tanı JSON'u yazar.
+Linux VM'de sınırlı süreyle çalıştırılır; betik uzun üretimi başlatmaz.
+[Denetim ve kullanım](../docs/GCP_V6_FAILURE_2026-10-13.md).
+
 ## 18 saatlik V5 devam ve V4 hata denetimi
 
 `scripts/cloud/verify_gcp_v4_failure.py` alınan sınırlı tanı arşivini ağ kapalı
