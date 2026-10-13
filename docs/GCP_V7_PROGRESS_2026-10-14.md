@@ -43,3 +43,19 @@ Başlatma komutu tekrarlanmadan aynı çağrı takip edilir. Oturum bittiğinde
 final/progress/launcher kanıtları geri okunur; tamamlanma veya yeni hata
 yalnız VM Stop durumundan çıkarılmaz. Yeni kod, paket, kaynak silme veya
 bulut işi bu rapor için uygulanmadı.
+
+## Sonraki uzak bildirim: 67 tam ay
+
+Kullanıcı aynı V7 kimliği ve STOP sınırıyla running/remaining_months,
+529 işlenmiş çift ve 67 tam ay bildirdi; üç hata alanı None. Önceki
+66 ay/364 çift bildirimine göre bir ay ve 165 çift artışı vardır.
+Aktif ay Mart 2018; görünür kapanışlar 7, 11, 12 ve 13 Mart. Paralel
+gün kapanışları sıralı değildir; bu kesitten 1–13 Mart'ın tamamının
+kapandığı sonucu çıkarılmaz. Nisan'dan Mart üretimine geçildiği görülür.
+
+67/72 nominal ay (%93,1); V7'nin 70 tam aylık işlenebilir hedefine üç
+ay kalır. İki ertelenen ay ve 59 uygun kısmi günün final kontrolü ayrıdır.
+Gözlem saati ve existing_months listesi paylaşılmadı; hız, kesin bitiş
+ve yeni ay kimliği için bağımsız doğrulama yapılmadı. Kaynak kullanıcı
+uzak çıktısıdır; yeni yerel bilimsel ürün kabulü yoktur. Önceki 66 aylık
+kayıt tarihli ara bulgu olarak korunur; aynı çağrı yeniden başlatılmaz.

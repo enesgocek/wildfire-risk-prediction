@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V7 uzak ilerlemesi: 67 tam ay](GCP_V7_PROGRESS_2026-10-14.md#sonraki-uzak-bildirim-67-tam-ay):
+kullanıcı running/remaining_months, aynı V7 kimliği/süre sınırı, None
+hata alanları ve 529 çift bildiriyor. Mart 2018 üretimde; görünür gün
+kapanışları 7, 11, 12, 13 Mart. Önceki snapshot'a göre bir ay/165 çift
+artışı; 67/72 nominal ay (%93,1), işlenebilir 70 tam ay hedefine üç ay
+kalır. İki ertelenen ay ve yerel bilimsel ürün/final kabulü ayrı kalır.
+Gözlem saati olmadığı için hız/bitiş hesabı yapılmadı.
+
 [V7 uzak ilerlemesi: 66 tam ay](GCP_V7_PROGRESS_2026-10-14.md):
 kullanıcı running/remaining_months, doğru V7 kimliği, boş hata alanları
 ve 364 işlenmiş çift bildiriyor. Nisan 2018 üretimde; 5 ve 6 Nisan
