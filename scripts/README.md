@@ -879,6 +879,15 @@ ve hazır pair ZIP boyut/hash envanteri toplar. Yeni/changed hata sınıfı
 reddedilir; raw, credentials, ağ ve üretim yazımı yok. Bu native ürün kabulü
 veya yeni devam komutu değildir; [13 Ekim devam hazırlığı](../docs/GCP_V6_FAILURE_2026-10-13.md#devam-için-iptal-tanılarını-ve-hazır-çıktı-hashlerini-toplama).
 
+`cloud/run_gcp_source_aware_continuation_v7.py`, exact V6 final ve iki
+incelenmiş public tanıyla 18 çocuk/parent kanıtını korur, 22 hazır ZIP
+hash'ini kontrol eder. Aralık ve Haziran'ın uygun günleri ile kalan aylar
+üç aşamada yürür; 13 Haziran 2018 / 31 Aralık 2023 ve bu iki ayın tam
+completion'ı dışarıda kalır. Eski native bilimsel kod ve checkpoint
+kimlikleri aynı; yeni failed durum otomatik kabul edilmez. 18 saat ve
+otomatik poweroff zorunludur. Ayrı JSON `configs/gcp_source_blocks_2026-10-13.json`;
+[başlatma ve kabul sınırı](../docs/GCP_SOURCE_RESUME_V7_2026-10-13.md).
+
 ## 18 saatlik V5 devam ve V4 hata denetimi
 
 `scripts/cloud/verify_gcp_v4_failure.py` alınan sınırlı tanı arşivini ağ kapalı

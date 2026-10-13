@@ -1,0 +1,90 @@
+{
+  "blocked_pairs": [
+    {
+      "fire_filename": "VJ114IMG.A2018164.0018.002.2024007165040.nc",
+      "provider_lookup": "Anonymous exact CMR lookup: declared old name zero hits; selected name one hit; not proof of absence in every archive",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VJ103IMG.A2018164.0018.021.2021041061359.nc",
+      "sample_id": "N20:2018164.0018",
+      "selected_geolocation": "VJ103IMG.A2018164.0018.021.2024194040130.nc"
+    },
+    {
+      "fire_filename": "VJ114IMG.A2018164.0024.002.2024007165042.nc",
+      "provider_lookup": "Anonymous exact CMR lookup: declared old name zero hits; selected name one hit; not proof of absence in every archive",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VJ103IMG.A2018164.0024.021.2021041060250.nc",
+      "sample_id": "N20:2018164.0024",
+      "selected_geolocation": "VJ103IMG.A2018164.0024.021.2024194040133.nc"
+    },
+    {
+      "fire_filename": "VJ114IMG.A2018164.1000.002.2024007165046.nc",
+      "provider_lookup": "Anonymous exact CMR lookup: declared old name zero hits; selected name one hit; not proof of absence in every archive",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VJ103IMG.A2018164.1000.021.2021041063854.nc",
+      "sample_id": "N20:2018164.1000",
+      "selected_geolocation": "VJ103IMG.A2018164.1000.021.2024194040133.nc"
+    },
+    {
+      "fire_filename": "VJ114IMG.A2018164.1142.002.2024007165057.nc",
+      "provider_lookup": "Anonymous exact CMR lookup: declared old name zero hits; selected name one hit; not proof of absence in every archive",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VJ103IMG.A2018164.1142.021.2021041060002.nc",
+      "sample_id": "N20:2018164.1142",
+      "selected_geolocation": "VJ103IMG.A2018164.1142.021.2024194040131.nc"
+    },
+    {
+      "fire_filename": "VJ114IMG.A2018164.2218.002.2024007165225.nc",
+      "provider_lookup": "Anonymous exact CMR lookup: declared old name zero hits; selected name one hit; not proof of absence in every archive",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VJ103IMG.A2018164.2218.021.2021041055645.nc",
+      "sample_id": "N20:2018164.2218",
+      "selected_geolocation": "VJ103IMG.A2018164.2218.021.2024194040130.nc"
+    },
+    {
+      "fire_filename": "VJ114IMG.A2018164.2224.002.2024007165228.nc",
+      "provider_lookup": "Anonymous exact CMR lookup: declared old name zero hits; selected name one hit; not proof of absence in every archive",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VJ103IMG.A2018164.2224.021.2021041063127.nc",
+      "sample_id": "N20:2018164.2224",
+      "selected_geolocation": "VJ103IMG.A2018164.2224.021.2024194040134.nc"
+    },
+    {
+      "fire_filename": "VNP14IMG.A2023365.0106.002.2023365085734.nc",
+      "provider_lookup": "CMR exact old name no hits; current name positive; LAADS directory lists current version",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VNP03IMG.A2023365.0106.002.2023365074552.nc",
+      "sample_id": "SNPP:2023365.0106",
+      "selected_geolocation": "VNP03IMG.A2023365.0106.002.2024006061118.nc"
+    },
+    {
+      "fire_filename": "VNP14IMG.A2023365.1048.002.2023365182925.nc",
+      "provider_lookup": "CMR exact old name no hits; current name positive; LAADS directory lists current version",
+      "reason": "actual_geolocation_input_mismatch",
+      "required_geolocation": "VNP03IMG.A2023365.1048.002.2023365174608.nc",
+      "sample_id": "SNPP:2023365.1048",
+      "selected_geolocation": "VNP03IMG.A2023365.1048.002.2024006064212.nc"
+    }
+  ],
+  "controller_scope_sha256": "102c9e4ab16e4450d0d94eb3511dfdbf360fd6b6292809c5457efc93d2be5837",
+  "daily_observation_status": "unknown",
+  "decision": "Defer unresolved source days, preserve missing observation and continue other training days; no equivalence acceptance",
+  "deferred_days": [
+    "2018-06-13",
+    "2023-12-31"
+  ],
+  "deferred_months": [
+    "2018-06",
+    "2023-12"
+  ],
+  "full_training_complete": false,
+  "lineage_snapshot_sha256": "506ec0451d26436c562ab31a5ab74c9fea4a100c860fc4a45fcd59d103b821bc",
+  "month_plan_sha256_by_month": {
+    "2018-06": "9681b5509ee08f5b915e1bd3665589bfc415683ce4a4354f579f98e65a19e32d",
+    "2023-12": "7f44606b19aab60fe75392f8df7e6951143892caf94e58eb6b23b2bfc5f19685"
+  },
+  "negative_label_permitted": false,
+  "original_scope_sha256": "0c5302cadf0c05dce36843254300cd8719346ddac4648c78c5c20a7dfd8f7394",
+  "previous_registry_sha256": "6f4eb9fd307ef892a3d3446ef14f32fb758bfd4c59c98b77dce82410e859dd5d",
+  "protocol": "gcp_unresolved_source_registry_v2",
+  "resume_snapshot_sha256": "a98692817bb6a9f6288a645c6123d5d2d5fe4432f38e366b061515094be26de3"
+}

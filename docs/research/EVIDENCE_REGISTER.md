@@ -480,6 +480,19 @@ source snapshot SHA-256 `506ec0451d26436c562ab31a5ab74c9fea4a100c860fc4a45fcd59d
 Sınır: bütün NASA arşivlerinden yokluk veya raw eşdeğerlik kanıtı değildir.
 Yeni kaynak ertelemesi/üretim veya bilimsel ürün kabulü uygulanmadı.
 
+E65 — 13 Ekim: [İkinci V6 tanısı ve V7 hazırlığı](../GCP_SOURCE_RESUME_V7_2026-10-13.md).
+15.843 baytlık public tanı exact final/ilk tanı/plan ve katalogla eşleşti;
+18 çocuk, tek parent, 22 hazır ZIP / 65.888.711 bayt. Tanı SHA-256
+`a98692817bb6a9f6288a645c6123d5d2d5fe4432f38e366b061515094be26de3`.
+Ayrı V7 iki eksik günü dışlar, 27 kanıt dosyasını korur, 22 ZIP hash'ini
+kontrol eder; native bilimsel kontroller ve 18 saat/Stop düzeni aynı.
+156 birleşik test ve lint/format geçti; 22 donmuş paket/kod hash'i aynı.
+Hazırlık kaydı `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/prepared_readback_20261013.json`.
+SHA-256 `00df6f85ed95430f52357c522f2d2598986a18b328ff9fb07e17339beecb3e92`.
+Sınır: 65 ay günlük/katalog kapsamı; ZIP baytları yerelde/native kabul
+edilmedi. Yeni V7 remote yürütmesi, kaynak eşdeğerliği veya tam eğitim
+kabulü yok; kullanıcı indirme sonrası VM Stop teyitli.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

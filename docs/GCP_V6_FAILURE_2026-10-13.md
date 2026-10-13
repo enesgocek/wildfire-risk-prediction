@@ -220,3 +220,19 @@ fi
 Download satırındaki JSON aynı received dizinine aktarılır; VM Stop yapılır.
 Yeni snapshot kabul edilince exact başarısız tanılar ve hazır çıktı hash'leri
 korunan ayrı devam sürümü hazırlanır. Bu aşamada üretim yeniden başlatılmadı.
+
+## İkinci snapshot kabulü ve V7 hazırlığı
+
+13 Ekim'de kullanıcı `gcp_v6_resume_snapshot_20261013T131934138747Z.json`
+dosyasını aktardı, VM Stop teyidi verdi. 15.843 bayt; SHA-256
+`a98692817bb6a9f6288a645c6123d5d2d5fe4432f38e366b061515094be26de3`.
+Exact final/ilk tanı/plan, 18 çocuk kimliği/hash yolu, tek parent ve
+22 hazır ZIP envanteri katalogla eşleşti. 65.888.711 bayt / 10–12 Haziran;
+ZIP baytları yerel bilgisayara gelmedi, bilimsel restore kabulü yapılmadı.
+İptal kimlikleri 13–14 Haziran'a aittir; -9 OOM diye sınıflandırılmadı.
+
+[Ayrı V7 devam paketi](GCP_SOURCE_RESUME_V7_2026-10-13.md) hazırlanıp
+156 birleşik kontrol ve lint/format geçti. V7 çalıştığında iki eksik gün
+ve iki kısmi ay ayrı tutulur; mevcut 65 ay silinmez. Yeni remote üretim,
+Drive kabulü veya kaynak guard değişikliği yapılmadı. Önceki hazırlık ve
+NASA arama bulguları yukarıda kendi tarihli sınırlarıyla korunur.

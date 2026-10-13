@@ -399,6 +399,16 @@ bağımsız bilimsel tekrar, bütün yazarların biyografik incelemesi veya sonu
 doğruluğu garantisi olarak sunulmadı. Ham özel veri, token veya bağlantı
 JSON'u okunmadı/gönderilmedi; canlı bilimsel kod ve kuyruklar değişmedi.
 
+## V6 kaynak tanısı ve V7 devam hazırlığı — 13 Ekim 2026
+
+Araç desteği public tanıların katalogla geri okuması, anonim NASA metadata
+sorguları, devam betiği ve davranış kontrolleri geliştirmesinde kullanıldı.
+İki kaynak günü eksik tutulurken diğer günlere devam hazırlığı yapıldı;
+[kanıt ve sınırlar](../GCP_SOURCE_RESUME_V7_2026-10-13.md) ayrı kayıtlıdır.
+Bu kontroller bağımsız uzman/saha incelemesi veya aynı bilimsel kaynak
+baytları olduğunun kanıtı sayılmadı. VM'ye yeni üretim başlatılmadı;
+kimlik bilgisi/özel bağlantı içeriği okunmadı veya yayımlanmadı.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

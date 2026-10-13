@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V6 ikinci tanı kabulü ve V7 devam hazırlığı](GCP_SOURCE_RESUME_V7_2026-10-13.md):
+15.843 baytlık public snapshot katalogla eşleşti: altı kaynak hatası,
+12 iptal, tek parent ve 22 hazır ZIP / 65.888.711 bayt. 65 tam aylık
+günlük/katalog kabulü korunur; ZIP baytları yerelde/native kabul edilmedi.
+Ayrı V7, 13 Haziran 2018 ve 31 Aralık 2023 günlerini eksik tutar; üç
+aşamayla diğer gün/aylara devam eder. Exact tanı/final/22 ZIP hash geçişi,
+27 kanıt dosyasının korunması, bilinmeyen hata reddi ve 18 saat/poweroff
+aynı; kaynak eşleşme ve negatif etiket kapıları korunur. 156 birleşik
+test/lint/format geçti; 22 donmuş dosya aynı hash'te. Yeni paket hazır,
+VM Stop kullanıcı teyitli; V7 henüz çalıştırılmadı. İşlenebilir sonuç
+70 tam ay ve iki kısmi ayın 59 uygun günüdür; eğitim tamamlandı sayılmaz.
+
 [V6 kaynak adları ve NASA metadata kontrolü](GCP_V6_FAILURE_2026-10-13.md#kaynak-tanısının-yerel-geri-okuması):
 altı NOAA-20 çiftinde bildirilen geolocation 2021, seçilen sürüm 2024
 üretimli; granül/021 alanları aynı. Exact public snapshot geri okuması
