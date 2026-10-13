@@ -156,3 +156,27 @@ PY
 ZIPs: 22` beklenir. Yeni hash/phase/policy ve None hata alanlarıyla birlikte
 çıktı paylaşılır. Başlangıç komutu ikinci kez çalıştırılmaz. Duruşta final
 ve günlük arşivi yine yerel geri okumaya alınır; VM tümden silinmez.
+
+## Giriş sonrası erken poweroff bildirimi — 13 Ekim
+
+Kullanıcı, gizli Earthdata istemlerini girdikten sonra SSH'de root kaynaklı
+`The system will power off now!` mesajı aldığını bildirdi. Broadcast zamanı
+13 Ekim **13:49:33 UTC / 16:49:33 Türkiye**. Bu, kapanma isteği bildirimidir;
+VM'nin tamamlanmış duruşu, V7 wrapper kimliği, Earthdata doğrulama sonucu,
+yeni gün/ay tamamlanması veya kesin hata nedeni bu çıktıyla doğrulanmadı.
+
+Yerel kod incelemesi, credential pipe ve detached supervisor sonrasında
+üretim kilidi alınınca supervisor'ın finally yolunda hata durumunda da
+poweroff istediğini gösterdi. Böyle bir başlangıç kontrolü hatası olasıdır;
+parola, kota veya kaynak hatası diye sınıflandırılmadı. Kapanış başka bir
+mekanizmadan geldiyse launcher/VM durum kaydıyla ayrılması gerekir.
+
+65 aylık önceki günlük/katalog kabulü ve paket hazırlığı korunur. Yeni
+uzak progress/launcher okunmadı; bilimsel kod/paket/registry değiştirilmedi.
+Kullanıcıya üretim komutunu tekrarlamadan kısa Start sonrası yalnız V7
+launcher, seçilmiş progress alanları, arşiv receipt varlığı ve süreç
+listesini alma adımı verildi. Çalışan iş yoksa indirme gerektirmeden tekrar
+Stop yapılır. Agent yeni bulut işi veya restart uygulamadı.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/early_poweroff_user_readback_20261013T134933Z.json`;
+SHA-256 `87179a86e48a5acaeac9a8b96444690f846123286327abeb0609a839e7a2b160`.

@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V7 giriş sonrası poweroff bildirimi](GCP_SOURCE_RESUME_V7_2026-10-13.md#giriş-sonrası-erken-poweroff-bildirimi--13-ekim):
+kullanıcı 13 Ekim 16:49:33 Türkiye SSH kapanma isteği bildirdi; gizli
+Earthdata istemlerinden sonra gelmiş. Kesin neden, gerçek VM duruşu ve
+wrapper/progress kimliği için launcher bekleniyor. Kodda supervisor
+hata yolunda da poweroff ister; parola veya tamamlanma sonucu çıkarılmadı.
+65 aylık önceki günlük/katalog kabulü aynı. Yeni üretim tekrarı verilmedi;
+kısa Start sonrası salt okunur günlük/progress/süreç kontrolü istendi.
+Aşağıdaki V7 hazırlık kaydı bu kullanıcı bildiriminin öncesindedir.
+
 [V6 ikinci tanı kabulü ve V7 devam hazırlığı](GCP_SOURCE_RESUME_V7_2026-10-13.md):
 15.843 baytlık public snapshot katalogla eşleşti: altı kaynak hatası,
 12 iptal, tek parent ve 22 hazır ZIP / 65.888.711 bayt. 65 tam aylık
