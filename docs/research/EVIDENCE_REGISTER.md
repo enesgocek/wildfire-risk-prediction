@@ -507,6 +507,16 @@ henüz yok. Google insan izni beklenir; 65 aylık önceki kapsam korunur.
 Kurtarma hazırlığı `connection_recovery_prepared_20261013.json`, SHA-256
 `b74c69193b2d28b0284436a456d3c6a5b18fc0b66203cce9099784c9d1d90d94`.
 
+E67 — 13 Ekim: [Yerel yenilenmiş Drive bağlantısının canlı kontrolü](../GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#terminal-kapanması-sonrası-yerel-canlı-doğrulama).
+Kullanıcı callback mesajı sonrası terminali kapattı; özel dosya mtime'ı
+14:17:33 UTC'ye değişmişti. Yerel canlı OAuth refresh ve mevcut folder
+metadata kontrolü geçti; drive.file, şema, canAddChildren ve dosyanın
+kontrol sırasında değişmediği doğrulandı. Credential değerleri kaydedilmedi.
+Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/local_connection_verified_20261013.json`,
+SHA-256 `5beba1638f7b558744a9200d1b3ed380c8ad832f69c4e4c33763a360242f52dd`.
+Sınır: eski VM client/folder eşitliği ve kurulum henüz kontrol edilmedi;
+Drive nesnesi yazılmadı, VM/üretim başlatılmadı, yeni bilimsel kabul yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

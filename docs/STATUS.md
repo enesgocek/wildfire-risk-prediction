@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Yerel Drive bağlantısı doğrulandı](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md#terminal-kapanması-sonrası-yerel-canlı-doğrulama):
+kullanıcı Google callback mesajından sonra terminali kapattığını bildirdi.
+Özel dosya 13 Ekim 14:17:33 UTC'de değişmiş; yeni bağlantıyla canlı OAuth
+refresh, mevcut folder erişimi/yazabilme yetkisi ve kontrol sırasında dosya
+bütünlüğü geçti. Credential değerleri kayda alınmadı; Drive nesnesi yazılmadı.
+VM'deki eski istemci/klasör ile eşitlik ve özel config kurulumu sonraki
+installer adımında doğrulanacak. VM Stop kullanıcı teyitli; üretim henüz
+yeniden başlamadı ve 65 aylık önceki kabul kapsamı değişmedi.
+
 [V7 OAuth hatası ve özel bağlantı kurtarma hazırlığı](GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md):
 kullanıcı launcher'ı OAUTH 400 / parent GOOGLE_HTTP_400 / poweroff gösteriyor;
 18 çocuk ve 22 ZIP arşiv geçişi geçmiş, yeni state yazılmadan durmuş.

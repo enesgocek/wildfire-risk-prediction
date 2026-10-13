@@ -120,3 +120,24 @@ kontrol eder; generic yeni bilimsel failed durumların kabul kapısı açılmaz.
 Bu oturumun OAuth parent tanısı korunur, silinmez. Poweroff ve checkpoint
 kimlikleri aynı kalır. Bu rehber yazıldığında yeni bağlantı/VM kurulumunun
 başarısı ve tekrar başlatılmış üretim henüz doğrulanmamıştır.
+
+## Terminal kapanması sonrası yerel canlı doğrulama
+
+Kullanıcı yeni akışta `Authorization received. Return to your terminal.`
+mesajını, ardından terminali kapattığını bildirdi. Başarı çıktısı elde
+edilemediği için yalnız callback mesajı kabul edilmedi. Özel dosyanın
+mtime'ı 13 Ekim 14:17:33 UTC / 17:17:33 Türkiye, boyutu 374 bayt olarak
+görüldü; pending dosyası ve Python süreç satırı yoktu.
+
+Yerel canlı kontrol yeni dosyadan OAuth refresh ve mevcut folder metadata
+isteğini çalıştırdı. Exact şema, drive.file kapsamı, folder id/mime/trashed,
+canAddChildren ve istek sırasında özel dosya baytlarının değişmediği geçti.
+Credential/folder değerleri yazdırılmadı veya rapora kaydedilmedi. Drive
+nesnesi oluşturulmadı; mevcut klasöre yazma yetkisi metadata ile sınandı,
+gerçek yazma işlemi yapılmadı. VM'deki eski client/folder eşitliği henüz
+kontrol edilmedi; bu sonraki private installer'ın zorunlu koşuludur.
+
+Kanıt `outputs/gcp_acceleration/source_aware_v7_18h_2026-10-13/local_connection_verified_20261013.json`;
+SHA-256 `5beba1638f7b558744a9200d1b3ed380c8ad832f69c4e4c33763a360242f52dd`.
+Yeni yerel bağlantı doğrulandı; önceki başarısız izin denemesi tarihli
+bulgu olarak korunur. VM kurulumu ve üretim devamı henüz doğrulanmadı.
