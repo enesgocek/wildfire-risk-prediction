@@ -472,6 +472,17 @@ uzman onayı veya model başarısı olarak sunulmadı. Eksik sütunların
 örtüşmesi marjinal sayımlardan uydurulmadı; veri doldurulmadı, bilimsel
 kapılar açılmadı. [Bulgular ve sınırlar](../DATASET_QUALITY_REVIEW_2026-10-14.md).
 
+## Eğitim gözlem denetim tabloları — 14 Ekim 2026
+
+Araç desteği, kabul edilmiş kompakt ürünleri açık kaynak/hash kurallarıyla
+ayrı gözlem tablolarına taşıyan kod, olumsuz kaynak/policy/scope testleri,
+gerçek pilot ve tam dönem aktarımı ile kapanış kontrolünde kullanıldı.
+6.351.709 satırın gözlem tanısı üretildi; 5.798 eksik ürün satırı sıfıra
+çevrilmedi. İkili etiket veya bilimsel gözlem yeterliliği onayı üretilmedi;
+geçiş zamanı ölçüleri model girdisi olarak sunulmadı. Eski kabul ve donmuş
+bilimsel kod korundu, yeni bulut işi veya dış iletişim olmadı.
+[Yöntem, sonuç ve sınırlar](../OBSERVATION_TABLES_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

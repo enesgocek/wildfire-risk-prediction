@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[72 aylık uydu gözlem denetim tabloları hazır](OBSERVATION_TABLES_2026-10-14.md):
+6.351.709 hücre-günde ayrı gözlem tablosu üretildi; 6.345.911 ürünlü,
+5.798 eksik kaynak hücre-günü. İki günün sayısal/zamansal alanları boş
+korundu; gerçek ölçülmüş sıfırlarla karıştırılmadı. 72 tablo dosyadan
+geri okundu; son kapanış hash/kapsam kontrolü geçti. 52 ilgili test ve
+lint/format geçti; 22 donmuş bulut girdisi aynı. İş yerelde bitti;
+yeni bulut işi/ham kaynak/geometri hesabı yok. Gözlem ölçüleri modele
+girdi veya ikili hedef yapılmadı; unknown/negative=false korunur.
+Sıradaki iş olay/zor vaka bağlamında gözlem yeterliliğini incelemek.
+2024 ayrı hazırlanmalı, 2025 kapalıdır.
+
 [72 aylık aday özellik takvimi tamamlandı; kalite özeti hazır](DATASET_QUALITY_REVIEW_2026-10-14.md):
 6.351.709 hücre-gün/27 özellik; 70 yeni ve iki yeniden kullanılan ay.
 17:24'te birleştirme, 17:32'de tam takvim audit'i geçti; hata/stderr yok,

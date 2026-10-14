@@ -603,6 +603,19 @@ günü için dört hedef tarihi yalnız inceleme kapsamıdır; ikili etiket,
 imputasyon veya otomatik dışlama üretilmedi. Bilimsel altı kapı ve
 2024 hazırlığı açık, 2025 kapalı; model_ready false.
 
+E75 — 14 Ekim: [72 aylık ayrı gözlem denetim tabloları](../OBSERVATION_TABLES_2026-10-14.md).
+6.351.709 satır, 6.345.911 ürünlü/5.798 eksik kaynak hücre-günü.
+Her aylık CSV.gz dosyadan geri okundu; 477.448.199 bayt/72 tablo.
+Tam final `outputs/reports/dataset/observation_materialization_v1/20261014T145638Z_c0881064/accepted_readback.json`,
+SHA-256 `fb5fa5ce8c83be2c4e21b130bb06935a5e2d8014e45460c1f61660b73262cb14`.
+Aynı dizinde `completion_readback.json` kapanış kaydı SHA-256
+`4f3575224119340ca75b851a01d6527ec4359d229a3ec43f75478dd81fd5d506`:
+72 tablo hash'i, 11 kaynak/yöntem kimliği ve 22 değişmeyen donmuş girdi;
+iki eksik günün 5.798 satırı ayrı okunup boş ölçülerle doğrulandı.
+52 ilgili test/lint/format geçti. 158,67 saniye yalnız yerel aktarım;
+ham/geometri hesabı, bağımsız saha kabulü veya model başarısı değil.
+unknown/negative=false; tanılar model girdisi veya etiket yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

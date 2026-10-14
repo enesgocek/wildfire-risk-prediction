@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Uydu gözlem denetim tabloları](OBSERVATION_TABLES_2026-10-14.md) | 72 ayda aynı hücre/tarih anahtarlı ayrı uydu tanıları; 5.798 eksik ürün satırı, etiket ve model girdisi yasağı |
 | [Tam eğitim adayı kalite incelemesi](DATASET_QUALITY_REVIEW_2026-10-14.md) | 72 ay/6.351.709 hücre-gün kapanışı, sütun bazlı eksikler, kaynak günlerinin hedef pencere incelemesi ve açık altı bilimsel karar |
 | [Eğitim özelliklerinin toplu birleştirilmesi](DATASET_TRAINING_JOIN_2026-10-14.md) | Tamamlanan uydu native denetimi sonrası 72 eğitim ayındaki 27 aday özelliğin yerel hazırlanması; etiket ve dönem sınırları |
 | [Uydu ürün teslimi ve native kontrol](GCP_PRODUCT_DELIVERY_2026-10-14.md) | 199 kompakt ürünün 1,28 GB hash doğrulamalı yerel teslimi ve tamamlanan 71 ay/2.158 günlük native kontrol |

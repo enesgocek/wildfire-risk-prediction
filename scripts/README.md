@@ -928,6 +928,17 @@ Mevcut sürüm aday özellik içindir: etiket üretmez, bilimsel kapıyı açmaz
 şu hazırlık sırasında açılmadı. [Komutlar, devam yolu, gerçek deneme ve
 kabul sınırları](../docs/DATASET_PREPARATION_RUNBOOK_2026-10-12.md).
 
+## Eğitim dönemi gözlem tabloları
+
+`quality/materialize_observations.py --workers 4 --hours-limit 2`,
+önceden kabul edilmiş native/teslim ve ayrı Temmuz referansından 72
+eğitim ayının gözlem tanılarını yeni aylık sıkıştırılmış tablolara taşır.
+`--months` yalnız seçilmiş eğitim aylarını işler. Kaynak/table hash'leri,
+grid/takvim, sayısal sınırlar ve CSV geri okuması zorunludur. Eksik iki
+gün boş tutulur; otomatik negatif, fiziksel footprint veya model girdisi
+kabulü yoktur. Ağ kapalı, tek yazıcı/disk/süre kontrolleri ve hata duruşu
+vardır. [Tam dönem sonucu ve sınırlar](../docs/OBSERVATION_TABLES_2026-10-14.md).
+
 ## Eğitim adaylarının kalite profili
 
 `quality/profile_training_dataset.py --accepted-audit <readback.json> --expected-audit-sha256 <sha256>`,
