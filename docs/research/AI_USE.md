@@ -553,6 +553,17 @@ yerelde ölçüldü. Kaynak veriler ve insan kanıt formları değiştirilmedi.
 Karar yetkisi araştırmacıda; bağımsız kaynak doğruluğu veya tam habitat
 kabulü iddia edilmedi. [Kayıt ve sınırlar](../WATER_SCOPE_2026-10-14.md).
 
+## Komşu günlerle tarama zamanı incelemesi — 14 Ekim 2026
+
+Araç desteği, 11 amaçlı pencere için 23 farklı eğitim gününün hash ile
+bağlı yerel kaynaklardan okunmasında, zaman sınıflandırma/tekilleştirme
+kodunda, testlerde ve raporlamada kullanıldı. NASA teknik tanımındaki
+tarama zaman alanları kontrol edildi; kesin piksel zamanı uydurulmadı.
+Aynı belirsiz termal merkez iki komşu pencere için kaynak kimliğiyle
+gösterildi, otomatik hedef veya insan inceleme onayı verilmedi. Önceki
+su kapsamı ve kapalı etiket koşulları korundu.
+[İşlem, kanıt ve sınırlar](../OBSERVATION_WINDOWS_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

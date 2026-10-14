@@ -1036,6 +1036,17 @@ dizinindeki inceleme/kanıt alanları boş kalır; ikili hedef üretilmez.
 Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktur.
 [Yöntem, gerçek sonuç ve insan incelemesi](../docs/LABEL_EVIDENCE_REVIEW_2026-10-14.md).
 
+## Komşu nominal günlerle hedef pencere incelemesi
+
+`quality/review_observation_windows.py`, altı mevcut açıklayıcı örnek ve
+beş tamamlayıcı sınır/kaynak vakasında önceki/aynı/sonraki nominal günlük
+paketlerin tarama zarfını `(T,T+24h]` ile karşılaştırır. Kaynakları kabul
+edilmiş aylık rapor ve payload hash'lerine bağlar; eğitim dışı paketleri
+okumaz. Aynı kaynak taramasını tekilleştirir; kesin içeride/sınırda sayımları
+ayırır. Üç CSV ve hash makbuzu yeni yerel sonuç dizinine yazılır. Alan
+birleşimini yeniden hesaplamaz; kesin piksel zamanı/negatif etiket üretmez.
+Ağ engellidir. [Gerçek 11 pencere ve sınırlar](../docs/OBSERVATION_WINDOWS_2026-10-14.md).
+
 ## Araştırmacının su kapsamı kararı
 
 `quality/prepare_water_scope.py`, araştırmacının kabul ettiği

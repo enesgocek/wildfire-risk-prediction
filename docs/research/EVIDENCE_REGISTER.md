@@ -722,6 +722,18 @@ kapanış SHA-256 `092c966d2a1e85613dddfc139ba47ebaecdf6aa6cd7eb53a528fb738b0d17
 Kapsam tercihi bağımsız doğrulama veya tam habitat kabulü değildir; kaynak
 tablolar, boş hedefler, 453 form ve 2024/2025 erişim sınırı aynı kaldı.
 
+E83 — 14 Ekim: [Komşu nominal günlerde hedef pencere incelemesi](../OBSERVATION_WINDOWS_2026-10-14.md).
+11 amaçlı pencerede 23 farklı eğitim günü okundu; altı pencerede üç paket
+mevcut, beşinde kaynak/dönem sınırı açık. İki pencerenin belirsiz termal
+merkezi aynı SNPP granül/tarama kaydıdır; iki yangın veya iki pozitif
+sayılmadı. 65 ilgili test/lint/format geçti. Üç çıktı/58 giriş kapanışı,
+22 donmuş girdi ve önceki yedi gözlem inceleme çıktısı doğrulandı.
+Final `outputs/reports/dataset/observation_windows_v1/20261014T190400Z_25bfc71a/readback.json`
+SHA-256 `3be2b93d9fe3e048d6429d94380e49280f4b9e7b04546265ee501e59b7a1b689`;
+kapanış SHA-256 `89210f08e243c79eec892baa6b042052ddca1315408ad8488ab877920f40aa2a`.
+Tam 400 pilot veya eğitim kabulü değil; piksel zamanı ve alan kırpması açık.
+Etiketler/453 insan formu değişmedi, 2024/2025 veri erişimi veya bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

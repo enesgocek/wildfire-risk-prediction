@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Komşu günlerle hedef pencere kontrolü tamamlandı](OBSERVATION_WINDOWS_2026-10-14.md):
+11 amaçlı pencerede 23 farklı eğitim günü kaynak paketi okundu. Altı
+pencerede üç nominal paket var, beşinde eksik kaynak/dönem sınırı açık.
+İki pencerenin sınırdaki termal kaydı aynı taramadaki aynı merkezdir;
+iki yangın/pozitif sayılmadı, kesin güne atanmadı. 65 ilgili test/lint/format,
+üç çıktı/58 giriş kapanışı geçti; 22 donmuş girdi aynı. Bu sonuç 400
+örneğin veya bütün eğitimin pencere kabulü değildir. Sonraki iş aynı
+denetimi sabit pilotun tamamına ölçeklemektir. Alan birleşimi, piksel
+zamanı ve gözlem yeterliliği açık; etiket, model, holdout erişimi ve bulut işi yok.
+
 [Araştırmacının A seçeneği uygulandı: tamamen harita suyu kapsam dışında](WATER_SCOPE_2026-10-14.md).
 2017 ayrık sınıflarında su dışı bütün payları sıfır olan 10/2.899 hücre
 ayrı kapsam tablosunda dışlandı; 727 karışık hücre korunuyor. 2.889 hücre
