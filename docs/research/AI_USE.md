@@ -462,6 +462,16 @@ kararlar kabul edilmiş sayılmadı. Tarihsel V5 envanteriyle yeni uydu
 kabulü ayrıldı. Bulut işi/Drive yazımı veya özel bilgi erişimi yapılmadı.
 [İşlem, kanıt ve sınırlar](../DATASET_TRAINING_JOIN_2026-10-14.md).
 
+## Tam aday takvim kapanışı ve kalite profili — 14 Ekim 2026
+
+14 Ekim tam aday kapanışında araç desteği, batch ve ayrı audit finalinin
+hash ile kontrolü, 72 aylık marjinal eksik sayımlarını derleyen yeni
+kalite kodu/testleri ve iki kaynak günü için ihtiyatlı hedef tarihi
+inceleme listesinde kullanıldı. 72 aylık özellik takvimi nihai etiket,
+uzman onayı veya model başarısı olarak sunulmadı. Eksik sütunların
+örtüşmesi marjinal sayımlardan uydurulmadı; veri doldurulmadı, bilimsel
+kapılar açılmadı. [Bulgular ve sınırlar](../DATASET_QUALITY_REVIEW_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

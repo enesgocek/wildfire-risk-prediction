@@ -583,6 +583,26 @@ başladı; 16:34'te üç ay geçti. Bu başlangıç snapshot'ıdır; tam aday ve
 seti veya hedef/model kabulü değildir. İki kaynak günü, raw/geometri
 sınırı, 2024 hazırlığı ve kapalı 2025 korunur.
 
+E74 — 14 Ekim: [Tam eğitim aday takvimi ve kalite profili](../DATASET_QUALITY_REVIEW_2026-10-14.md).
+72 ay/2.191 gün/6.351.709 hücre-gün/27 aday özellik; 70 yeni/iki
+yeniden kullanılan ay. Batch indeksi SHA-256
+`1964c76f773f2a0c48ae1128d47f43d8772a5c2829e9fcedd55b3ef095876647`;
+ayrı tam takvim audit'i SHA-256
+`c39536f74cf1b44dec1eec08b94941b495132e759d6ed0005a88110c1f46dbe8`.
+17:24/17:32 Türkiye kapanışları, hata/stderr yok ve yazıcı kilidi yok.
+İlk kalite profili SHA-256
+`1530a4b0e7d74e4a0fa42d16cfee85e728dcada90fc8e37a3c2443df436255c9`;
+hash bağlı aylık rapor sayımlarına dayanır, yeni CSV kabulü değildir.
+Son sürüm profili SHA-256
+`ecd617369a1a24237059361b53c95edb8fe58a49d8bb95ea61e8f20a8c649911`;
+aynı sayımlar, 83 pin ve değişmeyen 22 bulut girdisi kapanış kaydı
+SHA-256 `fbaa3e19d92e4143387be93597a3ac7f08e75178390f62a08874309a9cdb49e7`.
+58 güncel test/lint/format geçti.
+Meteoroloji/30g/60g sütunu başına %6,52/%6,92/%1,87 eksik. İki kaynak
+günü için dört hedef tarihi yalnız inceleme kapsamıdır; ikili etiket,
+imputasyon veya otomatik dışlama üretilmedi. Bilimsel altı kapı ve
+2024 hazırlığı açık, 2025 kapalı; model_ready false.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

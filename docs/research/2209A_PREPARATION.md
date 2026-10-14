@@ -63,6 +63,16 @@ Harcama uygunluğu ve belge koşulları, danışmanla çağrı üzerinden kontro
 
 ## Başvuruya geçiş kontrolü
 
+14 Ekim ön çalışma güncellemesi: 2018–2023 döneminin 72 aylık
+meteoroloji/arazi/bitki örtüsü aday özellik takvimi 6.351.709 hücre-günde
+birleştirildi ve tam takvim denetimi geçti. Uydu kabulü iki kaynak günü
+eksik olarak ayrı kaydedilir. [Kalite incelemesi](../DATASET_QUALITY_REVIEW_2026-10-14.md)
+eksik değerleri, kanıt sınırlarını ve altı açık bilimsel kabul kararını
+gösterir. Bu gerçekleşmiş hazırlık gelecekte yapılacak araştırma olarak
+sunulmaz; etiket doğrulaması, model karşılaştırması ve bağımsız sonuçlar
+henüz tamamlanmadı. Bu güncellemede çağrı takvimi/koşulları yeniden
+araştırılmadı; 9 Ekim tarihli kaynak kaydı kendi tarihini korur.
+
 - Öğrenci ve danışman uygunluğu; ARBİS/YÖKSİS kayıtları ve e-imza takvimi.
 - Literatür karşılaştırması ve araştırma sorusunun danışmanla değerlendirilmesi.
 - Ön çalışma sonuçlarının [kanıt dizininden](EVIDENCE_REGISTER.md) seçilmesi.

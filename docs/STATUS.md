@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[72 aylık aday özellik takvimi tamamlandı; kalite özeti hazır](DATASET_QUALITY_REVIEW_2026-10-14.md):
+6.351.709 hücre-gün/27 özellik; 70 yeni ve iki yeniden kullanılan ay.
+17:24'te birleştirme, 17:32'de tam takvim audit'i geçti; hata/stderr yok,
+yerel işler bitti. Aylık hash bağlı raporların kalite özeti sütun başına
+meteorolojide %6,52; 30/60 günlük bitki örtüsünde %6,92/%1,87 eksik
+gösterdi. Değerler doldurulmadı; uygun etiketli örneklem sayısı değildir.
+İki uydu günü ve sağdan dahil hedef penceresi için dört tarih yalnız
+inceleme listesinde; otomatik dışlama/negatif üretilmedi. 58 test ve
+lint/format geçti. Altı bilimsel kabul kararı açık; 2024 ayrı, 2025 kapalı.
+Başvuru/destek veya model başarısı iddiası yok. Aşağıdaki kayıtlar önceki
+kontrol anlarını korur.
+
 [Yerel uydu denetimi tamamlandı; eğitim özellikleri birleştiriliyor](DATASET_TRAINING_JOIN_2026-10-14.md):
 Native final 14 Ekim 16:05:57 Türkiye'de 71 ay/2.158 gün/18.423 kaynak
 çiftinde geçti; 59 dakika 41 saniye, stderr boş. Ayrı Temmuz referansıyla

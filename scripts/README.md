@@ -928,6 +928,17 @@ Mevcut sürüm aday özellik içindir: etiket üretmez, bilimsel kapıyı açmaz
 şu hazırlık sırasında açılmadı. [Komutlar, devam yolu, gerçek deneme ve
 kabul sınırları](../docs/DATASET_PREPARATION_RUNBOOK_2026-10-12.md).
 
+## Eğitim adaylarının kalite profili
+
+`quality/profile_training_dataset.py --accepted-audit <readback.json> --expected-audit-sha256 <sha256>`,
+72 aylık tam aday denetimini ve kaynak indeksini hash ile doğrular;
+kabul edilmiş aylık raporların eksik değer sayılarını ay/yıl/sütun
+düzeyinde toplar. CSV'leri yeniden okuyarak yeni bağımsız veri kabulü
+yapmış sayılmaz. İki kaynak gününün sağdan dahil hedef uç noktası için
+inceleme tarihleri üretilir; otomatik dışlama, imputasyon ve etiket yok.
+Ağ kapalıdır, yeni çıktı dizini açılır.
+[Gerçek tam dönem sonucu ve kullanım](../docs/DATASET_QUALITY_REVIEW_2026-10-14.md).
+
 ## GitHub gönderimi öncesinde gizlilik
 
 10 Ekim'de kaydedilen tercih uyarınca önemli değişiklikler kontrol edildikten

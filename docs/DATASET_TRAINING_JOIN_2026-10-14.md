@@ -2,6 +2,11 @@
 
 ## Amaç ve mevcut aşama
 
+**Kapanış notu:** 72 ay/6.351.709 aday hücre-gün 14 Ekim 17:24:16
+Türkiye'de tamamlandı; 17:32:54'te ayrı tam takvim denetimi geçti.
+[Sonuç, kalite bulguları ve açık bilimsel kararlar](DATASET_QUALITY_REVIEW_2026-10-14.md).
+Aşağıdaki başlangıç kaydı kendi kontrol anını korur.
+
 Uydu kompakt ürünlerinin 71 ay/2.158 uygun günlük yerel denetimi
 tamamlandıktan sonra meteoroloji, arazi örtüsü, topografya ve bitki
 örtüsü adaylarını ortak hücre–tahmin zamanı anahtarlarında birleştirmek.
