@@ -4,6 +4,12 @@ Durum: inceleme hazırlığı; aşağıdaki sorular yanıtlanmış veya danışm
 tarafından onaylanmış değildir. Dayanak ve ölçülerin sınırı
 [400 hücre-gün incelemesindedir](OBSERVATION_PILOT_REVIEW_2026-10-14.md).
 
+Aynı gün kullanıcı açıklamasıyla görev dağılımı güncellendi: asistan
+seçenekleri ve gerekçeli önerisini hazırlayacak, nihai proje kararını
+araştırmacı verecek. Danışmanın her yöntem kararını incelemesi ilerlemenin
+ön koşulu değildir. Bu güncelleme ölçümleri, boş etiketleri veya önceki
+çıktılardaki inceleme durumlarını değiştirmez.
+
 ## Şimdi araştırmacının bakacağı bölüm
 
 İlk olarak `human_observation_examples.png` görselini ve aşağıdaki A–F
@@ -28,7 +34,7 @@ açıklamasının anlaşılır olup olmadığıdır. Bu geri bildirim bilimsel e
 doğrulaması yerine kaydedilmez. Alanı su olarak gösteren tabloyu tarihsel
 görüntüyle doğruladığın veya yangın görmediğin varsayılmaz.
 
-## Araştırmacı ve danışmanla değerlendirilecek kararlar
+## Asistanın seçenek ve öneri hazırlayacağı kararlar
 
 1. **Habitat kapsamı:** su, küçük kıyı parçaları, tarım ve orman/çalı sınırları
    için hangi bilimsel kapsam ve harita referans yılı kullanılmalı? F örneği
@@ -40,10 +46,13 @@ görüntüyle doğruladığın veya yangın görmediğin varsayılmaz.
    resmî olay kaydı, uygun görüntü veya uzman değerlendirmesi kullanılabilir?
    Aynı FIRMS/VIIRS verisini yeniden görmek bağımsız doğrulama sayılmaz.
 
-Bu başlıkların danışmanla değerlendirilmesi öneriliyor; danışman görüşü
-alınmış değildir. Görüşme yapılırsa karar, gerekçe, incelenen kanıtın
-kimliği/tarihi ve çözülemeyen noktalar kaydedilir. Genel bir "uygun"
-yanıtı altı kabul başlığını veya bütün veri setini otomatik açmaz.
+Bu başlıklarda teknik araştırma ve alternatiflerin hazırlanması asistanın,
+nihai proje seçimi araştırmacının sorumluluğundadır. Her öneride seçeneğin
+yararı, sınırı, önerilen yol ve gereken kanıt açıkça sunulur. Danışman/uzman
+görüşü ek destek olabilir; alınmış varsayılmaz veya zorunlu bekleme nedeni
+yapılmaz. Karar, gerekçe, incelenen kanıtın kimliği/tarihi ve açık kalan
+noktalar kaydedilir. Bir yöntem tercihi, bağımsız doğrulama yapıldı veya
+bütün veri seti bilimsel kabulden geçti anlamına gelmez.
 
 ## Teknik olarak devam eden sorumluluk
 

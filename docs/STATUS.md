@@ -5,6 +5,12 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+14 Ekim karar akışı güncellemesi: seçenek ve gerekçeli önerileri asistan
+hazırlar, nihai proje kararını araştırmacı verir. Danışmanın tek tek yöntem
+incelemesi ilerleme koşulu değildir. Aşağıdaki danışmanla değerlendirme
+önerileri ek destek seçeneği olarak okunur; bilimsel kanıt gereksinimleri
+ve önceki deney/insan inceleme durumları değişmez.
+
 [400 hücre-günde gözlem kanıtı incelendi](OBSERVATION_PILOT_REVIEW_2026-10-14.md):
 200 tabakada 384 ürünlü/16 eksik örnek; 192 termal/192 seçilmiş termalsiz
 tanı ayrı korundu. 202 örnekte kara/bulut alan birleşimleri çakışıyor;

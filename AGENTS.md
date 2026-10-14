@@ -29,6 +29,13 @@ hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru
 
 ## Yazım ve kayıt
 
+- Karar akışı için kullanıcının 14 Ekim açıklaması: proje kararlarında nihai
+  yetki kullanıcıdadır. Asistan anlaşılır seçenekler, gerekçeli bir öneri,
+  yarar/sınırlama ve kararın sonuçlarını hazırlar; rutin teknik işleri yürütür.
+  Danışmanın tek tek yöntem kararlarını incelemesi zorunlu ilerleme koşulu
+  yapılmaz. Danışman/uzman katkısı gerektiğinde amacı açıklanan bir seçenek
+  olarak sunulur; resmî başvuru koşulları ayrıca değerlendirilir. Kullanıcının
+  yöntem tercihi bağımsız doğrulama veya bilimsel başarı kanıtı sayılmaz.
 - Kullanıcının 14 Ekim tercihi: insan gözü/araştırmacı/uzman değerlendirmesi
   gereken işlerde neye bakılacağı, somut örnek veya dosya ve beklenen karar
   açıkça bildirilir. Otomatik kontrol insan incelemesi olarak sunulmaz;
