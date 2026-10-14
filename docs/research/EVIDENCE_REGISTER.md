@@ -775,6 +775,21 @@ kapanış SHA-256 `000ed76785212fc4a2b32cc4bdb806aabddba7c22b7ddee0caab85a3ad40d
 Kaynak Type semantiği, olay ve etiket kabulü açık. Nihai birleştirme,
 insan kabulü, 2024/2025 erişimi, model veya bulut işi yok.
 
+E87 — 14 Ekim: [Denetlenmiş eğitim adayı inceleme teslimi](../DATASET_INSPECTION_RELEASE_2026-10-14.md).
+72 ay/6.351.709 özellik satırı yeni tam takvim denetiminden geçti;
+72 gözlem CSV'si de yeniden okundu, 5.798 eksik ürün satırı korundu.
+2.191 günlük feature/provenance dizini, 400 satır/27 özellik önizlemesi,
+sözlük ve 181 arka plan adayında kabul edilmemiş kesimler hazırlandı.
+119 ilgili test, üç dosyada lint/format, dokuz çıktı/9.772 giriş kapanışı
+geçti; 22 donmuş girdi aynı. Güncel özellik denetimi SHA-256
+`7e20556fcdf4aa90e32ce98605ebe57f9d81f4c839a0a6cb2a946a1a9df0fa12`.
+Final inceleme sonucu
+`outputs/reports/dataset/release_readiness_v1/20261014T202658Z_0c89a9de/readback.json`
+SHA-256 `f494acb939d84024d5399139ea4e0fc6e45327c45114dfca2e441a6218d612ef`;
+kapanış SHA-256 `25f83533cfd8c8c55584484dd8d35840c409c94c71b03ffa18668054d7d5d37b`.
+Ana hedef korundu; ayrı katalog hedefi, 0/1 etiketi, insan kabulü veya
+nihai birleştirme yapılmadı. Eğitim dışı CSV, model ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

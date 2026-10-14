@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Denetlenmiş eğitim adayı inceleme sürümü hazır](DATASET_INSPECTION_RELEASE_2026-10-14.md):
+72 ay/6.351.709 özellik satırı yeni tam takvim denetiminden geçti; 72
+gözlem CSV'si de yeniden okundu. 2.191 günlük parça dizini, 27 özellikli
+400 satır önizleme ve sözlük hazır. 181 arka plan adayında örnek alan/
+sensör/zaman kesimleri negatif kabul edilmedi: en dar örnek kesimde 132
+satırın 70'inde kara/bulut birleşimi çakışması var. 119 ilgili test,
+üç dosyada lint/format ve dokuz çıktı/9.772 giriş kapanışı geçti;
+22 donmuş bulut girdisi aynı. Kullanıcı ana hedefin korunmasını seçti,
+süre için kalite koşullarının gevşetilmemesini ayrıca istedi. Etiketli
+eğitim veri seti henüz hazır değil; unknown/kapalı hedefler ve nihai onay
+kapısı korunur. Sonraki iş gözlem yeterliliği, olay/ilk hücre, kaynak ve
+kapsam kararlarını gerekçeli protokolle kapatmak; 2024/2025 CSV erişimi,
+model veya yeni bulut işi yok.
+
 [Senaryoya duyarlı 19 örneğin kaynak/zincir incelemesi tamamlandı](SENSITIVE_PILOT_TRACE_2026-10-14.md):
 35 kaynak noktası dokuz senaryoda 181 bağlı küme bağlamına izlendi;
 138 ilk eşleşme önceki raporu birebir tekrarladı. Diğer 43 bağlamın ilk

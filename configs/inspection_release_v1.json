@@ -1,0 +1,16 @@
+{
+  "version": "inspection_release_v1",
+  "decision_date": "2026-10-14",
+  "purpose": "audited_training_candidate_inspection",
+  "user_choice": "Ana hedefi koru; bugün denetlenmiş inceleme sürümünü tamamla",
+  "later_user_clarification": "Takvim için bilimsel kabul koşulları gevşetilmez; zorlanmış sonuç üretilmez",
+  "split": "train_2018_2023",
+  "candidate_feature_columns": 27,
+  "limited_preview_rows": 400,
+  "binary_labels_permitted": false,
+  "preserve_unknown_targets": true,
+  "model_ready": false,
+  "final_merge_authorized": false,
+  "validation_accessed": false,
+  "final_test_accessed": false
+}

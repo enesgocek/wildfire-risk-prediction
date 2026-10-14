@@ -1038,6 +1038,17 @@ Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktu
 
 ## Komşu nominal günlerle hedef pencere incelemesi
 
+`quality/review_release_readiness.py --feature-audit <güncel-candidate-audit/readback.json>
+--expected-feature-audit-sha256 <sha256>`, yakın zamanda tamamlanmış tam
+eğitim adayı denetimini doğrular. Bütün günlük feature/provenance
+baytlarını ve 72 gözlem CSV'sini yeniden kontrol eder; 181 arka plan
+adayında alan/zaman/sensör tanılarını geri okur. Dizin, sözlük ve sabit
+400 örnekli özellik önizlemesi yeni `release_readiness_v1` dizininde
+üretilir. Hedefler boş, kesimler kabul edilmemiş ve nihai birleştirme
+kapalıdır. Bu inceleme teslimi için `configs/inspection_release_v1.json`
+araştırmacının ana hedefi koruma ve süre için kaliteyi gevşetmeme kararını
+kaydeder. [Kapsam ve insan incelemesi](../docs/DATASET_INSPECTION_RELEASE_2026-10-14.md).
+
 `quality/trace_sensitive_pilot.py`, sabit pilotun 19 duyarlı örneğindeki
 bütün hücre/pencere kaynak adaylarını dokuz senaryoda izler. İlk eşleşmesi
 olmayan senaryolardaki bağlı kümeleri de okur; kayıt kaybı veya negatif

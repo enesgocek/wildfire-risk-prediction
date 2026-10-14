@@ -597,6 +597,17 @@ fiziksel yangın kimliği/süresi olarak yorumlanmadı. Bağımsız görüntü v
 insan doğrulaması yapılmış sayılmadı; hedef ve nihai birleştirme kabulü yok.
 [Yöntem, gerçek ölçüm ve sınırlar](../SENSITIVE_PILOT_TRACE_2026-10-14.md).
 
+## Eğitim adayı inceleme teslimi ve arka plan ölçüleri — 14 Ekim 2026
+
+Araç desteği, tam takvim geri okumasının yürütülmesi, 181 arka plan
+adayında kaynak tarama/zarf/sensör ölçülerinin yeniden karşılaştırılması,
+sınırlı özellik önizlemesi, teslim dizini, testler ve raporlamada kullanıldı.
+Nominal alan ve tarama kesimleri etiket kuralı olarak kabul edilmedi;
+NASA'nın tespit sınırlamaları yeniden okundu. Kullanıcının ana hedefi
+koruma seçimi ve sonradan belirttiği kalite önceliği kaydedildi. Katalog
+kaydı hedefi, insan doğrulaması veya nihai birleştirme onayı uydurulmadı.
+[Yöntem ve teslim sınırı](../DATASET_INSPECTION_RELEASE_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
