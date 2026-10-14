@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Yangın sınırlarıyla ilk coğrafi karşılaştırma tamamlandı](PERIMETER_REFERENCE_REVIEW_2026-10-14.md):
+2021 yazına filtreli EFFIS sorgusunun 84 kaydı/433.192 baytı alındı;
+42 geçerli sınır pilot AOI'yle kesişiyor. 21 küme-senaryo varyantı için
+24 coğrafi bağlantı bulundu. Bir ilk nokta ilgili son sınırdan yaklaşık
+174 m dışarıda; yanlış tespit sayılmadı. Üç varyanttaki ek sınır başka
+tarihe ait; takvim kontrolünden sonra çoklu eşleşme kalmıyor. EFFIS
+aynı sensör ailesini kullandığından bağımsız doğruluk kabulü değildir.
+MedEU dosyası gerçek AOI'yle kesişmediği için dışlandı. 53 ilgili test/
+lint/format geçti; beş çıktı/35 giriş ve 22 donmuş girdi kontrol edildi.
+453 insan formu hâlâ not_reviewed; 0/1 etiket yok, 2024/2025 kapalı.
+Sonraki adım olay/ilk hücre ve gözlem kabul protokolünü bu somut sınır/
+zaman uyuşmazlıklarıyla değerlendirmek; altı yıllık referans henüz yok.
+
 [Kurumsal kayıtlarla ilk vaka incelemesi yapıldı](REFERENCE_CONTEXT_REVIEW_2026-10-14.md):
 Valilik ve OGM'nin iki resmî sayfası canlı alınıp 497.044 bayt hash ile
 korundu. Seçkideki 10 küme adayı/sekiz üyelik örüntüsüne yalnız bölgesel

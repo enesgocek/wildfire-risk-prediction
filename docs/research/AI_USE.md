@@ -503,6 +503,16 @@ aktivasyonu dışlandı, erişilemeyen PDF okunmuş sayılmadı. Çoklu başlang
 yorumu, kesin küme-olay eşleşmesinden ayrıldı; hedefler ve insan karar
 alanları boş kaldı. [İnceleme ve sınırları](../REFERENCE_CONTEXT_REVIEW_2026-10-14.md).
 
+## Tarihli sınır geometrileri — 14 Ekim 2026
+
+Araç desteği yeni referans araması, açık verinin checksum/şema kontrolü,
+değişken PDF'sinin okunması, eksen duyarlı GML okuyucu, geometri/üyelik
+karşılaştırması, testler ve çizimde kullanıldı. Asistan destekli otomatik
+inceleme bağımsız uzman kabulü olarak sunulmadı. MedEU'nun pilotu
+kapsamadığı dosyadan görüldü; EFFIS'in VIIRS ortaklığı korundu. Sınır
+dışı ilk nokta yanlış pozitif, farklı tarihli coğrafi bağlantı yeni olay
+sayılmadı. [Kanıt ve sınırlamalar](../PERIMETER_REFERENCE_REVIEW_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

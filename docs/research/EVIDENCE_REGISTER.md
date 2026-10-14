@@ -647,6 +647,22 @@ kanıtı değildir. PDF duyurusu içerik kabulü yapılmadan dışarıda, EMSR52
 yanlış ülke olarak reddedildi. Önceki 453 form hâlâ not_reviewed;
 nihai etiket/model hazır değil, 2024/2025 erişimi ve bulut işi yok.
 
+E78 — 14 Ekim: [Tarihli sınırlarla coğrafi karşılaştırma](../PERIMETER_REFERENCE_REVIEW_2026-10-14.md).
+84 filtreli 2021 EFFIS kaydı/433.192 bayt; 42 pilot AOI kesişimi,
+21 küme-senaryo varyantı/24 coğrafi bağlantı. MedEU ZIP'i boyut/MD5/SHA
+ile doğrulandı; 320 yanmış adım/103 yangın öncesi/226 eksik kayıt ayrıldı,
+pilot kesişimi sıfır olduğundan referansa alınmadı. 53 güncel test ve
+lint/format geçti. Beş çıktı/35 giriş, önceki altı çıktı ve 22 donmuş girdi
+kapanışta kontrol edildi. Final
+`outputs/reports/dataset/perimeter_review_v1/20261014T162023Z_61ec4cba/readback.json`,
+SHA-256 `32f85afaf1b2a223bae1c7e4003a2f953fa8563d03c97925ca5b0d12b9126810`;
+aynı dizinde `completion_readback.json` SHA-256
+`4fe1db02eb4df632cc734a578bf6016a1c423f5268b7bdddd746c590ee7a2d19`.
+İlk noktanın yaklaşık 174 m sınır dışılığı hata etiketi yapılmadı;
+üç varyanttaki ek sınırlar takvim olarak uyuşmadı. Sensör ortaklığı
+nedeniyle bağımsız doğruluk/olay kimliği kabulü yok. 453 form hâlâ
+not_reviewed; model/0-1 hedef ve holdout/bulut işlemi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

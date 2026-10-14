@@ -1,0 +1,41 @@
+{
+  "version": "perimeter_reference_source_audit_v1",
+  "checked_on": "2026-10-14",
+  "purpose": "spatial_context_only_no_binary_labels",
+  "sources": [
+    {
+      "id": "firespread_medeu_18200075",
+      "record": "https://zenodo.org/records/18200075",
+      "doi": "10.5281/zenodo.18200075",
+      "paper": "https://doi.org/10.1038/s41597-026-06965-2",
+      "creators": "Simon Müller, Philipp Benner, Anja Hofmann-Böllinghaus, Kristin Vogel, Zhimin Chen",
+      "license": "CC-BY-4.0",
+      "filename": "FireSpread_MedEU.zip",
+      "bytes": 2751019,
+      "md5": "dc4de320f20b1f05cbd3bee4b688168b",
+      "sha256": "907e8d340bd44cde64c739b39474381d72ebe64aeef86c0daba17fa53967e27b",
+      "source_crs": "EPSG:3035",
+      "local_audit": {"rows": 649, "events": 103, "burned_steps": 320, "pre_fire_context_rows": 103, "missing_geometry_rows": 226, "invalid_burned_polygons": 2},
+      "status_for_pilot": "rejected_no_spatial_overlap",
+      "limits": "EFFIS-selected events, Planet-derived perimeters; pre-fire placeholder geometry is not burned area; no continuous daily or negative reference."
+    },
+    {
+      "id": "effis_2021_summer_pilot",
+      "provider": "European Union / Copernicus EMS / Joint Research Centre, EFFIS",
+      "source_page": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services",
+      "method": "https://forest-fire.emergency.copernicus.eu/about-effis/technical-background/rapid-damage-assessment",
+      "license_page": "https://forest-fire.emergency.copernicus.eu/about-effis/data-license",
+      "license": "CC-BY-4.0 for EU-owned content unless otherwise indicated",
+      "service": "https://maps.effis.emergency.copernicus.eu/effis",
+      "protocol": "WFS 1.1.0, ms:modis.ba.poly, filtered GetFeature",
+      "query": {"FIREDATE_lower": "2021-07-01", "FIREDATE_upper": "2021-09-01", "bbox_crs": "CRS84", "bbox_lon_lat": [26.2, 36.0, 35.2, 39.4], "maxfeatures": 100},
+      "file": "effis_2021_summer.gml",
+      "bytes": 433192,
+      "sha256": "351506b52949e292aaaf62b51556ae0cfd9d553c2c198d24b81ecdb758e65eba",
+      "wfs_hits_and_download_rows": 84,
+      "gml_output_axis_order": "EPSG:4326 latitude,longitude; swapped to x=longitude,y=latitude and checked against feature envelopes",
+      "status_for_pilot": "spatial_context_only",
+      "limits": "MODIS/Sentinel-2/VIIRS lineage overlaps project sources. Final perimeter, start/end metadata and a spatial hit do not prove unique ignition, first-cell identity or a negative day. Query box is broader than the pilot AOI."
+    }
+  ]
+}

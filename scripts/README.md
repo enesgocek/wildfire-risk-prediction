@@ -987,6 +987,14 @@ checkpoint baytlarının kabulü değildir. [Gerçek final denetimi ve komut](..
 
 ## Etiket kanıtı inceleme paketi
 
+`quality/review_perimeter_sources.py`, önceden indirilmiş ve hash ile
+bağlı 2021 EFFIS GML/MedEU ZIP kaynaklarını yerelde denetler. Ağ engelli
+çalışır; GML koordinat eksenleri ve eğitim kapsamı kontrol edilir,
+yangın öncesi/eksik/geçersiz geometriler ayrılır. Pilotla kesişen son
+sınırlar ile seçilmiş küme üyeleri bağlanır; takvim uyuşmazlığı açık
+tutulur. Kaynak geometri onarımı, nihai olay kimliği veya 0/1 hedef yoktur.
+[Gerçek veri, harita ve sınırlar](../docs/PERIMETER_REFERENCE_REVIEW_2026-10-14.md).
+
 `quality/review_reference_context.py --fetch-public-pages`, yalnız açık
 sicildeki Antalya Valiliği/OGM HTTPS sayfalarını en fazla 3 MB/sayfa ve
 25 saniye/istek ile alır. Kaynak görünür metnini ve eski inceleme paketini
