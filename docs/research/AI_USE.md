@@ -451,6 +451,17 @@ tam 2.158 günlük kontrol yerelde başladı, tamamlandı diye sunulmadı.
 yapılmadı. Raw veri işlenmedi, geometri birleşimi tekrar hesaplanmadı;
 [kanıt ve sınırlar](../GCP_PRODUCT_DELIVERY_2026-10-14.md) kayıtlıdır.
 
+## Tam native kabul ve aday özellik birleştirmesi — 14 Ekim 2026
+
+Araç desteği tamamlanan 71 aylık native finalin kapsam/takvim ve dosya
+kanıtlarını değerlendirme, güncel 72 aylık bitki örtüsü referanslarıyla
+yeni plan üretme, mevcut aday birleştirme komutunu yerelde başlatma ve
+raporlamada kullanıldı. 41 hazırlık/CLI testi geçti. Birleştirme başlangıcı
+tamamlanmış veri seti gibi sunulmadı; ikili etiket üretilmedi, bilimsel
+kararlar kabul edilmiş sayılmadı. Tarihsel V5 envanteriyle yeni uydu
+kabulü ayrıldı. Bulut işi/Drive yazımı veya özel bilgi erişimi yapılmadı.
+[İşlem, kanıt ve sınırlar](../DATASET_TRAINING_JOIN_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Yerel uydu denetimi tamamlandı; eğitim özellikleri birleştiriliyor](DATASET_TRAINING_JOIN_2026-10-14.md):
+Native final 14 Ekim 16:05:57 Türkiye'de 71 ay/2.158 gün/18.423 kaynak
+çiftinde geçti; 59 dakika 41 saniye, stderr boş. Ayrı Temmuz referansıyla
+2.189/2.191 eğitim takvim günü mevcut; iki eksik gün negatif yapılmaz.
+72 bitki örtüsü kaynağıyla yeni plan hazır; 16:32'de ağ engelli, tek
+yazıcılı, iki saat sınırına sahip yerel aday birleştirme başladı.
+Hedef 27 özellik/6.351.709 hücre-gün; henüz tamamlanmadı. İki eski aday
+ay korunur; 41 hazırlık testi geçti. Uydu raw/geometri tekrar işlenmedi,
+VM açılmadı; etiket/model kabulü ve 2024 hazırlığı ayrı, 2025 kapalıdır.
+Aşağıdaki sürüyor ifadeleri önceki kontrol anlarını gösterir.
+
 [Uydu ürün teslimi tamamlandı, ayrıntılı yerel denetim sürüyor](GCP_PRODUCT_DELIVERY_2026-10-14.md):
 Drive'da beklenen 199 kayıt bulundu; 71 metadata/69 tam ay/59 günlük
 paketin 1.278.737.639 baytı yerelde completion boyut/SHA ile doğrulandı.

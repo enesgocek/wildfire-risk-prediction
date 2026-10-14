@@ -567,6 +567,22 @@ Sekiz eski geolocation exact sorgusu sıfır hit; sekiz fire alternatif
 sorgusu mevcut sürümü döndürdü. Metadata araştırması eşdeğerlik kanıtı
 değildir; ilgili SHA'lar teslim raporunda, iki eksik gün korunuyor.
 
+E73 — 14 Ekim: [Tam native kabul ve eğitim adayı birleştirme başlangıcı](../DATASET_TRAINING_JOIN_2026-10-14.md).
+Native final `outputs/gcp_delivery/2026-10-14/compact/audit/20261014T120616395916Z/accepted_readback.json`:
+71 ay/2.158 gün/18.423 kaynak çifti, dört süreçte 3.581,05 saniye;
+stderr boş ve audit kilidi yok. Temmuz 2023 ayrı önceki referans olarak
+kalır. Native final SHA-256
+`52be7c3e8fb02798a1e21538607a4612a0c479c105b90157b195385eea4d6781`.
+199 payload/22 donmuş girdi kapanış kontrolünün kaydı
+`outputs/gcp_delivery/2026-10-14/native_final_handoff_20261014.json`,
+SHA-256 `ff03cedb8b8483998b1453ae2c9597f1bf2268a24ad93516f24d93e8e6bad9df`.
+Yeni plan SHA-256 `2167f5c015197e17df70a7e166a97572f0fd3d946a50cd01bf6c0908589573b6`:
+72 kaynak/iki eski aday, 27 özellik ve 6.351.709 aday hücre-gün hedefi.
+41 hazırlık/CLI testi geçti. 16:32'de iki saat sınırıyla yerel yürütme
+başladı; 16:34'te üç ay geçti. Bu başlangıç snapshot'ıdır; tam aday veri
+seti veya hedef/model kabulü değildir. İki kaynak günü, raw/geometri
+sınırı, 2024 hazırlığı ve kapalı 2025 korunur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -45,7 +45,7 @@ Bu kompakt teslim, 56,4 GB'lık dizinin tamamının ikinci yedeği değildir;
 tam çift geometri günlükleri ayrıca korunmalı/değerlendirilmelidir.
 VM kaynak kaldırma planındaki bağımsız sonuç koruma kapısı açık kalır.
 
-## Yerel native kontrol: pilot geçti, bütün dönem sürüyor
+## Yerel native kontrolün başlangıç kaydı
 
 Yeni `scripts/cloud/audit_gcp_products.py`, payload baytlarını yeniden
 hash'ler; donmuş metadata/compact doğrulayıcılarını kullanır. Aylık/günlük
@@ -85,6 +85,38 @@ uyarısıdır. Yanlış scope/worker/policy/anahtar, bozuk payload, immutable
 çakışma, başka yazar kilidi, uygunsuz takvim, ZIP üyeleri ve ağ/süre
 sınırları için olumsuz kontroller var. Test başarısı bütün dönem gerçek
 native denetiminin tamamlandığı anlamına gelmez.
+
+## Bütün dönem kontrolü tamamlandı
+
+Tam denetim **14 Ekim 16:05:57 Türkiye**'de
+`delivered_compact_native_readback_passed` ile bitti: **71 ay, 2.158 gün,
+18.423 kaynak çifti**, dört süreçte **3.581,05 saniye** (59 dakika
+41 saniye). Bu süre yerelde teslim edilmiş kompakt ürünlerin sayısal,
+kaynak ve zaman geri okumasıdır; NASA ham kaynak işleme hızı değildir.
+Stderr sıfır bayt, `stopped.json` yok, audit yazıcı kilidi kaldırılmıştır.
+
+Final `accepted_readback.json` her ayın ayrı değişmez readback'ini
+taşır. `progress.json` son ara bildirim olan 71/71 `running` durumunda
+kalmıştır; başarı kanıtı genel final raporudur. Eski ara kayıt veya
+kabul edilmiş ürün dosyaları bu nedenle elle değiştirilmedi.
+
+Temmuz 2023'ün önceden kabul edilen 31 günüyle birlikte mevcut kapsam
+**2.189/2.191 eğitim takvim günü**dür: 70 tam ay ve iki kısmi ayın
+59 günü. İki kaynak günü eksik kalır; bu sayı etiketli veya modellemeye
+uygun örneklem sayısı değildir. Gözlem/negatif etiketi, tam geometri
+birleşimi, bağımsız olay doğrulaması ve bulut kaynaklarını tamamen
+kaldırmak için gereken ek sonuç koruması ayrı konulardır.
+
+Final kanıt:
+`outputs/gcp_delivery/2026-10-14/compact/audit/20261014T120616395916Z/accepted_readback.json`.
+SHA-256: `52be7c3e8fb02798a1e21538607a4612a0c479c105b90157b195385eea4d6781`.
+16:35 Türkiye'deki ayrı kapanış kontrolü bütün aylık readback'lerin
+final ile eşitliğini, exact takvim/çift sayılarını, 199 payload'ın
+yeniden boyut/SHA eşleşmesini ve 22 donmuş girdinin değişmediğini
+doğruladı. Bu kontrol sayısal algoritmayı yeniden çalıştırmaz.
+Kayıt `outputs/gcp_delivery/2026-10-14/native_final_handoff_20261014.json`,
+SHA-256 `ff03cedb8b8483998b1453ae2c9597f1bf2268a24ad93516f24d93e8e6bad9df`.
+Sonraki yerel aşama [72 aylık aday özellik birleştirmesidir](DATASET_TRAINING_JOIN_2026-10-14.md).
 
 ## İki kaynak günü araştırması
 
