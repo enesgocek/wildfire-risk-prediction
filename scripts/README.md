@@ -962,3 +962,20 @@ normal üye, eşit üç final, exact eğitim ay/günleri, protokol/paket hash'le
 son çağrı log/katalog sayaçları ve kaynak rezervlerini kontrol eder.
 Var olan raporu değiştirmez. Bu log/katalog kabulüdür; bilimsel ürün ve
 checkpoint baytlarının kabulü değildir. [Gerçek final denetimi ve komut](../docs/GCP_V7_PROGRESS_2026-10-14.md#yerel-final-arşivi-ve-katalog-geri-okuması).
+
+## Drive ürün teslimi ve yerel bilimsel geri okuma
+
+`cloud/receive_gcp_products.py --connection <özel-json> --out <outputs/gcp_delivery/alt-dizin>`,
+199 kompakt görev için completion ve hash ile bağlı payload'ları yalnız
+okur; Drive'a yazmaz. En fazla dört istek işçisi, 4 GiB teslim sınırı,
+10 GiB disk rezervi ve tek yazar kilidi vardır. Aynı yerel baytlar tekrar
+kullanılabilir; değişmiş completion/payload sessizce değiştirilmez.
+
+`cloud/audit_gcp_products.py --root <teslim-dizini> --workers 4 --hours-limit 2`,
+donmuş doğrulayıcılarla metadata ve kompakt günlük tablo/kaynak/zaman
+kontrolü yapar. Ağ engellidir, ham kaynak işlenmez. İsteğe bağlı
+`--months 2018-01` dar kontrolü açar; varsayılan 71 üretim ayıdır ve
+Temmuz 2023 referansı ayrıdır. İki eksik gün kabul edilmez. `PAUSE` dosyası
+gün sınırında okunur; yeni sonuç dizininde raporlar korunur. Tam geometri
+birleşimi veya negatif etiket kabulü değildir. [Gerçek teslim/pilot ve
+devam eden kontrol](../docs/GCP_PRODUCT_DELIVERY_2026-10-14.md).

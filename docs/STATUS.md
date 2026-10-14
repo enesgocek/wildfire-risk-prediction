@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Uydu ürün teslimi tamamlandı, ayrıntılı yerel denetim sürüyor](GCP_PRODUCT_DELIVERY_2026-10-14.md):
+Drive'da beklenen 199 kayıt bulundu; 71 metadata/69 tam ay/59 günlük
+paketin 1.278.737.639 baytı yerelde completion boyut/SHA ile doğrulandı.
+Temmuz 2023 ayrı kabul edilmiş referanstır. Ocak 2018'in 31 gün/139
+çift native kompakt kontrolü geçti. 71 ayın 2.158 uygun günü için dört
+yerel süreç, iki saat sınırıyla 15:06 Türkiye'de başladı; tam kabul
+henüz yok; ilk dört ay/120 gün geçti, bilgisayar açık kalmalı. VM Stop
+teyitli, yeni bulut işi yok.
+53 test/lint/format geçti. Sekiz exact eski geolocation CMR'de hâlâ
+sıfır hit; alternatif fire sorgularında yeni sürüm yok. İki kaynak günü
+eksik kalıyor; raw/geometri birleşimi ve nihai etiket kabulü ayrıdır.
+
 [V7 final arşivi yerelde doğrulandı](GCP_V7_PROGRESS_2026-10-14.md#yerel-final-arşivi-ve-katalog-geri-okuması):
 318.086 baytlık arşivde eşit üç final, exact 70 eğitim ayı ve 210 çağrı
 günü doğrulandı; 29 Haziran + 30 Aralık uygun günü dahil. Beş yeni ay
