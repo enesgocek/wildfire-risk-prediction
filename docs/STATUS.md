@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[400 hücre-günde gözlem kanıtı incelendi](OBSERVATION_PILOT_REVIEW_2026-10-14.md):
+200 tabakada 384 ürünlü/16 eksik örnek; 192 termal/192 seçilmiş termalsiz
+tanı ayrı korundu. 202 örnekte kara/bulut alan birleşimleri çakışıyor;
+11 ürünlü örnekte nominal kara merkezi yok. Tek gece yarısı tanığı kaynak
+taramadan doğrulandı; kesin piksel günü atanmadı. Altı görsel örnek ve
+[insan değerlendirme rehberi](OBSERVATION_HUMAN_REVIEW_2026-10-14.md) hazır.
+Araştırmacının özellikle küçük su parçasının kapsamını; danışmanla gözlem
+kriteri ve bağımsız referans seçimini değerlendirmesi öneriliyor. İnsan
+incelemesi henüz yok. 68 ilgili test/lint/format ve yedi çıktı/34 giriş
+kapanışı geçti; 22 donmuş girdi aynı. 0/1 hedef, model, 2024/2025 ve bulut
+işi yok. Pencere hizalaması ve bilimsel kabul koşulları açık kalıyor.
+
 [Öncelikli dokuz vakanın bağlantı/kaynak incelemesi tamamlandı](PRIORITY_EVENT_TRACE_2026-10-14.md):
 Üç gruptaki dokuz varyant/100 farklı tespitte kayıtlı graf bağlantıları
 ve ilk zaman/hücreler doğrulandı. 72 saat kenar sınırı toplam süreyi

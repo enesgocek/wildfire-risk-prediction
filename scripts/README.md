@@ -20,6 +20,14 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+400 hücre-günde gözlem kanıtı ve insan inceleme örnekleri:
+`python scripts/quality/review_observation_pilot.py`.
+Sabit pilotu/tabaka ağırlıklarını korur; nominal alan/zaman tanılarını
+inceler ve gece yarısı örneğini kabul edilmiş scan_grid'den geri okur.
+Altı farklı açıklayıcı örnek üretir; 0/1 hedef veya gözlem eşiği seçmez.
+[İnceleme](../docs/OBSERVATION_PILOT_REVIEW_2026-10-14.md) ve
+[insan değerlendirme görevleri](../docs/OBSERVATION_HUMAN_REVIEW_2026-10-14.md).
+
 Öncelikli dokuz olay varyantının bağlantı/kaynak incelemesi:
 `python scripts/quality/trace_priority_event_cases.py`.
 Kabul edilmiş üyelikleri ve önceki kaynak yakınlığı tanılarını okur;

@@ -693,6 +693,21 @@ aynı dizinde `completion_readback.json` SHA-256
 Yönsüz yol yayılma kanıtı, takvim çevresi tam pencere kapsamı değildir.
 Olay/etiket/Type kabulü, 2024/2025 erişimi, model eğitimi ve bulut işi yok.
 
+E81 — 14 Ekim: [400 hücre-günde gözlem kanıtı](../OBSERVATION_PILOT_REVIEW_2026-10-14.md).
+200 tabakada sabit 400 örnek: 384 ürünlü/16 eksik; 192 termal/192 seçilmiş
+termalsiz tanı. 202 alan birleşimi çakışması, 11 nominal kara merkezi
+olmayan ürünlü satır ve bir gece yarısı örneği incelendi. Kaynak scan_grid
+tarama 202'nin pencereyi aşması doğrulandı; kesin piksel günü atanmadı.
+Altı farklı açıklayıcı örnek ve insan görev rehberi hazırlandı; insan
+incelemesi yok. 68 ilgili test/lint/format geçti. Yedi çıktı/34 giriş,
+önceki altı çıktı ve 22 donmuş girdi kapanışta kontrol edildi. Final
+`outputs/reports/dataset/observation_review_v1/20261014T174956Z_cca3d882/readback.json`
+SHA-256 `32f75f98feeef857e979fa50340c3b1a01053617f97aa72db6be53bf4a297c44`;
+aynı dizinde `completion_readback.json` SHA-256
+`5a3ae72ac2f5f7a298ebc6a072d3f641328779b2e73abcbd225deb84530ee865`.
+Örneklerin ağırlıksız sayıları popülasyon oranı değildir. Kesim seçimi,
+0/1 hedef, model, 2024/2025 erişimi ve bulut işi yok; 453 form boş kaldı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

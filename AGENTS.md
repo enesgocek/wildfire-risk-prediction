@@ -29,6 +29,10 @@ hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru
 
 ## Yazım ve kayıt
 
+- Kullanıcının 14 Ekim tercihi: insan gözü/araştırmacı/uzman değerlendirmesi
+  gereken işlerde neye bakılacağı, somut örnek veya dosya ve beklenen karar
+  açıkça bildirilir. Otomatik kontrol insan incelemesi olarak sunulmaz;
+  bağımsız teknik hazırlıklar bu bildirim nedeniyle gereksiz yere durdurulmaz.
 - Türkçe, açık ve profesyonel araştırma dili kullanılır. Günlüklerde amaç,
   işlem, bulgu, sınırlama ve sonraki adım yer alır. Sohbet talep/yanıt dökümü yazılmaz.
 - Günlükte birinci tekil kişi araştırma kararı veya gerçekten yapılan manuel

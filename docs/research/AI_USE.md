@@ -532,6 +532,17 @@ kimliği, Type=2 yakınlığı endüstriyel köken kabulü yapılmadı. Belirsiz
 günler negatif etiketlenmedi; bağımsız uzman/danışman incelemesi iddia
 edilmedi. [İşlem ve sınırlamalar](../PRIORITY_EVENT_TRACE_2026-10-14.md).
 
+## Gözlem pilotu ve insan değerlendirme hazırlığı — 14 Ekim 2026
+
+Araç desteği 400 hücre-günün ölçü/zaman/tabaka denetimi, kabul edilmiş
+gece yarısı taramasının geri okuması, altı örnek ve iki görsel hazırlığında
+kullanıldı. Görsel kontrol bağımsız olay incelemesi veya danışman onayı
+sayılmadı; 453 formun karar alanları boş kaldı. İnsan gerektiren kapsam,
+gözlem ve referans kararları somut örneklerle ayrı bildirildi. Alan kesimleri
+bilimsel eşik gibi seçilmedi; negatif hedef üretilmedi.
+[İnceleme](../OBSERVATION_PILOT_REVIEW_2026-10-14.md) ve
+[insan görevleri](../OBSERVATION_HUMAN_REVIEW_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
