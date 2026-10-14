@@ -78,3 +78,56 @@ Kaynak kullanıcı uzak çıktısıdır; existing_months listesi ve gözlem saat
 yoktur. Yeni ay kimlikleri, yerel bilimsel ürün baytları veya kesin bitiş
 zamanı ayrıca doğrulanmadı. Aynı çağrı takip edilir; Stop bildirimi tek
 başına tamamlanma kanıtı sayılmaz. Önceki ara bulgular korunur.
+
+## Uzak final bildirimi: işlenebilir kapsam tamamlandı
+
+Kullanıcı Cloud Shell çıktısı TERMINATED/64800 saniye/STOP gösteriyor.
+Başlangıç 13 Ekim 19:35:07.144 UTC, duruş 14 Ekim 01:18:17.528 UTC
+(Türkiye 22:35:07 / 04:18:17); süre 5 saat 43 dakika 10 saniye.
+14 Ekim 13:35:01.727602 UTC üst sınırına ulaşılmamış. İlk duruş
+bildirimi tek başına nedeni ayırmıyordu; sonraki final geri okuması:
+
+- Status `processable_months_verified_source_resolution_pending`,
+  phase remaining_months, doğru V7 hash'i ve 862 işlenmiş çift.
+- Tam ay sayısı 70; Haziran uygun günleri 29/29, Aralık 30/30.
+- Hata/failed month/failed phase None; full_training_complete false.
+- İki deferred gün/ay değişmedi. İki final summary, progress ile eşit.
+- 31 Ocak gün kapanışı, aylık nominal tanı tamamlanması ve guest
+  poweroff isteği launcher'da görülüyor.
+
+Bu çıktı işlenebilir bölüm tamamlandığında beklenen sözleşmeyle uyumlu;
+erken kapanış yeni hata veya süre sınırına atfedilmedi. Asıl hedef 72 ay;
+13 Haziran 2018 ve 31 Aralık 2023 çözülene kadar 70 tam ay ve iki kısmi
+ay olarak raporlanır. Bunlar uydu tanı/işleme çıktılarıdır; nihai etiket,
+model veya yerel bilimsel ürün bayt kabulü değildir. Yeni uzun üretim
+başlatılmaz; kalan iki gün için kaynak çözümü ayrıca araştırılacaktır.
+
+Kanıt kullanıcı seçilmiş alan geri okumasıdır. Tam existing_months
+listesi ve dosya baytları henüz alınmadı; bağımsız VM sorgusu yok.
+`outputs/gcp_acceleration/source_aware_v7_session_2026-10-14/remote_final_user_readback_20261014.json`,
+SHA-256 `a18bdb8a55870ea53e7d745da44e0ff15f3cf5f54dd0c573df9207db8405eea6`.
+
+## Sonraki adım: yalnız public final arşivi
+
+VM SSH'de üretim betiği çalıştırılmadan şu arşiv oluşturulur. Beş explicit
+public dosya alınır; private bağlantı, token, giriş dosyası veya ham veri
+arşivlenmez. VM kapalıysa yalnız indirme için kısa Start gerekir.
+
+```bash
+archive="$HOME/gcp_v7_final_$(date -u +%Y%m%dT%H%M%SZ)_logs.tar.gz"
+if tar -czf "$archive" \
+  -C "$HOME/wildfire-gcp-production-v1" \
+  progress.json acceleration_run_summary.json continuation_summary.json \
+  resource_samples.csv \
+  -C "$HOME" gcp_source_aware_launcher_v7.log; then
+  sha256sum "$archive"
+  printf 'Download: %s\n' "$archive"
+fi
+```
+
+SSH Download File ile yazdırılan yol indirilir; yerelde
+`outputs/gcp_acceleration/source_aware_v7_session_2026-10-14/received/`
+klasörüne konur ve VM Stop yapılır. Arşiv yeni kayıt olarak korunacak;
+summary eşitliği, ay kimlikleri, 59 uygun gün, protokol/manifest/hash
+kimlikleri ve kaynak örnekleri yerelde geri okunacaktır. Bu log arşivi
+bilimsel payload baytlarının tamamını içermez; ayrı kabul sınırı korunur.

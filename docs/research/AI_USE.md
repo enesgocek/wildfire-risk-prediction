@@ -420,6 +420,16 @@ başarısız; tamamlanmış Google izni veya yeni üretim kabulü uydurulmadı.
 Bilimsel V7 ve donmuş paketler aynı hash'te kaldı; insan Google izin adımı
 bekleniyor. Bu işlem bağımsız uzman doğrulaması olarak sunulmadı.
 
+## V7 uzak final değerlendirmesi — 14 Ekim 2026
+
+Araç desteği kullanıcı Cloud Shell/SSH çıktılarını V7 son durum sözleşmesi
+ile karşılaştırmak, uzak bildirim ile yerel kabul sınırını ayırmak ve
+yalnız public final dosyalarının indirme adımını hazırlamak için kullanıldı.
+70 tam ay ve 59 uygun kısmi gün uzak finali raporlandı; asıl 72 ay ve
+bilimsel ürün kabulü tamamlanmış gösterilmedi. Private bilgiler alınmadı,
+yeni üretim veya bağımsız VM sorgusu yapılmadı; yerel arşiv geri okuması
+bekleniyor. [İlerleme/final kaydı](../GCP_V7_PROGRESS_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
