@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Senaryoya duyarlı 19 örneğin kaynak/zincir incelemesi tamamlandı](SENSITIVE_PILOT_TRACE_2026-10-14.md):
+35 kaynak noktası dokuz senaryoda 181 bağlı küme bağlamına izlendi;
+138 ilk eşleşme önceki raporu birebir tekrarladı. Diğer 43 bağlamın ilk
+zamanı daha önceki güne gidiyor; 12'sinde ilk hücre de değişiyor. Kaynak
+kayıpları veya negatifler değiller. En büyük küme 5.304 tespit, en uzun
+küme 33,97 gün; bunlar yangın sayısı/süresi kabulü değil. 94 ilgili test,
+üç dosyada lint/format, beş çıktı/57 giriş ve 22 donmuş girdi kapanışı geçti.
+Olay/etiket kabulü, insan incelemesi, nihai birleştirme ve 2024/2025 erişimi
+yok. Sonraki iş bu ölçümler ve 181 arka plan adayının gözlem kanıtıyla
+karar verilebilir olay/gözlem kabul seçeneklerini hazırlamak.
+
 [Olay/etiket protokolü için ölçülmüş inceleme paketi hazır](LABEL_PROTOCOL_REVIEW_2026-10-14.md):
 400 örnek/dokuz katalogda 3.600 eşleşme kaydı; 77 örnekte aynı üyelik,
 19 örnekte senaryo duyarlılığı var. 304 örnekte ilk hücre/gün eşleşmesi

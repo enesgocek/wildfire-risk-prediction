@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [19 duyarlı örneğin kaynak/zincir incelemesi](SENSITIVE_PILOT_TRACE_2026-10-14.md) | Eşleşmesiz senaryolar dahil 181 küme bağlamı, 35 kaynak noktası, ilk zaman/hücre değişimi ve yönsüz tanık yollar |
 | [Olay/etiket protokolü inceleme seçenekleri](LABEL_PROTOCOL_REVIEW_2026-10-14.md) | 400 örnekte dokuz senaryo, 19 duyarlı örnek, ayrı arka plan incelemesi ve nihai birleştirme öncesi kullanıcı onayı |
 | [Sabit 400 örnekte komşu gün denetimi](WINDOW_PILOT_2026-10-14.md) | 883 günlük kaynak, iki sınır örneği, 16 eksik paket kümesi, korunan tabaka/ağırlık ve yeni önceki gün tanığı |
 | [Komşu günlerle hedef pencere kontrolü](OBSERVATION_WINDOWS_2026-10-14.md) | 11 amaçlı pencerede 23 eğitim günü, iki komşu pencerede aynı belirsiz merkez, kaynak boşlukları ve dönem sınırı |

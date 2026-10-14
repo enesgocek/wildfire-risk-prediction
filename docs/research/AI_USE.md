@@ -586,6 +586,17 @@ kontrolü/onay talebi kaydedildi; gerçek onay makbuzu üretilmedi. 19 duyarlı
 örnek ve 181 arka plan adayı insan tarafından kabul edilmiş değildir.
 [İşlem, öneri ve sınırlar](../LABEL_PROTOCOL_REVIEW_2026-10-14.md).
 
+## Duyarlı pilot örneklerinin kaynak ve graf incelemesi — 14 Ekim 2026
+
+Araç desteği, 19 örneğin bütün hücre/pencere kaynak noktalarının eşleşmesiz
+senaryolarda da izlenmesinde, zamana göre daraltılmış WGS84 graf kontrolünde,
+deterministik yönsüz tanık yollarında, testler ve raporlamada kullanıldı.
+Önceki eşleşmeler tekrarlandı; kaybolan ilk eşleşme kaynak kaybı veya
+negatif sayılmadı. 5.304 tespitli bileşen ve 33,97 günlük ayrı zincir,
+fiziksel yangın kimliği/süresi olarak yorumlanmadı. Bağımsız görüntü veya
+insan doğrulaması yapılmış sayılmadı; hedef ve nihai birleştirme kabulü yok.
+[Yöntem, gerçek ölçüm ve sınırlar](../SENSITIVE_PILOT_TRACE_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

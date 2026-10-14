@@ -761,6 +761,20 @@ SHA-256 `534d67c44cad55a267aaf57330b4396a9cbb6aa65baa8bfdd71b9037b7bb0cab`;
 kapanış SHA-256 `97bb378040b2a7dd74893ddb163803794316fc29f6a28932ad992cee917d7e40`.
 Politika seçimi, etiket, model, 2024/2025 veri erişimi ve bulut işi yok.
 
+E86 — 14 Ekim: [19 duyarlı örneğin kaynak ve zincir incelemesi](../SENSITIVE_PILOT_TRACE_2026-10-14.md).
+35 pencere/hücre kaynak noktası dokuz senaryoda 181 küme bağlamına izlendi;
+138 ilk eşleşme önceki raporla aynı. 43 eşleşmesiz bağlam önceki hedef
+gününde başlıyor; 12'sinde ilk hücre de farklı. 5.436 farklı kaynak üyesi,
+1.863 yol; en büyük küme 5.304 tespit, en uzun küme 815,37 saat. Bunlar
+fiziksel yangın kimliği/süresi veya yayılma kanıtı değildir. 94 ilgili
+test, üç dosyada lint/format ve beş çıktı/57 giriş kapanışı geçti;
+22 donmuş girdi aynı. Final
+`outputs/reports/dataset/sensitive_trace_v1/20261014T194620Z_284f08c1/readback.json`
+SHA-256 `f613115b0d67caea55353b102e2c420d1879666dfc8f94ea52416b0e9954fa11`;
+kapanış SHA-256 `000ed76785212fc4a2b32cc4bdb806aabddba7c22b7ddee0caab85a3ad40dac1`.
+Kaynak Type semantiği, olay ve etiket kabulü açık. Nihai birleştirme,
+insan kabulü, 2024/2025 erişimi, model veya bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1038,6 +1038,15 @@ Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktu
 
 ## Komşu nominal günlerle hedef pencere incelemesi
 
+`quality/trace_sensitive_pilot.py`, sabit pilotun 19 duyarlı örneğindeki
+bütün hücre/pencere kaynak adaylarını dokuz senaryoda izler. İlk eşleşmesi
+olmayan senaryolardaki bağlı kümeleri de okur; kayıt kaybı veya negatif
+varsaymaz. İç WGS84 graf bağlantıları, bütün ilk tespitler ve kaydedilmiş
+eşleşmeler doğrulanır. Yönsüz en az kenarlı yollar ve kaynak tanıları
+beş CSV olarak yeni `sensitive_trace_v1` dizininde geri okunur. Ağ,
+etiket, holdout ve nihai birleştirme kapalıdır.
+[Gerçek 19 örnek ve ölçüm sınırları](../docs/SENSITIVE_PILOT_TRACE_2026-10-14.md).
+
 `quality/review_label_protocol.py`, 400 örnekli pencere pilotunu hash ile
 bağlı dokuz keşif kataloğunun bütün ilk hücreleriyle karşılaştırır. Aday
 varlığı ve üyelik eşitliğini ayrı tutar; hiçbir eşleşme/boşluk hedefe
