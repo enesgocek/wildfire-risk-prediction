@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Öncelikli dokuz vakanın bağlantı/kaynak incelemesi tamamlandı](PRIORITY_EVENT_TRACE_2026-10-14.md):
+Üç gruptaki dokuz varyant/100 farklı tespitte kayıtlı graf bağlantıları
+ve ilk zaman/hücreler doğrulandı. 72 saat kenar sınırı toplam süreyi
+sınırlamıyor; üç varyant 38,03–51,51 gün sürüyor. Bu yangın süresi kabulü
+değildir. 98 farklı tespitte önceki yakın Type=2 bağlamı var; eleme veya
+endüstriyel köken kararı yapılmadı. Altı varyantın takvim çevresinde
+31 Aralık kaynak eksikliği ve dönem sonu açık. 57 ilgili test/lint/format,
+beş çıktı/34 giriş kapanışı geçti; 22 donmuş girdi aynı. Etiketler boş;
+insan incelemesi/kabul yok. Sıradaki teknik iş 400 tabakalı hücre-günde
+gözlem/negatif politikası için pencere hizalaması ve eksik kaynak sınırı.
+2024/2025 erişimi, yeni bulut işi ve model eğitimi yok.
+
 [Olay/ilk hücre karar duyarlılığı ölçüldü; kabul taslağı hazır](EVENT_DECISION_PROTOCOL_2026-10-14.md):
 53 amaçlı senaryo vakası/28 üyelik örüntüsü ortak tespitlerle 11 inceleme
 grubuna ayrıldı; bunlar bağımsız yangın değildir. Dört grupta ilk zaman,

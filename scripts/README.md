@@ -20,6 +20,14 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Öncelikli dokuz olay varyantının bağlantı/kaynak incelemesi:
+`python scripts/quality/trace_priority_event_cases.py`.
+Kabul edilmiş üyelikleri ve önceki kaynak yakınlığı tanılarını okur;
+graf bağlantı yolları, tespit tablosu ve zaman çizelgesini yeni dizinde
+geri okur. Yakın Type=2 veya uzun zincir otomatik eleme değildir;
+ağ engellidir ve etiket/senaryo seçimi yoktur.
+[Sonuç ve açık kararlar](../docs/PRIORITY_EVENT_TRACE_2026-10-14.md).
+
 Olay/ilk hücre karar duyarlılığı ve kabul taslağı:
 `python scripts/quality/review_event_decisions.py`.
 Kabul edilmiş 53 eğitim vakasını ortak tespitlerine göre karşılaştırır;

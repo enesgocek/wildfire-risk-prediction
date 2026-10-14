@@ -523,6 +523,15 @@ tutuldu; bağımsız uzman ve danışman kabulü üretilmedi. Otomatik hesaplama
 manuel kişisel etiketleme olarak gösterilmedi.
 [Ölçüm ve sınırlar](../EVENT_DECISION_PROTOCOL_2026-10-14.md).
 
+## Öncelikli vakaların graf ve kaynak bağlamı — 14 Ekim 2026
+
+Araç desteği, dokuz seçilmiş varyantın üyelik geri okuması, WGS84 graf
+bağlantı tanıkları, önceki kaynak denetimiyle eşleşme, testler ve zaman
+çizelgesi üretiminde kullanıldı. Otomatik graf tutarlılığı fiziksel olay
+kimliği, Type=2 yakınlığı endüstriyel köken kabulü yapılmadı. Belirsiz
+günler negatif etiketlenmedi; bağımsız uzman/danışman incelemesi iddia
+edilmedi. [İşlem ve sınırlamalar](../PRIORITY_EVENT_TRACE_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

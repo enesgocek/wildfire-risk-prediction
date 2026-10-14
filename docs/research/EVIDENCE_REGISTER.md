@@ -678,6 +678,21 @@ aynı dizinde `completion_readback.json` SHA-256
 Amaçlı seçkiden hata oranı çıkarılmadı; 453 insan formu not_reviewed.
 Senaryo seçimi, 0/1 hedef, model kabulü, 2024/2025 erişimi ve bulut işi yok.
 
+E80 — 14 Ekim: [Öncelikli dokuz vakanın bağlantı/kaynak incelemesi](../PRIORITY_EVENT_TRACE_2026-10-14.md).
+Üç gruptaki dokuz varyantın 246 üye satırı/100 farklı tespiti ve dokuz bağlı
+iç grafı doğrulandı; 20 yol-düğüm satırı/dokuz ikili karşılaştırma üretildi.
+Üç uzun varyant 38,03–51,51 gün; bu yangın süresi kabulü değildir.
+98 farklı tespitte önceki yakın Type=2 bağlamı eleme yapılmadan tutuldu.
+Altı varyantın takvim çevresindeki kaynak/dönem sonu eksikliği açık kaldı.
+57 ilgili test/lint/format geçti; beş çıktı/34 giriş, önceki üç karar
+çıktısı ve 22 donmuş girdi kapanışta kontrol edildi. Final
+`outputs/reports/dataset/priority_trace_v1/20261014T173742Z_1aef9e5e/readback.json`
+SHA-256 `4a09cc30034d94cf6e94b5436543e31e4c48416f262268d8906beace0940be74`;
+aynı dizinde `completion_readback.json` SHA-256
+`6c2531204a0bcfbc3cb93359e05f681f427ca3cb4ed15dfd25294ce71507c4ba`.
+Yönsüz yol yayılma kanıtı, takvim çevresi tam pencere kapsamı değildir.
+Olay/etiket/Type kabulü, 2024/2025 erişimi, model eğitimi ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
