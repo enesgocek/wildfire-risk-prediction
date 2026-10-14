@@ -131,3 +131,58 @@ klasörüne konur ve VM Stop yapılır. Arşiv yeni kayıt olarak korunacak;
 summary eşitliği, ay kimlikleri, 59 uygun gün, protokol/manifest/hash
 kimlikleri ve kaynak örnekleri yerelde geri okunacaktır. Bu log arşivi
 bilimsel payload baytlarının tamamını içermez; ayrı kabul sınırı korunur.
+
+## Yerel final arşivi ve katalog geri okuması
+
+Kullanıcı arşivi aktardı ve indirme sonrası VM Stop teyidi verdi.
+`gcp_v7_final_20261014T113827Z_logs.tar.gz`, 318.086 bayt;
+SHA-256 `61fc0aa9c59c3bb2ca37a01f0f2849907c364775d057aa04cd9dd694716bcb5c`.
+Arşiv beş beklenen normal dosyayı içeriyor; yol/bağlantı/tekrar üye ve
+30 MB genişleme sınırı kontrol edildi, dosyalar diske açılmadı.
+
+Yeni salt okunur `scripts/cloud/verify_gcp_v7_session_logs.py` ile:
+
+- Üç final JSON eşit; exact 70 eğitim ayı ve 210 çağrı günü doğrulandı.
+  Günler Ocak–Mayıs 2018'in 151 günü, Haziran'ın 29 uygun günü ve
+  Aralık'ın 30 uygun günüdür. İki ertelenen gün/ay tam kabulden dışlanmış.
+- V7/registry, manifest/controller, scan-time adaptörü ve protokol hash'leri,
+  gözlem unknown/negatif false/tam eğitim false koşulları eşleşti.
+  Üretim paketleri ve 22 korunan girdinin hash'i değişmedi.
+- Donmuş pairs.csv içindeki 18.711 nominal kimliğe karşı log denetlendi.
+  862 yeni çift satırı, 6 katalogdan çıkarılan yeniden kullanım, 171 gün
+  kapanışı ve 64 ay yeniden kullanım satırı tutarlı. Yeni kapanan aylar
+  Ocak, Şubat, Mart, Nisan ve Mayıs 2018. 39 gün yalnız state'te bulunuyor:
+  önceki Haziran 1–9 ve Aralık'ın 30 günü; yeniden üretim diye sayılmadı.
+- Son başarılı çağrı seçildi; öncesindeki yedi prefix satırı sayaçlardan
+  dışlandı. Bu prefix eski OAuth hata denemesini ve yeni arşiv receipt
+  satırını da içerir. Üç aşama sırası ve tek kapanma isteği geçti.
+- 8.463 kaynak örneğinde son üretim süresi 19.839,589 saniye (5:30:39,589).
+  En az disk boşluğu 7,46 GiB, kullanılabilir RAM 111,89 GiB; süreç ağacı
+  RSS zirvesi 10,95 GiB. Örneklenmiş 4 GiB rezerv ihlali veya sayısal
+  anomali yok. Ortalama CPU %9,05; restore/metadata dahil bütün çağrı
+  ortalaması olduğundan hesaplama hızlanması veya yeni darboğaz kanıtı sayılmaz.
+
+Tam kontrol socket bağlantıları engellenerek tekrarlandı; ağ/Drive/VM
+işlemi yok. Yeni denetleyici ve ortak tarihsel okuyucu için 36 davranış
+kontrolü geçti; lint/format geçti. İlk test çağrısının dört dosya testi
+sandbox geçici dizin izni nedeniyle kurulamamıştı; yeni ve workspace
+içinde bir basetemp ile çözüldü. Arşiv veya accepted sonuçlar değiştirilmedi.
+
+Kabul kaydı
+`outputs/gcp_acceleration/source_aware_v7_session_2026-10-14/accepted_final_readback_20261014.json`,
+SHA-256 `5e7adb9eab5ba2483717751573271916ef0dff83ec5e2eac213eede2f58a6df0`.
+İlk denetim raporu da ayrı korunur; son kayıtta lint düzeltmesi sonrası
+denetleyici hash'i kayıtlıdır. Komut:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/cloud/verify_gcp_v7_session_logs.py `
+  --received outputs/gcp_acceleration/source_aware_v7_session_2026-10-14/received/gcp_v7_final_20261014T113827Z_logs.tar.gz `
+  --out outputs/gcp_acceleration/source_aware_v7_session_2026-10-14/new_readback.json
+```
+
+Bu yerel log/katalog kapanış kabulüdür. Bilimsel payload/checkpoint
+baytları arşivde yok; 39 restore günün ve kullanılan ürünlerin bayt kabulü
+ve canlı Drive geri okuması yapılmadı. Asıl 72 aylık hedefte iki kaynak
+günü açık kalır. Yeni uzun üretim başlatılmaz ve doğrulanmış bağımsız
+sonuç yedeği alınmadan VM diski silinmez; kaynak çözümü ve ürün teslimi
+bir sonraki aşamadır.

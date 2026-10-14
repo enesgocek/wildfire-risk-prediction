@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[V7 final arşivi yerelde doğrulandı](GCP_V7_PROGRESS_2026-10-14.md#yerel-final-arşivi-ve-katalog-geri-okuması):
+318.086 baytlık arşivde eşit üç final, exact 70 eğitim ayı ve 210 çağrı
+günü doğrulandı; 29 Haziran + 30 Aralık uygun günü dahil. Beş yeni ay
+Ocak–Mayıs 2018. Katalogla 862 yeni/6 yeniden kullanılan çift, 171 gün
+kapanışı ve 64 yeniden kullanılan ay eşleşti. 22 donmuş girdi aynı
+hash'te; kaynak örneklerinde rezerv ihlali yok. 36 test/lint/format geçti;
+ağ engelli yerel audit geçti. VM Stop kullanıcı teyitli. Bu log/katalog
+kabulüdür; bilimsel payload baytları ve canlı Drive geri okuması ayrı.
+Asıl 72 ay için iki kaynak günü açık; yeni uzun üretim başlatılmıyor.
+
 [V7 uzak finali: 70 tam ay ve 59 uygun kısmi gün](GCP_V7_PROGRESS_2026-10-14.md#uzak-final-bildirimi-işlenebilir-kapsam-tamamlandı):
 kullanıcı beklenen processable_months_verified_source_resolution_pending
 durumunu, 70 ay/29 Haziran günü/30 Aralık günü, 862 çift, None hata

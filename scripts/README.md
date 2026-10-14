@@ -955,3 +955,10 @@ Drive modülüyle yeni/eskide aynı client/scope/folder, canlı OAuth ve
 folder erişimini karşılaştırır; sadece özel config'i 0600 ile atomik
 değiştirir. Üretim/Drive nesnesi başlatma veya bilimsel sonuç yazımı yoktur.
 Token/code/yanıt metni loglanmaz. [Kurtarma adımları](../docs/GCP_DRIVE_AUTH_RECOVERY_2026-10-13.md).
+
+`cloud/verify_gcp_v7_session_logs.py --received <final.tar.gz> --out <yeni.json>`,
+V7 public final arşivini ağ/üretim işlemi olmadan denetler. Beş bounded
+normal üye, eşit üç final, exact eğitim ay/günleri, protokol/paket hash'leri,
+son çağrı log/katalog sayaçları ve kaynak rezervlerini kontrol eder.
+Var olan raporu değiştirmez. Bu log/katalog kabulüdür; bilimsel ürün ve
+checkpoint baytlarının kabulü değildir. [Gerçek final denetimi ve komut](../docs/GCP_V7_PROGRESS_2026-10-14.md#yerel-final-arşivi-ve-katalog-geri-okuması).

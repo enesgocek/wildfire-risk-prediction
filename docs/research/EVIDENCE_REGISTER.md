@@ -544,6 +544,16 @@ Sınır: kullanıcı uzak çıktısı, arşiv/tam ay kimlikleri ve bilimsel payl
 baytları henüz yerelde kabul edilmedi. Asıl hedef 72 ay; iki kaynak günü
 ertelenmiş, full_training_complete false. Public final alım adımı hazır.
 
+E71 — 14 Ekim: [V7 final arşivinin yerel log/katalog kabulü](../GCP_V7_PROGRESS_2026-10-14.md#yerel-final-arşivi-ve-katalog-geri-okuması).
+Arşiv 318.086 bayt, SHA-256 `61fc0aa9c59c3bb2ca37a01f0f2849907c364775d057aa04cd9dd694716bcb5c`.
+Eşit üç final, 70 ay/210 çağrı günü (59 uygun kısmi gün dahil), 862 çift,
+6 çıkarımsal yeniden kullanım, beş yeni ay ve 22 değişmeyen girdi geçti.
+Kaynak örneklerinde rezerv ihlali yok; 36 test ve lint/format geçti.
+Ağ engelli gerçek audit kaydı `outputs/gcp_acceleration/source_aware_v7_session_2026-10-14/accepted_final_readback_20261014.json`,
+SHA-256 `5e7adb9eab5ba2483717751573271916ef0dff83ec5e2eac213eede2f58a6df0`.
+VM Stop kullanıcı teyitli. Sınır: log/katalog kapanışı; bilimsel ürün/
+checkpoint baytları ve canlı Drive geri okuması yok. İki kaynak günü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
