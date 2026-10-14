@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İl/mevsim çeşitliliği ve kaynak iş yükü planı hazır](OBSERVATION_EXPANSION_2026-10-15.md):
+Aynı GAUL kaynağının dört il geometrisi salt okunur alındı; mevcut AOI
+korundu, 42 çok illi hücre ayrı kaydedildi. Sonuçlara göre değiştirilmeden
+seçilen 12 eğitim gününde 34.788 adaydan 156 hücre-gün seçildi; 36 boş
+kontenjan korundu. Çekirdeğin bölgesel kaynak referansı 292 çift/584 dosya,
+53,52 GB; 400 kayıt referansında 1.380,16 GB. Örneklem kapsamları farklı;
+bu bir hız veya TL ölçümü değil. Ayrı 48 zor vaka korunur. 105 ilgili test,
+dört dosyada lint/format, 13 çıktı/175 giriş ve 22 donmuş girdi kontrolü
+geçti. Ham dosyaların güncel uzak erişimi henüz doğrulanmadı; yeni indirme,
+geniş ham işlem, etiket/model/bulut işi yok. Sonraki iş çekirdeğin 584
+dosyasının arşiv kimlik/sürüm kontrolüdür. Ana 72 aylık takvim korunur.
+
 [Tarama alanı/zamanı/kalitesi kaynak pilotu tamamlandı](SCAN_AREA_TIME_2026-10-15.md):
 14 Ocak 2019'daki üç önceden seçilmiş hücre, 16 yerel ham dosyayla
 4.851 tarama/hücre kaydına bağlandı. Sekiz granülün yedi sensör/yörünge

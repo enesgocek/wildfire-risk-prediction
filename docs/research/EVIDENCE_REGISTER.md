@@ -823,6 +823,22 @@ kapanış SHA-256 `6613cb4d39a4084304fb6c01bca3dba7caa2a669f06836026f4152388fba8
 Unknown/kapalı negatif izni korundu; etiket, nihai birleştirme, model,
 eğitim dışı CSV veya yeni bulut işi yok.
 
+E90 — 15 Ekim: [Gözlem pilotu kapsam ve kaynak planı](../OBSERVATION_EXPANSION_2026-10-15.md).
+Dört GAUL il geometrisi salt okunur alındı; 2.899 hücre ve 42 çok illi
+kesişim denetlendi. 12 sabit eğitim günündeki 34.788 adaydan 156 yöntem
+vakası seçildi; 36 kontenjan boş kaldı. Çekirdeğin 292 çift/584 dosyası
+53.517.820.515 kayıtlı bayt; 400 kayıt referansı 1.380.155.984.939 bayttır.
+Kapsamlar farklı; hız, fiyat veya doğruluk karşılaştırması değildir.
+Öncelikli 48 vaka ayrı kaldı; mevcut ağırlıklar yeni kohorta taşınmadı.
+105 ilgili test, dört dosyada lint/format, 13 çıktı/175 giriş ve 22 donmuş
+girdi kapanışı geçti. Son rapor
+`outputs/reports/dataset/observation_expansion_v1/20261014T233502Z_81275155/readback.json`
+SHA-256 `8a29ea70339965497e4e5499ef718c684ecdbc9c833e3e2fa0c0db824a14e7c2`;
+kapanış SHA-256 `bd701d4e42ed6fb33ee02273ec74bb9dbf5435722b0aa19bd754f912cbe42c6d`.
+Güncel NASA erişilebilirliği açık; unknown/kapalı negatif izni korundu.
+Yeni ham indirme, geniş ham üretim, etiket/model/nihai birleştirme,
+eğitim dışı CSV veya bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

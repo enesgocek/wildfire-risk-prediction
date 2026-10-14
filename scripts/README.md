@@ -20,6 +20,16 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Gözlem pilotunun coğrafya/takvim ve kaynak planı:
+`python scripts/quality/plan_observation_expansion.py`.
+Önce aynı AOI kaynağındaki dört il için açık salt okunur hazırlık komutu
+`python scripts/earth_engine/prepare_province_boundaries.py --fetch` kullanılır;
+elde edilen kaynak kimliği açık yapılandırmaya kaydedilir. Planlayıcı
+çevrimdışı çalışır: 12 sabit eğitim günü, karşılanamayan kontenjanlar,
+mevcut 48 zor vaka ve 400 kayıt referansının bölgesel ham dosya yükünü
+tekilleştirir. Yeni indirme, ham üretim, model veya bulut işi başlatmaz.
+[Yöntem, kaynak kimlikleri ve sonuç](../docs/OBSERVATION_EXPANSION_2026-10-15.md).
+
 Üç kaynak hücresinde tarama alanı/zamanı/kalitesi pilotu:
 `python scripts/quality/review_scan_area_time.py`.
 `configs/scan_support_pilot_v1.json` içindeki önceden seçilmiş eğitim

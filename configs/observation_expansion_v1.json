@@ -1,0 +1,18 @@
+{
+  "version": "observation_expansion_v1",
+  "status": "method_pilot_plan_not_label_policy",
+  "training_years": [2018, 2021, 2023],
+  "season_dates": {"winter": "02-15", "spring": "05-15", "summer": "08-15", "autumn": "11-15"},
+  "provinces": ["Antalya", "Mersin", "Muğla", "İzmir"],
+  "signal_groups": ["no_selected_thermal_center", "thermal_center_present"],
+  "maximum_units_per_day_province_signal": 2,
+  "selection_seed": "observation-expansion-v1-fixed-seed-42",
+  "prefer_different_cover_group_for_second_unit": true,
+  "boundary_folder": "data/raw/boundaries/gaul2025/20261014T231843Z_2271840f",
+  "boundary_readback_sha256": "cf3a25984d56d3fd4b4658cbf74adfa57f6be1bc667940ab5ad5b5b1d7a64121",
+  "priority_routes": ["event_scenario_disagreement_review", "source_packet_review", "no_nominal_land_center_review", "boundary_time_review", "outside_water_scope_audit_only"],
+  "population_error_estimation_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "cloud_execution_authorized_by_this_config": false
+}

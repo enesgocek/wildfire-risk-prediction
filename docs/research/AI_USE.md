@@ -630,6 +630,17 @@ tanıları etiket politikası olarak seçilmedi; amaçlı pilot bağımsız yang
 doğruluğu veya insan etiketlemesi diye sunulmadı. NASA'nın geolocation
 kılavuzu yeniden okundu. [Yöntem ve sınırlar](../SCAN_AREA_TIME_2026-10-15.md).
 
+## Gözlem pilotu kapsam ve kaynak planı — 15 Ekim 2026
+
+Araç desteği, aynı AOI kaynağından dört il sınırının salt okunur alınması,
+il/hücre kesişimleri, sabit takvimde amaçlı vaka seçimi, eksik kontenjanlar,
+önceki vaka ağırlıklarının kullanım sınırı ve kaynak dosyalarının boyut/
+kimlik tekilleştirmesinde kullanıldı. Türkçe il adlarının açık UTF-8 geri
+okuması düzeltildi. Yeni planın hata oranı veya kullanıcı tarafından kabul
+edilmiş etiket politikası olduğu ileri sürülmedi. Kurallar hesap öncesinde
+kaydedildi; sonraki kaynak erişim kontrolü ve bulut işi yetkisi ayrıldı.
+[Gerçek ölçüm, kaynak ve sınırlamalar](../OBSERVATION_EXPANSION_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
