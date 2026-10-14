@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Olay/etiket protokolü için ölçülmüş inceleme paketi hazır](LABEL_PROTOCOL_REVIEW_2026-10-14.md):
+400 örnek/dokuz katalogda 3.600 eşleşme kaydı; 77 örnekte aynı üyelik,
+19 örnekte senaryo duyarlılığı var. 304 örnekte ilk hücre/gün eşleşmesi
+yok; bunların 96'sı termal merkezli olduğu için yokluk negatif sayılmadı.
+181 arka plan örneği yalnız inceleme adayıdır. Politika veya hedef seçilmedi.
+Kullanıcının nihai birleştirmeden önce parça son kontrolü ve açık onay
+isteği kurala eklendi; yeni programlama denetimi eksik/eski onayı reddediyor.
+Gerçek son kontrol/onay ve nihai birleştirme henüz yok. 97 ilgili test,
+beş dosyada lint/format, dört çıktı/46 giriş ve 22 donmuş girdi kapanışı
+geçti. Sonraki iş 19 duyarlı örneğin kaynak/zincir incelemesi; bulut,
+model veya 2024/2025 veri erişimi yok.
+
 [Sabit 400 örnekli pilotun komşu gün denetimi tamamlandı](WINDOW_PILOT_2026-10-14.md):
 200 tabaka/ağırlık korunarak 72 aydaki 883 günlük kaynak kontrol edildi.
 16 örnekte paket eksikliği, iki örnekte sınır taraması, bunların birinde

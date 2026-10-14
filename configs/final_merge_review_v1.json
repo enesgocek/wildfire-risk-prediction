@@ -1,0 +1,13 @@
+{
+  "version": "final_merge_review_v1",
+  "decision_date": "2026-10-14",
+  "required_parts": ["weather", "landscape", "vegetation", "observation", "targets"],
+  "scientific_protocol_acceptance_required": true,
+  "fresh_final_part_checks_required": true,
+  "explicit_user_approval_required": true,
+  "approval_bound_to_final_review_sha256": true,
+  "changed_part_requires_new_review_and_approval": true,
+  "split": "train_2018_2023",
+  "final_test_accessed": false,
+  "final_merge_authorized": false
+}

@@ -575,6 +575,17 @@ edilmedi; 453 form aynı kaldı. Ağırlıklı tabaka genişletmeleri tahmin
 olarak tutuldu, kesin popülasyon/etiket hata oranı olarak sunulmadı.
 [İşlem ve kanıt sınırları](../WINDOW_PILOT_2026-10-14.md).
 
+## Olay protokolü seçenekleri ve nihai birleştirme onay akışı — 14 Ekim 2026
+
+Araç desteği, 400 örneğin dokuz katalogla aday/üyelik karşılaştırmasında,
+öncelik listesi ve protokol seçeneklerinin hazırlanmasında, sentetik onay
+kontrolü testlerinde ve raporlamada kullanıldı. Mesogeos yöntem bölümleri
+ve NASA açıklamaları yeniden kontrol edildi; başka çalışmanın etiketleme
+kuralları bu proje için doğrulanmış sayılmadı. Kullanıcının nihai parça
+kontrolü/onay talebi kaydedildi; gerçek onay makbuzu üretilmedi. 19 duyarlı
+örnek ve 181 arka plan adayı insan tarafından kabul edilmiş değildir.
+[İşlem, öneri ve sınırlar](../LABEL_PROTOCOL_REVIEW_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

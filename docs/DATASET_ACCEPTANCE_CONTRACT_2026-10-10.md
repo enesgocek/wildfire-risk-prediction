@@ -5,6 +5,33 @@ onaylanmış veya bütün veri seti hazırlanmış değildir. Taslak, kayıtlı
 24 saatlik hedefi ve veri ayrımını değiştirmez. Çalışan üretim paketleri
 bu belge nedeniyle yeniden kurulmaz.
 
+## 14 Ekim 2026 eki — nihai birleştirme öncesi açık kullanıcı onayı
+
+Araştırmacı, nihai özellik/hedef veri setini birleştirmeden önce parçaların
+son kez ayrı kontrol edilmesini, sonuçları onayladıktan sonra birleştirme
+yapılmasını istedi. Bu ek eski teknik kabulleri değiştirmez ve onay verilmiş
+sayılmaz. Tamamlanmış özellik adayları ve 400 örnekte inceleme amaçlı
+kanıt bağlamaları nihai etiketli veri seti değildir.
+
+Son kontrolün parçaları: meteoroloji, arazi/örtü, bitki örtüsü, uydu gözlem
+ve hedefler. Her biri güncel manifest kimliği, şema/anahtar sayısı, zaman ve
+split uygunluğu, eksik değer davranışı, kaynak geri okuması ve ilgili
+bilimsel kabul koşullarıyla raporlanır. Açık bilimsel protokol varken
+teknik kontrollerin geçmesi birleştirme izni vermez.
+
+`configs/final_merge_review_v1.json` bu akışı kaydeder; gerçek onay alanı
+kapalıdır. Yeni `final_merge_gate.py`, bütün parça kontrolleri ve bilimsel
+protokol kabulü yoksa ya da açık kullanıcı makbuzu rapor hash'iyle eşleşmiyorsa
+isteği reddeder. Onay zamanı UTC olarak kaydedilir. Parça/rapor değişince
+eski onay kullanılamaz; genel ilerleme veya otomatik test sonucu kullanıcı
+onayı değildir. Bu programlama kontrolü kimlik doğrulama servisi değildir.
+
+Nihai birleştirici henüz oluşturulmadı. Gelecekte dosyaları yeniden hash ile
+doğrulayıp bu kontrolü çağırması gerekir; mevcut aday hazırlayıcılar bu ekle
+yeniden çalıştırılmaz veya sessizce değiştirilmez. Güncel durum: son parça
+kontrolü ve gerçek kullanıcı onayı bekliyor; nihai birleştirme yapılmadı.
+[Yeni protokol karşılaştırması](LABEL_PROTOCOL_REVIEW_2026-10-14.md).
+
 ## Anahtar, zaman ve parça düzeni
 
 Satır anahtarı `(grid_id, prediction_timestamp_utc)`, T=00:00 UTC'dir.

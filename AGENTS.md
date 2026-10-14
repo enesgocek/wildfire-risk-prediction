@@ -66,6 +66,21 @@ hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru
 - Anlamlı değişikliğe uygun kontrol çalıştırılır; yalnız metin düzenlemesi için
   bilimsel üretim veya bulut işi yeniden başlatılmaz.
 
+## Nihai birleştirmeden önce son kontrol ve kullanıcı onayı — 14 Ekim 2026
+
+Kullanıcı, nihai etiketli eğitim veri setinin tam birleştirilmesinden önce
+birleştirilecek parçaların son kez ayrı kontrol edilmesini ve sonuçları
+onayladıktan sonra birleştirme yapılmasını istedi. Meteoroloji, arazi/örtü,
+bitki örtüsü, gözlem ve hedef parçalarının güncel manifest/hash, anahtar,
+şema, eksik değer, zaman/split ve kabul protokolü sonuçları birlikte sunulur.
+Önceki test başarıları bu son kontrolün yerine geçmez. Onay, son kontrol
+raporunun kimliğine bağlanır; parça değişirse kontrol/onay yenilenir.
+Genel "devam et" talimatı bu nihai birleştirme onayı sayılmaz. Önceden
+hazırlanmış özellik adayları korunur; açıkça inceleme amaçlı sınırlı örnek
+bağlamaları nihai etiketli birleştirme olarak raporlanmaz. Gelecekteki nihai
+birleştirici `final_merge_gate.require_final_merge_approval` kontrolünü
+güncel dosya doğrulamasıyla birlikte kullanmalıdır. Şu an gerçek onay makbuzu yoktur.
+
 ## GitHub güncelleme tercihi — 10 Ekim 2026
 
 Kullanıcı, her önemli proje değişikliği ve güncellemesinin sonunda uygun

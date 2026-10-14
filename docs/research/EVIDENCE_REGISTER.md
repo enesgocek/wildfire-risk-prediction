@@ -748,6 +748,19 @@ kapanış SHA-256 `d5fd9e414ddf8f881df79c5be1e9fdd757af1bdd03f53d3be429d4b9dcfef
 Tam eğitim kabulü veya gözlem yeterliliği kararı değil; 2024/2025 erişimi,
 etiket üretimi, model eğitimi ve yeni bulut işi yok.
 
+E85 — 14 Ekim: [Etiket protokolü inceleme seçenekleri](../LABEL_PROTOCOL_REVIEW_2026-10-14.md).
+400 örnek/dokuz senaryoda 3.600 aday eşleşme kaydı; 77 aynı üyelik,
+11 tümünde eşleşip farklı üyelik ve sekiz kısmi eşleşme. 304 eşleşmesiz
+örneğin 96'sı termal merkezli; negatif kabulü yapılmadı. 181 arka plan
+örneği inceleme sırasına alındı. Nihai parça son kontrolü ve açık kullanıcı
+onayı gereksinimi kaydedildi; gerçek onay veya nihai birleştirme yok.
+97 ilgili test/lint/format ve dört çıktı/46 giriş kapanışı geçti;
+22 donmuş girdi aynı. Final
+`outputs/reports/dataset/label_protocol_v1/20261014T193224Z_54fdbb95/readback.json`
+SHA-256 `534d67c44cad55a267aaf57330b4396a9cbb6aa65baa8bfdd71b9037b7bb0cab`;
+kapanış SHA-256 `97bb378040b2a7dd74893ddb163803794316fc29f6a28932ad992cee917d7e40`.
+Politika seçimi, etiket, model, 2024/2025 veri erişimi ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

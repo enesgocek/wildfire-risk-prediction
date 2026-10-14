@@ -1038,6 +1038,13 @@ Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktu
 
 ## Komşu nominal günlerle hedef pencere incelemesi
 
+`quality/review_label_protocol.py`, 400 örnekli pencere pilotunu hash ile
+bağlı dokuz keşif kataloğunun bütün ilk hücreleriyle karşılaştırır. Aday
+varlığı ve üyelik eşitliğini ayrı tutar; hiçbir eşleşme/boşluk hedefe
+çevrilmez. Dört yerel çıktı, politika seçenekleri ve kapalı nihai onay
+durumu yeni `label_protocol_v1` dizininde tutulur. Birleştirme yapmaz.
+[Ölçülen sonuç, öneri ve onay akışı](../docs/LABEL_PROTOCOL_REVIEW_2026-10-14.md).
+
 `quality/review_window_pilot.py --workers 4 --hours-limit 2`, aynı tarama
 zarfı kontrolünü sabit 400 örneğin tamamına uygular. Aylık arşivleri bir
 kez belleğe alır; dört yerel işçide yalnız istenen grid/günler okunur.
