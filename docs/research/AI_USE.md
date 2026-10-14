@@ -608,6 +608,17 @@ koruma seçimi ve sonradan belirttiği kalite önceliği kaydedildi. Katalog
 kaydı hedefi, insan doğrulaması veya nihai birleştirme onayı uydurulmadı.
 [Yöntem ve teslim sınırı](../DATASET_INSPECTION_RELEASE_2026-10-14.md).
 
+## Mekânsal gözlem desteği — 15 Ekim 2026
+
+Araç desteği, saklanmış sekiz eğitim granülünün geometri/alan/tarama
+kimlikleriyle yeniden karşılaştırılması, birleşim ve tekrar alanı hesabı,
+davranış testleri, görsel kontrol ve yöntem seçeneklerinin yazımında
+kullanıldı. Günlük kara/bulut çakışması otomatik hata sayılmadı; tek
+granül eşiği yeni negatif politikası olarak kabul edilmedi. NASA'nın
+resmî ürün kılavuzu ve FIRMS sınırlamaları yeniden okundu. İnsan gözlemi,
+bağımsız yangın doğruluğu veya araştırmacı protokol onayı uydurulmadı.
+[Ölçüm ve önerinin ayrımı](../OBSERVATION_SUPPORT_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

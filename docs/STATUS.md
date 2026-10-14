@@ -1,9 +1,22 @@
-# Proje durum raporu — 14 Ekim 2026
+# Proje durum raporu — 15 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+[Gözlem desteğinin mekânsal yorumu incelendi](OBSERVATION_SUPPORT_2026-10-15.md):
+14 Ocak 2019'un sekiz saklanmış yaklaşık geçiş geometrisinde 2.899
+hücre incelendi. Günlük nominal kara payı 0,90'ı geçen 1.151 hücrenin
+114'ünde hiçbir tek granül aynı paya ulaşmıyor. Bu hata/eleme oranı
+değildir; granül sayısı bağımsız geçiş sayısı değildir. Günlük kara/bulut
+çakışması da otomatik hata veya negatif eleme gerekçesi sayılmadı.
+Önerilen sonraki araştırma, zamanı/kaliteyi koruyan geçiş desteğini
+sınırlı pilotta kurmak ve aday kapsamı/hata kanıtını birlikte sınamaktır.
+Tek günlük örnekten alan eşiği seçilmedi; 0/1 hedef ve nihai birleştirme
+henüz yok. 14 Ekim'deki denetlenmiş özellik inceleme teslimi geçerlidir.
+82 ilgili test, üç dosyada lint/format, altı çıktı/72 giriş kapanışı ve
+22 donmuş girdi kontrolü geçti; grafik görsel olarak incelendi.
 
 [Denetlenmiş eğitim adayı inceleme sürümü hazır](DATASET_INSPECTION_RELEASE_2026-10-14.md):
 72 ay/6.351.709 özellik satırı yeni tam takvim denetiminden geçti; 72

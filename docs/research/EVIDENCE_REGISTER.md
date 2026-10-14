@@ -790,6 +790,23 @@ kapanış SHA-256 `25f83533cfd8c8c55584484dd8d35840c409c94c71b03ffa18668054d7d5d
 Ana hedef korundu; ayrı katalog hedefi, 0/1 etiketi, insan kabulü veya
 nihai birleştirme yapılmadı. Eğitim dışı CSV, model ve bulut işi yok.
 
+E88 — 15 Ekim: [Gözlem desteğinin mekânsal yorumu](../OBSERVATION_SUPPORT_2026-10-15.md).
+14 Ocak 2019'un sekiz saklanmış yaklaşık granül geometrisinde 2.899 hücre
+incelendi. Günlük nominal kara payı 0,90'ı geçen 1.151 hücrenin 114'ünde
+tek granül aynı paya ulaşmıyor; bu hücreler hatalı veya elenecek sayılmadı.
+Günlük kara/bulut kesişimi 36.011,26 km²; granül içi çakışma birleşiminin
+dışında yalnız farklı granüllerle oluşan kısım 34.299,57 km². Tek amaçlı
+gün/yaklaşık geometri sonucu bütün döneme veya etiket doğruluğuna
+genellenmez. 82 ilgili test, üç dosyada lint/format, altı çıktı/72 giriş
+kapanışı ve 22 donmuş girdi kontrolü geçti; grafik görsel olarak incelendi.
+Yeni rapor
+`outputs/reports/dataset/spatial_support_v1/20261014T222953Z_5b507709/readback.json`
+SHA-256 `4d16e1dac4380e7b8da121f549d2dd5493631b831a99d1b5a75b5478c45cdcb4`;
+kapanış SHA-256 `73a430c87d74f70bd47b544378cbb4778dd6b9310d157f3d30a12b3d6628681d`.
+Zaman/kalite/geçiş desteğiyle negatif aday protokolü önerildi, kabul edilmedi.
+Unknown/kapalı negatif izni korundu; ham ürün yeniden işleme, yeni etiket,
+holdout CSV, model ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

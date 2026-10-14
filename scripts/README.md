@@ -20,6 +20,14 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Saklanmış sekiz eğitim granülünün mekânsal gözlem desteği:
+`python scripts/quality/review_spatial_observation_support.py`.
+Sabit 14 Ocak 2019 raporuna bağlı GPKG/CSV/tarama kimliklerini doğrular;
+günlük alan, tek granül desteği, tekrar alanı ve kara/bulut çakışmasını
+yeni dizinde geri okur. Granüller bağımsız geçiş veya etiket sayılmaz;
+alan kesimleri kabul kuralı değildir. Ham ürün yeniden işleme, holdout
+ve ağ erişimi yoktur. [Yöntem ve sonuç](../docs/OBSERVATION_SUPPORT_2026-10-15.md).
+
 400 hücre-günde gözlem kanıtı ve insan inceleme örnekleri:
 `python scripts/quality/review_observation_pilot.py`.
 Sabit pilotu/tabaka ağırlıklarını korur; nominal alan/zaman tanılarını
