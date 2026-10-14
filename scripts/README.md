@@ -985,6 +985,17 @@ son çağrı log/katalog sayaçları ve kaynak rezervlerini kontrol eder.
 Var olan raporu değiştirmez. Bu log/katalog kabulüdür; bilimsel ürün ve
 checkpoint baytlarının kabulü değildir. [Gerçek final denetimi ve komut](../docs/GCP_V7_PROGRESS_2026-10-14.md#yerel-final-arşivi-ve-katalog-geri-okuması).
 
+## Etiket kanıtı inceleme paketi
+
+`quality/prepare_label_review.py --per-stratum 2`, 72 kabul edilmiş eğitim
+gözlem tablosunu ve eski karar paketini hash ile kontrol eder. 53 amaçlı
+olay-senaryo vakasının bütün ilk hücrelerine iki tarih rolüyle gözlem bağlar;
+tüm 6.351.709 hücre-günden yıl/çeyrek/grid sektörü/gözlem sinyali tabakalarında
+ayrı pilot seçer. Sabit tohum, N/n ve ağırlıklar kaydedilir. Yeni sonuç
+dizinindeki inceleme/kanıt alanları boş kalır; ikili hedef üretilmez.
+Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktur.
+[Yöntem, gerçek sonuç ve insan incelemesi](../docs/LABEL_EVIDENCE_REVIEW_2026-10-14.md).
+
 ## Drive ürün teslimi ve yerel bilimsel geri okuma
 
 `cloud/receive_gcp_products.py --connection <özel-json> --out <outputs/gcp_delivery/alt-dizin>`,

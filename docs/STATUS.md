@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Etiket kanıtı inceleme paketi hazır](LABEL_EVIDENCE_REVIEW_2026-10-14.md):
+6.351.709 eğitim hücre-gününden 200 tabakada 400 pilot örnek seçildi;
+53 amaçlı olay-senaryo vakasıyla birlikte 453 boş inceleme birimi hazır.
+Bütün ilk hücreler korundu; 208 tarih rolü bağlantısı kuruldu. Eksik
+kaynağa denk gelen 18 bağlantı aynı hücre-günün senaryo/rol tekrarları;
+negatif yapılmadı. Sektörler grid sütununa dayanır, il sınırı değildir.
+51 ilgili test/lint/format geçti. İnsan incelemesi, bağımsız kanıt ve
+etiket politikası kabulü henüz yok; 0/1 hedef ve hata oranı üretilmedi.
+Sıradaki iş bu örneklerin bağımsız kanıtlarla değerlendirilmesi ve
+olay/ilk hücre, habitat, gözlem ve dönem kenarı kurallarının kesinleşmesi.
+2024 açılmadı, 2025 kapalı; model_ready false. Yeni bulut işi yok.
+
 [72 aylık uydu gözlem denetim tabloları hazır](OBSERVATION_TABLES_2026-10-14.md):
 6.351.709 hücre-günde ayrı gözlem tablosu üretildi; 6.345.911 ürünlü,
 5.798 eksik kaynak hücre-günü. İki günün sayısal/zamansal alanları boş

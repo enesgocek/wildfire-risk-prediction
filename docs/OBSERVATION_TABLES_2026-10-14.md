@@ -145,3 +145,10 @@ Kanıt kökü `outputs/reports/dataset/observation_materialization_v1/`:
 Sıradaki işlem, bu tanıları mevcut olay/zor vaka incelemesiyle eşleştirip
 gözlem yeterliliği ve kaynak farklarının etkisini değerlendirmektir.
 Nihai olay/habitat/negatif politikası onaylanmış gösterilmez.
+
+## İzleyen hazırlık
+
+14 Ekim'de bu tablolarla [etiket kanıtı inceleme paketi](LABEL_EVIDENCE_REVIEW_2026-10-14.md)
+hazırlandı: 53 amaçlı olay-senaryo vakasının bütün ilk hücreleri bağlandı;
+ayrı 400 hücre-günlük tabakalı pilot seçildi. Bu, insan incelemesi veya
+gözlem yeterliliği kabulü değildir; önceki tablo sonuçları değişmedi.

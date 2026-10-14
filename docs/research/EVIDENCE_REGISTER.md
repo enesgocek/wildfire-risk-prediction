@@ -616,6 +616,22 @@ iki eksik günün 5.798 satırı ayrı okunup boş ölçülerle doğrulandı.
 ham/geometri hesabı, bağımsız saha kabulü veya model başarısı değil.
 unknown/negative=false; tanılar model girdisi veya etiket yapılmadı.
 
+E76 — 14 Ekim: [Etiket kanıtı inceleme paketi](../LABEL_EVIDENCE_REVIEW_2026-10-14.md).
+6.351.709 eğitim hücre-günü/200 boş olmayan tabakadan 400 sabit tohumlu
+pilot; 53 amaçlı olay-senaryo vakası/28 üyelik örüntüsü; 208 ilk hücre/tarih
+rolü bağlantısı. Formda 453 inceleme birimi, bütün insan karar/kanıt alanları
+boş. Son çalışma 137,19 saniye; altı çıktı CSV'si ilk pilotla bayt olarak
+aynı. 51 ilgili test ve lint/format geçti.
+Final `outputs/reports/dataset/label_review_v1/20261014T153649Z_ca3fb92e/readback.json`,
+SHA-256 `36ce8565a452efbf2a4f1e69fe3254ae33ccdd818eb08584f57b41a9eaf28037`;
+aynı dizinde kapanış `completion_readback.json`, SHA-256
+`40bc3ac82c37f54f36d4bfcda4353aec550ed5c3e0b827ebcf4731505ab9b781`.
+186 kaynak/yöntem kimliği ve 22 donmuş girdi aynı. Kaynak ürünü bulunmayan
+18 bağlantı tek bir 2023-12-31 hücre-gününün senaryo/rol tekrarlarıdır;
+negatif veya 18 bağımsız vaka yapılmadı. Sektörler il değildir; pilot
+tasarım hata oranı hesabı değildir. 0/1 hedef, uzman/bağımsız kabul veya
+model üretilmedi; gözlem unknown/negative=false, 2024 açılmadı/2025 kapalı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

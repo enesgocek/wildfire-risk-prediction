@@ -483,6 +483,16 @@ geçiş zamanı ölçüleri model girdisi olarak sunulmadı. Eski kabul ve donmu
 bilimsel kod korundu, yeni bulut işi veya dış iletişim olmadı.
 [Yöntem, sonuç ve sınırlar](../OBSERVATION_TABLES_2026-10-14.md).
 
+## Etiket kanıtı inceleme hazırlığı — 14 Ekim 2026
+
+Araç desteği, kabul edilmiş olay vakalarını gözlem tablolarına bağlayan ve
+eğitim hücre-günlerinden sabit tohumla tabakalı pilot seçen kod/testlerde
+kullanıldı. Bütün eşzamanlı ilk hücreler ve sağdan dahil zaman kuralı korundu.
+İl ataması olmayan hücrelere il adı yakıştırılmadı; açık grid sektörleri
+kullanıldı. İnsan inceleme/bağımsız referans alanları boş bırakıldı; uzman
+onayı, nihai etiket veya hata oranı üretilmedi. Kod ve sonuç geri okuması,
+[yöntem ve sınırlarıyla](../LABEL_EVIDENCE_REVIEW_2026-10-14.md) kaydedildi.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
