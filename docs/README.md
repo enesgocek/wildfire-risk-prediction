@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Tamamen su sınıflı hücrelerin kapsam kararı](WATER_SCOPE_2026-10-14.md) | Araştırmacının A seçeneği, 10 hücrelik dışlama, 727 karışık hücrenin korunması, sürümlü filtre ve gerçek eğitim etkisi |
 | [400 örnekte gözlem kanıtı](OBSERVATION_PILOT_REVIEW_2026-10-14.md) / [İnsan değerlendirme rehberi](OBSERVATION_HUMAN_REVIEW_2026-10-14.md) | Alan/zaman/bulut ayrımı, ham taramada gece yarısı tanığı, altı örnek ve araştırmacı/danışman için açık kararlar |
 | [Öncelikli dokuz vakanın bağlantı/kaynak incelemesi](PRIORITY_EVENT_TRACE_2026-10-14.md) | 100 farklı tespitte graf tanıkları, uzun zincir, önceki yakın Type=2 ve eksik dönem bağlamı; etiket kararı açık |
 | [Olay/ilk hücre karar protokolü](EVENT_DECISION_PROTOCOL_2026-10-14.md) | 53 varyantın 11 örtüşme grubunda duyarlılığı, hedef günü değişen dokuz öncelikli vaka ve altı açık kabul başlığı |

@@ -44,6 +44,12 @@ Mersin. Orijinal yol haritasındaki Hatay pilot önerisinin yerini Mersin alır.
 | Ana değerlendirme metriği | PR-AUC |
 | Deney takibi | Yerel MLflow |
 
+14 Ekim 2026 kapsam güncellemesi: araştırmacının A seçeneğiyle, donmuş 2017
+haritasında tamamen ayrık su sınıfı olan hücreler risk hesabı kapsamı dışında
+tutulur. Karışık kara/su hücreleri korunur; nihai habitat uygunluğu ve etiket
+kabulü ayrıca değerlendirilir. Bu karar tarihsel kaynakları değiştirmez.
+[Sürümlü kural, ölçülen etki ve sınırlar](WATER_SCOPE_2026-10-14.md).
+
 ### Zaman sözleşmesi
 
 Her satır `(grid_id, prediction_timestamp)` ile tanımlanır. Günlük tahmin saati

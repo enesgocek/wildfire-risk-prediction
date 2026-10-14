@@ -543,6 +543,16 @@ bilimsel eşik gibi seçilmedi; negatif hedef üretilmedi.
 [İnceleme](../OBSERVATION_PILOT_REVIEW_2026-10-14.md) ve
 [insan görevleri](../OBSERVATION_HUMAN_REVIEW_2026-10-14.md).
 
+## Araştırmacının su kapsamı kararının uygulanması — 14 Ekim 2026
+
+Araştırmacı A seçeneğini kabul etti; araç desteği sürümlü politikanın,
+su dışı bileşen kontrolünün, ayrı kapsam tablosunun, veri okuyucu filtresinin
+ve testlerin hazırlanmasında kullanıldı. 2.899 hücrede 10 dışlama ve
+727 karışık hücrenin korunması, eğitim tespit envanteri/pilot etkisiyle
+yerelde ölçüldü. Kaynak veriler ve insan kanıt formları değiştirilmedi.
+Karar yetkisi araştırmacıda; bağımsız kaynak doğruluğu veya tam habitat
+kabulü iddia edilmedi. [Kayıt ve sınırlar](../WATER_SCOPE_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

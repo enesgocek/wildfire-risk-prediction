@@ -708,6 +708,20 @@ aynı dizinde `completion_readback.json` SHA-256
 Örneklerin ağırlıksız sayıları popülasyon oranı değildir. Kesim seçimi,
 0/1 hedef, model, 2024/2025 erişimi ve bulut işi yok; 453 form boş kaldı.
 
+E82 — 14 Ekim: [Araştırmacının A seçeneği ve su kapsamı](../WATER_SCOPE_2026-10-14.md).
+2.899 gridde su dışı ayrık sınıf payları tam sıfır olan 10 hücre ayrı kapsam
+tablosunda dışlandı; 727 karışık hücre korunur. Etki: 2.191 eğitim gününde
+21.910 kapsam dışı / 6.329.799 korunan hücre-gün, etiketli satır sayısı değil.
+30.295 tekil eğitim aday tespitinde dışlanan gridde tespit yok; gerçek yangın
+yokluğu kanıtı değildir. 400 pilot satırdan 399'u kapsamı geçer; özgün örnek
+ve ağırlıklar korunur. 58 ilgili test/lint/format, beş çıktı ve 22 donmuş
+girdi kontrolü geçti. Final
+`outputs/reports/dataset/water_scope_v1/20261014T185242Z_f2e469bd/readback.json`
+SHA-256 `7b5d296bae6c3744790817409db4bce3a947e92919a06abde9271eac07814cae`;
+kapanış SHA-256 `092c966d2a1e85613dddfc139ba47ebaecdf6aa6cd7eb53a528fb738b0d17a97`.
+Kapsam tercihi bağımsız doğrulama veya tam habitat kabulü değildir; kaynak
+tablolar, boş hedefler, 453 form ve 2024/2025 erişim sınırı aynı kaldı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1,0 +1,19 @@
+{
+  "version": "water_scope_v1",
+  "decision_date": "2026-10-14",
+  "decision_authority": "researcher",
+  "selected_option": "A",
+  "reference_year": 2017,
+  "water_discrete_classes": [80, 200],
+  "exclusion_rule": "all_nonwater_discrete_fractions_exactly_zero",
+  "mixed_cells": "retain",
+  "mixed_cell_threshold": null,
+  "full_habitat_policy_accepted": false,
+  "independent_source_accuracy_verified": false,
+  "historical_availability_verified": false,
+  "labels_created": false,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "model_ready": false
+}

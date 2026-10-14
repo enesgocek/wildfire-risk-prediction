@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Araştırmacının A seçeneği uygulandı: tamamen harita suyu kapsam dışında](WATER_SCOPE_2026-10-14.md).
+2017 ayrık sınıflarında su dışı bütün payları sıfır olan 10/2.899 hücre
+ayrı kapsam tablosunda dışlandı; 727 karışık hücre korunuyor. 2.889 hücre
+yalnız bu kuralı geçer, nihai habitat/etiket kabulü değildir. 2018–2023
+tam takvim kapsamı 6.329.799 hücre-gün; 30.295 aday eğitim tespitinden
+etkilenen yok. Kaynak tablolar silinmedi; sonraki okuyucu sürümlü filtreyi
+uygulamalıdır. 58 ilgili test/lint/format ve beş çıktı kapanışı geçti;
+22 donmuş girdi aynı. Karışık hücre eşiği, gözlem yeterliliği ve olay
+kabulü açık; etiket/model, 2024/2025 erişimi ve bulut işi yok.
+
 14 Ekim karar akışı güncellemesi: seçenek ve gerekçeli önerileri asistan
 hazırlar, nihai proje kararını araştırmacı verir. Danışmanın tek tek yöntem
 incelemesi ilerleme koşulu değildir. Aşağıdaki danışmanla değerlendirme

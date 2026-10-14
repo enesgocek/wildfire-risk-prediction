@@ -1,5 +1,11 @@
 # İnsan değerlendirmesi için altı gözlem örneği — 14 Ekim 2026
 
+Sonraki karar kaydı: araştırmacı A seçeneğini kabul etti. Tamamen harita suyu
+olan hücreler kapsam dışında, karışık hücreler korunuyor.
+[Uygulama ve gerçek etki](WATER_SCOPE_2026-10-14.md). Aşağıdaki hazırlık
+soruları önceki inceleme durumunu anlatır; kapsam tercihi, F görüntüsünün
+bağımsız doğrulandığı veya 453 kanıt formunun doldurulduğu anlamına gelmez.
+
 Durum: inceleme hazırlığı; aşağıdaki sorular yanıtlanmış veya danışman
 tarafından onaylanmış değildir. Dayanak ve ölçülerin sınırı
 [400 hücre-gün incelemesindedir](OBSERVATION_PILOT_REVIEW_2026-10-14.md).

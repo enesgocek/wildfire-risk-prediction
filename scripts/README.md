@@ -1036,6 +1036,17 @@ dizinindeki inceleme/kanıt alanları boş kalır; ikili hedef üretilmez.
 Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktur.
 [Yöntem, gerçek sonuç ve insan incelemesi](../docs/LABEL_EVIDENCE_REVIEW_2026-10-14.md).
 
+## Araştırmacının su kapsamı kararı
+
+`quality/prepare_water_scope.py`, araştırmacının kabul ettiği
+`configs/water_scope_v1.json` politikasını donmuş 2017 ayrık örtü paylarına
+uygular. Su dışı bütün payları tam sıfır olan hücreleri ayrı kapsam tablosunda
+işaretler; karışık hücreleri korur. Eğitim tespit envanteri ve 400 örnekte
+etkiyi geri okur; özgün feature/gözlem/etiket dosyalarını değiştirmez.
+`attach_water_scope` ve `retain_water_scope` sonraki okuyucular için açık
+bağlama/filtreleme işlevleridir. Ağ engellidir; yeni bulut işi yoktur.
+[Kural, gerçek sonuç ve açık konular](../docs/WATER_SCOPE_2026-10-14.md).
+
 ## Drive ürün teslimi ve yerel bilimsel geri okuma
 
 `cloud/receive_gcp_products.py --connection <özel-json> --out <outputs/gcp_delivery/alt-dizin>`,
