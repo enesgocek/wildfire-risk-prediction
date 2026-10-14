@@ -663,6 +663,21 @@ aynı dizinde `completion_readback.json` SHA-256
 nedeniyle bağımsız doğruluk/olay kimliği kabulü yok. 453 form hâlâ
 not_reviewed; model/0-1 hedef ve holdout/bulut işlemi yok.
 
+E79 — 14 Ekim: [Olay/ilk hücre karar duyarlılığı ve kabul taslağı](../EVENT_DECISION_PROTOCOL_2026-10-14.md).
+53 amaçlı senaryo vakası/28 üyelik örüntüsü, ortak tespitlerle 11 inceleme
+grubuna ayrıldı; fiziksel olay sayısı değildir. Dört grupta ilk zaman,
+üç grupta ilk hücre kümesi, üç grupta aday hedef günü değişti. Hedef günü
+değişen dokuz varyant sıralamada öne alındı; diğer 44 vaka korundu.
+Altı kabul koşulu makine okunur taslakta unaccepted kaldı. 51 ilgili test
+ve lint/format geçti; üç çıktı/40 giriş geri okuması, önceki 11 çıktı
+ve 22 donmuş girdi kontrolü geçti. Final
+`outputs/reports/dataset/event_decisions_v1/20261014T171606Z_3062f053/readback.json`
+SHA-256 `d0210a017a57a3a5d327237e280ecfb4aae9dbc00e892b888759613c9a791a55`;
+aynı dizinde `completion_readback.json` SHA-256
+`2ea6726f73a9ebe2d156816cbddb1781687155e99fef9d9f562f50c5467f71a7`.
+Amaçlı seçkiden hata oranı çıkarılmadı; 453 insan formu not_reviewed.
+Senaryo seçimi, 0/1 hedef, model kabulü, 2024/2025 erişimi ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -513,6 +513,16 @@ kapsamadığı dosyadan görüldü; EFFIS'in VIIRS ortaklığı korundu. Sınır
 dışı ilk nokta yanlış pozitif, farklı tarihli coğrafi bağlantı yeni olay
 sayılmadı. [Kanıt ve sınırlamalar](../PERIMETER_REFERENCE_REVIEW_2026-10-14.md).
 
+## Olay karar duyarlılığı ve kabul taslağı — 14 Ekim 2026
+
+Araç desteği, kabul edilmiş vaka üyeliklerinin senaryolar arasında
+karşılaştırılması, geçişli örtüşme grupları, ilk zaman/hücre/hedef günü
+duyarlılığı ve testlerin hazırlanmasında kullanıldı. Öncelik sırası insan
+incelemesi veya etiket onayı değildir. Taslak protokolün altı kararı açık
+tutuldu; bağımsız uzman ve danışman kabulü üretilmedi. Otomatik hesaplama
+manuel kişisel etiketleme olarak gösterilmedi.
+[Ölçüm ve sınırlar](../EVENT_DECISION_PROTOCOL_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

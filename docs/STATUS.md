@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Olay/ilk hücre karar duyarlılığı ölçüldü; kabul taslağı hazır](EVENT_DECISION_PROTOCOL_2026-10-14.md):
+53 amaçlı senaryo vakası/28 üyelik örüntüsü ortak tespitlerle 11 inceleme
+grubuna ayrıldı; bunlar bağımsız yangın değildir. Dört grupta ilk zaman,
+üçünde ilk hücre kümesi, üçünde aday hedef günü değişiyor. Hedef günü
+değişen dokuz varyant önceliklendirildi; diğer 44 vaka korunur. Altı
+kabul başlığının kanıt gereksinimleri JSON olarak çıkarıldı; hepsi açık.
+51 ilgili test/lint/format ve üç çıktı/40 giriş kapanışı geçti; 22 donmuş
+girdi aynı. 453 insan formu hâlâ not_reviewed; 0/1 etiket/model kabulü yok.
+Sonraki iş öncelikli vakaların kaynak/zaman bağlamıyla değerlendirilmesi,
+ardından tabakalı pilotta gözlem/negatif politikasının gerekçelendirilmesi.
+2024/2025 erişimi ve yeni bulut işi yok. Aşağıdaki kayıtlar önceki aşamalardır.
+
 [Yangın sınırlarıyla ilk coğrafi karşılaştırma tamamlandı](PERIMETER_REFERENCE_REVIEW_2026-10-14.md):
 2021 yazına filtreli EFFIS sorgusunun 84 kaydı/433.192 baytı alındı;
 42 geçerli sınır pilot AOI'yle kesişiyor. 21 küme-senaryo varyantı için

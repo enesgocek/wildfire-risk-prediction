@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Olay/ilk hücre karar protokolü](EVENT_DECISION_PROTOCOL_2026-10-14.md) | 53 varyantın 11 örtüşme grubunda duyarlılığı, hedef günü değişen dokuz öncelikli vaka ve altı açık kabul başlığı |
 | [Yangın sınırlarıyla coğrafi karşılaştırma](PERIMETER_REFERENCE_REVIEW_2026-10-14.md) | 2021 filtreli EFFIS sınırları, 21 varyant/24 bağlantı, eksen/zaman kontrolü, bağımsızlık ve ilk nokta belirsizliği |
 | [Kurumsal kayıtlarla ilk vaka incelemesi](REFERENCE_CONTEXT_REVIEW_2026-10-14.md) | İki canlı resmî kaynak, 10 küme adayına bölgesel bağlam, çoklu başlangıç ve kesin kimlik eşleşmesi sınırı |
 | [Etiket kanıtı inceleme paketi](LABEL_EVIDENCE_REVIEW_2026-10-14.md) | 53 amaçlı olay-senaryo vakasının gözlem bağlantıları ve 400 hücre-günlük ayrı pilot; kararlar/etiketler boş |

@@ -20,6 +20,14 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Olay/ilk hücre karar duyarlılığı ve kabul taslağı:
+`python scripts/quality/review_event_decisions.py`.
+Kabul edilmiş 53 eğitim vakasını ortak tespitlerine göre karşılaştırır;
+ilk zaman/hücre/hedef günü değişimlerini ve bütün inceleme gerekçelerini
+yeni dizinde geri okur. Örtüşme grubu olay kimliği değildir; senaryo veya
+etiket seçmez. Ağ engellidir; 2024/2025 ve bulut işi yoktur.
+[Protokol ve gerçek sonuç](../docs/EVENT_DECISION_PROTOCOL_2026-10-14.md).
+
 Parçalı özellik kaydı denemesi:
 `python scripts/quality/verify_feature_partition_pilot.py`.
 Sabit hash'lerle kabul edilmiş dört eğitim gününü günlük dosyalara kaydeder;
