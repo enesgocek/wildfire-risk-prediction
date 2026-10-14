@@ -564,6 +564,17 @@ gösterildi, otomatik hedef veya insan inceleme onayı verilmedi. Önceki
 su kapsamı ve kapalı etiket koşulları korundu.
 [İşlem, kanıt ve sınırlar](../OBSERVATION_WINDOWS_2026-10-14.md).
 
+## Sabit pilotun tamamında komşu gün kontrolü — 14 Ekim 2026
+
+Araç desteği, kaynak okuyucusunun dört yerel işçiye ölçeklenmesinde,
+400 sabit örneğin özgün sütun/örnekleme tasarımı korunarak yeni tanılara
+bağlanmasında, testlerde ve raporlamada kullanıldı. 883 farklı günlük
+kaynak okundu; önceki günün paketindeki ek kara sınır taraması ortaya
+çıkarıldı. Bağımsız görüntü doğrulaması veya insan inceleme onayı iddia
+edilmedi; 453 form aynı kaldı. Ağırlıklı tabaka genişletmeleri tahmin
+olarak tutuldu, kesin popülasyon/etiket hata oranı olarak sunulmadı.
+[İşlem ve kanıt sınırları](../WINDOW_PILOT_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

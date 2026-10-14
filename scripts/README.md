@@ -1038,6 +1038,15 @@ Ağ engellidir; bulut işi, yeniden ham uydu hesabı veya holdout erişimi yoktu
 
 ## Komşu nominal günlerle hedef pencere incelemesi
 
+`quality/review_window_pilot.py --workers 4 --hours-limit 2`, aynı tarama
+zarfı kontrolünü sabit 400 örneğin tamamına uygular. Aylık arşivleri bir
+kez belleğe alır; dört yerel işçide yalnız istenen grid/günler okunur.
+Özgün tabaka, N/n, gözlem ve hedef sütunlarını korur; `window_` tanılarını
+ayrı bağlar. Önceki ortak altı amaçlı sonucu birebir karşılaştırır.
+Beş CSV ve hash kapanışı yeni `window_pilot_v1` dizinine yazılır.
+Yeniden örnekleme, etiket kabulü veya bulut işi yoktur.
+[Gerçek tam pilot sonucu ve sınırlar](../docs/WINDOW_PILOT_2026-10-14.md).
+
 `quality/review_observation_windows.py`, altı mevcut açıklayıcı örnek ve
 beş tamamlayıcı sınır/kaynak vakasında önceki/aynı/sonraki nominal günlük
 paketlerin tarama zarfını `(T,T+24h]` ile karşılaştırır. Kaynakları kabul

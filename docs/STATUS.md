@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Sabit 400 örnekli pilotun komşu gün denetimi tamamlandı](WINDOW_PILOT_2026-10-14.md):
+200 tabaka/ağırlık korunarak 72 aydaki 883 günlük kaynak kontrol edildi.
+16 örnekte paket eksikliği, iki örnekte sınır taraması, bunların birinde
+termal merkez var. Önceki günün paketinden gelen yeni kara sınır taraması
+bulundu; kesin güne atanmadı. 191 örnekte kesin içeride termal merkez
+var; bu olay veya pozitif etiket sayısı değildir. Önceki altı amaçlı sonuç
+birebir tekrar üretildi. 79 ilgili test/lint/format ve beş çıktı/210 giriş
+kapanışı geçti; 22 donmuş girdi ve 453 form aynı. Bütün eğitim takviminin
+pencere kabulü değil. Sonraki iş olay/ilk hücre ve gözlem yeterliliği için
+gerekçeli protokol seçenekleri; etiket/model/holdout/bulut işi yok.
+
 [Komşu günlerle hedef pencere kontrolü tamamlandı](OBSERVATION_WINDOWS_2026-10-14.md):
 11 amaçlı pencerede 23 farklı eğitim günü kaynak paketi okundu. Altı
 pencerede üç nominal paket var, beşinde eksik kaynak/dönem sınırı açık.

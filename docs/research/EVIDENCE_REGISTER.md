@@ -734,6 +734,20 @@ kapanış SHA-256 `89210f08e243c79eec892baa6b042052ddca1315408ad8488ab877920f40a
 Tam 400 pilot veya eğitim kabulü değil; piksel zamanı ve alan kırpması açık.
 Etiketler/453 insan formu değişmedi, 2024/2025 veri erişimi veya bulut işi yok.
 
+E84 — 14 Ekim: [Sabit pilotta tam pencere denetimi](../WINDOW_PILOT_2026-10-14.md).
+400 örnek/200 tabaka ve N/n korunarak 72 aydaki 883 farklı günlük kaynak
+okundu. 16 eksik paket kümesi, iki sınır taraması olan örnek, bir sınırdaki
+termal merkez ve 191 kesin içeride termal merkezli örnek; bunlar olay/etiket
+sayısı değildir. 2020-01-22 örneğinin önceki paketteki kara sınır taraması
+ortaya çıkarıldı. Altı önceki amaçlı sonuç birebir tekrar üretildi.
+79 ilgili test/lint/format ve beş çıktı/210 giriş kapanışı geçti; 22 donmuş
+girdi, kaynak örnek ve 453 form aynı kaldı. Final
+`outputs/reports/dataset/window_pilot_v1/20261014T191547Z_b008fcf9/readback.json`
+SHA-256 `f79fcb11ede0b7d0c24cf3a976146eae6df871791e9abddf179b4fa96a9e195f`;
+kapanış SHA-256 `d5fd9e414ddf8f881df79c5be1e9fdd757af1bdd03f53d3be429d4b9dcfef98f`.
+Tam eğitim kabulü veya gözlem yeterliliği kararı değil; 2024/2025 erişimi,
+etiket üretimi, model eğitimi ve yeni bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
