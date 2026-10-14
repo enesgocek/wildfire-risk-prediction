@@ -1,0 +1,54 @@
+{
+  "version": "institutional_reference_context_v1",
+  "scope": "training_case_context_only",
+  "labels_permitted": false,
+  "sources": [
+    {
+      "source_id": "antalya_20210728_manavgat",
+      "url": "https://www.antalya.gov.tr/manavgatta-4-ayri-noktada-orman-yangini-cikti",
+      "publisher": "Antalya Valiliği",
+      "publication_date": "2021-07-28",
+      "required_visible_terms": ["28.07.2021", "4 ayrı noktada", "Yeniköy", "Sarılar", "Gebece", "12:05"],
+      "claims": {
+        "place": "Manavgat",
+        "reported_start_locations": ["Yeniköy", "Sarılar", "Baraj bölgesi", "Gebece"],
+        "reported_clock_time": "12:05",
+        "clock_timezone_explicit_in_source": false,
+        "coordinates_in_inspected_text": false,
+        "interpretation": "Bölgesel kayıtta birden fazla başlangıç yeri bildirilmiştir; tekil uydu kümelerinin bu başlangıçlara karşılığı henüz belirlenmemiştir."
+      },
+      "independence": "external_institutional_account_sensor_lineage_not_audited",
+      "candidate_case_selection": {
+        "first_detection_utc_date": "2021-07-28",
+        "basis": "assistant_assisted_context_search_not_geocoded_identity",
+        "case_ids": ["d1000m_t24h_C004722", "d1000m_t48h_C004518", "d2000m_t24h_C004385", "d2000m_t48h_C004075", "d2000m_t72h_C003757", "d500m_t24h_C005215", "d500m_t24h_C005237", "d500m_t48h_C005063", "d500m_t48h_C005080", "d500m_t72h_C004899"]
+      }
+    },
+    {
+      "source_id": "ogm_20210813_regional_close",
+      "url": "https://www.ogm.gov.tr/tr/haberler/tum-orman-yanginlari-kontrol-altinda",
+      "publisher": "Orman Genel Müdürlüğü",
+      "publication_date": "2021-08-13",
+      "required_visible_terms": ["13.08.2021", "28 Temmuz", "12 Ağustos", "kontrol altına"],
+      "claims": {
+        "incident_period_start": "2021-07-28",
+        "incident_period_end": "2021-08-12",
+        "interpretation": "Dönemin yangınları için toplu kontrol altına alma duyurusudur; tek bir olayın son aktif tespitini, tam sönme anını veya hücre bazında gözlemi belirlemez."
+      },
+      "independence": "external_institutional_account_not_independent_of_other_official_reports_proven",
+      "candidate_case_selection": null
+    }
+  ],
+  "unusable_or_rejected_sources": [
+    {
+      "url": "https://www.ogm.gov.tr/muglaobm/duyurular/2021-yili-orman-yanginlari-degerlendirme-raporu-430",
+      "status": "announcement_verified_pdf_not_retrieved",
+      "reason": "Sayfada rapor adı düz metindir; ilgili PDF indirme bağlantısı doğrulanamadı. Raporun içeriği okunmuş veya doğrulanmış sayılmadı."
+    },
+    {
+      "url": "https://mapping.emergency.copernicus.eu/activations/EMSR527/",
+      "status": "rejected_wrong_country",
+      "reason": "Resmî aktivasyon sayfası Yunanistan yangınlarını gösteriyor; Türkiye vakalarıyla eşleştirilmedi."
+    }
+  ]
+}

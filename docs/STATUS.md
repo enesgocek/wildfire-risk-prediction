@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Kurumsal kayıtlarla ilk vaka incelemesi yapıldı](REFERENCE_CONTEXT_REVIEW_2026-10-14.md):
+Valilik ve OGM'nin iki resmî sayfası canlı alınıp 497.044 bayt hash ile
+korundu. Seçkideki 10 küme adayı/sekiz üyelik örüntüsüne yalnız bölgesel
+bağlam bağlandı. Manavgat'ta birden fazla başlangıç bildirimi, tek küme
+eşittir tek tutuşma varsayımını ayrıca inceleme gerekçesidir; yanlış
+birleşme kanıtı veya dört yönlü otomatik bölme değildir. Coğrafi olay
+kimliği doğrulanmadı, ilk tespit tutuşma yapılmadı. Önceki 453 form hâlâ
+not_reviewed; 55 ilgili test/lint/format geçti. Altı eski çıktı ve 22
+donmuş girdi aynı. Sıradaki ihtiyaç olay koordinatı/sınırı ve zamanlı
+referansla eşleşme; 0/1 hedef yok, 2024/2025 açılmadı, bulut işi yok.
+
 [Etiket kanıtı inceleme paketi hazır](LABEL_EVIDENCE_REVIEW_2026-10-14.md):
 6.351.709 eğitim hücre-gününden 200 tabakada 400 pilot örnek seçildi;
 53 amaçlı olay-senaryo vakasıyla birlikte 453 boş inceleme birimi hazır.

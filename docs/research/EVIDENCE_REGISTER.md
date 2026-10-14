@@ -632,6 +632,21 @@ negatif veya 18 bağımsız vaka yapılmadı. Sektörler il değildir; pilot
 tasarım hata oranı hesabı değildir. 0/1 hedef, uzman/bağımsız kabul veya
 model üretilmedi; gözlem unknown/negative=false, 2024 açılmadı/2025 kapalı.
 
+E77 — 14 Ekim: [Kurumsal kayıtlarla ilk vaka bağlamı](../REFERENCE_CONTEXT_REVIEW_2026-10-14.md).
+Valilik/OGM iki canlı HTML kaynağı, 497.044 bayt; 10 seçilmiş küme adayı,
+sekiz üyelik örüntüsü için candidate_regional_context_only bağlantısı.
+Kesin olay/hücre kimliği, tutuşma ve 0/1 etiket kabul edilmedi. 55 ilgili
+test/lint/format geçti; altı önceki çıktı ve 22 donmuş girdi aynı kaldı.
+`outputs/reports/dataset/reference_context_v1/20261014T154819Z_113615fa/readback.json`
+SHA-256 `fcca0e13511584f8d45f73887302ba840ee82f4d0d403a6a63b772c78a0de351`;
+aynı dizinde `completion_readback.json` SHA-256
+`a7732b2b6ed3be67b1eae4c91ea81c6b1ac08232125f43cc6ef3ff60102d194e`.
+Kurumsal çoklu başlangıç anlatımı, kümenin tek tutuşma sayılmasına karşı
+inceleme gerekçesidir; belirli yanlış birleşme veya dört yönlü bölme
+kanıtı değildir. PDF duyurusu içerik kabulü yapılmadan dışarıda, EMSR527
+yanlış ülke olarak reddedildi. Önceki 453 form hâlâ not_reviewed;
+nihai etiket/model hazır değil, 2024/2025 erişimi ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

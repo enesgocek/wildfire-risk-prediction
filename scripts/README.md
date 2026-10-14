@@ -987,6 +987,14 @@ checkpoint baytlarının kabulü değildir. [Gerçek final denetimi ve komut](..
 
 ## Etiket kanıtı inceleme paketi
 
+`quality/review_reference_context.py --fetch-public-pages`, yalnız açık
+sicildeki Antalya Valiliği/OGM HTTPS sayfalarını en fazla 3 MB/sayfa ve
+25 saniye/istek ile alır. Kaynak görünür metnini ve eski inceleme paketini
+kontrol eder; yeni dizinde ham HTML/hash makbuzu ve aday bölgesel bağlantı
+CSV'si üretir. İzinli alan dışına yönlendirme, kimlik bilgili URL ve sorgu
+parametresi kabul edilmez. Bölgesel anlatım olay kimliği/0-1 hedefe
+çevrilmez. [Gerçek kaynak incelemesi ve sınırlar](../docs/REFERENCE_CONTEXT_REVIEW_2026-10-14.md).
+
 `quality/prepare_label_review.py --per-stratum 2`, 72 kabul edilmiş eğitim
 gözlem tablosunu ve eski karar paketini hash ile kontrol eder. 53 amaçlı
 olay-senaryo vakasının bütün ilk hücrelerine iki tarih rolüyle gözlem bağlar;

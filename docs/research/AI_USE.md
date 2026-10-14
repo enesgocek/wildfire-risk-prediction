@@ -493,6 +493,16 @@ kullanıldı. İnsan inceleme/bağımsız referans alanları boş bırakıldı; 
 onayı, nihai etiket veya hata oranı üretilmedi. Kod ve sonuç geri okuması,
 [yöntem ve sınırlarıyla](../LABEL_EVIDENCE_REVIEW_2026-10-14.md) kaydedildi.
 
+## İlk harici vaka bağlamı — 14 Ekim 2026
+
+Araç desteği resmî kaynak aramasında, iki canlı HTML sayfasının sınırlı
+alımı/hash kaydında ve aday kümeleri bölgesel bağlama bağlayan kod/testlerde
+kullanıldı. Vaka adayları asistan destekli bağlam aramasıdır; araştırmacının
+veya bağımsız uzmanın incelemesi tamamlandı olarak gösterilmedi. Yanlış ülke
+aktivasyonu dışlandı, erişilemeyen PDF okunmuş sayılmadı. Çoklu başlangıç
+yorumu, kesin küme-olay eşleşmesinden ayrıldı; hedefler ve insan karar
+alanları boş kaldı. [İnceleme ve sınırları](../REFERENCE_CONTEXT_REVIEW_2026-10-14.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
