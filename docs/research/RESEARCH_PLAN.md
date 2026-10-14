@@ -59,6 +59,11 @@ başarı yüzdesi veya olumlu deney sonucu ilan edilmemiştir.
 - ERA5-Land geriye dönük araştırma verisidir; operasyonel tahmin anındaki
   erişilebilirlik ve geçmiş hava tahmini arşivinin uygunluğu ayrıca değerlendirilmelidir.
 - Bağımsız olay doğrulama kaynağının erişimi ve uzman incelemesinin kapsamı kesinleşmedi.
+- 15 Ekim kaynak sürekliliği güncellemesi: NOAA/NASA, S-NPP'nin yeni veri
+  dağıtımının 2 Kasım 2026'da bitmesini planlıyor; tarihsel arşiv korunuyor.
+  Canlı ürün için NOAA-20/21 gözlem kapsamı ve sensör uyumu ayrıca ölçülecek.
+  Bu duyuru mevcut eğitim kaynağının iptali değildir.
+  [Resmî kaynaklar ve araştırma yorumu](../OBSERVATION_CORE_CATALOGUE_2026-10-15.md).
 
 ## Ürün ve kapsam kararları
 

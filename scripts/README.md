@@ -20,6 +20,16 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Sabit gözlem çekirdeğinin kamuya açık NASA katalog kontrolü:
+`python scripts/firms/check_observation_core_catalogue.py --fetch`.
+Önceki planın 584 tam dosya adını 38 sınırlı sorguyla kontrol eder;
+koleksiyon/sürüm/zaman/boyut ve metadata bağlantısını karşılaştırır.
+Ham dosya veya kimlik bilgisi kullanmaz, veri URL'lerini takip etmez.
+Kesinti sonrası yalnız aynı kod ve kapsamla `--resume <çıktı-dizini>`
+kullanılır; tamamlanmış rapor değiştirilmez. `--max-batches 1` yalnız
+eksik bir sorgu checkpoint'i üretir, tam kabul değildir.
+[Sonuç ve içerik/etiket sınırları](../docs/OBSERVATION_CORE_CATALOGUE_2026-10-15.md).
+
 Gözlem pilotunun coğrafya/takvim ve kaynak planı:
 `python scripts/quality/plan_observation_expansion.py`.
 Önce aynı AOI kaynağındaki dört il için açık salt okunur hazırlık komutu

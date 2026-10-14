@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Çekirdeğin güncel NASA katalog kontrolü tamamlandı](OBSERVATION_CORE_CATALOGUE_2026-10-15.md):
+584 dosyanın tamamı aynı ad/sürüm, koleksiyon, nominal zaman ve kayıtlı
+boyutla eşleşti; 38 sorgu yaklaşık 2,03 MB metadata okudu. Veri uç noktası,
+ham içerik/lineage ve etiket kabulü henüz yok. 30 yeni test dahil 135 ilgili
+test, üç dosyada lint/format, 29 giriş/79 çıktı ve 22 donmuş girdi kontrolü
+geçti. Sonraki iş sınırlı ham pilotun disk/süre/checkpoint ve veri erişimi
+düzenini hazırlamak. Ayrı resmî duyuru: S-NPP'nin yeni veri dağıtımı 2 Kasım
+2026'da bitecek şekilde planlanıyor; NASA tarihsel arşivin kalacağını belirtiyor.
+Geçmiş eğitim kapsamı korunur; canlı üründe NOAA-20/21 sürekliliği ve sensör
+uyumu değerlendirilmelidir. Kullanıcıya bildirildi; acil kullanıcı işlemi yok.
+
 [İl/mevsim çeşitliliği ve kaynak iş yükü planı hazır](OBSERVATION_EXPANSION_2026-10-15.md):
 Aynı GAUL kaynağının dört il geometrisi salt okunur alındı; mevcut AOI
 korundu, 42 çok illi hücre ayrı kaydedildi. Sonuçlara göre değiştirilmeden

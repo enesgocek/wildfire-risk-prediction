@@ -839,6 +839,20 @@ Güncel NASA erişilebilirliği açık; unknown/kapalı negatif izni korundu.
 Yeni ham indirme, geniş ham üretim, etiket/model/nihai birleştirme,
 eğitim dışı CSV veya bulut işi yok.
 
+E91 — 15 Ekim: [Çekirdeğin güncel NASA katalog kontrolü](../OBSERVATION_CORE_CATALOGUE_2026-10-15.md).
+584 dosya/292 çift/36 nominal kaynak günü, 38 tam ad/koleksiyon sorgusunda
+beklenen metadata ile eşleşti; 2.032.266 metadata baytı okundu. 292 boyut
+tam bayt, 292 boyut ikili MB'den yuvarlanmış metadata alanıdır; MD5–SHA-256
+karşılaştırması yapılmadı. Ham veri uç noktası, içerik veya native lineage
+kontrolü değildir. 30 yeni test dahil 135 ilgili test, üç dosyada lint/format,
+29 giriş/79 çıktı ve 22 donmuş girdi kapanışı geçti. Çıktı
+`outputs/reports/dataset/observation_core_catalogue_v1/20261014T235401Z_f3cdca96/`;
+rapor SHA-256 `251bbc38b26344b23d959312f59d9d75d708437103b1056db2f860165d164b39`,
+kapanış SHA-256 `12a1019a77849b41b8f474a497f5fa9b941a047636f47b21f4de2f3308136553`.
+NOAA/NASA'nın S-NPP yeni veri sonlandırma/tarihsel arşiv sürekliliği
+duyuruları ayrı kaynak konusu olarak kaydedildi. Kapalı etiketler ve
+eğitim dışı veri yasağı korunur; yeni bulut işi yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

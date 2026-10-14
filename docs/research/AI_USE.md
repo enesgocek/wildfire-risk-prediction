@@ -641,6 +641,16 @@ edilmiş etiket politikası olduğu ileri sürülmedi. Kurallar hesap öncesinde
 kaydedildi; sonraki kaynak erişim kontrolü ve bulut işi yetkisi ayrıldı.
 [Gerçek ölçüm, kaynak ve sınırlamalar](../OBSERVATION_EXPANSION_2026-10-15.md).
 
+## Çekirdeğin güncel NASA katalog kontrolü — 15 Ekim 2026
+
+15 Ekim güncel katalog çalışmasında araç desteği, kamu CMR sorgularının
+tam kimlik/koleksiyonla sınırlandırılması, metadata yanıtlarının kayıt/geri
+okuması, boyut/checksum ayrımı ve etiket kapılarının korunması için kullanıldı.
+S-NPP'nin yeni veri dağıtımının sonlandırılmasına ilişkin NOAA/NASA duyuruları
+incelendi ve kullanıcıya bildirildi. Katalog sonucu ham içerik doğrulaması
+veya kullanıcı onaylı etiket politikası olarak sunulmadı.
+[Yöntem, kaynaklar ve sınırlar](../OBSERVATION_CORE_CATALOGUE_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

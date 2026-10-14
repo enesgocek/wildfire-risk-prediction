@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Gözlem çekirdeğinin NASA katalog kontrolü](OBSERVATION_CORE_CATALOGUE_2026-10-15.md) | 584 tam kimlik/sürüm ve metadata eşleşmesi, ham içerik/erişim sınırı ve S-NPP kaynak sürekliliği duyurusu |
 | [Gözlem pilotu genişletme planı](OBSERVATION_EXPANSION_2026-10-15.md) | Dört il kesişimleri, 12 sabit eğitim günü/156 yöntem vakası, korunmuş kontenjan boşlukları ve tekilleştirilmiş kaynak baytı karşılaştırması |
 | [Tarama alanı, zamanı ve kalite pilotu](SCAN_AREA_TIME_2026-10-15.md) | Üç eğitim hücresinde ham taramayla bağlı yaklaşık alan/zaman/QA, sensör-yörünge birleşimi ve 1/6/12 saat ayrımlı tekrar alanları |
 | [Gözlem desteğinin mekânsal yorumu](OBSERVATION_SUPPORT_2026-10-15.md) | Sekiz eğitim granülünde günlük/tek granül/tekrar alanı, kara-bulut çakışmasının sınırı ve önerilen negatif aday araştırma protokolü |
