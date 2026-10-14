@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Tarama alanı/zamanı/kalitesi kaynak pilotu tamamlandı](SCAN_AREA_TIME_2026-10-15.md):
+14 Ocak 2019'daki üç önceden seçilmiş hücre, 16 yerel ham dosyayla
+4.851 tarama/hücre kaydına bağlandı. Sekiz granülün yedi sensör/yörünge
+kimliği doğrulandı; 72 geometri karşılaştırması geçti. Bir tanık hücrede
+günlük nominal kara birleşimi %94,45, en az 12 saat arayla ortak kara
+desteği %43,25. Bu kesim her 12 saatte bir gözlem veya negatif kabulü
+değildir; üç amaçlı hücreden hata oranı genellenmez. 92 ilgili test,
+üç dosyada lint/format, 10 çıktı/93 giriş kapanışı ve 22 donmuş girdi
+kontrolü geçti; grafik görsel olarak incelendi. Etiketler/model/nihai
+birleştirme henüz yok. Sonraki iş bu yöntemin il/mevsim/habitat ve
+referans olay kapsamı önceden belirlenmiş pilotta genişletilmesi için
+kaynak gereksinimini ve seçim düzenini hazırlamak.
+
 [Gözlem desteğinin mekânsal yorumu incelendi](OBSERVATION_SUPPORT_2026-10-15.md):
 14 Ocak 2019'un sekiz saklanmış yaklaşık geçiş geometrisinde 2.899
 hücre incelendi. Günlük nominal kara payı 0,90'ı geçen 1.151 hücrenin

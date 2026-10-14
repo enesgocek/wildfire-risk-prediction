@@ -1,0 +1,13 @@
+{
+  "version": "scan_support_pilot_v1",
+  "status": "diagnostic_only_not_label_policy",
+  "training_day": "2019-01-14",
+  "selection_parent": "outputs/reports/dataset/spatial_support_v1/20261014T222953Z_5b507709",
+  "selection_parent_sha256": "4d16e1dac4380e7b8da121f549d2dd5493631b831a99d1b5a75b5478c45cdcb4",
+  "selection_artifact": "geometry_witnesses.csv",
+  "selection_rule": "three_largest_daily_union_minus_best_granule_gains_purpose_selected",
+  "minimum_scan_gap_hours": [1, 6, 12],
+  "different_sensor_orbit_required_for_repeat": true,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown"
+}

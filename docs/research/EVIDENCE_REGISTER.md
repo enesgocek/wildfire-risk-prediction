@@ -807,6 +807,22 @@ Zaman/kalite/geçiş desteğiyle negatif aday protokolü önerildi, kabul edilme
 Unknown/kapalı negatif izni korundu; ham ürün yeniden işleme, yeni etiket,
 holdout CSV, model ve bulut işi yok.
 
+E89 — 15 Ekim: [Tarama alanı/zamanı/kalitesi pilotu](../SCAN_AREA_TIME_2026-10-15.md).
+14 Ocak 2019'un üç önceden seçilmiş hücresi, 16 yerel ham kaynaktan
+4.851 tarama/hücre satırıyla yeniden kuruldu. Sekiz dosya/yedi
+sensör-yörünge kimliği ve 72 eski/yeni geometri karşılaştırması geçti.
+Bir tanık hücrede günlük nominal kara %94,45, en az 12 saat ayrılan
+ortak kara %43,25; en az 12 saat aralık her 12 saatte bir gözlem değildir.
+11 kesişen tarama çifti bağımsız gözlem/yangın sayısı sayılmadı. Tek gün/
+üç amaçlı hücreden eşik veya hata oranı genellenmez. 92 ilgili test,
+üç dosyada lint/format, 10 çıktı/93 giriş kapanışı ve 22 donmuş girdi
+kontrolü geçti; grafik görsel olarak incelendi. Son rapor
+`outputs/reports/dataset/scan_support_v1/20261014T225710Z_3182a434/readback.json`
+SHA-256 `ce98df81cf6efcc72a48a2095d062ce01f978e3c88ec2f09470e9b72de8db740`;
+kapanış SHA-256 `6613cb4d39a4084304fb6c01bca3dba7caa2a669f06836026f4152388fba8dc6`.
+Unknown/kapalı negatif izni korundu; etiket, nihai birleştirme, model,
+eğitim dışı CSV veya yeni bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

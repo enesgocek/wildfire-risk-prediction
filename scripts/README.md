@@ -20,6 +20,15 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Üç kaynak hücresinde tarama alanı/zamanı/kalitesi pilotu:
+`python scripts/quality/review_scan_area_time.py`.
+`configs/scan_support_pilot_v1.json` içindeki önceden seçilmiş eğitim
+hücrelerini yerel ham kaynaklarla yeniden kurar; tarama geometrilerini,
+sensör/yörünge birleşimlerini ve süreyle ayrılmış ortak kara alanlarını
+yeni dizine yazar. 1/6/12 saatler etiket eşiği değildir. Önceki kaynak
+ve bilimsel kodlar korunur; ağ/holdout/bulut işi yoktur.
+[Ölçüm, çıktı ve kabul sınırları](../docs/SCAN_AREA_TIME_2026-10-15.md).
+
 Saklanmış sekiz eğitim granülünün mekânsal gözlem desteği:
 `python scripts/quality/review_spatial_observation_support.py`.
 Sabit 14 Ocak 2019 raporuna bağlı GPKG/CSV/tarama kimliklerini doğrular;

@@ -619,6 +619,17 @@ resmî ürün kılavuzu ve FIRMS sınırlamaları yeniden okundu. İnsan gözlem
 bağımsız yangın doğruluğu veya araştırmacı protokol onayı uydurulmadı.
 [Ölçüm ve önerinin ayrımı](../OBSERVATION_SUPPORT_2026-10-15.md).
 
+## Tarama alanı/zamanı/kalitesi pilotu — 15 Ekim 2026
+
+Araç desteği, önceki tanık hücrelerin yerel ham kaynaklarından tarama
+geometrisi/zaman/QA bağının kurulması, sensör-yörünge kimliklerinin
+karşılaştırılması, süreyle ayrılan ortak kara alanı hesabı, testler,
+geri okuma ve raporlamada kullanıldı. Metin kimliğinin sayıya dönüşmesi
+geri okumada yakalandı ve testle korunan okuyucu eklendi. 1/6/12 saat
+tanıları etiket politikası olarak seçilmedi; amaçlı pilot bağımsız yangın
+doğruluğu veya insan etiketlemesi diye sunulmadı. NASA'nın geolocation
+kılavuzu yeniden okundu. [Yöntem ve sınırlar](../SCAN_AREA_TIME_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
