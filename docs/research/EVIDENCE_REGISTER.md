@@ -956,6 +956,16 @@ kapanış SHA-256 `2b52e3b54f55c919ce08bf6084563a44f40f857f4d84d23f0b7792cf9e1f5
 117 giriş/iki çıktı/22 donmuş girdi kontrolü geçti. Eski çift korunuyor;
 canlı yeni aktarım ve etiket/model kabulü açık.
 
+E102 — 15 Ekim: [İlk gerçek otomatik aktarımın yerel kabulü](../OBSERVATION_CORE_CDN_2026-10-15.md#ilk-gerçek-otomatik-aktarımın-yerel-kabulü).
+SNPP:2018045.0000 çiftinde 191.244.528 yeni ağ baytı; iki kaynakta
+reused=false ve CloudFront aktarımı kayıtlı. Yerelde boyut/tarihsel SHA,
+konum sağlayıcı checksum'u, native girdi bağı, zaman/CMR, 6.496×6.400
+boyut/tür ve SNPP:32640 tekrar doğrulandı. 117 plan/22 donmuş girdi korundu.
+Native rapor SHA-256 `2da1534f3a0e57a8c736ea37199fc2158ba3f329f1862b96c2d5cf87788c05f3`;
+kapanış SHA-256 `62e68750bf26033487e861a5d317c6439e9a72e91bf62da88cfe3882a12aed06`.
+Tek çiftin erişim/bayt/başlık kabulüdür; mekânsal dizi değerleri, geniş
+pilot, etiket/model ve nihai birleştirme kabulü değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

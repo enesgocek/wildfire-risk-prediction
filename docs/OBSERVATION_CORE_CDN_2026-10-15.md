@@ -191,3 +191,43 @@ kapanış SHA-256 `2b52e3b54f55c919ce08bf6084563a44f40f857f4d84d23f0b7792cf9e1f5
 Aynı `--latest-plan --run-one --prompt-login` komutu yeni plana geçer.
 Kapsam ilk çift/191.244.528 bayt/900 saniyedir; yeni gerçek aktarım sonucu
 henüz yok. Etiket/model, nihai birleştirme veya bulut işi başlatılmadı.
+
+## İlk gerçek otomatik aktarımın yerel kabulü
+
+15 Ekim'de kullanıcı özel girişli tek çift komutunu tamamladı.
+`outputs/reports/dataset/observation_core_native_v1/20261015T104742Z_295e4bc3/`
+makbuzu `one_pair_bytes_and_headers_passed`; başlatıcı makbuzu
+`child_completed` durumundadır. Giriş bilgileri kaydedilmedi; süreç sınırı
+900 saniyedir. Bu süre gerçekleşen indirme süresi olarak yorumlanmaz.
+
+SNPP:2018045.0000 çiftinin iki kaynağı CloudFront üzerinden alındı.
+İkisinde de `reused=false`; kaydedilen toplam yeni ağ aktarımı
+**191.244.528 bayt** (ondalık 191,24 MB). Yangın dosyası 1.087.180,
+konum dosyası 190.157.348 bayttır. Bu sonuç önceki tarayıcı kopyalarının
+önbellekten kabulüne değil, yeni otomatik aktarım kaydına dayanır.
+
+Yerel geri kontrolde iki dosyanın gerçek boyutu ve tarihsel SHA-256
+değeri tekrar hesaplanarak doğrulandı. Konum dosyasının sağlayıcı
+checksum'u geçti; yangın dosyası için sağlayıcı checksum'u yoktur.
+Native başlık denetimi yeniden çalıştırıldı: gerçek konum girdi bağı,
+zaman/CMR aralığı, ortak 6.496×6.400 boyut, fire/QA türleri ve
+SNPP:32640 yörünge kimliği geçti. Planın 117 girdisi ve 22 donmuş üretim
+girdisi hash ile yeniden kontrol edildi. Yeni önbellekte yazıcı kilidi
+ve `.part` dosyası yok; eski tarayıcı dosyaları korundu.
+
+- Plan SHA-256: `fa3cce2822c3825e28352468fa4db8e107f59215f95fab7b8272454900d44edc`.
+- `native_probe.json` SHA-256: `2da1534f3a0e57a8c736ea37199fc2158ba3f329f1862b96c2d5cf87788c05f3`.
+- `completion_readback.json` SHA-256: `62e68750bf26033487e861a5d317c6439e9a72e91bf62da88cfe3882a12aed06`.
+
+Kapanışın rapor hash'i gerçek raporla eşleşti. Önceki düzeltme aşamasında
+çalıştırılan 203 testin sonucu tarihsel kayıttır; bu kabul sırasında
+test paketi yeniden çalıştırılmadı. Yeni doğrulama gerçek dosya ve
+makbuzların çevrimdışı geri kontrolüdür; yeniden indirme yapılmadı.
+
+Kabul yalnız bu çiftin otomatik erişimi, baytları ve native başlıkları
+içindir. Piksel konumları, tarama zamanı/kalite değerleri ve hücre
+kapsaması henüz mekânsal olarak denetlenmedi; 292 çiftlik envanter veya
+156 hücre-günlük pilot kabul edilmedi. Sonraki aşama bu mekânsal
+kontrollerin mevcut çift üzerinde hazırlanmasıdır. Etiket üretilmedi;
+`daily_observation_status=unknown`, `negative_label_permitted=false`,
+`model_ready=false` korunur. Yeni bulut işi ve nihai birleştirme yoktur.

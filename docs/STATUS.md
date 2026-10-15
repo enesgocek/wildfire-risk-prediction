@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İlk çiftin gerçek otomatik aktarımı ve yerel geri kontrolü geçti](OBSERVATION_CORE_CDN_2026-10-15.md#ilk-gerçek-otomatik-aktarımın-yerel-kabulü):
+SNPP:2018045.0000 için iki dosyada toplam 191.244.528 yeni ağ baytı
+kaydedildi; önbellek kullanımı yok. Tam boyut/tarihsel SHA ve konum
+sağlayıcı checksum'u yeniden doğrulandı. Gerçek girdi bağı, zaman/CMR,
+6.496×6.400 boyut/tür ve SNPP:32640 yörünge kontrolü tekrar geçti.
+Makbuz/plan kapanışı, 117 plan girdisi ve 22 donmuş üretim girdisi korundu.
+Bu sonuç tek çiftin erişim ve native başlık kabulüdür. Mekânsal dizi
+değerlerinin denetimi ve geniş pilot açık; etiket/model kabulü yok.
+Aşağıdaki kayıtlar önceki aşamalarda bilinen durumu korur.
+
 [Ek sağlayıcı alanı reddi doğrulandı; sorgu uyumluluğu hazır](OBSERVATION_CORE_CDN_2026-10-15.md#ek-sağlayıcı-alanlarının-gerçek-reddi-ve-düzeltme):
 Son canned isteğinde tekil/dolu değerler geçti; sabit ad listesi
 cdn_query_fields ile durdurdu. Ek alan adı/değeri kayıtlı değil. AWS'nin
