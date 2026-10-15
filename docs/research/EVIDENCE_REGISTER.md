@@ -890,6 +890,14 @@ Yeni plan 117 giriş/iki çıktı ve 22 donmuş girdi kapanışında; rapor SHA-
 kapanış SHA-256 `186352078aff3d2b35fbaab0399daf9c8933f0c3f1099448520c564624bd6e45`.
 Gerçek yeniden deneme, içerik ve etiket kabulü açık kalır.
 
+E95 — 15 Ekim: [Giriş sonrasında S3 dışı 303](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#sonraki-gerçek-deneme-s3-dışı-303-hedefi).
+`20261015T003747Z_d9867ad6` güvenli hata kaydı yangın dosyasında
+`signed_endpoint_or_key`, ilk HTTP 303, other hedef sınıfı ve eksik S3
+imza alanları içeriyor. Failure SHA-256
+`eef72a8c2f0ff0bb477989ea7ff6d0d031fbcfd12d22ccb3f13d21c8f68427ed`.
+Ham önbellek boş; hedefin niteliği bilinmiyor. Anonim başlıkta ayrı 302/giriş
+sonucu bu hedefin kanıtı değil. Kod/plan değişikliği ve yeni içerik kabulü yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

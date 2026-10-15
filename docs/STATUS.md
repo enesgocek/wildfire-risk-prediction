@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Son gerçek denemede S3 dışı 303 hedefi](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#sonraki-gerçek-deneme-s3-dışı-303-hedefi):
+Giriş/token aşaması geçildi; ilk yangın dosyası `signed_endpoint_or_key`
+kontrolünde durdu. Güvenli kayıt 303/other ve eksik S3 imza alanları gösteriyor;
+hedef izlenmedi, ham önbellek boş. Ayrı anonim başlık kontrolü 302/giriş
+verdi; giriş yapılmış hedefin nedenini açıklamaz. Kullanıcıdan tam NASA
+dosya bağlantısında tarayıcı sonucu isteniyor. Kod/plan ve bilimsel kabul
+koşulları değişmedi; yeni indirme başarısı veya test iddiası yok.
+
 [İki tekrarın ValueError kaydı ve güvenli teşhis sürümü hazır](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md):
 Son iki gerçek deneme veri aktarımında ValueError ile durdu; önbellek boş.
 Önceki hata kaydı guard'ı tutmadığından kesin neden bilinmiyor. Sabit izin

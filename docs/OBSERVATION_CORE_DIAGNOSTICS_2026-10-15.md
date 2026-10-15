@@ -84,3 +84,30 @@ düşme yoktur. Kimlik bilgileri saklanmadığı için gizli istemde yeniden
 giriş gerekir. Yalnız Kontrol kodu veya PASS satırı paylaşılır; yerel
 güvenli rapor ayrıca okunur. Gerçek tekrarın sonucu henüz açık; unknown,
 kapalı negatif izni, boş hedefler ve nihai birleştirme kapısı korunur.
+
+## Sonraki gerçek deneme: S3 dışı 303 hedefi
+
+`20261015T003747Z_d9867ad6` çalışmasının güvenli kaydı, giriş/token
+aşamasından sonra yangın dosyasında `signed_endpoint_or_key` kontrolünün
+durdurduğunu gösteriyor. İlk yanıt 303; hedef sınıfı `other`, gerekli
+S3 imza alanları yok. Son hedefe istek yapılmadı; ham önbellek boş.
+Bu kayıt önceki iki ValueError'ın nedeni sayılmaz. `failure.json` SHA-256
+`eef72a8c2f0ff0bb477989ea7ff6d0d031fbcfd12d22ccb3f13d21c8f68427ed`;
+`launcher_receipt.json` SHA-256
+`b83d094119918f036b421a95a2b1e50ae07555aab6316f348173e7ee115cf4c4`.
+
+Aynı kamuya açık veri adresinde ayrı, kimliksiz ve yönlendirme izlemeyen
+GET başlık kontrolü 302 ve Earthdata Login hedefi verdi; gövde okunmadı.
+Bu anonim sonuç, giriş yapılmış denemedeki 303 hedefini açıklamaz.
+[NASA Cumulus belgesi](https://nasa.github.io/cumulus-distribution-api/)
+kimliği doğrulanan veri erişiminde imzalı S3 yönlendirmesini açıklar;
+gerçek denemedeki farklı hedefin hata, izin veya alternatif veri adresi
+olduğu henüz belirlenmedi. Keyfi yönlendirme izni açılmadı.
+
+Sonraki insan kontrolü, planın ilk yangın dosyasının kamuya açık NASA
+bağlantısını Earthdata oturumu açık tarayıcıda açıp indirme veya genel
+hata/izin ekranını ayırt etmektir. Özel URL, token veya tarayıcı oturumu
+istenmez. İndirilen dosya yalnız tam ad/boyut/SHA ve kaynak bağı ayrıca
+kontrol edilirse kullanılabilir; tarayıcıda indirme tek başına kabul değildir.
+Bu takipte bilimsel kod/plan değiştirilmedi; önceki testler tekrar
+çalıştırılmış gibi sunulmadı. Yeni ham içerik, etiket veya model kabulü yok.
