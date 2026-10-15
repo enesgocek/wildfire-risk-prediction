@@ -23,6 +23,14 @@ hata/kısmi dosyada durma vardır. Token/parola kaydı ve bulut işi yok.
 Sonuç/progress dosyasındaki eksiklikler etiket olarak yorumlanmaz.
 [Somut komut, kaynak kimlikleri ve sınırlar](../docs/OBSERVATION_PILOT_QUEUE_2026-10-15.md).
 
+`quality/recover_observation_pilot_transfer.py`, yalnız 15 Ekim'deki
+belirli başarısız raporun hash'ine bağlı tek kullanımlık çevrimdışı
+kurtarmadır; genel yeniden başlatma komutu değildir. Tamamlanmış 86 çiftin
+ham kaynaklarını doğrular, yalnız incelenmiş yarım dosyayı hash korunarak
+ayrı teşhis dizinine taşır. Ağ/kimlik bilgisi kullanmaz; planı ve bilimsel
+kodu değiştirmez. Bu kurtarma tamamlandı; sonraki devam normal kuyruk
+komutuyla yapılır. Yeni hatalarda önce ilgili dosyalar incelenir.
+
 ## İlk gözlem çiftinin yerel mekânsal denetimi
 
 Kabul edilmiş ilk gözlem çiftini yeniden indirmeden mekânsal olarak

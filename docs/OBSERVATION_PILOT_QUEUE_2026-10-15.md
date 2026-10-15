@@ -175,3 +175,68 @@ dosyası oluşmayabilir. Parola/token/imzalı URL paylaşılmamalıdır.
 Tüm satırlarda unknown/negative=false ve boş hedef korunur. Bağımsız olay
 referansı, negatif etiket gerekçesi, model ve nihai birleştirme ayrı kabul
 kapılarıdır; bu kuyruğun tamamlanması bunların otomatik kabulü değildir.
+
+## Gerçek aktarım kesintisi ve korunan devam noktası
+
+15 Ekim özel girişli gerçek çalışma
+`outputs/reports/dataset/observation_pilot_run_v1/20261015T121531Z_911c43a7/`
+durumu `failed_checkpoints_retained` olarak kapandı. Başlatıcının
+`child_failed_outputs_retained` mesajı bu başarısız denemeyi doğru yansıtır;
+tamamlanan çiftlerin kaybolduğunu veya etiket kabulünü ifade etmez.
+Readback SHA-256:
+`598b9fd63092d312e1c71c3d9aa22024a56288301204c90784f3e1422e270dc7`.
+
+Gerekli **98 çiftin 86'sı** tamamlandı; **12 çift** eksik kaldı.
+156 sabit birimin 130'unda planlanan kaynaklar tamdır; bu bir günlük
+gözlem yeterliliği veya negatif etiket kabulü değildir. Tamamlanan dosya
+aktarımları 15.785.318.661 bayttır; kesilmiş aktarım nedeniyle kesin toplam
+ağ trafiği bilinmez (`network_bytes=null`).
+
+Hata, `SNPP:2023227.1036` konum dosyasının gövdesi okunurken
+`ConnectionError` sınıfında oluştu. Kaynak 303 yönlendirmesi ve son HTTP
+200 kayıtlıdır; tam nesne/sorgu korumaları geçmiştir. Kayıt bir giriş
+reddi göstermez; kesintinin yerel bağlantıdan mı uzak servisten mi
+kaynaklandığını belirlemez. Yeni kimlik bilgisi veya ücretli yükseltme
+gerektiği sonucu çıkarılmadı.
+
+Çevrimdışı, bu rapor kimliğine bağlı dar kurtarma betiği
+`scripts/quality/recover_observation_pilot_transfer.py` çalıştırıldı.
+Aynı kuyruk yazıcı kilidi altında 86 çiftin **172 ham dosyası**, toplam
+**15.782.215.707 bayt**, tam boyut/tarihsel SHA ve varsa sağlayıcı checksum'u
+ile yeniden doğrulandı. Hatalı çiftin tamamlanmış yangın dosyası ayrıca
+kontrol edildi. Planın 156 bağlı girdisi ve başarılı çift makbuzları
+tekrar geçti; bilimsel kod, plan ve checkpoint alanı değiştirilmedi.
+
+Tek yarım dosyanın **40.894.464 baytı** hash alınarak etkin ham önbellekten
+ayrı `retained_partial/` teşhis dizinine taşındı; taşıma sonrası boyut/hash
+aynıdır. Kaynak veya kabul edilmiş çıktı silinmedi/üzerine yazılmadı.
+Yarım dosya native kaynak sayılmadı. İlgili konum dosyası sonraki özel
+girişte tam **183.347.040 bayt** olarak yeniden istenir; HTTP Range ile
+yarım gövdeden devam edilmez. Diğer tamamlanmış çiftler makbuz kontrolüyle
+yeniden kullanılır.
+
+Kurtarma dizini:
+`outputs/reports/dataset/observation_pilot_recovery_v1/20261015T133507Z_9568106e/`.
+Readback SHA-256:
+`69f179452f6d219beda129cae7c391cff422fe5d02d85bd7297cf937564d8729`.
+Kapanış SHA-256:
+`63c114abeb75d3aeec62cdc2a53dd4906120411163bec79980bb65a8b18191b6`.
+Korunan kısmi dosya SHA-256:
+`998ae542096d34df01bc8743a3950f74287a7b48af93f26a89544b6c58898e46`.
+
+Yedi yeni kurtarma vakası dahil **91 ilgili test**, Deprecation/Future
+uyarıları hata sayılarak geçti. İki yeni Python dosyasında lint/format
+kontrolü geçti. Kurtarma ağ kullanmadı, kimlik bilgisi okumadı ve bulut
+işi başlatmadı. Kalan 12 çift için yukarıdaki aynı özel giriş komutu
+kullanılır; bu aşamada tam pilot veya etiket/model kabulü yoktur.
+
+Kurtarma sonrası **gerçek kimliksiz devam kontrolü** tamamlandı:
+`outputs/reports/dataset/observation_pilot_run_v1/20261015T133620Z_a8d3212a/`.
+86 çift mevcut makbuzlarından yeniden kullanıldı; 12 eksik çift, 130/156
+planlanan kaynakları tam birim, sıfır ağ baytı ve `failure=null` kaydedildi.
+Durum `cache_review_complete_missing_private_transfer`; günlük gözlem
+kabulü değildir. Etkin önbellekte kısmi dosya ve yazıcı kilidi kalmadı.
+Readback SHA-256:
+`0dba21ab260cfd3a4571f18d6c4109b6d117a81c53c93dfc845f153e3d95dd45`.
+Kapanış SHA-256:
+`7f3ad9af89cae7e448bd9bba88046bff29aee4e1c177ede0ca3370dcb3d8fb91`.

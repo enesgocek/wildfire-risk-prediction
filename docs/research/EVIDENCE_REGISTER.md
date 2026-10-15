@@ -988,6 +988,22 @@ Kimliksiz çalışma readback SHA-256 `890c96f4190c99c4276db5f21d69fb0fe54ced37f
 156 dosya girdisi, 22 donmuş girdi ve 36 yeni vaka dahil 197 test doğrulandı.
 Yeni aktarım özel giriş bekliyor; etiket/model/nihai birleştirme kabulü yok.
 
+E105 — 15 Ekim: [Gerçek pilot kesintisi ve çevrimdışı kurtarma](../OBSERVATION_PILOT_QUEUE_2026-10-15.md#gerçek-aktarım-kesintisi-ve-korunan-devam-noktası).
+Gerçek denemede 86/98 çift tamamlandı; HTTP 200 sonrası konum gövdesinde
+ConnectionError oluştu, yerel/uzak neden kesinleşmedi. Başarısız rapor SHA-256
+`598b9fd63092d312e1c71c3d9aa22024a56288301204c90784f3e1422e270dc7`.
+172 tamamlanmış ham dosyanın 15.782.215.707 baytı yeniden doğrulandı;
+40.894.464 baytlık tek yarım dosya silinmeden aynı hash ile ayrıldı.
+Kurtarma readback SHA-256
+`69f179452f6d219beda129cae7c391cff422fe5d02d85bd7297cf937564d8729`.
+156 plan girdisi/bilimsel kod/checkpoint kimliği korunur; yedi yeni vaka
+dahil 91 ilgili test geçti. Kurtarma ağ/bulut işi başlatmadı; kalan 12 çift,
+tam pilot ve etiket/model/nihai birleştirme kabulü açık.
+
+Kurtarma sonrası gerçek kimliksiz devamda 86 çift yeniden kullanıldı;
+12 eksik, 130/156 kaynakları tam birim, sıfır ağ ve failure=null doğrulandı.
+Readback SHA-256 `0dba21ab260cfd3a4571f18d6c4109b6d117a81c53c93dfc845f153e3d95dd45`.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

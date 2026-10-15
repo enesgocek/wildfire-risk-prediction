@@ -725,6 +725,15 @@ model başarısı olarak sunulmadı. Kullanıcı özel giriş yapmadığından y
 aktarım başlatılmadı; kimlik bilgisi ve bağımsız insan incelemesi uydurulmadı.
 [Kanıt ve sınır](../OBSERVATION_PILOT_QUEUE_2026-10-15.md).
 
+15 Ekim pilot kesintisi kaydı: araç desteği kullanıcının özel girişli
+gerçek denemesinin güvenli hata raporunu inceleme, 86 tamamlanmış çiftin
+172 ham kaynağını yeniden doğrulama, kısmi dosyayı hash/boyut korunarak
+ayrı teşhis dizinine taşıma ve yedi kurtarma davranış vakasında kullanıldı.
+Kimlik bilgisi okunmadı; kesintinin yerel/uzak nedeni veya yeni aktarım
+başarısı uydurulmadı. Bilimsel plan/kod değişmedi; insan etiket incelemesi
+veya günlük gözlem kabulü yapılmadı.
+[Kanıt ve kapsam](../OBSERVATION_PILOT_QUEUE_2026-10-15.md#gerçek-aktarım-kesintisi-ve-korunan-devam-noktası).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

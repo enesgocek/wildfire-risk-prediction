@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Gerçek pilot aktarım kesintisi ve korunan devam noktası](OBSERVATION_PILOT_QUEUE_2026-10-15.md#gerçek-aktarım-kesintisi-ve-korunan-devam-noktası):
+15 Ekim özel girişli çalışmada gerekli 98 çiftin 86'sı tamamlandı;
+sonraki konum dosyası HTTP 200 sonrası ConnectionError ile kesildi.
+Yerel ağ/uzak sunucu ayrımı kesinleşmedi. 86 çiftin 172 ham kaynağı
+(15.782.215.707 bayt) boyut/hash ve varsa sağlayıcı checksum'u ile
+yeniden doğrulandı. 40.894.464 baytlık yarım dosya silinmeden, aynı
+hash ile ayrı teşhis dizinine taşındı. Plan ve bilimsel kod değişmedi;
+kalan 12 çift için aynı kuyruğun özel girişli devamı gerekiyor.
+Gerçek kimliksiz devam kontrolü 86 çifti yeniden kullanarak hatasız
+tamamlandı; ağ baytı sıfır, 12 eksik çift. Aktarım şu anda çalışmıyor.
+Etiket/model/nihai birleştirme kabulü yapılmadı. Aşağıdaki kayıtlar
+önceki aşamalarda bilinen durumu korur.
+
 [Otomatik yerel pilot kuyruğu ve zamanla aktarım azaltma hazır](OBSERVATION_PILOT_QUEUE_2026-10-15.md):
 İlk kaynak sekiz seçilmiş hücrede 1.624 tarama/geometri satırında doğrulandı;
 checkpoint'ten tekrar aynı rapor/CSV hash'i üretildi. 292 çiftin tam native
