@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Tarayıcıdan alınan ilk yangın dosyasının baytları doğrulandı](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#tarayıcıdan-alınan-ilk-yangın-dosyasının-bayt-doğrulaması):
+`SNPP:2018045.0000` yangın dosyası tam ad/1.087.180 bayt/tarihsel SHA ile
+eşleşti ve aslı korunarak plan önbelleğine doğrulanmış kopyası alındı.
+Giriş kapanışı, tek yazıcı ve disk/önbellek koşulları korundu. 190.157.348
+baytlık eş konum dosyası ve native çift kontrolü bekleniyor. Otomatik
+indirme yönlendirmesi çözülmüş sayılmadı; etiket/model kabulü yok.
+
 [Son gerçek denemede S3 dışı 303 hedefi](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#sonraki-gerçek-deneme-s3-dışı-303-hedefi):
 Giriş/token aşaması geçildi; ilk yangın dosyası `signed_endpoint_or_key`
 kontrolünde durdu. Güvenli kayıt 303/other ve eksik S3 imza alanları gösteriyor;

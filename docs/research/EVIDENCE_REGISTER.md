@@ -898,6 +898,14 @@ imza alanları içeriyor. Failure SHA-256
 Ham önbellek boş; hedefin niteliği bilinmiyor. Anonim başlıkta ayrı 302/giriş
 sonucu bu hedefin kanıtı değil. Kod/plan değişikliği ve yeni içerik kabulü yok.
 
+E96 — 15 Ekim: [İlk yeni yangın dosyasında tarayıcı/bayt kontrolü](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#tarayıcıdan-alınan-ilk-yangın-dosyasının-bayt-doğrulaması).
+`SNPP:2018045.0000` yangın kaynağı 1.087.180 bayt ve tarihsel SHA ile
+eşleşti; sağlayıcı checksum'u yok. Asıl dosya korundu, önbellek kopyası ve
+plan kapanışı doğrulandı. Yerel readback SHA-256
+`d4bb4b4179343dce200dbb28259f98f8af710dd65659ce90d60a4416064e3aff`.
+190.157.348 baytlık konum kaynağı ve native çift kontrolü açık; otomatik
+aktarım sorunu, etiketler ve model hazır sayılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

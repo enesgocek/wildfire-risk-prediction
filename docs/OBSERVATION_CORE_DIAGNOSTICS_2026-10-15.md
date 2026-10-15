@@ -111,3 +111,28 @@ istenmez. İndirilen dosya yalnız tam ad/boyut/SHA ve kaynak bağı ayrıca
 kontrol edilirse kullanılabilir; tarayıcıda indirme tek başına kabul değildir.
 Bu takipte bilimsel kod/plan değiştirilmedi; önceki testler tekrar
 çalıştırılmış gibi sunulmadı. Yeni ham içerik, etiket veya model kabulü yok.
+
+## Tarayıcıdan alınan ilk yangın dosyasının bayt doğrulaması
+
+Araştırmacının indirdiği `VNP14IMG.A2018045.0000.002.2024078155356.nc`
+yerelde bulundu. Tam adı, **1.087.180 bayt** boyutu ve SHA-256
+`761a7fe4acc2c3c8f1a613f6294e2102e5c82b1d8a8dade2b5fdd580206e8d1f`
+kabul edilmiş plandaki tarihsel kaynakla eşleşti. Bu yangın kaynağında
+sağlayıcı checksum'u yok; ayrı bir sağlayıcı checksum doğrulaması iddia
+edilmedi. Tarayıcı erişimi başarılıdır; otomatik bearer yönlendirmesindeki
+hata çözülmüş sayılmaz.
+
+Dosyanın aslı korunarak planın önbelleğine tek yazıcı, kısmi dosya,
+boyut/SHA, 2 GB önbellek ve 20 GB boş disk kontrolleriyle kopyalandı.
+Kopyanın baytları yeniden doğrulandı; mevcut kabul edilmiş dosya üzerine
+yazılmadı. Plan giriş kapanışı işlem öncesi ve sonrası kontrol edildi.
+Yeni makbuz:
+`outputs/reports/dataset/observation_core_browser_v1/20261015T004258Z_3dbc4b0b/`;
+`readback.json` SHA-256
+`d4bb4b4179343dce200dbb28259f98f8af710dd65659ce90d60a4416064e3aff`.
+
+Eş konum kaynağı `VNP03IMG.A2018045.0000.002.2021078185558.nc`,
+**190.157.348 bayt**, henüz alınmadı. İki dosyada native girdi bağı,
+boyut/yörünge/zaman kontrolü tamamlanmadan çift kabulü yok. Bu tek yangın
+dosyasının bayt kontrolü geniş mekânsal pilot, etiket veya model kabulü
+değildir. Kod değişmedi; bu kayıt yeni birim test çalışması iddiası içermez.
