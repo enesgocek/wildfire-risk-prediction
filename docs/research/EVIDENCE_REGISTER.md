@@ -1004,6 +1004,18 @@ Kurtarma sonrası gerçek kimliksiz devamda 86 çift yeniden kullanıldı;
 12 eksik, 130/156 kaynakları tam birim, sıfır ağ ve failure=null doğrulandı.
 Readback SHA-256 `0dba21ab260cfd3a4571f18d6c4109b6d117a81c53c93dfc845f153e3d95dd45`.
 
+E106 — 15 Ekim: [Tamamlanan sabit gözlem yöntem pilotu](../OBSERVATION_PILOT_RESULTS_2026-10-15.md).
+Özel girişli gerçek devamda 98/98 çift, 156 amaçlı birim tamamlandı.
+Deneme readback SHA-256 `51e9f504ad2a6c6334ec37f5d5080b70185d1e35d9c4177c7906fa4032d65885`.
+Çevrimdışı 196 ham dosyanın 17.995.454.761 baytı ve 98 çiftin çıktı
+makbuzları kontrol edildi; 1.531 girdi kapanışı korundu. Saklanmış
+geometriden günlük özet aynı CSV hash'iyle tekrar üretildi. Yerel denetim
+readback SHA-256 `8cd0e4730da5d539996f9e00f8984003c549aa2bb7e0edd9b91879eba3fdd116`;
+kapanış SHA-256 `eac9060ce8fa75ebdf18c7385b273d9ea4605803b9a7ce5229f1f4071b6c2265`.
+12 yeni vaka dahil 59 ilgili test; 7 nominal kara sıfır, 17 adet 12h tekrar
+alanı sıfır birim yalnız bu amaçlı pilotun tanısıdır. Beş insan inceleme
+örneğinde kararlar boş; etiket/model/nihai birleştirme kabulü yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

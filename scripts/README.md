@@ -6,6 +6,14 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+Tamamlanan 15 Ekim denemesinin çevrimdışı kontrolü:
+`python scripts/quality/review_completed_observation_pilot.py`.
+Sabit rapor/plan kimliğini, 196 ham dosyayı ve 98 çiftin çıktı makbuzlarını
+doğrular; saklanmış tarama geometrilerinden 156 satırlık özeti yeniden
+üreterek aynı CSV hash'ini arar. Yeni sonuç dizininde tanısal alan kesimleri,
+beş insan inceleme örneği ve grafik hazırlar. Ağ engellidir; hedef atamaz.
+[Sonuç ve bilimsel sınırlar](../docs/OBSERVATION_PILOT_RESULTS_2026-10-15.md).
+
 Geniş sabit pilotun güncel kuyruğunu hazırlamak:
 `python scripts/quality/prepare_observation_pilot_queue.py`.
 292 çiftin kabul edilmiş native zaman tanığını

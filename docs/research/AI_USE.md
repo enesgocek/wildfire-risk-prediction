@@ -734,6 +734,15 @@ başarısı uydurulmadı. Bilimsel plan/kod değişmedi; insan etiket incelemesi
 veya günlük gözlem kabulü yapılmadı.
 [Kanıt ve kapsam](../OBSERVATION_PILOT_QUEUE_2026-10-15.md#gerçek-aktarım-kesintisi-ve-korunan-devam-noktası).
 
+15 Ekim tamamlanan yöntem pilotu kaydı: kullanıcı özel girişli aktarımı
+tamamladı. Araç desteği 98 çiftin/196 ham dosyanın ve çıktı makbuzlarının
+çevrimdışı geri kontrolü, saklanmış geometrilerden aynı özetin tekrar
+üretilmesi, alan/zaman korunum kontrolleri, 12 davranış vakası, grafik ve
+beş açıklayıcı insan inceleme örneğinde kullanıldı. Grafik araçla incelendi;
+araştırmacı kararları boş bırakıldı. Bağımsız fiziksel alan doğrulaması,
+popülasyon hata oranı veya negatif etiket kabulü iddia edilmedi.
+[Kapsam ve kanıt](../OBSERVATION_PILOT_RESULTS_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Sabit gözlem yöntem pilotu tamamlandı ve yerelde geri kontrol edildi](OBSERVATION_PILOT_RESULTS_2026-10-15.md):
+12 eğitim günündeki 156 amaçlı hücre-gün için gerekli **98/98 çift** ve
+196 ham dosya tamamlandı. Tam boyut/hash/checksum ve 98 çiftin çıktı
+makbuzları tekrar geçti; 1.531 girdi kapanışı korundu. Saklanmış tarama
+geometrilerinden tekrar üretilen özet aynı CSV hash'ini verdi. Bu pilotta
+7 birimde nominal kara desteği, 17 birimde 12 saat ayrımlı tekrar alanı
+sıfırdır; kaynak tamamlığı günlük gözlem/negatif etiket kabulü değildir.
+Beş somut inceleme örneği, tanısal alan kesimleri ve grafik hazır.
+12 yeni vaka dahil 59 ilgili test; iki yeni dosyada lint/format geçti.
+Denetim yeni ağ/bulut işi başlatmadı; hedefler boş ve nihai birleştirme
+kapısı kapalı. Sıradaki iş gözlem protokolünün kanıt/sınırlama incelemesidir.
+Aşağıdaki kayıtlar önceki aşamalarda bilinen durumu korur.
+
 [Gerçek pilot aktarım kesintisi ve korunan devam noktası](OBSERVATION_PILOT_QUEUE_2026-10-15.md#gerçek-aktarım-kesintisi-ve-korunan-devam-noktası):
 15 Ekim özel girişli çalışmada gerekli 98 çiftin 86'sı tamamlandı;
 sonraki konum dosyası HTTP 200 sonrası ConnectionError ile kesildi.
