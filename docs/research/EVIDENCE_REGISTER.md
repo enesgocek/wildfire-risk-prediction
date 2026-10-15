@@ -867,6 +867,18 @@ kapanış SHA-256 `8ff8077e1c3e37a7a919f3618817ac83597b24b5b001c02c0a12bbf92c5bb
 Özel Earthdata girişi bekleniyor; yeni indirme/bulut işi/etiket/model/holdout
 erişimi yoktur.
 
+E93 — 15 Ekim: [Gerçek tek çift denemesinde HTTP 303 ve düzeltme](../OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md).
+Yerel failure.json HTTP 303/`bounded_file_transfer` gösterdi; ilgili ham
+önbellekte dosya yok. İlk kodun yönlendirme engeli, aynı CMR S3 nesnesine
+tek adım/ayrı kimliksiz oturumla daraltıldı. Saklanmamış ilk Location'ın
+hedefi sonradan kanıt sayılmadı. 15 yeni vaka dahil 37 aktarım/152 ilgili
+test, dört dosyada lint/format, yeni planın 117 giriş/iki çıktı kapanışı ve
+22 donmuş girdi kontrolü geçti. Yeni plan raporu
+`outputs/reports/dataset/observation_core_transfer_v1/20261015T001645Z_d3c51e9a/readback.json`
+SHA-256 `9444c56f9f97e8b71a9a91582f19322eabf3d775b8b2082962f6d5543908ad1f`;
+kapanış SHA-256 `2b8fcb6c0bb882884b10289a63de6c0feafac660a53454d9c1e28a4553344ff1`.
+Gerçek yeniden deneme/ham içerik kabulü açık; kapalı etiketler korunur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

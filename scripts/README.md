@@ -20,6 +20,12 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Tek çiftlik gerçek denemede 303 sonrası [dar yönlendirme düzeltmesi](../docs/OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md)
+eklendi. Yalnız aynı CMR bucket/nesnesine tek imzalı S3 adımı, ayrı kimliksiz
+oturumla kabul edilir; token/çerez/signed URL kaydedilmez. Kod hash'leri
+değiştiği için eski `native_plan.json` elle düzeltilmez; rapordaki yeni
+plan komutuyla gizli giriş tekrarlanır.
+
 Sınırlı ham kaynak denemesini çevrimdışı hazırlamak:
 `python scripts/quality/prepare_observation_core_transfer.py`.
 Yeni `native_plan.json` ve envanter üretir; 292 çiftin yalnız ilkine

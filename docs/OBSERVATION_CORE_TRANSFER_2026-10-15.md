@@ -1,5 +1,10 @@
 # Sınırlı ham kaynak kontrolüne geçiş — 15 Ekim 2026
 
+**15 Ekim sonraki güncelleme:** ilk gerçek deneme HTTP 303'te durdu.
+Aşağıdaki komut ve tüm yönlendirmeleri reddetme davranışı ilk sürümün
+tarihsel kaydıdır. [Güncel düzeltme, kanıt ve yeni plan komutu](OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md)
+ayrı rapordadır; önceki kabul edilmiş dosyalar değiştirilmedi.
+
 Amaç, [katalogda doğrulanan 584 kaynağı](OBSERVATION_CORE_CATALOGUE_2026-10-15.md)
 kontrollü yerel işleme açmadan önce tek bir gerçek çiftte indirme, içerik
 ve native dosya eşleşmesini sınayacak düzeni hazırlamaktır. **Yeni çekirdek

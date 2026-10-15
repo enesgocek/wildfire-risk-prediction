@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İlk tek çift denemesinin HTTP 303 nedeni ve düzeltmesi hazır](OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md):
+Yerel güvenli hata raporu veri yanıtında 303 gösterdi; ilgili ham önbellekte
+dosya yok. İlk kod bütün yönlendirmeleri fazla katı reddediyordu. Yeni sürüm
+yalnız CMR'deki aynı S3 nesnesine tek yönlendirmeyi, Earthdata tokenı/çerezi
+taşımayan ayrı oturumla kabul eder. Gerçek ilk 303 hedefi saklanmadığından
+kesin S3 hedefi iddiası yok; yeni istekte hedef doğrulanacak. 15 yeni vaka
+dahil 37 aktarım/152 ilgili test, dört dosyada lint/format, 117 giriş/iki
+çıktı ve 22 donmuş girdi kapanışı geçti. Yeni plan/özel giriş komutu raporda;
+gerçek yeniden deneme henüz yapılmadı. Tek çift, 191,24 MB, 900 saniye ve
+disk korumaları değişmedi. Model/etiket/bulut/holdout işi yok.
+
 [Sınırlı ham kaynak denemesi hazır; özel Earthdata girişi bekliyor](OBSERVATION_CORE_TRANSFER_2026-10-15.md):
 584 dosya/292 çift envanteri korunarak yalnız ilk kronolojik çift
 `SNPP:2018045.0000` için 191,24 MB'lık yerel erişim/içerik komutu hazırlandı.

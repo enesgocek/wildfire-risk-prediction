@@ -7,7 +7,7 @@ import subprocess
 import time
 from pathlib import Path
 from types import SimpleNamespace
-from urllib.parse import urlunsplit
+from urllib.parse import urlencode, urlunsplit
 
 import pytest
 
@@ -40,6 +40,9 @@ class Response:
     def __exit__(self, *args):
         pass
 
+    def close(self):
+        pass
+
     def iter_content(self, chunk_size):
         yield from self.chunks
 
@@ -47,10 +50,15 @@ class Response:
 class Session:
     def __init__(self, response):
         self.response, self.calls = response, []
+        self.headers, self.cookies = {"Authorization": "synthetic"}, {"edl": "synthetic"}
+        self.auth, self.trust_env = "synthetic", True
 
     def get(self, url, **kwargs):
         self.calls.append((url, kwargs))
         return self.response
+
+    def close(self):
+        pass
 
 
 def run(record, cache, response=None, **kwargs):
@@ -214,3 +222,129 @@ def test_private_prompt_refuses_non_interactive_input(tmp_path, monkeypatch):
     monkeypatch.setattr(module.sys.stdin, "isatty", lambda: False)
     with pytest.raises(ValueError, match="interactive terminal"):
         module.run(tmp_path / "plan.json", True)
+
+
+def redirected_source():
+    r = source()
+    r["metadata"] = {
+        "RelatedUrls": [
+            {
+                "Type": "GET DATA VIA DIRECT ACCESS",
+                "URL": "s3://lp-prod-protected/product/" + r["filename"],
+            }
+        ]
+    }
+    return r
+
+
+def signed_url(r, host="lp-prod-protected.s3.us-west-2.amazonaws.com", key=None):
+    params = {
+        "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+        "X-Amz-Credential": "synthetic",
+        "X-Amz-Signature": "0" * 64,
+    }
+    return urlunsplit(
+        ("https", host, "/" + (key or "product/" + r["filename"]), urlencode(params), "")
+    )
+
+
+@pytest.mark.parametrize("status", [302, 303, 307, 308])
+def test_exact_signed_s3_redirect_uses_separate_empty_session(tmp_path, monkeypatch, status):
+    r = redirected_source()
+    target = signed_url(r)
+    origin = Session(Response(r, status=status, headers={"Location": target}))
+    final = Response(r)
+    final.url = target
+    clean = Session(final)
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: clean)
+    result = transfer.transfer_one(
+        origin,
+        r,
+        tmp_path,
+        deadline=time.monotonic() + 30,
+        cache_limit_bytes=10000,
+        reserve_bytes=0,
+    )
+    assert result["verified_s3_redirect"] and result["network_bytes"] == 6
+    assert len(origin.calls) == len(clean.calls) == 1
+    assert clean.auth is None and clean.trust_env is False
+    assert not clean.headers and not clean.cookies
+    assert clean.calls[0][1]["allow_redirects"] is False
+    assert "Authorization" not in clean.calls[0][1]["headers"]
+    assert "Cookie" not in clean.calls[0][1]["headers"]
+
+
+@pytest.mark.parametrize(
+    "host,key",
+    [
+        ("lp-prod-protected.s3.amazonaws.com", None),
+        ("s3.us-west-2.amazonaws.com", "lp-prod-protected/product/" + source()["filename"]),
+    ],
+)
+def test_same_registered_object_in_supported_s3_endpoint_forms(host, key):
+    r = redirected_source()
+    u = signed_url(r, host, key)
+    assert transfer.signed_s3_target(r, u) == u
+
+
+@pytest.mark.parametrize(
+    "kind",
+    [
+        "wrong_bucket",
+        "wrong_key",
+        "non_s3_host",
+        "missing_signature",
+        "http",
+        "login_redirect",
+        "no_cmr_object",
+        "extra_cmr_object",
+    ],
+)
+def test_unregistered_redirect_never_starts_second_request(tmp_path, monkeypatch, kind):
+    r = redirected_source()
+    target = signed_url(r)
+    if kind == "wrong_bucket":
+        target = signed_url(r, "other-bucket.s3.us-west-2.amazonaws.com")
+    if kind == "wrong_key":
+        target = signed_url(r, key="different/" + r["filename"])
+    if kind == "non_s3_host":
+        target = signed_url(r, "example.com")
+    if kind == "missing_signature":
+        target = target.split("?")[0]
+    if kind == "http":
+        target = target.replace("https:", "http:")
+    if kind == "login_redirect":
+        target = "https://urs.earthdata.nasa.gov/oauth/authorize"
+    if kind == "no_cmr_object":
+        r["metadata"] = {}
+    if kind == "extra_cmr_object":
+        r["metadata"]["RelatedUrls"].append(
+            {"Type": "GET DATA VIA DIRECT ACCESS", "URL": "s3://prod-lads/other/" + r["filename"]}
+        )
+    origin = Session(Response(r, status=303, headers={"Location": target}))
+
+    def forbidden():
+        raise AssertionError("Must not create destination session")
+
+    monkeypatch.setattr(transfer, "anonymous_session", forbidden)
+    with pytest.raises(ValueError):
+        transfer.transfer_one(
+            origin,
+            r,
+            tmp_path,
+            deadline=time.monotonic() + 30,
+            cache_limit_bytes=10000,
+            reserve_bytes=0,
+        )
+    assert len(origin.calls) == 1 and not list(tmp_path.iterdir())
+
+
+def test_signed_destination_cannot_redirect_again(tmp_path, monkeypatch):
+    r = redirected_source()
+    target = signed_url(r)
+    final = Response(r, status=303)
+    final.url = target
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: Session(final))
+    with pytest.raises(transfer.DataResponseError) as error:
+        run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    assert error.value.http_status == 303 and not list(tmp_path.iterdir())

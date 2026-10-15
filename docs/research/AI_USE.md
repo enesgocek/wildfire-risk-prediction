@@ -659,6 +659,15 @@ kesinti kuralları, eski gerçek yerel dosyada başlık okuyucu sınaması ve
 testlerde kullanıldı. Yeni ham indirme, kullanıcı girişi veya geniş pilot
 tamamlanmış gibi sunulmadı. [İşlem ve sınırlar](../OBSERVATION_CORE_TRANSFER_2026-10-15.md).
 
+## Tek çiftte HTTP 303 düzeltmesi — 15 Ekim 2026
+
+15 Ekim HTTP 303 incelemesinde araç desteği yerel güvenli hata kaydı,
+resmî NASA dağıtım akışı, kimlik bilgisiz ikinci oturum tasarımı ve
+yönlendirme testleri için kullanıldı. İlk kodun gereğinden katı davranışı
+düzeltildi; saklanmayan ilk hedef sonradan doğrulanmış gibi anlatılmadı.
+Yeni kullanıcı girişi veya ham indirme gerçekleşmiş sayılmadı.
+[Hata kanıtı ve sınırlar](../OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

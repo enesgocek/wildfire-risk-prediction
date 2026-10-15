@@ -1,9 +1,11 @@
 """Bounded, sequential pilot source transfer; never certify labels or evict evidence."""
 
 import hashlib
+import re
 import shutil
 import time
-from urllib.parse import urlsplit
+from contextlib import ExitStack, contextmanager
+from urllib.parse import parse_qs, unquote, urlsplit
 
 from wildfire_risk_prediction.cmr_identity import identity
 from wildfire_risk_prediction.feature_join import require
@@ -70,13 +72,92 @@ def capacity(cache, expected_bytes, cache_limit_bytes, reserve_bytes):
     require(shutil.disk_usage(cache).free >= reserve_bytes + expected_bytes, "Free disk reserve")
 
 
+def signed_s3_target(source, location):
+    """Validate the exact CMR bucket/key without logging or persisting signed queries."""
+    target = urlsplit(location)
+    require(
+        target.scheme == "https"
+        and target.port in {None, 443}
+        and not target.username
+        and not target.password
+        and not target.fragment,
+        "Secure signed redirect",
+    )
+    expected = set()
+    for link in source.get("metadata", {}).get("RelatedUrls", []):
+        url = urlsplit(link["URL"])
+        if link.get("Type") == "GET DATA VIA DIRECT ACCESS" and url.scheme == "s3":
+            require(url.hostname in {"lp-prod-protected", "prod-lads"}, "Registered NASA bucket")
+            require(not url.query and not url.fragment, "Plain CMR S3 identity")
+            if url.path.rsplit("/", 1)[-1] == source["filename"]:
+                expected.add((url.hostname, unquote(url.path).lstrip("/")))
+    require(len(expected) == 1, "One exact CMR S3 object")
+    bucket, key = expected.pop()
+    host, path = target.hostname, unquote(target.path).lstrip("/")
+    if host in {f"{bucket}.s3.us-west-2.amazonaws.com", f"{bucket}.s3.amazonaws.com"}:
+        require(path == key, "Same signed S3 object key")
+    else:
+        require(
+            host == "s3.us-west-2.amazonaws.com" and path == bucket + "/" + key,
+            "Exact regional S3 bucket/key",
+        )
+    params = parse_qs(target.query, keep_blank_values=True)
+    require(
+        params.get("X-Amz-Algorithm") == ["AWS4-HMAC-SHA256"]
+        and len(params.get("X-Amz-Credential", [])) == 1
+        and len(params.get("X-Amz-Signature", [])) == 1
+        and re.fullmatch(r"[a-fA-F0-9]{64}", params["X-Amz-Signature"][0]) is not None,
+        "Signed S3 request parameters",
+    )
+    # AWS verifies the signature; local validation is an identity/destination guard.
+    return location
+
+
+def anonymous_session():
+    import requests
+
+    return requests.Session()
+
+
+@contextmanager
+def data_response(session, source, deadline):
+    """NASA bearer request, then at most one exact signed S3 hop with a fresh session."""
+    url = source_url(source)
+    options = {
+        "stream": True,
+        "allow_redirects": False,
+        "timeout": (10, 30),
+        "headers": {"Accept-Encoding": "identity"},
+    }
+    with ExitStack() as stack:
+        response = stack.enter_context(session.get(url, **options))
+        require(response.url == url, "Exact direct NASA data URL")
+        redirected = response.status_code in {302, 303, 307, 308}
+        expected_url = url
+        if redirected:
+            expected_url = signed_s3_target(source, response.headers.get("Location", ""))
+            response.close()
+            require(time.monotonic() < deadline, "Deadline before signed hop")
+            clean = anonymous_session()
+            stack.callback(clean.close)
+            clean.headers.clear()
+            clean.cookies.clear()
+            clean.auth = None
+            clean.trust_env = False
+            response = stack.enter_context(clean.get(expected_url, **options))
+        if response.status_code != 200:
+            raise DataResponseError(response.status_code)
+        require(response.url == expected_url, "Exact final object response")
+        yield response, redirected
+
+
 def transfer_one(session, source, cache, *, deadline, cache_limit_bytes, reserve_bytes):
     """A full file or a retained partial; partial bytes are never an accepted checkpoint.
 
-    Redirects are refused, not followed with credentials. A current distribution requiring
-    another auth flow is an explicit failed access probe; no alternate URL substitution.
+    Only an exact CMR S3 object redirect is accepted, using a separate credential-free
+    session. Authentication and additional redirects fail closed; no version substitution.
     """
-    url = source_url(source)
+    source_url(source)
     target = cache / source["filename"]
     require(target.parent.resolve() == cache.resolve(), "Contained native target")
     if target.exists():
@@ -87,17 +168,8 @@ def transfer_one(session, source, cache, *, deadline, cache_limit_bytes, reserve
     capacity(cache, source["bytes"], cache_limit_bytes, reserve_bytes)
     require(time.monotonic() < deadline, "Pilot deadline before request")
     received = 0
-    # Session owns only an in-memory EDL bearer token; raw credential redirects are disabled.
-    with session.get(
-        url,
-        stream=True,
-        allow_redirects=False,
-        timeout=(10, 30),
-        headers={"Accept-Encoding": "identity"},
-    ) as response:
-        if response.status_code != 200:
-            raise DataResponseError(response.status_code)
-        require(response.url == url, "Exact direct NASA data URL")
+    # No EDL header/cookie/session is forwarded to the signed S3 URL.
+    with data_response(session, source, deadline) as (response, redirected):
         require(
             response.headers.get("Content-Encoding", "identity") == "identity",
             "Unencoded native bytes",
@@ -121,4 +193,9 @@ def transfer_one(session, source, cache, *, deadline, cache_limit_bytes, reserve
     check_file(partial, source)
     partial.rename(target)
     result = check_file(target, source)
-    return {**result, "reused": False, "network_bytes": received}
+    return {
+        **result,
+        "reused": False,
+        "network_bytes": received,
+        "verified_s3_redirect": redirected,
+    }

@@ -51,6 +51,11 @@ def load_plan(path):
         "Bounded pilot policy",
     )
     require(
+        plan.get("redirect_policy")
+        == "one_exact_cmr_s3_object_in_separate_credential_free_session",
+        "Reviewed single-hop S3 policy",
+    )
+    require(
         all(digest(ROOT / n) == h for n, h in plan["input_sha256"].items()),
         "Exact current plan inputs",
     )
