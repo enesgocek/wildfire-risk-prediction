@@ -676,6 +676,13 @@ kullanıldı. Yetersiz eski kayıt açıkça belirtildi; yerel bulgu canlı hata
 kesin nedeni veya başarılı indirme sayılmadı.
 [Kayıt ve sınırlar](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md).
 
+15 Ekim ek kayıt: ilk yeni çiftin iki dosyasını araştırmacı tarayıcıdan
+indirdi. Araç desteği yerel hash/sağlayıcı checksum, kontrollü kopyalama,
+mevcut native okuyucuyla eşleşme ve makbuz kapanışında kullanıldı.
+Bu kontrol insanın dizi değerlerini görsel incelemesi veya otomatik
+indirme başarısı olarak sunulmadı.
+[Kanıt ve sınırlar](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#ilk-yeni-çiftin-çevrimdışı-bayt-ve-native-başlık-kontrolü).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

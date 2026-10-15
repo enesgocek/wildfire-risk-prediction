@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İlk yeni çiftin bayt/native başlık kontrolü geçti](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#ilk-yeni-çiftin-çevrimdışı-bayt-ve-native-başlık-kontrolü):
+Tarayıcıdan alınan `SNPP:2018045.0000` çiftinin toplam 191.244.528 baytı,
+tarihsel SHA'ları ve konum dosyasının sağlayıcı checksum'u doğrulandı.
+Gerçek girdi bağı, zaman/CMR, 6.496×6.400 boyut, fire/QA türü ve konum
+yörünge kimliği SNPP:32640 kontrolü geçti. 117 plan girdisi korundu;
+makbuz geri okundu. Bu çevrimdışı tek çift kontrolüdür; otomatik indirme
+sorunu ve 156 hücre-günlük mekânsal pilot açık. Etiket/model kabulü yok.
+
 [Tarayıcıdan alınan ilk yangın dosyasının baytları doğrulandı](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#tarayıcıdan-alınan-ilk-yangın-dosyasının-bayt-doğrulaması):
 `SNPP:2018045.0000` yangın dosyası tam ad/1.087.180 bayt/tarihsel SHA ile
 eşleşti ve aslı korunarak plan önbelleğine doğrulanmış kopyası alındı.

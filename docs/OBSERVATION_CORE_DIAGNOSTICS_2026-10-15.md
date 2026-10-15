@@ -136,3 +136,40 @@ Eş konum kaynağı `VNP03IMG.A2018045.0000.002.2021078185558.nc`,
 boyut/yörünge/zaman kontrolü tamamlanmadan çift kabulü yok. Bu tek yangın
 dosyasının bayt kontrolü geniş mekânsal pilot, etiket veya model kabulü
 değildir. Kod değişmedi; bu kayıt yeni birim test çalışması iddiası içermez.
+
+## İlk yeni çiftin çevrimdışı bayt ve native başlık kontrolü
+
+Araştırmacının indirdiği eş konum dosyası tam ad, **190.157.348 bayt**,
+tarihsel SHA-256
+`2a67217bb113547302b73b0709eb25112cb88d49a1fc23311f6940fe863b2764`
+ve kayıtlı sağlayıcı checksum'u ile eşleşti. Asıl indirme korunarak aynı
+plan önbelleğine kilit/disk/kapasite kontrolleri altında kopyalandı.
+
+`SNPP:2018045.0000` çiftinin toplam **191.244.528 baytı** okuma öncesi ve
+sonrası yeniden doğrulandı. Değiştirilmemiş `native_headers` okuyucusu:
+
+- Yangın ürününün bu konum dosyasını girdi göstermesi ve konum ürününün
+  tam kimliğini;
+- İki kaynağın aynı sensör/nominal zaman, başlangıç/bitiş aralığı ve
+  yangın kaynağının CMR zamanıyla eşleşmesini;
+- Fire/QA/latitude/longitude katmanlarında **6.496 × 6.400** boyut
+  eşitliğini, fire uint8 ve QA uint32 türlerini;
+- Konum başlığındaki geçerli yörünge kimliğini **SNPP:32640** doğruladı.
+
+Planın **117 giriş hash'i** işlem öncesi/sonrası aynı kaldı. Denetim
+ağ bağlantısı kapatılarak çalıştırıldı; işçi kilidi sonunda kaldırıldı.
+Yeni makbuz dizini:
+`outputs/reports/dataset/observation_core_browser_v1/20261015T004526Z_43ae0072/`.
+`native_probe.json` SHA-256
+`1ec45d4a93513e982a974b31da9be2253c1e03e8d75867cecda0aeffdff1180a`;
+`completion_readback.json` SHA-256
+`9985607a2b1f907b91e7134b1f2e1828e687ffa3cc8d0788b43b42f508858aa1`.
+Makbuzun rapor hash'i ayrıca geri okunup doğrulandı.
+
+Bu sonuç **tarayıcıdan alınan tek çiftin bayt/başlık kabulüdür**;
+otomatik HTTP aktarımının başarı kaydı değildir. Dizi değerlerinin
+hücre/tarama düzeyinde mekânsal denetimi ve 156 hücre-günlük geniş pilot
+henüz tamamlanmadı. Unknown/kapalı negatif izni/boş hedefler korunur;
+model, nihai birleştirme veya yeni bulut işi yok. Bilimsel kod
+değişmediğinden yeni birim test çalışması yapılmadı. Sonraki teknik konu,
+aynı kaynak kontrolleri korunarak otomatik erişimin düzeltilmesidir.

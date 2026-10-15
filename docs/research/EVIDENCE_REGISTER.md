@@ -906,6 +906,15 @@ plan kapanışı doğrulandı. Yerel readback SHA-256
 190.157.348 baytlık konum kaynağı ve native çift kontrolü açık; otomatik
 aktarım sorunu, etiketler ve model hazır sayılmadı.
 
+E97 — 15 Ekim: [İlk yeni çiftte bayt/native kabulü](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#ilk-yeni-çiftin-çevrimdışı-bayt-ve-native-başlık-kontrolü).
+Tarayıcıdan alınan SNPP:2018045.0000: 191.244.528 bayt, iki tarihsel SHA,
+konum sağlayıcı checksum'u, gerçek girdi bağı, zaman/CMR, 6.496×6.400
+boyut/tür ve SNPP:32640 kimliği doğrulandı. 117 plan girişi korundu.
+Rapor SHA-256 `1ec45d4a93513e982a974b31da9be2253c1e03e8d75867cecda0aeffdff1180a`,
+kapanış SHA-256 `9985607a2b1f907b91e7134b1f2e1828e687ffa3cc8d0788b43b42f508858aa1`.
+Tek çiftin çevrimdışı başlık kontrolüdür; otomatik indirme, geniş mekânsal
+pilot, etiket/model veya nihai birleştirme kabulü değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
