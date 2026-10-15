@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Bağımsız referans erişimi ve veri alım hazırlığı tamamlandı](INDEPENDENT_REFERENCE_PLAN_2026-10-15.md):
+OGM Muğla 2023 raporu ve EFFIS erişim/şema kaynakları gerçekten alındı.
+11 büyük yangın satırı + bir anlatım, 12 bağlam kaydı olarak kontrol edildi;
+koordinat/zaman/köken eksikleri nedeniyle kesin hücre-gün etiketine uygun değiller.
+Bu başlangıç tarihleri sabit pilotun 12 hedef gününe denk gelmiyor;
+eşleşme yokluğu negatif kanıt sayılmadı. Olay/kapsam şablonları ve
+gönderilmemiş anonim veri talebi hazır. 15 girdi/altı çıktı kapanışı,
+17 yeni vaka dahil 45 ilgili test ve dört dosyada lint/format geçti.
+Yeni etiket veya bulut işi yok. Araştırmacı kurumsal veri talebi yolunu da
+kullanmayı seçti; taslağı kendisi gönderecek. OGM'nin e-Devlet sayfasından
+CİMER kanalı doğrulandı; [gönderim rehberi](research/OGM_SUBMISSION_GUIDE_2026-10-15.md)
+hazır. Başvuru gönderildiğine ilişkin bildirim henüz yok.
+
 [Gözlem protokolünün saat/kalite kanıtı hazır](OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md):
 Aynı 156 birimde 624 adet altı saatlik dilim ve 747 birim/yörünge tanığı
 üretildi. Hücrenin herhangi bir kısmındaki nominal kara tarama zarfları

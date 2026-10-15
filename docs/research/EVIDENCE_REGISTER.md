@@ -1028,6 +1028,16 @@ kapanış SHA-256 `ee2e47cba8c3641e8ff7d5ff30f8edab41d97a2f5611fc02feba7429f507a
 İlk tanının okuma muhasebesi yeni sürümde ayrıldı; bilimsel CSV aynı.
 Eşik/etiket/model kabulü, bağımsız insan incelemesi veya nihai birleştirme yok.
 
+E108 — 15 Ekim: [Bağımsız referans erişimi ve hazırlık](../INDEPENDENT_REFERENCE_PLAN_2026-10-15.md).
+OGM 2023/JRC PDF ve iki EFFIS HTML gerçek dosya olarak kontrol edildi;
+12 bağlam kaydında tam konum/zaman/bağımsızlık kabulü yok. Boş olay/kapsam
+şablonları ve gönderilmemiş anonim talep hazır. 15 girdi/altı çıktı kapanışı,
+17 yeni vaka dahil 45 ilgili test; inceleme hedef veya bağımsız insan onayı değil.
+Readback SHA-256 `20e6d42f35c4c7310ef34f980dcb80de589fcc73b839d4daa93cb7185ce40e06`;
+kapanış SHA-256 `a0f7012b7b3bf77895b5547b00f7215ff974f0665a1abb738d0a9b6fd6cd8213`.
+12 bildirilen başlangıç tarihi sabit pilot günlerine denk gelmiyor; yokluk
+negatif yapılmadı. Kuruma ileti gönderilmedi; bilimsel kabul kapıları kapalı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

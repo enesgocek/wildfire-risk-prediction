@@ -6,6 +6,15 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/fetch_reference_publications.py`, yalnız dört
+incelenmiş resmî OGM/EFFIS PDF/HTML adresini kimliksiz GET ile alır;
+25 MB/dosya ve 30 saniye socket sınırı, izinli HTTPS yönlendirmeleri vardır.
+Kurumla ileti veya veri talebi göndermez. Yeni kaynak denemesi ayrı dizindedir.
+`python scripts/quality/prepare_reference_validation.py`, sabit kaynak
+makbuzlarını ve 12 bağlam kaydını çevrimdışı kontrol eder; eşleştirme
+eksikleriyle boş olay/kapsam şablonları üretir. Etiket atamaz.
+[Gerçek kaynaklar ve veri erişim hazırlığı](../docs/INDEPENDENT_REFERENCE_PLAN_2026-10-15.md).
+
 `python scripts/quality/review_pilot_observation_protocol.py`, tamamlanan
 156 birimde saklanmış tarama geometrilerinden dört UTC dilimi, zaman
 boşlukları, yörünge tanıkları ve termal pencere karşılaştırması üretir.

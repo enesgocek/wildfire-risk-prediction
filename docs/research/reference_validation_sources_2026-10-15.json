@@ -1,0 +1,62 @@
+{
+  "version": "reference_validation_source_inventory_v1",
+  "status": "research_preparation_not_label_acceptance",
+  "sources": [
+    {
+      "source_id": "mugla_2023_large_fire_table",
+      "publication_id": "ogm_mugla_2023",
+      "publisher": "Orman Genel Müdürlüğü, Muğla Orman Bölge Müdürlüğü",
+      "pdf_page": 46,
+      "access_status": "local_publication_verified",
+      "lineage_status": "institutional_context_not_audited",
+      "scope": "reported fires larger than 500 ha, 1968-2023; only 2018-2023 rows used",
+      "limitations": "Date and administrative place; no origin coordinates or clock time; not complete incident coverage. Regional directorate includes Aydin; place names are not AOI membership."
+    },
+    {
+      "source_id": "mugla_2023_milas_narrative",
+      "publication_id": "ogm_mugla_2023",
+      "publisher": "Orman Genel Müdürlüğü, Muğla Orman Bölge Müdürlüğü",
+      "pdf_page": 9,
+      "access_status": "local_publication_verified",
+      "lineage_status": "institutional_context_not_audited",
+      "scope": "one reported 2023 outbreak narrative",
+      "limitations": "Clock time stated without explicit timezone or time-uncertainty semantics; place name without origin coordinates. Same publication as large-fire table, not a second independent source."
+    },
+    {
+      "source_id": "effis_national_database",
+      "publication_id": "effis_technical_2014_and_current_public_pages",
+      "publisher": "European Commission Joint Research Centre",
+      "access_status": "individual_event_access_not_verified",
+      "lineage_status": "national_incident_records_documented_as_database_design",
+      "scope": "schema/access policy inspected, no incident records received",
+      "limitations": "2014 specification restricts third-party raw national records. Current public page exposes general information. Other EFFIS data request routes do not establish entitlement to this database."
+    },
+    {
+      "source_id": "effis_2021_satellite_perimeters",
+      "publication_id": "perimeter_reference_source_audit_v1",
+      "publisher": "European Union / Copernicus EMS / JRC, EFFIS",
+      "access_status": "local_perimeter_context_verified",
+      "lineage_status": "shared_viirs_modis",
+      "scope": "existing July-August 2021 spatial-context subset",
+      "limitations": "Final perimeter is not an origin point, an exact ignition date or independent absence reference."
+    },
+    {
+      "source_id": "ogm_manavgat_2021_notice",
+      "publication_id": "institutional_reference_context_v1",
+      "publisher": "Antalya Valiliği",
+      "access_status": "local_publication_verified",
+      "lineage_status": "institutional_context_not_audited",
+      "scope": "existing 28 July 2021 regional narrative",
+      "limitations": "Multiple reported origins without coordinate-to-cluster identity; timezone not explicit."
+    },
+    {
+      "source_id": "firespread_medeu",
+      "publication_id": "zenodo_18200075",
+      "publisher": "FireSpread_MedEU authors",
+      "access_status": "local_dataset_verified_no_aoi_overlap",
+      "lineage_status": "optical_perimeters_effis_selected",
+      "scope": "existing dataset audit, no geometric overlap with pilot AOI",
+      "limitations": "No pilot reference coverage; pre-fire placeholders and missing geometries are not negative labels."
+    }
+  ]
+}

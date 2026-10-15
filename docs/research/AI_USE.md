@@ -751,6 +751,20 @@ yeni sürüm üretildi; eski rapor değiştirilmedi. Grafik araçla incelendi;
 insan onayı, bağımsız yangın doğrulaması veya negatif etiket kabulü
 uydurulmadı. [Kanıt ve kapsam](../OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md).
 
+15 Ekim bağımsız referans hazırlığı kaydı: araç desteği birincil kaynak
+araması, dört resmî dosyanın sınırlı alınması, ilgili PDF sayfalarının
+görüntü/metin kontrolü, 12 bağlam kaydının aktarımı, eşleştirme hazırlığı
+guard'ları, 17 yeni test ve anonim veri talebi taslağında kullanıldı.
+Şehir adları koordinata, yerel saati belirsiz kayıtlar UTC'ye çevrilmedi;
+kurumsal anlatım bağımsız olay doğrulaması sayılmadı. Talep gönderilmedi,
+insan etiket incelemesi veya yeni hedef kabulü uydurulmadı.
+[Kanıt ve kapsam](../INDEPENDENT_REFERENCE_PLAN_2026-10-15.md).
+
+Aynı gün araştırmacı kurumsal talep yolunu kullanıp taslağı kendisinin
+göndermesini seçti. Araç desteği resmî OGM/e-Devlet CİMER bağlantısının
+kontrolü ve ayrı gönderim rehberinde kullanıldı. Kimlik doğrulaması, form
+gönderimi veya kuruma ileti yapılmadı; başvuru kararı veri kabulü sayılmadı.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
