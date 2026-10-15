@@ -5,6 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+15 Ekim gece güncellemesi: araştırmacı CİMER başvurusunu tamamladığını
+bildirdi; teknik yanıt bekleniyor. Kaynak kullanıcı bildirimi, başvuru
+makbuzu bağımsız okunmadı; kişisel bilgi/başvuru numarası toplanmadı.
+Bu bildirim veri paylaşımı veya etiket kabulü değildir; yanıt tarihi bilinmiyor.
+
+[Gözlem koşullarının alt grup etkisi incelendi](PROTOCOL_SELECTION_REVIEW_2026-10-15.md):
+aynı 156 amaçlı birimde beş açıklayıcı alan kesimi, il/mevsim/örtü/yıl ve
+termal grup paydalarıyla karşılaştırıldı. %95 kesiminde dört zaman dilimi
+koşulunu geçen 14 birimin 13'ü yazdadır; bütün döneme genellenmez.
+780 birim/kesim, 420 grup/koşul ve 420 eşlenik karşılaştırma satırı hazır;
+önceki yayımlanmış sayılar birebir uzlaştı. 11 girdi/beş çıktı kapanışı,
+25 yeni vaka dahil 53 ilgili test ve üç dosyada lint/format geçti.
+Yeni etiket kuralı seçilmedi; unknown/negative=false ve boş hedefler korundu.
+Aşağıdaki hazırlık kayıtları kendi aşamalarındaki durumu yansıtır.
+
 [Bağımsız referans erişimi ve veri alım hazırlığı tamamlandı](INDEPENDENT_REFERENCE_PLAN_2026-10-15.md):
 OGM Muğla 2023 raporu ve EFFIS erişim/şema kaynakları gerçekten alındı.
 11 büyük yangın satırı + bir anlatım, 12 bağlam kaydı olarak kontrol edildi;

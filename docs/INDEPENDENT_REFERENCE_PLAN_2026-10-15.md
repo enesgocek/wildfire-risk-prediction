@@ -2,7 +2,10 @@
 
 Tarih: 15 Ekim 2026. Durum: gerçek kamu kaynaklarının kontrolü, bağlam
 aktarımı ve veri alım hazırlığı tamamlandı. Bağımsız olay etiketi kabul
-edilmedi; kurumsal talep henüz gönderilmedi.
+edilmedi. İlk hazırlık sırasında kurumsal talep gönderilmemişti;
+15 Ekim gece araştırmacı CİMER başvurusunu tamamladığını bildirdi.
+Teknik yanıt bekleniyor; makbuz bağımsız okunmadı. Aşağıdaki deney
+ve hazırlık kayıtları kendi yürütülme aşamalarının durumunu korur.
 
 ## Yeni kaynak kontrolünün sonucu
 
@@ -133,3 +136,8 @@ bağlantılı resmî hizmetin kimlik doğrulama sayfası kontrol edildi.
 Hesaba giriş/form gönderimi yapılmadı; kullanıcıdan gönderim bildirimi yok.
 İlk hazırlıkta hash ile bağlanan taslak ve üretilmiş makbuzlar değiştirilmedi.
 Bu tercih bağımsız veri sağlandığı veya bilimsel etiket kabul edildiği anlamına gelmez.
+
+Sonraki kullanıcı bildirimi: CİMER başvurusu tamamlandı. Başvuru numarası,
+kişisel bilgi veya gönderilen özel kopya depoya alınmadı. Kurumun yanıtı
+ve veri paylaşımı henüz yok; hazırlık makbuzunun `data_request_submitted=false`
+alanı o makbuzun üretildiği anı yansıtır ve sonradan değiştirilmez.

@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/review_protocol_selection.py`, aynı 156 birimlik
+tamamlanmış pilotun bağlı rapor/çıktılarını çevrimdışı kontrol eder;
+il, mevsim, örtü, yıl ve termal gruplarında beş açıklayıcı alan kesiminin
+tuttuğu/dışladığı birimleri ve eşlenik farklarını üretir. Etiket kuralı
+seçmez; gerçek negatif, popülasyon hata oranı veya model başarısı vermez.
+[Alt grup incelemesi](../docs/PROTOCOL_SELECTION_REVIEW_2026-10-15.md).
+
 `python scripts/quality/fetch_reference_publications.py`, yalnız dört
 incelenmiş resmî OGM/EFFIS PDF/HTML adresini kimliksiz GET ile alır;
 25 MB/dosya ve 30 saniye socket sınırı, izinli HTTPS yönlendirmeleri vardır.

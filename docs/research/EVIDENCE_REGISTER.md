@@ -1038,6 +1038,21 @@ kapanış SHA-256 `a0f7012b7b3bf77895b5547b00f7215ff974f0665a1abb738d0a9b6fd6cd8
 12 bildirilen başlangıç tarihi sabit pilot günlerine denk gelmiyor; yokluk
 negatif yapılmadı. Kuruma ileti gönderilmedi; bilimsel kabul kapıları kapalı.
 
+E109 — 15 Ekim gece: araştırmacının CİMER başvurusunu tamamladığına ilişkin
+manuel bildirimi. Başvuru numarası/kişisel bilgi toplanmadı, makbuz bağımsız
+okunmadı; kurum yanıtı veya veri paylaşımı henüz yok. Hazırlık makbuzları
+sonradan değiştirilmedi. [Başvuru kaydı](OGM_SUBMISSION_GUIDE_2026-10-15.md).
+
+E110 — 15 Ekim: [Gözlem koşullarının alt grup etkisi](../PROTOCOL_SELECTION_REVIEW_2026-10-15.md).
+Aynı 156 amaçlı birim, 117 farklı hücre/12 tarih; beş açıklayıcı kesimde
+780 birim, 420 grup/koşul, 420 eşlenik sayım satırı. %95 dört dilim
+kesimini geçen 14 birimin 13'ü yazdır; popülasyon sonucu veya etiket değil.
+11 girdi/beş çıktı kapanışı, 25 yeni vaka dahil 53 ilgili test geçti.
+Readback SHA-256 `e19de33e0db98948369c971a6d4d9966caf208574df73ad3059e8b26a6159242`;
+kapanış SHA-256 `859c5005a94858f7344d7bfb2b04544a28dcb76aa415d588d9e9b05e0c1822f2`.
+Önceki sayıların tamamı uzlaştırıldı; ham girdiler yeniden denetlenmedi.
+Yeni gözlem/etiket politikası, model veya nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

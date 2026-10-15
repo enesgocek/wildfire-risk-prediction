@@ -3,7 +3,10 @@
 Tarih: 15 Ekim 2026. Araştırmacı, açık kaynak incelemesine ek olarak kurumsal
 kayıt talebi yolunun kullanılmasını ve taslağı kendisinin göndermesini seçti.
 Bu karar veri erişimi, kurum onayı veya etiket doğrulaması değildir.
-Henüz başvuru gönderildiğine ilişkin bildirim veya makbuz yoktur.
+İlk hazırlık sırasında başvuru gönderim bildirimi yoktu. Aynı gün gece
+araştırmacı CİMER başvurusunu tamamladığını bildirdi; teknik yanıt bekleniyor.
+Bu durum kullanıcı bildirimidir; makbuz bağımsız okunmadı ve başvuru numarası
+toplanmadı. Aşağıdaki adımlar gönderim öncesi hazırlık kaydını korur.
 
 ## Doldurulabilir Word kopyası
 
@@ -13,7 +16,8 @@ Word kopyası hazırlandı:
 Üniversite, bölüm, tarih, ad soyad ve e-posta olmak üzere beş alan sarıyla
 işaretlendi. İç proje notları çıkarıldı; kişisel veri girilmedi. Doldurulan
 metin CİMER başvuru alanına aktarılabilir; Word eki desteği varsayılmadı.
-Başvuru ve kuruma gönderim hâlâ araştırmacının yapacağı işlemdir.
+Bu kopyanın hazırlanması sırasında gönderim araştırmacının yapacağı işlemdi;
+sonraki tamamlanma bildirimi yukarıda ayrıca kayıtlıdır.
 
 Son DOCX SHA-256:
 `a104c408d35c5c567ce857f31406d1a3434b6ebb47f657d2125d2a13f47fe82f`.

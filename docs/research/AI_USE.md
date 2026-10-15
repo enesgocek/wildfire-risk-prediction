@@ -769,6 +769,14 @@ Araştırmacının sonraki isteğiyle aynı talebin kişisel alanları boş Word
 kopyası araç desteğiyle düzenlendi. Sayfa Word PDF dışa aktarımı ve paketli
 PNG rasterlemesiyle incelendi; kişisel bilgi girilmedi ve başvuru gönderilmedi.
 
+Araştırmacı daha sonra CİMER başvurusunu tamamladığını bildirdi; bu
+manuel bildirim bağımsız makbuz kontrolü veya veri erişimi gibi sunulmadı.
+Araç desteği bekleme sırasında aynı 156 amaçlı pilotun il/mevsim/örtü/yıl
+ve termal grup seçim tanılarına, eşlenik sayım korumalarına, 25 yeni
+davranış vakasına ve il grafiğine uygulandı. Grafik araçla incelendi;
+insan etiketi onayı, popülasyon hata oranı veya politika seçimi yapılmadı.
+[Yöntem ve kanıt](../PROTOCOL_SELECTION_REVIEW_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

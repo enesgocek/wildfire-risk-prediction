@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Gözlem koşullarının alt grup etkisi](PROTOCOL_SELECTION_REVIEW_2026-10-15.md) | Aynı 156 amaçlı birimde il/mevsim/örtü/yıl paydaları, eşlenik seçim farkları ve politika kabul sınırı |
 | [Bağımsız referans erişimi ve doğrulama hazırlığı](INDEPENDENT_REFERENCE_PLAN_2026-10-15.md) | Gerçek OGM/EFFIS kaynakları, 12 bağlam kaydının sınırları, boş olay/kapsam şablonları ve gönderilmemiş kurumsal talep |
 | [OGM talebi gönderim rehberi](research/OGM_SUBMISSION_GUIDE_2026-10-15.md) | Araştırmacının kurumsal kayıt yolu kararı, doğrulanan CİMER kanalı ve kişisel gönderim adımları |
 | [Gözlem protokolünün saat/kalite kanıtı](OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md) | 156 birimde zaman boşlukları, 624 dilim, termal pencere karşılaştırması, seçilmemiş protokol kesimleri ve beş saat grafiği |
