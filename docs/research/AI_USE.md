@@ -689,6 +689,13 @@ dokuz yeni davranış testi ve kaynak/kanıt sınırı kaydında kullanıldı.
 Gerçek özel giriş veya servis sorununun çözümü tamamlanmış sayılmadı.
 [Kapsam ve makbuz](../OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md).
 
+15 Ekim CDN kaydı: kullanıcı gerçek başlık teşhisini özel terminalde
+çalıştırdı. Araç desteği güvenli rapor okuması, indirilen konum dosyasının
+kaynak metadatasında yalnız yerel biçim kontrolü, dar CloudFront desteği,
+11 regresyon vakası ve yeni hash planında kullanıldı. Tam imzalı URL ve
+kişisel A-userid değeri kaydedilmedi. Yeni canlı indirme başarısı iddia
+edilmedi. [Kanıt ve kapsam](../OBSERVATION_CORE_CDN_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

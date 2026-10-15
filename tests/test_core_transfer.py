@@ -457,3 +457,77 @@ def test_latest_plan_chooses_completed_output_and_still_requires_separate_valida
     # A completion filename does not grant admission to a malformed or stale plan.
     with pytest.raises((ValueError, FileNotFoundError)):
         module.load_plan(module.latest_plan())
+
+
+def cloudfront_url(record):
+    path = "/route/lp-prod-protected.s3.us-west-2.amazonaws.com/product/" + record["filename"]
+    return urlunsplit(
+        (
+            "https",
+            "d123456789abc.cloudfront.net",
+            path,
+            urlencode(
+                {
+                    "Expires": "2000000000",
+                    "Signature": "a" * 64,
+                    "Key-Pair-Id": "K123456789ABC",
+                    "A-userid": "synthetic-private-account",
+                }
+            ),
+            "",
+        )
+    )
+
+
+def test_exact_cloudfront_object_uses_empty_second_session_and_full_byte_checks(
+    tmp_path, monkeypatch
+):
+    r = redirected_source()
+    target = cloudfront_url(r)
+    final = Response(r)
+    final.url = target
+    clean = Session(final)
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: clean)
+    _, result = run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    assert result["verified_cloudfront_redirect"] and not result["verified_s3_redirect"]
+    assert result["sha256"] == r["sha256"] and result["network_bytes"] == 6
+    assert not clean.headers and not clean.cookies and clean.auth is None and not clean.trust_env
+    assert clean.calls[0][1]["allow_redirects"] is False
+    assert "synthetic-private" not in json.dumps(result)
+
+
+@pytest.mark.parametrize(
+    "change",
+    [
+        lambda u: u.replace("https:", "http:"),
+        lambda u: u.replace(".cloudfront.net", ".cloudfront.net.attacker.example"),
+        lambda u: u.replace("/product/", "/other/"),
+        lambda u: u.replace("lp-prod-protected.s3", "prod-lads.s3"),
+        lambda u: u.replace("/route/", "/../"),
+        lambda u: u.replace("Signature=", "unexpected="),
+        lambda u: u + "&Signature=" + "b" * 64,
+        lambda u: u + "&private=unexpected",
+    ],
+)
+def test_cloudfront_rejects_changed_host_full_key_bucket_route_and_signature(change):
+    r = redirected_source()
+    with pytest.raises(ValueError):
+        transfer.signed_data_target(r, change(cloudfront_url(r)))
+
+
+def test_cloudfront_same_filename_with_wrong_full_key_cannot_pass():
+    r = redirected_source()
+    with pytest.raises(ValueError, match="CMR object"):
+        transfer.signed_data_target(r, cloudfront_url(r).replace("/product/", "/other/product/"))
+
+
+def test_cloudfront_second_redirect_is_never_followed(tmp_path, monkeypatch):
+    r = redirected_source()
+    target = cloudfront_url(r)
+    final = Response(r, status=302, headers={"Location": "https://synthetic-private.example"})
+    final.url = target
+    clean = Session(final)
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: clean)
+    with pytest.raises(transfer.DataResponseError):
+        run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    assert len(clean.calls) == 1 and not list(tmp_path.iterdir())

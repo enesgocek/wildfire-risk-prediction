@@ -923,6 +923,18 @@ yeniden doğrulandı. Devam readback SHA-256
 dokuz yeni test dahil 168 ilgili test ve iki dosyada lint/format geçti.
 Gerçek kimlikli teşhis sonucu ve otomatik aktarım başarısı henüz yok.
 
+E99 — 15 Ekim: [Gerçek teşhis ve CloudFront uyumluluğu](../OBSERVATION_CORE_CDN_2026-10-15.md).
+Gerçek access_probe SHA-256
+`cb71291dadccfab73560d5dee8d7ad3e4ed0f0bff75b50407acdee081dfe1dde`.
+Konum dosyasının kaynak metadatasında tam CMR bucket/key CDN biçimi
+yerelde kontrol edildi; özel URL/sorgu kaydı yok. 11 yeni vaka dahil
+179 ilgili test geçti. Yeni plan readback SHA-256
+`0a412a5e1c338d1fa491036b8c8962271c796dc61b03feb0b3a19e8915d2a5f8`;
+kapanış SHA-256 `0ef788a6f4ad67a7e415f1c66b0918d1f0654b93048a09e877b71e29f70a0942`.
+117 giriş/iki çıktı/22 donmuş girdi kontrolü geçti. Gerçek yeni aktarım
+ve etiket/model kabulü henüz yok; iki 303'ün aynı CDN'ye ait olduğu
+sonradan kesinleştirilmiş sayılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

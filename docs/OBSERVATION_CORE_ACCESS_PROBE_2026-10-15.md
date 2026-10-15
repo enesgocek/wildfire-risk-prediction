@@ -1,5 +1,10 @@
 # Kota kesintisi sonrası devam ve erişim teşhisi — 15 Ekim 2026
 
+**Sonraki kayıt:** kullanıcı teşhisi tamamladı. [Gerçek başlık sonucu ve
+CloudFront uyumluluğu](OBSERVATION_CORE_CDN_2026-10-15.md) ayrı kayıttır;
+aşağıdaki hazırlık kendi yürütülme anını korur. Kaynak kod değiştiğinden
+eski planın yerine yeni hash bağlı plan kullanılmalıdır.
+
 ## Tamamlanmış işlemin korunması
 
 Kullanıcının kota kesintisi bildirimi sonrasında son tek çift makbuzu ve

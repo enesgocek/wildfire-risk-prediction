@@ -58,8 +58,8 @@ def load_plan(path):
     )
     require(
         plan.get("redirect_policy")
-        == "one_exact_cmr_s3_object_in_separate_credential_free_session",
-        "Reviewed single-hop S3 policy",
+        == "one_exact_cmr_object_s3_or_cloudfront_in_credential_free_session",
+        "Reviewed single-hop source object policy",
     )
     require(
         plan.get("failure_diagnostics_policy")

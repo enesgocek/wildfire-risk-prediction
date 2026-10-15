@@ -20,7 +20,7 @@ from wildfire_risk_prediction.core_transfer import (
     digest,
     safe_error_details,
     same_request_url,
-    signed_s3_target,
+    signed_data_target,
     source_url,
 )
 from wildfire_risk_prediction.feature_join import require
@@ -74,6 +74,8 @@ def redirect_summary(location, origin):
         if host in PUBLIC_HOSTS
         else "aws"
         if host.endswith(".amazonaws.com")
+        else "cloudfront"
+        if host.endswith(".cloudfront.net")
         else "unclassified",
         "same_origin": target.scheme == start.scheme and target.netloc == start.netloc,
         "path_kind": kind,
@@ -101,7 +103,7 @@ def inspect_source(session, source):
                 location = response.headers.get("Location", "")
                 record["redirect"] = redirect_summary(location, url)
                 try:
-                    signed_s3_target(source, location)
+                    signed_data_target(source, location)
                     record["exact_signed_object"] = True
                 except ValueError as error:
                     record["exact_signed_object"] = False

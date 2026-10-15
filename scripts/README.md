@@ -20,6 +20,12 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+[Gerçek 303 teşhisi sonrası CloudFront uyumluluğu](../docs/OBSERVATION_CORE_CDN_2026-10-15.md)
+aynı tam CMR bucket/key için tek kimliksiz CDN adımını destekler. Yeni
+hash bağlı planda `run_observation_core_pair.py --latest-plan --run-one --prompt-login`
+yalnız ilk çiftin gerçek aktarımını sınar; eski tarayıcı cache'ini kullanmaz.
+Bu hazırlık canlı indirme başarısı veya toplu çalışma kabulü değildir.
+
 İki dosya önbellekteyken normal tek çift komutunun geçmesi uzak erişim
 kanıtı değildir. [Ayrı iki başlık teşhisi](../docs/OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md)
 `python scripts/firms/probe_observation_core_access.py --prompt-login`

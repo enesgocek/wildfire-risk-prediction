@@ -53,6 +53,9 @@ SAFE_ERROR_CODES = {
     "Native probe readback": "result_readback",
     "Not the actual geolocation input": "native_geolocation_lineage",
     "Direct NASA data response rejected": "data_http_status",
+    "CloudFront distribution endpoint": "cloudfront_endpoint",
+    "Exact CloudFront CMR object": "cloudfront_object",
+    "Signed CloudFront request parameters": "cloudfront_parameters",
 }
 
 
@@ -75,7 +78,13 @@ def safe_error_details(error):
         value = original.get(name)
         if type(value) is bool:
             diagnostics[name] = value
-    if original.get("redirect_host_kind") in {"earthdata_login", "aws", "other", "missing"}:
+    if original.get("redirect_host_kind") in {
+        "earthdata_login",
+        "aws",
+        "cloudfront",
+        "other",
+        "missing",
+    }:
         diagnostics["redirect_host_kind"] = original["redirect_host_kind"]
     result["transfer_diagnostics"] = diagnostics
     return result
@@ -207,6 +216,66 @@ def anonymous_session():
     return requests.Session()
 
 
+def signed_data_target(source, location):
+    """Accept S3 or NASA-issued CloudFront routes to the same full CMR bucket/key.
+
+    This is called only on a Location returned by the exact approved NASA source.
+    The second request carries no EDL credentials. CDN signatures are checked by
+    CloudFront; complete historical SHA/size checks remain mandatory locally.
+    """
+    target = urlsplit(location)
+    if not (target.hostname or "").endswith(".cloudfront.net"):
+        return signed_s3_target(source, location)
+    require(
+        target.scheme == "https"
+        and target.port in {None, 443}
+        and not target.username
+        and not target.password
+        and not target.fragment
+        and re.fullmatch(r"d[a-z0-9]{8,30}\.cloudfront\.net", target.hostname) is not None,
+        "CloudFront distribution endpoint",
+    )
+    objects = set()
+    for link in source.get("metadata", {}).get("RelatedUrls", []):
+        obj = urlsplit(link["URL"])
+        if link.get("Type") == "GET DATA VIA DIRECT ACCESS" and obj.scheme == "s3":
+            require(obj.hostname in {"lp-prod-protected", "prod-lads"}, "Registered NASA bucket")
+            require(not obj.query and not obj.fragment, "Plain CMR S3 identity")
+            if obj.path.rsplit("/", 1)[-1] == source["filename"]:
+                objects.add((obj.hostname, unquote(obj.path).lstrip("/")))
+    require(len(objects) == 1, "One exact CMR S3 object")
+    bucket, key = objects.pop()
+    path = unquote(target.path)
+    parts = path.lstrip("/").split("/")
+    # NASA's shared CDN wraps the exact virtual-hosted S3 URL in one routing
+    # component. It is not sufficient to match only the final filename.
+    routed = (
+        len(parts) >= 3
+        and re.fullmatch(r"[A-Za-z0-9_.:-]{1,256}", parts[0]) is not None
+        and parts[0] not in {".", ".."}
+        and parts[1] in {f"{bucket}.s3.us-west-2.amazonaws.com", f"{bucket}.s3.amazonaws.com"}
+        and "/".join(parts[2:]) == key
+    )
+    require(
+        "\\" not in path
+        and not any(p in {".", ".."} for p in parts)
+        and (path == "/" + bucket + "/" + key or routed),
+        "Exact CloudFront CMR object",
+    )
+    params = parse_qs(target.query, keep_blank_values=True)
+    required = {"Expires", "Signature", "Key-Pair-Id"}
+    require(
+        required <= set(params) <= required | {"A-userid"}
+        and all(len(values) == 1 and bool(values[0]) for values in params.values())
+        and params["Expires"][0].isdigit()
+        and int(params["Expires"][0]) > 0
+        and re.fullmatch(r"[A-Za-z0-9_~=-]{32,2048}", params["Signature"][0]) is not None
+        and re.fullmatch(r"[A-Za-z0-9]{2,80}", params["Key-Pair-Id"][0]) is not None,
+        "Signed CloudFront request parameters",
+    )
+    return location
+
+
 @contextmanager
 def data_response(session, source, deadline):
     """NASA bearer request, then at most one exact signed S3 hop with a fresh session."""
@@ -234,6 +303,8 @@ def data_response(session, source, deadline):
                     if host == "urs.earthdata.nasa.gov"
                     else "aws"
                     if host.endswith(".amazonaws.com")
+                    else "cloudfront"
+                    if host.endswith(".cloudfront.net")
                     else "other"
                     if host
                     else "missing"
@@ -242,8 +313,8 @@ def data_response(session, source, deadline):
                 diagnostics["signed_parameters_present"] = all(
                     key in parameters
                     for key in ("X-Amz-Algorithm", "X-Amz-Credential", "X-Amz-Signature")
-                )
-                expected_url = signed_s3_target(source, location)
+                ) or all(key in parameters for key in ("Expires", "Signature", "Key-Pair-Id"))
+                expected_url = signed_data_target(source, location)
                 response.close()
                 require(time.monotonic() < deadline, "Deadline before signed hop")
                 clean = anonymous_session()
@@ -314,5 +385,8 @@ def transfer_one(session, source, cache, *, deadline, cache_limit_bytes, reserve
         **result,
         "reused": False,
         "network_bytes": received,
-        "verified_s3_redirect": redirected,
+        "verified_s3_redirect": redirected
+        and not urlsplit(response.url).hostname.endswith(".cloudfront.net"),
+        "verified_cloudfront_redirect": redirected
+        and urlsplit(response.url).hostname.endswith(".cloudfront.net"),
     }

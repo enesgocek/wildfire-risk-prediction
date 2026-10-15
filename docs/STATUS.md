@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Gerçek başlık teşhisi alındı; CloudFront uyumluluğu hazır](OBSERVATION_CORE_CDN_2026-10-15.md):
+İki kaynak 303/sorgulu aynı dosya adıyla farklı hedef verdi; otomatik
+indirme kabulü yok. Tarayıcı konum dosyasının kaynak metadatası CloudFront
+rota/tam CMR bucket-key biçimini doğruladı. Yalnız aynı nesneye tek,
+kimliksiz S3/CloudFront adımı eklendi; boyut/SHA/checksum kapıları korundu.
+11 yeni vaka dahil 179 ilgili test ve beş dosyada lint/format geçti.
+117 giriş/iki çıktı, 22 donmuş girdi ve eski iki ham dosya doğrulandı.
+Yeni planın cache'i boş; özel girişle aynı tek çiftin gerçek aktarımı
+bekleniyor. Eski dosyalar korunuyor; etiket/model/bulut işi yok.
+
 [Kota kesintisi sonrası devam kontrolü ve ayrı erişim teşhisi hazır](OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md):
 Önceki tek çift kontrolü yarım kalmamış; makbuz, 117 plan girdisi,
 22 donmuş girdi ve iki ham dosyanın 191.244.528 baytı yeniden doğrulandı.
