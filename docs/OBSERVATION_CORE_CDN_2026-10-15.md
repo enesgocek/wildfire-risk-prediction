@@ -152,3 +152,42 @@ Yukarıdaki `--latest-plan --run-one --prompt-login` komutu bu yeni plana
 bağlanır. Yalnız aynı iki kaynak/191.244.528 bayt ve 900 saniyelik sınır
 geçerlidir. Özel giriş kullanıcıda yeniden yapılmalı; yeni gerçek aktarım
 henüz yok. Etiket/model/bulut işi veya nihai birleştirme yapılmadı.
+
+## Ek sağlayıcı alanlarının gerçek reddi ve düzeltme
+
+`20261015T103944Z_3595d6a4` gerçek tekrarında canned imza alanları ve
+tekil/dolu değerler geçti; sabit alan listesi `cdn_query_fields` ile
+durdurdu. Ek alan adı/değeri kaydedilmediğinden sonradan uydurulmadı.
+Failure SHA-256 `151a985751b21d6a5b997ee6dc32ef0c382855c5871e46358965a53890a950a1`.
+Hedefe istek ve yeni ham dosya yazımı yok; eski tarayıcı çifti korunuyor.
+
+[AWS canned URL belgesi](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-creating-signed-url-canned-policy.html)
+sağlayıcının kendi sorgu alanlarını ve isteğe bağlı Hash-Algorithm alanını
+destekler. [AWS imza açıklamasına](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-signed-urls.html)
+göre ek alanları imzadan sonra değiştirmek imzayı bozar. Sabit ek-alan
+listemiz gereğinden dardı. Yeni sürümlü politika, onaylı NASA yanıtının
+aynı tam CMR bucket/key hedefindeki sağlayıcı alanlarını opak ve aynen
+korur; ad/değerlerini yazmaz. İmza ailesi, ayrılmış alan çakışmaları,
+tekil/dolu değerler ve tam dosya boyut/SHA/checksum koşulları korunur.
+
+En fazla 32 alan, ASCII anahtar biçiminde 64 karakter, çözülmüş toplam
+65.536 karakter ve değer başına 16.384 karakter sınırı vardır; kontrol
+karakterleri yasaktır. versionId/partNumber/uploadId kaynak seçicileri
+reddedilir. Custom Policy desteklenmez; Hash-Algorithm yalnız SHA1/SHA256
+olabilir. İkinci yönlendirme izlenmez, ikinci oturuma EDL kimlik bilgisi
+aktarılmaz. Önceki plan/rapor sessizce değiştirilmedi.
+
+**13 yeni vaka dahil 203 ilgili test** geçti: iki imza ailesinde ek
+alanların değiştirilmeden iletilmesi ve rapora geçmemesi, hash algoritması,
+ayrılmış alanlar/seçiciler, çift/bozuk/aşırı büyük/kontrol karakterli
+alanlar sınandı. Dört değişen Python dosyasında lint/format geçti.
+Yeni plan `outputs/reports/dataset/observation_core_transfer_v1/20261015T104255Z_9750c1c4/`.
+Plan SHA-256 `fa3cce2822c3825e28352468fa4db8e107f59215f95fab7b8272454900d44edc`;
+readback SHA-256 `ecbceb5b5be38c24cb1f8eaca6c71e84fec5a79db20f05555f07029dc582f595`;
+kapanış SHA-256 `2b52e3b54f55c919ce08bf6084563a44f40f857f4d84d23f0b7792cf9e1f5099`.
+117 giriş/iki çıktı ve 22 donmuş girdi kontrolü geçti. İki eski dosyanın
+191.244.528 baytı yeniden doğrulandı; yeni cache yok.
+
+Aynı `--latest-plan --run-one --prompt-login` komutu yeni plana geçer.
+Kapsam ilk çift/191.244.528 bayt/900 saniyedir; yeni gerçek aktarım sonucu
+henüz yok. Etiket/model, nihai birleştirme veya bulut işi başlatılmadı.

@@ -20,6 +20,8 @@ SIGV4_FIELDS = SIGV4_REQUIRED | {
 }
 CANNED_FIELDS = {"Expires", "Signature", "Key-Pair-Id"}
 CDN_LOG_FIELDS = {"A-userid", "sourceip"}  # Values are never logged or persisted.
+CDN_RESERVED = SIGV4_FIELDS | CANNED_FIELDS | {"Policy", "Hash-Algorithm"}
+S3_SELECTORS = {"versionId", "partNumber", "uploadId"}
 
 # Only these literal project guard messages may be mapped to a public error code.
 # Arbitrary exception text, URL queries and server response bodies are never recorded.
@@ -70,6 +72,9 @@ SAFE_ERROR_CODES = {
     "Known CDN query fields": "cdn_query_fields",
     "CDN SigV4 parameter shape": "cdn_sigv4_shape",
     "CDN canned parameter shape": "cdn_canned_shape",
+    "Bounded CDN query fields": "cdn_query_bounds",
+    "No conflicting CDN reserved fields": "cdn_query_reserved",
+    "Supported CloudFront hash algorithm": "cdn_hash_algorithm",
 }
 
 
@@ -95,6 +100,7 @@ def safe_error_details(error):
         "cdn_canned_fields_present",
         "cdn_single_nonempty_values",
         "cdn_query_fields_allowed",
+        "cdn_extra_query_fields_present",
     ):
         value = original.get(name)
         if type(value) is bool:
@@ -244,8 +250,28 @@ def signed_parameter_shape(location):
         "cdn_sigv4_fields_present": SIGV4_REQUIRED <= set(params),
         "cdn_canned_fields_present": CANNED_FIELDS <= set(params),
         "cdn_single_nonempty_values": all(len(v) == 1 and bool(v[0]) for v in params.values()),
-        "cdn_query_fields_allowed": set(params) <= SIGV4_FIELDS | CANNED_FIELDS | CDN_LOG_FIELDS,
+        "cdn_query_fields_allowed": bounded_provider_query(params),
+        "cdn_extra_query_fields_present": bool(set(params) - CDN_RESERVED - CDN_LOG_FIELDS),
     }
+
+
+def bounded_provider_query(params):
+    """Keep provider parameters opaque; bound syntax/size and reject source selectors.
+
+    CloudFront signs the base URL including provider query parameters. A local
+    fixed name list cannot enumerate these. Never remove or rewrite them.
+    """
+    return (
+        0 < len(params) <= 32
+        and not (set(params) & S3_SELECTORS)
+        and all(re.fullmatch(r"[A-Za-z][A-Za-z0-9_.-]{0,63}", key) for key in params)
+        and sum(len(key) + sum(len(v) for v in values) for key, values in params.items()) <= 65536
+        and all(
+            len(value) <= 16384 and not any(ord(c) < 32 or ord(c) == 127 for c in value)
+            for values in params.values()
+            for value in values
+        )
+    )
 
 
 def signed_data_target(source, location):
@@ -299,8 +325,9 @@ def signed_data_target(source, location):
     require(shape["cdn_single_nonempty_values"], "Single nonempty CDN query values")
     sigv4, canned = shape["cdn_sigv4_fields_present"], shape["cdn_canned_fields_present"]
     require(sigv4 != canned, "One supported CDN signing scheme")
-    allowed = (SIGV4_FIELDS if sigv4 else CANNED_FIELDS) | CDN_LOG_FIELDS
-    require(set(params) <= allowed, "Known CDN query fields")
+    reserved = SIGV4_FIELDS if sigv4 else CANNED_FIELDS | {"Hash-Algorithm"}
+    require(not ((set(params) - reserved) & CDN_RESERVED), "No conflicting CDN reserved fields")
+    require(shape["cdn_query_fields_allowed"], "Bounded CDN query fields")
     if sigv4:
         # TEA can wrap a SigV4-signed S3 URL in CloudFront; it is not a
         # CloudFront canned signature. Preserve the original signed query.
@@ -310,6 +337,10 @@ def signed_data_target(source, location):
             "CDN SigV4 parameter shape",
         )
     else:
+        require(
+            params.get("Hash-Algorithm", ["SHA1"]) in (["SHA1"], ["SHA256"]),
+            "Supported CloudFront hash algorithm",
+        )
         require(
             params["Expires"][0].isdigit()
             and int(params["Expires"][0]) > 0

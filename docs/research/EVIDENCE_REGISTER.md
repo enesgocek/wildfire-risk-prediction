@@ -946,6 +946,16 @@ kapanış SHA-256 `77e3398ee8dc4971a1e2448f94a6148d49cf4770262af06e10dd60f2e7ede
 117 giriş/iki çıktı/22 donmuş girdi kontrolü; canlı yeni aktarım ve
 etiket/model kabulü henüz yok.
 
+E101 — 15 Ekim: [Gerçek ek-alan reddi ve sorgu politikası](../OBSERVATION_CORE_CDN_2026-10-15.md#ek-sağlayıcı-alanlarının-gerçek-reddi-ve-düzeltme).
+Failure SHA-256 `151a985751b21d6a5b997ee6dc32ef0c382855c5871e46358965a53890a950a1`:
+canned/tekillik geçti; sabit ek ad listesi durdurdu. Alan adı/değeri yok.
+AWS sözleşmesine göre opak sorgu/ayrılmış imza/kaynak-seçici/boyut
+kuralları eklendi. 13 yeni vaka dahil 203 ilgili test geçti.
+Yeni readback SHA-256 `ecbceb5b5be38c24cb1f8eaca6c71e84fec5a79db20f05555f07029dc582f595`;
+kapanış SHA-256 `2b52e3b54f55c919ce08bf6084563a44f40f857f4d84d23f0b7792cf9e1f5099`.
+117 giriş/iki çıktı/22 donmuş girdi kontrolü geçti. Eski çift korunuyor;
+canlı yeni aktarım ve etiket/model kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

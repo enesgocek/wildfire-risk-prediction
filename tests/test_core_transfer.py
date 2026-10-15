@@ -506,7 +506,7 @@ def test_exact_cloudfront_object_uses_empty_second_session_and_full_byte_checks(
         lambda u: u.replace("/route/", "/../"),
         lambda u: u.replace("Signature=", "unexpected="),
         lambda u: u + "&Signature=" + "b" * 64,
-        lambda u: u + "&private=unexpected",
+        lambda u: u + "&versionId=unexpected",
     ],
 )
 def test_cloudfront_rejects_changed_host_full_key_bucket_route_and_signature(change):
@@ -594,7 +594,7 @@ def test_duplicate_cdn_signature_is_rejected_in_both_schemes(factory):
         lambda u: u.replace("AWS4-HMAC-SHA256", "unsupported"),
         lambda u: u.replace("X-Amz-Signature=" + "b" * 64, "X-Amz-Signature=malformed"),
         lambda u: u + "&Expires=2000000000&Signature=" + "a" * 64 + "&Key-Pair-Id=K123",
-        lambda u: u + "&unknown=synthetic-private",
+        lambda u: u + "&versionId=synthetic-private",
         lambda u: u.replace("X-Amz-Credential=synthetic-private-credential", "X-Amz-Credential="),
     ],
 )
@@ -606,12 +606,57 @@ def test_wrapped_sigv4_rejects_invalid_ambiguous_or_unrecognized_query(change):
 
 def test_parameter_shape_diagnostics_distinguish_schemes_without_values(tmp_path):
     r = redirected_source()
-    target = cloudfront_sigv4_url(r) + "&unknown=synthetic-private"
+    target = cloudfront_sigv4_url(r) + "&versionId=synthetic-private"
     with pytest.raises(ValueError) as error:
         run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
     result = transfer.safe_error_details(error.value)
-    assert result["safe_code"] == "cdn_query_fields"
+    assert result["safe_code"] == "cdn_query_bounds"
     assert result["transfer_diagnostics"]["cdn_sigv4_fields_present"] is True
     assert result["transfer_diagnostics"]["cdn_canned_fields_present"] is False
     assert result["transfer_diagnostics"]["cdn_query_fields_allowed"] is False
     assert "synthetic-private" not in json.dumps(result) and not list(tmp_path.iterdir())
+
+
+@pytest.mark.parametrize("factory", [cloudfront_url, cloudfront_sigv4_url])
+def test_provider_specific_signed_query_is_preserved_but_never_reported(
+    tmp_path, monkeypatch, factory
+):
+    r = redirected_source()
+    target = factory(r) + "&provider-context=synthetic-private-value"
+    assert transfer.signed_data_target(r, target) == target
+    final = Response(r)
+    final.url = target
+    clean = Session(final)
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: clean)
+    _, result = run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    assert clean.calls[0][0] == target and result["sha256"] == r["sha256"]
+    assert "provider-context" not in json.dumps(result) and "synthetic-private" not in json.dumps(
+        result
+    )
+
+
+@pytest.mark.parametrize("algorithm", ["SHA1", "SHA256"])
+def test_documented_optional_cloudfront_hash_algorithm(algorithm):
+    r = redirected_source()
+    target = cloudfront_url(r) + "&Hash-Algorithm=" + algorithm
+    assert transfer.signed_data_target(r, target) == target
+
+
+@pytest.mark.parametrize(
+    "extra",
+    [
+        "&Hash-Algorithm=unsupported",
+        "&Policy=synthetic-policy",
+        "&versionId=other-version",
+        "&partNumber=1",
+        "&uploadId=other",
+        "&provider-context=one&provider-context=two",
+        "&provider-context=%00private",
+        "&bad%20key=private",
+        "&provider-context=" + "a" * 16385,
+    ],
+)
+def test_provider_query_extension_keeps_auth_identity_and_bounds(extra):
+    r = redirected_source()
+    with pytest.raises(ValueError):
+        transfer.signed_data_target(r, cloudfront_url(r) + extra)

@@ -71,6 +71,10 @@ def load_plan(path):
         "Reviewed dual CDN signing policy",
     )
     require(
+        plan.get("cdn_query_policy") == "opaque_bounded_provider_fields_reserved_controls",
+        "Reviewed bounded CDN provider query policy",
+    )
+    require(
         all(digest(ROOT / n) == h for n, h in plan["input_sha256"].items()),
         "Exact current plan inputs",
     )

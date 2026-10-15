@@ -20,6 +20,12 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+[Gerçek cdn_query_fields reddi sonrası](../docs/OBSERVATION_CORE_CDN_2026-10-15.md#ek-sağlayıcı-alanlarının-gerçek-reddi-ve-düzeltme)
+sağlayıcı alanları değiştirilmeden; biçim/boyut, ayrılmış imza ve kaynak
+seçicisi kurallarıyla korunur. Güncel komut yine
+`run_observation_core_pair.py --latest-plan --run-one --prompt-login`.
+Yeni plan cache'i boş; gerçek aktarım sonucu henüz yok.
+
 CDN tekrarındaki imza guard'ı sonrasında
 [iki imza biçimi ve ayrıntılı güvenli kodlar](../docs/OBSERVATION_CORE_CDN_2026-10-15.md#sonraki-gerçek-hata-ve-iki-cdn-imza-biçimi)
 hazırlandı. Güncel `--latest-plan --run-one --prompt-login` yine yalnız

@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Ek sağlayıcı alanı reddi doğrulandı; sorgu uyumluluğu hazır](OBSERVATION_CORE_CDN_2026-10-15.md#ek-sağlayıcı-alanlarının-gerçek-reddi-ve-düzeltme):
+Son canned isteğinde tekil/dolu değerler geçti; sabit ad listesi
+cdn_query_fields ile durdurdu. Ek alan adı/değeri kayıtlı değil. AWS'nin
+belgelenmiş ek sorgu sözleşmesine uygun opak/değiştirilmeden korunan
+alanlar; biçim/boyut, ayrılmış imza ve sürüm/kısım seçicisi kontrolleri
+eklendi. 13 yeni vaka dahil 203 ilgili test, dört dosyada lint/format ve
+yeni 117 giriş/iki çıktı/22 donmuş girdi planı geçti. Eski çift korunuyor;
+aynı tek çiftin yeni gerçek aktarımı ve etiket/model kabulü henüz yok.
+
 [Son tekrar imza parametresinde durdu; çift CDN imza desteği hazır](OBSERVATION_CORE_CDN_2026-10-15.md#sonraki-gerçek-hata-ve-iki-cdn-imza-biçimi):
 Gerçek yangın isteği 303/CloudFront sonrası `cloudfront_parameters` ile
 durdu; yeni ham dosya yok. İlk destek canned biçimiyle sınırlıydı;
