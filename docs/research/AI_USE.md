@@ -709,6 +709,14 @@ vaka ve yeni plan kapanışında kullanıldı. Saklanmayan ek alan adı/değeri
 veya gerçek yeni aktarım başarısı uydurulmadı.
 [Kanıt ve sınır](../OBSERVATION_CORE_CDN_2026-10-15.md#ek-sağlayıcı-alanlarının-gerçek-reddi-ve-düzeltme).
 
+15 Ekim mekânsal çekirdek kaydı: araç desteği kabul edilmiş tek çiftin
+çevrimdışı işlenmesi için yeni orkestrasyon, dokuz davranış testi,
+CSV/GPKG ve hash geri kontrolü, açıklamalı bilimsel görsel ve rapor
+hazırlığında kullanıldı. Eski bilimsel kodlar değiştirilmedi. Görsel
+araçla okunabilirlik açısından incelendi; bağımsız olay doğrulaması veya
+araştırmacının manuel etiket incelemesi olarak sunulmadı.
+[Kapsam ve kanıt](../OBSERVATION_CORE_SPATIAL_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -966,6 +966,16 @@ kapanış SHA-256 `62e68750bf26033487e861a5d317c6439e9a72e91bf62da88cfe3882a12ae
 Tek çiftin erişim/bayt/başlık kabulüdür; mekânsal dizi değerleri, geniş
 pilot, etiket/model ve nihai birleştirme kabulü değildir.
 
+E103 — 15 Ekim: [İlk çekirdek çiftinin mekânsal/zaman tanısı](../OBSERVATION_CORE_SPATIAL_2026-10-15.md).
+Tek SNPP:2018045.0000 geçişinde 335.099 AOI merkezi, 203 tarama,
+4.066 tarama/hücre satırı; 61 seyrek termal kayıtla native yönelim
+eşleşti. Yaklaşık alan CSV/GPKG geri okuması, 132 giriş/11 çıktı ve
+22 donmuş girdi kapanışı geçti. Dokuz yeni vaka dahil 73 ilgili test.
+Readback SHA-256 `e8870f29a99e2c7bb5aaad3b853cabda0f3df76442072c3ea7229a8e88c0fed2`;
+kapanış SHA-256 `cff03f2ca5baabc2750344e9745974108a5c31391abe9a861f7adc01ab6ed1a5`.
+Yeni ağ/bulut işi yok. Tek çift tanısı; fiziksel tam örtüm, bütün pilot,
+bağımsız yangın sayısı, etiket/model veya nihai birleştirme kabulü değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İlk yeni çiftin mekânsal/zaman tanısı tamamlandı](OBSERVATION_CORE_SPATIAL_2026-10-15.md):
+14 Şubat 2018'de tek altı dakikalık SNPP geçişinde 335.099 AOI merkezi,
+203 tarama ve 4.066 tarama/hücre satırı uzlaştırıldı; 2.899 hücre korundu.
+61 seyrek termal kaydın tamamı native yönelim kontrolünde eşleşti;
+bağımsız yangın sayısı değildir. Yaklaşık alan, CSV/GPKG ve 132 giriş/
+11 çıktı kapanışı geçti. Dokuz yeni vaka dahil 73 ilgili test, üç dosyada
+lint/format geçti. Çevrimdışı alt süreç 113,266 saniye sürdü; geniş pilot
+süre tahmini değildir. Açıklamalı üç panelli görsel hazır. Yeni ağ/bulut
+işi yok; geniş pilot, güvenilir negatif ve etiket/model kabulü açık.
+
 [İlk çiftin gerçek otomatik aktarımı ve yerel geri kontrolü geçti](OBSERVATION_CORE_CDN_2026-10-15.md#ilk-gerçek-otomatik-aktarımın-yerel-kabulü):
 SNPP:2018045.0000 için iki dosyada toplam 191.244.528 yeni ağ baytı
 kaydedildi; önbellek kullanımı yok. Tam boyut/tarihsel SHA ve konum

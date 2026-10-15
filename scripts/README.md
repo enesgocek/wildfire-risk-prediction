@@ -4,6 +4,19 @@ Komutları proje kökünden (`wildfire-risk-prediction`) çalıştır.
 Python yorumlayıcısı `.venv/Scripts/python.exe`; JavaScript dosyaları Earth Engine
 Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
+## İlk gözlem çiftinin yerel mekânsal denetimi
+
+Kabul edilmiş ilk gözlem çiftini yeniden indirmeden mekânsal olarak
+denetlemek: `python scripts/quality/review_observation_core_pair.py`.
+Sabit makbuz/plan ve gerçek dosya hash'lerini kontrol eder; eski bilimsel
+kodları değiştirmeden yeni dizinde piksel/QA, yaklaşık alan ve tarama
+zamanı çıktıları üretir. Tek yerel alt süreç/1.800 saniye üst sınırı vardır;
+ağ ve bulut işi yoktur. Bütün çıktılar korunur; geniş pilot/etiket kabulü
+yapılmaz. İlk kapanışın açıklamalı görselini yeniden üretmek için
+`python scripts/quality/plot_observation_core_pair.py` kullanılır;
+görselleştirici bu raporun tam hash'ine bağlıdır, risk haritası üretmez.
+[Gerçek sonuç ve kapsam](../docs/OBSERVATION_CORE_SPATIAL_2026-10-15.md).
+
 ## Güncel bulut çalışması
 
 Mevcut kaynak erteleme akışı ve çalıştırma sırası

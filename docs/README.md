@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [İlk çekirdek çiftinin mekânsal/zaman tanısı](OBSERVATION_CORE_SPATIAL_2026-10-15.md) | Gerçek piksel/QA ve tarama uzlaştırması, yaklaşık alan geri okuması, açıklamalı görsel ve tek çift kabul sınırı |
 | [CloudFront uyumluluğu ve gerçek teşhis](OBSERVATION_CORE_CDN_2026-10-15.md) | İki gerçek 303 kaydı, tarayıcı kaynak izi, tam CMR nesnesine kimliksiz CDN adımı ve yeni tek çift planı |
 | [Devam kontrolü ve başlık erişim teşhisi](OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md) | Korunan tek çift, cache başarısını uzak erişimden ayıran iki başlık/120 saniye teşhisi ve özel giriş adımı |
 | [Tek çiftte güvenli ValueError teşhisi](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md) | İki gerçek tekrar, sabit kontrol kodları, URI normalizasyon regresyonu ve güncel plan komutu |
