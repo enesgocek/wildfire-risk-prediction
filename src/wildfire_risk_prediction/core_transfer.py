@@ -5,12 +5,100 @@ import re
 import shutil
 import time
 from contextlib import ExitStack, contextmanager
-from urllib.parse import parse_qs, unquote, urlsplit
+from urllib.parse import parse_qs, parse_qsl, unquote, urlsplit
 
 from wildfire_risk_prediction.cmr_identity import identity
 from wildfire_risk_prediction.feature_join import require
 
 DATA_HOSTS = {"data.laadsdaac.earthdatacloud.nasa.gov", "data.lpdaac.earthdatacloud.nasa.gov"}
+
+# Only these literal project guard messages may be mapped to a public error code.
+# Arbitrary exception text, URL queries and server response bodies are never recorded.
+SAFE_ERROR_CODES = {
+    "Exact NASA data URL without embedded credentials": "source_url_identity",
+    "Regular native file": "native_file_type",
+    "Exact historical source size": "historical_size",
+    "Exact historical SHA-256": "historical_sha256",
+    "Supported provider checksum": "checksum_algorithm",
+    "Provider checksum": "provider_checksum",
+    "Dedicated regular cache": "cache_directory",
+    "No cache symlinks": "cache_symlink",
+    "Positive expected transfer": "transfer_budget",
+    "Pilot cache capacity": "cache_capacity",
+    "Free disk reserve": "disk_reserve",
+    "Secure signed redirect": "redirect_transport",
+    "Registered NASA bucket": "cmr_bucket",
+    "Plain CMR S3 identity": "cmr_object_identity",
+    "One exact CMR S3 object": "cmr_object_count",
+    "Same signed S3 object key": "signed_object_key",
+    "Exact regional S3 bucket/key": "signed_endpoint_or_key",
+    "Signed S3 request parameters": "signed_parameters",
+    "Exact direct NASA data URL": "origin_response_url",
+    "Exact final object response": "final_response_url",
+    "Deadline before signed hop": "redirect_deadline",
+    "Contained native target": "cache_target_path",
+    "Retained partial requires review before retry": "retained_partial",
+    "Pilot deadline before request": "request_deadline",
+    "Unencoded native bytes": "response_encoding",
+    "Response length": "response_length",
+    "Pilot transfer deadline": "transfer_deadline",
+    "Transfer exceeds historical byte bound": "transfer_size_bound",
+    "Transfer disk reserve": "transfer_disk_reserve",
+    "Native pair key": "native_pair_key",
+    "Native swath dimensions": "native_dimensions",
+    "Native fire/QA types": "native_types",
+    "Native orbit identity": "native_orbit",
+    "Native/CMR interval": "native_interval",
+    "Native probe input closure": "input_closure",
+    "Native probe readback": "result_readback",
+    "Not the actual geolocation input": "native_geolocation_lineage",
+    "Direct NASA data response rejected": "data_http_status",
+}
+
+
+def safe_error_details(error):
+    result = {"safe_code": SAFE_ERROR_CODES.get(str(error), "unclassified")}
+    status = getattr(error, "http_status", None)
+    result["http_status"] = status if type(status) is int and 100 <= status <= 599 else None
+    original = getattr(error, "transfer_diagnostics", {})
+    original = original if isinstance(original, dict) else {}
+    diagnostics = {}
+    for name in ("origin_http_status", "final_http_status"):
+        value = original.get(name)
+        if type(value) is int and 100 <= value <= 599:
+            diagnostics[name] = value
+    for name in ("expected_body_bytes", "content_length_bytes"):
+        value = original.get(name)
+        if type(value) is int and 0 <= value < 10**12:
+            diagnostics[name] = value
+    for name in ("signed_parameters_present", "final_request_equivalent"):
+        value = original.get(name)
+        if type(value) is bool:
+            diagnostics[name] = value
+    if original.get("redirect_host_kind") in {"earthdata_login", "aws", "other", "missing"}:
+        diagnostics["redirect_host_kind"] = original["redirect_host_kind"]
+    result["transfer_diagnostics"] = diagnostics
+    return result
+
+
+def same_request_url(actual, expected):
+    """Ignore harmless URI quoting normalization, preserve host/path/query semantics."""
+    a, b = urlsplit(actual), urlsplit(expected)
+    return (
+        a.scheme == b.scheme == "https"
+        and a.hostname == b.hostname
+        and a.port in {None, 443}
+        and b.port in {None, 443}
+        and not a.username
+        and not a.password
+        and not b.username
+        and not b.password
+        and not a.fragment
+        and not b.fragment
+        and unquote(a.path) == unquote(b.path)
+        and sorted(parse_qsl(a.query, keep_blank_values=True))
+        == sorted(parse_qsl(b.query, keep_blank_values=True))
+    )
 
 
 class DataResponseError(ValueError):
@@ -129,26 +217,55 @@ def data_response(session, source, deadline):
         "timeout": (10, 30),
         "headers": {"Accept-Encoding": "identity"},
     }
-    with ExitStack() as stack:
-        response = stack.enter_context(session.get(url, **options))
-        require(response.url == url, "Exact direct NASA data URL")
-        redirected = response.status_code in {302, 303, 307, 308}
-        expected_url = url
-        if redirected:
-            expected_url = signed_s3_target(source, response.headers.get("Location", ""))
-            response.close()
-            require(time.monotonic() < deadline, "Deadline before signed hop")
-            clean = anonymous_session()
-            stack.callback(clean.close)
-            clean.headers.clear()
-            clean.cookies.clear()
-            clean.auth = None
-            clean.trust_env = False
-            response = stack.enter_context(clean.get(expected_url, **options))
-        if response.status_code != 200:
-            raise DataResponseError(response.status_code)
-        require(response.url == expected_url, "Exact final object response")
-        yield response, redirected
+    diagnostics = {"expected_body_bytes": source["bytes"]}
+    try:
+        with ExitStack() as stack:
+            response = stack.enter_context(session.get(url, **options))
+            diagnostics["origin_http_status"] = response.status_code
+            require(same_request_url(response.url, url), "Exact direct NASA data URL")
+            redirected = response.status_code in {302, 303, 307, 308}
+            expected_url = url
+            if redirected:
+                location = response.headers.get("Location", "")
+                parts = urlsplit(location)
+                host = parts.hostname or ""
+                diagnostics["redirect_host_kind"] = (
+                    "earthdata_login"
+                    if host == "urs.earthdata.nasa.gov"
+                    else "aws"
+                    if host.endswith(".amazonaws.com")
+                    else "other"
+                    if host
+                    else "missing"
+                )
+                parameters = parse_qs(parts.query)
+                diagnostics["signed_parameters_present"] = all(
+                    key in parameters
+                    for key in ("X-Amz-Algorithm", "X-Amz-Credential", "X-Amz-Signature")
+                )
+                expected_url = signed_s3_target(source, location)
+                response.close()
+                require(time.monotonic() < deadline, "Deadline before signed hop")
+                clean = anonymous_session()
+                stack.callback(clean.close)
+                clean.headers.clear()
+                clean.cookies.clear()
+                clean.auth = None
+                clean.trust_env = False
+                response = stack.enter_context(clean.get(expected_url, **options))
+            diagnostics["final_http_status"] = response.status_code
+            if response.status_code != 200:
+                raise DataResponseError(response.status_code)
+            equivalent = same_request_url(response.url, expected_url)
+            diagnostics["final_request_equivalent"] = equivalent
+            require(equivalent, "Exact final object response")
+            length = response.headers.get("Content-Length", "")
+            if length.isdigit():
+                diagnostics["content_length_bytes"] = int(length)
+            yield response, redirected
+    except Exception as error:
+        error.transfer_diagnostics = diagnostics
+        raise
 
 
 def transfer_one(session, source, cache, *, deadline, cache_limit_bytes, reserve_bytes):

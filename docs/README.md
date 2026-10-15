@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Tek çiftte güvenli ValueError teşhisi](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md) | İki gerçek tekrar, sabit kontrol kodları, URI normalizasyon regresyonu ve güncel plan komutu |
 | [Tek çiftte HTTP 303 düzeltmesi](OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md) | Gerçek hata kanıtı, aynı CMR S3 nesnesine kimliksiz ayrı oturum, 152 ilgili test ve yeni özel giriş planı |
 | [Sınırlı ham kaynak kontrolü](OBSERVATION_CORE_TRANSFER_2026-10-15.md) | Tek çift/191 MB, özel terminal girişi, disk/süre/checkpoint korumaları ve eski gerçek yerel çiftte başlık okuyucu sınaması |
 | [Gözlem çekirdeğinin NASA katalog kontrolü](OBSERVATION_CORE_CATALOGUE_2026-10-15.md) | 584 tam kimlik/sürüm ve metadata eşleşmesi, ham içerik/erişim sınırı ve S-NPP kaynak sürekliliği duyurusu |

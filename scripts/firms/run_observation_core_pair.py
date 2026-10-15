@@ -17,7 +17,13 @@ from contextlib import ExitStack
 from datetime import UTC, datetime
 from pathlib import Path
 
-from wildfire_risk_prediction.core_transfer import check_file, digest, transfer_one
+from wildfire_risk_prediction.core_transfer import (
+    SAFE_ERROR_CODES,
+    check_file,
+    digest,
+    safe_error_details,
+    transfer_one,
+)
 from wildfire_risk_prediction.feature_join import require
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -56,6 +62,11 @@ def load_plan(path):
         "Reviewed single-hop S3 policy",
     )
     require(
+        plan.get("failure_diagnostics_policy")
+        == "literal_guard_codes_and_safe_structural_fields_only",
+        "Safe failure diagnostics policy",
+    )
+    require(
         all(digest(ROOT / n) == h for n, h in plan["input_sha256"].items()),
         "Exact current plan inputs",
     )
@@ -65,6 +76,14 @@ def load_plan(path):
         "First pair only",
     )
     return plan, first
+
+
+def latest_plan():
+    candidates = sorted(PLAN_ROOT.glob("*/native_plan.json"), reverse=True)
+    completed = [p for p in candidates if (p.parent / "completion_readback.json").is_file()]
+    require(bool(completed), "Completed native plan required")
+    # The caller still runs load_plan; never fall back silently if newest code/scope is stale.
+    return completed[0]
 
 
 def native_headers(pair, cache):
@@ -122,6 +141,7 @@ def child(plan_path, out):
     with lock.open("x", encoding="utf-8") as stream:
         stream.write(str(os.getpid()))
     phase = "private_authentication"
+    active_role = None
     try:
         deadline = time.monotonic() + plan["hard_runtime_seconds"] - 20
         records = []
@@ -134,6 +154,7 @@ def child(plan_path, out):
             try:
                 for source in pair["sources"]:
                     phase = "bounded_file_transfer"
+                    active_role = source["role"]
                     records.append(
                         transfer_one(
                             session,
@@ -186,7 +207,8 @@ def child(plan_path, out):
                 "status": "failed_raw_and_partial_files_retained",
                 "phase": phase,
                 "error_type": type(error).__name__,
-                "http_status": getattr(error, "http_status", None),
+                **safe_error_details(error),
+                "active_source_role": active_role,
                 "sample_id": pair["sample_id"],
                 "exception_message_recorded": False,
                 "negative_label_permitted": False,
@@ -283,6 +305,12 @@ def run(plan_path, prompt):
     )
     print("Sonuc klasoru:", out.relative_to(ROOT).as_posix(), flush=True)
     if state != "child_completed":
+        failure_path = out / "failure.json"
+        if failure_path.is_file():
+            failure = json.loads(failure_path.read_text(encoding="utf-8"))
+            code = failure.get("safe_code", "unclassified")
+            code = code if code in set(SAFE_ERROR_CODES.values()) else "unclassified"
+            print("Kontrol kodu:", code, flush=True)
         print("Kontrol tamamlanmadi; dosyalari koru ve yalniz bu genel durumu bildir.", flush=True)
         return 1
     completion = json.loads((out / "completion_readback.json").read_text(encoding="utf-8"))
@@ -295,17 +323,20 @@ def run(plan_path, prompt):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--plan", type=Path, required=True)
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--plan", type=Path)
+    source.add_argument("--latest-plan", action="store_true")
     action = parser.add_mutually_exclusive_group(required=True)
     action.add_argument("--run-one", action="store_true")
     action.add_argument("--worker", type=Path, help=argparse.SUPPRESS)
     parser.add_argument("--prompt-login", action="store_true")
     args = parser.parse_args()
     try:
+        plan_path = latest_plan() if args.latest_plan else args.plan
         if args.worker:
-            child(args.plan, args.worker)
+            child(plan_path, args.worker)
         else:
-            raise SystemExit(run(args.plan, args.prompt_login))
+            raise SystemExit(run(plan_path, args.prompt_login))
     except Exception as error:
         print("Kontrol tamamlanmadi:", type(error).__name__, flush=True)
         raise SystemExit(1) from None

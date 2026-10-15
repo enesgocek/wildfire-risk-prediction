@@ -194,6 +194,7 @@ def run():
         "pair_workers": 1,
         "partial_file_policy": "retain_and_stop_no_range_resume_or_overwrite",
         "redirect_policy": "one_exact_cmr_s3_object_in_separate_credential_free_session",
+        "failure_diagnostics_policy": "literal_guard_codes_and_safe_structural_fields_only",
         "raw_eviction_permitted": False,
         "cloud_execution_permitted": False,
         "negative_label_permitted": False,

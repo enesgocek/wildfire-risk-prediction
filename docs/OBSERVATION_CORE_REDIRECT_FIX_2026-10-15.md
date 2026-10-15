@@ -1,5 +1,9 @@
 # Tek çift denemesinde HTTP 303 ve dar düzeltme — 15 Ekim 2026
 
+**Sonraki gerçek tekrarlar:** iki deneme ValueError ile durdu. Kesin guard
+eski kayıtta bulunmuyor. [Yeni güvenli teşhis ve güncel kısa komut](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md)
+ayrı kayıttır; aşağıdaki testler canlı indirme başarısı değildir.
+
 İlk gerçek yerel indirme denemesi, `SNPP:2018045.0000` çifti için veri
 yanıtı aşamasında **HTTP 303** nedeniyle durdu. Bu bir başarı kaydı değildir.
 Önceki hazırlık ve kabul edilmiş bilimsel çıktılar değiştirilmedi; düzeltme

@@ -668,6 +668,14 @@ düzeltildi; saklanmayan ilk hedef sonradan doğrulanmış gibi anlatılmadı.
 Yeni kullanıcı girişi veya ham indirme gerçekleşmiş sayılmadı.
 [Hata kanıtı ve sınırlar](../OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md).
 
+## ValueError tekrarında güvenli teşhis — 15 Ekim 2026
+
+Araç desteği iki gerçek hata kaydı, izin listeli hata kodları/yapısal
+tanılar, URI normalizasyon regresyonu ve güncel plan seçimi testlerinde
+kullanıldı. Yetersiz eski kayıt açıkça belirtildi; yerel bulgu canlı hatanın
+kesin nedeni veya başarılı indirme sayılmadı.
+[Kayıt ve sınırlar](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -348,3 +348,112 @@ def test_signed_destination_cannot_redirect_again(tmp_path, monkeypatch):
     with pytest.raises(transfer.DataResponseError) as error:
         run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
     assert error.value.http_status == 303 and not list(tmp_path.iterdir())
+
+
+def test_safe_error_codes_never_copy_arbitrary_exception_text():
+    assert (
+        transfer.safe_error_details(ValueError("Response length"))["safe_code"] == "response_length"
+    )
+    error = ValueError("synthetic-private-value")
+    error.transfer_diagnostics = {
+        "Location": "synthetic-private-value",
+        "origin_http_status": 303,
+        "redirect_host_kind": "synthetic-private-value",
+        "expected_body_bytes": 6,
+        "signed_parameters_present": True,
+        "Authorization": "synthetic-private-value",
+    }
+    result = transfer.safe_error_details(error)
+    assert result["safe_code"] == "unclassified"
+    assert result["transfer_diagnostics"] == {
+        "origin_http_status": 303,
+        "expected_body_bytes": 6,
+        "signed_parameters_present": True,
+    }
+    assert "synthetic-private-value" not in json.dumps(result)
+
+
+def test_request_equivalence_allows_quoting_not_new_object_or_signature():
+    r = redirected_source()
+    original = signed_url(r) + "&audit=%7E"
+    assert transfer.same_request_url(original.replace("%7E", "~"), original)
+    assert not transfer.same_request_url(original.replace("product/", "other/"), original)
+    assert not transfer.same_request_url(
+        original.replace("X-Amz-Signature=0", "X-Amz-Signature=1"), original
+    )
+    assert not transfer.same_request_url(original.replace(".com/", ".com:0/"), original)
+
+
+def test_signed_response_normalization_preserves_hash_and_identity_checks(tmp_path, monkeypatch):
+    r = redirected_source()
+    target = signed_url(r) + "&audit=%7E"
+    final = Response(r)
+    final.url = target.replace("%7E", "~")
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: Session(final))
+    _, result = run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    assert result["sha256"] == r["sha256"] and result["verified_s3_redirect"]
+
+
+def test_redirect_rejection_records_only_safe_structure(tmp_path):
+    r = redirected_source()
+    target = signed_url(r, key="wrong/" + r["filename"])
+    with pytest.raises(ValueError) as error:
+        run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    details = transfer.safe_error_details(error.value)
+    assert details["safe_code"] == "signed_object_key"
+    assert details["transfer_diagnostics"]["origin_http_status"] == 303
+    assert details["transfer_diagnostics"]["redirect_host_kind"] == "aws"
+    assert "X-Amz" not in json.dumps(details) and "synthetic" not in json.dumps(details)
+
+
+def test_response_size_rejection_is_distinguishable_without_url_or_token(tmp_path):
+    r = source()
+    with pytest.raises(ValueError) as error:
+        run(r, tmp_path, Response(r, headers={"Content-Length": "9"}))
+    details = transfer.safe_error_details(error.value)
+    assert details["safe_code"] == "response_length"
+    assert details["transfer_diagnostics"]["content_length_bytes"] == 9
+    assert details["transfer_diagnostics"]["expected_body_bytes"] == 6
+
+
+def test_parent_shows_only_allowlisted_failure_code(tmp_path, monkeypatch, capsys):
+    module = runner()
+    monkeypatch.setattr(module.logging, "disable", lambda *_: None)
+    monkeypatch.setattr(module, "OUTPUT", tmp_path)
+    monkeypatch.setattr(
+        module,
+        "load_plan",
+        lambda _: ({"hard_runtime_seconds": 900}, {"sample_id": "fixed", "bytes": 6}),
+    )
+    monkeypatch.setattr(module, "digest", lambda _: "a" * 64)
+    monkeypatch.setenv("EARTHDATA_TOKEN", "synthetic-test-only")
+
+    def failed(command, **kwargs):
+        (Path(command[-1]) / "failure.json").write_text(
+            json.dumps({"safe_code": "synthetic-private-value"}), encoding="utf-8"
+        )
+        return SimpleNamespace(returncode=1)
+
+    monkeypatch.setattr(module.subprocess, "run", failed)
+    assert module.run(tmp_path / "plan.json", False) == 1
+    output = capsys.readouterr().out
+    assert "Kontrol kodu: unclassified" in output and "synthetic-private-value" not in output
+
+
+def test_latest_plan_chooses_completed_output_and_still_requires_separate_validation(
+    tmp_path, monkeypatch
+):
+    module = runner()
+    monkeypatch.setattr(module, "PLAN_ROOT", tmp_path)
+    with pytest.raises(ValueError):
+        module.latest_plan()
+    for folder in ("20260101_a", "20260102_b", "20260103_incomplete"):
+        p = tmp_path / folder
+        p.mkdir()
+        (p / "native_plan.json").write_text("{}")
+        if "incomplete" not in folder:
+            (p / "completion_readback.json").write_text("{}")
+    assert module.latest_plan() == tmp_path / "20260102_b/native_plan.json"
+    # A completion filename does not grant admission to a malformed or stale plan.
+    with pytest.raises((ValueError, FileNotFoundError)):
+        module.load_plan(module.latest_plan())

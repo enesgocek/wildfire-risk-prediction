@@ -20,6 +20,13 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+İki gerçek ValueError tekrarı sonrası [güvenli kontrol kodları](../docs/OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md)
+eklendi. Yerel özel terminalde
+`python scripts/firms/run_observation_core_pair.py --latest-plan --run-one --prompt-login`
+en güncel tamamlanmış planı seçer; kod/kaynak/hash girişten önce doğrulanır.
+Terminal yalnız izinli `Kontrol kodu:` değerini gösterir; özel hata/imzalı
+URL metni açılmaz. URI normalizasyon regresyonu gerçek hatanın nedeni sayılmadı.
+
 Tek çiftlik gerçek denemede 303 sonrası [dar yönlendirme düzeltmesi](../docs/OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md)
 eklendi. Yalnız aynı CMR bucket/nesnesine tek imzalı S3 adımı, ayrı kimliksiz
 oturumla kabul edilir; token/çerez/signed URL kaydedilmez. Kod hash'leri

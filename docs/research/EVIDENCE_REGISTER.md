@@ -879,6 +879,17 @@ SHA-256 `9444c56f9f97e8b71a9a91582f19322eabf3d775b8b2082962f6d5543908ad1f`;
 kapanış SHA-256 `2b8fcb6c0bb882884b10289a63de6c0feafac660a53454d9c1e28a4553344ff1`.
 Gerçek yeniden deneme/ham içerik kabulü açık; kapalı etiketler korunur.
 
+E94 — 15 Ekim: [İki ValueError tekrarı ve güvenli teşhis](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md).
+İki failure.json aynı ValueError/aktarım fazını kaydetti; SHA-256
+`9cb769f505f78657a32c4df27082c2c632303451c54e246277c19d0eb7241753`.
+Önbellek boş; kesin guard eski kayıtta yok. İzinli kod/yapısal tanı ve
+bağımsız URI normalizasyon düzeltmesi eklendi; nedensellik/canlı başarı
+uydurulmadı. 44 aktarım/159 ilgili test, dört dosyada lint/format geçti.
+Yeni plan 117 giriş/iki çıktı ve 22 donmuş girdi kapanışında; rapor SHA-256
+`7384cd89ec7d51ec2d04d9bdd8afac91f00ed8b9748152644dbbb3367e753a21`,
+kapanış SHA-256 `186352078aff3d2b35fbaab0399daf9c8933f0c3f1099448520c564624bd6e45`.
+Gerçek yeniden deneme, içerik ve etiket kabulü açık kalır.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

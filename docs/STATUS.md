@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İki tekrarın ValueError kaydı ve güvenli teşhis sürümü hazır](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md):
+Son iki gerçek deneme veri aktarımında ValueError ile durdu; önbellek boş.
+Önceki hata kaydı guard'ı tutmadığından kesin neden bilinmiyor. Sabit izin
+listeli kontrol kodları ve gizli değer içermeyen yapısal tanılar eklendi.
+Bağımsız testte URI normalizasyonunun metin eşitliğinde yanlış redde yol
+açabildiği saptanıp düzeltildi; gerçek hataların nedeni ilan edilmedi.
+Yedi yeni test dahil 44 aktarım/159 ilgili test, dört dosyada lint/format,
+117 giriş/iki çıktı ve 22 donmuş girdi kapanışı geçti. `--latest-plan` ile
+kısa özel giriş komutu hazır; gerçek yeni sonucun doğrulanması bekleniyor.
+Tek çift ve disk/süre/SHA/etiket sınırları korunur.
+
 [İlk tek çift denemesinin HTTP 303 nedeni ve düzeltmesi hazır](OBSERVATION_CORE_REDIRECT_FIX_2026-10-15.md):
 Yerel güvenli hata raporu veri yanıtında 303 gösterdi; ilgili ham önbellekte
 dosya yok. İlk kod bütün yönlendirmeleri fazla katı reddediyordu. Yeni sürüm
