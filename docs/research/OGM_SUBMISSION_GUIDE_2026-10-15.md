@@ -5,6 +5,25 @@ kayıt talebi yolunun kullanılmasını ve taslağı kendisinin göndermesini se
 Bu karar veri erişimi, kurum onayı veya etiket doğrulaması değildir.
 Henüz başvuru gönderildiğine ilişkin bildirim veya makbuz yoktur.
 
+## Doldurulabilir Word kopyası
+
+Araştırmacının isteğiyle yalnız başvuru içeriğini taşıyan bir sayfalık
+Word kopyası hazırlandı:
+`outputs/documents/ogm_cimer_2026-10-15/OGM_CIMER_Veri_Talebi.docx`.
+Üniversite, bölüm, tarih, ad soyad ve e-posta olmak üzere beş alan sarıyla
+işaretlendi. İç proje notları çıkarıldı; kişisel veri girilmedi. Doldurulan
+metin CİMER başvuru alanına aktarılabilir; Word eki desteği varsayılmadı.
+Başvuru ve kuruma gönderim hâlâ araştırmacının yapacağı işlemdir.
+
+Son DOCX SHA-256:
+`a104c408d35c5c567ce857f31406d1a3434b6ebb47f657d2125d2a13f47fe82f`.
+Bir sayfanın tamamı PNG olarak görsel kontrol edildi; beş alan, kişisel
+yazar metadatası ve yorum/değişiklik izi yokluğu ayrıca denetlendi.
+Windows'ta paketli LibreOffice bulunmadığından salt okunur Word PDF
+dışa aktarımı, paketli `render_docx.py` dönüştürme adaptörü ve Poppler ile
+kullanıldı. DOCX ve iç kontrol dosyaları yerelde, Git dışında tutulur.
+Hash ile bağlı ilk Markdown taslağı değiştirilmedi.
+
 ## Doğrulanmış resmî kanal
 
 [OGM'nin e-Devlet kurum sayfası](https://www.turkiye.gov.tr/orman-genel-mudurlugu),

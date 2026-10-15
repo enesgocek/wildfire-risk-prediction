@@ -17,6 +17,8 @@ Yeni etiket veya bulut işi yok. Araştırmacı kurumsal veri talebi yolunu da
 kullanmayı seçti; taslağı kendisi gönderecek. OGM'nin e-Devlet sayfasından
 CİMER kanalı doğrulandı; [gönderim rehberi](research/OGM_SUBMISSION_GUIDE_2026-10-15.md)
 hazır. Başvuru gönderildiğine ilişkin bildirim henüz yok.
+Yalnız beş kişisel/üniversite alanı doldurulacak bir sayfalık Word kopyası
+da hazırlandı ve sayfanın tamamı görsel olarak kontrol edildi; Git dışında.
 
 [Gözlem protokolünün saat/kalite kanıtı hazır](OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md):
 Aynı 156 birimde 624 adet altı saatlik dilim ve 747 birim/yörünge tanığı

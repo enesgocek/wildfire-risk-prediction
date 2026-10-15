@@ -765,6 +765,10 @@ göndermesini seçti. Araç desteği resmî OGM/e-Devlet CİMER bağlantısını
 kontrolü ve ayrı gönderim rehberinde kullanıldı. Kimlik doğrulaması, form
 gönderimi veya kuruma ileti yapılmadı; başvuru kararı veri kabulü sayılmadı.
 
+Araştırmacının sonraki isteğiyle aynı talebin kişisel alanları boş Word
+kopyası araç desteğiyle düzenlendi. Sayfa Word PDF dışa aktarımı ve paketli
+PNG rasterlemesiyle incelendi; kişisel bilgi girilmedi ve başvuru gönderilmedi.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
