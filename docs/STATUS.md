@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Otomatik yerel pilot kuyruğu ve zamanla aktarım azaltma hazır](OBSERVATION_PILOT_QUEUE_2026-10-15.md):
+İlk kaynak sekiz seçilmiş hücrede 1.624 tarama/geometri satırında doğrulandı;
+checkpoint'ten tekrar aynı rapor/CSV hash'i üretildi. 292 çiftin tam native
+zaman tanığı kontrol edildi: 194 çift bütünüyle pencere dışında, 98 çift
+ham geometri için gerekli. Kayıtlı yük 53,52 GB'tan 18,00 GB'a iner
+(%66,37 bayt azalması; hız ölçümü değil). Aynı 12 gün/156 birim korunur.
+V2'nin 156 bağlı girdisi ve kimliksiz gerçek çalışması geçti; gerekli
+98 çift için yeni özel giriş bekleniyor, aktarım çalışmıyor. 36 yeni vaka
+dahil 197 ilgili test ve on dosyada lint/format geçti. Bulut işi, ham
+silme, etiket/model veya nihai birleştirme yapılmadı.
+
 [İlk yeni çiftin mekânsal/zaman tanısı tamamlandı](OBSERVATION_CORE_SPATIAL_2026-10-15.md):
 14 Şubat 2018'de tek altı dakikalık SNPP geçişinde 335.099 AOI merkezi,
 203 tarama ve 4.066 tarama/hücre satırı uzlaştırıldı; 2.899 hücre korundu.

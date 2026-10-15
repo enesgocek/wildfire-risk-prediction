@@ -976,6 +976,18 @@ kapanış SHA-256 `cff03f2ca5baabc2750344e9745974108a5c31391abe9a861f7adc01ab6ed
 Yeni ağ/bulut işi yok. Tek çift tanısı; fiziksel tam örtüm, bütün pilot,
 bağımsız yangın sayısı, etiket/model veya nihai birleştirme kabulü değil.
 
+E104 — 15 Ekim: [Yerel kuyruk ve tam zaman tanığıyla aktarım azaltma](../OBSERVATION_PILOT_QUEUE_2026-10-15.md).
+İlk çiftte sekiz hücre/203 tarama/1.624 satır geometri uzlaştırıldı;
+gerçek checkpoint tekrarında aynı rapor/CSV hash'i alındı. 292 kaynak
+çiftinin tam native zaman tanığı 194 kesin pencere dışı, 98 gerekli ham
+geometri çifti gösterdi. Kayıtlı bayt 53.517.820.515 → 17.995.454.761;
+%66,37 aktarım baytı azalması, hız/model başarısı değil. 12 gün/156 birim aynı.
+Zaman tanığı readback SHA-256 `dc01d0c302416a3cdc448558ec7729ecf7aaf5abb2d77a12ab8ba6b6917173f8`.
+V2 plan SHA-256 `af4a8e1d7c6e8929cbb2a998864acb1ad7814f1bbd4a74a6cb4fd09acfc1112b`.
+Kimliksiz çalışma readback SHA-256 `890c96f4190c99c4276db5f21d69fb0fe54ced37fcdce91189f8a0aa3cf65918`.
+156 dosya girdisi, 22 donmuş girdi ve 36 yeni vaka dahil 197 test doğrulandı.
+Yeni aktarım özel giriş bekliyor; etiket/model/nihai birleştirme kabulü yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

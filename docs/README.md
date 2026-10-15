@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Yerel pilot kuyruğu ve zamanla aktarım azaltma](OBSERVATION_PILOT_QUEUE_2026-10-15.md) | Sabit 156 birim, 292 kaynakta native zaman tanığı, 98 gerekli geometri çifti, özel giriş ve devam kontrolü |
 | [İlk çekirdek çiftinin mekânsal/zaman tanısı](OBSERVATION_CORE_SPATIAL_2026-10-15.md) | Gerçek piksel/QA ve tarama uzlaştırması, yaklaşık alan geri okuması, açıklamalı görsel ve tek çift kabul sınırı |
 | [CloudFront uyumluluğu ve gerçek teşhis](OBSERVATION_CORE_CDN_2026-10-15.md) | İki gerçek 303 kaydı, tarayıcı kaynak izi, tam CMR nesnesine kimliksiz CDN adımı ve yeni tek çift planı |
 | [Devam kontrolü ve başlık erişim teşhisi](OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md) | Korunan tek çift, cache başarısını uzak erişimden ayıran iki başlık/120 saniye teşhisi ve özel giriş adımı |

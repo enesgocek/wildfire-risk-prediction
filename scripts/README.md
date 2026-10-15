@@ -4,6 +4,25 @@ Komutları proje kökünden (`wildfire-risk-prediction`) çalıştır.
 Python yorumlayıcısı `.venv/Scripts/python.exe`; JavaScript dosyaları Earth Engine
 Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
+## Sabit gözlem pilotunun yerel devam kuyruğu
+
+Geniş sabit pilotun güncel kuyruğunu hazırlamak:
+`python scripts/quality/prepare_observation_pilot_queue.py`.
+292 çiftin kabul edilmiş native zaman tanığını
+`python scripts/quality/triage_observation_pilot_times.py` doğrular;
+çıktıdan yeni ham geometri için gerekli 98 çift seçilir, sınır taramaları
+korunur. Güncel plan, belgelenmiş tanığın sabit hash'ine bağlıdır.
+Yeni tanık sonucu kendiliğinden planın kaynağını değiştirmez.
+
+Kimliksiz bütün yerel kontroller:
+`python scripts/firms/run_observation_pilot_queue.py --latest-plan --cached-only`.
+Yeni aktarım ve işlem için özel PowerShell terminalinde aynı komutun
+`--prompt-login` seçeneği kullanılır; `--cached-only` birlikte verilmez.
+Bir işçi/4 saat/20 GB ham önbellek; tamamlanan çiftlerde hash kapılı devam,
+hata/kısmi dosyada durma vardır. Token/parola kaydı ve bulut işi yok.
+Sonuç/progress dosyasındaki eksiklikler etiket olarak yorumlanmaz.
+[Somut komut, kaynak kimlikleri ve sınırlar](../docs/OBSERVATION_PILOT_QUEUE_2026-10-15.md).
+
 ## İlk gözlem çiftinin yerel mekânsal denetimi
 
 Kabul edilmiş ilk gözlem çiftini yeniden indirmeden mekânsal olarak

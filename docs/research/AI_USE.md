@@ -717,6 +717,14 @@ araçla okunabilirlik açısından incelendi; bağımsız olay doğrulaması vey
 araştırmacının manuel etiket incelemesi olarak sunulmadı.
 [Kapsam ve kanıt](../OBSERVATION_CORE_SPATIAL_2026-10-15.md).
 
+15 Ekim otomatik pilot kuyruğu kaydı: araç desteği tarama geometrisi,
+checkpoint tekrar kontrolü, 292 çiftin saklanmış native zaman tanığı,
+98 çifte indirilen yeni ham geometri kapsamı, özel girişli yerel kuyruk
+ve 36 davranış vakasında kullanıldı. İndirilecek bayt azalması süre veya
+model başarısı olarak sunulmadı. Kullanıcı özel giriş yapmadığından yeni
+aktarım başlatılmadı; kimlik bilgisi ve bağımsız insan incelemesi uydurulmadı.
+[Kanıt ve sınır](../OBSERVATION_PILOT_QUEUE_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
