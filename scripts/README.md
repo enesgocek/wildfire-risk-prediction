@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/review_pilot_observation_protocol.py`, tamamlanan
+156 birimde saklanmış tarama geometrilerinden dört UTC dilimi, zaman
+boşlukları, yörünge tanıkları ve termal pencere karşılaştırması üretir.
+Günlük birleşimi önceki sonuçla uzlaştırır; beş örneğin saat grafiğini
+hazırlar. Ağ engellidir; alan kesimleri tanısaldır, etiket kuralı seçmez.
+[Sonuç ve yorum sınırları](../docs/OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md).
+
 Tamamlanan 15 Ekim denemesinin çevrimdışı kontrolü:
 `python scripts/quality/review_completed_observation_pilot.py`.
 Sabit rapor/plan kimliğini, 196 ham dosyayı ve 98 çiftin çıktı makbuzlarını

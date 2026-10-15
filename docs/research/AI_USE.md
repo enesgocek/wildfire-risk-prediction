@@ -743,6 +743,14 @@ araştırmacı kararları boş bırakıldı. Bağımsız fiziksel alan doğrulam
 popülasyon hata oranı veya negatif etiket kabulü iddia edilmedi.
 [Kapsam ve kanıt](../OBSERVATION_PILOT_RESULTS_2026-10-15.md).
 
+15 Ekim saat/kalite protokolü kaydı: araç desteği aynı 156 birimin
+tarama geometrilerinde dört UTC dilimi, zaman boşlukları, sensör/yörünge
+tanıkları ve termal pencere denetimi, 11 davranış vakası ve beş örneğin
+saat grafiğinde kullanıldı. İlk tanıdaki ham okuma muhasebesi ayrıştırılarak
+yeni sürüm üretildi; eski rapor değiştirilmedi. Grafik araçla incelendi;
+insan onayı, bağımsız yangın doğrulaması veya negatif etiket kabulü
+uydurulmadı. [Kanıt ve kapsam](../OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -1016,6 +1016,18 @@ kapanış SHA-256 `eac9060ce8fa75ebdf18c7385b273d9ea4605803b9a7ce5229f1f4071b6c2
 alanı sıfır birim yalnız bu amaçlı pilotun tanısıdır. Beş insan inceleme
 örneğinde kararlar boş; etiket/model/nihai birleştirme kabulü yapılmadı.
 
+E107 — 15 Ekim: [Gözlem protokolünün zaman/kalite kanıtı](../OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md).
+Aynı 156 amaçlı birimde 624 UTC dilimi ve 747 birim/yörünge tanığı;
+günlük nominal kara alanı önceki geometriyle uzlaştırıldı. Hücrenin herhangi
+bir kısmında destek veren tarama zarfları arasındaki en uzun boşluğun
+medyanı 11,50 saat; fiziksel nokta
+gözlemsizliği veya hata oranı değil. 60/96 termal pencere grubu aynı.
+562 girdi kapanışı, 11 yeni vaka dahil 53 ilgili test geçti.
+Readback SHA-256 `c87a96944635f650a9eb30005d959a56d998cd73154b3b48441a80e0e1a59df2`;
+kapanış SHA-256 `ee2e47cba8c3641e8ff7d5ff30f8edab41d97a2f5611fc02feba7429f507ae15`.
+İlk tanının okuma muhasebesi yeni sürümde ayrıldı; bilimsel CSV aynı.
+Eşik/etiket/model kabulü, bağımsız insan incelemesi veya nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

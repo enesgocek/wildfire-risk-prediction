@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Gözlem protokolünün saat/kalite kanıtı](OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md) | 156 birimde zaman boşlukları, 624 dilim, termal pencere karşılaştırması, seçilmemiş protokol kesimleri ve beş saat grafiği |
 | [Tamamlanan 156 birimlik gözlem yöntem pilotu](OBSERVATION_PILOT_RESULTS_2026-10-15.md) | 98 çiftin tamamlanması, kaynak/geometri geri kontrolü, alan-zaman tanıları ve araştırmacı inceleme örnekleri |
 | [Yerel pilot kuyruğu ve zamanla aktarım azaltma](OBSERVATION_PILOT_QUEUE_2026-10-15.md) | Sabit 156 birim, 292 kaynakta native zaman tanığı, 98 gerekli geometri çifti, özel giriş ve devam kontrolü |
 | [İlk çekirdek çiftinin mekânsal/zaman tanısı](OBSERVATION_CORE_SPATIAL_2026-10-15.md) | Gerçek piksel/QA ve tarama uzlaştırması, yaklaşık alan geri okuması, açıklamalı görsel ve tek çift kabul sınırı |

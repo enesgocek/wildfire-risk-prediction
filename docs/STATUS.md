@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Gözlem protokolünün saat/kalite kanıtı hazır](OBSERVATION_PROTOCOL_EVIDENCE_2026-10-15.md):
+Aynı 156 birimde 624 adet altı saatlik dilim ve 747 birim/yörünge tanığı
+üretildi. Hücrenin herhangi bir kısmındaki nominal kara tarama zarfları
+arasındaki en uzun boşluğun medyanı 11,50 saat; her noktanın kesin
+gözlemsiz süresi değildir.
+Kesin hedef penceresinde 60/96 termal tanı ayrımı korundu; etiket kabulü değil.
+Günlük/12 saat tekrar/dört dilim alan kesimleri farklı kapsamlar veriyor;
+yeni eşik seçilmedi. Beş örneğin saat grafiği ve 562 girdi kapanışı hazır.
+11 yeni vaka dahil 53 ilgili test, üç dosyada lint/format geçti.
+Yeni ağ/bulut işi yok; unknown/negative=false ve boş hedefler korunur.
+Sıradaki araştırma hazırlığı, aday protokollerin bağımsız referansla nasıl
+sınanacağını belirlemektir; yöntem kararı gerektiğinde kullanıcıya sunulacak.
+
 [Sabit gözlem yöntem pilotu tamamlandı ve yerelde geri kontrol edildi](OBSERVATION_PILOT_RESULTS_2026-10-15.md):
 12 eğitim günündeki 156 amaçlı hücre-gün için gerekli **98/98 çift** ve
 196 ham dosya tamamlandı. Tam boyut/hash/checksum ve 98 çiftin çıktı
