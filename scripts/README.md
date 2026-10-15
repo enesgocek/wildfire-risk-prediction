@@ -20,6 +20,16 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+Sınırlı ham kaynak denemesini çevrimdışı hazırlamak:
+`python scripts/quality/prepare_observation_core_transfer.py`.
+Yeni `native_plan.json` ve envanter üretir; 292 çiftin yalnız ilkine
+çalıştırma yolu açar. Özel yerel terminalde
+`python scripts/firms/run_observation_core_pair.py --plan <native_plan.json> --run-one --prompt-login`
+kullanılır. `earthdata` isteğe bağlı bağımlılığı kilitlidir. 2 GB önbellek,
+20 GB boş alan ve 900 saniyelik alt süreç sınırı vardır. Tam dosyanın
+SHA'sı korunur; kısmi dosya yeniden kullanılmaz/silinmez. Kimlik bilgileri
+sohbete veya dosyaya yazılmaz. [Somut komut ve kabul sınırları](../docs/OBSERVATION_CORE_TRANSFER_2026-10-15.md).
+
 Sabit gözlem çekirdeğinin kamuya açık NASA katalog kontrolü:
 `python scripts/firms/check_observation_core_catalogue.py --fetch`.
 Önceki planın 584 tam dosya adını 38 sınırlı sorguyla kontrol eder;

@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Sınırlı ham kaynak denemesi hazır; özel Earthdata girişi bekliyor](OBSERVATION_CORE_TRANSFER_2026-10-15.md):
+584 dosya/292 çift envanteri korunarak yalnız ilk kronolojik çift
+`SNPP:2018045.0000` için 191,24 MB'lık yerel erişim/içerik komutu hazırlandı.
+Tek işçi, plan başına 2 GB önbellek, 20 GB boş disk ve 900 saniyelik alt
+süreç sınırı var. Tam dosya SHA ile yeniden kullanılır; yarım/bozuk dosya
+korunur. Yeni okuyucu eski kabul edilmiş `SNPP:2019014.0042` çiftinde
+girdi bağı/6.464×6.400 boyut/yörünge kontrolünü geçti; yeni çekirdeğin
+indirme başarısı değildir. 22 yeni test dahil 137 ilgili test, dört dosyada
+lint/format, kilit tutarlılığı, 117 giriş/iki çıktı ve 22 donmuş girdi
+kontrolü geçti. Kullanıcı özel terminalde giriş komutunu çalıştırmalı;
+kimlik bilgileri paylaşılmaz/kaydedilmez. Yeni indirme/bulut işi/model/
+etiket veya eğitim dışı veri erişimi yok. Sonraki adım tek çiftin sonucu.
+
 [Çekirdeğin güncel NASA katalog kontrolü tamamlandı](OBSERVATION_CORE_CATALOGUE_2026-10-15.md):
 584 dosyanın tamamı aynı ad/sürüm, koleksiyon, nominal zaman ve kayıtlı
 boyutla eşleşti; 38 sorgu yaklaşık 2,03 MB metadata okudu. Veri uç noktası,

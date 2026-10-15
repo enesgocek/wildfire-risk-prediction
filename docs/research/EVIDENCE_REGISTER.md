@@ -853,6 +853,20 @@ NOAA/NASA'nın S-NPP yeni veri sonlandırma/tarihsel arşiv sürekliliği
 duyuruları ayrı kaynak konusu olarak kaydedildi. Kapalı etiketler ve
 eğitim dışı veri yasağı korunur; yeni bulut işi yoktur.
 
+E92 — 15 Ekim: [Sınırlı ham erişim/içerik hazırlığı](../OBSERVATION_CORE_TRANSFER_2026-10-15.md).
+292 çift/584 dosyanın değişmeyen envanterinde yalnız ilk çift 191.244.528
+baytlık tek deneme kapsamına alındı. 2 GB plan önbelleği, 20 GB rezerv ve
+900 saniye alt süreç sınırı; tam dosya SHA'sı ve korunan kısmi dosya politikası
+hazır. Okuyucu eski `SNPP:2019014.0042` çiftinde girdi bağı/boyut/yörüngeyi
+doğruladı; yeni ham kaynak indirme sonucu değildir. 137 ilgili test,
+dört dosyada lint/format, kilit tutarlılığı ve 117 giriş/iki çıktı kapanışı
+geçti; 22 donmuş girdi korundu. Hazırlık raporu
+`outputs/reports/dataset/observation_core_transfer_v1/20261015T000803Z_d27b748a/readback.json`
+SHA-256 `654ddeba6f29f3ffbe649246b3b0e5c4444ba6f5970e0d2b6e930d3709e3dafa`;
+kapanış SHA-256 `8ff8077e1c3e37a7a919f3618817ac83597b24b5b001c02c0a12bbf92c5bb7d0`.
+Özel Earthdata girişi bekleniyor; yeni indirme/bulut işi/etiket/model/holdout
+erişimi yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

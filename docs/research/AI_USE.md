@@ -651,6 +651,14 @@ incelendi ve kullanıcıya bildirildi. Katalog sonucu ham içerik doğrulaması
 veya kullanıcı onaylı etiket politikası olarak sunulmadı.
 [Yöntem, kaynaklar ve sınırlar](../OBSERVATION_CORE_CATALOGUE_2026-10-15.md).
 
+## Sınırlı ham erişim hazırlığı — 15 Ekim 2026
+
+15 Ekim sınırlı ham erişim hazırlığında araç desteği kaynak planı, indirme
+boyut/süre/disk korumaları, özel giriş ve tokenların çıktı dışında tutulması,
+kesinti kuralları, eski gerçek yerel dosyada başlık okuyucu sınaması ve
+testlerde kullanıldı. Yeni ham indirme, kullanıcı girişi veya geniş pilot
+tamamlanmış gibi sunulmadı. [İşlem ve sınırlar](../OBSERVATION_CORE_TRANSFER_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
