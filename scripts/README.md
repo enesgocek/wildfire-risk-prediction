@@ -6,6 +6,12 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/prepare_reference_intake.py`, önceki kaynak hazırlığının
+girdi/çıktı hash'lerini tekrar kontrol eder ve aynı 12 kamu bağlam kaydıyla
+boş olay şablonunda yeni alım katmanını çevrimdışı dener. Özel sağlayıcı
+dosyalarını otomatik açmaz; satır numarası/sabit hata kodu üretir, hedef atamaz.
+[Kabul sınırı ve gerçek deneme](../docs/REFERENCE_INTAKE_2026-10-15.md).
+
 `python scripts/quality/review_protocol_selection.py`, aynı 156 birimlik
 tamamlanmış pilotun bağlı rapor/çıktılarını çevrimdışı kontrol eder;
 il, mevsim, örtü, yıl ve termal gruplarında beş açıklayıcı alan kesiminin

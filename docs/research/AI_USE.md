@@ -777,6 +777,14 @@ davranış vakasına ve il grafiğine uygulandı. Grafik araçla incelendi;
 insan etiketi onayı, popülasyon hata oranı veya politika seçimi yapılmadı.
 [Yöntem ve kanıt](../PROTOCOL_SELECTION_REVIEW_2026-10-15.md).
 
+15 Ekim olay verisi alım kaydı: araç desteği 19 alanlı normalleştirilmiş
+şemanın kimlik/tarih/UTC/CRS/kaynak inceleme kontrollerinde ve 40 yeni
+davranış vakasında kullanıldı. Aynı 12 kamu bağlam kaydı ve boş şablon
+gerçekten sınandı; kayıtlar etiket kabulüne çevrilmedi. Kaynak/izin
+inceleme alanları beklemede bırakıldı; kurum yanıtı, bağımsız uzman
+onayı veya gerçek yeni olay verisi elde edildiği iddia edilmedi.
+[Kanıt ve sınırlar](../REFERENCE_INTAKE_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Kurumsal olay verisi alım kontrolü hazır](REFERENCE_INTAKE_2026-10-15.md):
+19 alanlı normalleştirilmiş şemada kimlik tekrarları, tarih/UTC, CRS/konum,
+belge hash'i ve kaynak/kullanım incelemesi kontrol ediliyor. Yeni katman
+sağlayıcı alanlarını otomatik eşlemez veya hedef atamaz. Gerçek 12 kamu
+bağlam kaydının tamamı beklemede kaldı; boş olay şablonu sıfır etiket verdi.
+25 girdi/beş çıktı kapanışı, 40 yeni vaka dahil 85 ilgili test ve üç dosyada
+lint/format geçti. Kurumsal yanıt bekleniyor; yeni ağ/bulut işi yok.
+
 15 Ekim gece güncellemesi: araştırmacı CİMER başvurusunu tamamladığını
 bildirdi; teknik yanıt bekleniyor. Kaynak kullanıcı bildirimi, başvuru
 makbuzu bağımsız okunmadı; kişisel bilgi/başvuru numarası toplanmadı.
