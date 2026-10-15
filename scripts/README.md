@@ -20,6 +20,13 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+İki dosya önbellekteyken normal tek çift komutunun geçmesi uzak erişim
+kanıtı değildir. [Ayrı iki başlık teşhisi](../docs/OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md)
+`python scripts/firms/probe_observation_core_access.py --prompt-login`
+ile özel terminalde çalışır. Yalnız ilk çift, iki GET başlığı, sıfır gövde
+okuması ve yönlendirme takibi, girişten sonra 120 saniye sert sınır vardır.
+Bu komut içerik, etiket veya geniş pilot kabulü vermez.
+
 İki gerçek ValueError tekrarı sonrası [güvenli kontrol kodları](../docs/OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md)
 eklendi. Yerel özel terminalde
 `python scripts/firms/run_observation_core_pair.py --latest-plan --run-one --prompt-login`

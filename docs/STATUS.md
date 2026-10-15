@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Kota kesintisi sonrası devam kontrolü ve ayrı erişim teşhisi hazır](OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md):
+Önceki tek çift kontrolü yarım kalmamış; makbuz, 117 plan girdisi,
+22 donmuş girdi ve iki ham dosyanın 191.244.528 baytı yeniden doğrulandı.
+Normal komutun cache üzerinden geçmesi uzak erişim kanıtı olmayacağı için
+ilk çiftin yalnız iki HTTP başlığını sorgulayan, gövde/yönlendirme
+okumayan, 120 saniye sınırında ayrı özel giriş teşhisi hazırlandı.
+Dokuz yeni test dahil 168 ilgili test ve iki dosyada lint/format geçti;
+Requests'in gizli yönlendirme gövdesi okuması da özel oturumda engellendi.
+Gerçek girişli sonuç bekleniyor; otomatik erişim çözülmüş sayılmadı.
+
 [İlk yeni çiftin bayt/native başlık kontrolü geçti](OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#ilk-yeni-çiftin-çevrimdışı-bayt-ve-native-başlık-kontrolü):
 Tarayıcıdan alınan `SNPP:2018045.0000` çiftinin toplam 191.244.528 baytı,
 tarihsel SHA'ları ve konum dosyasının sağlayıcı checksum'u doğrulandı.

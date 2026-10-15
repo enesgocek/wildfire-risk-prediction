@@ -915,6 +915,14 @@ kapanış SHA-256 `9985607a2b1f907b91e7134b1f2e1828e687ffa3cc8d0788b43b42f508858
 Tek çiftin çevrimdışı başlık kontrolüdür; otomatik indirme, geniş mekânsal
 pilot, etiket/model veya nihai birleştirme kabulü değildir.
 
+E98 — 15 Ekim: [Devam denetimi ve ayrı erişim teşhisi](../OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md).
+Önceki makbuz, 117 plan/22 donmuş girdi ve iki dosyanın 191.244.528 baytı
+yeniden doğrulandı. Devam readback SHA-256
+`e43e9d207a34ed042f1496a0504b993dfcc04eefde6cc3cc6fb90e9e7615c5de`.
+İki başlık/sıfır gövde/yönlendirme ve 120 saniye sınırında yeni teşhis;
+dokuz yeni test dahil 168 ilgili test ve iki dosyada lint/format geçti.
+Gerçek kimlikli teşhis sonucu ve otomatik aktarım başarısı henüz yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

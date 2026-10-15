@@ -683,6 +683,12 @@ Bu kontrol insanın dizi değerlerini görsel incelemesi veya otomatik
 indirme başarısı olarak sunulmadı.
 [Kanıt ve sınırlar](../OBSERVATION_CORE_DIAGNOSTICS_2026-10-15.md#ilk-yeni-çiftin-çevrimdışı-bayt-ve-native-başlık-kontrolü).
 
+15 Ekim devam kaydı: araç desteği önceki makbuz ve dosyaların yeniden
+doğrulanması, yalnız başlık okuyan ayrı erişim teşhisinin hazırlanması,
+dokuz yeni davranış testi ve kaynak/kanıt sınırı kaydında kullanıldı.
+Gerçek özel giriş veya servis sorununun çözümü tamamlanmış sayılmadı.
+[Kapsam ve makbuz](../OBSERVATION_CORE_ACCESS_PROBE_2026-10-15.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
