@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Son tekrar imza parametresinde durdu; çift CDN imza desteği hazır](OBSERVATION_CORE_CDN_2026-10-15.md#sonraki-gerçek-hata-ve-iki-cdn-imza-biçimi):
+Gerçek yangın isteği 303/CloudFront sonrası `cloudfront_parameters` ile
+durdu; yeni ham dosya yok. İlk destek canned biçimiyle sınırlıydı;
+belgelenmiş SigV4 taşıyan CDN biçimi de ayrı guard'larla eklendi.
+Hangi eski alt koşulun durdurduğu kesinleştirilmedi; yeni kod alan/değer
+göstermeden biçim/izin listesi/tekillik tanısı ve ayrı hata kodları verir.
+11 ek vaka dahil 190 ilgili test; son mesaj değişikliğinden sonra 75
+etkilenen test ve beş dosyada lint/format geçti. Yeni 117 giriş/iki çıktı/
+22 donmuş girdi planı hazır; aynı tek çiftin gerçek aktarımı bekleniyor.
+
 [Gerçek başlık teşhisi alındı; CloudFront uyumluluğu hazır](OBSERVATION_CORE_CDN_2026-10-15.md):
 İki kaynak 303/sorgulu aynı dosya adıyla farklı hedef verdi; otomatik
 indirme kabulü yok. Tarayıcı konum dosyasının kaynak metadatası CloudFront

@@ -696,6 +696,13 @@ kaynak metadatasında yalnız yerel biçim kontrolü, dar CloudFront desteği,
 kişisel A-userid değeri kaydedilmedi. Yeni canlı indirme başarısı iddia
 edilmedi. [Kanıt ve kapsam](../OBSERVATION_CORE_CDN_2026-10-15.md).
 
+15 Ekim ikinci CDN kaydı: araç desteği gerçek imza guard hatasının
+okunması, TEA birincil kaynaklarının incelenmesi, çift imza desteği,
+boolean tanılar/ayrı hata kodları ve 11 ek davranış vakasında kullanıldı.
+Önceki eksik destek belirtildi; eski alt parametreye kesin neden veya
+yeni canlı indirme başarısı atfedilmedi.
+[Kanıt ve sınır](../OBSERVATION_CORE_CDN_2026-10-15.md#sonraki-gerçek-hata-ve-iki-cdn-imza-biçimi).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

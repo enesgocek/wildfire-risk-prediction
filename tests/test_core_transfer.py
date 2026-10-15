@@ -531,3 +531,87 @@ def test_cloudfront_second_redirect_is_never_followed(tmp_path, monkeypatch):
     with pytest.raises(transfer.DataResponseError):
         run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
     assert len(clean.calls) == 1 and not list(tmp_path.iterdir())
+
+
+def cloudfront_sigv4_url(record):
+    path = "/s3-route/lp-prod-protected.s3.us-west-2.amazonaws.com/product/" + record["filename"]
+    return urlunsplit(
+        (
+            "https",
+            "d123456789abc.cloudfront.net",
+            path,
+            urlencode(
+                {
+                    "X-Amz-Algorithm": "AWS4-HMAC-SHA256",
+                    "X-Amz-Credential": "synthetic-private-credential",
+                    "X-Amz-Signature": "b" * 64,
+                    "X-Amz-Date": "20261015T000000Z",
+                    "X-Amz-Expires": "3600",
+                    "X-Amz-Security-Token": "synthetic-private-token",
+                    "X-Amz-SignedHeaders": "host",
+                    "A-userid": "synthetic-private-account",
+                }
+            ),
+            "",
+        )
+    )
+
+
+def test_tea_cloudfront_wrapped_sigv4_download_preserves_full_identity(tmp_path, monkeypatch):
+    r = redirected_source()
+    target = cloudfront_sigv4_url(r)
+    final = Response(r)
+    final.url = target
+    clean = Session(final)
+    monkeypatch.setattr(transfer, "anonymous_session", lambda: clean)
+    _, result = run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    assert result["verified_cloudfront_redirect"] and result["sha256"] == r["sha256"]
+    assert not clean.headers and not clean.cookies and clean.auth is None and not clean.trust_env
+    assert "synthetic-private" not in json.dumps(result)
+
+
+@pytest.mark.parametrize("factory", [cloudfront_url, cloudfront_sigv4_url])
+def test_documented_cdn_logging_fields_are_accepted_without_becoming_identity(factory):
+    r = redirected_source()
+    target = factory(r) + "&sourceip=192.0.2.123"
+    assert transfer.signed_data_target(r, target) == target
+    with pytest.raises(ValueError, match="CMR object"):
+        transfer.signed_data_target(r, target.replace("/product/", "/different/"))
+
+
+@pytest.mark.parametrize("factory", [cloudfront_url, cloudfront_sigv4_url])
+def test_duplicate_cdn_signature_is_rejected_in_both_schemes(factory):
+    r = redirected_source()
+    target = factory(r)
+    key = "X-Amz-Signature" if factory == cloudfront_sigv4_url else "Signature"
+    with pytest.raises(ValueError, match="Single nonempty"):
+        transfer.signed_data_target(r, target + "&" + key + "=" + "c" * 64)
+
+
+@pytest.mark.parametrize(
+    "change",
+    [
+        lambda u: u.replace("AWS4-HMAC-SHA256", "unsupported"),
+        lambda u: u.replace("X-Amz-Signature=" + "b" * 64, "X-Amz-Signature=malformed"),
+        lambda u: u + "&Expires=2000000000&Signature=" + "a" * 64 + "&Key-Pair-Id=K123",
+        lambda u: u + "&unknown=synthetic-private",
+        lambda u: u.replace("X-Amz-Credential=synthetic-private-credential", "X-Amz-Credential="),
+    ],
+)
+def test_wrapped_sigv4_rejects_invalid_ambiguous_or_unrecognized_query(change):
+    r = redirected_source()
+    with pytest.raises(ValueError):
+        transfer.signed_data_target(r, change(cloudfront_sigv4_url(r)))
+
+
+def test_parameter_shape_diagnostics_distinguish_schemes_without_values(tmp_path):
+    r = redirected_source()
+    target = cloudfront_sigv4_url(r) + "&unknown=synthetic-private"
+    with pytest.raises(ValueError) as error:
+        run(r, tmp_path, Response(r, status=303, headers={"Location": target}))
+    result = transfer.safe_error_details(error.value)
+    assert result["safe_code"] == "cdn_query_fields"
+    assert result["transfer_diagnostics"]["cdn_sigv4_fields_present"] is True
+    assert result["transfer_diagnostics"]["cdn_canned_fields_present"] is False
+    assert result["transfer_diagnostics"]["cdn_query_fields_allowed"] is False
+    assert "synthetic-private" not in json.dumps(result) and not list(tmp_path.iterdir())

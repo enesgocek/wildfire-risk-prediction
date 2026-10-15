@@ -20,6 +20,12 @@ korunmalıdır. Yeni betikler [proje kurallarına](../AGENTS.md) göre yerleşti
 
 ## Klasörler
 
+CDN tekrarındaki imza guard'ı sonrasında
+[iki imza biçimi ve ayrıntılı güvenli kodlar](../docs/OBSERVATION_CORE_CDN_2026-10-15.md#sonraki-gerçek-hata-ve-iki-cdn-imza-biçimi)
+hazırlandı. Güncel `--latest-plan --run-one --prompt-login` yine yalnız
+ilk çifti çalıştırır; gerçek yeni başarı henüz beklenir. Başarısız son
+satır artık `Kontrol kodu:` değerini de içerir.
+
 [Gerçek 303 teşhisi sonrası CloudFront uyumluluğu](../docs/OBSERVATION_CORE_CDN_2026-10-15.md)
 aynı tam CMR bucket/key için tek kimliksiz CDN adımını destekler. Yeni
 hash bağlı planda `run_observation_core_pair.py --latest-plan --run-one --prompt-login`

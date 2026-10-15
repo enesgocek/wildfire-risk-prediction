@@ -935,6 +935,17 @@ kapanış SHA-256 `0ef788a6f4ad67a7e415f1c66b0918d1f0654b93048a09e877b71e29f70a0
 ve etiket/model kabulü henüz yok; iki 303'ün aynı CDN'ye ait olduğu
 sonradan kesinleştirilmiş sayılmadı.
 
+E100 — 15 Ekim: [CDN imza hatası ve iki biçim desteği](../OBSERVATION_CORE_CDN_2026-10-15.md#sonraki-gerçek-hata-ve-iki-cdn-imza-biçimi).
+Gerçek failure SHA-256
+`f69d866b4eac92b6ba98630e19bb2a1e2f7f0869c6b8ec04dd451f969af9fda3`:
+303/CloudFront sonrası yangın imza guard'ı; yeni ham dosya yok. Eski
+alt koşul bilinmiyor. 11 ek vaka dahil 190 ilgili test ve son mesaj
+değişikliği sonrası 75 etkilenen test geçti. Yeni plan readback SHA-256
+`882f76486080db6ca90724b3a2d50edbeb27ffc7ba12e8f7f7cac3841e277a29`;
+kapanış SHA-256 `77e3398ee8dc4971a1e2448f94a6148d49cf4770262af06e10dd60f2e7eded61`.
+117 giriş/iki çıktı/22 donmuş girdi kontrolü; canlı yeni aktarım ve
+etiket/model kabulü henüz yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

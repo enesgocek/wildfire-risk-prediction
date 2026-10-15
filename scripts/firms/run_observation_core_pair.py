@@ -67,6 +67,10 @@ def load_plan(path):
         "Safe failure diagnostics policy",
     )
     require(
+        plan.get("cdn_signing_policy") == "sigv4_or_cloudfront_canned_exact_cmr_object",
+        "Reviewed dual CDN signing policy",
+    )
+    require(
         all(digest(ROOT / n) == h for n, h in plan["input_sha256"].items()),
         "Exact current plan inputs",
     )
@@ -305,13 +309,13 @@ def run(plan_path, prompt):
     )
     print("Sonuc klasoru:", out.relative_to(ROOT).as_posix(), flush=True)
     if state != "child_completed":
+        code = "unclassified"
         failure_path = out / "failure.json"
         if failure_path.is_file():
             failure = json.loads(failure_path.read_text(encoding="utf-8"))
             code = failure.get("safe_code", "unclassified")
             code = code if code in set(SAFE_ERROR_CODES.values()) else "unclassified"
-            print("Kontrol kodu:", code, flush=True)
-        print("Kontrol tamamlanmadi; dosyalari koru ve yalniz bu genel durumu bildir.", flush=True)
+        print("Kontrol tamamlanmadi; dosyalar korundu. Kontrol kodu:", code, flush=True)
         return 1
     completion = json.loads((out / "completion_readback.json").read_text(encoding="utf-8"))
     require(

@@ -1,5 +1,9 @@
 # Başlık teşhisi sonucu ve CloudFront uyumluluğu — 15 Ekim 2026
 
+**Sonraki gerçek tekrar:** aşağıdaki ilk CloudFront sürümü yangın kaynağında
+imza parametresi kontrolüyle durdu. Bu belgenin sonundaki çift imza biçimi
+ve yeni plan kaydı güncel devam adımıdır; önceki deneme başarı sayılmaz.
+
 ## Gerçek teşhis ve yerel kaynak izi
 
 Kullanıcı özel terminalde iki başlık teşhisini tamamladı. Yerel dizin
@@ -95,3 +99,56 @@ CloudFront üzerinden veri erişimini açıklar.
 imza akışını ve sunucu doğrulamasını açıklar. Bu genel belgeler tek başına
 projemizin canlı aktarımının başarılı olduğunu göstermez; yerel kaynak
 metadatası ve tam dosya hash kontrolü ayrıca belirtilmiştir.
+
+## Sonraki gerçek hata ve iki CDN imza biçimi
+
+`outputs/reports/dataset/observation_core_native_v1/20261015T103030Z_44d28f9e/`
+çalışması girişten sonra yangın kaynağında `cloudfront_parameters` ile
+durdu. İlk yanıt 303, hedef sınıfı CloudFront ve imza alanlarının varlığı
+doğrulandı; tam nesne kontrolü geçmişti. İmza koşulları geçmediğinden
+hedefe istek yapılmadı, yeni ham dosya yazılmadı. `failure.json` SHA-256
+`f69d866b4eac92b6ba98630e19bb2a1e2f7f0869c6b8ec04dd451f969af9fda3`.
+
+İlk destek yalnız tarayıcı konum dosyasında görülen CloudFront canned
+biçimini kapsıyordu. [TEA teknik kaynağı](https://tea-docs.asf.alaska.edu/technical/)
+CloudFront üzerinden önceden imzalanmış S3 URL kullanımını da açıklar.
+[TEA log belgesi](https://tea-docs.asf.alaska.edu/troubleshooting/)
+A-userid/sourceip alanlarının anlamını belirtir. Bunların değerleri
+kişisel olabilir; hiçbir değer rapora alınmaz. Gerçek eski hata kaydı
+yalnız birleşik guard içerdiği için hangi alt parametrenin durdurduğu
+geriye dönük kesinleştirilmedi. Belgelenmiş ikinci imza biçimini eksik
+desteklemek somut kod eksikliğidir; bu düzeltme canlı başarı sayılmaz.
+
+Şimdi tam CMR bucket/key ve kimliksiz tek adım korunarak iki ayrı biçim
+kontrol edilir: S3 SigV4 taşıyan CloudFront veya CloudFront canned.
+İkisi karışık olamaz. Her alan tekil/dolu, parametre adları sabit izin
+listesinde ve seçilen imza biçimi geçerli olmalıdır. S3 SigV4 alanları
+X-Amz-Algorithm/Credential/Signature ve bilinen Date/Expires/Security-Token/
+SignedHeaders'tır; ek log alanları yalnız A-userid ve sourceip olabilir.
+İmza doğrulamasını servis yapar; tam dosya SHA/boyut kontrolü zorunludur.
+
+Yeni güvenli tanı yalnız hangi biçimin alanlarının bulunduğunu, tekil/dolu
+değer koşulunu ve alan izin listesinin geçip geçmediğini boolean olarak
+kaydeder. Alt guard'lar ayrı kod verir: cdn_query_cardinality,
+cdn_signing_scheme, cdn_query_fields, cdn_sigv4_shape, cdn_canned_shape.
+Hata mesajının son satırı artık kontrol kodunu içerir; kullanıcıyı yalnız
+belirsiz genel durumu paylaşmaya yönelten önceki metin kaldırıldı.
+
+**11 ek vaka dahil 190 ilgili test** geçti; final mesaj değişikliğinden
+sonra etkilenen 75 aktarım/erişim testi ayrıca geçti. İki imza biçimi,
+log alanları, karışık/eksik/bozuk/çift/bilinmeyen parametreler ve özel
+değerlerin rapora geçmemesi sınandı. Beş dosyada lint/format geçti.
+Yeni plan 117 giriş/iki çıktı ve 22 donmuş üretim girdisi kapanışında:
+`outputs/reports/dataset/observation_core_transfer_v1/20261015T103459Z_e186e885/`.
+`native_plan.json` SHA-256
+`b3659c2b6a7694bd7b7a4b36f836c71d3f37d2d794244f2e5ce76fedd6d81387`;
+`readback.json` SHA-256
+`882f76486080db6ca90724b3a2d50edbeb27ffc7ba12e8f7f7cac3841e277a29`;
+`completion_readback.json` SHA-256
+`77e3398ee8dc4971a1e2448f94a6148d49cf4770262af06e10dd60f2e7eded61`.
+
+İki eski ham dosya aynı boyut/hash ile korunuyor; yeni plan cache'i yok.
+Yukarıdaki `--latest-plan --run-one --prompt-login` komutu bu yeni plana
+bağlanır. Yalnız aynı iki kaynak/191.244.528 bayt ve 900 saniyelik sınır
+geçerlidir. Özel giriş kullanıcıda yeniden yapılmalı; yeni gerçek aktarım
+henüz yok. Etiket/model/bulut işi veya nihai birleştirme yapılmadı.

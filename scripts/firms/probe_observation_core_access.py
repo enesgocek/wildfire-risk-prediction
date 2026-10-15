@@ -21,6 +21,7 @@ from wildfire_risk_prediction.core_transfer import (
     safe_error_details,
     same_request_url,
     signed_data_target,
+    signed_parameter_shape,
     source_url,
 )
 from wildfire_risk_prediction.feature_join import require
@@ -102,6 +103,7 @@ def inspect_source(session, source):
             if response.status_code in {302, 303, 307, 308}:
                 location = response.headers.get("Location", "")
                 record["redirect"] = redirect_summary(location, url)
+                record["parameter_shape"] = signed_parameter_shape(location)
                 try:
                     signed_data_target(source, location)
                     record["exact_signed_object"] = True

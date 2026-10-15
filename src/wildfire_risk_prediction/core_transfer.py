@@ -11,6 +11,15 @@ from wildfire_risk_prediction.cmr_identity import identity
 from wildfire_risk_prediction.feature_join import require
 
 DATA_HOSTS = {"data.laadsdaac.earthdatacloud.nasa.gov", "data.lpdaac.earthdatacloud.nasa.gov"}
+SIGV4_REQUIRED = {"X-Amz-Algorithm", "X-Amz-Credential", "X-Amz-Signature"}
+SIGV4_FIELDS = SIGV4_REQUIRED | {
+    "X-Amz-Date",
+    "X-Amz-Expires",
+    "X-Amz-Security-Token",
+    "X-Amz-SignedHeaders",
+}
+CANNED_FIELDS = {"Expires", "Signature", "Key-Pair-Id"}
+CDN_LOG_FIELDS = {"A-userid", "sourceip"}  # Values are never logged or persisted.
 
 # Only these literal project guard messages may be mapped to a public error code.
 # Arbitrary exception text, URL queries and server response bodies are never recorded.
@@ -56,6 +65,11 @@ SAFE_ERROR_CODES = {
     "CloudFront distribution endpoint": "cloudfront_endpoint",
     "Exact CloudFront CMR object": "cloudfront_object",
     "Signed CloudFront request parameters": "cloudfront_parameters",
+    "Single nonempty CDN query values": "cdn_query_cardinality",
+    "One supported CDN signing scheme": "cdn_signing_scheme",
+    "Known CDN query fields": "cdn_query_fields",
+    "CDN SigV4 parameter shape": "cdn_sigv4_shape",
+    "CDN canned parameter shape": "cdn_canned_shape",
 }
 
 
@@ -74,7 +88,14 @@ def safe_error_details(error):
         value = original.get(name)
         if type(value) is int and 0 <= value < 10**12:
             diagnostics[name] = value
-    for name in ("signed_parameters_present", "final_request_equivalent"):
+    for name in (
+        "signed_parameters_present",
+        "final_request_equivalent",
+        "cdn_sigv4_fields_present",
+        "cdn_canned_fields_present",
+        "cdn_single_nonempty_values",
+        "cdn_query_fields_allowed",
+    ):
         value = original.get(name)
         if type(value) is bool:
             diagnostics[name] = value
@@ -216,6 +237,17 @@ def anonymous_session():
     return requests.Session()
 
 
+def signed_parameter_shape(location):
+    """Fixed booleans only; never retain field names or private query values."""
+    params = parse_qs(urlsplit(location).query, keep_blank_values=True)
+    return {
+        "cdn_sigv4_fields_present": SIGV4_REQUIRED <= set(params),
+        "cdn_canned_fields_present": CANNED_FIELDS <= set(params),
+        "cdn_single_nonempty_values": all(len(v) == 1 and bool(v[0]) for v in params.values()),
+        "cdn_query_fields_allowed": set(params) <= SIGV4_FIELDS | CANNED_FIELDS | CDN_LOG_FIELDS,
+    }
+
+
 def signed_data_target(source, location):
     """Accept S3 or NASA-issued CloudFront routes to the same full CMR bucket/key.
 
@@ -263,22 +295,34 @@ def signed_data_target(source, location):
         "Exact CloudFront CMR object",
     )
     params = parse_qs(target.query, keep_blank_values=True)
-    required = {"Expires", "Signature", "Key-Pair-Id"}
-    require(
-        required <= set(params) <= required | {"A-userid"}
-        and all(len(values) == 1 and bool(values[0]) for values in params.values())
-        and params["Expires"][0].isdigit()
-        and int(params["Expires"][0]) > 0
-        and re.fullmatch(r"[A-Za-z0-9_~=-]{32,2048}", params["Signature"][0]) is not None
-        and re.fullmatch(r"[A-Za-z0-9]{2,80}", params["Key-Pair-Id"][0]) is not None,
-        "Signed CloudFront request parameters",
-    )
+    shape = signed_parameter_shape(location)
+    require(shape["cdn_single_nonempty_values"], "Single nonempty CDN query values")
+    sigv4, canned = shape["cdn_sigv4_fields_present"], shape["cdn_canned_fields_present"]
+    require(sigv4 != canned, "One supported CDN signing scheme")
+    allowed = (SIGV4_FIELDS if sigv4 else CANNED_FIELDS) | CDN_LOG_FIELDS
+    require(set(params) <= allowed, "Known CDN query fields")
+    if sigv4:
+        # TEA can wrap a SigV4-signed S3 URL in CloudFront; it is not a
+        # CloudFront canned signature. Preserve the original signed query.
+        require(
+            params["X-Amz-Algorithm"] == ["AWS4-HMAC-SHA256"]
+            and re.fullmatch(r"[a-fA-F0-9]{64}", params["X-Amz-Signature"][0]) is not None,
+            "CDN SigV4 parameter shape",
+        )
+    else:
+        require(
+            params["Expires"][0].isdigit()
+            and int(params["Expires"][0]) > 0
+            and re.fullmatch(r"[A-Za-z0-9_~=-]{32,2048}", params["Signature"][0]) is not None
+            and re.fullmatch(r"[A-Za-z0-9]{2,80}", params["Key-Pair-Id"][0]) is not None,
+            "CDN canned parameter shape",
+        )
     return location
 
 
 @contextmanager
 def data_response(session, source, deadline):
-    """NASA bearer request, then at most one exact signed S3 hop with a fresh session."""
+    """NASA bearer request, then one exact S3/CDN object in a credential-free session."""
     url = source_url(source)
     options = {
         "stream": True,
@@ -310,6 +354,7 @@ def data_response(session, source, deadline):
                     else "missing"
                 )
                 parameters = parse_qs(parts.query)
+                diagnostics.update(signed_parameter_shape(location))
                 diagnostics["signed_parameters_present"] = all(
                     key in parameters
                     for key in ("X-Amz-Algorithm", "X-Amz-Credential", "X-Amz-Signature")
@@ -342,7 +387,7 @@ def data_response(session, source, deadline):
 def transfer_one(session, source, cache, *, deadline, cache_limit_bytes, reserve_bytes):
     """A full file or a retained partial; partial bytes are never an accepted checkpoint.
 
-    Only an exact CMR S3 object redirect is accepted, using a separate credential-free
+    Only an exact CMR S3/CDN object redirect is accepted, using a separate credential-free
     session. Authentication and additional redirects fail closed; no version substitution.
     """
     source_url(source)
