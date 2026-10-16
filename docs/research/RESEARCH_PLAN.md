@@ -54,6 +54,12 @@ başarı yüzdesi veya olumlu deney sonucu ilan edilmemiştir.
 hesap olarak kabul etti. Yukarıdaki PR ailesi ifadesi bu güncellemede AP
 ile somutlaştırılır. [Uygulama, sentetik sınama ve kabul sınırı](../EVALUATION_CORE_2026-10-16.md).
 
+16 Ekim ön işleme hazırlığı: öğrenilen medyan/ölçek parametreleri yalnız
+eğitim içi her ayrımın eğitim kısmından hesaplanacak şekilde sınandı.
+Gerçek doldurma/ölçekleme/boş sütun politikası seçilmedi; sentetik prova
+gerçek eğitim veya etiket kabulü değildir.
+[Sözleşme ve kontroller](../FOLD_PREPROCESSING_2026-10-16.md).
+
 ## Açık bilimsel konular
 
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.

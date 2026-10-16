@@ -1071,6 +1071,17 @@ Readback SHA-256 `ba1ac26003a370be4bfece12a92a41f270dfdb9965b5dbceff0a7d52b6bf32
 kapanış SHA-256 `7a164a4e87bb99f6dfb2618d488cf22fd552b2547056f39de85211764ec0f9a1`.
 Gerçek eğitim/kalibrasyon, etiket, 2024/2025 erişimi ve nihai birleştirme yok.
 
+E113 — 16 Ekim: [Fold içi ön işleme hazırlığı](../FOLD_PREPROCESSING_2026-10-16.md).
+45 yeni vaka dahil 158 ilgili test ve üç dosyada lint/format geçti. 40
+sentetik örnekte mevcut scikit-learn 1.9.1 tabanlı medyan/ölçek hazırlığı
+bağımsız NumPy hesabıyla 1e-12 toleransta uzlaştı; en büyük mutlak fark
+sıfırdır, bütün girdiler veya gerçek model başarısına genellenmez.
+33 girdi/dört çıktı kapanışı kontrol edildi. Readback SHA-256
+`8cc2ac561d0fc73e5b71a080de497451bbe5424ad6593b0cefee45ea0569caae`;
+kapanış SHA-256 `2e8c90d155de6e971b1d3d0f8c467dab8a04d093c62b55c350f1a9f2082b6fd5`.
+Gerçek özelliklere fit/dönüşüm, yöntem seçimi, etiket/model kabulü, 2024/2025
+erişimi ve nihai birleştirme yapılmadı; yalnız sentetik hazırlık nesnesi fit edildi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

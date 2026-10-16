@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Fold eğitiminden öğrenilen ön işleme hazırlandı](FOLD_PREPROCESSING_2026-10-16.md):
+medyan doldurma ve isteğe bağlı ölçekleme yalnız ayrımın eğitim kısmından
+öğreniliyor; tamamen boş sütun için durdur/çıkar açık seçimi gerekiyor.
+45 yeni vaka dahil 158 ilgili test ve üç dosyada lint/format geçti.
+40 sentetik örnek bağımsız NumPy hesabıyla 1e-12 toleransta uzlaştı;
+33 girdi/dört çıktı kapanışı korundu. Gerçek özelliklere fit/dönüşüm,
+etiket veya model kabulü yok; gerçek ön işleme politikaları seçilmedi.
+2024/2025 ve nihai birleştirme kapısı kapalı. Sonraki bağımsız hazırlık,
+ön işleme/fold anahtarları/kabul koşullarını sürümlü deney kaydına bağlamaktır.
+
 [Değerlendirme çekirdeği hazırlandı](EVALUATION_CORE_2026-10-16.md):
 araştırmacının 16 Ekim kararıyla AP ana, trapez PR-AUC yardımcı ölçüttür.
 Hesaplar, aynı anahtar/hedefli karşılaştırma, eğitim içi zaman/olay/blok
@@ -13,8 +23,8 @@ ilgili test, beş Python dosyasında lint/format ve 55 sentetik örnekte
 scikit-learn karşılaştırması geçti. 17 girdi/dokuz çıktı kapanışı korundu.
 Gerçek pilotun 156 boş hedefini skorlama reddedildi; gerçek skor/model yok.
 2024/2025 kapalı, etiket ve nihai birleştirme kapıları değişmedi. Gerçek
-K/embargo/blok/olay politikası seçilmedi. Sıradaki bağımsız hazırlık,
-ön işlemenin yalnız fold eğitim kısmından öğrenilmesidir.
+K/embargo/blok/olay politikası seçilmedi. Ön işlemenin eğitimden öğrenilmesi
+yukarıdaki sonraki hazırlıkta sentetik olarak sınandı; gerçek fit yapılmadı.
 
 [Kurumsal olay verisi alım kontrolü hazır](REFERENCE_INTAKE_2026-10-15.md):
 19 alanlı normalleştirilmiş şemada kimlik tekrarları, tarih/UTC, CRS/konum,

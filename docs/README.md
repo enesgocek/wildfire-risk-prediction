@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Fold içi ön işleme](FOLD_PREPROCESSING_2026-10-16.md) | Yalnız eğitimden öğrenilen medyan/ölçek, boş sütun seçenekleri, anahtar/şema korumaları ve sentetik prova |
 | [Değerlendirme hesap ve ayrım çekirdeği](EVALUATION_CORE_2026-10-16.md) | AP kararı, eşlenik anahtarlar, eğitim içi zaman/olay/blok kontrolü, belirsiz alarm muhasebesi ve yalnız sentetik sınama |
 | [Olay verisi alım kontrolü](REFERENCE_INTAKE_2026-10-15.md) | 19 alanlı şema, kimlik/tarih/CRS/kaynak incelemesi, değersiz hata tanıları ve 12 kamu kaydında kabul sınırı |
 | [Gözlem koşullarının alt grup etkisi](PROTOCOL_SELECTION_REVIEW_2026-10-15.md) | Aynı 156 amaçlı birimde il/mevsim/örtü/yıl paydaları, eşlenik seçim farkları ve politika kabul sınırı |

@@ -794,6 +794,15 @@ reddedildi. Hiçbir sınıflandırıcı veya kalibratör fit edilmedi; sentetik
 sayılar gerçek başarı, uzman onayı veya etiket kabulü olarak sunulmadı.
 [Kanıt ve sınırlar](../EVALUATION_CORE_2026-10-16.md).
 
+16 Ekim ön işleme kaydı: araç desteği, yalnız eğitim bölümünden öğrenilen
+medyan/ölçek parametrelerinin, anahtar/şema sınırlarının ve boş sütun
+seçeneklerinin uygulanmasında kullanıldı. 45 yeni davranış vakası ve 40
+sentetik sayısal karşılaştırma çalıştırıldı; resmî kütüphane dokümantasyonu
+kontrol edildi. Gerçek özelliklere fit/dönüşüm uygulanmadı ve gerçek yöntem
+tercihi yapılmadı. Otomatik kontroller insan değerlendirmesi, saha doğrulaması,
+etiket kabulü veya sınıflandırıcı eğitimi olarak sunulmadı.
+[Kanıt ve sınırlar](../FOLD_PREPROCESSING_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

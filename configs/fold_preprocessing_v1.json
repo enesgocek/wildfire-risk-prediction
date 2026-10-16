@@ -1,0 +1,15 @@
+{
+  "version": "fold_preprocessing_v1",
+  "status": "synthetic_preparation_not_selected_real_policy",
+  "implemented_imputation_candidate": "median",
+  "implemented_scaling_choices": [false, true],
+  "implemented_all_training_missing_choices": ["error", "drop"],
+  "selected_real_imputation": null,
+  "selected_real_scaling": null,
+  "selected_real_empty_policy": null,
+  "missing_indicators_implemented": false,
+  "scope": "audited_training_folds_2018_2023_only",
+  "labels_accepted": false,
+  "model_ready": false,
+  "final_merge_performed": false
+}

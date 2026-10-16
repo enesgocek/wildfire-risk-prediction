@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/rehearse_fold_preprocessing.py`, önceki değerlendirme
+hazırlığının bağlı dosyalarını tekrar kontrol eder ve 40 sentetik örnekte
+yalnız fold eğitiminden öğrenilen medyan/ölçek dönüşümlerini bağımsız NumPy
+hesabıyla sınar. Gerçek özelliklere fit/dönüşüm uygulamaz; gerçek doldurma,
+ölçekleme ve boş sütun politikaları seçilmez. Ağ kapalıdır; yeni nonce
+sonuç dizini üretir. [Ön işleme ve sınırlar](../docs/FOLD_PREPROCESSING_2026-10-16.md).
+
 `python scripts/quality/rehearse_evaluation_core.py`, kabul edilmiş yeni AP
 ölçüt tanımını okur; 55 sentetik örnekte hesapları mevcut scikit-learn ile
 karşılaştırır, eğitim içi ayrım/uyarı muhasebesini sınar ve gerçek pilotun
