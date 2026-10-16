@@ -88,6 +88,12 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+16 Ekim ilk hücre yönü: araştırmacı, aynı en erken kayıtlı zamanda bulunan
+bütün hücrelerin ortak aday kimliği altında tutulmasını seçti (A).
+`first_cell_candidates_v1` bu aday temsilini saklar; fiziksel olay kimliği,
+gruplama yarıçapı/zamanı, 0/1 etiket veya eğitim kabulü sağlamaz.
+[Örnekler, kapsam etkisi ve testler](../EVENT_FIRST_CELL_OPTIONS_2026-10-16.md).
+
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.
 - Yaklaşık gözlem alanı hesabının fiziksel yorumu ve günlük negatif etiket kuralı açık.
 - 31 Aralık 2023 için iki yangın/geolocation işleme sürümü uyuşmazlığı çözülmedi.

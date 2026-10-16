@@ -1,0 +1,13 @@
+{
+  "version": "first_cell_candidates_v1",
+  "method": "all_recorded_earliest_cells",
+  "decision_date": "2026-10-16",
+  "decision_source": "explicit_user_selection_A",
+  "candidate_identity": "existing_scenario_component_id",
+  "independent_event_identity_accepted": false,
+  "grouping_scenario_selected": null,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "final_merge_authorized": false
+}

@@ -833,6 +833,14 @@ veya envanter nihai kabul olarak sunulmadı. Tarihsel raporlar korunarak
 güncel özet düzeltildi; gerçek kullanıcı onay makbuzu üretilmedi.
 [Kanıt ve sınırlar](../PREPARATION_INVENTORY_2026-10-16.md).
 
+16 Ekim ilk hücre seçenekleri: araç desteği 19 duyarlı örneğin kaynak
+üyelerinin ve bütün ilk hücrelerinin geri okumasında, iki aday havuzu
+yönünün kapsam etkisi ve 18 yeni davranış vakasında kullanıldı. Yöntem
+yönü araştırmacıya somut örnekle sunuldu; açık A tercihi kaydedildi.
+181 bağlamdaki bütün ilk hücreler 232 ortak kimlikli aday satırında
+korundu. İnsan incelemesi uydurulmadı. Sayımlar fiziksel olay doğrulaması, etiket veya model başarısı
+olarak aktarılmadı. [Kanıt ve sınırlar](../EVENT_FIRST_CELL_OPTIONS_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

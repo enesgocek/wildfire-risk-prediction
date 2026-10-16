@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[İlk hücre karar seçenekleri somut örneklerle hazır](EVENT_FIRST_CELL_OPTIONS_2026-10-16.md):
+19 duyarlı birim/dokuz senaryoda 181 bileşen bağlamının üye/ilk hücre
+kaydı tekrar kontrol edildi. Beş birim çok ilk hücreli bağlama dokunuyor;
+yalnız tek ilk hücreli adayları kullanma yönü, dört birimde toplam 27
+birim×senaryo aday eşleşmesini kaybettiriyor. Öneri bütün kayıtlı ilk
+hücreleri ortak aday kimliğiyle korumak; araştırmacı **A yönünü seçti**.
+Sürümlü aday kuralı 181 bağlamı ortak kimlikleri korunan 232 hücre-adayı
+satırına açtı; bunlar fiziksel olay veya etiket sayısı değildir.
+13 girdi/beş çıktı kapanışı, CSV/JSON geri okuması, 18 yeni vaka dahil
+67 ilgili test ve lint/format geçti. Eski grafik kenarları yeniden
+kurulmadı. Gruplama eşiği, fiziksel olay kimliği ve etiket kabulü açık;
+gerçek eğitim ve nihai birleştirme yapılmadı.
+
 [Güncel hazırlık envanteri tamamlandı](PREPARATION_INVENTORY_2026-10-16.md):
 72 aylık aday takvim mevcut; 4.382 günlük feature/provenance dosyasının
 varlığı/boyutu manifestlerle eşleşti. 27 sütunun manifest eksik sayıları

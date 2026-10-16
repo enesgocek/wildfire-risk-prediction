@@ -1123,6 +1123,20 @@ kapanış SHA-256 `82029c218d046414e4eb80db3b6157ee94f6959eff6f227885063d4e0f6b3
 15 açık iş kayıtlandı; gerçek etiket/model, son inceleme/onay, posta kutusu
 kontrolü, 2024/2025 veri erişimi veya nihai birleştirme yapılmadı.
 
+E118 — 16 Ekim: [İlk hücre seçenekleri](../EVENT_FIRST_CELL_OPTIONS_2026-10-16.md).
+19 duyarlı birim/dokuz senaryoda 181 bileşen bağlamının üye/ilk hücre
+bilgisi yeniden okundu. Beş birim çok ilk hücreli bağlama dokunuyor;
+yalnız tek ilk hücreli bileşen yönü dört birimde 27 birim×senaryo aday
+eşleşmesini kaybettiriyor. Araştırmacı A'yı seçti; 181 bağlamın bütün ilk
+hücreleri ortak kimlikli 232 aday satırına açıldı. Nüfus/bağımsız olay
+sayımı değildir. 18 yeni vaka dahil 67 ilgili test, lint/format,
+13 girdi/beş çıktı kapanışı ve
+CSV/JSON geri okuması geçti. Readback SHA-256
+`84ed43250e05a8023bbcc51ecf57978e9b3709de35070698a98eefa3ce1e6abf`;
+kapanış SHA-256 `1a8ba2ce82b55f2a911bf6d87e8b6bb9fc83e8727c4b1f897887c603889edcfd`.
+Grafik bölümlenmesi yeniden hesaplanmadı; gruplama eşiği seçilmedi; insan incelemesi,
+fiziksel olay kimliği, etiket, model fit veya nihai birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

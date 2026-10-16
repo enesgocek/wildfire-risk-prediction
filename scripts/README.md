@@ -6,6 +6,15 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/prepare_event_cell_decision.py`, 19 duyarlı örneğin
+bağlı kaynak üyelerini ve ilk zaman/hücre kümelerini yeniden kontrol eder.
+Bütün ilk hücreleri aday olarak koruma ile yalnız tek ilk hücreli bileşenleri
+ana aday havuzuna alma seçeneklerinin etkisini ayrı sayar. Araştırmacının
+A tercihini sürümlü kuraldan okuyarak ortak kimlikli ilk hücre adaylarını
+çıkarır. Ağ engellidir; fiziksel olay kimliği, etiket veya gruplama eşiği
+üretmez. Aday kimliği çözülmüş olay üyeliği değildir.
+[Somut örnek ve yöntem seçenekleri](../docs/EVENT_FIRST_CELL_OPTIONS_2026-10-16.md).
+
 `python scripts/quality/audit_preparation_inventory.py`, bağlı inceleme ve
 model hazırlık kanıtlarını kontrol eder; 72 ayın manifestlerini ve günlük
 indeksini uzlaştırıp 4.382 dosyanın varlık/boyutunu sınar. Büyük günlük
