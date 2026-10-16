@@ -115,6 +115,13 @@ sayılmaz. Sıradaki öneri adayların başlangıç ve birleşme geçmişlerini
 ayrı karşılaştırmaktır; tek bir eşik veya gerçek etiket kabul edilmedi.
 [Kaynaklar, tanı ve sınırlar](../EVENT_GROUPING_CONTEXT_2026-10-16.md).
 
+16 Ekim geçmiş tanısı: aynı 181 bağlamda başlangıç/devam/birleşme
+kayıtları korundu. Birleşme önceki başlangıcı silmez; tespitin alındığı
+andaki çok başlangıçlı geçmiş tek fiziksel kök kabul edilmez. Fiziksel
+bölünme uygulanmadı ve 171 aday eşleşmesi değişmedi. Öncelik iki somut
+örneğin uygun dış kanıtla incelenmesidir; bu tanı gruplama/etiket kabulü
+sağlamaz. [Yöntem ve kontroller](../EVENT_LINEAGE_2026-10-16.md).
+
 ## Ürün ve kapsam kararları
 
 Ana hedef 24 saattir. 72 saat ve daha uzun ufuklar araştırma önerisidir; veri,

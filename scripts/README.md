@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/audit_event_lineage.py`, mevcut 181 bağlamın
+nokta grafiğini zaman sırasıyla izler; başlangıç/devam/birleşme kayıtlarını
+ayırır. Eşit zamanlar toplu işlenir, önceki başlangıçlar silinmez ve
+tespitler birleşme sonrası tek köke keyfî atanmaz. Geçmiş grafiği ayrıca
+geri çözülür. Yeni etiket/FEDS uygulaması değildir; ağ kapalıdır.
+[Kapsam, gerçek sonuç ve sınırlar](../docs/EVENT_LINEAGE_2026-10-16.md).
+
 `python scripts/quality/audit_event_window_context.py`, aynı 19 duyarlı
 birimde hedef pencere sonrasındaki tespitlerin ilk zaman/hücre sonucuna
 etkisini sınar. Eski yol adımlarını kaynak ve WGS84 kenarlarıyla doğrular;

@@ -849,6 +849,14 @@ genellenmedi. Sekiz yeni vaka gerçek olay/etiket doğrulaması değildir;
 insan incelemesi veya makale deneyi yeniden üretimi uydurulmadı.
 [Kanıt ve sınırlar](../EVENT_GROUPING_CONTEXT_2026-10-16.md).
 
+16 Ekim başlangıç/geçmiş tanısı: araç desteği kronolojik grafik kaydı,
+eşit zaman sırası ve eski başlangıçların korunması için kullanıldı.
+904 aday başlangıç bağımsız yangın sayısı olarak sunulmadı; geçmiş
+grafiği ayrı çözülerek 15 yeni davranış vakasıyla sınandı. Gerçek
+olay veya fiziksel bölünme doğrulaması/insan incelemesi iddia edilmedi.
+Yöntem, aynı nokta grafiğinin deneysel kaydıdır; kabul edilmiş etiket
+politikası değildir. [Kanıt ve sınırlar](../EVENT_LINEAGE_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

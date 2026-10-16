@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Başlangıç/devam/birleşme geçmişi tanısı tamamlandı](EVENT_LINEAGE_2026-10-16.md):
+181 senaryoya özgü bileşenin 11'inde birden fazla başlangıç adayı sonradan
+birleşiyor. 904 başlangıç kaydı, 128 birleşme ve 723 bileşen azaltımı
+ayrı tutuldu; bunlar bağımsız yangın sayısı değildir. 1.032 geçmiş durumu
+ve 38.639 tespit-durum bağı geri kontrol edildi. Üç farklı örnek tespiti,
+iki hücre-günde toplam 18 tespit×senaryo satırında çok başlangıçlı geçmiş
+taşıyor; 171 örnek×ayar aday eşleşmesi değişmedi. 12 girdi/sekiz çıktı,
+15 yeni vaka dahil 110 ilgili test ve lint/format geçti. Bu tanı aynı
+grafiğin geçmişidir; fiziksel bölünme/FEDS uygulaması veya etiket kabulü
+değildir. Öncelik iki somut örneğin uygun dış olay kanıtıyla incelenmesidir.
+
 [Gruplama yöntemi ve gün sonrası bağlam tanısı tamamlandı](EVENT_GROUPING_CONTEXT_2026-10-16.md):
 19 amaçlı duyarlı örneğin 171 örnek×ayar karşılaştırmasında, hedef gün
 sonrasındaki tespitler çıkarıldığında ilk zaman/hücre veya aday varlığı

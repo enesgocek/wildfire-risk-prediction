@@ -1149,6 +1149,18 @@ kapanış SHA-256 `27e700bf751b64fe50dc1fec706b2aadffe1823c3c030a9506ca400ccb1c9
 üretilmedi. Gerçek etiket/model, olay politikası seçimi, bulut işi,
 2024/2025 verisi erişimi ve nihai birleştirme yoktur.
 
+E120 — 16 Ekim: [Başlangıç ve birleşme geçmişi](../EVENT_LINEAGE_2026-10-16.md).
+181 bağlam/38.639 tespit×bağlamda 904 başlangıç, 128 birleşme, 723 bileşen
+azaltımı; bunlar yangın sayıları değildir. 1.032 geçmiş durumu ayrı
+çözüldü. İki birimdeki üç kaynak tespiti 18 tespit×senaryo satırında
+çok başlangıçlı geçmiş taşıdı; 171 aday eşleşmesi değişmedi. 15 yeni
+vaka dahil 110 ilgili test, lint/format ve 12 girdi/sekiz çıktı kapanışı
+geçti. Readback SHA-256
+`dd4652f7bb900c08f3de8e5a96bc9f0f329d90f3eb43b314d4d9c615577b792b`;
+kapanış SHA-256 `e7a1a75aabaab78deaf05eb36f24df5385dbf32fecfcacb9e0409e01091024d4`.
+Fiziksel olay/bölünme doğrulaması, gerçek etiket/model, gruplama politikası
+kabulü, bulut işi ve nihai birleştirme yapılmadı; 2024/2025 açılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
