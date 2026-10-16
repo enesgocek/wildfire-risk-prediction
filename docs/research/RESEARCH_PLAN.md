@@ -107,6 +107,14 @@ gruplama yarıçapı/zamanı, 0/1 etiket veya eğitim kabulü sağlamaz.
   Bu duyuru mevcut eğitim kaynağının iptali değildir.
   [Resmî kaynaklar ve araştırma yorumu](../OBSERVATION_CORE_CATALOGUE_2026-10-15.md).
 
+16 Ekim gruplama araştırması: üç birincil yöntemdeki eşiklerin farklı
+amaç/algoritma rollerinde olduğu doğrulandı; doğrudan aktarım yapılmadı.
+19 duyarlı örnekte hedef gün sonrası tespitler çıkarıldığında ilk
+zaman/hücre eşleşmesi değişmedi; bu sınırlı sonuç gruplama doğruluğu
+sayılmaz. Sıradaki öneri adayların başlangıç ve birleşme geçmişlerini
+ayrı karşılaştırmaktır; tek bir eşik veya gerçek etiket kabul edilmedi.
+[Kaynaklar, tanı ve sınırlar](../EVENT_GROUPING_CONTEXT_2026-10-16.md).
+
 ## Ürün ve kapsam kararları
 
 Ana hedef 24 saattir. 72 saat ve daha uzun ufuklar araştırma önerisidir; veri,

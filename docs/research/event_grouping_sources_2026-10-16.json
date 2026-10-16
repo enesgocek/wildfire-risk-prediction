@@ -1,0 +1,45 @@
+{
+  "reviewed_on": "2026-10-16",
+  "scope": "targeted_primary_method_check_not_systematic_review_or_reproduction",
+  "sources": [
+    {
+      "id": "G1",
+      "authors": "Yang Chen ve arkadaşları",
+      "year": 2022,
+      "title": "California wildfire spread derived using VIIRS satellite observations and an object-based tracking system",
+      "doi": "10.1038/s41597-022-01343-0",
+      "full_text": "https://efi.eng.uci.edu/papers/efg_242.pdf",
+      "verification": "Yazar kurumundaki yayımlanmış PDF'nin DOI/başlık/yazarları yayıncı kaydıyla eşleşti. Güncel resmî FEDS belgeleri aynı makaleyi yöntem kaynağı olarak gösteriyor.",
+      "second_locator": "https://earth-information-system.github.io/fireatlas/docs/fireatlas_core.html",
+      "sections_read": "Methods; Fire object hierarchy; Fire event tracking; Table 2; pages 4-6",
+      "method_summary": "12 saatlik nesne takibi; pikselin ilk atanmış kimliği ve birleşme geçmişi saklanır. Makalede aktiflik için beş gün, çevreye eklenen tampon için ormanda 5 km, diğer tiplerde 1 km kullanılır. Bunlar ham nokta çiftinin sabit kenar eşiği değildir.",
+      "transfer_limit": "Kaliforniya, farklı örtü ve yakıt girdileri; Türkiye'nin bütün yeni olayları için doğrudan kabul edilmedi. Kod/veri yeniden çalıştırılmadı."
+    },
+    {
+      "id": "G2",
+      "authors": "Spyros Kondylatos, Ioannis Prapas, Gustau Camps-Valls, Ioannis Papoutsis",
+      "year": 2023,
+      "title": "Mesogeos: A multi-purpose dataset for data-driven wildfire modeling in the Mediterranean",
+      "full_text": "https://papers.nips.cc/paper_files/paper/2023/file/9ee3ed2dd656402f954ef9dc37e39f48-Paper-Datasets_and_Benchmarks.pdf",
+      "verification": "Konferans tam metninin başlık/yazarları resmî yazar deposuyla eşleşti.",
+      "second_locator": "https://github.com/Orion-AI-Lab/mesogeos",
+      "sections_read": "Section 3, Ignition Date Calculation; Section 4.1; page 5",
+      "method_summary": "Olay omurgası EFFIS yanmış alanlarıdır; MODIS ile 1 km mekânsal ve tarih çevresinde yedi günlük tamponda en eski tespit aranır. Hotspot birincil olay kimliği değildir; eşleşmeyen olay çıkarılır. Görev 30 hektarı aşan yangınlara odaklanır.",
+      "transfer_limit": "Bu tampon, bizim VIIRS noktaları arasındaki mesafe/zaman eşiğimiz değildir. Olay referansı ve kapsama uygunluğu olmadan taşınamaz."
+    },
+    {
+      "id": "G3",
+      "authors": "Adrián Cardíl ve arkadaşları",
+      "year": 2023,
+      "title": "Characterizing the rate of spread of large wildfires in emerging fire environments of northwestern Europe using Visible Infrared Imaging Radiometer Suite active fire data",
+      "doi": "10.5194/nhess-23-361-2023",
+      "full_text": "https://nhess.copernicus.org/articles/23/361/2023/",
+      "verification": "Yayıncının tam metnindeki yazar/DOI/Methods 2.3 doğrudan okundu. Ayrı kurumsal kopya bu aşamada kontrol edilmedi.",
+      "sections_read": "Methods 2.3, Clustering VIIRS data by fire incident based on space and time",
+      "method_summary": "5 km gridde komşu hücre büyütme, en az 48 saatlik tespitsiz arada zamansal ayırma ve 20'den az hotspot içeren kümeleri eleme kullanılır. Eşikler sezgisel olarak belirtilir.",
+      "transfer_limit": "Amaç büyük yangınların yayılım hızıdır. Bizim 5 km tahmin gridimiz aynı olay kuralını veya 20 tespit şartını gerekçelendirmez. Deney yeniden üretilmedi."
+    }
+  ],
+  "selected_grouping_policy": null,
+  "labels_accepted": false
+}

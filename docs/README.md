@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Gruplama yöntemi ve gün sonrası bağlam](EVENT_GROUPING_CONTEXT_2026-10-16.md) | Üç birincil yöntemin aktarım sınırı; 19 örnekte 171 karşılaştırma, doğrulanan yollar ve yedi kesilmiş grafik tanısı |
 | [İlk hücre karar seçenekleri](EVENT_FIRST_CELL_OPTIONS_2026-10-16.md) | 19 duyarlı örnekte bütün ilk hücreleri koruma/yalnız tek ilk hücre seçenekleri, gerçek aday kapsamı farkı ve araştırmacının beklenen kararı |
 | [Hazırlık envanteri ve kabul bağımlılıkları](PREPARATION_INVENTORY_2026-10-16.md) | Hazır adaylar/eksik etiket ayrımı, güncel dosya varlığı ve metadata kontrolü, kurum yanıtlarının sınırı ve kalan işler |
 | [Alt grup hata raporu hazırlığı](SUBGROUP_REPORT_2026-10-16.md) | İl/mevsim/nominal destek paydaları, boş/belirsiz grup korumaları, gerçek etiketsiz pilot ve ayrı sentetik skorlar |

@@ -841,6 +841,14 @@ yönü araştırmacıya somut örnekle sunuldu; açık A tercihi kaydedildi.
 korundu. İnsan incelemesi uydurulmadı. Sayımlar fiziksel olay doğrulaması, etiket veya model başarısı
 olarak aktarılmadı. [Kanıt ve sınırlar](../EVENT_FIRST_CELL_OPTIONS_2026-10-16.md).
 
+16 Ekim gruplama tanısı: araç desteği üç seçilmiş yöntemin birincil metin
+bölümlerinin bulunması, kimlik/erişim sınırının kaydı ve 19 örnekte hedef
+gün sonrası bağlamın ölçümünde kullanıldı. 39.694 yol-adımı ve yedi
+kesilmiş grafik doğrulandı; gözlenen sıfır değişim bütün veri evrenine
+genellenmedi. Sekiz yeni vaka gerçek olay/etiket doğrulaması değildir;
+insan incelemesi veya makale deneyi yeniden üretimi uydurulmadı.
+[Kanıt ve sınırlar](../EVENT_GROUPING_CONTEXT_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Gruplama yöntemi ve gün sonrası bağlam tanısı tamamlandı](EVENT_GROUPING_CONTEXT_2026-10-16.md):
+19 amaçlı duyarlı örneğin 171 örnek×ayar karşılaştırmasında, hedef gün
+sonrasındaki tespitler çıkarıldığında ilk zaman/hücre veya aday varlığı
+değişmedi. 181 bağlamın 174'ü doğrulanan yollarla, şüpheli yedisi tam
+kesilmiş grafikle kontrol edildi; bu sonuç tüm katalog için güvence veya
+eşik kabulü değildir. FEDS/Mesogeos/Cardíl yöntemlerinin ilgili birincil
+metinleri ve aktarım sınırları kaydedildi. 16 girdi/beş çıktı kapanışı,
+8 yeni vaka dahil 95 ilgili test ve lint/format geçti. Sıradaki hazırlık
+başlangıç/devam/birleşme izini ayrı karşılaştırmaktır; gruplama eşiği,
+bağımsız olay kimliği ve gözlem/negatif kabulü açık kalır.
+
 [İlk hücre karar seçenekleri somut örneklerle hazır](EVENT_FIRST_CELL_OPTIONS_2026-10-16.md):
 19 duyarlı birim/dokuz senaryoda 181 bileşen bağlamının üye/ilk hücre
 kaydı tekrar kontrol edildi. Beş birim çok ilk hücreli bağlama dokunuyor;

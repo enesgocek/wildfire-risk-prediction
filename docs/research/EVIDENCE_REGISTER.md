@@ -1137,6 +1137,18 @@ kapanış SHA-256 `1a8ba2ce82b55f2a911bf6d87e8b6bb9fc83e8727c4b1f897887c603889ed
 Grafik bölümlenmesi yeniden hesaplanmadı; gruplama eşiği seçilmedi; insan incelemesi,
 fiziksel olay kimliği, etiket, model fit veya nihai birleştirme yoktur.
 
+E119 — 16 Ekim: [Gruplama/gün sonrası bağlam tanısı](../EVENT_GROUPING_CONTEXT_2026-10-16.md).
+19 duyarlı örnek/dokuz ayarda 181 bağlam, 39.694 yol-adımı ve yedi tam
+kesilmiş grafik kontrol edildi. 171 örnek×ayar karşılaştırmasında ilk
+zaman/hücre veya aday varlığı değişmedi; bütün katalog ya da bağımsız
+olay doğruluğu hakkında sonuç değildir. 8 yeni vaka dahil 95 ilgili test,
+lint/format, 16 girdi/beş çıktı kapanışı ve CSV geri okuması geçti.
+Readback SHA-256 `52be23b64057c01666a3de8fe341f5646b1e6aa97c2bbeccd819c9eaa3ca21b4`;
+kapanış SHA-256 `27e700bf751b64fe50dc1fec706b2aadffe1823c3c030a9506ca400ccb1c9ef8`.
+Üç birincil yöntemin okunan bölümleri ayrı sicildedir; deneyleri yeniden
+üretilmedi. Gerçek etiket/model, olay politikası seçimi, bulut işi,
+2024/2025 verisi erişimi ve nihai birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

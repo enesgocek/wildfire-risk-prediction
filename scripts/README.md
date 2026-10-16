@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/audit_event_window_context.py`, aynı 19 duyarlı
+birimde hedef pencere sonrasındaki tespitlerin ilk zaman/hücre sonucuna
+etkisini sınar. Eski yol adımlarını kaynak ve WGS84 kenarlarıyla doğrular;
+kesim sonrasına uğrayan yollarda tam kesilmiş grafiği yeniden kurar.
+Bu tanı FEDS veya yeni etiketleme algoritması değildir; ağ erişimi kapalıdır.
+[Yöntem kaynakları ve gerçek sonuç](../docs/EVENT_GROUPING_CONTEXT_2026-10-16.md).
+
 `python scripts/quality/prepare_event_cell_decision.py`, 19 duyarlı örneğin
 bağlı kaynak üyelerini ve ilk zaman/hücre kümelerini yeniden kontrol eder.
 Bütün ilk hücreleri aday olarak koruma ile yalnız tek ilk hücreli bileşenleri
