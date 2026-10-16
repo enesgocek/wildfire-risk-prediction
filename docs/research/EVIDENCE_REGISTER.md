@@ -1091,6 +1091,17 @@ kapanış SHA-256 `c141e033ba254f348d9858f262bd9fa5a78effae83cab4ba3ebad3ccd869b
 Gerçek etiket/deney/model/parametre, 2024/2025 erişimi veya nihai onay yok.
 Hash geri kontrolü bağımsız bilimsel doğrulama ya da kimlik doğrulaması değildir.
 
+E115 — 16 Ekim: [Sınıf ağırlığı ve kalibrasyon taslağı](../IMBALANCE_CALIBRATION_PLAN_2026-10-16.md).
+Resmî teknik belgeler web'de kontrol edildi; altı öneri kolu, altı sentetik
+ağırlık hesabı ve beş hatalı rol senaryosu yerelde sınandı. Mevcut 193 ilgili
+test yeniden geçti; yeni betikte lint/format ve 52 girdi/beş çıktı kapanışı
+geçti. Readback SHA-256
+`9fe78387323202ff09ff68a06215f1bc3540da434c74c053b6669df096e0a4f6`;
+kapanış SHA-256 `8bb1ac8b53d58d995b95872eecc859d7933eea12e319abc9ce0a60900734dec1`.
+Araştırmacı 2023 kalibrasyon/2024 karşılaştırma yönünü hazırlamayı seçti;
+gerçek sınıf oranı/yöntem seçimi, model veya
+kalibratör fit, etiket kabulü ve 2024/2025 veri erişimi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

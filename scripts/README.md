@@ -6,6 +6,14 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/prepare_imbalance_calibration_plan.py`, mevcut deney
+hazırlığına bağlı bir taslak matrisi üretir; altı sentetik sınıf ağırlığını
+ve beş hatalı üç-bölüm rol senaryosunu mevcut yardımcılarla kontrol eder.
+Sınıflandırıcı/kalibratör fit etmez, gerçek etiket/sınıf oranı üretmez.
+Yeni sonuç dizini ve bağlı plan snapshot'ı oluşturur; araştırmacının seçtiği
+2023 kalibrasyon/2024 karşılaştırma yönünü okur, gerçek yöntem seçmez.
+[Plan ve kaynaklar](../docs/IMBALANCE_CALIBRATION_PLAN_2026-10-16.md).
+
 `python scripts/quality/prepare_experiment_record.py`, önceki ön işleme
 kanıtlarını hash ile kontrol ederek mevcut hazırlık ve ayrı sentetik
 deneme için iki sürümlü kayıt üretir. Dört oyuncak ayrımın anahtar/olay/blok,

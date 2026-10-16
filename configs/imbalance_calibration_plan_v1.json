@@ -1,0 +1,45 @@
+{
+  "version": "imbalance_calibration_plan_v1",
+  "status": "comparison_design_only_not_training_authorization",
+  "primary_metric": "average_precision",
+  "class_weight_candidates": ["none", "balanced_fit_partition_only"],
+  "calibration_candidates": ["none", "sigmoid", "isotonic_conditional_support"],
+  "selected_class_weight": null,
+  "selected_calibration": null,
+  "data_role_direction": "fit_2018_2022_calibration_2023_selection_2024",
+  "data_role_direction_source": "explicit_user_choice_2026-10-16",
+  "calendar_feasibility_verified": false,
+  "proposed_internal_method_review": {
+    "base_fit_years": [2018, 2019, 2020, 2021],
+    "calibration_year": 2022,
+    "assessment_year": 2023,
+    "status": "calendar_candidate_not_executable_fold"
+  },
+  "proposed_validation_stage": {
+    "base_fit_years": [2018, 2019, 2020, 2021, 2022],
+    "calibration_year": 2023,
+    "selection_year": 2024,
+    "sealed_final_year": 2025,
+    "status": "preferred_direction_pending_label_and_event_support"
+  },
+  "embargo_hours": null,
+  "boundary_event_policy": null,
+  "minimum_independent_calibration_events": null,
+  "calibration_selection_rule": null,
+  "calibration_bin_count": null,
+  "resampling_in_initial_comparison": false,
+  "class_balancing_in_calibration_or_assessment": false,
+  "calibration_training_key_overlap_permitted": false,
+  "apply_old_calibrator_to_refitted_model": false,
+  "real_class_counts_available": false,
+  "labels_accepted": false,
+  "model_ready": false,
+  "training_authorized": false,
+  "final_merge_performed": false,
+  "sources": [
+    "https://scikit-learn.org/stable/modules/calibration.html",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.calibration.CalibratedClassifierCV.html",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html",
+    "https://imbalanced-learn.org/stable/common_pitfalls.html"
+  ]
+}

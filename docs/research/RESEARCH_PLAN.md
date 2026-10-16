@@ -66,6 +66,13 @@ bağlandı. Gerçek model, örnekleme, kalibrasyon ve onay alanları beklemededi
 bu kayıtlar gerçek deneyin veya bilimsel kabulün yerine geçmez.
 [Kayıt ve sınırlar](../EXPERIMENT_RECORD_2026-10-16.md).
 
+16 Ekim sınıf ağırlığı/kalibrasyon taslağı: ağırlıksız ve fit bölümünden
+balanced ağırlıklı temel modellerin ham/sigmoid/koşullu isotonic çıktıları
+önerildi. Araştırmacı 2023 kalibrasyon/2024 karşılaştırma hazırlık yönünü
+seçti; etiket/olay desteği doğrulanmadı. 12 Ekim önerisinin geçmişi korunur.
+Gerçek sınıf oranı/yöntem seçilmedi; etiket/eğitim kapıları kapalıdır.
+[Kaynaklar, öneriler ve sentetik kontroller](../IMBALANCE_CALIBRATION_PLAN_2026-10-16.md).
+
 ## Açık bilimsel konular
 
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.

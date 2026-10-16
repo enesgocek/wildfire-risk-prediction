@@ -810,6 +810,14 @@ model, parametre veya nihai onay üretilmedi. Kaydın hash doğrulaması imza,
 insan değerlendirmesi veya bağımsız bilimsel kabul olarak sunulmadı.
 [Kanıt ve sınırlar](../EXPERIMENT_RECORD_2026-10-16.md).
 
+16 Ekim sınıf ağırlığı/kalibrasyon kaydı: araç desteği resmî teknik kaynak
+kontrolünde, altı kollu öneri ve veri rolü seçeneklerinde, altı sentetik
+ağırlık hesabı ile beş hatalı rol senaryosunda kullanıldı. Araştırmacı
+2023 kalibrasyon/2024 karşılaştırma hazırlık yönünü açıkça seçti; karar
+araç tarafından bağımsız bilimsel doğrulama olarak sunulmadı.
+Gerçek sınıf oranı, model/kalibratör eğitimi veya bilimsel kabul yapılmadı.
+[Plan, kaynaklar ve sınırlar](../IMBALANCE_CALIBRATION_PLAN_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -5,14 +5,24 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Sınıf ağırlığı ve kalibrasyon karşılaştırma taslağı hazır](IMBALANCE_CALIBRATION_PLAN_2026-10-16.md):
+iki ağırlık × üç çıktı yöntemi için altı aday kol yazıldı; gerçek deney
+çalıştırılmadı. Araştırmacı 2023 kalibrasyon/2024 karşılaştırma yönünü
+hazırlamayı seçti; etiket/olay desteği uygunluğu açık. Gerçek sınıf oranı/kalibrasyon
+yöntemi seçilmedi. Altı sentetik ağırlık hesabı ve beş hatalı rol senaryosu
+kontrol edildi; mevcut 193 ilgili test yeniden geçti. Yeni betikte lint/
+format ve 52 girdi/beş çıktı kapanışı geçti. Gerçek eğitim/kalibrasyon,
+etiket, 2024/2025 veri erişimi ve nihai birleştirme yok. Sonraki bağımsız
+hazırlık, hata analizinin il/mevsim/gözlem kapsamı rapor şemasıdır.
+
 [Deney hazırlık kaydı eklendi](EXPERIMENT_RECORD_2026-10-16.md):
 dosya/kod/ayar hash'leri, kapalı etiket protokolü ve ayrı sentetik fold
 kayıtları aynı kimliğe bağlanıyor. Mevcut hazırlık ve dört oyuncak ayrım
 iki ayrı kayıtta saklandı; diske yazma/geri okuma ve oynanmış izin alanının
 reddi geçti. 35 yeni vaka dahil 193 ilgili test, üç dosyada lint/format ve
 44 girdi/dört çıktı kapanışı başarılı. Gerçek model/ayar/etiket/onay alanları
-beklemede; gerçek eğitim ve nihai birleştirme yok. Sıradaki bağımsız hazırlık,
-örnekleme/sınıf ağırlıkları ve kalibrasyon veri rollerinin karşılaştırma planıdır.
+beklemede; gerçek eğitim ve nihai birleştirme yok. Sınıf ağırlıkları ve
+kalibrasyon veri rollerinin karşılaştırma taslağı yukarıdaki hazırlıkta yazıldı.
 
 [Fold eğitiminden öğrenilen ön işleme hazırlandı](FOLD_PREPROCESSING_2026-10-16.md):
 medyan doldurma ve isteğe bağlı ölçekleme yalnız ayrımın eğitim kısmından

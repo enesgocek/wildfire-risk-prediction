@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Sınıf ağırlığı ve kalibrasyon planı](IMBALANCE_CALIBRATION_PLAN_2026-10-16.md) | Aday karşılaştırmalar, seçilen hazırlık yönü ve açık takvim uygunluğu, kaynaklar ve sentetik ağırlık/rol kontrolleri |
 | [Deney hazırlık kaydı](EXPERIMENT_RECORD_2026-10-16.md) | Dosya/kod/ayar ve sentetik ayrım kimlikleri, diskten geri kontrol, kapalı kabul alanları ve gerçek deney sınırı |
 | [Fold içi ön işleme](FOLD_PREPROCESSING_2026-10-16.md) | Yalnız eğitimden öğrenilen medyan/ölçek, boş sütun seçenekleri, anahtar/şema korumaları ve sentetik prova |
 | [Değerlendirme hesap ve ayrım çekirdeği](EVALUATION_CORE_2026-10-16.md) | AP kararı, eşlenik anahtarlar, eğitim içi zaman/olay/blok kontrolü, belirsiz alarm muhasebesi ve yalnız sentetik sınama |
