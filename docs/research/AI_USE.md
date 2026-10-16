@@ -818,6 +818,13 @@ araç tarafından bağımsız bilimsel doğrulama olarak sunulmadı.
 Gerçek sınıf oranı, model/kalibratör eğitimi veya bilimsel kabul yapılmadı.
 [Plan, kaynaklar ve sınırlar](../IMBALANCE_CALIBRATION_PLAN_2026-10-16.md).
 
+16 Ekim alt grup raporu: araç desteği il/mevsim/nominal destek paydaları,
+boş/belirsiz grup durumları, yalnız sentetik skor hesapları ve 35 yeni
+davranış vakasında kullanıldı. Gerçek 156 birimde yalnız etiketsiz sayım
+yapıldı; bağımsız olay, insan incelemesi veya gerçek model başarısı
+olarak sunulmadı. Asgari grup/olay eşiği ve güven aralığı seçilmedi.
+[Kanıt ve sınırlar](../SUBGROUP_REPORT_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

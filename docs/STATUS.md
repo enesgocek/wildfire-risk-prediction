@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Hata analizi rapor şeması hazırlandı](SUBGROUP_REPORT_2026-10-16.md):
+il/mevsim/nominal destek ve il×mevsimde 28 satırlı rapor; boş gruplar,
+bilinmeyen hedefler ve eksik tahminler açık sayılıyor. Gerçek 156 amaçlı
+birimin tamamı etiketsiz kaldı: nominal destek 7 birimde sıfır, 149'unda
+pozitif; gerçek başarı skoru sıfır. Ayrı sekiz sentetik birimde hesap ve
+eksik grup korumaları sınandı. 35 yeni vaka dahil 253 ilgili test, üç
+dosyada lint/format ve 63 girdi/dört çıktı kapanışı geçti. Olay sayısı ve
+güven aralıkları hesaplanmadı; gerçek eğitim/etiket ve nihai birleştirme yok.
+Sonraki hazırlık, açık veri kabul bağımlılıklarının güncel envanteridir.
+
 [Sınıf ağırlığı ve kalibrasyon karşılaştırma taslağı hazır](IMBALANCE_CALIBRATION_PLAN_2026-10-16.md):
 iki ağırlık × üç çıktı yöntemi için altı aday kol yazıldı; gerçek deney
 çalıştırılmadı. Araştırmacı 2023 kalibrasyon/2024 karşılaştırma yönünü
@@ -12,8 +22,8 @@ hazırlamayı seçti; etiket/olay desteği uygunluğu açık. Gerçek sınıf or
 yöntemi seçilmedi. Altı sentetik ağırlık hesabı ve beş hatalı rol senaryosu
 kontrol edildi; mevcut 193 ilgili test yeniden geçti. Yeni betikte lint/
 format ve 52 girdi/beş çıktı kapanışı geçti. Gerçek eğitim/kalibrasyon,
-etiket, 2024/2025 veri erişimi ve nihai birleştirme yok. Sonraki bağımsız
-hazırlık, hata analizinin il/mevsim/gözlem kapsamı rapor şemasıdır.
+etiket, 2024/2025 veri erişimi ve nihai birleştirme yok. Hata analizi
+rapor şeması yukarıdaki sonraki hazırlıkta sınandı.
 
 [Deney hazırlık kaydı eklendi](EXPERIMENT_RECORD_2026-10-16.md):
 dosya/kod/ayar hash'leri, kapalı etiket protokolü ve ayrı sentetik fold

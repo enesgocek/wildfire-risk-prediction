@@ -1,0 +1,20 @@
+{
+  "version": "error_analysis_v1",
+  "status": "schema_and_rehearsal_not_real_model_evaluation",
+  "dimensions": ["all", "primary_province", "calendar_season", "support_status", "province_season"],
+  "province_assignment": "existing_single_primary_province_not_all_intersections",
+  "season_definition": "UTC_issue_month_DJF_MAM_JJA_SON",
+  "nominal_support_levels": ["missing", "zero", "positive"],
+  "nominal_support_above_one_tolerance": 1e-8,
+  "support_group_is_label_acceptance": false,
+  "partial_group_scoring": "forbidden_no_silent_complete_case_selection",
+  "real_scoring_implemented": false,
+  "empty_groups": "explicit_zero_counts_null_metrics",
+  "single_class_ranking_metrics": "undefined_null",
+  "minimum_group_units": null,
+  "minimum_independent_events": null,
+  "confidence_interval_method": null,
+  "labels_accepted": false,
+  "model_ready": false,
+  "final_merge_performed": false
+}

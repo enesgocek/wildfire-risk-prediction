@@ -73,6 +73,13 @@ seçti; etiket/olay desteği doğrulanmadı. 12 Ekim önerisinin geçmişi korun
 Gerçek sınıf oranı/yöntem seçilmedi; etiket/eğitim kapıları kapalıdır.
 [Kaynaklar, öneriler ve sentetik kontroller](../IMBALANCE_CALIBRATION_PLAN_2026-10-16.md).
 
+16 Ekim alt grup raporu: il/mevsim ve nominal destek paydaları aynı ana
+kohortla uzlaştırıldı. Eksik hedef/tahminli grup sessiz alt küme skorlaması
+yapmaz; boş ve tek sınıflı gruplar açık durumlarla gösterilir. Gerçek
+156 amaçlı birim etiketsiz kaldı; skorlar yalnız ayrı sentetik provadadır.
+İstatistiksel destek/güven aralığı ve gerçek model başarısı iddia edilmez.
+[Şema, sayımlar ve sınırlar](../SUBGROUP_REPORT_2026-10-16.md).
+
 ## Açık bilimsel konular
 
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.

@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/prepare_subgroup_report.py`, önceki planın bağlı
+dosyalarını hash ile kontrol eder; aynı 156 etiketsiz pilot biriminde
+il/mevsim/nominal destek paydalarını, ayrı sekiz sentetik birimde hata
+raporu hesaplarını üretir. Boş gruplar korunur; eksik hedef/tahmin içeren
+grupta tamamlanan alt küme sessizce skorlanmaz. Gerçek skor, etiket veya
+model üretmez. [Rapor kapsamı](../docs/SUBGROUP_REPORT_2026-10-16.md).
+
 `python scripts/quality/prepare_imbalance_calibration_plan.py`, mevcut deney
 hazırlığına bağlı bir taslak matrisi üretir; altı sentetik sınıf ağırlığını
 ve beş hatalı üç-bölüm rol senaryosunu mevcut yardımcılarla kontrol eder.

@@ -1102,6 +1102,16 @@ Araştırmacı 2023 kalibrasyon/2024 karşılaştırma yönünü hazırlamayı s
 gerçek sınıf oranı/yöntem seçimi, model veya
 kalibratör fit, etiket kabulü ve 2024/2025 veri erişimi yok.
 
+E116 — 16 Ekim: [Alt grup raporu hazırlığı](../SUBGROUP_REPORT_2026-10-16.md).
+Aynı 156 amaçlı etiketsiz birim, 117 hücre/12 tarihte 28 grup satırıyla
+raporlandı; nominal destek 7 sıfır/149 pozitif, gerçek skor sıfırdır.
+Ayrı sekiz sentetik birimde hesap ve eksik grup korumaları sınandı.
+35 yeni vaka dahil 253 ilgili test ve üç dosyada lint/format geçti;
+63 girdi/dört çıktı kapanışı korundu. Readback SHA-256
+`df7fb636008606108342dc0fafe8fe164bbc96f1b940ae915ad59008a19893f7`;
+kapanış SHA-256 `e9504caffd059d925bcaafc67f97a10d1a2a627f6d8beedfa220d03b808f3b6b`.
+Olay sayısı/güven aralığı, gerçek skor/model/etiket ve 2024/2025 erişimi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
