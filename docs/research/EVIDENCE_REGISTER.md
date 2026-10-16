@@ -1112,6 +1112,17 @@ Ayrı sekiz sentetik birimde hesap ve eksik grup korumaları sınandı.
 kapanış SHA-256 `e9504caffd059d925bcaafc67f97a10d1a2a627f6d8beedfa220d03b808f3b6b`.
 Olay sayısı/güven aralığı, gerçek skor/model/etiket ve 2024/2025 erişimi yok.
 
+E117 — 16 Ekim: [Hazırlık envanteri](../PREPARATION_INVENTORY_2026-10-16.md).
+72 ay/2.191 gün/6.351.709 aday satırı metadata düzeyinde uzlaştırıldı;
+4.382 günlük dosyanın varlık/boyutu eşleşti. Büyük günlük içerikler yeniden
+hash'lenmedi. 27 manifest eksik sayımı eski profille eşleşti; 400 önizleme
+hedefi boş kaldı. 303 bağlı dosya/beş çıktı kapanışı, yeni betikte lint/
+format ve mevcut kabul kapılarının 28 testi geçti. Readback SHA-256
+`1832b3b6426030ffc5165c600c593e877c7ab88ebba185469c51258ceb55a73e`;
+kapanış SHA-256 `82029c218d046414e4eb80db3b6157ee94f6959eff6f227885063d4e0f6b3895`.
+15 açık iş kayıtlandı; gerçek etiket/model, son inceleme/onay, posta kutusu
+kontrolü, 2024/2025 veri erişimi veya nihai birleştirme yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

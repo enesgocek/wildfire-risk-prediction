@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Güncel hazırlık envanteri tamamlandı](PREPARATION_INVENTORY_2026-10-16.md):
+72 aylık aday takvim mevcut; 4.382 günlük feature/provenance dosyasının
+varlığı/boyutu manifestlerle eşleşti. 27 sütunun manifest eksik sayıları
+eski kalite profiliyle uzlaştı; büyük günlük içerikler yeniden hash'lenmedi.
+303 metadata/kanıt dosyası ve beş çıktı kapanışı, betikte lint/format ve
+28 ilgili kabul kapısı testi geçti. 400 inceleme hedefi boş; nihai hedef
+parçası yok. 15 açık iş bağımlılıklarla listelendi, bitiş yüzdesi atanmadı.
+Kurum yanıtı tek başına bilimsel kabul değil; mevcut protokol ve gerçek
+etiket/son kontrol/onay kapıları açık. Sonraki öncelik olay/ilk hücre
+seçeneklerini mevcut somut vakalar üzerinden karara hazırlamaktır.
+
 [Hata analizi rapor şeması hazırlandı](SUBGROUP_REPORT_2026-10-16.md):
 il/mevsim/nominal destek ve il×mevsimde 28 satırlı rapor; boş gruplar,
 bilinmeyen hedefler ve eksik tahminler açık sayılıyor. Gerçek 156 amaçlı
@@ -13,7 +24,7 @@ pozitif; gerçek başarı skoru sıfır. Ayrı sekiz sentetik birimde hesap ve
 eksik grup korumaları sınandı. 35 yeni vaka dahil 253 ilgili test, üç
 dosyada lint/format ve 63 girdi/dört çıktı kapanışı geçti. Olay sayısı ve
 güven aralıkları hesaplanmadı; gerçek eğitim/etiket ve nihai birleştirme yok.
-Sonraki hazırlık, açık veri kabul bağımlılıklarının güncel envanteridir.
+Açık veri kabul bağımlılıkları yukarıdaki güncel envanterde ayrıldı.
 
 [Sınıf ağırlığı ve kalibrasyon karşılaştırma taslağı hazır](IMBALANCE_CALIBRATION_PLAN_2026-10-16.md):
 iki ağırlık × üç çıktı yöntemi için altı aday kol yazıldı; gerçek deney
@@ -1164,14 +1175,20 @@ yazışması ayrı bir konudur; inceleme bildirimi teknik teyit değildir.
 
 ## Tamamlanmış altyapı ve kanıtlar
 
+16 Ekim özet düzeltmesi: aşağıdaki aday üretim durumu kayıtlı 14 Ekim
+tamamlanmalarıyla uzlaştırıldı. Eski altı ay/66 kalan ay başlangıç bilgisi
+tarihsel raporlarda korunur; güncel bitki örtüsü kuyruğu durumu değildir.
+Bu özet geçmiş içerik denetimlerini bugün yeniden yapılmış saymaz.
+
 | Alan | Durum | Sınır |
 |---|---|---|
 | Coğrafi altyapı | Dört il ve 2.899 hücre hazır | Model için bitki örtüsü uygunluk seçimi açık |
 | Meteoroloji | 2018–2024; 2.557 gün, 7.412.743 hücre-gün denetlendi | Eğitim 6.351.709; doğrulama 1.061.034; gerçek zaman erişimi doğrulanmadı |
-| Örtü ve arazi | 2.899 statik hücre; mevsim/tam grid denemeleri ve altı eğitim ayının 1.055.236 günlük bitki örtüsü adayı kabul kaydında | Kalan 66 eğitim ayı ve habitat kararı tamamlanmadı; tarihsel erişim zamanı bilinmiyor |
+| Örtü ve arazi | 2.899 statik hücrede yedi örtü/beş topografya sütunu aday takvime bağlı | Tam su dışlaması ayrı; kalan 2.889 hücre nihai habitat kabulü değil; tarihsel erişim sınırı açık |
+| Bitki örtüsü | 72 eğitim ayı; 30/60 günlük NDVI/NDMI dört aday sütun olarak hazır | NaN'lar korunur; görüntü yaşı/destek ve gerçek doldurma yöntemi ayrı değerlendirilir |
 | FIRMS | İki sensörden 33.255 aday tespit | Bağımsız yangın sayısı veya nihai etiket değil |
 | Olay ön incelemesi | 30.295 eğitim adayının dokuz gruplama grafiği geri okundu; ilk zaman/hücre/pencere ayrı denetlendi | Zincirleme ve kaynak belirsizlikleri açık; nihai olay kimliği ve etiket yok |
-| Gözlem alanı | Kaynak/alan/tarama tanıları ve bulut üretim hattı mevcut | Yaklaşık geometri; negatif etiket izni yok |
+| Gözlem alanı | 72 aylık tablo ve tam eğitim takviminin önceki denetimi; 156 birimde alan/zaman pilotu | İki kaynak günü açık; yaklaşık geometri ve unknown; negatif etiket izni yok |
 | Hızlandırma | Aynı VM baz ortalamasına karşı 1,4655 kat throughput | Üç günlük deney; tüm dönem veya donanım etkisi garantisi değil |
 | Model | Henüz eğitilmedi | Başarı yüzdesi veya operasyonel kullanım iddiası yok |
 
@@ -1180,18 +1197,24 @@ Birincil rapor bağlantıları [kanıt dizininde](research/EVIDENCE_REGISTER.md)
 yerelde tamamlandı; VM'deki yangın gözlem üretiminden bağımsızdır.
 [Mevsim ve görüntü yaşı karşılaştırması](VEGETATION_WINDOW_REVIEW_2026-10-09.md)
 da yerelde denetlendi. 30 ve 60 günlük ayrı aday özelliklerin iki eğitim
-ayındaki günlük eşleştirme ve destek/yaş incelemesi 10 Ekim'de geçti. Bu çalışma bütün dönem
-veri hazırlığı veya operasyonel kullanım onayı olarak sayılmadı.
+ayındaki günlük eşleştirme ve destek/yaş incelemesi 10 Ekim'de geçti. Bu başlangıç
+denemesi tek başına bütün dönem kabulü sayılmadı; 14 Ekim'de 72 aylık aday
+özellik takvimi tamamlandı. 16 Ekim envanterinde günlük dosya varlığı/boyutu
+ve bağlı metadata tekrar kontrol edildi; etiket veya operasyonel kullanım kabulü yok.
 Üretim boyunca `daily_observation_status=unknown` ve
 `negative_label_permitted=false` geçerli. 2025 final testi kapalıdır.
 
 ## Sonraki aşamalar
 
-1. Oturum sonu raporlarını ve sonuçları bağımsız geri okumayla kontrol etmek.
-2. Eksik kaynakları ayrı izleyerek kalan eğitim aylarını tamamlamak.
-3. Olay gruplaması, gözlem belirsizliği ve negatif etiket kuralını gerekçelendirmek.
-4. Etiket/özellik/split manifestlerini ve sızıntı kontrollerini tamamlamak.
-5. Temel model karşılaştırmalarına, kalibrasyona ve hata analizine geçmek.
+1. Kaynak semantiği, olay/ilk hücre/habitat, gözlem-negatif ve dönem kenarı
+   protokolünü somut kanıtlarla sonuçlandırmak; yeni kurum yanıtını varsa incelemek.
+2. İki eksik kaynak gününü/pencere etkisini ayrı tutarak kabul edilen protokolle
+   hedef parçalarını oluşturmak; 72 aylık özellik kuyruğunu yeniden açmamak.
+3. Beş parçanın güncel son kontrolünü yapmak ve rapor hash'ine bağlı açık
+   araştırmacı onayından sonra nihai birleştirmeyi çalıştırmak.
+4. Gerçek eğitim/kalibrasyon girişini ve ayrıca 2024 doğrulama hazırlığını
+   kabul edilmiş parçalara bağlamak; mevcut teknik provaları gerçek deney saymamak.
+5. Dondurulmuş model/protokolle 2025 final değerlendirmesi ve sonraki ürün aşamasına geçmek.
 
 ## Başvuru ve kaynak yönetimi
 

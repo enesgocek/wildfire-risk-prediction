@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/audit_preparation_inventory.py`, bağlı inceleme ve
+model hazırlık kanıtlarını kontrol eder; 72 ayın manifestlerini ve günlük
+indeksini uzlaştırıp 4.382 dosyanın varlık/boyutunu sınar. Büyük günlük
+tabloların içerik hash'lerini yeniden hesaplamaz. 400 etiketsiz önizlemeyi
+okur, kalan bağımlılıkları ayrı kaydeder; bilimsel kabul/onay üretmez.
+[Envanter ve kontrol kapsamı](../docs/PREPARATION_INVENTORY_2026-10-16.md).
+
 `python scripts/quality/prepare_subgroup_report.py`, önceki planın bağlı
 dosyalarını hash ile kontrol eder; aynı 156 etiketsiz pilot biriminde
 il/mevsim/nominal destek paydalarını, ayrı sekiz sentetik birimde hata

@@ -825,6 +825,14 @@ yapıldı; bağımsız olay, insan incelemesi veya gerçek model başarısı
 olarak sunulmadı. Asgari grup/olay eşiği ve güven aralığı seçilmedi.
 [Kanıt ve sınırlar](../SUBGROUP_REPORT_2026-10-16.md).
 
+16 Ekim envanter kaydı: araç desteği bağlı rapor/manifestlerin ve 4.382
+günlük dosyanın varlık/boyut denetiminde, eksik değer metadata sayımlarının
+uzlaştırılmasında ve açık bağımlılık listesinin yazımında kullanıldı.
+Gerçek büyük tablo içeriği yeniden doğrulanmış, eski testler yeni sonuç
+veya envanter nihai kabul olarak sunulmadı. Tarihsel raporlar korunarak
+güncel özet düzeltildi; gerçek kullanıcı onay makbuzu üretilmedi.
+[Kanıt ve sınırlar](../PREPARATION_INVENTORY_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -80,6 +80,12 @@ yapmaz; boş ve tek sınıflı gruplar açık durumlarla gösterilir. Gerçek
 İstatistiksel destek/güven aralığı ve gerçek model başarısı iddia edilmez.
 [Şema, sayımlar ve sınırlar](../SUBGROUP_REPORT_2026-10-16.md).
 
+16 Ekim envanteri: 72 aylık özellik adayı üretimi ile etiket/bilimsel kabul
+ayrıldı. Güncel dosya varlığı/boyutu ve metadata kontrolü son parça kabulü
+yerine konulmadı. Kurum yanıtı, alternatif referans ve araştırmacı yöntemi
+kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla yazıldı.
+[Güncel envanter ve kabul sırası](../PREPARATION_INVENTORY_2026-10-16.md).
+
 ## Açık bilimsel konular
 
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.
