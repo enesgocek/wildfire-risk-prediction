@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/rehearse_evaluation_core.py`, kabul edilmiş yeni AP
+ölçüt tanımını okur; 55 sentetik örnekte hesapları mevcut scikit-learn ile
+karşılaştırır, eğitim içi ayrım/uyarı muhasebesini sınar ve gerçek pilotun
+156 boş hedefinin skora alınmasını reddeder. Gerçek model/kalibratör fit
+etmez; K/embargo/blok politikasını seçmez, 2024/2025'i açmaz.
+[Hesap ve ayrım çekirdeği](../docs/EVALUATION_CORE_2026-10-16.md).
+
 `python scripts/quality/prepare_reference_intake.py`, önceki kaynak hazırlığının
 girdi/çıktı hash'lerini tekrar kontrol eder ve aynı 12 kamu bağlam kaydıyla
 boş olay şablonunda yeni alım katmanını çevrimdışı dener. Özel sağlayıcı

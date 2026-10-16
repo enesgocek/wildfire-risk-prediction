@@ -1,9 +1,20 @@
-# Proje durum raporu — 15 Ekim 2026
+# Proje durum raporu — 16 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+[Değerlendirme çekirdeği hazırlandı](EVALUATION_CORE_2026-10-16.md):
+araştırmacının 16 Ekim kararıyla AP ana, trapez PR-AUC yardımcı ölçüttür.
+Hesaplar, aynı anahtar/hedefli karşılaştırma, eğitim içi zaman/olay/blok
+ayrımı ve günlük belirsiz uyarı muhasebesi hazır. 67 yeni vaka dahil 113
+ilgili test, beş Python dosyasında lint/format ve 55 sentetik örnekte
+scikit-learn karşılaştırması geçti. 17 girdi/dokuz çıktı kapanışı korundu.
+Gerçek pilotun 156 boş hedefini skorlama reddedildi; gerçek skor/model yok.
+2024/2025 kapalı, etiket ve nihai birleştirme kapıları değişmedi. Gerçek
+K/embargo/blok/olay politikası seçilmedi. Sıradaki bağımsız hazırlık,
+ön işlemenin yalnız fold eğitim kısmından öğrenilmesidir.
 
 [Kurumsal olay verisi alım kontrolü hazır](REFERENCE_INTAKE_2026-10-15.md):
 19 alanlı normalleştirilmiş şemada kimlik tekrarları, tarih/UTC, CRS/konum,

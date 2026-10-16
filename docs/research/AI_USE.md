@@ -785,6 +785,15 @@ inceleme alanları beklemede bırakıldı; kurum yanıtı, bağımsız uzman
 onayı veya gerçek yeni olay verisi elde edildiği iddia edilmedi.
 [Kanıt ve sınırlar](../REFERENCE_INTAKE_2026-10-15.md).
 
+16 Ekim değerlendirme kaydı: araştırmacı AP ana/trapez PR-AUC yardımcı
+seçimini yaptı. Araç desteği bu kararın sürümlü kaydına, metrik/eşlenik
+anahtar ve eğitim içi ayrım kontrollerine, belirsiz alarm muhasebesine ve
+67 yeni davranış vakasına uygulandı. 55 sentetik hesap mevcut referans
+kütüphaneyle karşılaştırıldı; gerçek 156 boş hedefin skora alınması
+reddedildi. Hiçbir sınıflandırıcı veya kalibratör fit edilmedi; sentetik
+sayılar gerçek başarı, uzman onayı veya etiket kabulü olarak sunulmadı.
+[Kanıt ve sınırlar](../EVALUATION_CORE_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

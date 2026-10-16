@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 15 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 16 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. TÜBİTAK belirli bir Git
 klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği için seçilmiştir.
 
@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Değerlendirme hesap ve ayrım çekirdeği](EVALUATION_CORE_2026-10-16.md) | AP kararı, eşlenik anahtarlar, eğitim içi zaman/olay/blok kontrolü, belirsiz alarm muhasebesi ve yalnız sentetik sınama |
 | [Olay verisi alım kontrolü](REFERENCE_INTAKE_2026-10-15.md) | 19 alanlı şema, kimlik/tarih/CRS/kaynak incelemesi, değersiz hata tanıları ve 12 kamu kaydında kabul sınırı |
 | [Gözlem koşullarının alt grup etkisi](PROTOCOL_SELECTION_REVIEW_2026-10-15.md) | Aynı 156 amaçlı birimde il/mevsim/örtü/yıl paydaları, eşlenik seçim farkları ve politika kabul sınırı |
 | [Bağımsız referans erişimi ve doğrulama hazırlığı](INDEPENDENT_REFERENCE_PLAN_2026-10-15.md) | Gerçek OGM/EFFIS kaynakları, 12 bağlam kaydının sınırları, boş olay/kapsam şablonları ve gönderilmemiş kurumsal talep |

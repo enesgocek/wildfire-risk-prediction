@@ -50,6 +50,10 @@ uygulama için olay yakalama ve yanlış alarm yükü raporlanır. Başarı eşi
 pilot çalışmadan sonra, nihai test açılmadan önce kaydedilecektir. Henüz hedef
 başarı yüzdesi veya olumlu deney sonucu ilan edilmemiştir.
 
+16 Ekim ölçüt netleştirmesi: araştırmacı AP'yi ana, trapez PR-AUC'ı yardımcı
+hesap olarak kabul etti. Yukarıdaki PR ailesi ifadesi bu güncellemede AP
+ile somutlaştırılır. [Uygulama, sentetik sınama ve kabul sınırı](../EVALUATION_CORE_2026-10-16.md).
+
 ## Açık bilimsel konular
 
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.

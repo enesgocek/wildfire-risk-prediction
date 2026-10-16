@@ -141,6 +141,12 @@ endeksini tahmin eden modelle olay olasılığı skorları karıştırılmaz.
 
 ## Ölçüt sözleşmesi
 
+16 Ekim tarihli sonraki karar: araştırmacı AP ana/trapez PR-AUC yardımcı
+seçeneğini kabul etti. Aşağıdaki 12 Ekim önerisi tarihsel kayıttır;
+hesap tanımı artık [ayrı sürümlü değerlendirme yapılandırmasıyla](../EVALUATION_CORE_2026-10-16.md)
+somutlaştırıldı. Bu araştırmacı kararı bağımsız doğrulama, danışman onayı
+veya gerçek model deneyi değildir.
+
 Ana PR ailesi korunur; uygulama başlamadan **Average Precision (AP)** ve
 trapez integral PR-AUC farklı tanımlarla ayrı adlandırılır. Ana özet için
 AP önerilir; mevcut “PR-AUC” ifadesinin hangi hesap olduğu danışmanla

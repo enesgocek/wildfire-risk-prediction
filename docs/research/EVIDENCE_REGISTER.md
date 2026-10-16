@@ -1062,6 +1062,15 @@ format geçti. Readback SHA-256
 kapanış SHA-256 `dccd6ded041b6a2cb1eea0b4a643840e876d50e9387a42d6de81999475308600`.
 Yeni kaynak yanıtı/izin/bağımsız olay kabulü veya etiket politikası seçilmedi.
 
+E112 — 16 Ekim: [Değerlendirme çekirdeği](../EVALUATION_CORE_2026-10-16.md).
+Araştırmacı AP ana/trapez PR-AUC yardımcı seçeneğini kabul etti. 55 sentetik
+örnekte NumPy hesapları scikit-learn 1.9.1 ile 1e-12 toleransta uzlaştı;
+gerçek pilotun 156 boş hedefi skora alınmadı. 67 yeni vaka dahil 113 ilgili
+test, beş dosyada lint/format; 17 girdi/dokuz çıktı kapanışı geçti.
+Readback SHA-256 `ba1ac26003a370be4bfece12a92a41f270dfdb9965b5dbceff0a7d52b6bf3266`;
+kapanış SHA-256 `7a164a4e87bb99f6dfb2618d488cf22fd552b2547056f39de85211764ec0f9a1`.
+Gerçek eğitim/kalibrasyon, etiket, 2024/2025 erişimi ve nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
