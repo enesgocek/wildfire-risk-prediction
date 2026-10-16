@@ -1082,6 +1082,15 @@ kapanış SHA-256 `2e8c90d155de6e971b1d3d0f8c467dab8a04d093c62b55c350f1a9f2082b6
 Gerçek özelliklere fit/dönüşüm, yöntem seçimi, etiket/model kabulü, 2024/2025
 erişimi ve nihai birleştirme yapılmadı; yalnız sentetik hazırlık nesnesi fit edildi.
 
+E114 — 16 Ekim: [Deney hazırlık kaydı](../EXPERIMENT_RECORD_2026-10-16.md).
+Mevcut hazırlık ve dört oyuncak ayrım için iki ayrı kayıt üretildi, diske
+yazılıp geri kontrol edildi. 35 yeni vaka dahil 193 ilgili test ve üç
+dosyada lint/format geçti; 44 girdi/dört çıktı kapanışı korundu.
+Readback SHA-256 `20d367d95f0ea330adacf5d678a72bb0f79c724b0bc4edd0383b114f4535983e`;
+kapanış SHA-256 `c141e033ba254f348d9858f262bd9fa5a78effae83cab4ba3ebad3ccd869b071`.
+Gerçek etiket/deney/model/parametre, 2024/2025 erişimi veya nihai onay yok.
+Hash geri kontrolü bağımsız bilimsel doğrulama ya da kimlik doğrulaması değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -803,6 +803,13 @@ tercihi yapılmadı. Otomatik kontroller insan değerlendirmesi, saha doğrulama
 etiket kabulü veya sınıflandırıcı eğitimi olarak sunulmadı.
 [Kanıt ve sınırlar](../FOLD_PREPROCESSING_2026-10-16.md).
 
+16 Ekim deney kaydı: araç desteği dosya/kod/ayar snapshot'larının ve ayrı
+sentetik ayrım/ön işleme kimliklerinin hazırlanmasında, 35 yeni davranış
+vakasında ve diskten geri okuma kontrollerinde kullanıldı. Gerçek etiket,
+model, parametre veya nihai onay üretilmedi. Kaydın hash doğrulaması imza,
+insan değerlendirmesi veya bağımsız bilimsel kabul olarak sunulmadı.
+[Kanıt ve sınırlar](../EXPERIMENT_RECORD_2026-10-16.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

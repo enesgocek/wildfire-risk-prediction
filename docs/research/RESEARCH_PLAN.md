@@ -60,6 +60,12 @@ Gerçek doldurma/ölçekleme/boş sütun politikası seçilmedi; sentetik prova
 gerçek eğitim veya etiket kabulü değildir.
 [Sözleşme ve kontroller](../FOLD_PREPROCESSING_2026-10-16.md).
 
+16 Ekim deney kaydı hazırlığı: mevcut dosya/kod/ayar kanıtları ile ayrı
+sentetik ayrım ve ön işleme kayıtları değişiklik denetimli kimliklere
+bağlandı. Gerçek model, örnekleme, kalibrasyon ve onay alanları beklemededir;
+bu kayıtlar gerçek deneyin veya bilimsel kabulün yerine geçmez.
+[Kayıt ve sınırlar](../EXPERIMENT_RECORD_2026-10-16.md).
+
 ## Açık bilimsel konular
 
 - NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.

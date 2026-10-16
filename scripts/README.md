@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/prepare_experiment_record.py`, önceki ön işleme
+kanıtlarını hash ile kontrol ederek mevcut hazırlık ve ayrı sentetik
+deneme için iki sürümlü kayıt üretir. Dört oyuncak ayrımın anahtar/olay/blok,
+özellik ve ön işleme hash'leri bağlanır; kayıtlar diskten geri kontrol edilir.
+Gerçek etiket/deney/eğitim veya onay makbuzu oluşturmaz; `.env`/MLflow/ağ
+kullanmaz. [Kayıt kapsamı](../docs/EXPERIMENT_RECORD_2026-10-16.md).
+
 `python scripts/quality/rehearse_fold_preprocessing.py`, önceki değerlendirme
 hazırlığının bağlı dosyalarını tekrar kontrol eder ve 40 sentetik örnekte
 yalnız fold eğitiminden öğrenilen medyan/ölçek dönüşümlerini bağımsız NumPy

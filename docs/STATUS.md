@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+[Deney hazırlık kaydı eklendi](EXPERIMENT_RECORD_2026-10-16.md):
+dosya/kod/ayar hash'leri, kapalı etiket protokolü ve ayrı sentetik fold
+kayıtları aynı kimliğe bağlanıyor. Mevcut hazırlık ve dört oyuncak ayrım
+iki ayrı kayıtta saklandı; diske yazma/geri okuma ve oynanmış izin alanının
+reddi geçti. 35 yeni vaka dahil 193 ilgili test, üç dosyada lint/format ve
+44 girdi/dört çıktı kapanışı başarılı. Gerçek model/ayar/etiket/onay alanları
+beklemede; gerçek eğitim ve nihai birleştirme yok. Sıradaki bağımsız hazırlık,
+örnekleme/sınıf ağırlıkları ve kalibrasyon veri rollerinin karşılaştırma planıdır.
+
 [Fold eğitiminden öğrenilen ön işleme hazırlandı](FOLD_PREPROCESSING_2026-10-16.md):
 medyan doldurma ve isteğe bağlı ölçekleme yalnız ayrımın eğitim kısmından
 öğreniliyor; tamamen boş sütun için durdur/çıkar açık seçimi gerekiyor.
@@ -12,8 +21,8 @@ medyan doldurma ve isteğe bağlı ölçekleme yalnız ayrımın eğitim kısmı
 40 sentetik örnek bağımsız NumPy hesabıyla 1e-12 toleransta uzlaştı;
 33 girdi/dört çıktı kapanışı korundu. Gerçek özelliklere fit/dönüşüm,
 etiket veya model kabulü yok; gerçek ön işleme politikaları seçilmedi.
-2024/2025 ve nihai birleştirme kapısı kapalı. Sonraki bağımsız hazırlık,
-ön işleme/fold anahtarları/kabul koşullarını sürümlü deney kaydına bağlamaktır.
+2024/2025 ve nihai birleştirme kapısı kapalı. Ön işleme/fold anahtarları ve
+kabul koşulları yukarıdaki sonraki hazırlık kaydında ayrıca bağlandı.
 
 [Değerlendirme çekirdeği hazırlandı](EVALUATION_CORE_2026-10-16.md):
 araştırmacının 16 Ekim kararıyla AP ana, trapez PR-AUC yardımcı ölçüttür.
