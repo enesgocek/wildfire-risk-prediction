@@ -1,6 +1,6 @@
 # Araştırma kanıt dizini
 
-Son editoryal güncelleme: 12 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
+Son editoryal güncelleme: 17 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
 buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gelmez.
 
 ## Kanıt düzeyleri
@@ -1160,6 +1160,24 @@ geçti. Readback SHA-256
 kapanış SHA-256 `e7a1a75aabaab78deaf05eb36f24df5385dbf32fecfcacb9e0409e01091024d4`.
 Fiziksel olay/bölünme doğrulaması, gerçek etiket/model, gruplama politikası
 kabulü, bulut işi ve nihai birleştirme yapılmadı; 2024/2025 açılmadı.
+
+E121 — 17 Ekim: [Kurum yanıtları öncesi üç hazırlık](../RESPONSE_WAITING_PREPARATION_2026-10-17.md).
+72 ay/2.191 gün/6.351.709 aday satırda 4.382 günlük CSV'nin 9.667.531.505
+bayt içeriği yeniden hash'lendi ve parse edildi. 5.198 kaynak/yöntem kimliği
+başta/sonda doğrulandı. 27 özellikte eksiksiz 5.527.421 ve en az bir eksiği
+olan 824.288 aday satır ayrık ortak sayımdır; uygun etiketli eğitim örneği
+değildir. Özellik readback SHA-256
+`a71675fa75d4176a80090be55519fef92aabcad3212e55e561278eb9ac4372fd`;
+kapanış `23370db1fa1db450892e20386e5bf36696ad80d78f62355acad16439e2a38daa`.
+Yanıt/karar dosyası ve kapalı üretim ön kontrolü 39 doğrudan girdi/üç çıktı
+kapanışına bağlandı. Birleşik readback SHA-256
+`a6e3e123319346a2a4ccbb6dd187be8f131f2df796413204afd270ec97e93d82`;
+kapanış `ed21ce9d25887e86c978c02096348ea911e5d453089bdde47004146415b4007a`.
+26 yeni vaka dahil 154 ilgili test ve yedi Python dosyasında lint/format
+geçti. Yeni kurum yanıtı/özel posta, etiket üretimi, gerçek kullanıcı onayı,
+model fit, bulut işi ve nihai birleştirme yok; 2024/2025 veri CSV'si okunmadı.
+Gerçek ikili etiket üreticisi/son yazıcı kabul edilmiş protokol sonrası
+uygulanacak. Bu kayıt beş parçanın nihai son incelemesi değildir.
 
 ## Yeni kanıt ekleme koşulları
 

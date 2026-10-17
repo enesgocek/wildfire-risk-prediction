@@ -1,9 +1,43 @@
-# Proje durum raporu — 16 Ekim 2026
+# Proje durum raporu — 17 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**Kurum yanıtları öncesindeki üç sınırlı hazırlık tamamlandı; mevcut kanıtla
+bekleme noktasına gelindi.** [Hazırlık, karar matrisi ve sınırlar](RESPONSE_WAITING_PREPARATION_2026-10-17.md).
+Bu, etiketli eğitim veri setinin veya bütün araştırmanın tamamlanması değildir.
+
+- Özellik içerikleri 17 Ekim'de yeniden okundu: 72 ay/2.191 gün/6.351.709 aday
+  satır, 4.382 günlük CSV/9.667.531.505 bayt ve 5.198 kaynak/yöntem kimliği.
+  Anahtar/şema, kayıtlı eksiklikler, statik değerler ve geçmiş edinim pencereleri
+  geçti. Yayın erişilebilirliği bilinmiyor; gerçek zamanlı kullanım kabulü yok.
+- Yeni ortak eksiklik hesabında 5.527.421 adayın 27 özelliği dolu, 824.288 adayda
+  en az bir özellik eksik. Habitat/gözlem/etiket kabulü uygulanmadı; bunlar
+  kullanılabilir eğitim örneği veya yangın sayısı değildir. NaN'lar korundu.
+- NASA/OGM yanıtlarının dokuz konuya etkisi, kapsam sınırları ve somut insan
+  incelemesi mevcut raporlara bağlandı. Yeni yanıt veya özel posta kutusu okunmadı;
+  yanıtların etkileyebileceği yöntem kararları verilmedi.
+- Beş manifestin güncel byte/ortak protokol/tarih denetimi ve kapalı üretim ön
+  kontrolü hazır. Gerçek etiket üreticisi ve son yazıcı kabul edilmiş hedef
+  sözleşmesi sonrasında uygulanacak. Makul görünen JSON dahi bugünkü kapalı
+  etiket sürümünü açamaz; gerçek onay makbuzu ve birleştirme üretilmedi.
+
+26 yeni vaka dahil **154 ilgili test** ve yedi Python dosyasında lint/format
+geçti; bütün depo testleri veya bağımsız olay doğrulaması değildir.
+Birleşik kapanış 39 doğrudan girdi/üç çıktı kimliğiyle geri kontrol edildi.
+Çıktı `outputs/reports/dataset/waiting_preparation_v1/20261017T012335Z_0ef60e03/`;
+readback SHA-256 `a6e3e123319346a2a4ccbb6dd187be8f131f2df796413204afd270ec97e93d82`.
+
+Sonraki iş, araştırmacının paylaşacağı yanıtı kaynak/zaman/konum/kapsam/kullanım
+koşullarıyla incelemek ve kanıtla desteklenen seçenekleri araştırmacıya sunmaktır.
+Sırf bekleme süresini doldurmak için yeni veri kuyruğu/tanı/model hazırlığı
+başlatılmayacak. Yeni hata veya somut kabul eksikliği ayrı değerlendirilir.
+`daily_observation_status=unknown`, `negative_label_permitted=false` korunur;
+2025 kapalıdır. Nihai beş parça kontrolü ve açık birleştirme onayı henüz yoktur.
+
+### 16 Ekim ve önceki hazırlık kayıtları
 
 [Başlangıç/devam/birleşme geçmişi tanısı tamamlandı](EVENT_LINEAGE_2026-10-16.md):
 181 senaryoya özgü bileşenin 11'inde birden fazla başlangıç adayı sonradan

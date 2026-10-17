@@ -6,6 +6,26 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/prepare_waiting_features.py`, kayıtlı 72 eğitim ayının
+günlük feature/provenance içeriklerini ve kaynak hash'lerini yeniden okur.
+Statik kaynak eşitliği, geçmiş ölçüm pencereleri, ayrı QA, marjinal ve ortak
+eksiklikler kontrol edilir. Kaynaklar değiştirilmez, NaN doldurulmaz, etiket
+ve son birleştirme yapılmaz. Yeni rapor `waiting_features_v1` altına yazılır.
+Bu ağır içerik denetimi metin düzenlemesi nedeniyle tekrar başlatılmaz.
+
+`python scripts/quality/complete_waiting_preparation.py --feature-report PATH
+--expected-feature-sha256 HASH`, bu güncel feature raporunun kimliğini ve
+kapanışını bağlar; mevcut olay/referans kanıtları ve yanıt değerlendirme
+dosyasıyla hazırlık kapanışı üretir. PATH/HASH, tamamlanan denetimin gerçek
+raporuna ait olmalıdır. Kurum yanıtı veya gerçek kullanıcı onayı oluşturmaz.
+
+`python scripts/quality/preflight_training_merge.py`, yalnız üretim ön
+kontrolüdür; veri seti yazmaz. Bugünkü protokolde eksik kabul/onay nedeniyle
+engellenmesi beklenir. `--review`/`--approval` verilse bile kapalı bilimsel
+etiket sürümü makul görünen bir JSON ile açılamaz. Gerçek ikili etiket
+üreticisi/son yazıcı kabul edilmiş sözleşme sonrası ayrı uygulanacaktır.
+[Kapsam, insan incelemesi ve bekleme sınırı](../docs/RESPONSE_WAITING_PREPARATION_2026-10-17.md).
+
 `python scripts/quality/audit_event_lineage.py`, mevcut 181 bağlamın
 nokta grafiğini zaman sırasıyla izler; başlangıç/devam/birleşme kayıtlarını
 ayırır. Eşit zamanlar toplu işlenir, önceki başlangıçlar silinmez ve

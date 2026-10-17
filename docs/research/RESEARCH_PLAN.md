@@ -88,6 +88,13 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+17 Ekim hazırlık sınırı: NASA/FIRMS ve OGM yanıtlarının etkileyebileceği
+etiket kararları beklemede tutulur. Mevcut özelliklerin güncel içerik
+denetimi, yanıt/karar dosyası ve üretim ön kontrolü ayrı hazırlıklardır;
+etiket üreticisi veya nihai veri seti kabulü değildir. Yeni tanı çalışması
+yalnız tanımlı bir kabul eksikliğini kapatıyorsa yürütülür.
+[Üç hazırlık, somut insan incelemesi ve sonraki sıra](../RESPONSE_WAITING_PREPARATION_2026-10-17.md).
+
 16 Ekim ilk hücre yönü: araştırmacı, aynı en erken kayıtlı zamanda bulunan
 bütün hücrelerin ortak aday kimliği altında tutulmasını seçti (A).
 `first_cell_candidates_v1` bu aday temsilini saklar; fiziksel olay kimliği,

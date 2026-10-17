@@ -857,6 +857,15 @@ olay veya fiziksel bölünme doğrulaması/insan incelemesi iddia edilmedi.
 Yöntem, aynı nokta grafiğinin deneysel kaydıdır; kabul edilmiş etiket
 politikası değildir. [Kanıt ve sınırlar](../EVENT_LINEAGE_2026-10-16.md).
 
+17 Ekim yanıt öncesi hazırlık: araç desteği kayıtlı günlük özelliklerin
+yeniden okunması, edinim zamanı ile yayın erişilebilirliğinin ayrılması,
+ortak eksiklik sayımları ve yanıt/karar matrisinin yazımında kullanıldı.
+Üretim ön kontrolü mevcut kapalı etiket protokolünü korur; sentetik onay
+nesneleri gerçek araştırmacı onayı olarak kaydedilmez. Kurum yanıtı veya
+insan incelemesi uydurulmadı. Gerçek ikili etiket üreticisi ve son yazıcı
+kabul edilmiş bilimsel sözleşme sonrasına bırakıldı.
+[Kapsam ve teknik kapanış](../RESPONSE_WAITING_PREPARATION_2026-10-17.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
