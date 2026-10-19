@@ -88,6 +88,11 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+19 Ekim kurumsal erişim güncellemesi: araştırmacının paylaştığı CİMER yanıtı
+ayrıntılı olay verisinin üniversite üzerinden resmî yazıyla istenmesi yolunu
+belirtiyor. Olay verisi veya teknik alan açıklaması alınmadı; bilimsel kabul
+açıkları kapanmadı. [Yanıtın sınırı ve gereken idari adım](OGM_UNIVERSITY_ROUTE_2026-10-19.md).
+
 17 Ekim hazırlık sınırı: NASA/FIRMS ve OGM yanıtlarının etkileyebileceği
 etiket kararları beklemede tutulur. Mevcut özelliklerin güncel içerik
 denetimi, yanıt/karar dosyası ve üretim ön kontrolü ayrı hazırlıklardır;

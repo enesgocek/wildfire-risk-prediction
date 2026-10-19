@@ -1,6 +1,6 @@
 # Araştırma kanıt dizini
 
-Son editoryal güncelleme: 17 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
+Son editoryal güncelleme: 19 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
 buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gelmez.
 
 ## Kanıt düzeyleri
@@ -1178,6 +1178,15 @@ geçti. Yeni kurum yanıtı/özel posta, etiket üretimi, gerçek kullanıcı on
 model fit, bulut işi ve nihai birleştirme yok; 2024/2025 veri CSV'si okunmadı.
 Gerçek ikili etiket üreticisi/son yazıcı kabul edilmiş protokol sonrası
 uygulanacak. Bu kayıt beş parçanın nihai son incelemesi değildir.
+
+E122 — 19 Ekim: [Araştırmacının paylaştığı CİMER yanıtı](OGM_UNIVERSITY_ROUTE_2026-10-19.md).
+Ayrıntılı konum/zaman verileri için üniversite aracılığıyla resmî yazı yolu
+belirtiliyor. Kaynak kullanıcı ekran görüntüsü; portal/e-posta kimliği bağımsız
+sorgulanmadı. Olay verisi, alan açıklaması, kullanım izni veya veri paylaşımı
+garantisi yok. Dört il için önerilen merkez birim yolu ve gereken insan adımı
+yazıldı. Kişisel bilgi/başvuru numarası kayda alınmadı; yeni ileti, bulut işi,
+etiket, eğitim veya birleştirme yapılmadı. Belge güncellemesi için bilimsel
+test/üretim tekrarı yapılmadı; 17 Ekim'in hash bağlı çıktıları korundu.
 
 ## Yeni kanıt ekleme koşulları
 

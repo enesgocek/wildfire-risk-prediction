@@ -866,6 +866,12 @@ insan incelemesi uydurulmadı. Gerçek ikili etiket üreticisi ve son yazıcı
 kabul edilmiş bilimsel sözleşme sonrasına bırakıldı.
 [Kapsam ve teknik kapanış](../RESPONSE_WAITING_PREPARATION_2026-10-17.md).
 
+19 Ekim kurumsal yanıt incelemesi: araç desteği araştırmacının paylaştığı
+ekran görüntüsünü kişisel bilgilerden arındırılmış teknik sonuca dönüştürmek
+ve üniversiteye iletilebilecek açıklamayı hazırlamak için kullanıldı. Kaynak
+kimliği bağımsız doğrulanmış veya veri paylaşım izni alınmış gibi aktarılmadı;
+kuruma ileti gönderilmedi. [Kaynak ve sınırlar](OGM_UNIVERSITY_ROUTE_2026-10-19.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

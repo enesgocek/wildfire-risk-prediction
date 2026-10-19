@@ -1,9 +1,22 @@
-# Proje durum raporu — 17 Ekim 2026
+# Proje durum raporu — 19 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**CİMER yanıtı paylaşıldı; ayrıntılı olay verisi için üniversite üzerinden
+resmî yazı yolu belirtildi.** Kaynak, araştırmacının 19 Ekim'de paylaştığı
+ekran görüntüsüdür; portal/e-posta kimliği bağımsız doğrulanmadı. Yanıt
+olay dosyası veya konum/zaman/kapsam açıklaması içermiyor; etiket kabulü yok.
+Dört il talebi için yanıtta belirtilen Orman Yangınlarıyla Mücadele Dairesi
+Başkanlığına üniversite üzerinden başvuru öneriliyor. Araştırmacının sıradaki
+idari işi, danışmanına/bölümüne yanıtı ileterek uygun yazışma/imza sürecini
+öğrenmek. [Yanıt değerlendirmesi ve iletilebilecek açıklama](research/OGM_UNIVERSITY_ROUTE_2026-10-19.md).
+Yeni yazı gönderilmedi; veri paylaşımı garanti değil. NASA/FIRMS yanıtı
+hakkında yeni bilgi paylaşılmadı. Kişisel bilgiler ve başvuru numarası kayda alınmadı.
+
+### 17 Ekim hazırlık kapanışı
 
 **Kurum yanıtları öncesindeki üç sınırlı hazırlık tamamlandı; mevcut kanıtla
 bekleme noktasına gelindi.** [Hazırlık, karar matrisi ve sınırlar](RESPONSE_WAITING_PREPARATION_2026-10-17.md).
