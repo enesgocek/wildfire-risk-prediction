@@ -100,3 +100,54 @@ koleksiyon anlamı açıklanmış olsa da mevcut teslimin düzeltilmiş aylık T
 üretimine bağlanması henüz doğrulanmadı. `daily_observation_status=unknown`,
 pozitif/negatif izin false; eğitim ve nihai birleştirme yapılmadı. Önceki
 hash ile bağlı çıktı/manifestler ve ham CSV'ler değiştirilmedi.
+
+## Aynı gün sonraki adım: araştırmacı için indirme ayarları
+
+Araştırmacı güncel teslimleri kendisi indirmeyi ve karşılaştırma için yerel
+klasöre aktarmayı istedi. İki ayrı manuel talep ayarı ve giriş klasörü
+hazırlandı. Talebin gönderildiği veya indirmenin tamamlandığı henüz teyit edilmedi.
+
+[Resmî Archive Download](https://firms.modaps.eosdis.nasa.gov/download/)
+sayfası 21 Ekim'de tekrar açıldı. Earthdata hesabı veya e-posta koduyla
+giriş ve veri hazır olduğunda e-postayla indirme yönergesi destekleniyor.
+Giriş sonrası kişisel oturumun formu bu incelemede görülmedi; aşağıdaki
+değerler seçilecek araştırma parametreleridir, görülmemiş düğme adları değildir.
+
+| Seçim | S-NPP talebi | NOAA-20 talebi |
+|---|---|---|
+| Kaynak | VIIRS S-NPP 375m | VIIRS NOAA-20 375m |
+| Koleksiyon | Collection 2 | Collection 2 |
+| Başlangıç | 2018-01-01 | 2018-04-01 |
+| Bitiş, dahil | 2023-12-31 | 2023-12-31 |
+| Coğrafi kapsam | Turkey/Türkiye, ülke kapsamı | Turkey/Türkiye, ülke kapsamı |
+| Buffer alanı sunulursa | 0 km | 0 km |
+| Çıktı | CSV, standart arşiv tespit kayıtları | CSV, standart arşiv tespit kayıtları |
+| Ek filtre alanları sunulursa | Bütün güven/Type sınıfları, gündüz ve gece | Bütün güven/Type sınıfları, gündüz ve gece |
+
+NOAA-20 başlangıcı resmî arşiv sayfasında 1 Nisan 2018 olarak gösteriliyor;
+bu tarih eski yerel talebin başlangıcıyla da uyumlu. Eski CSV'ler 2024'ü de
+içerdiğinden sonraki karşılaştırma eski kaynakların yalnız aynı eğitim
+aralığına uygulanacak. Yeni talebe 2024/2025 eklenmez. Ülke kapsamı korunur;
+dört il kesimi sonraki yerel denetimin parçasıdır. Yıllık özet/toplam
+tablosu olay bazlı CSV yerine kullanılmaz.
+
+FIRMS CSV'sinde Collection 2 seçimi aylık v4 seçimiyle karıştırılmaz;
+ayrı üretim sürümü seçeneği görüldüğü varsayılmaz. İndirilen kaynağın
+sürüm kanıtı ayrıca değerlendirilecek. MODIS/NOAA-21/Landsat bu iki
+karşılaştırma talebine dahil edilmez.
+
+Yeni dosyaların hedefi:
+
+- `outputs/verification/firms_refresh_2026-10-21/received/SNPP/`
+- `outputs/verification/firms_refresh_2026-10-21/received/NOAA20/`
+
+Gönderilen talebin sensör/tarih/ülke ayarları ve manuel indirme tarih-saati
+saklanmalı; bağlantıdaki erişim kodu veya kişisel e-posta Git'e aktarılmamalı.
+ZIP'ler özgün adlarıyla ilgili sensör klasörüne konulacak. CSV'ler elektronik
+tablo programıyla yeniden kaydedilmeden ve eski kaynakların üstüne yazılmadan
+korunacak. Paket içeriği, anahtarlar ve Type değişimleri aktarım sonrasında
+kontrol edilecek. Doğrudan CSV teslim edilirse özgün dosya da aynı klasöre konabilir.
+
+Makinece okunabilir niyet kaydı `outputs/verification/firms_refresh_2026-10-21/expected_requests.json`.
+SHA-256 `cb7c4e02c509b5fdbcce36e951858667a185cfde1e5fb04b882ad9ce207df8b8`.
+Bu dosya indirme/karşılaştırma kabul makbuzu değildir; plan kimliği olarak saklanır.

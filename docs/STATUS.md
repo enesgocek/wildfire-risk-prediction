@@ -5,6 +5,13 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+21 Ekim sonraki adım: araştırmacının manuel FIRMS indirmesi için iki sensörün
+eğitim dönemi/ülke/CSV ayarları ve ayrı giriş klasörleri hazırlandı.
+Hedef `outputs/verification/firms_refresh_2026-10-21/received/` altında
+`SNPP` ve `NOAA20`. Talep veya indirme henüz teyit edilmedi.
+[İndirme ayarları](research/NASA_FIRMS_REPLY_2026-10-21.md#aynı-gün-sonraki-adım-araştırmacı-için-indirme-ayarları).
+Paketler geldikten sonra kimlik, kapsam ve kontrollü karşılaştırma yapılacak.
+
 **NASA/FIRMS teknik yanıtı paylaşıldı: CSV version=2'nin Collection 2 olduğu
 teyit edildi; yerel teslimlerin aylık üretim sürümü henüz doğrulanmadı.**
 Kaynak araştırmacının ekran görüntüsüdür. Destek ekibi yanıt anındaki VIIRS
