@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Yeni FIRMS teslim karşılaştırması](research/FIRMS_REFRESH_COMPARISON_2026-10-21.md) | İki sensörde 463.178 eğitim tespitinin 15 alanda eşitliği, farklı sıralama, ayrı byte kontrolü ve bilimsel kabul sınırı |
 | [NASA/FIRMS yanıtı ve kaynak sürümü](research/NASA_FIRMS_REPLY_2026-10-21.md) | Collection 2 açıklığı, mevcut teslimde açık aylık sürüm, iki yerel hash kontrolü ve sınırlı yeni teslim karşılaştırma planı |
 | [CİMER yanıtı ve üniversite yazışması](research/OGM_UNIVERSITY_ROUTE_2026-10-19.md) | Paylaşılan yanıtın teknik sınırı, dört il için önerilen idari yol ve araştırmacının sonraki adımı |
 | [Kurum yanıtları öncesi hazırlık](RESPONSE_WAITING_PREPARATION_2026-10-17.md) | Üç hazırlığın kapsamı, yanıt/karar matrisi, özelliklerin güncel içerik denetimi ve kapalı üretim ön kontrolü |

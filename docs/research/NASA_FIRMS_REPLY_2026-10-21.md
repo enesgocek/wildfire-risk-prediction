@@ -151,3 +151,14 @@ kontrol edilecek. Doğrudan CSV teslim edilirse özgün dosya da aynı klasöre 
 Makinece okunabilir niyet kaydı `outputs/verification/firms_refresh_2026-10-21/expected_requests.json`.
 SHA-256 `cb7c4e02c509b5fdbcce36e951858667a185cfde1e5fb04b882ad9ce207df8b8`.
 Bu dosya indirme/karşılaştırma kabul makbuzu değildir; plan kimliği olarak saklanır.
+
+## Aynı gün teslim sonrası karşılaştırma
+
+Araştırmacı iki düzeltilmiş talebin ZIP dosyalarını aktardı. Ortak eğitim
+döneminde S-NPP 230.286 ve NOAA-20 232.892 kaydın bütün 15 alanı eski
+verilerle aynı çıktı; yalnız sıra değişti. Yukarıdaki plan ve indirme
+hazırlığı günün önceki aşamasını anlatır. Sonraki gerçek uygulama, iki hesap
+yöntemi, rapor hash'leri ve kabul sınırları
+[teslim karşılaştırmasında](FIRMS_REFRESH_COMPARISON_2026-10-21.md) kayıtlıdır.
+Eski kaynaklar korundu; aylık VV metadata veya fiziksel yangın doğrulaması
+varmış gibi kabul alanları değiştirilmedi.

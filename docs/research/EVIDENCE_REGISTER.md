@@ -1199,6 +1199,18 @@ kapanış `539421e9dda39a2196348e60bb021d91cb1c3dc9df024be2707db797fb0660dc`.
 Yeni indirme, kaynak değişimi, dış iletişim, VM işi, etiket/model veya
 birleştirme yok. Kaynak kabulü ve güvenilir negatif kapısı kapalıdır.
 
+E124 — 21 Ekim: [Manuel yeni FIRMS teslim karşılaştırması](FIRMS_REFRESH_COMPARISON_2026-10-21.md).
+Araştırmacının iki ZIP'i ile korunmuş eski CSV'lerin aynı eğitim aralığındaki
+230.286 S-NPP ve 232.892 NOAA-20 Türkiye tespiti karşılaştırıldı. Bütün
+15 alanın çoklukları aynı; sıra farklı, anahtar/alan/Type/güven farkı yok.
+Ayrı byte satır çokluğu kontrolü aynı sonucu verdi. Ana readback SHA-256
+`7809413ec37b9a104b6cea36f060f0895e4d6908260a0cdd576ae1e4fa6fc5a7`;
+ikinci kontrol `56e19e9fbd60c400818113dffb099b12a8c97eb30b259d28d52abb6079b606a1`.
+Sekiz girdi/üç çıktı kapanışı, 14 yeni davranış testi ve lint/format geçti.
+2024 yalnız tarih filtresidir; 2025 açılmadı. Aylık VV metadata, ülke sınırı
+ve kesin indirme saati bağımsız doğrulanmadı; fiziksel olay/etiket kabulü yok.
+Ham veri ve donmuş hedef kodu korunarak bulut işi/nihai birleştirme yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

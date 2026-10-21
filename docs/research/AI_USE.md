@@ -878,6 +878,12 @@ için kullanıldı. Genel kaynak beyanı yerel dosya teyidi veya bilimsel kabul
 sayılmadı; kişisel yazışma ayrıntıları yayımlanmadı. Yeni teslim karşılaştırması
 planlandı, uygulanmış gibi raporlanmadı. [Kanıt ve sınırlar](NASA_FIRMS_REPLY_2026-10-21.md).
 
+21 Ekim sonraki teslim karşılaştırması: araç desteği manuel sağlanan ZIP'lerin
+güvenli içerik denetimi, çokluk koruyan alan/anahtar karşılaştırması, davranış
+testleri, ayrı byte hesabı ve sonuç raporlamasında kullanıldı. İki otomatik
+hesap uzman/saha doğrulaması sayılmadı; aylık sürüm veya etiket kabulü
+uydurulmadı. [Kanıt ve sınırlar](FIRMS_REFRESH_COMPARISON_2026-10-21.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

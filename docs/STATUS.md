@@ -5,12 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
-21 Ekim sonraki adım: araştırmacının manuel FIRMS indirmesi için iki sensörün
-eğitim dönemi/ülke/CSV ayarları ve ayrı giriş klasörleri hazırlandı.
-Hedef `outputs/verification/firms_refresh_2026-10-21/received/` altında
-`SNPP` ve `NOAA20`. Talep veya indirme henüz teyit edilmedi.
-[İndirme ayarları](research/NASA_FIRMS_REPLY_2026-10-21.md#aynı-gün-sonraki-adım-araştırmacı-için-indirme-ayarları).
-Paketler geldikten sonra kimlik, kapsam ve kontrollü karşılaştırma yapılacak.
+**21 Ekim yeni teslim karşılaştırması tamamlandı: eski ve yeni FIRMS eğitim
+kayıtları aynı; yalnız sıraları farklı.** Araştırmacının aktardığı ZIP'lerde
+S-NPP 230.286, NOAA-20 232.892 Türkiye tespiti karşılaştırıldı; toplam
+463.178 kayıtta ekleme/silme, Type/güven/zaman/konum veya diğer alan değişimi yok.
+İki ayrı hesap yöntemi aynı sonucu verdi. Bu fark denetimi nedeniyle büyük
+uydu kuyruğunu yeniden çalıştırma gereksinimi bulunmadı. 14 davranış testi,
+lint/format ve sekiz girdi/üç çıktı kapanışı geçti; etiket kabulü değildir.
+[Sonuç, kapsam ve kanıt](research/FIRMS_REFRESH_COMPARISON_2026-10-21.md).
+Readback SHA-256 `7809413ec37b9a104b6cea36f060f0895e4d6908260a0cdd576ae1e4fa6fc5a7`.
+Aylık VV alanı olmadığı için doğrudan v4 metadata teyidi açık; eski üretim
+ve ham dosyalar korundu. OGM olay verisi/gözlem protokolü ve nihai etiket
+kabulleri hâlâ açık. Aşağıdaki yanıt incelemesi günün önceki aşamasıdır.
 
 **NASA/FIRMS teknik yanıtı paylaşıldı: CSV version=2'nin Collection 2 olduğu
 teyit edildi; yerel teslimlerin aylık üretim sürümü henüz doğrulanmadı.**

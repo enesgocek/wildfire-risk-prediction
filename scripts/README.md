@@ -6,6 +6,12 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/firms/compare_firms_refresh.py`, 21 Ekim'de manuel alınan
+iki FIRMS ZIP'i korunan eski CSV'lerin aynı eğitim dönemiyle karşılaştırır.
+Kaynak pinleri, paket üye/CRC kontrolü, çokluk koruyan 15 alan ve ayrı
+anahtar/Type/güven/artık kayıt tanıları yeni rapor dizinine yazılır. Ağ kapalıdır;
+eski veriyi değiştirmez, 2024 yalnız tarih filtresidir, etiket üretmez.
+
 `python scripts/quality/prepare_waiting_features.py`, kayıtlı 72 eğitim ayının
 günlük feature/provenance içeriklerini ve kaynak hash'lerini yeniden okur.
 Statik kaynak eşitliği, geçmiş ölçüm pencereleri, ayrı QA, marjinal ve ortak
