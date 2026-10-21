@@ -872,6 +872,12 @@ ve üniversiteye iletilebilecek açıklamayı hazırlamak için kullanıldı. Ka
 kimliği bağımsız doğrulanmış veya veri paylaşım izni alınmış gibi aktarılmadı;
 kuruma ileti gönderilmedi. [Kaynak ve sınırlar](OGM_UNIVERSITY_ROUTE_2026-10-19.md).
 
+21 Ekim FIRMS yanıtı: araç desteği paylaşılan mesajın kapsamını önceki soru,
+iki yerel arşiv hash'i ve resmî kılavuzun ilgili bölümleriyle karşılaştırmak
+için kullanıldı. Genel kaynak beyanı yerel dosya teyidi veya bilimsel kabul
+sayılmadı; kişisel yazışma ayrıntıları yayımlanmadı. Yeni teslim karşılaştırması
+planlandı, uygulanmış gibi raporlanmadı. [Kanıt ve sınırlar](NASA_FIRMS_REPLY_2026-10-21.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

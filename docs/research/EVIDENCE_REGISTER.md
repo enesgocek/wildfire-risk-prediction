@@ -1,6 +1,6 @@
 # Araştırma kanıt dizini
 
-Son editoryal güncelleme: 19 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
+Son editoryal güncelleme: 21 Ekim 2026. Bu dizin birincil çıktılara yönlendirir;
 buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gelmez.
 
 ## Kanıt düzeyleri
@@ -1187,6 +1187,17 @@ garantisi yok. Dört il için önerilen merkez birim yolu ve gereken insan adım
 yazıldı. Kişisel bilgi/başvuru numarası kayda alınmadı; yeni ileti, bulut işi,
 etiket, eğitim veya birleştirme yapılmadı. Belge güncellemesi için bilimsel
 test/üretim tekrarı yapılmadı; 17 Ekim'in hash bağlı çıktıları korundu.
+
+E123 — 21 Ekim: [FIRMS kaynak sürümü yanıtı](NASA_FIRMS_REPLY_2026-10-21.md).
+Kullanıcı ekran görüntüsünde CSV version=2'nin koleksiyon anlamı teyit ediliyor;
+güncel VIIRS v4/MODIS v3 destek beyanı yerel teslim sürümünü doğrulamıyor.
+Resmî Haziran 2025 kılavuzunun koleksiyon/ürün sürümü ve Type düzeltmesi
+bölümleri okundu. İki yerel CSV hash'i eski denetimlerle eşleşti; yalnız
+başlıklar okundu, veri satırları yeniden analiz edilmedi. Salt okunur
+readback SHA-256 `fda123c71c1e80a0861ba6340cde72f72617518100031e4376e4a8652c0629b1`;
+kapanış `539421e9dda39a2196348e60bb021d91cb1c3dc9df024be2707db797fb0660dc`.
+Yeni indirme, kaynak değişimi, dış iletişim, VM işi, etiket/model veya
+birleştirme yok. Kaynak kabulü ve güvenilir negatif kapısı kapalıdır.
 
 ## Yeni kanıt ekleme koşulları
 

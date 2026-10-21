@@ -1,9 +1,27 @@
-# Proje durum raporu — 19 Ekim 2026
+# Proje durum raporu — 21 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**NASA/FIRMS teknik yanıtı paylaşıldı: CSV version=2'nin Collection 2 olduğu
+teyit edildi; yerel teslimlerin aylık üretim sürümü henüz doğrulanmadı.**
+Kaynak araştırmacının ekran görüntüsüdür. Destek ekibi yanıt anındaki VIIRS
+verisini v4, MODIS'i v3 olarak bildiriyor; indirme zamanımızı bilmediği için
+önceki dosyalarımızı teyit edemediğini belirtiyor. Ticket durumunun çözülmüş
+olması veri/etiket kabulü değildir. [Yanıt, kamu kaynağı kontrolü ve sonraki plan](research/NASA_FIRMS_REPLY_2026-10-21.md).
+
+İki yerel arşivin byte hash'leri eski denetimlerle eşleşti; başlıklarda aylık
+üretim sürümü alanı yok. Veriler yeniden analiz edilmedi. Önerilen sonraki
+adım, yeni standart FIRMS eğitim CSV teslimiyle sınırlı üyelik/Type/güven/
+zaman/konum karşılaştırmasıdır; henüz yeni indirme veya VM işi başlatılmadı.
+Salt okunur readback SHA-256
+`fda123c71c1e80a0861ba6340cde72f72617518100031e4376e4a8652c0629b1`.
+Kaynak Type üretiminin yerel dosyalara bağlanması, bağımsız olay ve gözlem
+kabulleri açık. `daily_observation_status=unknown`, etiket izinleri kapalı.
+
+### 19 Ekim CİMER yanıtı
 
 **CİMER yanıtı paylaşıldı; ayrıntılı olay verisi için üniversite üzerinden
 resmî yazı yolu belirtildi.** Kaynak, araştırmacının 19 Ekim'de paylaştığı

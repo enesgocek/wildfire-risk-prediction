@@ -88,6 +88,11 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+21 Ekim kaynak yanıtı: NASA/FIRMS, CSV version=2'nin Collection 2 olduğunu
+doğruladı. Destek yanıtı güncel VIIRS v4/MODIS v3 beyanı içeriyor; önceki
+yerel indirmelerin aylık üretim sürümünü teyit etmiyor. Kaynak kabulü yerine
+konulmadı. [Yanıt ve yeni teslimle karşılaştırma planı](NASA_FIRMS_REPLY_2026-10-21.md).
+
 19 Ekim kurumsal erişim güncellemesi: araştırmacının paylaştığı CİMER yanıtı
 ayrıntılı olay verisinin üniversite üzerinden resmî yazıyla istenmesi yolunu
 belirtiyor. Olay verisi veya teknik alan açıklaması alınmadı; bilimsel kabul
@@ -106,7 +111,7 @@ bütün hücrelerin ortak aday kimliği altında tutulmasını seçti (A).
 gruplama yarıçapı/zamanı, 0/1 etiket veya eğitim kabulü sağlamaz.
 [Örnekler, kapsam etkisi ve testler](../EVENT_FIRST_CELL_OPTIONS_2026-10-16.md).
 
-- NASA FIRMS Type üretim sürümüne ilişkin teknik yanıt bekleniyor.
+- NASA/FIRMS yanıtı alındı; yerel teslimlerin aylık Type üretim sürümüne bağlanması açık.
 - Yaklaşık gözlem alanı hesabının fiziksel yorumu ve günlük negatif etiket kuralı açık.
 - 31 Aralık 2023 için iki yangın/geolocation işleme sürümü uyuşmazlığı çözülmedi.
 - NOAA-20 erken dönem katalog eşleşmesi açık; eksik kaynak yangınsız gün sayılmaz.
