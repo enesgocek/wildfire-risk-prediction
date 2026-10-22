@@ -56,6 +56,12 @@ tutulur. Karışık kara/su hücreleri korunur; nihai habitat uygunluğu ve etik
 kabulü ayrıca değerlendirilir. Bu karar tarihsel kaynakları değiştirmez.
 [Sürümlü kural, ölçülen etki ve sınırlar](WATER_SCOPE_2026-10-14.md).
 
+23 Ekim 2026 örtü yönü kararı: araştırmacı ana kapsamı **orman ve çalılık**
+olarak seçti; tarım/yerleşim eşleşmeleri ayrı incelemede korunacak.
+Bu karar asgari örtü oranı, nokta çevresi, gerçek yangın türü veya otomatik
+etiket/dışlama kabulü değildir. Önceki özellikler ve kapsamlar korunur.
+[Sürümlü yön kaydı ve konum/örtü belirsizliği](HABITAT_SCOPE_DIRECTION_2026-10-23.md).
+
 ### Zaman sözleşmesi
 
 Her satır `(grid_id, prediction_timestamp)` ile tanımlanır. Günlük tahmin saati

@@ -110,3 +110,11 @@ bu işlemle böyle bir çekirdek tamamlandı denilmiyor.
 
 Gözlem `unknown`, pozitif/negatif kabulü false ve hedefler boş kaldı.
 Yeni ham veri kuyruğu, model, nihai birleştirme veya dış ileti yapılmadı.
+
+## Aynı gün sonraki araştırmacı kararı
+
+Araştırmacı daha sonra **orman ve çalılık** yönünü seçti. Yukarıdaki bekleyen
+karar ifadesi ilk raporun hazırlanma anına aittir; hash ile bağlı makbuz
+değiştirilmedi. Seçimin kaydı ve sonraki komşu örtü incelemesi
+[ayrı rapordadır](HABITAT_SCOPE_DIRECTION_2026-10-23.md). Otomatik etiket veya
+kalıcı dışlama onayı verilmedi.

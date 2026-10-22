@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/review_cover_neighborhoods.py`, kabul edilmiş orman/
+çalılık araştırma yönünü ayrı kayıtla bağlar; aynı 25 amaçlı ilk noktanın
+çevresindeki eski harita merkezlerini 100/250/500 metre WGS84 mesafelerinde
+sayısal olarak inceler. Merkez sayım oranı gerçek piksel alanı değildir;
+yarıçap veya etiket/dışlama kuralı seçilmez. Çıktı `cover_neighborhood_v1`
+altındadır; önceki veriler ve kapalı etiket izinleri korunur.
+
 `python scripts/quality/review_linked_candidate_context.py`, gözlemle eşleşen
 21 adayı 2017 hücre örtüsüne ve bütün ilk tespit noktalarına bağlar. Noktalar
 yerel rasterin CRS'sine açık xy sırasıyla dönüştürülüp merkez sınıfları

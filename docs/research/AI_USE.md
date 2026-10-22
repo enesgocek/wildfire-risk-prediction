@@ -902,6 +902,11 @@ açık kaynak araştırmasında kullanıldı. Nokta harita sınıfı gerçek yan
 türü veya araştırmacı incelemesi sayılmadı. Kapsam seçenekleri sunuldu,
 tercih uydurulmadı. [Yöntem ve sınırlar](../CANDIDATE_COVER_CONTEXT_2026-10-23.md).
 
+23 Ekim kapsam kararı sonrası: araç desteği araştırmacının orman+çalılık
+tercihini sürümlü kaydetme ve eski haritada geodesic nokta çevresi tanısında
+kullanıldı. Araştırmacı tercihi bağımsız doğruluk, keşif çevreleri konum hata
+sınırı veya nihai etiket filtresi sayılmadı. [Kayıt ve sınırlar](../HABITAT_SCOPE_DIRECTION_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -1247,6 +1247,16 @@ Orman+çalılık ve alternatif kapsamlar araştırmacıya soruldu; yanıt beklen
 Eski harita veya hücre ortalamasıyla otomatik etiket/dışlama yapılmadı;
 2024 yalnız kaynak tarih filtresidir, 2025 kapalı; eğitim/birleştirme yok.
 
+E128 — 23 Ekim: [Orman+çalılık kapsam yönü ve nokta çevresi](../HABITAT_SCOPE_DIRECTION_2026-10-23.md).
+Araştırmacı yönü açıkça seçti; yeni yapılandırma nihai etiket/alan/mesafe
+filtresi değildir. Aynı 25 kaynak noktasının merkezi başka sınıfta olan
+21'inden 100/250/500 metre keşif çevrelerinde 1/8/9'unda harita orman/çalı
+merkezi bulundu. WGS84 mesafe ve merkez sayım oranıdır; gerçek piksel
+alanı, konum hata sınırı veya yangın türü değildir. Dokuz yeni vaka dahil
+44 ilgili test, lint/format, dokuz girdi/üç çıktı ve CSV geri okuması geçti.
+Readback SHA-256 `e73cd495e5d4b575693b0ca0a9490f7f5de64774495960d98757c19d661504f4`.
+Eski kaynak/yöntem değişmedi; etiket/dışlama, 2024/2025, bulut işi ve nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

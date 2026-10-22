@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Orman ve çalılık kapsam yönü](HABITAT_SCOPE_DIRECTION_2026-10-23.md) | Araştırmacının seçimi, otomatik dışlama yapmayan sürümlü kayıt ve aynı 25 ilk noktada komşu örtü belirsizliği |
 | [21 adayın örtü ve olay bağlamı](CANDIDATE_COVER_CONTEXT_2026-10-23.md) | 25 farklı ilk tespit merkezinin eski haritadaki örtüsü, gerçek olay kanıtı sınırı ve araştırmacıya sunulan kapsam seçenekleri |
 | [Olay–gözlem pilot kesişimi](EVENT_OBSERVATION_LINK_2026-10-22.md) | 21 adayla eşleşen ve 135 eşleşmeyen pilot birimi, termal/ilk aday ayrımı ve 7.589 adayın ayrıntılı pilot kapsamı sınırı |
 | [Tam eğitim adayı duyarlılığı](EVENT_SENSITIVITY_2026-10-22.md) | Dokuz katalogda 7.610 ilk hücre-gün adayının varlık/zaman/üyelik farkları, beş somut örnek ve OGM'yi zorunlu kılmadan ilerleme sınırı |

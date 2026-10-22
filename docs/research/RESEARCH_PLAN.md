@@ -88,6 +88,12 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+23 Ekim kapsam kararı: araştırmacı orman ve çalılığı ana araştırma yönü olarak
+seçti. Tarım/yerleşim eşleşmeleri ayrı incelemede korunacak; noktaya veya
+5 km hücreye uygulanacak nihai habitat filtresi henüz seçilmedi. Eski harita
+merkeziyle tek başına yangın türü belirlenmeyecek. [Karar ve tamamlanan sınırlı
+konum/komşu örtü tanısı](../HABITAT_SCOPE_DIRECTION_2026-10-23.md).
+
 22 Ekim ilerleme yönü: araştırmacı üniversite üzerinden OGM talebini şimdilik
 planlamıyor. OGM verisi zorunlu erişim koşulu yapılmadan açık kanıtlarla
 ilerleme benimsendi; bilimsel hedef, gözlem veya etiket kabulü değiştirilmedi.

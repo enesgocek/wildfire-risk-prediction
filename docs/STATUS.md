@@ -5,6 +5,23 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim kapsam kararı: ana araştırma orman ve çalılığı birlikte ele alacak.**
+Araştırmacı önerilen yönü açıkça seçti. Tarım/yerleşim kayıtları ayrı
+incelemede korunuyor; asgari örtü oranı veya çevre mesafesi seçilmedi ve
+otomatik dışlama yapılmadı. Yeni yön kaydı `configs/habitat_scope_direction_v1.json`.
+[Karar, komşu örtü incelemesi ve sınırlar](HABITAT_SCOPE_DIRECTION_2026-10-23.md).
+
+Aynı 25 ilk noktanın merkezi orman/çalı olmayan 21'inden, 100/250/500 metre
+keşif çevrelerinde sırasıyla 1/8/9'unda referans haritada komşu orman/çalı
+merkezleri var. Mesafeler hata sınırı veya kabul kuralı değildir. Tek merkez
+sınıfıyla silme ya da komşu ormanla etiket verme yapılmadı. Dokuz yeni vaka
+dahil 44 ilgili test, lint/format, dokuz girdi/üç çıktı ve tam CSV geri okuması geçti.
+Readback SHA-256 `e73cd495e5d4b575693b0ca0a9490f7f5de64774495960d98757c19d661504f4`.
+Sonraki iş kapsam yönünü konum/piksel desteği ve olay kanıtıyla gerekçeli
+habitat protokolüne dönüştürmek. Gözlem unknown; gerçek etiket ve birleştirme yok.
+
+### 23 Ekim örtü bağlamı incelemesi
+
 **23 Ekim: 21 eşleşen adayın örtü ve mevcut olay bağlamı incelendi.**
 Dokuz senaryodan çıkarılan 25 farklı ilk tespit merkezi, yerel 2017 haritasında
 11 tarım, altı yerleşim, üç orman, bir çalı, üç otsu ve bir otsu sulak alan

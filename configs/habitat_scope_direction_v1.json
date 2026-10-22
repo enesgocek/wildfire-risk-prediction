@@ -1,0 +1,17 @@
+{
+  "version": "habitat_scope_direction_v1",
+  "decision_date": "2026-10-23",
+  "decision_source": "explicit_user_selection_forest_and_shrub",
+  "primary_research_cover_groups": ["forest", "shrub"],
+  "scope_kind": "research_direction_not_final_habitat_filter",
+  "agriculture_and_urban": "retain_separate_context_review",
+  "other_cover_groups": "retain_for_scope_and_location_uncertainty_review",
+  "automatic_exclusion_authorized": false,
+  "minimum_cover_fraction_selected": null,
+  "point_neighborhood_radius_selected_m": null,
+  "independent_event_identity_accepted": false,
+  "daily_observation_status": "unknown",
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "final_merge_authorized": false
+}
