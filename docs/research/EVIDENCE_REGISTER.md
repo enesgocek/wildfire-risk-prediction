@@ -1223,6 +1223,18 @@ geçti. Yeni grafik/ham kaynak okuması veya kurum verisi yok; aynı kaynaktaki
 ayar eşitliği bağımsız doğrulama sayılmadı. Hedefler boş ve kabul kapıları
 kapalı; 2024/2025, bulut işi, model ve nihai birleştirme açılmadı.
 
+E126 — 22 Ekim: [Olay–gözlem pilot kesişimi](../EVENT_OBSERVATION_LINK_2026-10-22.md).
+7.610 ilk-hücre/gün adayının 21'i 156 amaçlı gözlem biriminde bulunuyor:
+15 ayar-eşit, altısı duyarlı. Eşleşmeyen 135 pilot biriminin 39'unda yüklü
+kesin pencere içinde termal merkez var; ilk aday yokluğu termal/yangın
+yokluğu sayılmadı. 7.589 aday bu ayrıntılı pilot dışında, ham veri yokluğu
+iddiası yok. %95 günlük/tekrar/dört dilim tanılarında 21 örneğin 20/18/1'i
+kalıyor; kesimler kabul edilmedi. 15 yeni vaka dahil 43 ilgili test,
+lint/format ve 18 girdi/beş çıktı hash/tam CSV geri okuması geçti.
+Readback SHA-256 `9b4be7d301436840819d3a9d90ece3a5ede5f6bd257c364ef7d5cc9cc08cf6bf`.
+Ham diziler/geometriler yeniden açılmadı; yeni referans, etiket veya model
+kabulü yok. 2024/2025, bulut işi ve nihai birleştirme açılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

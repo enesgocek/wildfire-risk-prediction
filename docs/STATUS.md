@@ -5,6 +5,24 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**22 Ekim sonraki adım tamamlandı: olay adayları ayrıntılı gözlem pilotuyla
+eşleştirildi.** 156 amaçlı pilot biriminin 21'i ilk-gün adayına bağlandı:
+15 ayarlar arasında eşit, altısı duyarlı. Adaya bağlanmayan 135 birimin
+39'unda yüklü kesin pencere içinde termal merkez var; ilk aday yokluğu
+yangın/termal yokluğu sayılmadı. Diğer 96 birim de negatif kabul edilmedi.
+
+7.610 adayın 7.589'u bu ayrıntılı pilot dışında; bu, ham uydu verisi eksikliği
+değildir. Pilot dışı gözlem alanları eksik korundu. Eşleşen 21 birimde günlük/
+12 saat tekrar/dört dilim %95 tanılarını sırasıyla 20/18/1 birim geçiyor;
+hiçbiri kabul kuralı olarak seçilmedi. [Eşleştirme, somut örnek ve sınır](EVENT_OBSERVATION_LINK_2026-10-22.md).
+15 yeni vaka dahil 43 ilgili test, lint/format, tam CSV geri okuması ve
+18 girdi/beş çıktı kapanışı geçti. Readback SHA-256
+`9b4be7d301436840819d3a9d90ece3a5ede5f6bd257c364ef7d5cc9cc08cf6bf`.
+Sonraki sınırlı iş 21 eşleşen örneğin olay/örtü ve açık referans incelemesi;
+yeni büyük gözlem kuyruğu başlatılmadı. Etiketler ve nihai birleştirme kapalı.
+
+### 22 Ekim tam katalog duyarlılığı
+
 **22 Ekim: tam eğitim kataloğunun ilk-gün aday duyarlılığı çıkarıldı.**
 OGM üniversite talebi araştırmacının şimdiki planında yok; kanal zorunlu
 ilerleme koşulu yapılmadan mevcut kanıtlarla devam ediliyor. Bu, bilimsel

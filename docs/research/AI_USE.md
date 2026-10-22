@@ -890,6 +890,12 @@ ayrı CSV hesabında kullanıldı. Beş amaçlı örnek hazırlandı; araştırm
 uzman incelemesi yapılmış veya dokuz ayarın eşitliği bağımsız doğruluk
 kanıtı gibi sunulmadı. [Sonuç ve sınırlar](../EVENT_SENSITIVITY_2026-10-22.md).
 
+22 Ekim sonraki kesişim kontrolü: araç desteği korunmuş olay adayı ve
+gözlem pilotunu anahtarla bağlama, boş kanıtı sıfıra çevirmeme kontrolleri,
+testler ve raporlamada kullanıldı. İlk aday/termal tespit/yangın yokluğu
+ayrı tutuldu; otomatik eşleştirme insan incelemesi veya bağımsız olay
+doğrulaması sayılmadı. [Kanıt ve sınırlar](../EVENT_OBSERVATION_LINK_2026-10-22.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

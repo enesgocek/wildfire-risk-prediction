@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/link_event_observation_pilot.py`, tam eğitim ilk-gün
+adaylarını mevcut 156 birimlik ayrıntılı gözlem pilotuyla eşleştirir.
+İlk aday yokluğu termal yokluğundan ayrılır; bütün pilot birimleri ve
+pilot dışı adaylar ayrı korunur. Alan eksikleri sıfır yapılmaz. Yeni
+rapor `event_observation_link_v1` altındadır; kabul kuralı, etiket veya
+nihai birleştirme üretmez. Ham geometri yeniden hesaplanmaz, ağ kapalıdır.
+
 `python scripts/quality/review_full_event_sensitivity.py`, korunan dokuz
 eğitim kataloğunun bütün ilk hücre-gün adaylarını karşılaştırır. Aynı
 senaryodaki çok bileşen tek varlık desteği sayılır; ilk zaman ve üyelik
