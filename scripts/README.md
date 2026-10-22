@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/review_linked_candidate_context.py`, gözlemle eşleşen
+21 adayı 2017 hücre örtüsüne ve bütün ilk tespit noktalarına bağlar. Noktalar
+yerel rasterin CRS'sine açık xy sırasıyla dönüştürülüp merkez sınıfları
+örneklenir; tespit pikselinin tamamı veya gerçek yangın türü kabul edilmez.
+Korunmuş kamu bağlamı ve ayrı web araştırma sicili ilişkilendirilir. Yeni
+`linked_candidate_context_v1` çıktısı etiket, dışlama veya nihai veri seti değildir.
+
 `python scripts/quality/link_event_observation_pilot.py`, tam eğitim ilk-gün
 adaylarını mevcut 156 birimlik ayrıntılı gözlem pilotuyla eşleştirir.
 İlk aday yokluğu termal yokluğundan ayrılır; bütün pilot birimleri ve

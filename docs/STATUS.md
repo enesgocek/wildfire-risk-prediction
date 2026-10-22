@@ -1,9 +1,27 @@
-# Proje durum raporu — 22 Ekim 2026
+# Proje durum raporu — 23 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**23 Ekim: 21 eşleşen adayın örtü ve mevcut olay bağlamı incelendi.**
+Dokuz senaryodan çıkarılan 25 farklı ilk tespit merkezi, yerel 2017 haritasında
+11 tarım, altı yerleşim, üç orman, bir çalı, üç otsu ve bir otsu sulak alan
+sınıfına düşüyor. Bu, yangın türü doğrulaması değildir; kaynak konum ve
+harita belirsizliği nedeniyle otomatik silme/etiket yapılmadı.
+[Yöntem, somut örnekler ve açık kapsam kararı](CANDIDATE_COVER_CONTEXT_2026-10-23.md).
+
+Korunan 12 kurumsal bağlamın başlangıç tarihleriyle eşleşme yok. Üç il/tarih
+birleşimindeki altı sınırlı web sorgusu yeni kesin olay eşleşmesi sağlamadı;
+bu sistematik arama veya yangın yokluğu kanıtı değildir. Ana kapsam için
+orman+çalılık önerisi ve alternatifler araştırmacıya sunuldu; yanıt bekleniyor.
+Yedi yeni vaka dahil 35 ilgili test, lint/format, 24 girdi/dört çıktı ve tam
+CSV/piksel geri okuması geçti. Readback SHA-256
+`58363f7e1640af945195ecf9d13144a5ec4951fb259a30816274c12956710de8`.
+Kaynaklar ve etiket kapıları korundu; yeni büyük kuyruk/nihai birleştirme yok.
+
+### 22 Ekim olay–gözlem eşleştirmesi
 
 **22 Ekim sonraki adım tamamlandı: olay adayları ayrıntılı gözlem pilotuyla
 eşleştirildi.** 156 amaçlı pilot biriminin 21'i ilk-gün adayına bağlandı:

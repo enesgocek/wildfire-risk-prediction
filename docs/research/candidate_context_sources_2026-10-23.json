@@ -1,0 +1,26 @@
+{
+  "version": "linked_candidate_public_context_search_v1",
+  "record_date": "2026-10-23",
+  "search_started_client_date": "2026-10-22",
+  "scope": "Bounded search for three province/date combinations among the 21 pilot cases; not an exhaustive incident search",
+  "accepted_incident_matches": 0,
+  "official_technical_source": {
+    "url": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global",
+    "checked": "Discrete map class descriptions: 20 shrub, 30 herbaceous, 40 agriculture, 50 built, 90 herbaceous wetland and 111-116/121-126 forest",
+    "role": "Interpret reference-map classes only; not incident identity or truth at acquisition date"
+  },
+  "searches": [
+    {"query": "site.ogm.gov.tr \"15.08.2021\" \"yangın\" \"Antalya\"", "domain_filter": [], "outcome": "No accepted official coordinate/time incident match; media leads not admitted"},
+    {"query": "site.ogm.gov.tr \"15.08.2023\" \"yangın\" \"İzmir\"", "domain_filter": [], "outcome": "No accepted official coordinate/time incident match; hospital-fire media leads not admitted"},
+    {"query": "site.ogm.gov.tr \"15.05.2018\" \"yangın\" \"Mersin\"", "domain_filter": [], "outcome": "No accepted official coordinate/time incident match"},
+    {"query": "\"15 Ağustos 2021\" \"Akseki\" yangın", "domain_filter": ["ogm.gov.tr", "tarimorman.gov.tr", "antalya.gov.tr", "alanya.bel.tr"], "outcome": "Returned previews did not establish a matching incident record"},
+    {"query": "\"15 Ağustos 2023\" yangın Aliağa", "domain_filter": ["ogm.gov.tr", "izmir.bel.tr", "izmir.gov.tr"], "outcome": "Returned previews did not establish a matching incident record"},
+    {"query": "\"15 Mayıs 2018\" yangın Mersin", "domain_filter": ["ogm.gov.tr", "mersin.bel.tr", "mersin.gov.tr"], "outcome": "Returned previews did not establish a matching incident record"}
+  ],
+  "limits": [
+    "A search without an accepted match does not establish fire absence or nonexistence of public records",
+    "Matching a province and publication date does not establish event coordinates, first observation or ignition",
+    "No media lead was used as an independent incident label",
+    "No external message, institutional data request or authenticated account access"
+  ]
+}

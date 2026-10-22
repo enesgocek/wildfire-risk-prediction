@@ -896,6 +896,12 @@ testler ve raporlamada kullanıldı. İlk aday/termal tespit/yangın yokluğu
 ayrı tutuldu; otomatik eşleştirme insan incelemesi veya bağımsız olay
 doğrulaması sayılmadı. [Kanıt ve sınırlar](../EVENT_OBSERVATION_LINK_2026-10-22.md).
 
+23 Ekim aday örtü bağlamı: araç desteği hücre tablosu bağlama, kaynak ilk
+noktalarını koruma, CRS dönüşümü, eski raster örneklemesi, test ve sınırlı
+açık kaynak araştırmasında kullanıldı. Nokta harita sınıfı gerçek yangın
+türü veya araştırmacı incelemesi sayılmadı. Kapsam seçenekleri sunuldu,
+tercih uydurulmadı. [Yöntem ve sınırlar](../CANDIDATE_COVER_CONTEXT_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

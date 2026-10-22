@@ -1235,6 +1235,18 @@ Readback SHA-256 `9b4be7d301436840819d3a9d90ece3a5ede5f6bd257c364ef7d5cc9cc08cf6
 Ham diziler/geometriler yeniden açılmadı; yeni referans, etiket veya model
 kabulü yok. 2024/2025, bulut işi ve nihai birleştirme açılmadı.
 
+E127 — 23 Ekim: [Eşleşen adayların örtü/olay bağlamı](../CANDIDATE_COVER_CONTEXT_2026-10-23.md).
+21 amaçlı adayda 180 senaryo-bileşen kaydı/207 ilk nokta tanığı, 25 farklı
+kaynak tespitine bağlandı. 2017 rasterinde merkez sınıfı tarım 11, yerleşim 6,
+orman 3, çalı 1, otsu 3, otsu sulak alan 1; yangın türü doğruluğu değildir.
+12 korunan bağlamda aynı başlangıç günü ve altı sınırlı web sorgusunda yeni
+kesin olay eşleşmesi yok; yokluk kanıtı üretilmedi. Yedi yeni vaka dahil
+35 ilgili test, lint/format, 24 girdi/dört çıktı ve CSV/piksel geri okuması geçti.
+Readback SHA-256 `58363f7e1640af945195ecf9d13144a5ec4951fb259a30816274c12956710de8`.
+Orman+çalılık ve alternatif kapsamlar araştırmacıya soruldu; yanıt bekleniyor.
+Eski harita veya hücre ortalamasıyla otomatik etiket/dışlama yapılmadı;
+2024 yalnız kaynak tarih filtresidir, 2025 kapalı; eğitim/birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
