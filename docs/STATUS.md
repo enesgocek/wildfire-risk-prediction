@@ -1,9 +1,30 @@
-# Proje durum raporu — 21 Ekim 2026
+# Proje durum raporu — 22 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**22 Ekim: tam eğitim kataloğunun ilk-gün aday duyarlılığı çıkarıldı.**
+OGM üniversite talebi araştırmacının şimdiki planında yok; kanal zorunlu
+ilerleme koşulu yapılmadan mevcut kanıtlarla devam ediliyor. Bu, bilimsel
+hedef veya etiket kabulü değişikliği değildir.
+
+Dokuz katalogda 7.610 farklı aday hücre-gün bulundu: 5.214'ünde aday varlığı,
+ilk zaman ve üyelik eşit; 977'sinde aday var ama zaman/üyelik farklı;
+1.419'unda aday varlığı ayara bağlı. Bunlar bağımsız yangın sayısı değildir.
+Eşit grupta 311 katalog işaretli vaka var; işaretsiz 4.903 aday da doğrudan
+etiket sayılmaz. Bütün gruplar hedefleri boş korunuyor, ayar seçilmedi.
+[Tam kapsam, somut örnekler ve sınırlar](EVENT_SENSITIVITY_2026-10-22.md).
+
+13 yeni vaka dahil 41 ilgili test, lint/format, 17 girdi/altı çıktı kapanışı
+ve ayrı CSV içerik hesabı geçti. Ana readback SHA-256
+`40818450ec28a2597eca1155bb6bb5896ce41fc65ec5fad2db6f1314d7229a86`.
+Sonraki sınırlı iş adayların mevcut gözlem pilotuyla kesişimi ve açık
+referansların kanıt yeterliliğidir. Gözlem unknown; pozitif/negatif izinleri
+kapalı. 2024/2025, yeni bulut işi ve nihai birleştirme açılmadı.
+
+### 21 Ekim kaynak teslim karşılaştırması
 
 **21 Ekim yeni teslim karşılaştırması tamamlandı: eski ve yeni FIRMS eğitim
 kayıtları aynı; yalnız sıraları farklı.** Araştırmacının aktardığı ZIP'lerde

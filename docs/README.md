@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 21 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 22 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. TÜBİTAK belirli bir Git
 klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği için seçilmiştir.
 
@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Tam eğitim adayı duyarlılığı](EVENT_SENSITIVITY_2026-10-22.md) | Dokuz katalogda 7.610 ilk hücre-gün adayının varlık/zaman/üyelik farkları, beş somut örnek ve OGM'yi zorunlu kılmadan ilerleme sınırı |
 | [Yeni FIRMS teslim karşılaştırması](research/FIRMS_REFRESH_COMPARISON_2026-10-21.md) | İki sensörde 463.178 eğitim tespitinin 15 alanda eşitliği, farklı sıralama, ayrı byte kontrolü ve bilimsel kabul sınırı |
 | [NASA/FIRMS yanıtı ve kaynak sürümü](research/NASA_FIRMS_REPLY_2026-10-21.md) | Collection 2 açıklığı, mevcut teslimde açık aylık sürüm, iki yerel hash kontrolü ve sınırlı yeni teslim karşılaştırma planı |
 | [CİMER yanıtı ve üniversite yazışması](research/OGM_UNIVERSITY_ROUTE_2026-10-19.md) | Paylaşılan yanıtın teknik sınırı, dört il için önerilen idari yol ve araştırmacının sonraki adımı |

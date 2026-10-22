@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/review_full_event_sensitivity.py`, korunan dokuz
+eğitim kataloğunun bütün ilk hücre-gün adaylarını karşılaştırır. Aynı
+senaryodaki çok bileşen tek varlık desteği sayılır; ilk zaman ve üyelik
+farkları ayrıca tutulur. Yeni grafik, etiket veya ana eğitim alt kümesi
+üretmez; gözlem unknown kalır. Sonuçlar yeni `full_event_sensitivity_v1`
+dizinine yazılır. OGM yanıtı olmaması bu yerel tanıyı engellemez.
+
 `python scripts/firms/compare_firms_refresh.py`, 21 Ekim'de manuel alınan
 iki FIRMS ZIP'i korunan eski CSV'lerin aynı eğitim dönemiyle karşılaştırır.
 Kaynak pinleri, paket üye/CRC kontrolü, çokluk koruyan 15 alan ve ayrı

@@ -1211,6 +1211,18 @@ Sekiz girdi/üç çıktı kapanışı, 14 yeni davranış testi ve lint/format g
 ve kesin indirme saati bağımsız doğrulanmadı; fiziksel olay/etiket kabulü yok.
 Ham veri ve donmuş hedef kodu korunarak bulut işi/nihai birleştirme yapılmadı.
 
+E125 — 22 Ekim: [Bütün eğitim ilk-hücre adaylarında ayar duyarlılığı](../EVENT_SENSITIVITY_2026-10-22.md).
+Korunmuş dokuz katalogdaki 67.577 senaryo-bileşen-hücre satırı 7.610 farklı
+aday hücre-güne açıldı. 5.214 varlık/zaman/üyelik eşit, 977 varlık eşit ama
+zaman/üyelik farklı, 1.419 varlık duyarlı; eşit grupta 311 katalog işaretli.
+Sayılar olay/etiket değildir. Beş amaçlı örnek/45 senaryo satırı hazırlandı.
+Ana readback SHA-256 `40818450ec28a2597eca1155bb6bb5896ce41fc65ec5fad2db6f1314d7229a86`;
+ayrı CSV hesabı `41b79018b74e030f37ff3c080d7e956866da8a5f7049f3d610d90de743a4da62`.
+17 girdi/altı çıktı kapanışı, 13 yeni vaka dahil 41 ilgili test ve lint/format
+geçti. Yeni grafik/ham kaynak okuması veya kurum verisi yok; aynı kaynaktaki
+ayar eşitliği bağımsız doğrulama sayılmadı. Hedefler boş ve kabul kapıları
+kapalı; 2024/2025, bulut işi, model ve nihai birleştirme açılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

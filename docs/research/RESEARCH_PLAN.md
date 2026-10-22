@@ -88,6 +88,14 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+22 Ekim ilerleme yönü: araştırmacı üniversite üzerinden OGM talebini şimdilik
+planlamıyor. OGM verisi zorunlu erişim koşulu yapılmadan açık kanıtlarla
+ilerleme benimsendi; bilimsel hedef, gözlem veya etiket kabulü değiştirilmedi.
+Dokuz mevcut kataloğun bütün ilk hücre-gün adaylarında 7.610 anahtarın
+5.214'ü varlık/zaman/üyelikte eşit; 2.396'sı en az birinde duyarlı bulundu.
+Bu eşitlik bağımsız gerçek yangın doğrulaması veya kabul edilmiş eğitim alt
+kümesi değildir. [Kapsam, örnekler ve sonraki sınırlı iş](../EVENT_SENSITIVITY_2026-10-22.md).
+
 21 Ekim kaynak yanıtı: NASA/FIRMS, CSV version=2'nin Collection 2 olduğunu
 doğruladı. Destek yanıtı güncel VIIRS v4/MODIS v3 beyanı içeriyor; önceki
 yerel indirmelerin aylık üretim sürümünü teyit etmiyor. Kaynak kabulü yerine

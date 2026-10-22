@@ -884,6 +884,12 @@ testleri, ayrı byte hesabı ve sonuç raporlamasında kullanıldı. İki otomat
 hesap uzman/saha doğrulaması sayılmadı; aylık sürüm veya etiket kabulü
 uydurulmadı. [Kanıt ve sınırlar](FIRMS_REFRESH_COMPARISON_2026-10-21.md).
 
+22 Ekim tam aday duyarlılığı: araç desteği mevcut kataloglarda bütün ilk
+hücre-günlerin varlık/zaman/üyelik karşılaştırması, davranış testleri ve
+ayrı CSV hesabında kullanıldı. Beş amaçlı örnek hazırlandı; araştırmacı/
+uzman incelemesi yapılmış veya dokuz ayarın eşitliği bağımsız doğruluk
+kanıtı gibi sunulmadı. [Sonuç ve sınırlar](../EVENT_SENSITIVITY_2026-10-22.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
