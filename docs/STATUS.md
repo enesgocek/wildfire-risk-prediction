@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim görüntü kesitleri tamamlandı: 25 nokta artık görsel olarak incelenebilir.**
+25 TCI/25 SCL kesiti, 25 karşılaştırma kartı ve A/B/C örnek sayfası hazır.
+Yaklaşık alanlarda SCL bulut/sirüs işareti 6/25, bulut gölgesi 4/25 noktada
+var; bir örnekte sahne bulutu %0,17 iken yerel SCL oranı %13,10. Otomatik
+kalite sınıfları bağımsız doğruluk veya habitat/yangın etiketi sayılmadı.
+[A/B/C örnekleri, ölçümler ve beklenen araştırmacı incelemesi](PREEVENT_IMAGE_REVIEW_2026-10-23.md).
+51 ilgili test, 110 girdi/77 kesit çıktısı hash kontrolü geçti. Araştırmacı
+A belirsiz, B tarım, C orman/çalılık ön notlarını görsel sürümüne bağlı
+ayrı kayıtta onayladı; kalan 22 örnekte araştırmacı incelemesi yok.
+Sıradaki iş belirsiz örneklerde diğer tarihlerle kontrol.
+2024/2025, etiket kabulü, eğitim ve nihai birleştirme kapalı kaldı.
+
+### Önceki görüntü envanteri
+
 **23 Ekim görüntü envanteri tamamlandı: 25/25 noktada tahmin öncesi aday var.**
 Aynı eğitim noktalarının önceki 60 gününde 523 nokta–görüntü kaydı /
 432 farklı Sentinel-2 kimliği bulundu; her noktada son 30 günde de aday var.

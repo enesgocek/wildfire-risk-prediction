@@ -1278,6 +1278,18 @@ hash kontrolü. Readback SHA-256
 Başarısız ilk CSV geri okuması korundu; aynı katalog yanıtları yeni çıktı
 dizininde yeniden işlendi. Etiket, model, nihai birleştirme ve bulut işi yok.
 
+E131 — 23 Ekim: [Olay öncesi görüntü kesitleri](../PREEVENT_IMAGE_REVIEW_2026-10-23.md).
+25 eğitim noktasında 50 TCI/SCL kesiti ve 25 görsel kart. Yerel SCL
+bulut/sirüs işareti 6/25, bulut gölgesi 4/25; eşik/etiket kabulü yok.
+51 ilgili test, 110 girdi/77 çıktı hash kontrolü. Kesit readback SHA-256
+`a3d1378c3f13a2b1947b045aaa2f296426bdfb4246861160aa83adf3caa6a5f8`.
+15 kesit korunup yeniden kullanıldı; yalnız bağlam çevresi için tile
+kenarı kesimi eklendi, bilimsel alan kesilmedi. Araştırmacı incelemesi
+ilk sunumda bekleniyordu; sonrasında araştırmacı A belirsiz, B tarım,
+C orman/çalılık ön notlarını teyit etti. Ayrı teyit kaydı SHA-256
+`36fac85b3d6fe2f288af7070b70cfed5b037f70bd5b0601646a2eeb38e184645`;
+diğer 22 örnek açık. Asistan yorumu/araştırmacı teyidi bağımsız doğrulama değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

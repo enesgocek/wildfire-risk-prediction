@@ -919,6 +919,15 @@ korunması, test ve raporlamada kullanıldı. Edinim/ürün üretim farkı
 belirtildi; görüntüler insan tarafından incelenmiş veya etiketlenmiş
 gösterilmedi. [Yöntem ve sınırlar](../PREEVENT_IMAGERY_INVENTORY_2026-10-23.md).
 
+23 Ekim görüntü kesitleri: araç desteği açık arşivden küçük TCI/SCL
+pencereleri okuma, kaynak/maske/geometri ve kalite sayımı, davranış
+testleri, görsel kart hazırlama ve asistanın ön görsel yorumlarında
+kullanıldı. Araştırmacı değerlendirmesi boş bırakıldı; görüntü düzen
+kontrolü veya asistan yorumu bağımsız olay kabulü sayılmadı. Daha sonra
+araştırmacı üç ön örtü notunu açıkça teyit etti; bu ayrı görsel sürümüne
+bağlı kayıtta tutuldu ve kör/bağımsız uzman incelemesi diye sunulmadı.
+[Örnekler ve sınırlar](../PREEVENT_IMAGE_REVIEW_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

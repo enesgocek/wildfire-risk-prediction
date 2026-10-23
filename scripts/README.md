@@ -1407,3 +1407,12 @@ Bulut eşiği/etiket uygulamaz ve raster indirmez. `--metadata-cache` ile
 aynı sorguların korunmuş yerel yanıtlarını hash denetimiyle yeni dizinde
 çevrimdışı yeniden işler. Sonuç inceleme sırasıdır; habitat kabulü değildir.
 [Gerçek sonuç ve sınırlar](../docs/PREEVENT_IMAGERY_INVENTORY_2026-10-23.md).
+
+
+`quality/read_preevent_image_windows.py`, sabit 25 ilk inceleme adayı
+için küçük TCI/SCL kesitleri okur; geçici erişim bağlantıları bellekte
+kalır. `--reuse-report` korunmuş kesitleri hash/kimlik ve yeniden kalite
+sayımıyla kullanır. Bilimsel destek kesilmez; çevre payı tile kenarında
+açıkça daralabilir. `quality/plot_preevent_review_cards.py <kesit-dizini>`
+yerelden 25 kart ve üç örnek görseli üretir; insan değerlendirmesi boş kalır.
+[Gerçek sonuç ve kabul sınırı](../docs/PREEVENT_IMAGE_REVIEW_2026-10-23.md).
