@@ -907,6 +907,12 @@ tercihini sürümlü kaydetme ve eski haritada geodesic nokta çevresi tanısın
 kullanıldı. Araştırmacı tercihi bağımsız doğruluk, keşif çevreleri konum hata
 sınırı veya nihai etiket filtresi sayılmadı. [Kayıt ve sınırlar](../HABITAT_SCOPE_DIRECTION_2026-10-23.md).
 
+23 Ekim native örtü kontrolü: araç desteği, 25 arşiv noktasını yerel ham
+uydu piksellerine bağlama, yaklaşık alan/2017 harita kesişimi, davranış
+testleri ve açıklamalı üç örnek görselinde kullanıldı. Güncel örtü veya
+bağımsız olay kabulü yapılmadı. Görsel düzen incelemesi araştırmacının
+bilimsel doğrulaması sayılmadı. [Kapsam ve sonuç](../NATIVE_COVER_CONTEXT_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -5,6 +5,24 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim sonraki kontrol tamamlandı: 25 ilk tespit kaynak piksellerine bağlandı.**
+18 yerel dosya çiftinde bütün noktaların tekil koordinat/güven sınıfı eşleşmesi
+doğrulandı; komşu native merkezlerden yaklaşık alan çıkarılıp 2017 haritasıyla
+kesiştirildi. 25 alanın 21'i karışık örtülüdür. Merkezi orman/çalı olmayan
+21 noktanın dokuzunda yaklaşık alan içinde orman/çalı kesişimi vardır.
+Bir residual bowtie bayrağı ayrı incelemede tutuldu; kayıt silinmedi.
+[Somut örnekler, görsel ve yöntem sınırı](NATIVE_COVER_CONTEXT_2026-10-23.md).
+
+Bu, bu 25 noktanın kaynak/konum bağını ilerletir; 2017 haritasının tespit
+yılındaki örtüyü temsil ettiğini doğrulamaz. Harita yaşı 10 noktada bir,
+dokuz noktada dört, altı noktada altı takvim yılıdır. Sıradaki iş aynı
+örneklerde olay/tahmin öncesi tarihli örtü kanıtını araştırmaktır.
+47 ilgili test, dört dosyada lint/format, 243 girdi ve üç çıktı hash kontrolü
+geçti. Readback SHA-256 `65443618bddc95f01a453f0186473891112d9712b50289e3c4613ac71470568b`.
+Etiket ve nihai birleştirme açık değildir; yeni bulut işi başlatılmadı.
+
+### 23 Ekim kapsam kararı ve ilk çevre tanısı
+
 **23 Ekim kapsam kararı: ana araştırma orman ve çalılığı birlikte ele alacak.**
 Araştırmacı önerilen yönü açıkça seçti. Tarım/yerleşim kayıtları ayrı
 incelemede korunuyor; asgari örtü oranı veya çevre mesafesi seçilmedi ve

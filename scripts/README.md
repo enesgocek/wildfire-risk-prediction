@@ -6,6 +6,13 @@ Code Editor'a kopyalanır. Betikler kendi konumlarından proje kökünü bulur.
 
 ## Sabit gözlem pilotunun yerel devam kuyruğu
 
+`python scripts/quality/review_native_candidate_cover.py`, sabit 25 ilk tespiti
+yerel native satır/sütun ve güven sınıfına bağlar; aynı tarama komşularından
+yaklaşık alan kurup 2017 haritasıyla kesiştirir. 2024 yalnız tarih filtresiyle
+atılır, 2025 okunmaz. Yeni indirme/etiket yoktur. Sonucu
+`plot_native_cover_examples.py <sonuç_dizini>` üç amaçlı örnekle görselleştirir;
+poligon resmî piksel sınırı, harita güncel örtü veya yangın doğruluğu değildir.
+
 `python scripts/quality/review_cover_neighborhoods.py`, kabul edilmiş orman/
 çalılık araştırma yönünü ayrı kayıtla bağlar; aynı 25 amaçlı ilk noktanın
 çevresindeki eski harita merkezlerini 100/250/500 metre WGS84 mesafelerinde

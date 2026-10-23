@@ -29,6 +29,10 @@ hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru
 
 ## Yazım ve kayıt
 
+- Kullanıcının 23 Ekim iletişim tercihi: iş bitiminde sohbet içinde yapılan
+  işlem, anlaşılır somut örnek, ölçülen bulgu, veriseti hazırlığına katkı,
+  açık kalan konu ve sonraki adım açıklanır. Uzun raporu okumak sonuçları
+  anlayabilmenin ön koşulu yapılmaz; rapor bağlantısı destekleyici kalır.
 - Karar akışı için kullanıcının 14 Ekim açıklaması: proje kararlarında nihai
   yetki kullanıcıdadır. Asistan anlaşılır seçenekler, gerekçeli bir öneri,
   yarar/sınırlama ve kararın sonuçlarını hazırlar; rutin teknik işleri yürütür.

@@ -1257,6 +1257,17 @@ alanı, konum hata sınırı veya yangın türü değildir. Dokuz yeni vaka dahi
 Readback SHA-256 `e73cd495e5d4b575693b0ca0a9490f7f5de64774495960d98757c19d661504f4`.
 Eski kaynak/yöntem değişmedi; etiket/dışlama, 2024/2025, bulut işi ve nihai birleştirme yok.
 
+E129 — 23 Ekim: [25 native pikselin örtü bağlamı](../NATIVE_COVER_CONTEXT_2026-10-23.md).
+18 yerel ham çiftte 25 tekil koordinat/güven sınıfı eşleşmesi, 25 yaklaşık
+destek alanı ve 2017 harita kesişimi doğrulandı. 21 alan karışık; merkezi
+başka sınıfta olan 21 noktanın dokuzunda orman/çalı kesişimi var. Bir residual
+bowtie bayrağı saklandı. Harita farkı 10/9/6 noktada 1/4/6 takvim yılıdır.
+47 ilgili test; 243 girdi/üç çıktı; üç amaçlı görsel örnek. Readback SHA-256
+`65443618bddc95f01a453f0186473891112d9712b50289e3c4613ac71470568b`.
+Yaklaşık alan resmî piksel köşesi/yanan alan değildir; güncel habitat ve
+olay doğruluğu kabul edilmedi. 2024 yalnız tarih filtresi, 2025 kapalı;
+yeni bulut işi/etiket/nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
