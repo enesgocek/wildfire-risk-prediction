@@ -1416,3 +1416,11 @@ sayımıyla kullanır. Bilimsel destek kesilmez; çevre payı tile kenarında
 açıkça daralabilir. `quality/plot_preevent_review_cards.py <kesit-dizini>`
 yerelden 25 kart ve üç örnek görseli üretir; insan değerlendirmesi boş kalır.
 [Gerçek sonuç ve kabul sınırı](../docs/PREEVENT_IMAGE_REVIEW_2026-10-23.md).
+
+`quality/compare_preevent_dates.py`, yerel SCL bulut/sirüs işaretli altı
+noktayı donmuş ilk incelemeden seçer; her biri için ilk günden farklı
+iki UTC tarihini sahne bulutu/yakınlık/kimlik sırasıyla piksel okumadan
+önce sabitler. 15 dakikalık yerel sınırla küçük açık TCI/SCL kesitleri
+okur; bütün sonuçları yeni dizine ve üç tarihli kartlara kaydeder.
+Ücretli iş, etiket, dışlama veya geçmiş araştırmacı notu değişikliği yoktur.
+[Sonuç ve sınırlar](../docs/PREEVENT_DATE_COMPARISON_2026-10-23.md).

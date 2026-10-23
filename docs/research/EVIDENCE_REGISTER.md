@@ -1290,6 +1290,15 @@ C orman/çalılık ön notlarını teyit etti. Ayrı teyit kaydı SHA-256
 `36fac85b3d6fe2f288af7070b70cfed5b037f70bd5b0601646a2eeb38e184645`;
 diğer 22 örnek açık. Asistan yorumu/araştırmacı teyidi bağımsız doğrulama değildir.
 
+E132 — 23 Ekim: [Altı noktada farklı tarih kontrolü](../PREEVENT_DATE_COMPARISON_2026-10-23.md).
+Altı amaçlı eğitim noktasında 12 alternatif gün, 24 yeni kesit ve altı kart.
+İki noktada alternatiflerde bulut/sirüs sayımı sıfır; dört noktada devam.
+Sıfır sınıf sayımı kalite/örtü kabulü değildir. 65 ilgili test,
+143 girdi/45 çıktı hash'i, 18 nokta-tarihte diskten SCL yeniden sayımı geçti.
+Readback SHA-256 `f50778b9bd1a344c35336273fb46d19258481dc50676a692682e8772bd8b468d`.
+Araştırmacının eski üç ön notu korundu, yeni görseller asistan ön incelemesidir.
+Etiket, otomatik dışlama, eğitim ve nihai birleştirme yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

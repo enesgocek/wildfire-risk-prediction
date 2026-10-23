@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim farklı tarih kontrolü tamamlandı: altı belirsiz nokta üçer tarihle karşılaştırıldı.**
+12 yeni görüntüden 24 küçük TCI/SCL kesiti ve altı karşılaştırma kartı üretildi.
+İki noktada alternatiflerin yerel bulut/sirüs sayımı sıfır; dört noktada
+işaret sürüyor. Sıfıra inen bir noktada koyu/gölge payı yaklaşık %34 kaldı;
+bu nedenle hiçbirine otomatik kalite/örtü/yangın kabulü verilmedi.
+[Ölçümler, görseller ve sonraki adım](PREEVENT_DATE_COMPARISON_2026-10-23.md).
+65 ilgili test, 143 girdi/45 çıktı hash kontrolü ve 18 görüntüde diskten
+yeniden sayım geçti. A/B/C araştırmacı ön notları korunuyor; yeni insan
+teyidi yok. Sonraki iş örtü ve olay bağlamını somut kabul/inceleme
+protokolünde bir araya getirmek; nihai etiketli birleştirme değildir.
+
+### Önceki ilk görüntü incelemesi
+
 **23 Ekim görüntü kesitleri tamamlandı: 25 nokta artık görsel olarak incelenebilir.**
 25 TCI/25 SCL kesiti, 25 karşılaştırma kartı ve A/B/C örnek sayfası hazır.
 Yaklaşık alanlarda SCL bulut/sirüs işareti 6/25, bulut gölgesi 4/25 noktada

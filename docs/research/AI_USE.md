@@ -928,6 +928,13 @@ araştırmacı üç ön örtü notunu açıkça teyit etti; bu ayrı görsel sü
 bağlı kayıtta tutuldu ve kör/bağımsız uzman incelemesi diye sunulmadı.
 [Örnekler ve sınırlar](../PREEVENT_IMAGE_REVIEW_2026-10-23.md).
 
+23 Ekim farklı tarih kontrolünde yapay zekâ; iki alternatif günün seçim
+kuralı, sınırlı açık varlık okuması, kontroller, görsel karşılaştırma ve
+ön yorumların hazırlanmasında kullanıldı. Altı kartın asistan incelemesi
+insan/uzman teyidi olarak kaydedilmedi. Araştırmacının önceki A/B/C notları
+değiştirilmedi; yeni etiket veya dışlama yapılmadı.
+[Ölçüm ve yorum ayrımı](../PREEVENT_DATE_COMPARISON_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
