@@ -10,8 +10,10 @@ Eski harita, yaklaşık piksel alanı, görüntü kalitesi ve üç araştırmac�
 aynı inceleme paketinde; ilişkiler korunuyor. 4 merkez orman/çalı, 9 başka
 merkezde alan içi orman/çalı kesişimi, 12 noktada böyle bir kesişim yok.
 Bunlar inceleme sıralarıdır; kabul/dışlama değildir. Haritada orman/çalı
-olan D/E/F örneklerinde parsel/yapılaşma karışımı görüldü; yeni araştırmacı
-ön notu isteniyor. C için eski not korunur.
+olan D/E/F örnekleri araştırmacı tarafından ön değerlendirmeye alındı:
+D ağaçlık içeren karışık alan, E/F tarla benzeri ve doğal orman olduğu
+doğrulanmamış alan; C'nin önceki notu yeniden teyit edildi. D için yeni
+sayısal örtü ölçümü yapılmadı. Toplam 6/25 ön not var, 19/25 bekliyor.
 [Örnekler, taslak inceleme protokolü ve sınırlar](HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
 37 ilgili test, 166 girdi/7 çıktı hash denetimi geçti. Etiketler boş,
 gözlem unknown; nihai birleştirme yok.

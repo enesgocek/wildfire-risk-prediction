@@ -1307,6 +1307,13 @@ araştırmacıya sunuldu, C notu korundu. Dokuz yeni vaka dahil 37 test,
 `abbd061abb08013da6fdf9583c175c4072b041c76abb22819e2d0bdda5b5ca3f`.
 Yeni insan teyidi, örtü/yangın kabulü, dışlama veya birleştirme yoktur.
 
+E134 — 23 Ekim: D/E/F araştırmacı ön yorumları ve C tekrar teyidi,
+[örtü inceleme raporuna tarihli ek](../HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
+Üç yeni nokta, toplam 6/25 ön not; D'de yeni oran ölçülmedi, E/F tarla
+benzeri yorumlandı. Beş kaynak hash'i ve makbuz geri okuması geçti.
+SHA-256 `d3e71111b30cc6686eee9319165d9b86b25f9d6c1f2811c4dcbca3ab3e1495fb`.
+Bağımsız uzman, kapsam/yangın kabulü veya dışlama yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

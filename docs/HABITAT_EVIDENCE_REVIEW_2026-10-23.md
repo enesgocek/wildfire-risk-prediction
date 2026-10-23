@@ -102,3 +102,31 @@ değerlendirmesi boş, 25 hedef boş, eski üç not korunmuş durumdadır.
 Dokuz yeni davranış vakası dahil 37 ilgili test ve üç dosyada lint/format
 kontrolü geçti. Ağ kapalıydı; bulut işi, 2024/2025 erişimi, eğitim, etiket,
 otomatik silme ve nihai birleştirme yapılmadı.
+
+## Görsel sunumu sonrası araştırmacı değerlendirmesi — 23 Ekim
+
+Araştırmacı C'nin önceki orman/çalılık ön yorumunu yeniden teyit etti.
+D'de ağaçlık alan bulunduğunu, ancak görünen payın yaklaşık %66'dan daha
+az göründüğünü belirtti. Bu ifade yeni bir sayısal ölçüm değildir: görselde
+yazılı %66,71, 2017 sınıf haritasının yaklaşık destek içindeki orman+çalı
+alan payıdır; 2021 görüntüsündeki ağaç taç örtüsü yüzdesi değildir.
+İki miktar eşdeğer kabul edilmedi ve eski oran değiştirilmedi.
+
+E ve F için araştırmacının ön yorumu tarla benzeri, yeşil fakat orman gibi
+görünmeyen alanlardır. Asistan yorumu da düzenli parsel görünümünün tarımsal
+kullanım olasılığını desteklediği yönündedir. Kesin tarım türü, doğal odunsu
+örtü yokluğu veya yanlış sınıflama kanıtlanmadı. E/F doğal orman olarak
+kabul edilmedi; D karışık/belirsiz tutuldu. Hiçbir kayıt silinmedi veya
+negatif yangın etiketi almadı.
+
+Yeni makbuz: `outputs/reports/dataset/habitat_researcher_notes_v1/20261023T160518Z_3166f1d9/readback.json`.
+SHA-256: `d3e71111b30cc6686eee9319165d9b86b25f9d6c1f2811c4dcbca3ab3e1495fb`.
+Beş kaynak hash'i ve yeni JSON geri okuması doğrulandı. Önceki şablonlar ve
+notlar değişmedi. Üç yeni nokta ve C'nin tekrar teyidiyle toplam **6/25**
+noktada araştırmacı ön notu var; **19/25** noktada yok. Bu, kör/bağımsız
+uzman değerlendirmesi veya altı kabul edilmiş habitat örneği değildir.
+Kod değişmediği için bilimsel kuyruk veya test paketi yeniden çalıştırılmadı.
+
+Sonraki incelemede E/F'nin tarımsal parsel bağlamı, D'nin alan içi karışımı
+ve diğer 19 noktanın örtüsü aynı ölçütlerle ele alınmalı. Bu altı amaçlı
+örnekten genel otomatik filtre eşiği çıkarılmamalıdır.

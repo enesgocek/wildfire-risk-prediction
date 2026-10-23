@@ -942,6 +942,11 @@ yorumları asistan ön değerlendirmesidir; kullanıcıya görselle soruldu.
 Önceki üç araştırmacı notu değiştirilmedi, yeni insan incelemesi uydurulmadı.
 [İşlem ve sınırlar](../HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
 
+23 Ekim D/E/F/C yanıtında araştırmacı görsele kendi ön yorumunu verdi.
+Yapay zekâ bu notları görsel hash'ine bağladı; D'nin öznel karşılaştırmasını
+sayısal ölçüme çevirmedi, E/F tarla benzeri yorumunu kesin arazi kullanımı
+veya olay doğruluğu saymadı. Üç yeni ön not ve C tekrar teyidi ayrı tutuldu.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
