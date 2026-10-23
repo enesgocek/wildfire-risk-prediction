@@ -947,6 +947,12 @@ Yapay zekâ bu notları görsel hash'ine bağladı; D'nin öznel karşılaştır
 sayısal ölçüme çevirmedi, E/F tarla benzeri yorumunu kesin arazi kullanımı
 veya olay doğruluğu saymadı. Üç yeni ön not ve C tekrar teyidi ayrı tutuldu.
 
+23 Ekim kalan 19 örtü noktasında yapay zekâ; yerel görsel sayfaların
+hazırlanması, dört sayfa ve beş mevcut alternatif kartın ön yorumu,
+kaynak bağlantısı ve bütünlük kontrollerinde kullanıldı. Bu 19 yorum
+araştırmacı/uzman değerlendirmesi sayılmadı; önceki altı insan ön notu
+korundu. Görsel bağlamdan otomatik habitat/yangın etiketi çıkarılmadı.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

@@ -130,3 +130,68 @@ Kod değişmediği için bilimsel kuyruk veya test paketi yeniden çalıştırı
 Sonraki incelemede E/F'nin tarımsal parsel bağlamı, D'nin alan içi karışımı
 ve diğer 19 noktanın örtüsü aynı ölçütlerle ele alınmalı. Bu altı amaçlı
 örnekten genel otomatik filtre eşiği çıkarılmamalıdır.
+
+## Kalan 19 noktanın asistan ön incelemesi — 23 Ekim
+
+Altı araştırmacı ön notu korunarak diğer 19 nokta dört görsel sayfada
+toplandı. Yeni görüntü indirilmedi; mevcut ilk tarih kesitleri ve bu
+noktalardan beşinin mevcut üç tarihli kartları incelendi. Bu aşama
+asistan görsel yorumudur; yeni araştırmacı/uzman doğrulaması değildir.
+
+| Ön yorum grubu | Nokta sayısı | Görsel kodları |
+| --- | ---: | --- |
+| Yapı/tesis benzeri bağlam | 6 | R01, R04, R05, R12, R13, R14 |
+| Düzenli parsel bağlamı | 4 | R02, R06, R17, R18 |
+| Karışık örtü; doğal/yönetilen ayrımı açık | 6 | R03, R07, R11, R15, R16, R19 |
+| Açık/kuru yüzey ve seyrek, niteliği belirsiz örtü | 3 | R08, R09, R10 |
+
+Sayılar amaçlı seçilmiş 25 eğitim noktasının henüz araştırmacı notu
+olmayan 19'una aittir. Genel veri dağılımı, yangın sınıfı veya otomatik
+eleme kuralı çıkarılamaz. Yaklaşık alanların örtüşmesi nedeniyle bu
+noktalar bağımsız arazi örnekleri de sayılmadı.
+
+Somut bulgular ve açık sorular:
+
+- R03'ün ilk görüntüsünde görüşü bulut kapatıyor. Mevcut 3 Nisan ve
+  1 Mayıs 2023 alternatiflerinde düzenli parlak/sera benzeri örtüler,
+  parseller ve yeşil parçalar birlikte görülüyor. Doğal odunsu örtü
+  ile yönetilen bitki örtüsü ayrımı henüz doğrulanmadı.
+- R11'de yakın çevrede odunsu görünümlü doku var; yaklaşık alanın
+  merkezindeki açık yüzey ve sınırdaki karışım ayrıca ele alınmalı.
+  Görselin dış çevresi, sarı sınırın içindeki örtüyle aynı sayılmadı.
+- R15/R16'da yeşil koridor ile sera benzeri yapılar yan yana. R15'in
+  önceki residual bow-tie belirsizliği korunuyor; bu görüntü onu çözmez.
+- R12'de kıyı, iskele benzeri uzantılar ve dairesel tesis yapıları
+  üç tarihte görülüyor. Tesis kimliği ve tespit edilen sıcaklığın
+  nedeni belirlenmedi; endüstriyel kaynak veya yanlış yangın kaydı
+  olduğu sonucuna varılmadı.
+- R08/R09/R10 için kuru görünüm, doğal çalılık yokluğu anlamına gelmez.
+  Mevcut çözünürlükle bitki türü ve kullanım ayrımı belirsiz kaldı.
+
+Görsel dizini:
+
+- [R01–R05](../outputs/reports/dataset/remaining_cover_review_v1/20261023T162553Z_e9d8f8dd/sheet_1.png)
+- [R06–R10](../outputs/reports/dataset/remaining_cover_review_v1/20261023T162553Z_e9d8f8dd/sheet_2.png)
+- [R11–R15](../outputs/reports/dataset/remaining_cover_review_v1/20261023T162553Z_e9d8f8dd/sheet_3.png)
+- [R16–R19](../outputs/reports/dataset/remaining_cover_review_v1/20261023T162553Z_e9d8f8dd/sheet_4.png)
+- [R03 üç tarih karşılaştırması](../outputs/reports/dataset/preevent_date_comparison_v1/20261023T154219Z_144befb7/N20_815590_200133.png)
+
+Görsel makbuz SHA-256:
+`af1cc416aac93dffa2ed9e0a40589675f7b8b4bb74a3e0cc0988baad6f0f5ad7`.
+Asistan notları ayrı kayıtta:
+`outputs/reports/dataset/remaining_cover_assistant_notes_v1/20261023T162753Z_e27e3f04/readback.json`;
+SHA-256 `7cdaf55d02672447304c7ac2182368f2ff4fa744558edfe899be3a70cf6bae9c`.
+
+140 kaynak hash'i ve altı çıktı hash'i doğrulandı. Notların bağlı olduğu
+10 görsel/makbuz hash'i ve 19 tekil kimliğin geri okuması kontrol edildi.
+Dört sayfa ve beş alternatif kart görsel olarak asistan tarafından incelendi.
+Bu değişiklik yalnız sunum/not üretimidir; bilimsel üretim yeniden
+çalıştırılmadı. Yeni betiğin lint/format kontrolü geçti.
+
+Toplam insan ön notu hâlâ 6/25, yeni asistan ön notu 19/19'dur.
+Araştırmacı değerlendirmesi, habitat kabulü, olay kanıtı ve gözlem yeterliliği
+ayrı tutuldu. Yeni etiket, dışlama, nihai birleştirme ve bulut işi yoktur.
+Sonraki adım görsel kodlarına bağlı araştırmacı notlarının alınması ve
+belirsiz kalan örtü için gereken ek kanıtın belirlenmesidir. Araştırmacı
+bir alanı bu görüntüden ayıramıyorsa belirsizlik korunur; zorunlu bir
+orman/tarım seçimi yaptırılmaz.

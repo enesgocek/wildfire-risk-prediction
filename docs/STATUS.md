@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim kalan 19 örtü noktasının asistan ön incelemesi tamamlandı.**
+Dört görsel sayfa ve mevcut beş alternatif tarih kartı incelendi:
+6 yapı/tesis benzeri, 4 parsel, 6 karışık ve 3 seyrek/belirsiz örtü yorumu.
+Bunlar amaçlı örneklerin ön yorumlarıdır; kabul/dışlama veya tüm veri
+dağılımı değildir. 140 kaynak/6 çıktı hash'i ve notların 10 kanıt bağı
+kontrol edildi. İnsan ön notları 6/25 olarak korunuyor; 19 noktada yeni
+insan incelemesi yok. Görseller ve açık sorular
+[örtü inceleme raporunda](HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
+Etiketler boş, gözlem unknown; nihai birleştirme yapılmadı.
+
+### Önceki ortak örtü paketi ve araştırmacı notları
+
 **23 Ekim örtü kanıtları bir araya getirildi: 25 nokta / 21 aday / 207 senaryo ilişkisi.**
 Eski harita, yaklaşık piksel alanı, görüntü kalitesi ve üç araştırmacı notu
 aynı inceleme paketinde; ilişkiler korunuyor. 4 merkez orman/çalı, 9 başka

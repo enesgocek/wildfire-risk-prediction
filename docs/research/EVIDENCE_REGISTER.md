@@ -1314,6 +1314,14 @@ benzeri yorumlandı. Beş kaynak hash'i ve makbuz geri okuması geçti.
 SHA-256 `d3e71111b30cc6686eee9319165d9b86b25f9d6c1f2811c4dcbca3ab3e1495fb`.
 Bağımsız uzman, kapsam/yangın kabulü veya dışlama yok.
 
+E135 — 23 Ekim: [Kalan 19 örtü noktasının asistan ön incelemesi](../HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
+Dört sayfa, beş mevcut alternatif kart; 6 yapı/tesis benzeri, 4 parsel,
+6 karışık ve 3 seyrek/belirsiz örtü yorumu. Bunlar bağımsız doğrulama değildir.
+140 kaynak/6 çıktı hash'i, notların 10 kanıt bağı ve 19 tekil kimlik doğrulandı.
+Görsel makbuz SHA `af1cc416aac93dffa2ed9e0a40589675f7b8b4bb74a3e0cc0988baad6f0f5ad7`;
+not makbuzu SHA `7cdaf55d02672447304c7ac2182368f2ff4fa744558edfe899be3a70cf6bae9c`.
+İnsan ön notu 6/25 kaldı; etiket, kabul, dışlama ve birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
