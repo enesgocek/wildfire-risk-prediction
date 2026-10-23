@@ -913,6 +913,12 @@ testleri ve açıklamalı üç örnek görselinde kullanıldı. Güncel örtü v
 bağımsız olay kabulü yapılmadı. Görsel düzen incelemesi araştırmacının
 bilimsel doğrulaması sayılmadı. [Kapsam ve sonuç](../NATIVE_COVER_CONTEXT_2026-10-23.md).
 
+23 Ekim görüntü envanteri: araç desteği açık katalog sorgulama, eğitim
+noktalarının tahmin öncesi zaman/kapsama kontrolü, kaynak yanıtlarının
+korunması, test ve raporlamada kullanıldı. Edinim/ürün üretim farkı
+belirtildi; görüntüler insan tarafından incelenmiş veya etiketlenmiş
+gösterilmedi. [Yöntem ve sınırlar](../PREEVENT_IMAGERY_INVENTORY_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

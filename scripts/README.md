@@ -1399,3 +1399,11 @@ Temmuz 2023 referansı ayrıdır. İki eksik gün kabul edilmez. `PAUSE` dosyas�
 gün sınırında okunur; yeni sonuç dizininde raporlar korunur. Tam geometri
 birleşimi veya negatif etiket kabulü değildir. [Gerçek teslim/pilot ve
 devam eden kontrol](../docs/GCP_PRODUCT_DELIVERY_2026-10-14.md).
+
+
+`quality/inventory_preevent_imagery.py`, sabit 25 eğitim noktası için
+T öncesi 60 günlük anonim Sentinel-2 STAC metadata envanteri üretir.
+Bulut eşiği/etiket uygulamaz ve raster indirmez. `--metadata-cache` ile
+aynı sorguların korunmuş yerel yanıtlarını hash denetimiyle yeni dizinde
+çevrimdışı yeniden işler. Sonuç inceleme sırasıdır; habitat kabulü değildir.
+[Gerçek sonuç ve sınırlar](../docs/PREEVENT_IMAGERY_INVENTORY_2026-10-23.md).

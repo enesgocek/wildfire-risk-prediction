@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim görüntü envanteri tamamlandı: 25/25 noktada tahmin öncesi aday var.**
+Aynı eğitim noktalarının önceki 60 gününde 523 nokta–görüntü kaydı /
+432 farklı Sentinel-2 kimliği bulundu; her noktada son 30 günde de aday var.
+İlk inceleme adaylarının 13/25'inde işlenmiş ürün T sonrasında üretilmiş;
+bunlar geçmişte erişilebilir model girdisi olarak kabul edilmedi.
+Görüntü pikselleri henüz okunmadı; sahne bulut oranı yerel kalite değildir.
+[Sorgu, somut örnekler, kontroller ve sınırlar](PREEVENT_IMAGERY_INVENTORY_2026-10-23.md).
+53 ilgili test; 56 girdi/54 çıktı hash kontrolü geçti. Sonraki iş küçük
+görüntü pencerelerinde yerel kalite ve görsel örtü incelemesidir.
+Etiket/gözlem kabulü ve nihai birleştirme kapalı; yeni bulut işi yok.
+
+### Önceki native piksel kontrolü
+
 **23 Ekim sonraki kontrol tamamlandı: 25 ilk tespit kaynak piksellerine bağlandı.**
 18 yerel dosya çiftinde bütün noktaların tekil koordinat/güven sınıfı eşleşmesi
 doğrulandı; komşu native merkezlerden yaklaşık alan çıkarılıp 2017 haritasıyla

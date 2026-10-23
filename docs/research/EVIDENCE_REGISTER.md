@@ -1268,6 +1268,16 @@ Yaklaşık alan resmî piksel köşesi/yanan alan değildir; güncel habitat ve
 olay doğruluğu kabul edilmedi. 2024 yalnız tarih filtresi, 2025 kapalı;
 yeni bulut işi/etiket/nihai birleştirme yok.
 
+E130 — 23 Ekim: [Tahmin öncesi görüntü envanteri](../PREEVENT_IMAGERY_INVENTORY_2026-10-23.md).
+25 eğitim noktasında 523 nokta–görüntü kaydı / 432 farklı Sentinel-2 kimliği;
+25/25 noktada 30 günlük aday var. İlk inceleme adaylarının 13'ünde ürün
+üretimi tahmin sonrasında; erişilebilirlik kabul edilmedi. Raster/yerel
+kalite/habitat incelemesi yapılmadı. 53 ilgili test; 56 girdi/54 çıktı
+hash kontrolü. Readback SHA-256
+`dedc117b117dca2b1751b54a044de648b1305672495e0c11d32703ae13e727dc`.
+Başarısız ilk CSV geri okuması korundu; aynı katalog yanıtları yeni çıktı
+dizininde yeniden işlendi. Etiket, model, nihai birleştirme ve bulut işi yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

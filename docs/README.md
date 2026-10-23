@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Tahmin öncesi görüntü envanteri](PREEVENT_IMAGERY_INVENTORY_2026-10-23.md) | 25 nokta için tarih/kapsama adayları, edinim–üretim zamanı farkı ve yerel görüntü incelemesine geçiş |
 | [Native piksel ve örtü bağlamı](NATIVE_COVER_CONTEXT_2026-10-23.md) | 25 ilk tespitin ham konum/güven eşleşmesi, yaklaşık piksel alanında eski örtü karışımı, üç görsel örnek ve zamana uygun harita açığı |
 | [Orman ve çalılık kapsam yönü](HABITAT_SCOPE_DIRECTION_2026-10-23.md) | Araştırmacının seçimi, otomatik dışlama yapmayan sürümlü kayıt ve aynı 25 ilk noktada komşu örtü belirsizliği |
 | [21 adayın örtü ve olay bağlamı](CANDIDATE_COVER_CONTEXT_2026-10-23.md) | 25 farklı ilk tespit merkezinin eski haritadaki örtüsü, gerçek olay kanıtı sınırı ve araştırmacıya sunulan kapsam seçenekleri |
