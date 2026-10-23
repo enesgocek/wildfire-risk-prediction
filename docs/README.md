@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Orman/çalılık örtü kanıtı incelemesi](HABITAT_EVIDENCE_REVIEW_2026-10-23.md) | 25 nokta ve 21 adayın ortak inceleme kaydı, odunsu tarım belirsizliği, D/E/F/C görseli ve taslak protokol |
 | [Altı noktada farklı tarih kontrolü](PREEVENT_DATE_COMPARISON_2026-10-23.md) | Önceden sabitlenen 12 alternatif görüntü, yerel SCL farkları, kalıcı parlak/koyu yüzey belirsizliği ve korunmuş araştırmacı notları |
 | [Olay öncesi görüntü kesitleri](PREEVENT_IMAGE_REVIEW_2026-10-23.md) | 25 TCI/SCL kesiti, yerel kalite farkları, A/B/C karşılaştırması ve araştırmacı görsel inceleme adımı |
 | [Tahmin öncesi görüntü envanteri](PREEVENT_IMAGERY_INVENTORY_2026-10-23.md) | 25 nokta için tarih/kapsama adayları, edinim–üretim zamanı farkı ve yerel görüntü incelemesine geçiş |

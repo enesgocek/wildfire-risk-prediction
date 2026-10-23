@@ -1424,3 +1424,9 @@ iki UTC tarihini sahne bulutu/yakınlık/kimlik sırasıyla piksel okumadan
 okur; bütün sonuçları yeni dizine ve üç tarihli kartlara kaydeder.
 Ücretli iş, etiket, dışlama veya geçmiş araştırmacı notu değişikliği yoktur.
 [Sonuç ve sınırlar](../docs/PREEVENT_DATE_COMPARISON_2026-10-23.md).
+
+`quality/build_habitat_evidence_review.py`, ağ erişimini kapatarak donmuş
+25 noktanın örtü/görüntü/araştırmacı kanıtlarını ve 21 adayın senaryo
+ilişkilerini inceleme paketine bağlar. Eski notlar korunur; yeni boş
+inceleme şablonu ve D/E/F/C odak görseli üretilir. Kabul veya dışlama yapmaz.
+[Örtü ayrımı ve sonuç](../docs/HABITAT_EVIDENCE_REVIEW_2026-10-23.md).

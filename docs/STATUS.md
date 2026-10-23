@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Ekim örtü kanıtları bir araya getirildi: 25 nokta / 21 aday / 207 senaryo ilişkisi.**
+Eski harita, yaklaşık piksel alanı, görüntü kalitesi ve üç araştırmacı notu
+aynı inceleme paketinde; ilişkiler korunuyor. 4 merkez orman/çalı, 9 başka
+merkezde alan içi orman/çalı kesişimi, 12 noktada böyle bir kesişim yok.
+Bunlar inceleme sıralarıdır; kabul/dışlama değildir. Haritada orman/çalı
+olan D/E/F örneklerinde parsel/yapılaşma karışımı görüldü; yeni araştırmacı
+ön notu isteniyor. C için eski not korunur.
+[Örnekler, taslak inceleme protokolü ve sınırlar](HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
+37 ilgili test, 166 girdi/7 çıktı hash denetimi geçti. Etiketler boş,
+gözlem unknown; nihai birleştirme yok.
+
+### Önceki farklı tarih kontrolü
+
 **23 Ekim farklı tarih kontrolü tamamlandı: altı belirsiz nokta üçer tarihle karşılaştırıldı.**
 12 yeni görüntüden 24 küçük TCI/SCL kesiti ve altı karşılaştırma kartı üretildi.
 İki noktada alternatiflerin yerel bulut/sirüs sayımı sıfır; dört noktada

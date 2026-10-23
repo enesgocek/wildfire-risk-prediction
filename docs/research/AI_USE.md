@@ -935,6 +935,13 @@ insan/uzman teyidi olarak kaydedilmedi. Araştırmacının önceki A/B/C notlar�
 değiştirilmedi; yeni etiket veya dışlama yapılmadı.
 [Ölçüm ve yorum ayrımı](../PREEVENT_DATE_COMPARISON_2026-10-23.md).
 
+23 Ekim örtü kanıtı incelemesinde yapay zekâ, yerel kanıtların nokta/aday
+ilişkilerini koruyarak bir araya getirilmesi, taslak inceleme protokolü,
+görsel odak sayfası ve test hazırlığında kullanıldı. D/E/F parsel/karışım
+yorumları asistan ön değerlendirmesidir; kullanıcıya görselle soruldu.
+Önceki üç araştırmacı notu değiştirilmedi, yeni insan incelemesi uydurulmadı.
+[İşlem ve sınırlar](../HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

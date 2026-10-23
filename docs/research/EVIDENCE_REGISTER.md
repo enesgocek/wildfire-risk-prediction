@@ -1299,6 +1299,14 @@ Readback SHA-256 `f50778b9bd1a344c35336273fb46d19258481dc50676a692682e8772bd8b46
 Araştırmacının eski üç ön notu korundu, yeni görseller asistan ön incelemesidir.
 Etiket, otomatik dışlama, eğitim ve nihai birleştirme yapılmadı.
 
+E133 — 23 Ekim: [Örtü kanıtı inceleme paketi](../HABITAT_EVIDENCE_REVIEW_2026-10-23.md).
+25 nokta, 21 aday, 207 senaryo ilişkisi; 4/9/12 eski harita inceleme sırası.
+Doğal odunsu örtü/yönetilen tarım ayrımı açık; yeni D/E/F ön notları
+araştırmacıya sunuldu, C notu korundu. Dokuz yeni vaka dahil 37 test,
+166 girdi/7 çıktı hash denetimi geçti. Readback SHA-256
+`abbd061abb08013da6fdf9583c175c4072b041c76abb22819e2d0bdda5b5ca3f`.
+Yeni insan teyidi, örtü/yangın kabulü, dışlama veya birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
