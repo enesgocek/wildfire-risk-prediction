@@ -1347,6 +1347,16 @@ Analiz SHA `5a6de697874a697f7bc37afa7c2d6ddab478edf0d06934a9b2acd7b4fa397288`;
 karar/denetim SHA `88e0aeaa80af5172b6ef2e18cf9ec6d1b605f28b3330e6aa7eea508900125eb0`.
 Etiket, eşik, dışlama veya nihai birleştirme kabulü yoktur.
 
+E139 — 27 Ekim: [Örtü kanıtının zaman denetimi ve ek kaynak kontrolü](../HABITAT_TEMPORAL_EVIDENCE_2026-10-27.md).
+25 nokta / 37 görüntü kaydı / 31 farklı ürün. 20 kayıtta ürün sürümü T
+sonrası, geçmiş erişim kabulü 0/37. 21 noktada bulut/sirüs sıfır tarih,
+9 noktada altı kalite işareti sıfır tarih; kabul eşiği veya örtü gerçeği
+değildir. 114 kaynak/kod kimliği doğrulandı. Makbuz SHA
+`38e03a124e6c5da221ae545941997cb6f34cfd0ff3700bb412b25effc458dda9`.
+CORINE sınıfları resmî dokümanda doğrulandı; yerel nokta erişimi başarısız.
+Saklanan tekrar tanısı SHA `3c519932661fa6b19eba51193a6b44fae183e723188eca4fdcd3a4936ee1b65b`.
+Yeni uzak sınıf, insan notu, etiket veya nihai birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

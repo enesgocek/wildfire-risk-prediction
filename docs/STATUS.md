@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**27 Ekim örtü kanıtının zaman denetimi tamamlandı; ek arazi kullanımı kanıtı açık.**
+25 noktada 37 görüntü kaydı / 31 farklı ürün denetlendi. Hepsinin çekimi
+T öncesindeki 60 günde; 20 kayıtta ürün sürümü T sonrasında oluşturulmuş.
+Geçmiş erişim doğrulaması 0/37. En az bir tarihte bulut/sirüs sayımı
+sıfır olan 21 nokta, altı kalite işareti sıfır olan 9 nokta var; bunlar
+örtü kabulü değildir. 114 kaynak/kod kimliği ve JSON kontrolü geçti.
+CORINE sınıf tanımı arazi kullanımı ayrımı için uygun ek bağlam sağlıyor;
+tek nokta erişim kontrolü ve sınırlı tekrar 502/zaman aşımıyla sonuçlandı,
+yeni sınıf verisi alınmadı. [Bulgular ve somut devam sırası](HABITAT_TEMPORAL_EVIDENCE_2026-10-27.md).
+
+### Aynı gün önceki mekânsal kontrol
+
 **27 Ekim mekânsal örtü kontrolü ve yöntem kararı tamamlandı.**
 25 nokta / 21 hücre-gün / 20 grid üzerinde aynı 2017 haritasının merkez,
 yaklaşık tespit alanı ve hücre oranları karşılaştırıldı. 21 birimin

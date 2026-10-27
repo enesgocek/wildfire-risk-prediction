@@ -973,6 +973,13 @@ iki ayrı kontrolle ilerleme ve belirsiz adayları koruma tasarımını seçti.
 Bu seçim bilimsel doğruluk kanıtı veya etiket kabulü olarak sunulmadı.
 [Kapsam ve sınırlar](../HABITAT_SPATIAL_REVIEW_2026-10-27.md).
 
+27 Ekim zaman ve kaynak incelemesi: asistan 37 yerel görüntü kaydının
+zaman/kalite kanıtlarını denetledi, resmî örtü ürünlerinin sınıf ve dönem
+sınırlarını araştırdı. CORINE nokta servisi denemesi başarısız olarak
+kaydedildi; veri edinilmiş veya bağımsız doğrulama yapılmış gösterilmedi.
+Otomatik kalite sayımları yeni insan yorumu ya da örtü kabulü sayılmadı.
+[Denetim ve kaynaklar](../HABITAT_TEMPORAL_EVIDENCE_2026-10-27.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
