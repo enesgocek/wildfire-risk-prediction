@@ -960,6 +960,12 @@ insan yorumu veya bağımsız uzman doğrulaması üretilmedi. Belirsiz örnekle
 zorunlu sınıfa atamak veya nihai kapsam kuralını otomatik seçmek için
 kullanılmadı. [Kayıt ve sınırlar](../HABITAT_DECISIONS_2026-10-27.md).
 
+27 Ekim ek kayıt: araştırmacının R03/R11/R15/R16 yanıtları asistan
+tarafından belirsizlikleri korunarak özetlendi ve kaynaklara bağlandı.
+Görüntüye ilişkin asistan açıklamaları insan notlarından ayrı yazıldı.
+İnsan yanıtları kör/bağımsız uzman doğrulaması değildir. Asistan kapsam
+seçeneklerini hazırladı; otomatik sınıf, etiket veya dışlama üretmedi.
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

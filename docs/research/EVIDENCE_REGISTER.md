@@ -1329,6 +1329,14 @@ olarak sayılmadı. 27 kaynak/kod hash'i, kimlik kapsamı ve JSON geri okuması
 geçti. SHA `6cd6b2bbe0dc9ac026219541283af5f339557d2a3e7063fedffa5734337fd236`.
 Yeni insan yanıtı, kabul edilmiş kapsam, etiket veya birleştirme yoktur.
 
+E137 — 27 Ekim: [Dört yeni araştırmacı örtü ön notu](../HABITAT_DECISIONS_2026-10-27.md#araştırmacı-yanıtı-sonrası-ek-kayıt).
+R03/R11/R15/R16 belirsizlikleriyle kaydedildi; 10/25 tekil noktada insan
+ön notu, toplam 11 tarihsel not ve 9/21 ilişkili inceleme birimi.
+28 kaynak hash'i, kimlik kapsamı ve JSON geri okuması doğrulandı.
+Makbuz SHA `8bf261ccf2c3b9677dc3970b1c1af06c22411dc4b8b36cf24d9bef30f603389e`.
+Yönlendirilmiş insan ön incelemesi; bağımsız doğrulama, kapsam/etiket
+kabulü veya otomatik dışlama değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

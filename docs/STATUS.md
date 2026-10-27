@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**27 Ekim ek araştırmacı yorumu: 10/25 noktada insan ön notu var.**
+R03 için belirsiz olası ağaçlık/açık alan yorumu, R11 için kuru görünüm,
+R15 için ayırt edememe, R16 için R15'e benzerlik kaydedildi. Yeni dört
+nokta üç inceleme birimine bağlanıyor; toplam 21 birimin dokuzunda insan
+ön notu bulunuyor. Bunlar örtü veya yangın kabulü değildir. 28 kaynak
+hash'i ve JSON geri okuması doğrulandı; kalan 15 noktada yalnız asistan
+notu var. Habitat kuralı, etiketler ve nihai birleştirme hâlâ açık.
+[Yeni yorumlar ve önerilen karar yönü](HABITAT_DECISIONS_2026-10-27.md#araştırmacı-yanıtı-sonrası-ek-kayıt).
+
+### Aynı gün yanıt öncesindeki karar hazırlığı
+
 **27 Ekim habitat karar hazırlığı: mevcut 25 nokta / 21 inceleme birimi.**
 Altı noktadaki yedi tarihsel insan notu ve 19 ayrı asistan yorumu kaynaklarıyla
 korundu. Üç hücre-gün birimi birden fazla nokta içeriyor; bağımsız olay

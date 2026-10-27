@@ -88,3 +88,50 @@ edildi. Yeni betik lint/format kontrolünü geçti. Değişiklik kabul algoritma
 değil, mevcut kanıtların karar hazırlığıdır; bilimsel üretim/test kuyruğu
 yeniden çalıştırılmadı. Eski çıktılar değişmedi, ağ veya bulut işi yapılmadı;
 etiket ve nihai birleştirme kapıları kapalı kaldı.
+
+## Araştırmacı yanıtı sonrası ek kayıt
+
+27 Ekim'de dört örnek için gelen insan yorumları yeni, ayrı makbuzla
+kaydedildi. Yukarıdaki yanıt bekleniyor durumu önceki anın kaydıdır.
+Yorumlar yönlendirilmiş görsel ön incelemedir; bağımsız uzman doğrulaması
+veya üretim kapsamı onayı değildir.
+
+| Örnek | Araştırmacının gözlemi | Korunan belirsizlik |
+|---|---|---|
+| R03 | Alternatif 2'de yeşil ormanlık alan; bulutlu düşünülen bölümde bozkır benzeri görünüm. Yanılma olasılığı açıkça belirtildi. | Doğal ağaçlık ve açık alan ayrımı kesin değil. Alternatif tarihlerde tekrarlanan parlak geometrik yüzeyler asistan incelemesinde sera benzeri; bulut olarak otomatik kabul edilmedi. |
+| R11 | Tamamen kurak görünen alan. | Kuru görünüm, ölçülmüş kuraklık veya bütün alanda örtü yokluğu değildir. Kenarlarda odunsu görünüm bulunması ayrıca incelenmeli. |
+| R15 | Görsel anlaşılamadı. | Örtü sınıfı atanmadı. Meteor benzetmesi fiziksel olay iddiası olarak kullanılmadı. |
+| R16 | R15'e benzer görünüm. | Açık bir örtü sınıfı söylenmedi. R15 ile aynı hücre-gün biriminde olması iki bağımsız olay anlamına gelmez. |
+
+Yeni dört tekil noktayla insan ön notu kapsamı 6'dan 10'a çıktı.
+Önceki C teyidi dahil tarihsel not sayısı 11; insan notu bulunan inceleme
+birimi sayısı 9/21'dir. Kalan 15/25 noktada yalnız asistan yorumu vardır.
+Bu amaçlı örneklerin sayıları genel sınıflandırma doğruluğu değildir.
+
+### Sonraki kapsam kararı için seçenekler
+
+1. **Önerilen yön: kanıt düzeyini koruyan kapsam.** Doğal orman/çalılık
+   bağlamı desteklenen, başka kullanım bağlamı desteklenen ve çözülemeyen
+   durumlar ayrı tutulur. Karışık veya ayırt edilemeyen örnekler veri
+   kaybı olmadan incelemede kalır. Ek kanıt ve nokta–hücre kuralı gerektirir;
+   bu nedenle henüz otomatik eğitim filtresi vermez.
+2. **Daha geniş harita temelli kapsam:** eski haritada orman/çalılık
+   kesişimi bulunan adayların tamamı ön havuzda tutulur. Uygulaması kolaydır;
+   ancak harita yaşı, yönetilen tarım örtüsü ve nokta–hücre farkı nedeniyle
+   doğal yangın kapsamı kabulü olarak kullanılamaz. Yalnız duyarlılık
+   karşılaştırması için hazırlanabilir.
+
+Öneri bir yöntem kabulü olarak uygulanmadı. İnsan gözleminin çözemediği
+R15/R16'ya tekrar zorunlu sınıf seçtirmek yerine ek örtü kanıtı ihtiyacı
+korunacak. Bir sonraki teknik hazırlık, nokta desteği ile 5 km hücre
+kapsamını ayıran kural adaylarını ve kapsam etkilerini sunmaktır. Nihai
+kural kullanıcı kararı ve uygun kanıt kontrolleri gerektirir.
+
+Yeni makbuz:
+`outputs/reports/dataset/habitat_researcher_notes_v2/20261027T184619Z_c71bd189/readback.json`.
+SHA-256: `8bf261ccf2c3b9677dc3970b1c1af06c22411dc4b8b36cf24d9bef30f603389e`.
+28 kaynak hash'i işlem öncesinde ve sonrasında kontrol edildi; dört
+kimliğin önceki altıyla çakışmadığı, toplamların doğruluğu ve JSON geri
+okuması doğrulandı. Türkçe metinde bozuk Unicode yer tutucusu bulunmadığı
+kontrol edildi. Eski çıktılar değiştirilmedi; yeni indirme, etiket,
+otomatik dışlama veya nihai birleştirme yapılmadı.
