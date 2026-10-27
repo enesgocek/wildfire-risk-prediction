@@ -953,6 +953,13 @@ kaynak bağlantısı ve bütünlük kontrollerinde kullanıldı. Bu 19 yorum
 araştırmacı/uzman değerlendirmesi sayılmadı; önceki altı insan ön notu
 korundu. Görsel bağlamdan otomatik habitat/yangın etiketi çıkarılmadı.
 
+27 Ekim habitat karar hazırlığında yapay zekâ mevcut insan notlarının
+geçmişini ve ayrı asistan yorumlarını 25 nokta/21 inceleme birimiyle
+ilişkilendirdi, kaynak kontrollerini ve karar tablosunu hazırladı. Yeni
+insan yorumu veya bağımsız uzman doğrulaması üretilmedi. Belirsiz örnekleri
+zorunlu sınıfa atamak veya nihai kapsam kuralını otomatik seçmek için
+kullanılmadı. [Kayıt ve sınırlar](../HABITAT_DECISIONS_2026-10-27.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

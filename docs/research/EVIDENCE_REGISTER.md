@@ -1322,6 +1322,13 @@ Görsel makbuz SHA `af1cc416aac93dffa2ed9e0a40589675f7b8b4bb74a3e0cc0988baad6f0f
 not makbuzu SHA `7cdaf55d02672447304c7ac2182368f2ff4fa744558edfe899be3a70cf6bae9c`.
 İnsan ön notu 6/25 kaldı; etiket, kabul, dışlama ve birleştirme yoktur.
 
+E136 — 27 Ekim: [Habitat karar hazırlığı](../HABITAT_DECISIONS_2026-10-27.md).
+25 nokta / 21 hücre-gün birimi; altı noktada yedi tarihsel insan notu,
+19 noktada yalnız asistan yorumu. Üç çoklu noktalı birim bağımsız olay
+olarak sayılmadı. 27 kaynak/kod hash'i, kimlik kapsamı ve JSON geri okuması
+geçti. SHA `6cd6b2bbe0dc9ac026219541283af5f339557d2a3e7063fedffa5734337fd236`.
+Yeni insan yanıtı, kabul edilmiş kapsam, etiket veya birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 23 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 27 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. TÜBİTAK belirli bir Git
 klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği için seçilmiştir.
 
@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Habitat kapsamı karar hazırlığı](HABITAT_DECISIONS_2026-10-27.md) | 25 noktanın insan/asistan notları, 21 inceleme birimi, açık kanıt gereksinimleri ve kapsam aşamasının kapanış sınırı |
 | [Orman/çalılık örtü kanıtı incelemesi](HABITAT_EVIDENCE_REVIEW_2026-10-23.md) | 25 nokta ve 21 adayın ortak inceleme kaydı, odunsu tarım belirsizliği, D/E/F/C görseli ve taslak protokol |
 | [Altı noktada farklı tarih kontrolü](PREEVENT_DATE_COMPARISON_2026-10-23.md) | Önceden sabitlenen 12 alternatif görüntü, yerel SCL farkları, kalıcı parlak/koyu yüzey belirsizliği ve korunmuş araştırmacı notları |
 | [Olay öncesi görüntü kesitleri](PREEVENT_IMAGE_REVIEW_2026-10-23.md) | 25 TCI/SCL kesiti, yerel kalite farkları, A/B/C karşılaştırması ve araştırmacı görsel inceleme adımı |

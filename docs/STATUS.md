@@ -1,9 +1,20 @@
-# Proje durum raporu — 23 Ekim 2026
+# Proje durum raporu — 27 Ekim 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**27 Ekim habitat karar hazırlığı: mevcut 25 nokta / 21 inceleme birimi.**
+Altı noktadaki yedi tarihsel insan notu ve 19 ayrı asistan yorumu kaynaklarıyla
+korundu. Üç hücre-gün birimi birden fazla nokta içeriyor; bağımsız olay
+sayısı olarak kullanılmıyor. 27 kaynak/kod hash'i ve JSON geri okuması
+kontrol edildi. R03/R11/R15/R16 için insan ön yorumu istendi; bu kayıt
+hazırlanırken yanıt yok. Kapsam ve belirsizlik kuralı henüz seçilmedi.
+[Karar tablosu ve aşama kapanış sınırı](HABITAT_DECISIONS_2026-10-27.md).
+Etiket, otomatik dışlama ve nihai birleştirme yapılmadı.
+
+### Önceki 19 noktanın görsel ön incelemesi
 
 **23 Ekim kalan 19 örtü noktasının asistan ön incelemesi tamamlandı.**
 Dört görsel sayfa ve mevcut beş alternatif tarih kartı incelendi:
