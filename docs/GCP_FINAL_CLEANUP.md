@@ -8,6 +8,36 @@ Bu değerler canlı durum değildir; güncel işlem aşaması [STATUS.md](STATUS
 
 ## Çalışırken
 
+### 27 Ekim 2026 kullanıcı bildirimi
+
+Araştırmacı, kredi bakiyesi tükenmeden Free Trial süresinin dolduğunu,
+Google Cloud ile çalışmayı sonlandırdığını ve kartını bloke ettiğini bildirdi.
+Bu bilgi manuel bildirimdir: canlı billing hesabının Closed durumu,
+proje billing bağlantısı, borç veya kalan kaynak envanteri doğrulanmadı.
+Yeni GCP işi, VM başlatma ve ücretli yükseltme yapılmayacak. Kart blokesi
+Cloud Billing'in kapatıldığına veya bütün kaynakların silindiğine kanıt değildir.
+
+Salt okunur yerel kontrol: 14 Ekim teslim makbuzu
+`outputs/gcp_delivery/2026-10-14/compact/receive_final_20261014T120535015447Z.json`
+mevcut ve önceki SHA-256
+`74827f6b182bc4acac4ab42651e7417daa9f1cbf974fd0c87aa52ab3e2eb9057`
+ile eşleşiyor; makbuz 199 görev kaydı içeriyor. 17 Ekim
+`outputs/reports/dataset/waiting_features_v1/20261017T010902Z_2aa6320b/input_manifest.json`
+içindeki 5.198 dosya yolunun tamamı yerelde mevcut. Bu son kontrol
+dosya varlığıdır; 5.198 dosyanın içeriği/hash'i yeniden denetlenmedi.
+VM'nin tam disk yedeği, Drive'ın canlı durumu veya ikinci bağımsız
+kopyanın güncel bütünlüğü kabul edilmiş sayılmaz. Bulutta hiçbir değişiklik yapılmadı.
+
+Güncel resmî Free Trial açıklaması, ücretli hesaba geçilmediyse süre/kredi
+sonunda hesabın kapatılması ve kaynakların durdurulmasını; ek sürenin
+sonunda deneme kaynaklarının silinebileceğini belirtiyor. Gerçek hesap
+durumu görülmeden bu davranışın projede gerçekleştiği ilan edilmez.
+Gerekli sonuçların tek kopyasını silmeme ve bağımsız kopyayı doğrulama
+koşulu sürer. Mevcut yerel örtü incelemesi ve Copernicus dosya alımı
+GCP VM'sinin yeniden açılmasını gerektirmiyor.
+
+### Tarihsel çalışma sınırları
+
 - Free Trial korunur; Upgrade / Activate paid account uygulanmaz. Google bu
   statüde hesap sahibinin faturalandırılmadığını ve yükseltme olmadan kredi/süre
   bittiğinde kaynakların duracağını belirtir. Bu, başka bir ücretli hesabın veya

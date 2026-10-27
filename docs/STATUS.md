@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**27 Ekim çalışma sınırı — kullanıcı bildirimi:** Free Trial süresi
+doldu; kullanıcı Google Cloud çalışmasını sonlandırdığını ve kartını
+bloke ettiğini belirtti. Yeni GCP işi/VM/ücretli yükseltme yapılmayacak.
+Canlı hesap kapanışı ve kaynak temizliği doğrulanmış değildir. Yerel
+14 Ekim teslim makbuzu hash'i eşleşti; 17 Ekim manifestindeki 5.198
+dosyanın tamamı mevcut (tam içerik denetimi değil). Örtü incelemesi
+yerelden sürdürülür. [Kapanış kaydı ve sınırlar](GCP_FINAL_CLEANUP.md).
+
 **27 Ekim CORINE dosya seçimi ve 25 noktalık alım hazırlığı tamamlandı.**
 Özgün `v2020_20u1` 100 m GeoTIFF paketi resmî API/katalogdan doğrulandı
 (katalog boyutu 125 MB). Hesapla indirme adımı araştırmacıda bekliyor;
