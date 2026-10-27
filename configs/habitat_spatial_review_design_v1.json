@@ -1,0 +1,30 @@
+{
+  "version": "habitat_spatial_review_design_v1",
+  "decision_date": "2026-10-27",
+  "researcher_design_approved": true,
+  "scope_direction": "natural_forest_and_shrub",
+  "review_stages": [
+    {
+      "name": "prediction_cell_scope",
+      "purpose": "Define the population of cells for risk prediction independently of event presence.",
+      "area_denominator": "Explicitly record study-AOI intersection and mapped area; do not assume full 25 km2.",
+      "accepted_cover_threshold": null,
+      "accepted_temporal_cover_protocol": null
+    },
+    {
+      "name": "candidate_local_cover_context",
+      "purpose": "Assess local cover of each retained first-detection point without inferring fire type from cell cover alone.",
+      "multiple_first_points": "Retain all point identities and conflicting evidence under their common candidate context.",
+      "accepted_cover_threshold": null,
+      "accepted_event_admission_protocol": null
+    }
+  ],
+  "uncertain_candidate_handling": "retain_for_review_without_forced_class_or_automatic_exclusion",
+  "reference_2017_is_current_cover_truth": false,
+  "visual_preliminary_notes_are_independent_validation": false,
+  "daily_observation_status": "unknown",
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "automatic_exclusion_permitted": false,
+  "final_merge_permitted": false
+}

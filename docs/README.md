@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Hücre ve tespit alanı örtüsünün ayrılması](HABITAT_SPATIAL_REVIEW_2026-10-27.md) | 25 nokta / 21 birimde mekânsal payda farkı, sekiz uyuşmazlık ve araştırmacının iki ayrı kontrol tasarımı kararı |
 | [Habitat kapsamı karar hazırlığı](HABITAT_DECISIONS_2026-10-27.md) | 25 noktanın insan/asistan notları, 21 inceleme birimi, açık kanıt gereksinimleri ve kapsam aşamasının kapanış sınırı |
 | [Orman/çalılık örtü kanıtı incelemesi](HABITAT_EVIDENCE_REVIEW_2026-10-23.md) | 25 nokta ve 21 adayın ortak inceleme kaydı, odunsu tarım belirsizliği, D/E/F/C görseli ve taslak protokol |
 | [Altı noktada farklı tarih kontrolü](PREEVENT_DATE_COMPARISON_2026-10-23.md) | Önceden sabitlenen 12 alternatif görüntü, yerel SCL farkları, kalıcı parlak/koyu yüzey belirsizliği ve korunmuş araştırmacı notları |

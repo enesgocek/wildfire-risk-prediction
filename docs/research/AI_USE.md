@@ -966,6 +966,13 @@ Görüntüye ilişkin asistan açıklamaları insan notlarından ayrı yazıldı
 İnsan yanıtları kör/bağımsız uzman doğrulaması değildir. Asistan kapsam
 seçeneklerini hazırladı; otomatik sınıf, etiket veya dışlama üretmedi.
 
+27 Ekim mekânsal karşılaştırma: asistan, aynı eski örtü haritasının merkez,
+yaklaşık piksel ve hücre ölçeklerini yerel kaynak kimlikleriyle hesapladı;
+bağımsız yeniden sayım ve anlaşılır karar seçenekleri hazırladı. Araştırmacı
+iki ayrı kontrolle ilerleme ve belirsiz adayları koruma tasarımını seçti.
+Bu seçim bilimsel doğruluk kanıtı veya etiket kabulü olarak sunulmadı.
+[Kapsam ve sınırlar](../HABITAT_SPATIAL_REVIEW_2026-10-27.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

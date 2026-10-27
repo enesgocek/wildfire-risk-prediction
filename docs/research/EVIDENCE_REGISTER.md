@@ -1337,6 +1337,16 @@ Makbuz SHA `8bf261ccf2c3b9677dc3970b1c1af06c22411dc4b8b36cf24d9bef30f603389e`.
 Yönlendirilmiş insan ön incelemesi; bağımsız doğrulama, kapsam/etiket
 kabulü veya otomatik dışlama değildir.
 
+E138 — 27 Ekim: [Hücre ve tespit alanı ayrımı](../HABITAT_SPATIAL_REVIEW_2026-10-27.md).
+25 amaçlı nokta / 21 birim / 20 grid; hücrede kesişim bulunan 21 birimin
+sekizinde ilişkili yaklaşık nokta alanlarında kesişim yok. Eski 2017
+haritasının tanımlayıcı karşılaştırması; güncel doğal örtü gerçeği değildir.
+Araştırmacı iki ayrı kontrol ve belirsizleri koruma tasarımını seçti.
+Yedi kaynak/kod hash'i, ayrı yeniden sayım ve JSON doğrulaması geçti.
+Analiz SHA `5a6de697874a697f7bc37afa7c2d6ddab478edf0d06934a9b2acd7b4fa397288`;
+karar/denetim SHA `88e0aeaa80af5172b6ef2e18cf9ec6d1b605f28b3330e6aa7eea508900125eb0`.
+Etiket, eşik, dışlama veya nihai birleştirme kabulü yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

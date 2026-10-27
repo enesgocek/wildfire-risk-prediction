@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**27 Ekim mekânsal örtü kontrolü ve yöntem kararı tamamlandı.**
+25 nokta / 21 hücre-gün / 20 grid üzerinde aynı 2017 haritasının merkez,
+yaklaşık tespit alanı ve hücre oranları karşılaştırıldı. 21 birimin
+8'inde hücrede orman/çalılık varken hiçbir ilgili tespit alanında kesişim
+yok. Araştırmacı hücre uygunluğu ile adayın yerel örtüsünü ayrı kontrol
+etmeyi ve belirsizleri korumayı seçti. Yedi kaynak/kod hash'i, bağımsız
+alan/sayım uzlaştırması ve JSON geri okuması geçti. Eşik, etiket ve
+otomatik dışlama onayı yok; habitat aşaması henüz kapanmadı.
+[Ölçümler, somut örnekler ve karar](HABITAT_SPATIAL_REVIEW_2026-10-27.md).
+
+### Aynı gün önceki araştırmacı notları
+
 **27 Ekim ek araştırmacı yorumu: 10/25 noktada insan ön notu var.**
 R03 için belirsiz olası ağaçlık/açık alan yorumu, R11 için kuru görünüm,
 R15 için ayırt edememe, R16 için R15'e benzerlik kaydedildi. Yeni dört

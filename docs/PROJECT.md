@@ -62,6 +62,12 @@ Bu karar asgari örtü oranı, nokta çevresi, gerçek yangın türü veya otoma
 etiket/dışlama kabulü değildir. Önceki özellikler ve kapsamlar korunur.
 [Sürümlü yön kaydı ve konum/örtü belirsizliği](HABITAT_SCOPE_DIRECTION_2026-10-23.md).
 
+27 Ekim 2026 tasarım kararı: risk hesaplanacak hücrenin örtü kapsamı ile
+yangın adayının ilk tespit noktalarındaki yerel örtü ayrı kontrol edilir.
+Belirsiz adaylar incelemede korunur. Araştırmacının bu tercihi oran eşiği,
+etiket, dışlama veya nihai birleştirme onayı değildir.
+[Ölçülen gerekçe ve sürümlü tasarım](HABITAT_SPATIAL_REVIEW_2026-10-27.md).
+
 ### Zaman sözleşmesi
 
 Her satır `(grid_id, prediction_timestamp)` ile tanımlanır. Günlük tahmin saati
