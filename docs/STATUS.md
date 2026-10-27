@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**27 Ekim CORINE dosya seçimi ve 25 noktalık alım hazırlığı tamamlandı.**
+Özgün `v2020_20u1` 100 m GeoTIFF paketi resmî API/katalogdan doğrulandı
+(katalog boyutu 125 MB). Hesapla indirme adımı araştırmacıda bekliyor;
+veri alınmış veya 25 nokta sınıflandırılmış değildir. 2024'ten geriye
+türetilen yeni accounting sürümü kullanılmadı. 25 nokta / 21 birim
+kimliği, yedi kaynak/kod/ayar hash'i, koordinat dönüşümü ve JSON kontrolleri
+geçti. İnsan ön notları 10/25, etiketler boş, nihai birleştirme kapalı.
+[İndirme seçimi, klasör ve dosya sonrası kontroller](CORINE_REVIEW_INTAKE_2026-10-27.md).
+
+### Aynı gün önceki zaman kontrolü
+
 **27 Ekim örtü kanıtının zaman denetimi tamamlandı; ek arazi kullanımı kanıtı açık.**
 25 noktada 37 görüntü kaydı / 31 farklı ürün denetlendi. Hepsinin çekimi
 T öncesindeki 60 günde; 20 kayıtta ürün sürümü T sonrasında oluşturulmuş.

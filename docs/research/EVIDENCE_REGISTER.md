@@ -1357,6 +1357,16 @@ CORINE sınıfları resmî dokümanda doğrulandı; yerel nokta erişimi başar�
 Saklanan tekrar tanısı SHA `3c519932661fa6b19eba51193a6b44fae183e723188eca4fdcd3a4936ee1b65b`.
 Yeni uzak sınıf, insan notu, etiket veya nihai birleştirme yoktur.
 
+E140 — 27 Ekim: [CORINE kaynak seçimi ve alım hazırlığı](../CORINE_REVIEW_INTAKE_2026-10-27.md).
+Resmî ürün API'si ve EEA XML'i HTTP 200; özgün 2018 raster v2020_20u1
+paketi 125 MB katalog boyutuyla doğrulandı. Alternatif harita sunucusu
+502 verdi. 2024'ten geriye türetilmiş accounting sürümü kullanılmadı.
+25 nokta / 21 birimin yedi kaynak/kod/ayar hash'i, koordinat dönüşümü,
+JSON ve lint/format kontrolleri geçti. Hazırlık makbuzu SHA
+`b89e638e3e3983304e20dca61ec1eafc9b246e2050e3deb4078260103f79d806`.
+Gerçek raster edinimi, yeni insan notu, etiket ve nihai birleştirme yok.
+Hesapla indirme adımı araştırmacıda bekliyor.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1,0 +1,32 @@
+{
+  "purpose": "retrospective_land_use_context_only",
+  "product_url": "https://land.copernicus.eu/en/products/corine-land-cover/clc2018",
+  "dataset_uid": "0407d497d3c44bcd93ce8fd5bf78596a",
+  "catalog_id": "960998c1-1870-4e82-8051-6485205ebbac",
+  "downloadable_file_id": "3d9e2413-46ca-4f6e-abf8-b6eb429a4e48",
+  "file_stem": "u2018_clc2018_v2020_20u1_raster100m",
+  "version": "v2020_20u1",
+  "format": "Geotiff",
+  "catalog_size_description": "125 MB",
+  "expected_crs": "EPSG:3035",
+  "expected_resolution_m": 100,
+  "minimum_mapping_unit_ha": 25,
+  "incoming_directory": "data/raw/landcover/corine_2018_review/incoming",
+  "file_content_sha256": null,
+  "file_received": false,
+  "required_after_receipt": [
+    "record_original_archive_sha256_and_download_provenance",
+    "inspect_archive_paths_sizes_and_integrity_before_extraction",
+    "verify_original_status_product_not_accounting_or_change_layer",
+    "verify_crs_resolution_dtype_nodata_and_bundled_class_mapping",
+    "sample_25_existing_centers_without_interpolation",
+    "retain_nodata_and_map_image_human_disagreements",
+    "review_support_geometry_and_class_boundaries_before_area_claims"
+  ],
+  "center_class_is_whole_footprint_class": false,
+  "historical_predictor_use_permitted": false,
+  "habitat_admission_permitted": false,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "final_merge_permitted": false
+}

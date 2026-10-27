@@ -980,6 +980,13 @@ kaydedildi; veri edinilmiş veya bağımsız doğrulama yapılmış gösterilmed
 Otomatik kalite sayımları yeni insan yorumu ya da örtü kabulü sayılmadı.
 [Denetim ve kaynaklar](../HABITAT_TEMPORAL_EVIDENCE_2026-10-27.md).
 
+27 Ekim CORINE alım hazırlığı: asistan resmî API/katalog kimliklerini
+doğruladı, özgün durum ürünü ile geriye türetilmiş accounting ürününü
+ayırdı ve sabit 25 noktanın koordinat/kimlik dosyasını hazırladı.
+Hesapla indirme araştırmacıya bırakıldı; metadata edinimi gerçek raster
+edinimi veya örtü doğrulaması olarak sunulmadı.
+[Kapsam ve denetimler](../CORINE_REVIEW_INTAKE_2026-10-27.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
