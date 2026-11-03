@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**4 Kasım yaklaşık tespit alanlarında CORINE kesişimi tamamlandı.**
+25 nokta / 21 birimde 17 çok sınıflı alan; dört merkez–en büyük alan
+sınıf farkı var. C'de alanın %77,98'i haritada iğne yapraklı orman,
+F'de %100 meyvelik; E'de %100 tarım/doğal mozaik (iç doğal oranı bilinmiyor).
+İkinci exactextract algoritması 25 alanı doğruladı; en büyük alan farkı
+0,001575 m². Ana hesapta 14, ayrı kontrolde 17 kaynak kimliği; kenar yakınsaması, alan toplamı,
+JSON ve lint/format geçti. Altı görsel hazır; insan notları 10/25,
+etiket ve nihai birleştirme kapalı. [Bulgular ve karar sınırı](CORINE_SUPPORT_REVIEW_2026-11-04.md).
+
+### Aynı gün önceki merkez kontrolü
+
 **4 Kasım CORINE teslimi ve 25 merkez kontrolü tamamlandı.**
 İndirilen özgün CLC2018 v2020_20u1 iki ZIP katmanında CRC/yol kontrolünü
 geçti. Ana raster 100 m/int8; eski WKT projeksiyon parametreleri ve 25

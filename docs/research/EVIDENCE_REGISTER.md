@@ -1376,6 +1376,16 @@ komşuluk. DBF/QML, eski WKT parametreleri ve 25 dönüşüm, TFW, örnekleme,
 2018 harita merkezi, olay tarihindeki örtü veya gerçek yangın kanıtı
 sayılmadı. Gözlem unknown; yeni etiket, dışlama ve nihai birleştirme yok.
 
+E142 — 4 Kasım: [CORINE yaklaşık alan kesişimi](../CORINE_SUPPORT_REVIEW_2026-11-04.md).
+25 nokta/21 birim, 17 çok sınıflı alan, dört merkez/en büyük alan farkı.
+14 kaynak kimliği ve kenar/alan kontrolleri; ikinci exactextract hesabı
+ve 17 kaynak kimliği geçti. En büyük pay farkı 1,98e-9, alan farkı
+0,001575 m². Alan makbuzu SHA
+`20fcc8abd28f541c60fbba7c4dbc9ade10dcf66b976d63ddbfaf33954fd87230`;
+ikinci hesap/görsel SHA `a752caca18482d60b60cfac31def617137cae30bdd11c977a0cb86f318c887df`.
+Ortak harita/geometri kullanıldığı için bağımsız arazi doğrulaması
+sayılmadı. Yeni insan notu, etiket, dışlama ve nihai birleştirme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
