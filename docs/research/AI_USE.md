@@ -1008,6 +1008,13 @@ sayılmaması ve geçmiş haritalar arasındaki farkın değişim/başarı
 oranına çevrilmemesi açık kaydedildi. Kabul kararı üretilmedi.
 [Kaynaklar ve sınırlar](../HABITAT_EVIDENCE_MATRIX_2026-11-04.md).
 
+4 Kasım üst üste görsel karşılaştırma: asistan mevcut uydu kesitlerine
+CORINE sınıf sınırlarını aynı koordinat penceresinde ekledi. Beş
+örnekteki yorumlar asistan ön incelemesi olarak açık tutuldu; önceki
+araştırmacı notlarıyla değiştirilmedi. Sayısal eşleme, arazi gerçeğinin
+bağımsız doğrulaması veya yeni insan incelemesi sayılmadı.
+[Ürün ve yorum sınırı](../HABITAT_IMAGE_OVERLAY_2026-11-04.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

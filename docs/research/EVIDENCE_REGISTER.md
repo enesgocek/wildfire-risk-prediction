@@ -1394,6 +1394,14 @@ kaynak/kod kimliği, üyelik/tarih/kapalı alanlar ve JSON doğrulandı.
 Makbuz SHA `da877cc44c0626995dde7577892b2dbfbbc9f3a2efea5f226aa268569298366e`.
 Etiket, otomatik dışlama, yeni insan incelemesi veya nihai birleşme yoktur.
 
+E144 — 4 Kasım: [Uydu–CORINE aynı konum karşılaştırması](../HABITAT_IMAGE_OVERLAY_2026-11-04.md).
+Beş nokta/yedi görüntü/üç görsel. 21 kaynak/kod kimliği, üç görsel hash'i,
+CRS/dönüşüm/boyut ve yaklaşık alan kapsama kontrolleri geçti; en büyük
+merkez geri dönüş farkı 1,86e-9 m. Makbuz SHA
+`9c00a056197710f49e6fea5fb47da3e881b7c2295408389271f91eae3f8aff7b`.
+Yorumlar asistan görsel ön incelemesidir. Yeni insan notu, bağımsız
+örtü doğrulaması, kabul/dışlama, etiket veya nihai birleşme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

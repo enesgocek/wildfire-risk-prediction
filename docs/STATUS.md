@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**4 Kasım aynı konumda uydu–CORINE karşılaştırması tamamlandı.**
+C/D/E/F ve R03 için yedi görüntü kaydı, beş nokta ve üç görsel sayfa
+hazır. C ağaçlık/açık bant, E/F parsel, D/R03 karışık görünüm bağlamıyla
+asistan ön incelemesine alındı. 21 kaynak/kod hash'i, üç görsel, görüntü
+CRS/boyut/dönüşüm ve alan kapsama kontrolleri geçti. Konum doğruluğu,
+olay tarihindeki doğal örtü veya etiket kabulü değildir. İnsan notları
+10/25 olarak korunuyor. [Görseller, tarihler ve yöntem sınırı](HABITAT_IMAGE_OVERLAY_2026-11-04.md).
+
+### Aynı gün önceki ortak kanıt tablosu
+
 **4 Kasım habitat kanıt tablosu tamamlandı; kapsam kabulü hâlâ açık.**
 25 nokta/21 birimde hücre ve yerel örtü, görüntü zamanı/kalitesi ve
 insan/asistan notları ayrı alanlarla bağlandı. İnsan notu 10/25, çok
