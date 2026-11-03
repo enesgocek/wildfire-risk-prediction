@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Veri setini tamamlama planı](DATASET_COMPLETION_PLAN_2026-11-04.md) | Altı açık iş paketi, somut habitat önerisi, güvenilir negatif engeli ve teslim tarihi vermek için gerekli koşullar |
 | [Uydu–CORINE aynı konum karşılaştırması](HABITAT_IMAGE_OVERLAY_2026-11-04.md) | Beş noktada yedi görüntü, üç görsel sayfa, sınıf sınırı üst üste çizimi ve asistanın tarih/konum sınırlı ön yorumları |
 | [Ortak habitat kanıt tablosu](HABITAT_EVIDENCE_MATRIX_2026-11-04.md) | 25 noktada iki ayrı ölçek, görüntü zamanı/kalitesi, 10 insan notu, 2018 referans dönemi sınırı ve kabul öncesi gereksinimler |
 | [CORINE alan kesişimi](CORINE_SUPPORT_REVIEW_2026-11-04.md) | 25 yaklaşık tespit alanının sınıf payları, dört merkez/alan farkı, ikinci algoritmayla kontrol ve altı görsel |

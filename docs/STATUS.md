@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**4 Kasım teslim planı netleştirildi: altı açık iş paketi var.**
+72 aylık/27 özellikli aday tablo ile kabul edilmiş 0/1 eğitim veri seti
+ayrı teslimlerdir. Habitat, yeni olay ve gözlem/negatif protokolleri;
+hedef/politika üretimi, taze son denetim/onay ve nihai birleştirme açık.
+Kritik engel güvenilir negatif kabulüdür. Kapsam/protokol ve hedef üretimi
+süre ölçümü olmadan kesin teslim günü verilmiyor. Habitat için altı
+koşullu öneri hazırlandı; üretim kabulü değildir. Yeni işler açık bir
+kabul koşulunu çözmeye odaklanacak. [Somut plan ve teslim sınırı](DATASET_COMPLETION_PLAN_2026-11-04.md).
+
+### Aynı gün önceki görsel karşılaştırma
+
 **4 Kasım aynı konumda uydu–CORINE karşılaştırması tamamlandı.**
 C/D/E/F ve R03 için yedi görüntü kaydı, beş nokta ve üç görsel sayfa
 hazır. C ağaçlık/açık bant, E/F parsel, D/R03 karışık görünüm bağlamıyla

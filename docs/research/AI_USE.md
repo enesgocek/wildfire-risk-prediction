@@ -1015,6 +1015,12 @@ araştırmacı notlarıyla değiştirilmedi. Sayısal eşleme, arazi gerçeğini
 bağımsız doğrulaması veya yeni insan incelemesi sayılmadı.
 [Ürün ve yorum sınırı](../HABITAT_IMAGE_OVERLAY_2026-11-04.md).
 
+4 Kasım teslim açıklığı: asistan mevcut kayıtları karşılaştırıp altı
+açık iş paketini ve habitat önerisini hazırladı. Özellik üretimini
+etiket kabulü olarak sunmadı; bilimsel protokol ve çalışma süresi
+kanıtı olmadan teslim günü vermedi. Bu işlem belge/yöntem hazırlığıdır.
+[Plan ve açık engel](../DATASET_COMPLETION_PLAN_2026-11-04.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
