@@ -987,6 +987,13 @@ Hesapla indirme araştırmacıya bırakıldı; metadata edinimi gerçek raster
 edinimi veya örtü doğrulaması olarak sunulmadı.
 [Kapsam ve denetimler](../CORINE_REVIEW_INTAKE_2026-10-27.md).
 
+4 Kasım CORINE incelemesi: araştırmacı resmî portal dosyasını indirdi.
+Asistan yerelde arşiv, raster/koordinat ve sınıf eşleme kontrollerini
+yürüttü; 25 merkez sonucunu önceki görsel notlarıyla birlikte yorumladı.
+İlk teknik varsayımın başarısızlığı ve düzeltmenin gerekçesi açık
+kaydedildi. Yeni insan incelemesi, kesin doğal örtü veya yangın etiketi
+kabulü ileri sürülmedi. [Sonuç ve sınırlar](../CORINE_DELIVERY_REVIEW_2026-11-04.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

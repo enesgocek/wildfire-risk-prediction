@@ -1,9 +1,21 @@
-# Proje durum raporu — 27 Ekim 2026
+# Proje durum raporu — 4 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**4 Kasım CORINE teslimi ve 25 merkez kontrolü tamamlandı.**
+İndirilen özgün CLC2018 v2020_20u1 iki ZIP katmanında CRC/yol kontrolünü
+geçti. Ana raster 100 m/int8; eski WKT projeksiyon parametreleri ve 25
+koordinatta EPSG:3035 referansı doğrulandı. 25/25 geçerli sınıf, 10/25
+karışık 3×3 komşuluk var. F meyvelik, E tarım/doğal örtü mozaiği;
+C çayır merkezinde ve orman komşuluğunda, önceki yorumla uyuşmazlık
+korunuyor. 11 hash, JSON, DBF/QML, TFW ve örnekleme kontrolleri geçti.
+Etiket, habitat kabulü ve birleştirme yok; GCP kullanılmadı.
+[Sonuçlar, sınırlar ve sıradaki alan incelemesi](CORINE_DELIVERY_REVIEW_2026-11-04.md).
+
+### Önceki çalışma sınırı ve hazırlık
 
 **27 Ekim çalışma sınırı — kullanıcı bildirimi:** Free Trial süresi
 doldu; kullanıcı Google Cloud çalışmasını sonlandırdığını ve kartını

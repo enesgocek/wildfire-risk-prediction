@@ -1367,6 +1367,15 @@ JSON ve lint/format kontrolleri geçti. Hazırlık makbuzu SHA
 Gerçek raster edinimi, yeni insan notu, etiket ve nihai birleştirme yok.
 Hesapla indirme adımı araştırmacıda bekliyor.
 
+E141 — 4 Kasım: [CORINE 2018 teslim kontrolü](../CORINE_DELIVERY_REVIEW_2026-11-04.md).
+Kullanıcı teslimi özgün v2020_20u1 paketini içeriyor; iki ZIP CRC/yol
+kontrolü geçti. 25 amaçlı merkezde 25 geçerli sınıf, 10 karışık 3×3
+komşuluk. DBF/QML, eski WKT parametreleri ve 25 dönüşüm, TFW, örnekleme,
+11 kaynak hash'i ve JSON kontrolü geçti. Makbuz SHA
+`be52cf11729cec66f84a8abf8d45c3ac9bfaf8d764f68255f2c5ab4ae3b4313f`.
+2018 harita merkezi, olay tarihindeki örtü veya gerçek yangın kanıtı
+sayılmadı. Gözlem unknown; yeni etiket, dışlama ve nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

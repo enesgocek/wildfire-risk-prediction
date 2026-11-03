@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 27 Ekim 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 4 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. TÜBİTAK belirli bir Git
 klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği için seçilmiştir.
 
@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [CORINE teslimi ve merkez kontrolü](CORINE_DELIVERY_REVIEW_2026-11-04.md) | İki ZIP bütünlüğü, eski WKT/int8 kontrolü, 25 merkez sınıfı ve eski harita/görsel yorumlarıyla uyuşmazlıklar |
 | [CORINE alım hazırlığı](CORINE_REVIEW_INTAKE_2026-10-27.md) | Doğrulanmış 125 MB özgün raster paketi, accounting sürümünden ayrım, araştırmacının indirme adımı ve 25 noktalık kapalı karşılaştırma hazırlığı |
 | [Örtü kanıtının zamanı ve ek kaynak gereksinimi](HABITAT_TEMPORAL_EVIDENCE_2026-10-27.md) | 37 görüntü kaydının zaman/kalite denetimi, örnek bazlı kanıt ihtiyacı, resmî kaynakların sınırlamaları ve başarısız CORINE erişim kontrolü |
 | [Hücre ve tespit alanı örtüsünün ayrılması](HABITAT_SPATIAL_REVIEW_2026-10-27.md) | 25 nokta / 21 birimde mekânsal payda farkı, sekiz uyuşmazlık ve araştırmacının iki ayrı kontrol tasarımı kararı |
