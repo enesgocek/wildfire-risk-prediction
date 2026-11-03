@@ -1021,6 +1021,13 @@ etiket kabulü olarak sunmadı; bilimsel protokol ve çalışma süresi
 kanıtı olmadan teslim günü vermedi. Bu işlem belge/yöntem hazırlığıdır.
 [Plan ve açık engel](../DATASET_COMPLETION_PLAN_2026-11-04.md).
 
+4 Kasım etiket yöntemi incelemesi: asistan eski gözlem/referans
+çıktılarını hash ile geri okudu ve NASA ile PU literatürünün birincil
+kaynaklarını doğruladı. Başka alanlardaki yöntem sonuçları bu projeye
+başarı olarak aktarılmadı; varsayımlar ve kaynak eksikleri açık tutuldu.
+Araştırmacıdan çalışma yönü seçimi istendi; yeni ileti veya yöntem
+kabulü gerçekleştirilmedi. [Karar ve kaynaklar](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik

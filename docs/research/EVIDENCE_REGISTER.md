@@ -1402,6 +1402,15 @@ merkez geri dönüş farkı 1,86e-9 m. Makbuz SHA
 Yorumlar asistan görsel ön incelemesidir. Yeni insan notu, bağımsız
 örtü doğrulaması, kabul/dışlama, etiket veya nihai birleşme yoktur.
 
+E145 — 4 Kasım: [Gözlemden etikete karar hazırlığı](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
+Önceki 156 amaçlı birim/117 hücre/12 tarih ve referans alımı 21
+dosya/kod hash'iyle geri okundu; incelenen sicilde hazır referans 0.
+Yeni etiket veya kaçırma oranı hesabı değildir. NASA FIRMS notları,
+Elkan–Noto 2008, Bekker–Davis 2018/2020 birincil kaynakları kontrol edildi;
+PU uygulanmış/uygunluğu kanıtlanmış sayılmadı. Makbuz SHA
+`1e25e550f76acebc859978816c9b2f2dfa78c0c9fd7a6abe5060194480de37d6`.
+Çalışma yönü kullanıcıya soruldu; eğitim, dış ileti ve nihai birleşme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

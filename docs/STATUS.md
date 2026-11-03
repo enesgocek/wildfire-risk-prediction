@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**4 Kasım gözlem/etiket yönteminde araştırmacı yön kararı gerekiyor.**
+Önceki 156 birimlik pilot ve referans alımı 21 güncel dosya/kod kimliğiyle
+geri okundu; termal tanık 60/156, tanıksız 96/156 gerçek etiket değildir.
+İncelenen sicilde eşleştirmeye hazır bağımsız kayıt yok. NASA ve gerçek
+PU öğrenme kaynakları kontrol edildi; PU varsayımları bizim veride kabul
+edilmedi. Önerilen A: ana hedefi koruyarak sınırlı OGM/bağımsız referans
+yolunu yeniden açmak. Alternatif B: kurumsal talep olmadan PU varsayım
+incelemesi. Soru kullanıcıya iletildi, yöntem seçimi bekliyor; etiket,
+eğitim ve nihai birleştirme yok. [Gerekçe ve somut seçenekler](LABEL_PROTOCOL_DECISION_2026-11-04.md).
+
+### Aynı gün önceki teslim planı
+
 **4 Kasım teslim planı netleştirildi: altı açık iş paketi var.**
 72 aylık/27 özellikli aday tablo ile kabul edilmiş 0/1 eğitim veri seti
 ayrı teslimlerdir. Habitat, yeni olay ve gözlem/negatif protokolleri;
