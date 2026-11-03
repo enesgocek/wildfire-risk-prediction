@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**4 Kasım habitat kanıt tablosu tamamlandı; kapsam kabulü hâlâ açık.**
+25 nokta/21 birimde hücre ve yerel örtü, görüntü zamanı/kalitesi ve
+insan/asistan notları ayrı alanlarla bağlandı. İnsan notu 10/25, çok
+tarihli görüntü 6/25. On 2018 örneğinde CORINE referans dönemi T'nin
+ötesine uzanıyor; diğer 15 örnekte eski. Sekiz kaynak/kod kimliği,
+üyelik, tarih ve kapalı kapılar doğrulandı. Olay tarihindeki örtü ve
+nihai habitat kabulü 0/25. [Ortak tablo ve açık gereksinimler](HABITAT_EVIDENCE_MATRIX_2026-11-04.md).
+
+### Aynı gün önceki alan kontrolü
+
 **4 Kasım yaklaşık tespit alanlarında CORINE kesişimi tamamlandı.**
 25 nokta / 21 birimde 17 çok sınıflı alan; dört merkez–en büyük alan
 sınıf farkı var. C'de alanın %77,98'i haritada iğne yapraklı orman,

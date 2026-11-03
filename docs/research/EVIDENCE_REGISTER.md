@@ -1386,6 +1386,14 @@ ikinci hesap/görsel SHA `a752caca18482d60b60cfac31def617137cae30bdd11c977a0cb86
 Ortak harita/geometri kullanıldığı için bağımsız arazi doğrulaması
 sayılmadı. Yeni insan notu, etiket, dışlama ve nihai birleştirme yoktur.
 
+E143 — 4 Kasım: [Ortak habitat kanıt tablosu](../HABITAT_EVIDENCE_MATRIX_2026-11-04.md).
+25 nokta/21 birim, üç çok noktalı birim, 10 insan notu, altı çok tarihli
+görüntü noktası. On örnekte 2018 referansı T'nin sonrasına uzanır; kalan
+15'te eski referanstır. Olay tarihindeki örtü kabulü 0/25. Sekiz doğrudan
+kaynak/kod kimliği, üyelik/tarih/kapalı alanlar ve JSON doğrulandı.
+Makbuz SHA `da877cc44c0626995dde7577892b2dbfbbc9f3a2efea5f226aa268569298366e`.
+Etiket, otomatik dışlama, yeni insan incelemesi veya nihai birleşme yoktur.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

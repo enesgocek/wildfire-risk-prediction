@@ -9,6 +9,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Ortak habitat kanıt tablosu](HABITAT_EVIDENCE_MATRIX_2026-11-04.md) | 25 noktada iki ayrı ölçek, görüntü zamanı/kalitesi, 10 insan notu, 2018 referans dönemi sınırı ve kabul öncesi gereksinimler |
 | [CORINE alan kesişimi](CORINE_SUPPORT_REVIEW_2026-11-04.md) | 25 yaklaşık tespit alanının sınıf payları, dört merkez/alan farkı, ikinci algoritmayla kontrol ve altı görsel |
 | [CORINE teslimi ve merkez kontrolü](CORINE_DELIVERY_REVIEW_2026-11-04.md) | İki ZIP bütünlüğü, eski WKT/int8 kontrolü, 25 merkez sınıfı ve eski harita/görsel yorumlarıyla uyuşmazlıklar |
 | [CORINE alım hazırlığı](CORINE_REVIEW_INTAKE_2026-10-27.md) | Doğrulanmış 125 MB özgün raster paketi, accounting sürümünden ayrım, araştırmacının indirme adımı ve 25 noktalık kapalı karşılaştırma hazırlığı |

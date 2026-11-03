@@ -1001,6 +1001,13 @@ incelemesi olarak kaydedilmedi. Alan oranları kesin yangın konumu,
 doğal örtü gerçeği veya kabul eşiği yapılmadı.
 [Kapsam ve sınırlamalar](../CORINE_SUPPORT_REVIEW_2026-11-04.md).
 
+4 Kasım ortak kanıt tablosu: asistan eski kaynakları değiştirmeden
+mekânsal, zamansal ve görsel ön notları kimlikle bağladı; insan/asistan
+katkısını ayrı tuttu. Aynı yıl haritasının otomatik olay öncesi kanıt
+sayılmaması ve geçmiş haritalar arasındaki farkın değişim/başarı
+oranına çevrilmemesi açık kaydedildi. Kabul kararı üretilmedi.
+[Kaynaklar ve sınırlar](../HABITAT_EVIDENCE_MATRIX_2026-11-04.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
