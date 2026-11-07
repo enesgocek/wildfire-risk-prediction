@@ -1062,6 +1062,14 @@ duyurular ve yerel uydu kataloğunu ayrı kaynaklar olarak
 değerlendirdi. Çıkış saati, tutuşma ve uydu tespiti ayrıldı.
 [Kapsam ve sonuç](../PUBLIC_EVENT_CONTEXT_2026-11-08.md).
 
+8 Kasım ilk tespit örtü incelemesinde asistan, dokuz gruplamadan
+ilk merkezlerin çıkarılması, CORINE sınıf örneklemesi, temsili
+pencere seçimi, Sentinel-2 görüntü okuması ve ölçüm kayıtlarının
+yeniden denetimi için kod hazırladı ve çalıştırdı. RGB kesitlerine
+ilişkin notlar asistanın ön yorumudur. Araştırmacı veya uzman
+onayı olarak kullanılmaz.
+[Yöntem ve sınırlar](../PUBLIC_EVENT_COVER_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

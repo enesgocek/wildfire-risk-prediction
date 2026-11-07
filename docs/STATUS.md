@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım ilk tespit noktalarında örtü bağlamı karşılaştırıldı.**
+İki vakada 46 ilk merkezin CORINE sınıfı ve beş temsili merkezin
+ikişer olay öncesi Sentinel-2 görüntüsü denetlendi. Aydıncık'ta
+bir örneğin çevresi iki tarihte de açık zemin ağırlıklı. Urla'da
+bir katalog merkezi eski haritada denize düşüyor. Karışık ve sınır
+dışı merkezler korundu. Kesin olay eşleşmesi ve etiket kabulü açık.
+[Örtü incelemesi](PUBLIC_EVENT_COVER_2026-11-08.md).
+
+### Aynı gün açık müdahale karşılaştırması
+
 **8 Kasım açık müdahale kaynaklarıyla iki vaka karşılaştırıldı.**
 Urla'da 14 Ağustos 2021 orman/fidanlık kaydı 07.28 ekip çıkışı
 veriyor. Aydıncık için Valilik yer ve gün bağlamı sağlıyor.

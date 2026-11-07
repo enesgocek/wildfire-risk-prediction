@@ -1457,6 +1457,12 @@ katalogdaki dört ilk hücre ayrı kaldı. Makbuz SHA
 `b1aac4c4bec040d0446dc64a99f3312a3ba9c86e90a1c478a3c4b0782984596c`.
 Kesin bağımsız başlangıç konumu ve etiket kabulü yok.
 
+E152 — 8 Kasım: [İlk tespitlerde örtü karşılaştırması](../PUBLIC_EVENT_COVER_2026-11-08.md).
+İki vaka, 46 CORINE merkezi, beş temsili çevre ve 10 Sentinel-2
+penceresi. Kaynak özetleri, raster sınıfları ve çıktı dosyaları
+doğrulandı. Son sınır dışındaki dört merkez korundu. Sonuç yerel
+örtü bağlamı sağlar. Kesin tutuşma konumu ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
