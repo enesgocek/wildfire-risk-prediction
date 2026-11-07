@@ -1070,6 +1070,12 @@ ilişkin notlar asistanın ön yorumudur. Araştırmacı veya uzman
 onayı olarak kullanılmaz.
 [Yöntem ve sınırlar](../PUBLIC_EVENT_COVER_2026-11-08.md).
 
+8 Kasım Urla kıyı incelemesinde asistan, varsayımsal piksel
+yönelimlerinin rasterla kesişimini hesaplayan kodu yazıp
+çalıştırdı, iki Sentinel-2 kesitini kontrol etti ve NASA
+katalog kayıtlarını aradı. Sonuç uzman örtü onayı sayılmaz.
+[Kıyı denetimi](../URLA_COASTAL_DETECTION_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

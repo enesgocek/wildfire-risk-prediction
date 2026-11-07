@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Urla'daki kıyı tespiti yeniden incelendi.**
+410 × 450 m katalog boyutlarıyla 180 yönelim denendi. İki harita ve
+iki olay öncesi Sentinel-2 görüntüsünde bütün örnek yönelimler kara
+ve suyu birlikte kapsadı. Merkez sınıfı eski haritalarda farklı.
+Tespit ortak adayda belirsiz kıyı konumu olarak korundu.
+Gerçek VIIRS piksel geometrisi ve olay etiketi açık.
+[Kıyı denetimi](URLA_COASTAL_DETECTION_2026-11-08.md).
+
+### Aynı gün ilk tespitlerde örtü
+
 **8 Kasım ilk tespit noktalarında örtü bağlamı karşılaştırıldı.**
 İki vakada 46 ilk merkezin CORINE sınıfı ve beş temsili merkezin
 ikişer olay öncesi Sentinel-2 görüntüsü denetlendi. Aydıncık'ta

@@ -1463,6 +1463,11 @@ penceresi. Kaynak özetleri, raster sınıfları ve çıktı dosyaları
 doğrulandı. Son sınır dışındaki dört merkez korundu. Sonuç yerel
 örtü bağlamı sağlar. Kesin tutuşma konumu ve etiket kabulü açık.
 
+E153 — 8 Kasım: [Urla kıyı tespiti](../URLA_COASTAL_DETECTION_2026-11-08.md).
+Dört harita/görüntü ölçümünde 180 yönelim, kara ve suyu birlikte
+kapsıyor. Katalog boyutu ve sabit merkez varsayımıyla sınırlı.
+Ham piksel geometrisi, tutuşma ve etiket doğrulaması açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
