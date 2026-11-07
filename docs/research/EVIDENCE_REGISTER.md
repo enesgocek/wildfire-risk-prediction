@@ -1443,6 +1443,13 @@ kontrol edildi. Makbuz SHA
 `dc2489f28a0e4fcf3ce31fe8e9db3a570ddf792fe85562e4266a751d974b2b20`.
 Gerçek başlangıç, gözlem yeterliliği ve etiket açık.
 
+E150 — 8 Kasım: [Toplu PU ve açık idari referans taraması](../PU_BATCH_REFERENCE_2026-11-08.md).
+15 vaka, 18 ilk nokta, 48 nominal paket, 60 pencere. R05'in
+önceki 72 saatinde 19 Type 2, günlük toplam uyumu 60/60.
+C için bağımsız eşleşme yok. Zenodo 21887740 açık metadata
+ambargolu, açık dosya sıfır. Üç makbuzun kimliği raporda.
+Etiket ve eğitim kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

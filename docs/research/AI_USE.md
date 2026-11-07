@@ -1052,6 +1052,11 @@ paketlerini bağlayan denetimi hazırladı. Önceki kayıt ve gözlem
 zaman boşluğu ayrı yorumlandı. Yeni insan gözlemi eklenmedi.
 [Yöntem ve kapsam](../PU_C_TIMELINE_2026-11-08.md).
 
+8 Kasım toplu taramada asistan, zaman ve Type bağlamını aynı
+pilot kapsamına uyguladı. Açık kaynak ve embargo bilgisini
+kontrol etti. Günlük sayı uyumu piksel kimliği veya olay
+doğrulaması sayılmadı. [Kapsam](../PU_BATCH_REFERENCE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

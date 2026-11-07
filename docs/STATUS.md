@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım toplu PU ve açık referans taraması tamamlandı.** 15 tutarlı
+vaka, 18 ilk nokta, 48 yerel paket ve 60 pencere. R05'in önceki üç
+gününde 19 Type 2 kaydı var. FIRMS ve kompakt sayıları 60/60 pencerede
+eşleşti. C'ye bağımsız olay bağlantısı bulunmadı. Bulunan OGM kökenli
+envanterin Zenodo kaydı ambargolu ve açık dosya sayısı sıfır.
+Etiket ve eğitim kabulü açık.
+[Toplu bulgular ve kaynak alım koşulları](PU_BATCH_REFERENCE_2026-11-08.md).
+
+### Aynı gün C adayının tekil denetimi
+
 **8 Kasım C adayının zaman çizelgesi kontrol edildi.** Antalya,
 15 Ağustos 2021. Dokuz gruplamada aynı tek S-NPP kaydı ve önceki
 72 saatte 2 km içinde sıfır önceki katalog satırı. Aynı hücrenin

@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Toplu PU ve açık referans taraması](PU_BATCH_REFERENCE_2026-11-08.md) | 15 adayın zaman/filtre bağlamı, C için açık kaynaklar ve OGM kökenli envanterin erişim durumu |
 | [C adayının zaman çizelgesi](PU_C_TIMELINE_2026-11-08.md) | Dokuz üyelik, 72 saatlik yakın katalog taraması ve dört günün uydu kayıtları |
 | [PU aday inceleme paketi](PU_CANDIDATE_REVIEW_2026-11-08.md) | 21 birimde olay, yerel örtü ve gözlem kontrolleri ile üç araştırmacı ön yorumu |
 | [Gözlemden etikete yöntem kararı](LABEL_PROTOCOL_DECISION_2026-11-04.md) | Pilot/referans geri okuması, iki çalışma yönü, araştırmacının PU tercihi ve 8 Kasım uygulanabilirlik kontrolü |
