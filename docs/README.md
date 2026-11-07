@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Açık müdahale kayıtları](PUBLIC_EVENT_CONTEXT_2026-11-08.md) | Urla ve Aydıncık olay bağlamı, uydu zamanı, ilk hücreler ve C için yeni yer adı |
 | [Toplu PU ve açık referans taraması](PU_BATCH_REFERENCE_2026-11-08.md) | 15 adayın zaman/filtre bağlamı, C için açık kaynaklar ve OGM kökenli envanterin erişim durumu |
 | [C adayının zaman çizelgesi](PU_C_TIMELINE_2026-11-08.md) | Dokuz üyelik, 72 saatlik yakın katalog taraması ve dört günün uydu kayıtları |
 | [PU aday inceleme paketi](PU_CANDIDATE_REVIEW_2026-11-08.md) | 21 birimde olay, yerel örtü ve gözlem kontrolleri ile üç araştırmacı ön yorumu |

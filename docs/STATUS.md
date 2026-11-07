@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım açık müdahale kaynaklarıyla iki vaka karşılaştırıldı.**
+Urla'da 14 Ağustos 2021 orman/fidanlık kaydı 07.28 ekip çıkışı
+veriyor. Aydıncık için Valilik yer ve gün bağlamı sağlıyor.
+Dokuz ayarda ilk zaman/hücreler korunuyor, üyelik değişiyor.
+Aydıncık'ta dört ilk hücrenin biri son sınırla filtrelense kayboluyor.
+Kesin konumlu bağımsız eşleşme ve hedef kabulü açık.
+[İki vaka ve kaynaklar](PUBLIC_EVENT_CONTEXT_2026-11-08.md).
+
+### Aynı gün toplu aday denetimi
+
 **8 Kasım toplu PU ve açık referans taraması tamamlandı.** 15 tutarlı
 vaka, 18 ilk nokta, 48 yerel paket ve 60 pencere. R05'in önceki üç
 gününde 19 Type 2 kaydı var. FIRMS ve kompakt sayıları 60/60 pencerede

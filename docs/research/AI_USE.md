@@ -1057,6 +1057,11 @@ pilot kapsamına uyguladı. Açık kaynak ve embargo bilgisini
 kontrol etti. Günlük sayı uyumu piksel kimliği veya olay
 doğrulaması sayılmadı. [Kapsam](../PU_BATCH_REFERENCE_2026-11-08.md).
 
+8 Kasım açık olay taramasında asistan kamu API'si, birincil
+duyurular ve yerel uydu kataloğunu ayrı kaynaklar olarak
+değerlendirdi. Çıkış saati, tutuşma ve uydu tespiti ayrıldı.
+[Kapsam ve sonuç](../PUBLIC_EVENT_CONTEXT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

@@ -1450,6 +1450,13 @@ C için bağımsız eşleşme yok. Zenodo 21887740 açık metadata
 ambargolu, açık dosya sıfır. Üç makbuzun kimliği raporda.
 Etiket ve eğitim kabulü açık.
 
+E151 — 8 Kasım: [İki açık olay bağlamının karşılaştırması](../PUBLIC_EVENT_CONTEXT_2026-11-08.md).
+Urla–Karaburun ve Aydıncık. 18 vaka×ayar, 26 doğrudan dosya
+kimliği. Aydıncık'ta son poligon içindeki üç ilk hücre ile
+katalogdaki dört ilk hücre ayrı kaldı. Makbuz SHA
+`b1aac4c4bec040d0446dc64a99f3312a3ba9c86e90a1c478a3c4b0782984596c`.
+Kesin bağımsız başlangıç konumu ve etiket kabulü yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
