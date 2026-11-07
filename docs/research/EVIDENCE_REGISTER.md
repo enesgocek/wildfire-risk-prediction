@@ -1419,6 +1419,14 @@ temsilî değildir. nnPU ve SAR koşulları incelendi. Gerçek pozitif
 küme, sınıf oranı ve kalibrasyon dayanağı açık. Kaynak tablolar,
 etiketler ve kapalı test erişimi değişmedi.
 
+E147 — 8 Kasım: [PU aday inceleme paketi](../PU_CANDIDATE_REVIEW_2026-11-08.md).
+156 amaçlı pilot hücre-günden eşleşen 21 birim ve 25 ilk nokta.
+15 tutarlı, 4 varlık duyarlı, 2 zaman/üyelik duyarlı. Dokuz dosya
+kimliği, ikinci anahtar ve grup sayımı, JSON ve Ruff kontrolleri geçti.
+Makbuz SHA `5b7fd0cc69efe03ff73dac67e65d58878add917f0a133917fe204715d07824ce`.
+R05/R06/R07 için araştırmacı görsel yorumu bekleniyor. Hedef ve
+nihai birleştirme alanları kapalı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

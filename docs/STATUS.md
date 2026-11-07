@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım PU aday inceleme paketi hazır.** 21 hücre-gün ve 25 ilk
+nokta olay, örtü ve gözlem dayanaklarıyla eşleştirildi. 15 tutarlı,
+4 aday varlığı duyarlı, 2 zaman/üyelik duyarlı birim var. Dokuz kaynak,
+anahtar, zaman penceresi ve ikinci sayım kontrolleri geçti. İnsan
+ön yorumu için R05/R06/R07 seçildi. Yanıtlar yalnız yerel örtü
+bağlamı için bekleniyor. Etiket ve eğitim kabulü açık.
+[İnceleme ölçütleri ve üç görsel](PU_CANDIDATE_REVIEW_2026-11-08.md).
+
+### Aynı gün ilk uygulanabilirlik kontrolü
+
 **8 Kasım ilk PU kontrolü tamamlandı.** Dört mevcut makbuzun SHA-256
 değeri doğrulandı. 12 seçilmiş tarihte 156 hücre-gün dört gruba ayrılıyor:
 15 tutarlı ve 6 ayara duyarlı ilk olay adayı, 39 ilk aday olmadan termal

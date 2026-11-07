@@ -1037,6 +1037,11 @@ kararlarını güncel belgelere aktardı. Denetim, bağımsız olay incelemesi
 veya gerçek model deneyi olarak kaydedilmedi.
 [Kapsam ve sonuç](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
 
+8 Kasım aday paketinde asistan kaynakları eşleştiren betiği hazırladı,
+dosya kimliklerini ve sayımları denetledi, önceki asistan notlarından
+farklı görsel bağlamları seçti. Üç araştırmacı yanıtı boş bırakıldı.
+[Seçim yöntemi ve sınır](../PU_CANDIDATE_REVIEW_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
