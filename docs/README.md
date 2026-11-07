@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [C adayının zaman çizelgesi](PU_C_TIMELINE_2026-11-08.md) | Dokuz üyelik, 72 saatlik yakın katalog taraması ve dört günün uydu kayıtları |
 | [PU aday inceleme paketi](PU_CANDIDATE_REVIEW_2026-11-08.md) | 21 birimde olay, yerel örtü ve gözlem kontrolleri ile üç araştırmacı ön yorumu |
 | [Gözlemden etikete yöntem kararı](LABEL_PROTOCOL_DECISION_2026-11-04.md) | Pilot/referans geri okuması, iki çalışma yönü, araştırmacının PU tercihi ve 8 Kasım uygulanabilirlik kontrolü |
 | [Veri setini tamamlama planı](DATASET_COMPLETION_PLAN_2026-11-04.md) | Altı açık iş paketi, somut habitat önerisi, güvenilir negatif engeli ve teslim tarihi vermek için gerekli koşullar |

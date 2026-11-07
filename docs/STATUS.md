@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım C adayının zaman çizelgesi kontrol edildi.** Antalya,
+15 Ağustos 2021. Dokuz gruplamada aynı tek S-NPP kaydı ve önceki
+72 saatte 2 km içinde sıfır önceki katalog satırı. Aynı hücrenin
+12–15 Ağustos pencerelerinde günlük en uzun nominal kara merkezi
+zarf boşluğu yaklaşık 11,5 saat. Yerel katalogda devam işareti
+bulunmadı. Gerçek olayın yeniliği ve habitat kabulü açık.
+[Ölçümler ve kanıt sınırı](PU_C_TIMELINE_2026-11-08.md).
+
+### Aynı gün araştırmacı örtü yorumlarının alınması
+
 **8 Kasım üç araştırmacı örtü yorumu kaydedildi.** R05 yapay yüzey,
 R06 tarım, R07 tarım çevresinde karışık ve ayırt edilemeyen örtü.
 R05'te eski harita ve görüntü farklı bağlam gösteriyor. İnsan notu

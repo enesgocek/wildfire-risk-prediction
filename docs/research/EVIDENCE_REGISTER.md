@@ -1434,6 +1434,15 @@ Dört dosya kimliği ve vaka üyeliği doğrulandı. Ön not kapsamı
 `b9f5e68587bb278719f3e9e787bdd66ead3b7c2d4798d106ee758358d0b96898`.
 Örtü kabulü açık ve hedef alanları boş.
 
+E149 — 8 Kasım: [C adayının zaman çizelgesi](../PU_C_TIMELINE_2026-11-08.md).
+15 Ağustos 2021 Antalya, dokuz ayarda tek üye. Önceki 72 saatin
+53 katalog satırından 2 km içinde sıfır. Altı nominal paket ve
+dört hücre-gün, yaklaşık 11,5 saatlik en uzun günlük nominal kara
+merkezi zarf boşluğu. 28 doğrudan dosya ve altı günlük iç kaynak
+kontrol edildi. Makbuz SHA
+`dc2489f28a0e4fcf3ce31fe8e9db3a570ddf792fe85562e4266a751d974b2b20`.
+Gerçek başlangıç, gözlem yeterliliği ve etiket açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

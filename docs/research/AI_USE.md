@@ -1047,6 +1047,11 @@ kimlikleriyle ilişkilendirdi ve CORINE bağlamıyla karşılaştırdı.
 R07'nin belirsizliği korundu. İnsan notları asistanın örtü
 yorumlarından ayrı tutuldu. [Kayıt](../PU_CANDIDATE_REVIEW_2026-11-08.md).
 
+8 Kasım C adayında asistan, yerel katalog üyeliğini ve tarama
+paketlerini bağlayan denetimi hazırladı. Önceki kayıt ve gözlem
+zaman boşluğu ayrı yorumlandı. Yeni insan gözlemi eklenmedi.
+[Yöntem ve kapsam](../PU_C_TIMELINE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
