@@ -1,7 +1,9 @@
 # Araştırma çerçevesi
 
 Kayıt tarihi: 9 Ekim 2026. Durum: bitirme çalışmasının araştırma çerçevesi;
-2209-A başvurusu ve danışman değerlendirmesi henüz yapılmadı.
+4 Kasım 2026 güncellemesiyle TÜBİTAK başvurusu artık planlanmıyor.
+Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
+önceki başvuru niyeti tarihsel kayıttır.
 
 ## Amaç ve kapsam
 
@@ -20,8 +22,8 @@ Ana soru: Uydu gözlem eksikliklerinin etiketleme sırasında dikkate alınması
 meteoroloji, bitki örtüsü ve arazi bilgilerinin birlikte kullanılması, yeni olay
 tahmininde yanlış alarm yükünü ve olasılık hatasını azaltabilir mi?
 
-Bu soru bir sonuç veya özgünlük kanıtı değildir. Literatür karşılaştırması ve
-danışman değerlendirmesiyle başvuru metnine dönüştürülecektir.
+Bu soru bir sonuç veya özgünlük kanıtı değildir. Literatür karşılaştırması
+ve yöntem/sonuç değerlendirmeleriyle bitirme araştırmasında sınanacaktır.
 
 | Deney sorusu | Karşılaştırma | Önceden kaydedilecek değerlendirme |
 |---|---|---|
@@ -87,6 +89,13 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 [Güncel envanter ve kabul sırası](../PREPARATION_INVENTORY_2026-10-16.md).
 
 ## Açık bilimsel konular
+
+4 Kasım yöntem yönü: araştırmacı, kurumsal talep açmadan PU öğrenmenin
+uygulanabilirliğini araştırmayı seçti. Güvenilir pozitif tanımı, belirsiz
+havuzun temsili, etiketlenme mekanizması, sınıf oranı ve değerlendirme
+dayanağı incelenecek. OGM talebi bu yönün ilerleme koşulu değildir.
+Araştırma tercihi, gerçek P/U eğitim tablosu veya yöntem kabulü sayılmaz.
+[Karar ve uygulanabilirlik sınırları](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
 
 23 Ekim kapsam kararı: araştırmacı orman ve çalılığı ana araştırma yönü olarak
 seçti. Tarım/yerleşim eşleşmeleri ayrı incelemede korunacak; noktaya veya

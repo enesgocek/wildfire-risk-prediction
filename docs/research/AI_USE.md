@@ -1,7 +1,8 @@
 # Üretken yapay zekâ kullanım kaydı
 
-Kayıt tarihi: 9 Ekim 2026. Durum: çalışma kaydı ve beyan hazırlığı;
-imzalanmış başvuru beyanı veya danışman onayı değildir.
+Kayıt tarihi: 9 Ekim 2026. Güncel durum — 4 Kasım: araştırma katkı kaydı;
+TÜBİTAK başvurusu artık planlanmıyor. Şeffaflık ve doğrulama yükümlülükleri
+sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
@@ -15,8 +16,9 @@ iddiasını içermez. Kodun otomatik çalışması, bilimsel doğruluğun tek ba
 
 Kaynak bağlantıları, veri anlamı, hesap yöntemleri ve sonuçların sınırları
 ilgili raporlarda tutulur. Araç önerileriyle ölçülmüş sonuçlar birbirinden ayrılır.
-Başvuru metni, kaynak doğruluğu, özgünlük iddiaları ve kullanım beyanı araştırmacı
-ve akademik danışman tarafından başvuru öncesinde kontrol edilecektir.
+Bitirme teslimi, sunum veya olası yayın için kaynak doğruluğu, özgünlük
+iddiaları ve katkı beyanı araştırmacı ve ilgili akademik sorumlular
+tarafından kontrol edilir. Araç katkısı kişisel manuel çalışma olarak sunulmaz.
 
 Gizli bağlantı dosyaları, parolalar, tokenlar ve kişisel bilgiler raporlara ya da
 Git deposuna eklenmez. Kurum yanıtları gerekli kapsamda özetlenir; tam yazışma
@@ -1028,7 +1030,18 @@ başarı olarak aktarılmadı; varsayımlar ve kaynak eksikleri açık tutuldu.
 Araştırmacıdan çalışma yönü seçimi istendi; yeni ileti veya yöntem
 kabulü gerçekleştirilmedi. [Karar ve kaynaklar](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
 
+8 Kasım PU incelemesinde asistan dört yerel makbuzun kimliğini doğruladı,
+önceki sayımları uzlaştırdı ve nnPU/SAR varsayımlarını birincil
+makalelerden değerlendirdi. Araştırmacının kapsam ve yöntem yönü
+kararlarını güncel belgelere aktardı. Denetim, bağımsız olay incelemesi
+veya gerçek model deneyi olarak kaydedilmedi.
+[Kapsam ve sonuç](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
+
 ## Resmî kaynak ve beyan koşulu
+
+4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
+hazırlığına aittir; güncel başvuru görevi oluşturmaz. Bitirme teslimi veya
+olası yayında ilgili kurumun güncel beyan kuralları ayrıca esas alınır.
 
 TÜBİTAK rehberi destekleyici kullanımlara izin verir; içerik doğruluğu ve etik
 uygunluk sorumluluğunu başvuru sahiplerinde tutar. Proje hazırlığında önemli

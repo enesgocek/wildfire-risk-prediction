@@ -106,3 +106,43 @@ kapalı bayraklar uzlaştırıldı. JSON ve lint/format geçti. Önceki
 Literatür erişimi yapıldı; yeni uydu verisi, bulut işi, gerçek model
 deneyi, yeni insan incelemesi, etiket veya nihai birleşme yapılmadı.
 `daily_observation_status=unknown`, `negative_label_permitted=false` sürer.
+
+## Araştırmacı kararı ve ilk PU uygulanabilirlik kontrolü — 8 Kasım 2026
+
+Araştırmacı B yönünü seçti. İnceleme yeni kurumsal talep açmadan ve
+24 saatlik yeni olay hedefiyle yürütülür. Bu bölüm 4 Kasım'daki
+öneriyi ve denetim makbuzunu değiştirmeden sonraki değerlendirmeyi kaydeder.
+
+Dört mevcut JSON makbuzunun SHA-256 değerleri ilgili raporlardan
+doğrulandı. [Olay–gözlem bağlantısı](EVENT_OBSERVATION_LINK_2026-10-22.md)
+ile [tam aday duyarlılığı](EVENT_SENSITIVITY_2026-10-22.md), bu belgedeki
+etiket hazırlığı makbuzu ve [habitat matrisi](HABITAT_EVIDENCE_MATRIX_2026-11-04.md)
+birlikte değerlendirildi. Aşağıdaki sayımlar kayıtlı çıktılardandır.
+Ham veri veya örnek etiketleri yeniden hesaplanmadı.
+
+| PU gereksinimi | Mevcut kanıt ve karar sınırı |
+|---|---|
+| Güvenilir pozitif küme | 2018–2023 içindeki 12 seçilmiş tarihin 156 hücre-gününde 15 tutarlı ve 6 ayara duyarlı ilk olay adayı var. Tutarlılık aynı tespitlerin farklı ayarlarla işlenmesinden geliyor. Ayrı habitat incelemesinde 25 nokta/21 birimde olay tarihindeki örtü kabulü sıfır. Pozitif eğitim kümesi henüz tanımlanamaz. |
+| Hedef kapsamını temsil eden belirsiz havuz | Pilotun 39 biriminde ilk-gün adayı olmadan termal tanık var. Diğer 96 birimde ne ilk-gün adayı ne yüklü kesin pencere tanığı var. Dört grup toplamı 156. Amaçlı örnek seçiminden tüm hücre-günlere genelleme veya bu 96 birime negatif atama yapılamaz. |
+| Pozitiflerin etiketlenme mekanizması | Örneğin Mersin'de 15 Kasım 2018 biriminde günlük nominal kara desteği yaklaşık tamken 12 saat ayrımlı tekrar alanı sıfır. Kapsama ve geçiş zamanı tanıları tespit olasılığını doğrudan ölçmüyor. Sabit yakalanma varsayımı (SCAR) veya gözlem değişkenlerine koşullu varsayım (SAR) bu veride doğrulanmadı. |
+| Olay sıklığı ve değerlendirme | 7.610 ilk-hücre/gün adayının 21'inde ayrıntılı pilot kanıtı var. Aday sıklığı gerçek hedef sınıf oranı olarak kullanılamaz. Mevcut referans alımında eşleştirmeye hazır kayıt sıfır. Gerçek olay AP/Brier skoru ve kalibrasyon için değerlendirme dayanağı açık. |
+
+Kiryo ve diğerlerinin nnPU makalesinin ikinci bölümü, pozitif sınıf
+dağılımını ve genel hedef dağılımını temsil eden örnekleri kullanır.
+Pozitif sınıf oranını biliniyor kabul eder. Tahmin edilen eğitim
+kaybının negatife düşmesini engellemesi, seçilim yanlılığını çözmez.
+[Kiryo vd., NeurIPS 2017](https://papers.nips.cc/paper/2017/file/7cce53cf90577442771720a370c3c723-Paper.pdf).
+SAR, pozitiflerin seçilme olasılığını bazı özelliklere bağlamaya izin
+verir. Hangi gözlem değişkenlerinin bu ilişkiyi açıklayabildiği ayrı
+gerekçe gerektirir. [Bekker ve Davis, PMLR 2018](https://proceedings.mlr.press/v94/bekker18a.html).
+
+İlk karar **mevcut kanıtla gerçek PU eğitimine geçilmemesi** yönündedir.
+Bir sonraki yöntem işi, tutarlı adaylar içinden önceden tanımlı bir
+inceleme örneklemi seçmek ve her vakada yeni olay, yerel orman/çalılık
+ve gözlem desteğini ayrı gerekçelendirmektir. Örnekleme il, mevsim ve
+sensör dönemi farklarını görünür kılmalı. Belirsiz havuzun kapsamı
+olay adaylarından bağımsız tanımlanmalı. Sınıf oranı ve tespit olasılığına
+gerekçe bulunamazsa olasılık ve kalibrasyon iddiası açık kalır.
+T sonrasındaki kapsama/kalite bilgisi yalnız etiket ve seçilim
+incelemesinde kullanılabilir. 2024 ve kapalı 2025 bu ilk kontrolde
+açılmadı. Etiket, yöntem kabulü, eğitim ve nihai birleşme yoktur.

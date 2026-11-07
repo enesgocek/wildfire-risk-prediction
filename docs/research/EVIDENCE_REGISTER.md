@@ -1411,6 +1411,14 @@ PU uygulanmış/uygunluğu kanıtlanmış sayılmadı. Makbuz SHA
 `1e25e550f76acebc859978816c9b2f2dfa78c0c9fd7a6abe5060194480de37d6`.
 Çalışma yönü kullanıcıya soruldu; eğitim, dış ileti ve nihai birleşme yok.
 
+E146 — 8 Kasım: [İlk PU uygulanabilirlik kontrolü](../LABEL_PROTOCOL_DECISION_2026-11-04.md).
+Dört önceki makbuzun SHA-256 değeri eşleşti. 2018–2023 içindeki 12 amaçlı
+tarihte 156 hücre-gün için 15 tutarlı aday, 6 duyarlı aday, 39 yalnız
+termal tanık ve 96 iki kanıtı da olmayan birim uzlaştırıldı. Örneklem
+temsilî değildir. nnPU ve SAR koşulları incelendi. Gerçek pozitif
+küme, sınıf oranı ve kalibrasyon dayanağı açık. Kaynak tablolar,
+etiketler ve kapalı test erişimi değişmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

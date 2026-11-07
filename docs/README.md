@@ -1,15 +1,15 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 4 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
-tarihsel kayıtların görevleri aşağıda ayrılmıştır. TÜBİTAK belirli bir Git
-klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği için seçilmiştir.
+Güncelleme: 8 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
+başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
 ## Temel belgeler
 
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
-| [Gözlemden etikete yöntem kararı](LABEL_PROTOCOL_DECISION_2026-11-04.md) | Güncel pilot/referans geri okuması, doğrulanmış NASA ve PU kaynakları, iki çalışma yönü ve kullanıcı kararının sınırı |
+| [Gözlemden etikete yöntem kararı](LABEL_PROTOCOL_DECISION_2026-11-04.md) | Pilot/referans geri okuması, iki çalışma yönü, araştırmacının PU tercihi ve 8 Kasım uygulanabilirlik kontrolü |
 | [Veri setini tamamlama planı](DATASET_COMPLETION_PLAN_2026-11-04.md) | Altı açık iş paketi, somut habitat önerisi, güvenilir negatif engeli ve teslim tarihi vermek için gerekli koşullar |
 | [Uydu–CORINE aynı konum karşılaştırması](HABITAT_IMAGE_OVERLAY_2026-11-04.md) | Beş noktada yedi görüntü, üç görsel sayfa, sınıf sınırı üst üste çizimi ve asistanın tarih/konum sınırlı ön yorumları |
 | [Ortak habitat kanıt tablosu](HABITAT_EVIDENCE_MATRIX_2026-11-04.md) | 25 noktada iki ayrı ölçek, görüntü zamanı/kalitesi, 10 insan notu, 2018 referans dönemi sınırı ve kabul öncesi gereksinimler |
@@ -84,7 +84,7 @@ klasör şeması zorunlu kılmaz; bu düzen araştırmanın izlenebilirliği iç
 | [Makale yönü deney protokolü](research/ARTICLE_RESEARCH_PROTOCOL_2026-10-12.md) | Etiket denetimi, dört hipotez, ayrım/ölçüt ve kabul kapıları; öneri |
 | [Danışman literatür özeti](research/ADVISOR_LITERATURE_BRIEF_2026-10-12.md) | Görüşmede kullanılabilecek kısa karşılaştırma ve açık araştırma kararları |
 | [Kanıt dizini](research/EVIDENCE_REGISTER.md) | İddiaların rapor ve veri dayanakları |
-| [2209-A hazırlığı](research/2209A_PREPARATION.md) | Çağrı, başvuru hazırlığı ve danışmanla değerlendirilecek içerik |
+| [Geçmiş 2209-A hazırlığı](research/2209A_PREPARATION.md) | Etkin olmayan başvuru niyeti ve o tarihte kaydedilmiş kaynaklar; güncel iş listesi değil |
 | [Araç kullanım kaydı](research/AI_USE.md) | Üretken yapay zekâ katkısı ve beyan hazırlığı |
 | [Araştırma günlüğü](../Diary/README.md) | Günlük işlem ve karar kayıtları |
 | [Betik rehberi](../scripts/README.md) | Çalıştırılabilir işlem adımları |

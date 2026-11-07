@@ -1,6 +1,6 @@
 # Araştırma yol haritası
 
-Güncelleme: 9 Ekim 2026. Takvim, veri erişimi ve doğrulama sonuçlarına göre
+Güncelleme: 4 Kasım 2026. Takvim, veri erişimi ve doğrulama sonuçlarına göre
 ilerler. Aşağıdaki aşamalar kabul ölçütleridir; tamamlanmış sonuç veya
 kesin süre taahhüdü değildir. Güncel durum [STATUS.md](STATUS.md) içindedir.
 
@@ -16,10 +16,13 @@ kesin süre taahhüdü değildir. Güncel durum [STATUS.md](STATUS.md) içindedi
 
 ## Paralel hazırlık
 
-Veri üretimi sürerken başvuru kanıtları, literatür karşılaştırması ve risk
-planı hazırlanır. 2209-A metni üzerinde danışmanla çalışmaya yaklaşık 1–2
-hafta sonra başlanması planlanmıştır. Tamamlanmış çalışmalar başvuruda ön
-çalışma olarak gösterilir. [Başvuru hazırlığı](research/2209A_PREPARATION.md).
+Literatür karşılaştırması, veri kabul gerekçeleri ve risk planı, bitirme
+araştırmasının ihtiyaçlarına göre hazırlanır. 4 Kasım kararıyla TÜBİTAK
+başvurusu planlanmıyor; eski [başvuru hazırlığı](research/2209A_PREPARATION.md)
+tarihsel kayıttır. Bilimsel kabul ölçütleri başvuru takviminden bağımsızdır.
+Güncel yöntem işi, yeni kurumsal talep açmadan PU uygulanabilirliğini
+incelemektir; [altı veri tamamlama paketinin](DATASET_COMPLETION_PLAN_2026-11-04.md)
+kabul kapıları korunur.
 
 ## Kapsam sınırları
 

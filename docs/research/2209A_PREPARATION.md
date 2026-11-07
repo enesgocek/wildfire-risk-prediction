@@ -1,5 +1,12 @@
 # TÜBİTAK 2209-A başvuru hazırlığı
 
+**4 Kasım 2026 — tarihsel kayıt, etkin başvuru planı değil.** Araştırmacı
+TÜBİTAK'a başvurmayacağını belirtti. Aşağıdaki 9 Ekim planı ve o tarihte
+kaydedilen çağrı bilgileri geçmişi korumak için tutulur; güncel takvim
+veya yapılacak iş listesi olarak kullanılmaz. Bu güncellemede çağrı koşulları
+yeniden doğrulanmadı. Araştırma, kaynak doğrulaması, etik şeffaflık ve veri
+kabul ölçütleri korunarak bitirme projesi olarak sürer.
+
 Karar tarihi: 9 Ekim 2026. Durum: hazırlık planı; başvuru yapılmadı, destek alınmadı.
 
 Bitirme projemi akademik danışmanımla birlikte 2209-A kapsamında başvuruya

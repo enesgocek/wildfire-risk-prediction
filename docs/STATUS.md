@@ -1,18 +1,38 @@
-# Proje durum raporu — 4 Kasım 2026
+# Proje durum raporu — 8 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
-**4 Kasım gözlem/etiket yönteminde araştırmacı yön kararı gerekiyor.**
+**8 Kasım ilk PU kontrolü tamamlandı.** Dört mevcut makbuzun SHA-256
+değeri doğrulandı. 12 seçilmiş tarihte 156 hücre-gün dört gruba ayrılıyor:
+15 tutarlı ve 6 ayara duyarlı ilk olay adayı, 39 ilk aday olmadan termal
+tanık, 96 ilk aday veya yüklü kesin pencere tanığı olmayan birim.
+Kayıtlar doğrulanmış pozitif küme, temsilî belirsiz havuz veya sınıf
+oranı sağlamıyor. İlk kaynak incelemesiyle birlikte sonuç, gerçek PU
+eğitimine geçmek için kanıtın henüz yetersiz olduğu yönünde.
+Sıradaki iş, yeni olay ve yerel örtü için ölçütleri önceden belirleyip
+sınırlı aday incelemesi tasarlamak. [Karar ve bulgular](LABEL_PROTOCOL_DECISION_2026-11-04.md#araştırmacı-kararı-ve-ilk-pu-uygulanabilirlik-kontrolü--8-kasım-2026).
+
+### 4 Kasım kapsam ve yöntem yönü
+
+**TÜBİTAK başvurusu planlanmıyor.**
+Araştırmacı yeni kurumsal talep açmadan pozitif–belirsiz öğrenmeyi inceleme
+yönünü seçti. Bitirme araştırmasının bilimsel doğruluk, izlenebilirlik,
+kaynak/katkı şeffaflığı ve veri kabul ölçütleri korunuyor. Başvuru hazırlığı
+tarihsel kayda alındı; bulut işi veya kurumsal ileti başlatılmayacak.
+
+### Aynı gün yöntem seçimi öncesindeki kayıt
+
+**4 Kasım gözlem/etiket karar hazırlığı tamamlandı.**
 Önceki 156 birimlik pilot ve referans alımı 21 güncel dosya/kod kimliğiyle
 geri okundu; termal tanık 60/156, tanıksız 96/156 gerçek etiket değildir.
 İncelenen sicilde eşleştirmeye hazır bağımsız kayıt yok. NASA ve gerçek
 PU öğrenme kaynakları kontrol edildi; PU varsayımları bizim veride kabul
-edilmedi. Önerilen A: ana hedefi koruyarak sınırlı OGM/bağımsız referans
-yolunu yeniden açmak. Alternatif B: kurumsal talep olmadan PU varsayım
-incelemesi. Soru kullanıcıya iletildi, yöntem seçimi bekliyor; etiket,
+edilmedi. Karar öncesinde A: sınırlı OGM/bağımsız referans yolu ve B:
+kurumsal talep olmadan PU varsayım incelemesi sunuldu. Araştırmacı daha
+sonra B yönünü seçti; A güncel ilerleme koşulu değildir. Etiket,
 eğitim ve nihai birleştirme yok. [Gerekçe ve somut seçenekler](LABEL_PROTOCOL_DECISION_2026-11-04.md).
 
 ### Aynı gün önceki teslim planı

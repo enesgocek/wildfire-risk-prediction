@@ -2,13 +2,18 @@
 
 Kapsam, veri kuralları ve mevcut durum tek belgede toplanmıştır.
 
-Güncel ilerleme [STATUS.md](STATUS.md), başvuru hazırlığı ve araştırma
-planı [belge dizininden](README.md) izlenir. Bu rehber bilimsel kapsamın,
+Güncel ilerleme [STATUS.md](STATUS.md), araştırma planı ve tarihsel kayıtlar
+[belge dizininden](README.md) izlenir. Bu rehber bilimsel kapsamın,
 zaman sözleşmesinin ve veri ayrımının temel kaydıdır. Tarihli teknik
 incelemeler kendi yürütülme dönemlerinin durumunu yansıtır.
 
 9 Ekim 2026 kararı: bitirme projesinin 2209-A başvurusuna hazırlanması ve
 yeni belgelerin aynı araştırma/kanıt düzeniyle tutulması planlanmıştır.
+**4 Kasım 2026 güncellemesi:** araştırmacı TÜBİTAK başvurusunu artık
+planlamıyor. Önceki başvuru hazırlığı tarihsel olarak korunur; bitirme
+araştırmasının bilimsel kabul ölçütleri, kaynak/katkı şeffaflığı ve
+tekrarlanabilirlik koşulları değişmez. Yeni kurumsal talep açmadan PU
+uygulanabilirliğini araştırma yönü seçildi; bu, yöntem veya etiket kabulü değildir.
 Nihai etiket veri seti ve model henüz hazır değildir; 2025 final testi kapalıdır.
 
 - [Proje tanımı](#proje-tanımı--güncel-pilot-kapsamı)

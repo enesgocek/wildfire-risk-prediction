@@ -1,15 +1,17 @@
 # Proje çalışma kuralları
 
 Bu depo, Antalya, Muğla, İzmir ve Mersin için 24 saatlik yangın riski üzerine
-bir bitirme araştırmasıdır. TÜBİTAK 2209-A başvurusu, bitirme projesi danışmanıyla
-hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru yapılmış değildir.
+bir bitirme araştırmasıdır. Kullanıcının 4 Kasım 2026 kararıyla TÜBİTAK
+2209-A başvurusu artık planlanmıyor. Bilimsel doğruluk, izlenebilirlik,
+tekrarlanabilirlik ve veri kabul ölçütleri başvurudan bağımsız korunur.
+Önceki başvuru hazırlıkları tarihsel kayıttır; destek veya kabul iddiası değildir.
 
 ## Önce okunacak belgeler
 
 - `docs/STATUS.md`: tarihli güncel durum ve açık konular.
 - `docs/PROJECT.md`: bilimsel kapsam, zaman sözleşmesi ve veri ayrımı.
 - `docs/research/RESEARCH_PLAN.md`: araştırma soruları ve aşama kabul ölçütleri.
-- `docs/research/2209A_PREPARATION.md`: başvuru hazırlığı, kaynaklar ve açık kararlar.
+- `docs/research/2209A_PREPARATION.md`: artık etkin olmayan başvuru planının tarihsel kaydı.
 - `docs/README.md`: belge dizini ve dosya yerleşim kuralları.
 
 ## Bilimsel doğruluk ve kanıt
@@ -20,6 +22,9 @@ hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru
   tutuşma zamanı değildir. Eksik gözlem otomatik olarak negatif etikete çevrilmez.
 - `daily_observation_status=unknown` ve `negative_label_permitted=false`
   koşulları, bilimsel gerekçe ve doğrulanmış yeni protokol olmadan değiştirilmez.
+- 4 Kasım 2026 yöntem yönü: yeni kurumsal talep açmadan pozitif–belirsiz
+  (PU) öğrenmenin uygulanabilirliği araştırılır. Bu tercih yöntem kabulü,
+  gerçek pozitif doğrulaması veya model eğitimine başlama onayı değildir.
 - Eğitim 2018–2023, doğrulama 2024, kapalı final test 2025'tir. Tahmin anında
   bilinmeyen veriler girdiye alınmaz; ERA5-Land geriye dönük yeniden analizdir.
 - Bir sonucun kaynağı açık olmalıdır: yerel denetim raporu, uzak iş günlüğü,
@@ -50,7 +55,8 @@ hazırlanması planlanan bir sonraki aşamadır; destek alınmış veya başvuru
   iş için kullanılabilir. Otomatik hesaplamalar ve doğrulamalar yöntemleriyle anlatılır.
 - Yapay zekâ kullanımını gizleme veya tüm işleri kişisel olarak yapılmış gösterme
   amacıyla kayıt değiştirilmez. Katkı kapsamı `docs/research/AI_USE.md` içinde tutulur;
-  resmî beyan danışman ve araştırmacı tarafından başvuru öncesinde kontrol edilir.
+  teslim, sunum veya olası yayın için katkı beyanı araştırmacı ve ilgili akademik
+  sorumlular tarafından kontrol edilir. Başvuru planlanmaması şeffaflık kuralını kaldırmaz.
 - Yeni sonuçlar ilgili rapora, güncel özet STATUS'a, günün çalışması Diary'a yazılır.
   PROJECT'in tarihsel bölümüne yeni uzun oturum günlükleri eklenmez.
 - Önceki tarihlerdeki bulgular sonradan elde edilen sonuçlarla sessizce değiştirilmez.

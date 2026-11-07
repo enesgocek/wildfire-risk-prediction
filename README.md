@@ -8,14 +8,17 @@ zamanının doğrudan ölçümü değildir.
 
 ## Araştırma durumu
 
-9 Ekim 2026 itibarıyla coğrafi altyapı ve 2018–2024 meteoroloji hazırlığı
-tamamlanmıştır. Uydu gözlem tanılarının eğitim dönemi boyunca işlenmesi
-sürmektedir. Nihai olay kataloğu, negatif etiket politikası, model veri seti
-ve eğitilmiş model henüz tamamlanmamıştır. Güncel ilerleme ve kanıt sınırları
+4 Kasım 2026 itibarıyla eğitim dönemi için aday özellikler ve uydu gözlem
+incelemeleri hazırlanmıştır; kabul edilmiş hedef tablosu ve eğitilmiş model
+henüz yoktur. Kurumsal talep açmadan pozitif–belirsiz (PU) öğrenmenin
+uygulanabilirliği araştırılacaktır; yöntem kabulü yapılmamıştır.
+Güncel ilerleme ve kanıt sınırları
 [durum raporunda](docs/STATUS.md) tutulur.
 
-2209-A başvurusunun bitirme projesi danışmanıyla hazırlanması planlanmaktadır.
-Bu depo henüz TÜBİTAK destekli veya kabul edilmiş bir proje olarak sunulmaz.
+4 Kasım 2026 kararıyla TÜBİTAK 2209-A başvurusu planlanmıyor. Çalışma,
+bilimsel doğruluk, kaynak doğrulaması, tekrarlanabilirlik ve açık kabul
+ölçütleri korunarak bitirme araştırması olarak sürdürülür. TÜBİTAK desteği
+veya kabulü iddia edilmez; eski başvuru hazırlıkları tarihsel kayıt olarak tutulur.
 
 ## Kapsam ve değerlendirme
 
@@ -36,7 +39,7 @@ henüz doğrulanmamıştır. Bilimsel sözleşme [proje rehberindedir](docs/PROJ
 - [Belge dizini ve mimari](docs/README.md)
 - [Güncel durum](docs/STATUS.md) · [Aşamalı yol haritası](docs/ROADMAP.md)
 - [Araştırma planı](docs/research/RESEARCH_PLAN.md) · [Kanıt dizini](docs/research/EVIDENCE_REGISTER.md)
-- [2209-A hazırlığı](docs/research/2209A_PREPARATION.md)
+- [Geçmiş 2209-A hazırlığı — etkin plan değil](docs/research/2209A_PREPARATION.md)
 - [Araştırma günlüğü](Diary/README.md) · [Araç kullanım kaydı](docs/research/AI_USE.md)
 - [Betikler ve komutlar](scripts/README.md)
 
@@ -63,7 +66,7 @@ kontrollerin kapsamı ilgili test ve işlem raporunda belirtilir.
 | `tests/` | Davranış, veri sözleşmesi ve hata senaryosu kontrolleri |
 | `data/` | Kaynak, ara ve modelleme verileri |
 | `outputs/` | Üretilmiş raporlar, deneyler, görseller, paketler ve doğrulama çıktıları |
-| `docs/` | Yöntem, uygulama, sonuç ve başvuru hazırlığı belgeleri |
+| `docs/` | Yöntem, uygulama, sonuç ve tarihsel araştırma belgeleri |
 | `Diary/` | Tarihli araştırma kayıtları |
 
 Yeni katkılarda [çalışma kuralları](AGENTS.md) uygulanır. Paket kimlikleri ve
