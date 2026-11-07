@@ -1042,6 +1042,11 @@ dosya kimliklerini ve sayımları denetledi, önceki asistan notlarından
 farklı görsel bağlamları seçti. Üç araştırmacı yanıtı boş bırakıldı.
 [Seçim yöntemi ve sınır](../PU_CANDIDATE_REVIEW_2026-11-08.md).
 
+8 Kasım ek kaydında asistan, üç yeni insan görsel yorumunu kaynak
+kimlikleriyle ilişkilendirdi ve CORINE bağlamıyla karşılaştırdı.
+R07'nin belirsizliği korundu. İnsan notları asistanın örtü
+yorumlarından ayrı tutuldu. [Kayıt](../PU_CANDIDATE_REVIEW_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

@@ -5,12 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım üç araştırmacı örtü yorumu kaydedildi.** R05 yapay yüzey,
+R06 tarım, R07 tarım çevresinde karışık ve ayırt edilemeyen örtü.
+R05'te eski harita ve görüntü farklı bağlam gösteriyor. İnsan notu
+13/25 nokta ve 12/21 hücre-günde mevcut. Dört kaynak kimliği ve
+üç vaka bağlantısı doğrulandı. Hedef boş, R07 belirsiz.
+[Karşılaştırma ve kayıt](PU_CANDIDATE_REVIEW_2026-11-08.md#araştırmacı-yanıtları-ve-örtü-karşılaştırması--8-kasım-2026).
+
+### Aynı gün inceleme paketinin hazırlanması
+
 **8 Kasım PU aday inceleme paketi hazır.** 21 hücre-gün ve 25 ilk
 nokta olay, örtü ve gözlem dayanaklarıyla eşleştirildi. 15 tutarlı,
 4 aday varlığı duyarlı, 2 zaman/üyelik duyarlı birim var. Dokuz kaynak,
 anahtar, zaman penceresi ve ikinci sayım kontrolleri geçti. İnsan
-ön yorumu için R05/R06/R07 seçildi. Yanıtlar yalnız yerel örtü
-bağlamı için bekleniyor. Etiket ve eğitim kabulü açık.
+ön yorumu için R05/R06/R07 seçildi. Hazırlık kaydında yanıt alanları
+boştu. Etiket ve eğitim kabulü açık.
 [İnceleme ölçütleri ve üç görsel](PU_CANDIDATE_REVIEW_2026-11-08.md).
 
 ### Aynı gün ilk uygulanabilirlik kontrolü

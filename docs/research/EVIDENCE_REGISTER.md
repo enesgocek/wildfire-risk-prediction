@@ -1427,6 +1427,13 @@ Makbuz SHA `5b7fd0cc69efe03ff73dac67e65d58878add917f0a133917fe204715d07824ce`.
 R05/R06/R07 için araştırmacı görsel yorumu bekleniyor. Hedef ve
 nihai birleştirme alanları kapalı.
 
+E148 — 8 Kasım: [Üç araştırmacı örtü ön notu](../PU_CANDIDATE_REVIEW_2026-11-08.md).
+R05 yapay yüzey, R06 tarım, R07 karışık ve ayırt edilemeyen örtü.
+Dört dosya kimliği ve vaka üyeliği doğrulandı. Ön not kapsamı
+13/25 nokta, 12/21 hücre-gün. Makbuz SHA
+`b9f5e68587bb278719f3e9e787bdd66ead3b7c2d4798d106ee758358d0b96898`.
+Örtü kabulü açık ve hedef alanları boş.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

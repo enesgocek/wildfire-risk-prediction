@@ -78,3 +78,27 @@ senaryo sayısının `9.0` biçimi sayısal eşitlikle karşılaştırıldı.
 `daily_observation_status=unknown` ve `negative_label_permitted=false`.
 İnsan ön notları alındığında mevcut kaynaklar ve bu makbuz korunarak
 yorumlar yeni tarihli bir kayıtta karşılaştırılacak.
+
+## Araştırmacı yanıtları ve örtü karşılaştırması — 8 Kasım 2026
+
+| Vaka | Araştırmacı ön notu | CORINE 2018 ve yorum sınırı |
+|---|---|---|
+| R05 | Yapılaşma veya yapay yüzey görünümü | Haritada yaklaşık alanın tamamı sulanmayan ekilebilir arazi. 2023 görüntüsündeki görünümle eski harita arasında bağlam farkı var. Bu kanıt arazi değişiminin tarihini veya termal kaynağı belirlemiyor. |
+| R06 | Tarım görünümü | Haritada yaklaşık alanın %66,02'si sürekli sulanan arazi, %33,98'i meyvelik. Görüntü tarımsal bağlamla uyumlu. Haritanın referans dönemi tahmin zamanının ötesine uzanıyor. |
+| R07 | Çevrede tarım görülüyor. Sarı alan karışık ve örtü ayırt edilemedi. | Haritada yaklaşık %54,99 tarım, %37,18 akarsu, %7,83 kesintili kentsel doku. Görüntüde gölge veya koyu alan ve sınıflandırılmamış piksel işaretleri var. Yerel örtü belirsiz kaldı. |
+
+İnsan ön notu kapsamı 10/25'ten 13/25 noktaya ve 9/21'den 12/21
+hücre-güne çıktı. Üç yanıt ayrı bir yerel kayıtta, önceki kaynakların
+kimlikleri ve görüntü tarihleriyle saklandı. Önceki aday makbuzu,
+örtü matrisi ve iki görüntü sayfasının SHA-256 değerleri kontrol
+edildi. Üyelik, önceki notların sayısı, JSON geri okuması ve R07
+belirsizlik alanı doğrulandı.
+
+Yerel kayıt
+`outputs/reports/dataset/pu_researcher_cover_notes_v1/20261107T220751Z_2b5bf4b1/readback.json`.
+SHA-256 `b9f5e68587bb278719f3e9e787bdd66ead3b7c2d4798d106ee758358d0b96898`.
+
+Üç vakada da hedef boş ve habitat kabulü açık. Görüntü yorumları
+örtü incelemesine ek kanıt sağlıyor. Sıradaki teknik inceleme, doğal
+örtü bağlamı daha güçlü olan C gibi tutarlı adayların önceki
+tespitlerle devam ilişkisini ve kaynak boşluklarını değerlendirmektir.
