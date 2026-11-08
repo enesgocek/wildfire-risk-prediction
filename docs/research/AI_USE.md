@@ -1212,6 +1212,12 @@ kurum kayıtlarının kapsamını okudu ve hesapları ikinci
 okuma ve alan ölçümüyle kontrol etti.
 [Menderes örtü ve saha kaydı](../MENDERES_PATCH_CONTEXT_2026-11-08.md).
 
+8 Kasım vaka karşılaştırmasında asistan dokuz küme ayarını,
+UTC pencere anahtarlarını ve iki alanın proje hücreleriyle
+kesişimini denetledi. Ölçümler ve açık kabul koşulları ayrı
+kaydedildi.
+[Hedef kabul karşılaştırması](../JULY_CASE_ADMISSION_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

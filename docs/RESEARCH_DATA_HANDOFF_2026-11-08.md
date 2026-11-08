@@ -35,6 +35,9 @@ okunmadı. Gözlem yeterliliği `unknown`, etiket izinleri kapalıdır.
    başlangıç örtüsü birlikte incelenir. Belirsizlik birden fazla hücreye
    veya güne uzanıyorsa kayıtta korunur. Alım kontrolünü geçen kayıt
    önce eşleştirme incelemesine alınır. [Mevcut alım kontrolü](REFERENCE_INTAKE_2026-10-15.md).
+   Menderes ve Anamur karşılaştırması, ilk tespit, etkilenen hücre
+   ve ertesi UTC penceresindeki devam kayıtlarının ayrımını gösterir.
+   [İki vaka için kabul koşulları](JULY_CASE_ADMISSION_2026-11-08.md).
 3. **Değerlendirme dayanağı.** Referans kaydının kapsadığı iller,
    yıllar, olay türleri ve bilinen eksikler belgelenir. Örneğin yalnız
    büyük yangınları içeren bir liste, küçük olaylar için yokluk kanıtı

@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Menderes ve Anamur hedef kabul karşılaştırması](JULY_CASE_ADMISSION_2026-11-08.md) | Tam küme üyeliği, ilk aday hücre-günleri ve alan kesişimleri |
 | [Menderes örtü ve saha kaydı](MENDERES_PATCH_CONTEXT_2026-11-08.md) | Değişim alanları, CORINE, EFFIS ve belediye kayıtları |
 | [Menderes optik değişim denetimi](MENDERES_BURN_SIGNAL_2026-11-08.md) | Beş sahne, olay öncesi kontrol ve iki tespit çevresinde üç eşik |
 | [Menderes tespitlerinin arşiv geçmişi](MENDERES_RECURRENCE_2026-11-08.md) | Üç merkez, 12 yarıçap sayımı ve iki tarihli belediye kaydı denetimi |

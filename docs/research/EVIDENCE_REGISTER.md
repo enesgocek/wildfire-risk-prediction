@@ -1605,6 +1605,12 @@ Güneyde 0,15 eşiğindeki 35,72 ha parçanın 35,69 ha'sı EFFIS
 poligonuyla kesişti. Kuzey için ayrı saha eşleşmesi bulunmadı.
 Tutuşma konumu ve fiziksel olay kimliği açık.
 
+E180 — 8 Kasım. [Hedef kabul karşılaştırması](../JULY_CASE_ADMISSION_2026-11-08.md).
+Beş ısıl tespitli hücre-gün, dokuz ayarda üç ilk aday.
+Menderes güneyde EFFIS poligonu iki hücrede. Anamur optik
+parçası tek hücrede ve keşif grubu iki UTC penceresinde.
+Beş hedef boş, bağımsız başlangıç ve değerlendirme kapsamı açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Menderes ve Anamur için hedef kabul karşılaştırması tamamlandı.**
+Beş ısıl tespitli hücre-günden üçü dokuz ayarda ilk uydu adayı.
+Menderes güneyde EFFIS alanının %83,4'ü ilk tespit hücresinin
+komşusunda. Anamur'da iki kayıt aynı keşif grubuyla ertesi UTC
+penceresine düşüyor. Başlangıç konumu, ilk örtü ve kaynak kapsamı
+açık. Beş hedef boş.
+[Hedef kabul karşılaştırması](JULY_CASE_ADMISSION_2026-11-08.md).
+
+### Aynı gün Menderes örtü ve saha kaydı
+
 **8 Kasım Menderes'te örtü, mahalle sınırı ve EFFIS denetimi tamamlandı.**
 Kuzeyde üç eşikte en büyük değişim parçasının tamamı CORINE 2018'in
 sulanmayan ekilebilir arazi sınıfında. Kuzey parçası EFFIS alanından
