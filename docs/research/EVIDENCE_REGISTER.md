@@ -1593,6 +1593,11 @@ E177 — 8 Kasım. [Menderes arşiv denetimi](../MENDERES_RECURRENCE_2026-11-08.
 içinde diğer günlerden üç benzersiz Type 0 kaydı var.
 İki belediye günü karşılaştırıldı. Olay kimliği açık.
 
+E178 — 8 Kasım. [Menderes optik denetimi](../MENDERES_BURN_SIGNAL_2026-11-08.md).
+Beş Sentinel-2 sahnesi, üç olay çifti ve bir öncesi kontrol.
+Üç eşikte iki çevreye değen bitişik parça görülmedi.
+Kuzeydeki değişimin kaynağı ve özgün tutuşma açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

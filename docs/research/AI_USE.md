@@ -1201,6 +1201,11 @@ teslimini taradı, yakınlık sayımlarını ayrı yöntemle
 doğruladı ve iki tarih için belediye kayıtlarını okudu.
 [Menderes arşiv denetimi](../MENDERES_RECURRENCE_2026-11-08.md).
 
+8 Kasım Menderes optik incelemesinde asistan, beş Sentinel-2
+kesitini okudu, yansıma ve değişim hesaplarını doğruladı ve
+iki tespit grubunun çevresini ayrı değerlendirdi.
+[Menderes optik denetimi](../MENDERES_BURN_SIGNAL_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

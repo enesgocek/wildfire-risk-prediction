@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Menderes'te olay öncesi ve sonrası optik karşılaştırma tamamlandı.**
+Beş Sentinel-2 sahnesinde güneyde 29,60–39,88 ha,
+kuzeyde 3,20–10,88 ha bitişik değişim parçaları ölçüldü.
+Üç eşikte iki çevreye değen ortak parça görülmedi.
+Kuzeydeki değişimin nedeni, olay kimliği ve tutuşma konumu açık.
+[Menderes optik denetimi](MENDERES_BURN_SIGNAL_2026-11-08.md).
+
+### Aynı gün Menderes arşiv geçmişi
+
 **8 Kasım Menderes tespitlerinin arşiv geçmişi denetlendi.**
 Kuzeydeki iki merkezin 1 km çevresinde 2022'den aynı tek
 kayıt, güneyde 2019'dan iki kayıt görüldü. Diğer gün
