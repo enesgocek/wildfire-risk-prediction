@@ -1196,6 +1196,11 @@ olay kaynaklarını karşılaştırdı, katalog gruplarını ve yerel
 tarama toplamlarını özgün tablolardan denetledi.
 [Menderes Hona Boğazı denetimi](../MENDERES_HONA_CONTEXT_2026-11-08.md).
 
+8 Kasım Menderes arşiv denetiminde asistan, iki uydu
+teslimini taradı, yakınlık sayımlarını ayrı yöntemle
+doğruladı ve iki tarih için belediye kayıtlarını okudu.
+[Menderes arşiv denetimi](../MENDERES_RECURRENCE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

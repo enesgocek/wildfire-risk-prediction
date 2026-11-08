@@ -1588,6 +1588,11 @@ E176 — 8 Kasım. [Menderes Hona Boğazı denetimi](../MENDERES_HONA_CONTEXT_20
 dört sensör ve dakika toplamı taramalarla uyuştu. Tarihli
 kroki yer adı bağlamını güçlendirdi. Özgün tutuşma açık.
 
+E177 — 8 Kasım. [Menderes arşiv denetimi](../MENDERES_RECURRENCE_2026-11-08.md).
+İki FIRMS teslimi, üç merkez ve 12 yarıçap sayımı. 1 km
+içinde diğer günlerden üç benzersiz Type 0 kaydı var.
+İki belediye günü karşılaştırıldı. Olay kimliği açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Menderes tespitlerinin arşiv geçmişi denetlendi.**
+Kuzeydeki iki merkezin 1 km çevresinde 2022'den aynı tek
+kayıt, güneyde 2019'dan iki kayıt görüldü. Diğer gün
+kayıtlarının üçü de Type 0. Olay kimliği ve gözlem
+yeterliliği açık. [Menderes arşiv denetimi](MENDERES_RECURRENCE_2026-11-08.md).
+
+### Aynı gün Menderes Hona Boğazı denetimi
+
 **8 Kasım Menderes Hona Boğazı kaynakları ve uydu grupları denetlendi.**
 Tarihli kroki yer adlarını ilişkilendirdi. 5 km çevresindeki
 14 tespit dokuz ayarda 12 ve 2 olarak ayrıldı. Üç hücredeki
