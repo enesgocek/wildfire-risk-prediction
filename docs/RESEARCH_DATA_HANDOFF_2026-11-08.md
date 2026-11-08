@@ -30,6 +30,9 @@ okunmadı. Gözlem yeterliliği `unknown`, etiket izinleri kapalıdır.
 1. **Kaynağın kökeni ve kullanımı.** Olay kimliği, belge sürümü, kullanım
    izni, yer ve zaman alanlarının anlamı kaydedilir. Konum veya zamanın
    incelenen uydu tespitinden türetilip türetilmediği ayrıca kontrol edilir.
+   OGM kaynaklı bir envanterin açık dosyaları ambargo altında. Saat
+   verilmediğinde yerel tarih iki UTC penceresiyle ilişkilendirilir.
+   [Erişim ve iki vaka üzerinde tarih denetimi](JULY_REFERENCE_ACCESS_2026-11-08.md).
 2. **Olayı hedefle eşleme.** Başlangıç konumu veya konum belirsizliği,
    zaman aralığı ve saat standardı, ilk olay ile devam eden olay ayrımı ve
    başlangıç örtüsü birlikte incelenir. Belirsizlik birden fazla hücreye

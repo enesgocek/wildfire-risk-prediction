@@ -1218,6 +1218,11 @@ kesişimini denetledi. Ölçümler ve açık kabul koşulları ayrı
 kaydedildi.
 [Hedef kabul karşılaştırması](../JULY_CASE_ADMISSION_2026-11-08.md).
 
+8 Kasım kaynak erişimi incelemesinde asistan, yayımlanan
+envanter metadata ve dosya yanıtlarını doğruladı. Tarih ve
+saat bilgisinin UTC penceresine etkisini iki yöntemle hesapladı.
+[Erişim ve tarih denetimi](../JULY_REFERENCE_ACCESS_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

@@ -1611,6 +1611,11 @@ Menderes güneyde EFFIS poligonu iki hücrede. Anamur optik
 parçası tek hücrede ve keşif grubu iki UTC penceresinde.
 Beş hedef boş, bağımsız başlangıç ve değerlendirme kapsamı açık.
 
+E181 — 8 Kasım. [Erişim ve tarih denetimi](../JULY_REFERENCE_ACCESS_2026-11-08.md).
+Zenodo açık kaydı ambargolu, dosya listesi HTTP 403.
+2019–2020'nin 731 yerel takvim günü iki UTC penceresine
+dokunuyor. Menderes ve Anamur için özgün olay noktası açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

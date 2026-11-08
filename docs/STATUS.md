@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Temmuz vakaları için olay kaydı erişimi ve tarih etkisi denetlendi.**
+Zenodo idari envanterinde açık dosya sayısı sıfır ve dosya listesi
+erişim reddi verdi. Yalnız yerel tarih kullanıldığında 2019–2020'nin
+731 takvim gününün tamamı iki UTC hedef penceresine dokunuyor.
+Menderes ve Anamur için bağımsız başlangıç konumu açık.
+[Erişim ve tarih denetimi](JULY_REFERENCE_ACCESS_2026-11-08.md).
+
+### Aynı gün Temmuz vakalarında hedef kabulü
+
 **8 Kasım Menderes ve Anamur için hedef kabul karşılaştırması tamamlandı.**
 Beş ısıl tespitli hücre-günden üçü dokuz ayarda ilk uydu adayı.
 Menderes güneyde EFFIS alanının %83,4'ü ilk tespit hücresinin
