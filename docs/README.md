@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Eğitim dönemi örtü örneklemi](STRATIFIED_COVER_PILOT_2026-11-08.md) | 24 dengeli tespit, olay öncesi görüntü ve yerel örtü ön incelemesi |
 | [İlk tespitlerde örtü inceleme tablosu](CANDIDATE_COVER_READINESS_2026-11-08.md) | 71 noktada örtü aralıkları, tarihli görüntüler, araştırmacı ön notları ve inceleme önceliği |
 | [Merkez ve yaklaşık piksel çevresi](CANDIDATE_CENTER_FOOTPRINT_2026-11-08.md) | 71 ilk tespitte yönelim duyarlılığı ve merkez–örtü uyuşmazlığı |
 | [Urla kıyı tespiti](URLA_COASTAL_DETECTION_2026-11-08.md) | İki harita, iki olay öncesi görüntü ve piksel yönelimine duyarlılık |

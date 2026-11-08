@@ -1089,6 +1089,12 @@ denetledi, Aydıncık için iki yeni kesit aldı ve görsel
 saklandı. Yeni insan veya uzman onayı kaydedilmedi.
 [İnceleme tablosu](../CANDIDATE_COVER_READINESS_2026-11-08.md).
 
+8 Kasım eğitim dönemi örtü pilotunda asistan, örneklem ve
+yeniden okuma kodunu hazırladı, kaynakları ve kalite kayıtlarını
+denetledi ve doğal renk görüntülerine ön görünüm grubu verdi.
+İnsan veya uzman değerlendirmesi olarak kaydedilmedi.
+[Pilot yöntemi](../STRATIFIED_COVER_PILOT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

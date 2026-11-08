@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım eğitim dönemi örtü örneklemi incelendi.**
+Dört il ve altı yıl için 24 tespit görüntülere bakılmadan seçildi.
+Olay öncesi kesitlerin 24'ü de okundu. Görsel ön incelemede 5
+ağaçlık/çalılık, 5 tarımsal, 2 yapılaşma ve 12 karışık/belirsiz
+görünüm kaydedildi. 4 noktada yerel görüntü kalite işaretleri
+çevrenin yarısından fazlasını kaplıyor. Hedef kabulü açık.
+[Pilot ve dört görsel sayfası](STRATIFIED_COVER_PILOT_2026-11-08.md).
+
+### Aynı gün örtü inceleme tablosu
+
 **8 Kasım 71 tespit için örtü inceleme tablosu hazırlandı.**
 42 noktada olay öncesi görüntü, pilotta 13 noktada araştırmacı ön
 notu bağlandı. Aydıncık'ın üç yönelime duyarlı noktasında iki tarih

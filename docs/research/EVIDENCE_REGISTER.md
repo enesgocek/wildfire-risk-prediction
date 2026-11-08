@@ -1478,6 +1478,11 @@ E155 — 8 Kasım: [İlk tespit örtü inceleme tablosu](../CANDIDATE_COVER_READ
 yönelim örneklerinin iki tarihli kesitleri tamamlandı. Eksik
 yerel görüntüler ve kapalı kabul alanları korundu.
 
+E156 — 8 Kasım: [Eğitim dönemi örtü örneklemi](../STRATIFIED_COVER_PILOT_2026-11-08.md).
+4.858 noktalık çerçeve ve 24 önceden sabitlenen seçim. 24 yerel
+kesit çifti, dört görsel sayfası ve CORINE alan aralıkları.
+Ön görünüm yorumları, örtü kabulü ve olay etiketinden ayrı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
