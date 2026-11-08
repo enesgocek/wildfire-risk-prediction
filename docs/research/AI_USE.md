@@ -1127,6 +1127,10 @@ doğruladı, iki yöntemle tarama sınırlarını kontrol etti ve saklanan
 olay saatlerini UTC'ye çevirdi. Olay kimliği ve gerçek başlangıç
 kanıtı otomatik olarak atanmadı. [Pencere denetimi](../PU_TARGET_WINDOWS_2026-11-08.md).
 
+8 Kasım inceleme tesliminde asistan, beş mevcut dosyayı makbuzlarıyla
+doğruladı ve kanıt alım sırasını belgeledi. Ana hedefi koruma kararı
+araştırmacıya aittir. [İnceleme dosyaları](../RESEARCH_DATA_HANDOFF_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

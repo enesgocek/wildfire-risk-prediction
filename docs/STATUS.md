@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım araştırmacı gerçek yangın riski hedefini korumayı seçti.**
+400 satırlık özellik önizlemesi, sözlük, örneklem ve pencere tabloları
+tek girişte toplandı. Beş dosyanın makbuzlarıyla eşleştiği doğrulandı.
+Bağımsız olay ve değerlendirme kanıtı, nihai veri seti için açık koşuldur.
+[İnceleme dosyaları ve devam koşulları](RESEARCH_DATA_HANDOFF_2026-11-08.md).
+
+### Aynı gün 24 saatlik hedef penceresi
+
 **8 Kasım 24 saatlik hedef penceresi denetimi tamamlandı.**
 127 inceleme penceresi için 341 nominal gün paketi okundu. Sekiz
 pencerede kaynak dizisi eksikti. Bir pencerede sınırı kesen tarama

@@ -90,6 +90,11 @@ kararı ayrı kanıt türleri olarak tutuldu; 15 açık iş bağımlılıklarla 
 
 ## Açık bilimsel konular
 
+8 Kasım kapsam kararı. Araştırmacı 24 saatlik gerçek yeni orman ve
+çalılık yangını hedefini korudu. Mevcut inceleme paketi, bağımsız
+olay ve değerlendirme kanıtı beklenirken araştırma çıktısı olarak
+kullanılır. [İnceleme dosyaları ve devam koşulları](../RESEARCH_DATA_HANDOFF_2026-11-08.md).
+
 4 Kasım yöntem yönü: araştırmacı, kurumsal talep açmadan PU öğrenmenin
 uygulanabilirliğini araştırmayı seçti. Güvenilir pozitif tanımı, belirsiz
 havuzun temsili, etiketlenme mekanizması, sınıf oranı ve değerlendirme

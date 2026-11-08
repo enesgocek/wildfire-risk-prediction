@@ -1515,6 +1515,12 @@ E162 — 8 Kasım: [24 saatlik hedef için zaman ve olay kanıtı](../PU_TARGET_
 sınırını kesen tarama. Beş adayda ilk uydu günü uyumlu, bağımsız
 doğrulanmış başlangıç konumu sıfır. Gerçek olay değerlendirmesi açık.
 
+E163 — 8 Kasım. [Denetlenmiş araştırma verisi](../RESEARCH_DATA_HANDOFF_2026-11-08.md).
+Araştırmacı gerçek yeni orman ve çalılık yangını hedefini korudu.
+Beş inceleme dosyasının bağlı makbuzlarla eşleştiği ve dört tablodaki
+hedef alanlarının boş olduğu kontrol edildi. Karar kaydı ve dosya
+kontrolü, bağımsız olay kanıtından ayrıdır.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
