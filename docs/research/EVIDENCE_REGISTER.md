@@ -1498,6 +1498,12 @@ Altı kaynak saati ve 16.200 pencere. H12 ve H04 için farklı
 eşleşme aralıkları bulundu. Varsayımsal yanlış bağlantı payı
 ölçülmüş hata oranından ayrı tutuldu. Etiket kabulü açık.
 
+E160 — 8 Kasım: [PU takvimi ve nominal gözlem](../PU_CALENDAR_OBSERVATION_2026-11-08.md).
+72 ay, 2.899 hücre ve 2.191 gün. İki ertelenmiş kaynak günü ayrı
+tutuldu. Sensör sayıları mevcut tabloyla hücre-gün düzeyinde uyuştu.
+96 il-yıl-mevsim grubunun paydaları ayrıca doğrulandı. Hedef zaman
+uyumu ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

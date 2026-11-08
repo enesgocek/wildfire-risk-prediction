@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım tespitten bağımsız PU örnekleme çerçevesi doğrulandı.**
+2018–2023 için dört ilde 6.351.709 hücre-gün var. Ürün bulunan
+satırların %4,06'sında seçilen nominal kara merkezi sıfır. Pay kışın
+%9,13, yazın %1,15. İki ürün günü ertelenmiş durumda. Sıradaki adım,
+gözlem ve örtü farklarını koruyan, yangın adaylarından bağımsız bir
+inceleme örneklemi kurmak. Hedef zaman uyumu ve etiket kabulü açık.
+[Takvim ve sensör denetimi](PU_CALENDAR_OBSERVATION_2026-11-08.md).
+
+### Aynı gün PU olay bağlantısı duyarlılığı
+
 **8 Kasım olay bağlantılarının PU duyarlılığı ölçüldü.**
 Kemalpaşa daha dar saat ve mesafe denemesinde kalıyor. Kaş daha
 geniş zaman penceresinde eşleşiyor. İki güçlü bağlamın biri yanlış

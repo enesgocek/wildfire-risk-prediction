@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [PU örnekleme takvimi ve nominal uydu gözlemi](PU_CALENDAR_OBSERVATION_2026-11-08.md) | Tespitten bağımsız hücre-gün çerçevesi, il ve mevsim farkları, sensör katkısı |
 | [PU olay bağlantısı duyarlılığı](PU_LINK_SENSITIVITY_2026-11-08.md) | Saat ve mesafe denemeleri, yanlış bağlantı senaryosu ve yöntem seçenekleri |
 | [Örtü pilotunda olay bağlamı](STRATIFIED_EVENT_CANDIDATES_2026-11-08.md) | Beş adayın önceki tespitleri, uydu tarama pencereleri ve açık olay kaynakları |
 | [Örtü pilotunda ikinci tarih](STRATIFIED_COVER_ALTERNATE_DATES_2026-11-08.md) | Yedi tespitte yerel görüntü kalitesi ve örtü karışımının tekrarı |

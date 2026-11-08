@@ -1112,6 +1112,11 @@ doğruladı ve PU yöntem varsayımlarını birincil kaynaklardan
 kontrol etti. Senaryo payları ölçülmüş hata sayısı değildir.
 [Duyarlılık incelemesi](../PU_LINK_SENSITIVITY_2026-11-08.md).
 
+8 Kasım PU takvim denetiminde asistan, yangın adaylarını kullanmadan
+hücre ve günleri eşledi, yerel kaynakları doğruladı ve nominal gözlem
+sayılarını il, yıl, mevsim ve sensöre göre hesapladı. Çıktılar otomatik
+kontrollerdir. [Takvim denetimi](../PU_CALENDAR_OBSERVATION_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
