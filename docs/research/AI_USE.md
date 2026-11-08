@@ -1231,6 +1231,14 @@ yöntemiyle kontrol edildi. İdari kapsam karşılaştırması ve
 olay düzeyinde doğrulama ayrı tutuldu.
 [OGM il-yıl denetimi](../OGM_PROVINCE_YEAR_2026-11-08.md).
 
+### 8 Kasım açık vaka dağılımı
+
+Üç erken dönem vaka kaynağı yapay zekâ desteğiyle tarandı.
+Önceki dört vaka denetimi ve OGM il toplamları bir betikle
+karşılaştırıldı. Kaynak saatleri yaklaşık veya bildirilen
+değerler olarak korundu.
+[Vaka dağılımı ve kaynaklar](../PUBLIC_CASE_DISTRIBUTION_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

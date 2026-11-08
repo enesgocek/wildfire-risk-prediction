@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım açık vaka dağılımı dört il için denetlendi.**
+2018 Antalya ve Buca ile 2020 Menderes–Çile'den üç yeni
+bağlam eklendi. 23 kaydın 21'i Temmuz veya Ağustos'ta.
+24 il-yılın 13'ünde en az bir inceleme kaydı var.
+Eşleştirme incelemesine hazır başlangıç kaydı bulunmadı.
+[Açık vaka dağılımı](PUBLIC_CASE_DISTRIBUTION_2026-11-08.md).
+
+### Aynı gün OGM il-yıl toplamları
+
 **8 Kasım OGM il-yıl toplamlarının kapsam denetimi tamamlandı.**
 Dört il ve 2018–2023 için 24 satırda 4.449 kayıt sayıldı.
 15 satırda aynı adlı orman bölge müdürlüğü sayısı il

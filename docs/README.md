@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Açık yangın vakalarının dağılımı](PUBLIC_CASE_DISTRIBUTION_2026-11-08.md) | Üç yeni vaka, 23 seçili kayıt ve il-yıl kapsam farkları |
 | [OGM il-yıl kapsam denetimi](OGM_PROVINCE_YEAR_2026-11-08.md) | Dört il için yıllık toplamlar, idari sınır farkları ve olay listesiyle karşılaştırma |
 | [Temmuz vakalarında referans erişimi](JULY_REFERENCE_ACCESS_2026-11-08.md) | Envanter erişimi, kaynak kapsamı ve yalnız tarihle UTC pencere belirsizliği |
 | [Menderes ve Anamur hedef kabul karşılaştırması](JULY_CASE_ADMISSION_2026-11-08.md) | Tam küme üyeliği, ilk aday hücre-günleri ve alan kesişimleri |

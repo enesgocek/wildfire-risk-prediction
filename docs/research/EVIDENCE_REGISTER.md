@@ -1622,6 +1622,11 @@ ve altı ulusal toplam iki ayrı okuyucuyla doğrulandı.
 15 karşılaştırmada il ve aynı adlı bölge sayıları farklı.
 Olay düzeyi kanıtı ve günlük gözlem yeterliliği açık.
 
+E183 — 8 Kasım. [Açık vaka dağılımı](../PUBLIC_CASE_DISTRIBUTION_2026-11-08.md).
+Üç açık vaka bağlamı, önceki 20 kayıtla birlikte 24 il-yıl
+çerçevesine yerleştirildi. 23 kaydın 21'i Temmuz veya Ağustos'ta.
+Eşleştirme incelemesine hazır başlangıç kaydı bulunmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
