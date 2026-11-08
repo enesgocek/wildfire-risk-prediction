@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Menderes Hona Boğazı denetimi](MENDERES_HONA_CONTEXT_2026-11-08.md) | 2023 vaka kaynakları, tarihli kroki, dokuz gruplama ve üç hücrenin tarama kayıtları |
 | [İzmir Temmuz olay denetimi](IZMIR_JULY_EVENT_CONTEXT_2026-11-08.md) | Dört vaka, ekip çıkışları, aynı dakika ve yer duyarlılığı |
 | [İzmir müdahale kayıtlarının kapsamı](IZMIR_DISPATCH_COVERAGE_2026-11-08.md) | 2023 dosyası, API ve yıllık rapor arasındaki kayıt farkı |
 | [Anamur UTC pencere denetimi](ANAMUR_OBSERVATION_WINDOWS_2026-11-08.md) | Bir hücrede iki 24 saatlik pencere, üç tarama ve beş katalog kaydının uyumu |

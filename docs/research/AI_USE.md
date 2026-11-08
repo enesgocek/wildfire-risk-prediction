@@ -1191,6 +1191,11 @@ belediye ekip çıkışlarından ayrı kaydetti ve altı harita referansı
 için yerel tespit sayımlarını iki yöntemle denetledi.
 [İzmir Temmuz olay denetimi](../IZMIR_JULY_EVENT_CONTEXT_2026-11-08.md).
 
+8 Kasım Menderes incelemesinde asistan, tarihli krokiyi ve
+olay kaynaklarını karşılaştırdı, katalog gruplarını ve yerel
+tarama toplamlarını özgün tablolardan denetledi.
+[Menderes Hona Boğazı denetimi](../MENDERES_HONA_CONTEXT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

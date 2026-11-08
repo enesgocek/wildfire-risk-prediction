@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Menderes Hona Boğazı kaynakları ve uydu grupları denetlendi.**
+Tarihli kroki yer adlarını ilişkilendirdi. 5 km çevresindeki
+14 tespit dokuz ayarda 12 ve 2 olarak ayrıldı. Üç hücredeki
+sensör ve dakika toplamları yerel taramalarla uyuştu.
+Fiziksel olay kimlikleri ve başlangıç noktası açık.
+[Menderes Hona Boğazı denetimi](MENDERES_HONA_CONTEXT_2026-11-08.md).
+
+### Aynı gün İzmir Temmuz olay denetimi
+
 **8 Kasım İzmir'de dört Temmuz 2023 olayının saat ve yer bağlamı denetlendi.**
 Kemalpaşa ve Menemen'de aynı ekip çıkışı (14.17) ve ilk seçili
 uydu dakikası (11.22 UTC) görüldü. Yer referansları 50,03 km

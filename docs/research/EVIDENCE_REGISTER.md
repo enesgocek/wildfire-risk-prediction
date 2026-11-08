@@ -1583,6 +1583,11 @@ Dört vaka, altı harita referansı ve 24 yer-zaman-yarıçap sayımı.
 Kemalpaşa ve Menemen'de ekip çıkışı ile ilk uydu dakikası aynı,
 yer referansları 50,03 km aralıklı. Özgün tutuşma açık.
 
+E176 — 8 Kasım. [Menderes Hona Boğazı denetimi](../MENDERES_HONA_CONTEXT_2026-11-08.md).
+14 tespit dokuz ayarda 12 ve 2 olarak ayrıldı. Üç hücrede
+dört sensör ve dakika toplamı taramalarla uyuştu. Tarihli
+kroki yer adı bağlamını güçlendirdi. Özgün tutuşma açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
