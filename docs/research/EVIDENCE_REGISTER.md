@@ -1660,6 +1660,11 @@ Altı yol referanslı iki görüntü çözümü ve 500 m çevre tek 5 km hücred
 Aynı UTC penceresinde 1 km içindeki ilk katalog adayı bildirilen
 başlangıçtan 74 dk sonra. İşaretin saha ölçümü ve kayıt kapsamı açık.
 
+E190 — 9 Kasım. [İzmir ve Mersin gözlem denetimi](../PUBLIC_OBSERVATION_CONTEXT_2026-11-09.md).
+Kuşçular ekranındaki harita kesiti ve saatler doğrulandı. 479 Mersin
+satırı iki saat yorumu ve nominal gözlem ölçüleriyle karşılaştırıldı.
+Başlangıç konumu ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

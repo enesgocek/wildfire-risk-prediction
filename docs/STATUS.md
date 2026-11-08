@@ -1,9 +1,18 @@
-# Proje durum raporu — 8 Kasım 2026
+# Proje durum raporu — 9 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**9 Kasım İzmir kamera kaydı ve Mersin gözlem bağlamı denetlendi.**
+Kuşçular ekranında iki ayrı saat okundu. Görünür kırmızı alan üç
+hücreyi kesiyor. Ekran dışı kesit korunduğunda altı hücre kalıyor.
+Mersin'de saat bağlantılı 479 arşiv satırı incelendi. Türkiye saati
+yorumunda, seçili kara merkezi ve 12 saatten kısa nominal aralık
+bulunan satırlarda başlangıç dakikasında veya sonrasında aynı hücrede
+aday 1 ha altında 16/308, en az 1 ha için 39/94. Birinci aşama açık.
+[İzmir ve Mersin gözlem denetimi](PUBLIC_OBSERVATION_CONTEXT_2026-11-09.md).
 
 **8 Kasım Manavgat Salur başlangıç işareti 5 km hücreye bağlandı.**
 Yayımlanmış işaret, iki görüntüde altı yol referansıyla konumlandırıldı.

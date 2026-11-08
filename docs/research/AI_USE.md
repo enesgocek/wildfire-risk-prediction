@@ -1285,6 +1285,13 @@ seçimi, iki konum hesabı ve katalog karşılaştırması yapay zekâ
 desteğiyle yürütüldü. Özgün saha koordinatı veya insan onayı
 olarak kaydedilmedi. [Salur denetimi](../SALUR_START_MARKER_2026-11-08.md).
 
+### 9 Kasım İzmir ve Mersin gözlem bağlamı
+
+Kuşçular ekranının görsel okuması, harita eşlemesi, Mersin arşivinin
+nominal tarama tablolarıyla karşılaştırması ve sayım kontrolleri yapay
+zekâ desteğiyle yürütüldü. Araştırmacı etiketi kabul edilmedi.
+[İzmir ve Mersin gözlem denetimi](../PUBLIC_OBSERVATION_CONTEXT_2026-11-09.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

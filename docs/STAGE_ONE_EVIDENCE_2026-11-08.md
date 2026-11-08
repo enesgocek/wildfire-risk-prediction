@@ -158,3 +158,12 @@ sonra 1 km çevrede ilk katalog adayı var. Saha raporundaki kızılçam ve
 maki bilgisi örtü için ayrı destek. İşaretin özgün ölçüm belirsizliği
 ve kayıt kapsamı açık. Yeni bir etiket kabul edilmedi.
 [Salur başlangıç işareti](SALUR_START_MARKER_2026-11-08.md).
+
+## 9 Kasım güncellemesi
+
+Kuşçular belediye ekranı, ayrı panel ve kamera saatleri sağlıyor.
+Ekran dışı kesit dahil edildiğinde mahalledeki altı hücre olası kalıyor.
+Mersin'de 479 arşiv satırının gözlem ve katalog bağlamı iki saat
+yorumuyla karşılaştırıldı. Küçük olaylarda uydu adayı daha seyrek.
+Başlangıç hücresi, saat ve değerlendirme kapsamı koşulları açık.
+[İzmir ve Mersin gözlem denetimi](PUBLIC_OBSERVATION_CONTEXT_2026-11-09.md).
