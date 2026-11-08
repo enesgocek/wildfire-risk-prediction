@@ -1156,6 +1156,11 @@ etti. Özgün başlangıç noktası atanmadı.
 ve Marmaris ile Gülnar saha raporlarındaki ayrı iddiaları özetledi.
 [Açık yangın kayıtlarının alım denetimi](../PUBLIC_START_EVIDENCE_INTAKE_2026-11-08.md).
 
+8 Kasım açık kaynak kapsam denetiminde asistan, makalenin veri ekini
+okudu, açık resmî raporları karşılaştırdı, büyüklük oranlarını
+hesapladı ve yayımlanan olay saatlerini UTC'ye çevirdi.
+[Açık kaynak kapsam denetimi](../PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

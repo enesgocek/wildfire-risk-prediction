@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım açık yangın kaynaklarının olay ve kayıt kapsamı denetlendi.**
+2023'te Muğla ilinde kayda geçen 264 yangının 245'i bir hektardan
+küçük. 50 hektar üzerindeki iki Milas vakasının saatleri bulundu.
+Bir Anamur vakasında yerel tarih ve UTC günü ayrıldı. İncelenen
+kaynaklarda özgün başlangıç noktası ve temsil edici hücre-gün
+değerlendirme dayanağı bulunmadı.
+[Açık kaynak kapsam denetimi](PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md).
+
+### Aynı gün açık yangın kayıtlarının alım denetimi
+
 **8 Kasım seçili 11 açık yangın kaydının alım denetimi tamamlandı.**
 Dört ilin kayıtları ortak şemada karşılaştırıldı. 11 kayıt kaynak
 incelemesinde kaldı. Eşleştirme için özgün başlangıç konumu ve zaman

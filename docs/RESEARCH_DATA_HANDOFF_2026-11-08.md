@@ -40,7 +40,9 @@ okunmadı. Gözlem yeterliliği `unknown`, etiket izinleri kapalıdır.
    büyük yangınları içeren bir liste, küçük olaylar için yokluk kanıtı
    vermez. PU yaklaşımı için pozitif kümenin niteliği, pozitiflerin nasıl
    seçildiği ve olay sıklığına ilişkin dayanak ayrıca sınanır. Tek bir
-   güçlü olay eşleşmesi değerlendirme kümesini açmaz.
+   güçlü olay eşleşmesi değerlendirme kümesini açmaz. Muğla'daki
+   resmî büyüklük dağılımı, büyük olay seçiminin etkisini sayıyla
+   gösterir. [Açık kaynak kapsam denetimi](PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md).
 4. **Parçaların son kontrolü ve onay.** Hedef protokolü kabul edilebilirse
    meteoroloji, arazi/örtü, bitki örtüsü, gözlem ve hedef parçaları güncel
    dosya kimliği, anahtar, şema, eksik değer, zaman ve dönem ayrımıyla

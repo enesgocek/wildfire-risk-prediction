@@ -1546,6 +1546,12 @@ Dört makbuzun kimliği kontrol edildi. Dört ilde 11 vaka kaydı,
 özgün başlangıç konumu ve zaman sınırı açık olduğu için kaynak
 incelemesinde kaldı. Temsil edici olay kapsamı belgelenmedi.
 
+E169 — 8 Kasım. [Açık kaynak kapsam denetimi](../PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md).
+Muğla ilinin 2023 raporunda 264 kaydın 245'i bir hektardan küçük.
+İki büyük Milas ve bir Anamur vakasının saatleri UTC'ye çevrildi.
+Makale ekinin yedi sayfası incelendi. Özgün başlangıç ve hücre-gün
+değerlendirme koşulları açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
