@@ -1106,6 +1106,12 @@ haberlerini karşılaştırdı. Yaklaşık yerleşim konumlarını ve EFFIS
 sınırını kesin tutuşma yeri olarak kullanmadı.
 [Olay bağlamı](../STRATIFIED_EVENT_CANDIDATES_2026-11-08.md).
 
+8 Kasım PU bağlantı incelemesinde asistan, saat ve mesafe
+duyarlılığını hesapladı, katalog sayımını ayrı yöntemle
+doğruladı ve PU yöntem varsayımlarını birincil kaynaklardan
+kontrol etti. Senaryo payları ölçülmüş hata sayısı değildir.
+[Duyarlılık incelemesi](../PU_LINK_SENSITIVITY_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım olay bağlantılarının PU duyarlılığı ölçüldü.**
+Kemalpaşa daha dar saat ve mesafe denemesinde kalıyor. Kaş daha
+geniş zaman penceresinde eşleşiyor. İki güçlü bağlamın biri yanlış
+olsaydı varsayımsal havuzun yarısı etkilenirdi. Sonuçlar gözlem ve
+etiket kabulünden ayrı. [PU bağlantı denetimi](PU_LINK_SENSITIVITY_2026-11-08.md).
+
+### Aynı gün örtü pilotunda olay bağlamı
+
 **8 Kasım beş örtü pilotu tespiti olay bağlamıyla karşılaştırıldı.**
 Dokuz gruplamada ilk noktalar ve üyelikler sabit kaldı.
 20 uydu penceresi FIRMS sayılarıyla uyuştu. Kemalpaşa'da açık

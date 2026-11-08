@@ -1493,6 +1493,11 @@ E158 — 8 Kasım: [Örtü pilotunda beş olay bağlamı](../STRATIFIED_EVENT_CA
 Kemalpaşa müdahale satırı ve Kaş EFFIS yakınlığı ayrı tutuldu.
 Bağımsız başlangıç konumu ve etiket kabulü açık.
 
+E159 — 8 Kasım: [PU olay bağlantısı duyarlılığı](../PU_LINK_SENSITIVITY_2026-11-08.md).
+Altı kaynak saati ve 16.200 pencere. H12 ve H04 için farklı
+eşleşme aralıkları bulundu. Varsayımsal yanlış bağlantı payı
+ölçülmüş hata oranından ayrı tutuldu. Etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
