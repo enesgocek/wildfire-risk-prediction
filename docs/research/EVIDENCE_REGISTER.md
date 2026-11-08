@@ -1557,6 +1557,12 @@ Altı yer referansı ve 18 yarıçap karşılaştırması. Anamur'da beş
 tespit dokuz senaryoda aynı keşif kümesinde. OGM form alanları
 ve ihbar kanalları incelendi. Etiket ve özgün başlangıç açık.
 
+E171 — 8 Kasım. [Anamur olay öncesi örtüsü](../ANAMUR_PREEVENT_COVER_2026-11-08.md).
+Üç çevrede iki Sentinel-2 tarihi ve toplam yedi CORINE çevresi.
+İlk tespitte karışık örtü görünümü iki tarihte sürüyor. Aynı
+kümedeki beş merkezde orman/çalılık kod payı %3,7–70,8.
+Özgün başlangıç ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1166,6 +1166,11 @@ tanımlarını yerel grid ve katalogla karşılaştırdı. Anamur çevresinde
 mevcut gruplama senaryolarını denetledi ve OGM form alanlarını
 özetledi. [Temmuz 2023 başlangıç bağlamı](../JULY_2023_START_CONTEXT_2026-11-08.md).
 
+8 Kasım Anamur örtü incelemesinde asistan, iki tarihli yerel
+kesitleri üretti ve ön görsel yorum yaptı. SCL sayımları ve
+CORINE alan payları ayrı hesaplandı ve denetlendi.
+[Anamur olay öncesi örtüsü](../ANAMUR_PREEVENT_COVER_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

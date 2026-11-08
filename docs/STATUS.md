@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Anamur olay öncesi örtü incelemesi tamamlandı.**
+İki tarihte altı Sentinel-2 kesiti okundu. İlk tespit çevresinde
+orman/çalılık ile tarım-doğal örtü mozaiği birlikte görülüyor.
+Beş tespit çevresinde eski haritanın orman/çalılık kod payı
+%3,7–70,8. Başlangıç noktası ve ilk örtü açık kaldı.
+[Anamur örtü denetimi](ANAMUR_PREEVENT_COVER_2026-11-08.md).
+
+### Aynı gün Temmuz 2023 başlangıç bağlamı
+
 **8 Kasım üç Temmuz 2023 vakasının yer ve zaman duyarlılığı ölçüldü.**
 Anamur'da ilk katalog kaydı bildirilen yaklaşık saatten üç dakika
 sonra ve iki mevki temsil noktasının bulunduğu hücrede. Beş tespit
