@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım üç Temmuz 2023 vakasının yer ve zaman duyarlılığı ölçüldü.**
+Anamur'da ilk katalog kaydı bildirilen yaklaşık saatten üç dakika
+sonra ve iki mevki temsil noktasının bulunduğu hücrede. Beş tespit
+dokuz ayarda tek keşif kümesinde. Özgün konum ve başlangıç örtüsü
+açık. OGM kayıt şeması ile eldeki kamuya açık alanlar ayrıldı.
+[Temmuz 2023 vakaları ve kayıt kökeni](JULY_2023_START_CONTEXT_2026-11-08.md).
+
+### Aynı gün açık kaynak kapsamı
+
 **8 Kasım açık yangın kaynaklarının olay ve kayıt kapsamı denetlendi.**
 2023'te Muğla ilinde kayda geçen 264 yangının 245'i bir hektardan
 küçük. 50 hektar üzerindeki iki Milas vakasının saatleri bulundu.

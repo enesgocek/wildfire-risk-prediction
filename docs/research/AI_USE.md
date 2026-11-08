@@ -1161,6 +1161,11 @@ okudu, açık resmî raporları karşılaştırdı, büyüklük oranlarını
 hesapladı ve yayımlanan olay saatlerini UTC'ye çevirdi.
 [Açık kaynak kapsam denetimi](../PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md).
 
+8 Kasım Temmuz 2023 vakalarında asistan, yayımlanan zaman ve yer
+tanımlarını yerel grid ve katalogla karşılaştırdı. Anamur çevresinde
+mevcut gruplama senaryolarını denetledi ve OGM form alanlarını
+özetledi. [Temmuz 2023 başlangıç bağlamı](../JULY_2023_START_CONTEXT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

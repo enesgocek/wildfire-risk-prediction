@@ -1552,6 +1552,11 @@ Muğla ilinin 2023 raporunda 264 kaydın 245'i bir hektardan küçük.
 Makale ekinin yedi sayfası incelendi. Özgün başlangıç ve hücre-gün
 değerlendirme koşulları açık.
 
+E170 — 8 Kasım. [Temmuz 2023 başlangıç bağlamı](../JULY_2023_START_CONTEXT_2026-11-08.md).
+Altı yer referansı ve 18 yarıçap karşılaştırması. Anamur'da beş
+tespit dokuz senaryoda aynı keşif kümesinde. OGM form alanları
+ve ihbar kanalları incelendi. Etiket ve özgün başlangıç açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
