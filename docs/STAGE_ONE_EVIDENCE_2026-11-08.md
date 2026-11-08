@@ -123,3 +123,17 @@ proje hücresini kapsıyor ve başlangıç noktasını belirlemiyor.
 Kayıt kapsamı dört ilde değerlendirilebilir düzeye ulaşmadı.
 Birinci aşama açık ve ikinci aşama hedef kabulünü bekliyor.
 [Belediye kaynakları denetimi](OPEN_MUNICIPAL_REFERENCE_2026-11-08.md).
+
+## Mersin için açık idari olay arşivi
+
+Yüksek ve çalışma arkadaşlarının Zenodo arşivi Mersin
+Orman Bölge Müdürlüğü kayıtlarını CC BY 4.0 ile yayımlıyor.
+2018–2023 için 506 coğrafya satırı ve 500 olası saat bağlantısı
+denetlendi. Anonim kimliklerin iki tablo arasında uyuşmadığı,
+Gülnar ve Silifke'deki aynı saatli kayıtların ayrı başlangıçlar
+olarak sayılamadığı görüldü. Arşiv, Mersin için olay ve
+gözlem eşlemesini idari kanıtla sınamaya imkân veriyor.
+Saat standardı, konum belirsizliği, başlangıç örtüsü ve
+dört ildeki değerlendirme kapsamı için kanıt gerekir.
+Birinci aşama açık, etiket izinleri kapalı.
+[Mersin arşivi denetimi](MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md).

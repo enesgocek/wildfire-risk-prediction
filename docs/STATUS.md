@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Mersin açık idari olay arşivi denetlendi.**
+2018–2023 döneminde 506 coğrafya satırı, 505 saat satırı
+bulundu. Ortak görünen kimlikler iki tabloyu güvenilir biçimde
+bağlamıyor. Tarih, ilçe ve alanın iki tarafta tekil olduğu
+500 olası bağlantı ayrı denendi. Mersin sınırı içinde 485
+nokta tek bir proje hücresine düştü. Gülnar ve Silifke'nin
+aynı saatli iki satırı ile Anamur'daki saat ve alan farkı,
+özgün olay kimliği ve başlangıç koşullarının ayrıca
+sınanması gerektiğini gösteriyor. Birinci aşama devam ediyor.
+[Mersin arşivi denetimi](MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md).
+
 **8 Kasım açık belediye kaynaklarıyla birinci aşama sürdürüldü.**
 İzmir'in 2019–2022 dosyalarında 48.910 müdahale satırı ve
 iki ilgili belediye kategorisinde 1.018 satır sayıldı. Urla,

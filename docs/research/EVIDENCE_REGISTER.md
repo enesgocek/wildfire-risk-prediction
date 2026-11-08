@@ -1644,6 +1644,12 @@ uzlaştırıldı. Kuşçular sınırı altı proje hücresiyle kesişiyor.
 Aynı gün iki uydu merkezi tek hücrede. Belediye kaynakları
 başlangıç konumu ve değerlendirme kapsamını tamamlamadı.
 
+E187 — 8 Kasım. [Mersin açık idari olay arşivi](../MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md).
+Yayımlanan ZIP kimliği, 506 coğrafya satırı, 500 tekil
+olası saat bağlantısı ve iki zaman yorumuna göre konum, örtü
+ve katalog karşılaştırması doğrulandı. Kaynak etiket kabulü
+veya dört il için değerlendirme kapsamı sağlamadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

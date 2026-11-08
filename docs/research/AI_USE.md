@@ -1262,6 +1262,14 @@ karşılaştırması yapay zekâ desteğiyle yapıldı. Yer kamerası duyurusu,
 ekip çıkışı ve uydu tespiti ayrı kaynak bilgileri olarak saklandı.
 [Belediye kaynakları denetimi](../OPEN_MUNICIPAL_REFERENCE_2026-11-08.md).
 
+### 8 Kasım Mersin açık olay arşivi
+
+Makale ile Zenodo lisans ve dosya kimliğinin doğrulanması,
+iki olay tablosunun bağlantı denetimi ve konum, saat, örtü
+ve uydu karşılaştırmaları yapay zekâ desteğiyle yürütüldü.
+Olay kimliği ve zaman belirsizlikleri ayrıca kaydedildi.
+[Mersin arşivi denetimi](../MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

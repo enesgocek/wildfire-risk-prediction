@@ -10,6 +10,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
 | [Birinci aşamanın kanıt ve kabul durumu](STAGE_ONE_EVIDENCE_2026-11-08.md) | 72 aylık aday ve gözlem karşılaştırması, bağımsız kaynak erişimi ve hedef kabulü |
+| [Mersin açık idari olay arşivi](MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md) | 506 kayıt, saat ve konum dosyalarının bağlantısı, iki vaka ve kapsam denetimi |
 | [Belediye kaynakları denetimi](OPEN_MUNICIPAL_REFERENCE_2026-11-08.md) | İzmir 2019–2022 müdahaleleri, Kuşçular'ın konum sınırı ve Mersin raporları |
 | [Sonbahar yangın kayıtları](AUTUMN_REFERENCE_TABLES_2026-11-08.md) | Kasım 2018 ve Ekim 2019 tabloları, satır farkları ve alım sonucu |
 | [Açık yangın vakalarının dağılımı](PUBLIC_CASE_DISTRIBUTION_2026-11-08.md) | Üç yeni vaka, 23 seçili kayıt ve il-yıl kapsam farkları |
