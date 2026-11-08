@@ -1186,6 +1186,11 @@ seçili alanlarını karşılaştırdı, yıllık rapor toplamlarını kontrol
 etti ve dosya sayımını ikinci bir okuyucuyla doğruladı.
 [İzmir müdahale kayıtlarının kapsamı](../IZMIR_DISPATCH_COVERAGE_2026-11-08.md).
 
+8 Kasım İzmir Temmuz vaka denetiminde asistan, açık saha saatlerini
+belediye ekip çıkışlarından ayrı kaydetti ve altı harita referansı
+için yerel tespit sayımlarını iki yöntemle denetledi.
+[İzmir Temmuz olay denetimi](../IZMIR_JULY_EVENT_CONTEXT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

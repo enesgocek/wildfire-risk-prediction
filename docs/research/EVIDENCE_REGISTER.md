@@ -1578,6 +1578,11 @@ E174 — 8 Kasım. [İzmir müdahale kayıtlarının kapsamı](../IZMIR_DISPATCH
 eşleşen 12.250 API satırına ek olarak dosyada 736 satır var.
 Bu fark kaynak yayınına ait. Etiket ve tutuşma konumu açık.
 
+E175 — 8 Kasım. [İzmir Temmuz olay denetimi](../IZMIR_JULY_EVENT_CONTEXT_2026-11-08.md).
+Dört vaka, altı harita referansı ve 24 yer-zaman-yarıçap sayımı.
+Kemalpaşa ve Menemen'de ekip çıkışı ile ilk uydu dakikası aynı,
+yer referansları 50,03 km aralıklı. Özgün tutuşma açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

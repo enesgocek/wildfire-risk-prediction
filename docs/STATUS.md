@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım İzmir'de dört Temmuz 2023 olayının saat ve yer bağlamı denetlendi.**
+Kemalpaşa ve Menemen'de aynı ekip çıkışı (14.17) ve ilk seçili
+uydu dakikası (11.22 UTC) görüldü. Yer referansları 50,03 km
+aralıklı. Menderes'te iki harita noktasının 5 km sayımları
+14 ve 0. Özgün tutuşma noktası ve etiket kabulü açık.
+[İzmir Temmuz olay denetimi](IZMIR_JULY_EVENT_CONTEXT_2026-11-08.md).
+
+### Aynı gün İzmir müdahale kayıtlarının yayın kapsamı
+
 **8 Kasım İzmir'in 2023 müdahale kayıtlarının yayın kapsamı denetlendi.**
 İndirilebilir dosyadaki 12.986 kayıt yıllık raporla eşleşti.
 Açık API'de 736 satır eksik, bunların 607'si Aralık ayına ait.
