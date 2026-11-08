@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Manavgat küme çakışması](MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md) | Dokuz uydu gruplamasında ortak kümeler ve açık başlangıç geometrisi kontrolü |
 | [Manavgat başlangıç denetimi](MANAVGAT_REPORTED_STARTS_2026-11-08.md) | OGM kökenli yedi saat, yaklaşık konum ve uydu gruplama duyarlılığı |
 | [Antalya açık olay referansı](OPEN_REFERENCE_ANTALYA_2026-11-08.md) | 11 kayıt temelli vaka, Kuyucak uydu karşılaştırması ve erişim sınırları |
 | [Denetlenmiş araştırma verisi](RESEARCH_DATA_HANDOFF_2026-11-08.md) | İnceleme dosyalarına tek giriş, hedef kararı ve yeni kanıtın alım sırası |

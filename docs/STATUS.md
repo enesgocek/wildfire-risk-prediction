@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Manavgat uydu kümelerinin vaka çakışması ölçüldü.**
+Vaka 3 ve 4'ün 1 km içindeki uydu satırları ayrı olmasına rağmen
+dokuz keşif ayarında aynı tek kümeye düştü. Açık harita katmanlarında
+başlangıç saati ve özgün nokta alanı bulunmadı. Olay kimliği ve etiket
+kabulü açık. [Küme çakışması](MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md).
+
+### Aynı gün Manavgat başlangıç saatleri
+
 **8 Kasım Manavgat'ta yedi kayıt temelli başlangıç saati doğrulandı.**
 Yaklaşık harita konumlarının altısında 1 km senaryosu birden çok
 hücreye dokundu. 2 km içinde tespit olan altı vakanın üçünde daha

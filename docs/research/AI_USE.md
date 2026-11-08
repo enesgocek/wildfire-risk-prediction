@@ -1141,6 +1141,11 @@ ve simgelerini elle okudu. Saat dönüşümünü, yarıçap senaryolarını
 ve mevcut uydu gruplarını kodla denetledi. Harita okuması yaklaşık
 olarak kaydedildi. [Manavgat başlangıç denetimi](../MANAVGAT_REPORTED_STARTS_2026-11-08.md).
 
+8 Kasım Manavgat küme denetiminde asistan açık katman şemalarını
+okudu ve dokuz mevcut gruplamada ortak küme çiftlerini hesapladı.
+Özgün başlangıç noktası veya fiziksel olay eşleşmesi atanmadı.
+[Küme çakışması](../MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

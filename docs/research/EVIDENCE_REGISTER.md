@@ -1531,6 +1531,11 @@ OGM kökenli yedi başlangıç saati ve 21 mesafe senaryosu. Saat
 doğrulaması ayrı, özgün koordinat ve olay eşlemesi açık. Bir vakada
 iki komşu hücrenin gözlem tanıları karşılaştırıldı. Etiket kabulü açık.
 
+E166 — 8 Kasım. [Manavgat küme çakışması](../MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md).
+Yedi kaynak başlangıcı, üç arama yarıçapı ve dokuz keşif gruplaması.
+Vaka 3 ve 4'ün ayrı tespit anahtarları aynı tek kümeye düştü. Açık
+katmanlarda başlangıç noktası/saat alanı bulunmadı. Etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
