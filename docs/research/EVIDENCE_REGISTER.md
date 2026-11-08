@@ -1468,6 +1468,11 @@ Dört harita/görüntü ölçümünde 180 yönelim, kara ve suyu birlikte
 kapsıyor. Katalog boyutu ve sabit merkez varsayımıyla sınırlı.
 Ham piksel geometrisi, tutuşma ve etiket doğrulaması açık.
 
+E154 — 8 Kasım: [Merkez ve yaklaşık piksel çevresi](../CANDIDATE_CENTER_FOOTPRINT_2026-11-08.md).
+71 farklı nokta, 12.780 varsayımsal dikdörtgen. Pilot ve iki açık
+olay ayrı raporlandı. Bağımsız alan algoritması aynı rasterdaki pay
+aralığı uçlarını doğruladı. Kapsam eşiği ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

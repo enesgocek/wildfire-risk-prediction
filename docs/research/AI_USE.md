@@ -1076,6 +1076,12 @@ yönelimlerinin rasterla kesişimini hesaplayan kodu yazıp
 katalog kayıtlarını aradı. Sonuç uzman örtü onayı sayılmaz.
 [Kıyı denetimi](../URLA_COASTAL_DETECTION_2026-11-08.md).
 
+8 Kasım merkez ve yaklaşık çevre karşılaştırmasında asistan,
+71 noktada alan kesişimlerini hesaplayan kodu hazırladı ve
+exactextract ile ayrı sayısal kontrol yürüttü. Çıktı, araştırmacı
+örtü yorumu veya etiket kabulü içermez.
+[Ölçüm yöntemi](../CANDIDATE_CENTER_FOOTPRINT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

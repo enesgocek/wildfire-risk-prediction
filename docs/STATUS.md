@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım merkez–yaklaşık alan farkı 71 ilk tespitte ölçüldü.**
+Pilot örnekte %50 karşılaştırması merkez ve poligonda aynı toplamı,
+ancak farklı iki sonucu verdi. Aydıncık'ta üç nokta yönelime duyarlı.
+Urla'nın deniz kodlu merkezi yaklaşık alanda kara ve suyu birlikte
+kapsıyor. Tespitler ve belirsizlik korunuyor. Hedef kabulü açık.
+[Merkez ve çevre denetimi](CANDIDATE_CENTER_FOOTPRINT_2026-11-08.md).
+
+### Aynı gün Urla kıyı tespiti
+
 **8 Kasım Urla'daki kıyı tespiti yeniden incelendi.**
 410 × 450 m katalog boyutlarıyla 180 yönelim denendi. İki harita ve
 iki olay öncesi Sentinel-2 görüntüsünde bütün örnek yönelimler kara
