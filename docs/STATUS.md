@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım birinci aşamada gözlem koşulları 72 ay için karşılaştırıldı.**
+7.610 katalog adayı ve tam 2018–2023 hücre-gün takvimi birlikte
+incelendi. İl, yıl ve mevsim dağılımı eşitlendiğinde 12 saatlik
+nominal gözlem boşluğu adaylarda %10,46 ve karşılaştırma grubunda
+%24,59. Bağımsız olay konumu ve değerlendirme kapsamı açık.
+[Birinci aşamanın kanıt ve kabul durumu](STAGE_ONE_EVIDENCE_2026-11-08.md).
+
+### Aynı gün sonbahar yangın tabloları
+
 **8 Kasım sonbahar yangın tabloları denetlendi.**
 Kasım 2018 ve Ekim 2019 tablolarında dört il için 98
 satır ayrıldı. İki Antalya satırında metin görünümleri

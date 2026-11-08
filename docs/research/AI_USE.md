@@ -1246,6 +1246,14 @@ iki metin görünümü karşılaştırıldı. Satır farkları korunarak
 uyuşan kayıtlar mevcut alım kurallarıyla denetlendi.
 [Sonbahar kayıt denetimi](../AUTUMN_REFERENCE_TABLES_2026-11-08.md).
 
+### 8 Kasım birinci aşama gözlem karşılaştırması
+
+Aylık gözlem ve aday kataloglarının birleştirilmesi,
+karşılaştırma hesabı ve kamuya açık erişim kontrolü yapay
+zekâ desteğiyle yürütüldü. İdari kaynak durumu ile
+bilimsel kabul koşulları ayrı kaydedildi.
+[Birinci aşama kanıt kaydı](../STAGE_ONE_EVIDENCE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

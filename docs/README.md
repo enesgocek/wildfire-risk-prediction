@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Birinci aşamanın kanıt ve kabul durumu](STAGE_ONE_EVIDENCE_2026-11-08.md) | 72 aylık aday ve gözlem karşılaştırması, bağımsız kaynak erişimi ve hedef kabulü |
 | [Sonbahar yangın kayıtları](AUTUMN_REFERENCE_TABLES_2026-11-08.md) | Kasım 2018 ve Ekim 2019 tabloları, satır farkları ve alım sonucu |
 | [Açık yangın vakalarının dağılımı](PUBLIC_CASE_DISTRIBUTION_2026-11-08.md) | Üç yeni vaka, 23 seçili kayıt ve il-yıl kapsam farkları |
 | [OGM il-yıl kapsam denetimi](OGM_PROVINCE_YEAR_2026-11-08.md) | Dört il için yıllık toplamlar, idari sınır farkları ve olay listesiyle karşılaştırma |
