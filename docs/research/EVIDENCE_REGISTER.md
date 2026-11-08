@@ -1504,6 +1504,12 @@ tutuldu. Sensör sayıları mevcut tabloyla hücre-gün düzeyinde uyuştu.
 96 il-yıl-mevsim grubunun paydaları ayrıca doğrulandı. Hedef zaman
 uyumu ve etiket kabulü açık.
 
+E161 — 8 Kasım: [PU inceleme örneklemi](../PU_CALENDAR_SAMPLE_2026-11-08.md).
+96 il-yıl-mevsim örneği ve 31 ayrı tanı satırı. Onaylı tam su kuralı
+ana seçimde uygulandı. Kaynak boşluğu ve ölçülen sıfır ayrı tutuldu.
+Seçim olasılıkları ve tanı satırlarının kaynak değerleri doğrulandı.
+Hedef sütunu boş ve eğitim kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

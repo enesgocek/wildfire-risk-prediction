@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım yangın tespitinden bağımsız PU inceleme tabloları hazır.**
+96 il-yıl-mevsim örneği ve 31 ayrı tanı satırı doğrulandı. Tam su
+kuralı ana seçimde uygulandı. Orman/çalılık payı tanı olarak saklandı.
+Sırada hedef ve değerlendirme protokolünün kanıtla sınanması, ardından
+parça denetimi ve araştırmacı onayı, son olarak birleştirme var.
+[İnceleme örneklemi ve kalan aşamalar](PU_CALENDAR_SAMPLE_2026-11-08.md).
+
+### Aynı gün PU örnekleme takvimi
+
 **8 Kasım tespitten bağımsız PU örnekleme çerçevesi doğrulandı.**
 2018–2023 için dört ilde 6.351.709 hücre-gün var. Ürün bulunan
 satırların %4,06'sında seçilen nominal kara merkezi sıfır. Pay kışın

@@ -1117,6 +1117,11 @@ hücre ve günleri eşledi, yerel kaynakları doğruladı ve nominal gözlem
 sayılarını il, yıl, mevsim ve sensöre göre hesapladı. Çıktılar otomatik
 kontrollerdir. [Takvim denetimi](../PU_CALENDAR_OBSERVATION_2026-11-08.md).
 
+8 Kasım PU örnekleme çalışmasında asistan, mevcut tam su kuralını
+uyguladı, sabit tohumlu grup seçimini yazdı ve iki inceleme tablosunu
+kaynaklarıyla denetledi. Örtü ve hedef kararı üretilmedi.
+[İnceleme örneklemi](../PU_CALENDAR_SAMPLE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
