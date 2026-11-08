@@ -1526,6 +1526,11 @@ E164 — 8 Kasım. [Antalya açık olay referansı](../OPEN_REFERENCE_ANTALYA_20
 temsil noktasına en yakın uygun NOAA-20 satırı 5,90 km uzakta.
 Olay kimliği, başlangıç koordinatı ve hedef kabulü açık.
 
+E165 — 8 Kasım. [Manavgat başlangıç denetimi](../MANAVGAT_REPORTED_STARTS_2026-11-08.md).
+OGM kökenli yedi başlangıç saati ve 21 mesafe senaryosu. Saat
+doğrulaması ayrı, özgün koordinat ve olay eşlemesi açık. Bir vakada
+iki komşu hücrenin gözlem tanıları karşılaştırıldı. Etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

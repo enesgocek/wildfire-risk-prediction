@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Manavgat'ta yedi kayıt temelli başlangıç saati doğrulandı.**
+Yaklaşık harita konumlarının altısında 1 km senaryosu birden çok
+hücreye dokundu. 2 km içinde tespit olan altı vakanın üçünde daha
+eski keşif kümesi bağlamı var. Özgün başlangıç geometrisi ve etiket
+kabulü açık. [Manavgat başlangıç denetimi](MANAVGAT_REPORTED_STARTS_2026-11-08.md).
+
+### Aynı gün Antalya açık olay kanıtı
+
 **8 Kasım açık Antalya olay kanıtı incelendi.**
 OGM kayıtlarından derlenen 11 tarihli vaka bağlamı bulundu. Kuyucak'ta
 aynı yerel günde 5 km içinde katalog satırı yok. 5,90 km'deki NOAA-20

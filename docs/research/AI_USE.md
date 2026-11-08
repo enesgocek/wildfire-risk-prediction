@@ -1136,6 +1136,11 @@ Kuyucak saha haberini yerel uydu kayıtlarıyla karşılaştırdı ve mesafe
 sayımını ikinci yöntemle doğruladı. Başlangıç konumu atanmadı.
 [Kaynak incelemesi](../OPEN_REFERENCE_ANTALYA_2026-11-08.md).
 
+8 Kasım Manavgat incelemesinde asistan yayının harita eksenlerini
+ve simgelerini elle okudu. Saat dönüşümünü, yarıçap senaryolarını
+ve mevcut uydu gruplarını kodla denetledi. Harita okuması yaklaşık
+olarak kaydedildi. [Manavgat başlangıç denetimi](../MANAVGAT_REPORTED_STARTS_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
