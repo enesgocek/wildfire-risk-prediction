@@ -1563,6 +1563,11 @@ E171 — 8 Kasım. [Anamur olay öncesi örtüsü](../ANAMUR_PREEVENT_COVER_2026
 kümedeki beş merkezde orman/çalılık kod payı %3,7–70,8.
 Özgün başlangıç ve etiket kabulü açık.
 
+E172 — 8 Kasım. [Anamur olay sonrası değişim](../ANAMUR_BURN_SIGNAL_2026-11-08.md).
+Beş Sentinel-2 ürünüyle üç dNBR çifti karşılaştırıldı. Ortak
+değişim yaması eşiklere göre 4,96–6,40 ha. İlk VIIRS merkezi
+yamadan 163–172 m uzakta. Özgün başlangıç, ilk örtü ve etiket açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

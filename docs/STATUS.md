@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Anamur'da olay sonrası spektral değişim karşılaştırıldı.**
+Üç Sentinel-2 tarih çiftinde aynı değişim alanı görüldü. Denenen
+eşiklere göre en büyük bitişik alan 4,96–6,40 ha. İlk VIIRS
+merkezi yamadan 163–172 m uzakta. Özgün başlangıç ve ilk örtü açık.
+[Anamur olay sonrası incelemesi](ANAMUR_BURN_SIGNAL_2026-11-08.md).
+
+### Aynı gün Anamur olay öncesi örtüsü
+
 **8 Kasım Anamur olay öncesi örtü incelemesi tamamlandı.**
 İki tarihte altı Sentinel-2 kesiti okundu. İlk tespit çevresinde
 orman/çalılık ile tarım-doğal örtü mozaiği birlikte görülüyor.

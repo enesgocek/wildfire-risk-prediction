@@ -1171,6 +1171,11 @@ kesitleri üretti ve ön görsel yorum yaptı. SCL sayımları ve
 CORINE alan payları ayrı hesaplandı ve denetlendi.
 [Anamur olay öncesi örtüsü](../ANAMUR_PREEVENT_COVER_2026-11-08.md).
 
+8 Kasım Anamur olay sonrası incelemesinde asistan, beş Sentinel-2
+ürününün yansıma dönüşümünü kontrol etti, üç dNBR karşılaştırması
+hesapladı ve değişim alanını CORINE ile karşılaştırdı.
+[Anamur olay sonrası değişim](../ANAMUR_BURN_SIGNAL_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

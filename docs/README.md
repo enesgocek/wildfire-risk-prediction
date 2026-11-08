@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Anamur olay sonrası değişim](ANAMUR_BURN_SIGNAL_2026-11-08.md) | Üç Sentinel-2 tarih çifti, değişim alanı ve tespit merkezi mesafesi |
 | [Anamur olay öncesi örtüsü](ANAMUR_PREEVENT_COVER_2026-11-08.md) | İki Sentinel-2 tarihi, beş tespit çevresinde CORINE ve başlangıç örtüsü belirsizliği |
 | [Temmuz 2023 başlangıç bağlamı](JULY_2023_START_CONTEXT_2026-11-08.md) | Milas ve Anamur yer duyarlılığı, UTC kayıtları ve OGM form alanları |
 | [Açık yangın kaynaklarının kapsamı](PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md) | Muğla büyüklük dağılımı, üç 2023 vakası ve açık yayın eklerinin sınırı |
