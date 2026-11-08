@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım sonbahar yangın tabloları denetlendi.**
+Kasım 2018 ve Ekim 2019 tablolarında dört il için 98
+satır ayrıldı. İki Antalya satırında metin görünümleri
+farklı. Uyuşan 96 satır, başlangıç konumu ve kaynak
+zaman standardı eksikleri nedeniyle kaynak incelemesinde.
+[Sonbahar kayıt denetimi](AUTUMN_REFERENCE_TABLES_2026-11-08.md).
+
+### Aynı gün açık vaka dağılımı
+
 **8 Kasım açık vaka dağılımı dört il için denetlendi.**
 2018 Antalya ve Buca ile 2020 Menderes–Çile'den üç yeni
 bağlam eklendi. 23 kaydın 21'i Temmuz veya Ağustos'ta.

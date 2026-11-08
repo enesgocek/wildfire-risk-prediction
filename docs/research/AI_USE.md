@@ -1239,6 +1239,13 @@ karşılaştırıldı. Kaynak saatleri yaklaşık veya bildirilen
 değerler olarak korundu.
 [Vaka dağılımı ve kaynaklar](../PUBLIC_CASE_DISTRIBUTION_2026-11-08.md).
 
+### 8 Kasım sonbahar kayıtları
+
+Tez arşivindeki iki tablo yapay zekâ desteğiyle tarandı ve
+iki metin görünümü karşılaştırıldı. Satır farkları korunarak
+uyuşan kayıtlar mevcut alım kurallarıyla denetlendi.
+[Sonbahar kayıt denetimi](../AUTUMN_REFERENCE_TABLES_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

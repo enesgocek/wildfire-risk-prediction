@@ -1627,6 +1627,12 @@ E183 — 8 Kasım. [Açık vaka dağılımı](../PUBLIC_CASE_DISTRIBUTION_2026-1
 çerçevesine yerleştirildi. 23 kaydın 21'i Temmuz veya Ağustos'ta.
 Eşleştirme incelemesine hazır başlangıç kaydı bulunmadı.
 
+E184 — 8 Kasım. [Sonbahar yangın kayıtları](../AUTUMN_REFERENCE_TABLES_2026-11-08.md).
+Tezin Kasım 2018 ve Ekim 2019 tablolarındaki 252 satırdan
+dört il için 98'i ayrıldı. İki metin farkı saklandı ve
+uyuşan 96 satır kaynak incelemesinde kaldı. Özgün başlangıç
+konumu ve doğrulanmış saat standardı açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -17,6 +17,7 @@ görülmediğini modelleyen ayrı deney bu çalışma planına alınmadı.
 | [127 pencerenin denetimi](../outputs/reports/dataset/pu_target_windows_v1/20261108T013906Z_90d21c5b/windows.csv) | Ana örneklem ve karşılaştırmaların UTC zaman sınırı ve kaynak boşluğu |
 | [11 açık vaka kaydının alım denetimi](PUBLIC_START_EVIDENCE_INTAKE_2026-11-08.md) | Dört il için başlangıç saati, konum bağlamı ve eşleştirme eksikleri |
 | [23 açık vaka kaydının dağılımı](PUBLIC_CASE_DISTRIBUTION_2026-11-08.md) | Yeni erken dönem vakaları ve inceleme listesinin il-yıl ve mevsim dağılımı |
+| [Sonbahar yangın tabloları](AUTUMN_REFERENCE_TABLES_2026-11-08.md) | 98 kaynak satırı, iki metin farkı ve 96 kaydın alım sonucu |
 
 İlk beş dosyanın SHA-256 değerleri bağlı makbuzlarla eşleşti. Dört tabloda
 satır sayıları ve hedef alanlarının boş olduğu tekrar kontrol edildi.
