@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Menderes'te örtü, mahalle sınırı ve EFFIS denetimi tamamlandı.**
+Kuzeyde üç eşikte en büyük değişim parçasının tamamı CORINE 2018'in
+sulanmayan ekilebilir arazi sınıfında. Kuzey parçası EFFIS alanından
+5,06–5,08 km uzakta. Güneyde 0,15 eşiğindeki 35,72 ha parçanın
+35,69 ha'sı EFFIS sınırında. İlçe müdahale kayıtları kuzey parçasına
+bağlanamadı. Tutuşma ve hedef kabulü açık.
+[Menderes örtü ve saha kaydı](MENDERES_PATCH_CONTEXT_2026-11-08.md).
+
+### Aynı gün Menderes optik karşılaştırması
+
 **8 Kasım Menderes'te olay öncesi ve sonrası optik karşılaştırma tamamlandı.**
 Beş Sentinel-2 sahnesinde güneyde 29,60–39,88 ha,
 kuzeyde 3,20–10,88 ha bitişik değişim parçaları ölçüldü.

@@ -1206,6 +1206,12 @@ kesitini okudu, yansıma ve değişim hesaplarını doğruladı ve
 iki tespit grubunun çevresini ayrı değerlendirdi.
 [Menderes optik denetimi](../MENDERES_BURN_SIGNAL_2026-11-08.md).
 
+8 Kasım Menderes örtü ve saha kaydı incelemesinde asistan
+yerel değişim parçalarını üç harita katmanıyla karşılaştırdı,
+kurum kayıtlarının kapsamını okudu ve hesapları ikinci
+okuma ve alan ölçümüyle kontrol etti.
+[Menderes örtü ve saha kaydı](../MENDERES_PATCH_CONTEXT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

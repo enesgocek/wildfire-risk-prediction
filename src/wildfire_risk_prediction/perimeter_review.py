@@ -13,8 +13,15 @@ from wildfire_risk_prediction.feature_join import require
 NS = {"ms": "http://mapserver.gis.umn.edu/mapserver", "gml": "http://www.opengis.net/gml"}
 
 
-def effis_gml(data):
+def effis_gml(data, *, fire_date_window=("2021-07-01", "2021-09-01")):
     """Read inspected WFS1.1/GML3 EPSG:4326 lat/lon; never resolve remote schemas."""
+    lower_date, upper_date = map(pd.Timestamp, fire_date_window)
+    require(
+        lower_date.tzinfo is None
+        and upper_date.tzinfo is None
+        and pd.Timestamp("2018-01-01") <= lower_date < upper_date <= pd.Timestamp("2024-01-01"),
+        "Requested dates must be in the training period",
+    )
     require(
         len(data) <= 10_000_000 and b"<!DOCTYPE" not in data and b"<!ENTITY" not in data,
         "Bounded XML without external entity declarations",
@@ -54,7 +61,7 @@ def effis_gml(data):
         require(
             start.tzinfo is None
             and end.tzinfo is None
-            and pd.Timestamp("2021-07-01") <= start < pd.Timestamp("2021-09-01")
+            and lower_date <= start < upper_date
             and start <= end < pd.Timestamp("2024-01-01"),
             "Filtered training period only",
         )

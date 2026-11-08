@@ -1598,6 +1598,13 @@ Beş Sentinel-2 sahnesi, üç olay çifti ve bir öncesi kontrol.
 Üç eşikte iki çevreye değen bitişik parça görülmedi.
 Kuzeydeki değişimin kaynağı ve özgün tutuşma açık.
 
+E179 — 8 Kasım. [Menderes örtü ve saha kaydı](../MENDERES_PATCH_CONTEXT_2026-11-08.md).
+Altı değişim parçası CORINE, belediye sınırı ve EFFIS ile
+karşılaştırıldı. Kuzey parçaları CORINE tarım sınıfında.
+Güneyde 0,15 eşiğindeki 35,72 ha parçanın 35,69 ha'sı EFFIS
+poligonuyla kesişti. Kuzey için ayrı saha eşleşmesi bulunmadı.
+Tutuşma konumu ve fiziksel olay kimliği açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

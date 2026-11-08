@@ -45,6 +45,15 @@ def test_wfs_latitude_longitude_axes_and_string_identity(kind):
     assert frame.geometry_valid.all()
 
 
+def test_explicit_training_window_preserves_default_scope_and_blocks_holdout():
+    data = gml().replace(b"2021-", b"2023-")
+    assert effis_gml(data, fire_date_window=("2023-07-28", "2023-07-29")).geometry_valid.all()
+    with pytest.raises(ValueError, match="Filtered training period"):
+        effis_gml(data)
+    with pytest.raises(ValueError, match="Requested dates"):
+        effis_gml(data, fire_date_window=("2023-07-28", "2025-01-01"))
+
+
 @pytest.mark.parametrize("change", ["future", "wrong_crs", "wrong_envelope", "entity", "unclosed"])
 def test_source_mismatch_or_unsafe_xml_rejected(change):
     data = gml()
