@@ -1181,6 +1181,11 @@ iki hedef penceresine ayırdı, katalog ve tarama sayımlarını
 karşılaştırdı ve sonucu günlük tablolardan ikinci kez hesapladı.
 [Anamur UTC pencere denetimi](../ANAMUR_OBSERVATION_WINDOWS_2026-11-08.md).
 
+8 Kasım İzmir yayın kapsamı denetiminde asistan, 2023 kaynağının
+seçili alanlarını karşılaştırdı, yıllık rapor toplamlarını kontrol
+etti ve dosya sayımını ikinci bir okuyucuyla doğruladı.
+[İzmir müdahale kayıtlarının kapsamı](../IZMIR_DISPATCH_COVERAGE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

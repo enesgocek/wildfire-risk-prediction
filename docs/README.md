@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [İzmir müdahale kayıtlarının kapsamı](IZMIR_DISPATCH_COVERAGE_2026-11-08.md) | 2023 dosyası, API ve yıllık rapor arasındaki kayıt farkı |
 | [Anamur UTC pencere denetimi](ANAMUR_OBSERVATION_WINDOWS_2026-11-08.md) | Bir hücrede iki 24 saatlik pencere, üç tarama ve beş katalog kaydının uyumu |
 | [Anamur olay sonrası değişim](ANAMUR_BURN_SIGNAL_2026-11-08.md) | Üç Sentinel-2 tarih çifti, değişim alanı ve tespit merkezi mesafesi |
 | [Anamur olay öncesi örtüsü](ANAMUR_PREEVENT_COVER_2026-11-08.md) | İki Sentinel-2 tarihi, beş tespit çevresinde CORINE ve başlangıç örtüsü belirsizliği |

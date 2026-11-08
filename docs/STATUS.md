@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım İzmir'in 2023 müdahale kayıtlarının yayın kapsamı denetlendi.**
+İndirilebilir dosyadaki 12.986 kayıt yıllık raporla eşleşti.
+Açık API'de 736 satır eksik, bunların 607'si Aralık ayına ait.
+Eksiklerde bir orman/fidanlık ve bir makilik/çalı müdahalesi
+var. Bu kaynak vaka bağlamında kullanılabilir. Tutuşma konumu
+ve bağımsız değerlendirme kapsamı açık.
+[İzmir müdahale kaydı denetimi](IZMIR_DISPATCH_COVERAGE_2026-11-08.md).
+
+### Aynı gün Anamur UTC pencere denetimi
+
 **8 Kasım Anamur tespitleri iki UTC penceresinde doğrulandı.**
 Beş katalog satırı sensör ve dakika toplamında üç taramayla
 eşleşti. Üç kayıt 10 Temmuz, iki kayıt 11 Temmuz UTC penceresinde.

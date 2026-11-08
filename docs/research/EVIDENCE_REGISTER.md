@@ -1573,6 +1573,11 @@ Dört kaynak gününden tek hücre ve iki hedef penceresi.
 Üç taramada beş kayıt sensör ve dakika toplamında eşleşti.
 Başlangıç konumu ve gözlem yeterliliği doğrulanmadı.
 
+E174 — 8 Kasım. [İzmir müdahale kayıtlarının kapsamı](../IZMIR_DISPATCH_COVERAGE_2026-11-08.md).
+2023 dosyası yıllık rapordaki 12.986 satırla uyuştu. Üç alanda
+eşleşen 12.250 API satırına ek olarak dosyada 736 satır var.
+Bu fark kaynak yayınına ait. Etiket ve tutuşma konumu açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
