@@ -1176,6 +1176,11 @@ CORINE alan payları ayrı hesaplandı ve denetlendi.
 hesapladı ve değişim alanını CORINE ile karşılaştırdı.
 [Anamur olay sonrası değişim](../ANAMUR_BURN_SIGNAL_2026-11-08.md).
 
+8 Kasım Anamur zaman denetiminde asistan, arşiv taramalarını
+iki hedef penceresine ayırdı, katalog ve tarama sayımlarını
+karşılaştırdı ve sonucu günlük tablolardan ikinci kez hesapladı.
+[Anamur UTC pencere denetimi](../ANAMUR_OBSERVATION_WINDOWS_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

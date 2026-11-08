@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Anamur tespitleri iki UTC penceresinde doğrulandı.**
+Beş katalog satırı sensör ve dakika toplamında üç taramayla
+eşleşti. Üç kayıt 10 Temmuz, iki kayıt 11 Temmuz UTC penceresinde.
+İlk ısıl geçişten önce hücredeki son kara destekli taramadan
+bu yana yaklaşık 10 saat 40 dakika geçmişti. Başlangıç ve
+gözlem yeterliliği açık, etiketler boş.
+[Anamur UTC pencere denetimi](ANAMUR_OBSERVATION_WINDOWS_2026-11-08.md).
+
+### Aynı gün Anamur olay sonrası değişim
+
 **8 Kasım Anamur'da olay sonrası spektral değişim karşılaştırıldı.**
 Üç Sentinel-2 tarih çiftinde aynı değişim alanı görüldü. Denenen
 eşiklere göre en büyük bitişik alan 4,96–6,40 ha. İlk VIIRS

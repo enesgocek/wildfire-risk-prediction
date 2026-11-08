@@ -1568,6 +1568,11 @@ Beş Sentinel-2 ürünüyle üç dNBR çifti karşılaştırıldı. Ortak
 değişim yaması eşiklere göre 4,96–6,40 ha. İlk VIIRS merkezi
 yamadan 163–172 m uzakta. Özgün başlangıç, ilk örtü ve etiket açık.
 
+E173 — 8 Kasım. [Anamur UTC pencere denetimi](../ANAMUR_OBSERVATION_WINDOWS_2026-11-08.md).
+Dört kaynak gününden tek hücre ve iki hedef penceresi.
+Üç taramada beş kayıt sensör ve dakika toplamında eşleşti.
+Başlangıç konumu ve gözlem yeterliliği doğrulanmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
