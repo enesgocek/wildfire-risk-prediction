@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım beş örtü pilotu tespiti olay bağlamıyla karşılaştırıldı.**
+Dokuz gruplamada ilk noktalar ve üyelikler sabit kaldı.
+20 uydu penceresi FIRMS sayılarıyla uyuştu. Kemalpaşa'da açık
+müdahale satırı, Kaş'ta yakın EFFIS sınırı bulundu. Beş tespitte
+bağımsız kesin başlangıç konumu ve etiket kabulü açık.
+[Olay denetimi](STRATIFIED_EVENT_CANDIDATES_2026-11-08.md).
+
+### Aynı gün örtü pilotunda ikinci tarih
+
 **8 Kasım örtü pilotunda yedi ikinci tarih denetlendi.**
 Kalite sorunu olan dört noktanın üçünde seçili işaretler azaldı.
 Üç örtü örneğinde açık zemin, ağaçlık veya düzenli parsel görünümü

@@ -1,0 +1,35 @@
+# Örtü pilotunda beş tespitin olay bağlamı — 8 Kasım 2026
+
+Ağaçlık görünümü desteklenen H03, H04, H12, H14 ve H22, önceki 24 noktalık örneklemden alındı. Bağımsız olay anlatısı, FIRMS zaman ve gruplaması, yerel uydu tarama desteği ve EFFIS sınırı ayrı tutuldu. Noktalar, 2019–2023 döneminden amaçlı bir alt örneklemdir. [Örtü pilotu](STRATIFIED_COVER_PILOT_2026-11-08.md).
+
+## Önceki tespit ve tarama denetimi
+
+Beş tespitin her biri dokuz gruplamada kendi kümesinin tek ilk noktasıydı. Her noktanın küme üyeliği de dokuz ayarda aynı kaldı. Tespit sayıları sırasıyla 2, 1, 1, 3 ve 2. Önceki 72 saatte hiçbirinde aynı hücrede veya 2 km içinde seçili Type 0 kaydı bulunmadı. Ayrıca iki FIRMS arşivinde Type 0 dışındaki türler ve düşük güvenli kayıtlar dahil tarandığında beş noktanın hiçbirinin 2 km çevresinde daha erken satır yoktu. Bu sonuçlar kaynak arşivler ve arama sınırıyla sınırlıdır.
+
+30 nominal gün paketiyle 20 hücre-gün penceresi okundu. Adaydan önceki 15 pencerede yüklü ve zaman aralığı kesin termal merkez sayısı sıfırdı. Aday günlerindeki sayılar 2, 1, 1, 3 ve 2 idi. Yirmi pencerenin tamamındaki sayı, aynı hücre ve UTC `(T,T+24 saat]` kuralıyla FIRMS'ten ayrı hesaplanarak uzlaştırıldı. Önceki pencerelerin her birinde, nominal kara merkezi tarama zarfları arasındaki en uzun boşluk **10,66–12,34 saat** aralığındaydı. Paketlerin okunması sürekli görüşü veya yeterli günlük gözlemi kanıtlamaz.
+
+## Açık olay kayıtları
+
+Uzaklıklar bildirilen yerleşim merkezine kuş uçuşu hesaplandı. Mahalle merkezi yangın çıkış noktası değildir. Saha haberlerindeki yaklaşık zamanlar Türkiye saati olarak yorumlandı. Haber kopyaları ayrı bağımsız olay kaynakları olarak sayılmadı.
+
+| Tespit | Açık olay bağlamı ve sınırı |
+|---|---|
+| **H03, Manavgat, 10 Kasım 2020** | Uzunkale–Tefekli'de yaklaşık 12.30'da başlayan ve ormana sıçrayan zeytinlik yangını bildirilmiş. Uydu saati 12.46. Tespit merkezi, haritadaki Uzunkale yerleşim noktasından yaklaşık 1,24 km uzakta. Aynı olay olasılığı var. Yangının tarımdan ormana geçtiği anlatısı, ormanda başladığını varsaymayı özellikle sakıncalı kılıyor. [Saha haberi](https://www.gazeteilksayfa.com/otlari-yakarken-yangin-cikti-15-donum-alan-etkilendi-92360h.htm) · [Yerleşim noktası](https://harita.org/antalya/manavgat/uzunkale-mahallesi/). |
+| **H04, Kaş, 15 Temmuz 2021** | DHA, Gökçeyazı–Hacılar Boğazı için yaklaşık 12.00 çıkış ve yaklaşık yarım saatte kontrol bildiriyor. Uydu saati 13.05. Mahalle merkezine yaklaşık 1,60 km. Tespitin aktif alev, süren sıcaklık veya başka bir kaynağa ait olması bu zamanlardan belirlenemez. [DHA saha haberinin yayımlanan kopyası](https://www.gunhaber.com.tr/haber/Kas-ta-orman-yangini-3-hektar-alan-zarar-gordu/485331) · [GeoNames yerleşim noktası](https://www.geonames.org/search.html?country=TR&q=Antalya&startRow=150). |
+| **H12, Kemalpaşa, 25 Temmuz 2023** | İHA, Hamzababa için yaklaşık 14.06 başlangıç ve 14.20 ilk müdahale bildiriyor. Belediye verisindeki o günün tek Kemalpaşa orman/fidanlık satırında ekip çıkışı 14.17. Uydu saati 14.22. Mahalle temsil noktasına yaklaşık 0,60 km. Üç kaynak zaman ve yer bağlamını güçlendiriyor. Belediyenin ekip çıkışı, haberdeki ilk müdahale ve uydu saati farklı olay kayıt türleridir. [İzmir Büyükşehir Belediyesi açık verisi](https://acikveri.bizizmir.com/en/dataset/izmir-itfaiyesi-yangin-mudahale-istatistigi/resource/f718e29e-0e3f-4b63-8019-e1920ca94330) · [İHA saha haberi](https://www.haberler.com/amp/izmir-de-iki-orman-yangini-birden-basladi-16154439-haberi/) · [Mahalle temsil noktası](https://mapcarta.com/32122134). |
+| **H14, Gülnar bağlamı, 8 Ağustos 2019** | Kuskan–Bademcik olayı ve 7–8 Ağustos'ta üç ilçede sekiz yangın bildiriliyor. Kuskan yerleşim noktasına yaklaşık 4,18 km. Çoklu olay bağlamı ve yayımlanma tarihinin tutuşma zamanı yerine kullanılamaması nedeniyle H14'e tek olay ataması yapılmadı. [Kuskan haberi](https://www.evrensel.net/haber/384548/mersinde-orman-yangini-gulnarda-3-hektar-kizilcam-ormani-zarar-gordu) · [Bölge müdürünün aktarılan açıklaması](https://www.yeniakit.com.tr/haber/mersinde-iki-gunde-cikan-8-orman-yangininda-yaklasik-40-hektar-alan-zarar-gordu-880874.htmlMersin) · [Kuskan yerleşim noktası](https://mapcarta.com/12956290). |
+| **H22, Milas, 2 Eylül 2021** | Kıyıkışlacık'ın batısında yaklaşık 13.30'da yangın bildiriliyor. Bir başka saha haberi Kıyıkışlacık–Gürçamlar arasında yaklaşık 13.00 veriyor. Uydu saati 13.37. Kıyıkışlacık yerleşim noktasına yaklaşık 3,74 km. Aynı gün Bodrum'da ayrı bir olay da var. Yer ve saat belirsizliği saklandı. [DHA saha haberinin yayımlanan kopyası](https://yenisitetest.cumhuriyet.com.tr/haber/muglanin-milas-ilcesinde-orman-yangini-1865601) · [İki olay ve ikinci saat](https://www.haber48.com.tr/milas-ve-bodrumda-orman-yangini/amp) · [Yerleşim noktası](https://www.haritatr.com/kiyikislacik-koyu-haritasi-m85b0). |
+
+2023 belediye tablosunda Kemalpaşa için 428 satır, 24–26 Temmuz aralığında altı satır döndü. 24 ve 26 Temmuz orman/fidanlık kayıtları H12'ye taşınmadı. İlk sorguda 2021'deki ekip saati alan adı 2023'e uygulanınca HTTP 409 döndü. Şema kontrol edilip doğru alanla sorgu tamamlandı. Sonuçta adres veya olay koordinatı alınmadı.
+
+## Kaş sınırı ve eşleştirme sınırı
+
+Yereldeki Temmuz–Ağustos 2021 EFFIS kesiti bu beş tespitten yalnız H04'ün gününü kapsıyor. Aynı günün en yakın EFFIS sınırı 51017 numaralı kayıttı. Merkez sınırın dışında ve yaklaşık **157 m** uzakta. FIRMS'in bildirdiği **480 × 650 m** boyutla kurulan 180 olası dikdörtgen yöneliminin hepsi sınıra temas etti ve alan kesişimi yaklaşık **%3,6–10,5** aralığındaydı. Bu sabit merkezli geometri deneyi, gerçek piksel köşelerini veya yangın başlangıcını ölçmez. EFFIS kaydının bildirdiği tarih ve saat olduğu gibi tutuldu. EFFIS ve FIRMS ortak uydu bilgisi kullanabileceğinden bu yakınlık bağımsız saha konumu sayılmadı. [EFFIS veri erişimi](https://forest-fire.emergency.copernicus.eu/applications/data-and-services).
+
+H12 ve H04 ayrıntılı eşleştirme için ilk sırada. H03'te yangının başladığı örtü, H14'te aynı dönemdeki çoklu olay, H22'de kesin yer ve saat ayrımı açık. Beş noktanın hiçbirinde bağımsız kaynaktan başlangıç koordinatı doğrulanmadı. Günlük gözlem `unknown`, pozitif ve negatif etiket izinleri `false`, hedef alanı boş. Bir sonraki iş, daha güçlü olay bağlantılarının pozitif–belirsiz yöntemde nasıl kullanılabileceği için karar seçeneklerini ve yanlış eşleşme etkisini hazırlamaktır.
+
+## Kontrol kaydı
+
+- Yerel uydu ve EFFIS denetimi `outputs/reports/dataset/stratified_event_candidate_v1/20261108T004510Z_5cca8b52/readback.json`, SHA-256 `95fe28b6c421797552a550d0461f18f3f8224e8a0e9f2ef08942aa82ad77bd57`.
+- Belediye API okuması `outputs/reports/dataset/izmir_dispatch_context_v1/20261108T004400Z_7094bbfd/readback.json`, SHA-256 `0adaa6638c320b276bd63860cc48f97956d6cd7fae4f82397b530eb75e4342c6`.
+- 37 girdi özeti, 45 küme kaydı, 30 iç paket ve 20 günlük sayım kontrol edildi. EFFIS tarih alanındaki değişken saniye biçimi ilk okumada ayrıştırma hatası verdi. ISO biçimiyle düzeltildi ve başarılı iki koşunun bilimsel alanları eşleşti. 51 ilgili test geçti.

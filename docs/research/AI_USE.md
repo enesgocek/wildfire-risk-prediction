@@ -1100,6 +1100,12 @@ alternatif kesit aldı, SCL paydalarını yeniden hesapladı ve görsel
 ön yorum yaptı. Yeni insan veya uzman onayı kaydedilmedi.
 [İkinci tarih incelemesi](../STRATIFIED_COVER_ALTERNATE_DATES_2026-11-08.md).
 
+8 Kasım örtü pilotu olay incelemesinde asistan, gruplama ve
+uydu pencerelerini denetledi, açık müdahale kaydı ve saha
+haberlerini karşılaştırdı. Yaklaşık yerleşim konumlarını ve EFFIS
+sınırını kesin tutuşma yeri olarak kullanmadı.
+[Olay bağlamı](../STRATIFIED_EVENT_CANDIDATES_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

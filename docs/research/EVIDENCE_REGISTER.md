@@ -1488,6 +1488,11 @@ Yedi tespit ve 14 olay öncesi kesit. Yerel SCL ölçümleri kaynak
 rasterlardan yeniden denetlendi. Örtü yorumu, bağımsız olay
 eşleşmesi ve hedef kabulünden ayrı tutuldu.
 
+E158 — 8 Kasım: [Örtü pilotunda beş olay bağlamı](../STRATIFIED_EVENT_CANDIDATES_2026-11-08.md).
+45 gruplama kaydı, 30 nominal paket ve 20 FIRMS karşılaştırması.
+Kemalpaşa müdahale satırı ve Kaş EFFIS yakınlığı ayrı tutuldu.
+Bağımsız başlangıç konumu ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
