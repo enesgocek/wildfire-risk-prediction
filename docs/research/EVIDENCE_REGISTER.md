@@ -1510,6 +1510,11 @@ ana seçimde uygulandı. Kaynak boşluğu ve ölçülen sıfır ayrı tutuldu.
 Seçim olasılıkları ve tanı satırlarının kaynak değerleri doğrulandı.
 Hedef sütunu boş ve eğitim kabulü açık.
 
+E162 — 8 Kasım: [24 saatlik hedef için zaman ve olay kanıtı](../PU_TARGET_WINDOWS_2026-11-08.md).
+127 pencere ve 341 nominal gün. Sekiz eksik kaynak dizisi ve bir gün
+sınırını kesen tarama. Beş adayda ilk uydu günü uyumlu, bağımsız
+doğrulanmış başlangıç konumu sıfır. Gerçek olay değerlendirmesi açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

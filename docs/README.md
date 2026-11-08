@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [24 saatlik hedef için zaman ve olay kanıtı](PU_TARGET_WINDOWS_2026-11-08.md) | 127 kesin pencere, beş olay adayının zaman ve kabul sınırı |
 | [PU inceleme örneklemi](PU_CALENDAR_SAMPLE_2026-11-08.md) | 96 dengeli örnek, 31 gözlem ve örtü tanısı, nihai veri seti için kalan aşamalar |
 | [PU örnekleme takvimi ve nominal uydu gözlemi](PU_CALENDAR_OBSERVATION_2026-11-08.md) | Tespitten bağımsız hücre-gün çerçevesi, il ve mevsim farkları, sensör katkısı |
 | [PU olay bağlantısı duyarlılığı](PU_LINK_SENSITIVITY_2026-11-08.md) | Saat ve mesafe denemeleri, yanlış bağlantı senaryosu ve yöntem seçenekleri |

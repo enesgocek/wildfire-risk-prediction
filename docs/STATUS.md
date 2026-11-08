@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım 24 saatlik hedef penceresi denetimi tamamlandı.**
+127 inceleme penceresi için 341 nominal gün paketi okundu. Sekiz
+pencerede kaynak dizisi eksikti. Bir pencerede sınırı kesen tarama
+kesin sayımı değiştirdi. Beş adayın zaman uyumu, bağımsız başlangıç
+konumu sağlamadı. Ana hedefin eğitim kabulü için bağımsız olay ve
+değerlendirme dayanağı açık. [Zaman ve olay kanıtı](PU_TARGET_WINDOWS_2026-11-08.md).
+
+### Aynı gün PU inceleme örneklemi
+
 **8 Kasım yangın tespitinden bağımsız PU inceleme tabloları hazır.**
 96 il-yıl-mevsim örneği ve 31 ayrı tanı satırı doğrulandı. Tam su
 kuralı ana seçimde uygulandı. Orman/çalılık payı tanı olarak saklandı.

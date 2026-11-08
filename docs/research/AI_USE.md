@@ -1122,6 +1122,11 @@ uyguladı, sabit tohumlu grup seçimini yazdı ve iki inceleme tablosunu
 kaynaklarıyla denetledi. Örtü ve hedef kararı üretilmedi.
 [İnceleme örneklemi](../PU_CALENDAR_SAMPLE_2026-11-08.md).
 
+8 Kasım hedef penceresi denetiminde asistan komşu gün paketlerini
+doğruladı, iki yöntemle tarama sınırlarını kontrol etti ve saklanan
+olay saatlerini UTC'ye çevirdi. Olay kimliği ve gerçek başlangıç
+kanıtı otomatik olarak atanmadı. [Pencere denetimi](../PU_TARGET_WINDOWS_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
