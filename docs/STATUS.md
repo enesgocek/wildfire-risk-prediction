@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım OGM il-yıl toplamlarının kapsam denetimi tamamlandı.**
+Dört il ve 2018–2023 için 24 satırda 4.449 kayıt sayıldı.
+15 satırda aynı adlı orman bölge müdürlüğü sayısı il
+sayısından farklı. Toplamlar ileride bir olay listesinin
+idari kapsamını kontrol etmeye yarar. Bağımsız olay
+başlangıcı ve günlük gözlem yeterliliği açık.
+[OGM il-yıl denetimi](OGM_PROVINCE_YEAR_2026-11-08.md).
+
+### Aynı gün Temmuz vakalarında açık kayıt erişimi
+
 **8 Kasım Temmuz vakaları için olay kaydı erişimi ve tarih etkisi denetlendi.**
 Zenodo idari envanterinde açık dosya sayısı sıfır ve dosya listesi
 erişim reddi verdi. Yalnız yerel tarih kullanıldığında 2019–2020'nin

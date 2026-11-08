@@ -1616,6 +1616,12 @@ Zenodo açık kaydı ambargolu, dosya listesi HTTP 403.
 2019–2020'nin 731 yerel takvim günü iki UTC penceresine
 dokunuyor. Menderes ve Anamur için özgün olay noktası açık.
 
+E182 — 8 Kasım. [OGM il-yıl kapsam denetimi](../OGM_PROVINCE_YEAR_2026-11-08.md).
+Yedi özgün XLSX sabitlendi. 2018–2023 için 24 il-yıl satırı
+ve altı ulusal toplam iki ayrı okuyucuyla doğrulandı.
+15 karşılaştırmada il ve aynı adlı bölge sayıları farklı.
+Olay düzeyi kanıtı ve günlük gözlem yeterliliği açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

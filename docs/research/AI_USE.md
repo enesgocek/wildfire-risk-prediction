@@ -1223,6 +1223,14 @@ envanter metadata ve dosya yanıtlarını doğruladı. Tarih ve
 saat bilgisinin UTC penceresine etkisini iki yöntemle hesapladı.
 [Erişim ve tarih denetimi](../JULY_REFERENCE_ACCESS_2026-11-08.md).
 
+### 8 Kasım OGM il-yıl toplamlarının denetimi
+
+Yedi açık kaynak dosyasının tespiti ve karşılaştırma betiği
+yapay zekâ desteğiyle yürütüldü. Sayılar iki ayrı XLSX okuma
+yöntemiyle kontrol edildi. İdari kapsam karşılaştırması ve
+olay düzeyinde doğrulama ayrı tutuldu.
+[OGM il-yıl denetimi](../OGM_PROVINCE_YEAR_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

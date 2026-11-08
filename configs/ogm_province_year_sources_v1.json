@@ -1,0 +1,40 @@
+{
+  "retrieved_at_utc": "2026-11-08T12:53:58.329342+00:00",
+  "sources": {
+    "province_2018": {
+      "sha256": "08fef09beff6c799b41d7ee1e979ad51cd91d13057a05ba853b825b00f0cdfd9",
+      "bytes": 22306,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/12.4%20%C4%B0llere%20g%C3%B6re%20orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2018.xlsx"
+    },
+    "province_2019": {
+      "sha256": "045bdb2948edfb0c2bf49921021aa11e1e2c318b4e135c1fe83f456ca4de9dfb",
+      "bytes": 22401,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/12.4%20%C4%B0llere%20g%C3%B6re%20orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2019.xlsx"
+    },
+    "province_2020": {
+      "sha256": "534a1469511461b4588bb72665422e51e076e2dc838cdd31b6f9c337f29745aa",
+      "bytes": 22415,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/12.4%20%C4%B0llere%20g%C3%B6re%20orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2020.xlsx"
+    },
+    "province_2021": {
+      "sha256": "0b011a7aeb36b62d6aac5016e7a7805dbb99446f732e9c1a4a13da3d0615cd03",
+      "bytes": 22474,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/12.4%20%C4%B0llere%20g%C3%B6re%20orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2021.xlsx"
+    },
+    "province_2022": {
+      "sha256": "0e09c0159ff39d0a9db1e449074f449b01292bbb06eeb12d940060c31eebde59",
+      "bytes": 22431,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/12.4%20%C4%B0llere%20g%C3%B6re%20orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2022.xlsx"
+    },
+    "province_2023": {
+      "sha256": "ce492c4ab71bd8581f3866731f3cb0adea7b8532026bd51561d0cc7dc7d7f05f",
+      "bytes": 25426,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/2.12%20%C4%B0llere%20g%C3%B6re%20orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2023.xlsx"
+    },
+    "regional_2023": {
+      "sha256": "a2094e45b9845369d547aa79b7cc9118ff8044424703088e10cbd2998214cf47",
+      "bytes": 27299,
+      "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/Ormancilikistatistikleri/2.11%20Orman%20yang%C4%B1nlar%C4%B1n%C4%B1n%20b%C3%B6lge%20m%C3%BCd%C3%BCrl%C3%BCklerine%20say%C4%B1sal%20da%C4%9F%C4%B1l%C4%B1m%C4%B1%2C2004-2023.xlsx"
+    }
+  }
+}

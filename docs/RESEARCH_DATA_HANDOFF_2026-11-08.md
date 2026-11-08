@@ -49,6 +49,10 @@ okunmadı. Gözlem yeterliliği `unknown`, etiket izinleri kapalıdır.
    güçlü olay eşleşmesi değerlendirme kümesini açmaz. Muğla'daki
    resmî büyüklük dağılımı, büyük olay seçiminin etkisini sayıyla
    gösterir. [Açık kaynak kapsam denetimi](PUBLIC_FIRE_SOURCE_COVERAGE_2026-11-08.md).
+   OGM'nin 2018–2023 il tablolarındaki 24 satır, aynı il
+   sınırı ve kayıt tanımıyla oluşturulmuş bir olay listesi
+   için toplu kapsam karşılaştırması sağlar.
+   [İl-yıl toplamları ve sınırları](OGM_PROVINCE_YEAR_2026-11-08.md).
    İzmir İtfaiyesinin aynı 2023 yayınına ait API ve indirilebilir
    dosyası 736 satır farklı. Yıllık raporla tutarlı dosya vaka
    bağlamı için kullanılır. [Yayın kapsamı karşılaştırması](IZMIR_DISPATCH_COVERAGE_2026-11-08.md).
