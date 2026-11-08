@@ -1655,6 +1655,11 @@ E188 — 8 Kasım. [Olay kimliği ve video denetimi](../INCIDENT_IDENTITY_PUBLIC
 denetlendi. Çile için incelenen videodaki İHA tarihi olay tarihiyle
 uyuşmadı. Kaynak satırlar korundu ve etiket kabul edilmedi.
 
+E189 — 8 Kasım. [Salur başlangıç işareti](../SALUR_START_MARKER_2026-11-08.md).
+Altı yol referanslı iki görüntü çözümü ve 500 m çevre tek 5 km hücrede.
+Aynı UTC penceresinde 1 km içindeki ilk katalog adayı bildirilen
+başlangıçtan 74 dk sonra. İşaretin saha ölçümü ve kayıt kapsamı açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

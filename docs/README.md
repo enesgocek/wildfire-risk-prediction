@@ -10,6 +10,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
 | [Birinci aşamanın kanıt ve kabul durumu](STAGE_ONE_EVIDENCE_2026-11-08.md) | 72 aylık aday ve gözlem karşılaştırması, bağımsız kaynak erişimi ve hedef kabulü |
+| [Salur başlangıç işareti denetimi](SALUR_START_MARKER_2026-11-08.md) | İki görüntüden hücre konumu, saha kronolojisi ve katalog gecikmesi |
 | [Olay kimliği ve video kaynağı denetimi](INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md) | Mersin'de 479 satırın yakınlık taraması, yayılma örneği ve Çile video tarihi |
 | [Mersin açık idari olay arşivi](MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md) | 506 kayıt, saat ve konum dosyalarının bağlantısı, iki vaka ve kapsam denetimi |
 | [Belediye kaynakları denetimi](OPEN_MUNICIPAL_REFERENCE_2026-11-08.md) | İzmir 2019–2022 müdahaleleri, Kuşçular'ın konum sınırı ve Mersin raporları |

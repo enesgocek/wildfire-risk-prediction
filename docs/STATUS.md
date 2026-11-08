@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Manavgat Salur başlangıç işareti 5 km hücreye bağlandı.**
+Yayımlanmış işaret, iki görüntüde altı yol referansıyla konumlandırıldı.
+İki çözüm 16,2 m arayla aynı hücrede; 500 m çevre tek hücrede,
+1 km çevre iki hücrede kaldı. Bildirilen 08.58 UTC'den sonra 1 km
+içindeki ilk katalog adayı 10.12 UTC'de. Harita işaretinin özgün
+ölçümü ve dört ildeki kayıt kapsamı açık. Etiket izinleri değişmedi.
+[Salur başlangıç işareti](SALUR_START_MARKER_2026-11-08.md).
+
 **8 Kasım Mersin olay kimliği ve İzmir video kaynağı denetlendi.**
 Mersin'de saati ve tek hücreye düşen konumu olan 479 arşiv satırında,
 60 dakika ve 5 km sınırında 7 çift, 5 inceleme grubu bulundu.

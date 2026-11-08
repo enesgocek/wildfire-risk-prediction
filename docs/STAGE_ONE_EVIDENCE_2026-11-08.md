@@ -148,3 +148,13 @@ incelenen video kopyasının İHA tarihi olay tarihiyle uyuşmadı.
 Özgün olay kimliği, zaman ve konum kanıtı ile değerlendirme kapsamı
 gereksinimleri sürüyor. Bu iki inceleme etiket kabulünü değiştirmedi.
 [Olay kimliği ve video denetimi](INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md).
+
+## Manavgat Salur için harita kanıtı
+
+Yayımlanmış başlangıç işareti altı yol referansıyla iki ayrı görüntüye
+eşlendi. Çözümler 16,2 m arayla aynı hücrede; 500 m çevre tek,
+1 km çevre iki hücrede. 08.58 UTC'de bildirilen başlangıçtan 74 dakika
+sonra 1 km çevrede ilk katalog adayı var. Saha raporundaki kızılçam ve
+maki bilgisi örtü için ayrı destek. İşaretin özgün ölçüm belirsizliği
+ve kayıt kapsamı açık. Yeni bir etiket kabul edilmedi.
+[Salur başlangıç işareti](SALUR_START_MARKER_2026-11-08.md).

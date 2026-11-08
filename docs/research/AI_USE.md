@@ -1278,6 +1278,13 @@ yapay zekâ desteğiyle yapıldı. Karşılaştırmalar otomatik olay birleştir
 veya araştırmacı etiket onayı olarak kullanılmadı.
 [Olay kimliği ve video denetimi](../INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md).
 
+### 8 Kasım Salur başlangıç işareti
+
+Saha raporu ve sunumun incelenmesi, yol referanslarının görsel
+seçimi, iki konum hesabı ve katalog karşılaştırması yapay zekâ
+desteğiyle yürütüldü. Özgün saha koordinatı veya insan onayı
+olarak kaydedilmedi. [Salur denetimi](../SALUR_START_MARKER_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
