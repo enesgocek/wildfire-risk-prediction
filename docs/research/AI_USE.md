@@ -1146,6 +1146,11 @@ okudu ve dokuz mevcut gruplamada ortak küme çiftlerini hesapladı.
 Özgün başlangıç noktası veya fiziksel olay eşleşmesi atanmadı.
 [Küme çakışması](../MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md).
 
+8 Kasım üç il incelemesinde asistan, kaynaklardaki saat ve konum
+anlamlarını ayırdı. Yerel katalog sayımlarını iki yöntemle kontrol
+etti. Özgün başlangıç noktası atanmadı.
+[Üç ilde başlangıç bağlamı](../THREE_PROVINCE_START_CONTEXT_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

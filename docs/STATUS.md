@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım İzmir, Muğla ve Mersin başlangıç kayıtları denetlendi.**
+Üç olayın zamanı ve altı yaklaşık konum karşılaştırıldı. Tırazlı'da
+2 km çevredeki aynı gün sayımı köy ve çalışma alanı konumları için
+0 ve 28 çıktı. Üç vaka için özgün başlangıç geometrisi ve hedef
+kabulü açık. [Üç ilde olay bağlamı](THREE_PROVINCE_START_CONTEXT_2026-11-08.md).
+
+### Aynı gün Manavgat uydu kümesi çakışması
+
 **8 Kasım Manavgat uydu kümelerinin vaka çakışması ölçüldü.**
 Vaka 3 ve 4'ün 1 km içindeki uydu satırları ayrı olmasına rağmen
 dokuz keşif ayarında aynı tek kümeye düştü. Açık harita katmanlarında

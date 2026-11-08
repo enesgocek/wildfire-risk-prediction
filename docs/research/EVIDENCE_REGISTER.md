@@ -1536,6 +1536,11 @@ Yedi kaynak başlangıcı, üç arama yarıçapı ve dokuz keşif gruplaması.
 Vaka 3 ve 4'ün ayrı tespit anahtarları aynı tek kümeye düştü. Açık
 katmanlarda başlangıç noktası/saat alanı bulunmadı. Etiket kabulü açık.
 
+E167 — 8 Kasım. [Üç ilde başlangıç bağlamı](../THREE_PROVINCE_START_CONTEXT_2026-11-08.md).
+Üç kaynak olayı, altı yaklaşık konum ve 18 katalog karşılaştırması.
+Köy, kıyı, mevki ve araştırma alanı noktaları ayrı yorumlandı.
+Özgün başlangıç geometrisi ve hedef kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Üç ilde başlangıç bağlamı](THREE_PROVINCE_START_CONTEXT_2026-11-08.md) | Tırazlı, Marmaris ve Gülnar için kaynak saati ve konum duyarlılığı |
 | [Manavgat küme çakışması](MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md) | Dokuz uydu gruplamasında ortak kümeler ve açık başlangıç geometrisi kontrolü |
 | [Manavgat başlangıç denetimi](MANAVGAT_REPORTED_STARTS_2026-11-08.md) | OGM kökenli yedi saat, yaklaşık konum ve uydu gruplama duyarlılığı |
 | [Antalya açık olay referansı](OPEN_REFERENCE_ANTALYA_2026-11-08.md) | 11 kayıt temelli vaka, Kuyucak uydu karşılaştırması ve erişim sınırları |
