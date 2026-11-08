@@ -1541,6 +1541,11 @@ E167 — 8 Kasım. [Üç ilde başlangıç bağlamı](../THREE_PROVINCE_START_CO
 Köy, kıyı, mevki ve araştırma alanı noktaları ayrı yorumlandı.
 Özgün başlangıç geometrisi ve hedef kabulü açık.
 
+E168 — 8 Kasım. [Açık yangın kayıtlarının alım denetimi](../PUBLIC_START_EVIDENCE_INTAKE_2026-11-08.md).
+Dört makbuzun kimliği kontrol edildi. Dört ilde 11 vaka kaydı,
+özgün başlangıç konumu ve zaman sınırı açık olduğu için kaynak
+incelemesinde kaldı. Temsil edici olay kapsamı belgelenmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım seçili 11 açık yangın kaydının alım denetimi tamamlandı.**
+Dört ilin kayıtları ortak şemada karşılaştırıldı. 11 kayıt kaynak
+incelemesinde kaldı. Eşleştirme için özgün başlangıç konumu ve zaman
+belirsizliği, değerlendirme için de temsil edici olay kapsamı açık.
+[Açık yangın kayıtlarının alım denetimi](PUBLIC_START_EVIDENCE_INTAKE_2026-11-08.md).
+
+### Aynı gün üç ilde olay başlangıcı
+
 **8 Kasım İzmir, Muğla ve Mersin başlangıç kayıtları denetlendi.**
 Üç olayın zamanı ve altı yaklaşık konum karşılaştırıldı. Tırazlı'da
 2 km çevredeki aynı gün sayımı köy ve çalışma alanı konumları için

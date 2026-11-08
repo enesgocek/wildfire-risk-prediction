@@ -9,6 +9,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | Belge | Sorumluluk |
 |---|---|
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
+| [Açık yangın kayıtlarının alım denetimi](PUBLIC_START_EVIDENCE_INTAKE_2026-11-08.md) | Dört ilde 11 kaynak kaydının eşleştirme ve kapsam eksikleri |
 | [Üç ilde başlangıç bağlamı](THREE_PROVINCE_START_CONTEXT_2026-11-08.md) | Tırazlı, Marmaris ve Gülnar için kaynak saati ve konum duyarlılığı |
 | [Manavgat küme çakışması](MANAVGAT_CLUSTER_OVERLAP_2026-11-08.md) | Dokuz uydu gruplamasında ortak kümeler ve açık başlangıç geometrisi kontrolü |
 | [Manavgat başlangıç denetimi](MANAVGAT_REPORTED_STARTS_2026-11-08.md) | OGM kökenli yedi saat, yaklaşık konum ve uydu gruplama duyarlılığı |
