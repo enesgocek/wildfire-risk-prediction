@@ -137,3 +137,14 @@ Saat standardı, konum belirsizliği, başlangıç örtüsü ve
 dört ildeki değerlendirme kapsamı için kanıt gerekir.
 Birinci aşama açık, etiket izinleri kapalı.
 [Mersin arşivi denetimi](MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md).
+
+## Olay kimliği ve video kanıtı
+
+Mersin'de uygun saat ve tek hücreli konumu olan 479 satırda,
+60 dakika ve 5 km sınırında 7 çift, 5 grup incelemeye ayrıldı.
+Açık vaka belgeleri, yakın satırların aynı olayın yayılmasıyla veya
+birden fazla başlangıçla ilişkili olabileceğini gösterdi. Çile için
+incelenen video kopyasının İHA tarihi olay tarihiyle uyuşmadı.
+Özgün olay kimliği, zaman ve konum kanıtı ile değerlendirme kapsamı
+gereksinimleri sürüyor. Bu iki inceleme etiket kabulünü değiştirmedi.
+[Olay kimliği ve video denetimi](INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md).

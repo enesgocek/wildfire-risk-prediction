@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım Mersin olay kimliği ve İzmir video kaynağı denetlendi.**
+Mersin'de saati ve tek hücreye düşen konumu olan 479 arşiv satırında,
+60 dakika ve 5 km sınırında 7 çift, 5 inceleme grubu bulundu.
+Açık vaka kayıtları hem ilçeler arası yayılmayı hem aynı gün birden
+çok başlangıcı gösteriyor; yakın satırlar birleştirilmedi. Çile olayını
+anlatan video kopyasında İHA karelerinin tarihi 27 Temmuz; 2 Ağustos
+olayına bu kopyadan konum atanmadı. Birinci aşama için bağımsız
+başlangıç ve kayıt kapsamı kanıtı açık.
+[Olay kimliği ve video denetimi](INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md).
+
 **8 Kasım Mersin açık idari olay arşivi denetlendi.**
 2018–2023 döneminde 506 coğrafya satırı, 505 saat satırı
 bulundu. Ortak görünen kimlikler iki tabloyu güvenilir biçimde

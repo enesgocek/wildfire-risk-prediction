@@ -1650,6 +1650,11 @@ olası saat bağlantısı ve iki zaman yorumuna göre konum, örtü
 ve katalog karşılaştırması doğrulandı. Kaynak etiket kabulü
 veya dört il için değerlendirme kapsamı sağlamadı.
 
+E188 — 8 Kasım. [Olay kimliği ve video denetimi](../INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md).
+479 Mersin satırı beş yakınlık senaryosuyla ve ikinci bir hesapla
+denetlendi. Çile için incelenen videodaki İHA tarihi olay tarihiyle
+uyuşmadı. Kaynak satırlar korundu ve etiket kabul edilmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

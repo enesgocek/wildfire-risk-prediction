@@ -1270,6 +1270,14 @@ ve uydu karşılaştırmaları yapay zekâ desteğiyle yürütüldü.
 Olay kimliği ve zaman belirsizlikleri ayrıca kaydedildi.
 [Mersin arşivi denetimi](../MERSIN_OPEN_INCIDENT_ARCHIVE_2026-11-08.md).
 
+### 8 Kasım olay kimliği ve video kaynağı
+
+Mersin arşivinin yakınlık taraması, bağımsız ikinci hesap, açık saha
+belgelerinin karşılaştırılması ve Çile video karelerinin tarih kontrolü
+yapay zekâ desteğiyle yapıldı. Karşılaştırmalar otomatik olay birleştirme
+veya araştırmacı etiket onayı olarak kullanılmadı.
+[Olay kimliği ve video denetimi](../INCIDENT_IDENTITY_PUBLIC_CHECK_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
