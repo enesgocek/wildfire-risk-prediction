@@ -1095,6 +1095,11 @@ denetledi ve doğal renk görüntülerine ön görünüm grubu verdi.
 İnsan veya uzman değerlendirmesi olarak kaydedilmedi.
 [Pilot yöntemi](../STRATIFIED_COVER_PILOT_2026-11-08.md).
 
+8 Kasım ikinci tarih incelemesinde asistan, sabit yedi tespitte
+alternatif kesit aldı, SCL paydalarını yeniden hesapladı ve görsel
+ön yorum yaptı. Yeni insan veya uzman onayı kaydedilmedi.
+[İkinci tarih incelemesi](../STRATIFIED_COVER_ALTERNATE_DATES_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

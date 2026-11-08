@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım örtü pilotunda yedi ikinci tarih denetlendi.**
+Kalite sorunu olan dört noktanın üçünde seçili işaretler azaldı.
+Üç örtü örneğinde açık zemin, ağaçlık veya düzenli parsel görünümü
+iki tarihte de izleniyor. Olay ve hedef kabulü açık.
+[İkinci tarih karşılaştırmaları](STRATIFIED_COVER_ALTERNATE_DATES_2026-11-08.md).
+
+### Aynı gün eğitim dönemi örtü örneklemi
+
 **8 Kasım eğitim dönemi örtü örneklemi incelendi.**
 Dört il ve altı yıl için 24 tespit görüntülere bakılmadan seçildi.
 Olay öncesi kesitlerin 24'ü de okundu. Görsel ön incelemede 5

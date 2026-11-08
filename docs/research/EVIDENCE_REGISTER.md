@@ -1483,6 +1483,11 @@ E156 — 8 Kasım: [Eğitim dönemi örtü örneklemi](../STRATIFIED_COVER_PILOT
 kesit çifti, dört görsel sayfası ve CORINE alan aralıkları.
 Ön görünüm yorumları, örtü kabulü ve olay etiketinden ayrı.
 
+E157 — 8 Kasım: [Örtü pilotunda ikinci tarih](../STRATIFIED_COVER_ALTERNATE_DATES_2026-11-08.md).
+Yedi tespit ve 14 olay öncesi kesit. Yerel SCL ölçümleri kaynak
+rasterlardan yeniden denetlendi. Örtü yorumu, bağımsız olay
+eşleşmesi ve hedef kabulünden ayrı tutuldu.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
