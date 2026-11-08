@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım 71 tespit için örtü inceleme tablosu hazırlandı.**
+42 noktada olay öncesi görüntü, pilotta 13 noktada araştırmacı ön
+notu bağlandı. Aydıncık'ın üç yönelime duyarlı noktasında iki tarih
+da görülebiliyor. 29 açık olay noktası için yerel tam çevre
+görüntüsü eksik. Örtü kabulü ve yangın hedefi açık.
+[Tablo ve inceleme sonuçları](CANDIDATE_COVER_READINESS_2026-11-08.md).
+
+### Aynı gün merkez ve yaklaşık alan ölçümü
+
 **8 Kasım merkez–yaklaşık alan farkı 71 ilk tespitte ölçüldü.**
 Pilot örnekte %50 karşılaştırması merkez ve poligonda aynı toplamı,
 ancak farklı iki sonucu verdi. Aydıncık'ta üç nokta yönelime duyarlı.

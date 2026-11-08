@@ -1082,6 +1082,13 @@ exactextract ile ayrı sayısal kontrol yürüttü. Çıktı, araştırmacı
 örtü yorumu veya etiket kabulü içermez.
 [Ölçüm yöntemi](../CANDIDATE_CENTER_FOOTPRINT_2026-11-08.md).
 
+8 Kasım örtü inceleme tablosunda asistan, kaynakları tespit
+kimliğine göre bağladı, görüntü kapsamı ve yerel SCL sayımlarını
+denetledi, Aydıncık için iki yeni kesit aldı ve görsel
+ön yorum yaptı. Daha önce iletilen araştırmacı notları ayrı
+saklandı. Yeni insan veya uzman onayı kaydedilmedi.
+[İnceleme tablosu](../CANDIDATE_COVER_READINESS_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

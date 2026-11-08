@@ -1473,6 +1473,11 @@ E154 — 8 Kasım: [Merkez ve yaklaşık piksel çevresi](../CANDIDATE_CENTER_FO
 olay ayrı raporlandı. Bağımsız alan algoritması aynı rasterdaki pay
 aralığı uçlarını doğruladı. Kapsam eşiği ve etiket kabulü açık.
 
+E155 — 8 Kasım: [İlk tespit örtü inceleme tablosu](../CANDIDATE_COVER_READINESS_2026-11-08.md).
+71 kimlik, 42 görüntülü nokta, 13 araştırmacı ön notu. Aydıncık
+yönelim örneklerinin iki tarihli kesitleri tamamlandı. Eksik
+yerel görüntüler ve kapalı kabul alanları korundu.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
