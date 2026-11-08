@@ -1521,6 +1521,11 @@ Beş inceleme dosyasının bağlı makbuzlarla eşleştiği ve dört tablodaki
 hedef alanlarının boş olduğu kontrol edildi. Karar kaydı ve dosya
 kontrolü, bağımsız olay kanıtından ayrıdır.
 
+E164 — 8 Kasım. [Antalya açık olay referansı](../OPEN_REFERENCE_ANTALYA_2026-11-08.md).
+11 tarihli vaka bağlamı ve bir yerel uydu karşılaştırması. Kuyucak
+temsil noktasına en yakın uygun NOAA-20 satırı 5,90 km uzakta.
+Olay kimliği, başlangıç koordinatı ve hedef kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

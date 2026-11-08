@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım açık Antalya olay kanıtı incelendi.**
+OGM kayıtlarından derlenen 11 tarihli vaka bağlamı bulundu. Kuyucak'ta
+aynı yerel günde 5 km içinde katalog satırı yok. 5,90 km'deki NOAA-20
+satırının olaya ait olduğu doğrulanamadı. Ana hedef için başlangıç
+konumu ve değerlendirme kapsamı açık. [Kaynak incelemesi](OPEN_REFERENCE_ANTALYA_2026-11-08.md).
+
+### Aynı gün araştırma kapsamı kararı
+
 **8 Kasım araştırmacı gerçek yangın riski hedefini korumayı seçti.**
 400 satırlık özellik önizlemesi, sözlük, örneklem ve pencere tabloları
 tek girişte toplandı. Beş dosyanın makbuzlarıyla eşleştiği doğrulandı.

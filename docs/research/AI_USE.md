@@ -1131,6 +1131,11 @@ kanıtı otomatik olarak atanmadı. [Pencere denetimi](../PU_TARGET_WINDOWS_2026
 doğruladı ve kanıt alım sırasını belgeledi. Ana hedefi koruma kararı
 araştırmacıya aittir. [İnceleme dosyaları](../RESEARCH_DATA_HANDOFF_2026-11-08.md).
 
+8 Kasım Antalya incelemesinde asistan açık yayının haritasını okudu,
+Kuyucak saha haberini yerel uydu kayıtlarıyla karşılaştırdı ve mesafe
+sayımını ikinci yöntemle doğruladı. Başlangıç konumu atanmadı.
+[Kaynak incelemesi](../OPEN_REFERENCE_ANTALYA_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
