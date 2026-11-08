@@ -1638,6 +1638,12 @@ E185 — 8 Kasım. [Birinci aşama kanıt durumu](../STAGE_ONE_EVIDENCE_2026-11-
 incelendi. 96 grup önceki tam takvimle uzlaştırıldı.
 Zenodo olay dosyaları erişime kapalı ve hedef kabulü açık.
 
+E186 — 8 Kasım. [Açık belediye kaynakları](../OPEN_MUNICIPAL_REFERENCE_2026-11-08.md).
+Dört İzmir çalışma kitabındaki 48.910 satır ikinci okuyucuyla
+uzlaştırıldı. Kuşçular sınırı altı proje hücresiyle kesişiyor.
+Aynı gün iki uydu merkezi tek hücrede. Belediye kaynakları
+başlangıç konumu ve değerlendirme kapsamını tamamlamadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

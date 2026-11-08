@@ -1254,6 +1254,14 @@ zekâ desteğiyle yürütüldü. İdari kaynak durumu ile
 bilimsel kabul koşulları ayrı kaydedildi.
 [Birinci aşama kanıt kaydı](../STAGE_ONE_EVIDENCE_2026-11-08.md).
 
+### 8 Kasım belediye kaynakları
+
+Açık itfaiye kaynaklarının taraması, çalışma kitabı sayımları,
+taranmış sayfaların görsel incelemesi ve mahalle sınırının ızgarayla
+karşılaştırması yapay zekâ desteğiyle yapıldı. Yer kamerası duyurusu,
+ekip çıkışı ve uydu tespiti ayrı kaynak bilgileri olarak saklandı.
+[Belediye kaynakları denetimi](../OPEN_MUNICIPAL_REFERENCE_2026-11-08.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

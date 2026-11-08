@@ -112,3 +112,14 @@ denetiminin 96 grubuyla ikinci bir hesapta uzlaştırıldı.
 85 ilgili test geçti. Yerel sonuç
 `outputs/reports/dataset/stage_one_selection_v1/20261108T133434Z_305831ac/readback.json`.
 SHA-256 `6fb3783f4ab12d630bb8530432304f537f6a289ea9fb4b3c3c4d04a6cb9efba3`.
+
+## Aynı gün kamuya açık kaynaklarla devam
+
+Araştırmacı açık kaynak yolunu seçti. Dört İzmir çalışma
+kitabı, dört Mersin raporu ve Urla için yer kamerası
+duyurusu ile belediye sınırları incelendi. Kuşçular için
+bağımsız gün bağlamı elde edildi. Güncel mahalle sınırı altı
+proje hücresini kapsıyor ve başlangıç noktasını belirlemiyor.
+Kayıt kapsamı dört ilde değerlendirilebilir düzeye ulaşmadı.
+Birinci aşama açık ve ikinci aşama hedef kabulünü bekliyor.
+[Belediye kaynakları denetimi](OPEN_MUNICIPAL_REFERENCE_2026-11-08.md).

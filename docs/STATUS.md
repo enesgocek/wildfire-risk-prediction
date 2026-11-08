@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**8 Kasım açık belediye kaynaklarıyla birinci aşama sürdürüldü.**
+İzmir'in 2019–2022 dosyalarında 48.910 müdahale satırı ve
+iki ilgili belediye kategorisinde 1.018 satır sayıldı. Urla,
+Kuşçular'ın güncel mahalle sınırı altı proje hücresiyle
+kesişiyor. İki uydu adayı tek hücrede, yer kamerasına
+dayanan duyuruda başlangıç koordinatı açık değil. Mersin'in
+dört raporunda olay başlangıcını hücre ve günle eşleştiren
+bir çizelge görülmedi. Kamuya açık kanıtla devam edilir.
+Birinci aşamanın etiket kabulü açık, ikinci aşama bekliyor.
+[Belediye kaynakları denetimi](OPEN_MUNICIPAL_REFERENCE_2026-11-08.md).
+
 **8 Kasım birinci aşamada gözlem koşulları 72 ay için karşılaştırıldı.**
 7.610 katalog adayı ve tam 2018–2023 hücre-gün takvimi birlikte
 incelendi. İl, yıl ve mevsim dağılımı eşitlendiğinde 12 saatlik
