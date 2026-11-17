@@ -1665,6 +1665,10 @@ Kuşçular ekranındaki harita kesiti ve saatler doğrulandı. 479 Mersin
 satırı iki saat yorumu ve nominal gözlem ölçüleriyle karşılaştırıldı.
 Başlangıç konumu ve etiket kabulü açık.
 
+E191 — 13 Kasım. [Mersin tarama saatleri](../MERSIN_SCAN_TIMES_2026-11-13.md).
+24 arşiv kaydında iki saat yorumu ve 77 nominal günlük paket
+karşılaştırıldı. Nokta düzeyinde gözlem ve etiket kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

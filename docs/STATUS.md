@@ -1,9 +1,17 @@
-# Proje durum raporu — 9 Kasım 2026
+# Proje durum raporu — 13 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**13 Kasım Mersin arşiv saatleri tek tek uydu taramalarıyla karşılaştırıldı.**
+24 arşiv satırı, iki saat yorumu ve 77 nominal gün incelendi.
+Türkiye saati yorumunda 1 ha altındaki 12 kaydın tamamında aynı
+proje gününde sonraki kara taraması bulundu. Sonraki ısıl merkezli
+tarama küçük grupta 0/12, en az 1 ha grubunda 6/12. Örneklem saat
+uçlarından seçildi. Olay noktasındaki gözlem yeterliliği açık.
+[Mersin tarama saatleri](MERSIN_SCAN_TIMES_2026-11-13.md).
 
 **9 Kasım İzmir kamera kaydı ve Mersin gözlem bağlamı denetlendi.**
 Kuşçular ekranında iki ayrı saat okundu. Görünür kırmızı alan üç

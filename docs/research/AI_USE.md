@@ -1292,6 +1292,12 @@ nominal tarama tablolarıyla karşılaştırması ve sayım kontrolleri yapay
 zekâ desteğiyle yürütüldü. Araştırmacı etiketi kabul edilmedi.
 [İzmir ve Mersin gözlem denetimi](../PUBLIC_OBSERVATION_CONTEXT_2026-11-09.md).
 
+### 13 Kasım Mersin tarama saatleri
+
+Saat uçlarının seçimi, kabul edilmiş paketlerin geri okunması ve
+tarama zamanlarının karşılaştırılması yapay zekâ desteğiyle yürütüldü.
+[Mersin tarama saatleri](../MERSIN_SCAN_TIMES_2026-11-13.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
