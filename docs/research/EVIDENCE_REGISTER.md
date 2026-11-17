@@ -5,6 +5,12 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+17 Kasım ham zaman denetimi. Sekiz çiftte 1.617 tarama ilgili hedef
+penceresinden önce kaldı. Kabul edilmiş günlük tablolarda doğru çiftin
+iki sonraki taraması belirlendi. Tek çift hazırlığı normal araç girişinden
+doğrulandı. Nokta gözlemi açık.
+[Zaman kontrolü ve plan](../MERSIN_NATIVE_TIMES_2026-11-17.md).
+
 17 Kasım yerel kaynak denetimi. Mersin örnekleminin 77 nominal günüyle
 kesişen sekiz ham çiftin 16 dosyası doğrulandı. Tüm çiftler 15 Ağustos
 2021 nominal gününe ait. Nokta kapsamı açık.

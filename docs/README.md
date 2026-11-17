@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mersin ham tarama saatleri](MERSIN_NATIVE_TIMES_2026-11-17.md) | 1.617 taramanın zaman uygunluğu, doğru çift seçimi ve özel giriş adımı |
 | [Mersin yerel ham kaynakları](MERSIN_LOCAL_SOURCES_2026-11-17.md) | Nokta incelemesi için tarih kesişimi ve sekiz tam çiftin boyut/hash kontrolü |
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
 | [Birinci aşamanın kanıt ve kabul durumu](STAGE_ONE_EVIDENCE_2026-11-08.md) | 72 aylık aday ve gözlem karşılaştırması, bağımsız kaynak erişimi ve hedef kabulü |

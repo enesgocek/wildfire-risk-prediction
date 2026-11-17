@@ -6,6 +6,10 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+17 Kasım 2026 devamı. Ham tarama zamanlarının UTC'ye dönüştürülmesi,
+hedef pencere kontrolü ve mevcut tek çift indirme planının hazırlanması
+araç desteğiyle yapıldı. Nokta sınıflandırması uygun zamanlı kaynak bekliyor.
+
 17 Kasım 2026. Yerel ham uydu önbelleğinin Mersin saat örneklemiyle
 tarih kesişimini denetleyen kod ve sonuç kaydı araç desteğiyle hazırlandı.
 Dosya boyutları ve hash'leri otomatik karşılaştırıldı. Nokta gözlem

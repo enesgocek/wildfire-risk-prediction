@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**17 Kasım ham kaynakların gerçek zaman uygunluğu sınandı.**
+Sekiz çiftin 1.617 taraması, tarih kesişimi olan WF1487 kaydının hedef
+penceresinden önce. Uygun zamanlı çift `N20:2021228.2312` olarak
+belirlendi. Yaklaşık 177 MB'lık tek çift planı hazır ve normal girişten
+doğrulandı. İndirme için kullanıcı Earthdata girişi bekleniyor.
+Nokta sınıflandırması ve birinci aşama açık.
+[Gerçek saatler ve çalıştırma adımı](MERSIN_NATIVE_TIMES_2026-11-17.md).
+
 **17 Kasım nokta incelemesi için yerel ham kaynaklar doğrulandı.**
 24 kayıt ve iki saat yorumunun 77 nominal gününe karşı, 196 dosyalık
 önbellekte sekiz tam çift bulundu. Hepsi 15 Ağustos 2021 nominal gününe
