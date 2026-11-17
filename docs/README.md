@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 13 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 17 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mersin yerel ham kaynakları](MERSIN_LOCAL_SOURCES_2026-11-17.md) | Nokta incelemesi için tarih kesişimi ve sekiz tam çiftin boyut/hash kontrolü |
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |
 | [Birinci aşamanın kanıt ve kabul durumu](STAGE_ONE_EVIDENCE_2026-11-08.md) | 72 aylık aday ve gözlem karşılaştırması, bağımsız kaynak erişimi ve hedef kabulü |
 | [İzmir ve Mersin gözlem denetimi](PUBLIC_OBSERVATION_CONTEXT_2026-11-09.md) | Kuşçular kamera haritası ve arşivde yangın büyüklüğüne göre FIRMS adayları |

@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+17 Kasım yerel kaynak denetimi. Mersin örnekleminin 77 nominal günüyle
+kesişen sekiz ham çiftin 16 dosyası doğrulandı. Tüm çiftler 15 Ağustos
+2021 nominal gününe ait. Nokta kapsamı açık.
+[Yöntem ve makbuz](../MERSIN_LOCAL_SOURCES_2026-11-17.md).
+
 - **Yerel denetim kaydı:** belirtilen rapor kapsamında dosyalar geri okunmuştur.
 - **Uzak çalışma çıktısı:** çalışma sırasında alınan log/progress sonucu; yeni yerel kabul değildir.
 - **Manuel bildirim:** ekran veya işlem durumu aktarımı; canlı API sorgusu değildir.

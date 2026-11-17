@@ -1,9 +1,16 @@
-# Proje durum raporu — 13 Kasım 2026
+# Proje durum raporu — 17 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**17 Kasım nokta incelemesi için yerel ham kaynaklar doğrulandı.**
+24 kayıt ve iki saat yorumunun 77 nominal gününe karşı, 196 dosyalık
+önbellekte sekiz tam çift bulundu. Hepsi 15 Ağustos 2021 nominal gününe
+ait. 16 dosyanın boyut ve SHA-256 kontrolü geçti. Sıradaki iş arşiv
+koordinatını piksel geometrisiyle karşılaştırmak. Birinci aşama açık.
+[Yerel kaynaklar](MERSIN_LOCAL_SOURCES_2026-11-17.md).
 
 **13 Kasım Mersin arşiv saatleri tek tek uydu taramalarıyla karşılaştırıldı.**
 24 arşiv satırı, iki saat yorumu ve 77 nominal gün incelendi.
