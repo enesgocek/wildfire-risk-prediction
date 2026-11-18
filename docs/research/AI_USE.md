@@ -6,6 +6,12 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım PU yöntem incelemesi. Yeni birincil yayının erişimi, yöntem
+koşullarının okunması ve üç tam olasılıklı sentetik karşı örneğin kodlanması
+yapay zekâ desteğiyle yapıldı. Karşı örnekler gerçek yangın verisi veya
+model sonucu sayılmadı. Araştırmacı adına yöntem/etiket kabul edilmedi.
+[Kaynak, hesaplar ve sınırlar](../PU_METHOD_REVIEW_2026-11-19.md).
+
 18 Kasım kabul incelemesi. Önceki kaynaklar ve güncel envanter erişimi
 araç desteğiyle uzlaştırıldı. Teknik kontrollerle bilimsel kabul konuları
 ayrı değerlendirildi. Altı makbuz geri okundu; üç ek kanıt konusu açık

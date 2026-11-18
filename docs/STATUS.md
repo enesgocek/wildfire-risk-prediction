@@ -1,9 +1,18 @@
-# Proje durum raporu — 18 Kasım 2026
+# Proje durum raporu — 19 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**19 Kasım PU yöntemlerinin bilgi gereksinimleri incelendi.**
+Sınıf oranı bilinmeden SCAR sınaması öneren 2026 çalışmasının tam yöntemi
+kontrol edildi. Başlangıç pozitifleri ve istatistiksel varsayımlar halen
+gerekli. Tam kesirli üç sentetik dünyada gözlenebilir dağılım aynı olduğu
+halde gerçek risk sıralaması değişebiliyor; bu gerçek yangın deneyi değil.
+Grup etiketleri ve yıllık toplamların hücre-gün etiketine doğrudan
+çevrilemeyeceği örneklendi. Birinci aşama açık; eğitim başlatılmadı.
+[Yöntem incelemesi ve yeniden üretim](PU_METHOD_REVIEW_2026-11-19.md).
 
 **18 Kasım birinci aşamanın kabul koşulları birlikte değerlendirildi.**
 23 seçili vaka sicili, 479 Mersin satırı ve sonraki görsel/zaman notları

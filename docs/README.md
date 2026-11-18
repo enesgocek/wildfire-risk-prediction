@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 18 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 19 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [PU yönteminin bilgi gereksinimleri](PU_METHOD_REVIEW_2026-11-19.md) | Yeni SCAR çalışmasının koşulları, tam kesirli sentetik karşı örnekler ve grup/sayım bilgisinin sınırları |
 | [Birinci aşamanın ortak kabul incelemesi](STAGE_ONE_ACCEPTANCE_REVIEW_2026-11-18.md) | Tamamlanan kontroller, dört ilde kaynak kapsamı, ek kanıt gereken üç konu ve devam sınırı |
 | [Mersin kaynak sürümü kontrolü](MERSIN_SOURCE_REFRESH_2026-11-18.md) | Zenodo, DOI dizinleri, dosya eşleşmesi ve başlangıç rolü kabul durumu |
 | [Gülnar başlangıç ve yayılma bağlamı](GULNAR_START_CONTEXT_2026-11-18.md) | Kurum saatleri, saha haritaları ve iki arşiv noktasının katalog zamanları |

@@ -1724,6 +1724,12 @@ E191 — 13 Kasım. [Mersin tarama saatleri](../MERSIN_SCAN_TIMES_2026-11-13.md)
 24 arşiv kaydında iki saat yorumu ve 77 nominal günlük paket
 karşılaştırıldı. Nokta düzeyinde gözlem ve etiket kabulü açık.
 
+E192 — 19 Kasım. [PU yönteminin bilgi gereksinimleri](../PU_METHOD_REVIEW_2026-11-19.md).
+2026 PMLR makalesinin PDF'i ve koşulları incelendi. Aynı gözlenebilir
+dağılım altında farklı gerçek risk sıralamaları tam kesirli sentetik
+örneklerle doğrulandı. Grup etiketleri ve olay sayılarının bilgi sınırı
+ayrıldı. Sonuç gerçek etiket doğrulaması veya yöntem kabulü değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
