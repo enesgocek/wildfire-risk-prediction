@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım Gülnar zaman çizelgesi. Kurum kaynaklarının ve saha haritalarının
+incelenmesi, yerel kaynak kopyaları ve katalog karşılaştırması araç
+desteğiyle yapıldı. Kaynak anlatımı ile iki arşiv satırının tekil rolü
+ayrı tutuldu. Özgün başlangıç koordinatı doğrulanmadı.
+
 18 Kasım araştırmacı notları. Görüntülere ilişkin asistan ön yorumlarına
 araştırmacı her iki alan için katıldı. Bu insan değerlendirmesi iki
 örtü ön notu olarak, görsel ve kaynak makbuzlarıyla kaydedildi.

@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım Gülnar–Silifke başlangıç/yayılma bağlamı incelendi.**
+07.12 ihbar, 07.13 bildirilen başlangıç, 07.20 ilk müdahale ve yaklaşık
+07.30 ertesi gün anlatımı ayrı kaydedildi. Sekiz saat/UTC senaryosunda
+hedef günü 7 Eylül kaldı. Kaynaklar Gülnar'dan Silifke'ye yayılmayı
+destekliyor; WF1578/WF1579'un başlangıç rolleri açık. İki 1 km çevrede
+ilk katalog kayıtları 09.58/10.49 UTC. 36 ilgili test geçti.
+[Başlangıç ve yayılma bağlamı](GULNAR_START_CONTEXT_2026-11-18.md).
+
 **18 Kasım iki yeni alanda araştırmacı örtü ön notları kaydedildi.**
 Kullanıcı WF1578 için açık alan/yol/ağaçlık karışımı, WF1579 için
 daha yoğun ağaçlık ve aralarda yol/açıklık yorumlarına katıldı.

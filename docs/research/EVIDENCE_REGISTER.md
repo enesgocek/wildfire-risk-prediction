@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım Gülnar başlangıç/yayılma bağlamı. Kurumların ihbar, başlangıç ve
+müdahale saatleri ile iki noktanın katalog kayıtları birlikte incelendi.
+Sekiz saat senaryosunda hedef günü aynı kaldı. Tekil nokta rolleri açık.
+[Kaynaklar ve makbuz](../GULNAR_START_CONTEXT_2026-11-18.md).
+
 18 Kasım araştırmacı görsel notu. Kullanıcı WF1578'in karışık açık
 alan/ağaçlık ve WF1579'un daha yoğun ağaçlık ön yorumlarına katıldı.
 İki not görsel hash'ine bağlı. Olay kimliği ve başlangıç konumu açık.
