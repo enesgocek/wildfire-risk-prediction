@@ -8,7 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
-| [Mersin yerel kanıt ve yeni kesitler](MERSIN_LOCAL_EVIDENCE_2026-11-18.md) | Üç vaka ve 14 eski kesitin karşılaştırması, iki arşiv koordinatında dört yeni görüntü |
+| [Mersin yerel kanıt ve yeni kesitler](MERSIN_LOCAL_EVIDENCE_2026-11-18.md) | Üç vaka ve 14 eski kesitin karşılaştırması, dört yeni görüntü ve araştırmacı örtü ön notları |
 | [Mersin ortak referans tablosu](MERSIN_JOINT_REFERENCE_2026-11-18.md) | 479 kayıtta saat/konum, merkez ve çevre örtüsü ile yakınlık işaretleri |
 | [Mersin referans kararlılığı](MERSIN_REFERENCE_STABILITY_2026-11-18.md) | 479 kayıtta iki saat yorumu ve iki konum çevresinin ortak hücre/gün etkisi |
 | [Mersin gerçek piksel sonucu](MERSIN_POINT_RESULT_2026-11-18.md) | 202 ham taramada kayıtlı nokta ve 250 m/1 km çevrelerinin sınıf/kalite incelemesi |

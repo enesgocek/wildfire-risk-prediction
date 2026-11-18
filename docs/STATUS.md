@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım iki yeni alanda araştırmacı örtü ön notları kaydedildi.**
+Kullanıcı WF1578 için açık alan/yol/ağaçlık karışımı, WF1579 için
+daha yoğun ağaçlık ve aralarda yol/açıklık yorumlarına katıldı.
+Notlar, gösterilen görsel ve üç kaynak makbuzunun hash'lerine bağlandı.
+Olay kimliği, gerçek başlangıç konumu ve başlangıç/yayılma ayrımı açık.
+Birinci aşama bu ayrımın kaynak zaman çizelgesiyle incelenmesiyle sürüyor.
+[Araştırmacı görsel değerlendirmesi](MERSIN_LOCAL_EVIDENCE_2026-11-18.md#araştırmacının-görsel-ön-değerlendirmesi--18-kasım).
+
 **18 Kasım açık vaka ve görüntü karşılaştırması yeni kesitlere bağlandı.**
 Üç Mersin vakası ve önceki 14 kesit, arşiv koordinatlarıyla karşılaştırıldı.
 Önceki kesitlerde konum/tarih ortak desteği bulunmadı. Gülnar–Silifke'de

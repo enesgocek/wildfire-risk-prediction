@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım araştırmacı görsel notu. Kullanıcı WF1578'in karışık açık
+alan/ağaçlık ve WF1579'un daha yoğun ağaçlık ön yorumlarına katıldı.
+İki not görsel hash'ine bağlı. Olay kimliği ve başlangıç konumu açık.
+[Notların kapsamı](../MERSIN_LOCAL_EVIDENCE_2026-11-18.md#araştırmacının-görsel-ön-değerlendirmesi--18-kasım).
+
 18 Kasım yeni görüntü incelemesi. WF1578 ve WF1579 koordinatlarında
 iki olay öncesi tarihin dört kesiti alındı. Sekiz dosya hash'i ve dört
 SCL hesabı doğrulandı. Araştırmacı örtü notları bekleniyor.

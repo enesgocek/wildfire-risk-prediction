@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım araştırmacı notları. Görüntülere ilişkin asistan ön yorumlarına
+araştırmacı her iki alan için katıldı. Bu insan değerlendirmesi iki
+örtü ön notu olarak, görsel ve kaynak makbuzlarıyla kaydedildi.
+Başlangıç konumu ve olay kimliği hakkındaki açık konular korundu.
+
 18 Kasım görüntü devamı. Açık vaka ve yerel kesitlerin koordinat/tarih
 bağlantısı araç desteğiyle sınandı. İki Gülnar–Silifke arşiv koordinatında
 dört yeni kesit okundu. Görsel ön yorumlar asistan tarafından yapıldı.

@@ -73,3 +73,26 @@ mevcut olay kimliği belirsizliğiyle birlikte kaydedilecek.
 Doğrulama makbuzu
 `outputs/reports/dataset/gulnar_reference_verification_v1/20261118T144517Z_74b50758/readback.json`.
 SHA-256 `b23c7784a6c2f2934460b84dc80e6759050b121bbd6b4fd124e050c7acdda74a`.
+
+## Araştırmacının görsel ön değerlendirmesi — 18 Kasım
+
+Araştırmacı, sunulan dört görüntüdeki iki alan için önceki görsel
+yorumların görüntülerle uyuştuğunu belirterek her iki yoruma katıldı.
+
+| Arşiv satırı | Görsel konumu | Kaydedilen örtü ön notu |
+|---|---|---|
+| WF1578 | Üst sıra, iki tarih | Açık alanlar, yollar ve ağaçlık parçaların karışımı |
+| WF1579 | Alt sıra, iki tarih | Daha yoğun ağaçlık görünüm, aralarda yollar ve açıklıklar |
+
+Notlar, incelenen görselin hash'i ve üç kaynak makbuzuyla birlikte
+ilgili arşiv satırlarına bağlandı. Kullanıcı örtü ön yorumlarına katıldı.
+Gerçek başlangıç konumu, olay kimliği ve başlangıç/yayılma ayrımı açık.
+Sonraki kontrol, bu iki arşiv satırının bağımsız olay zaman çizelgesindeki
+yerini değerlendirmek. Araştırmacının bu incelemesi, otomatik SCL
+paylarından çıkarılan bir orman oranı olarak kaydedilmedi.
+
+Yeni not makbuzu
+`outputs/reports/dataset/gulnar_researcher_cover_notes_v1/20261118T153604Z_6db68bee/readback.json`.
+SHA-256 `b4a611863afa21b0970fa02eee4511ebf232dd0310aecde45fa6993973f26a50`.
+Üç kaynak makbuzu ve gösterilen görsel tekrar doğrulandı. İki notun
+arşiv kimlikleriyle tekil bağlantısı ve JSON geri okuması geçti.
