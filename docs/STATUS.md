@@ -1,9 +1,16 @@
-# Proje durum raporu — 17 Kasım 2026
+# Proje durum raporu — 18 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**18 Kasım nokta piksel kontrolü hazırlandı.**
+Uygun zamanlı tek çiftin tamamlanmış indirme kaydı başlangıç kontrolünde
+bulunmadı. Kullanıcı indirme adımına yönlendirildi. Nokta, 250 m ve 1 km
+çevrelerinin yaklaşık piksel geometrisiyle incelenmesi hazır. 34 test ve
+Ruff geçti. Gerçek sınıflandırma ve birinci aşama açık.
+[Piksel incelemesi hazırlığı](MERSIN_POINT_PIXELS_2026-11-18.md).
 
 **17 Kasım ham kaynakların gerçek zaman uygunluğu sınandı.**
 Sekiz çiftin 1.617 taraması, tarih kesişimi olan WF1487 kaydının hedef

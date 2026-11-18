@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 17 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 18 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mersin nokta piksel kontrolü](MERSIN_POINT_PIXELS_2026-11-18.md) | İndirme sonrası nokta ve iki çevrede maske/kalite incelemesinin hazırlığı |
 | [Mersin ham tarama saatleri](MERSIN_NATIVE_TIMES_2026-11-17.md) | 1.617 taramanın zaman uygunluğu, doğru çift seçimi ve özel giriş adımı |
 | [Mersin yerel ham kaynakları](MERSIN_LOCAL_SOURCES_2026-11-17.md) | Nokta incelemesi için tarih kesişimi ve sekiz tam çiftin boyut/hash kontrolü |
 | [STATUS.md](STATUS.md) | En son tarihli ilerleme, kanıt sınırları ve sıradaki iş |

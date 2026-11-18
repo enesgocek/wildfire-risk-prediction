@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım piksel hazırlığı. Nokta ve iki yarıçap için alan birleştirme,
+çoklu sınıf sınırı ve girdi kalite davranışı sınandı. 34 test geçti.
+Gerçek uydu piksel sonucu indirme bekliyor.
+[Hazırlık sınırları](../MERSIN_POINT_PIXELS_2026-11-18.md).
+
 17 Kasım ham zaman denetimi. Sekiz çiftte 1.617 tarama ilgili hedef
 penceresinden önce kaldı. Kabul edilmiş günlük tablolarda doğru çiftin
 iki sonraki taraması belirlendi. Tek çift hazırlığı normal araç girişinden

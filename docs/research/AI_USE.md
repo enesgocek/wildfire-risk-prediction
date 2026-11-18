@@ -6,6 +6,10 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım 2026. Mersin arşiv noktasında yaklaşık piksel örtüsü ve maske
+kontrolünün kodu araç desteğiyle hazırlandı. Üç yeni davranış kontrolü
+ve 31 mevcut test geçti. Gerçek kaynak incelemesi indirme bekliyor.
+
 17 Kasım 2026 devamı. Ham tarama zamanlarının UTC'ye dönüştürülmesi,
 hedef pencere kontrolü ve mevcut tek çift indirme planının hazırlanması
 araç desteğiyle yapıldı. Nokta sınıflandırması uygun zamanlı kaynak bekliyor.
