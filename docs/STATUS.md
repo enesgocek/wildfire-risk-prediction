@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım uygun zamanlı çiftte gerçek nokta pikselleri incelendi.**
+176.557.039 baytlık çiftin dosya/header kabulü tekrar doğrulandı. WF1487
+noktası ve 250 m/1 km çevresi, 23.16 UTC taramasında yaklaşık geometriyle
+tam kara sınıfında. Bulut veya yangın maske sınıfı görülmedi. Arşiv 0,05 ha
+son alan bildiriyor. Yangının geçiş sırasında etkinliği, başlangıç konumu
+ve saat standardı açık. Birinci aşama sürüyor.
+[Gerçek piksel sonucu](MERSIN_POINT_RESULT_2026-11-18.md).
+
 **18 Kasım nokta piksel kontrolü hazırlandı.**
 Uygun zamanlı tek çiftin tamamlanmış indirme kaydı başlangıç kontrolünde
 bulunmadı. Kullanıcı indirme adımına yönlendirildi. Nokta, 250 m ve 1 km

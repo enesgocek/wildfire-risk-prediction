@@ -139,10 +139,16 @@ def main():
                 continue
             polygons = shapely.polygons(quads[use])
             require(shapely.is_valid(polygons).all(), "Valid local footprints")
-            values = mask.read(1, window=window)[1:-1, 1:-1][use]
-            quality = qa.read(1, window=window)[1:-1, 1:-1][use]
+            raw_mask = mask.read(1, window=window)
+            raw_qa = qa.read(1, window=window)
+            values = raw_mask[1:-1, 1:-1][use]
+            quality = raw_qa[1:-1, 1:-1][use]
             require(np.isin(values, range(10)).all(), "Known mask classes")
             nominal = inspector.diagnostic_land(values, quality)
+            distances = np.where(valid, (x - point.x) ** 2 + (y - point.y) ** 2, np.inf)
+            nearest = np.unravel_index(np.argmin(distances), distances.shape)
+            r, c = nearest
+            neighbour = raw_mask[max(0, r - 1) : r + 2, max(0, c - 1) : c + 2]
             evidence.append(
                 {
                     "scan_index": scan,
@@ -150,6 +156,14 @@ def main():
                     "end_utc": times["end"][scan].isoformat(),
                     "geolocation_scan_quality": int(quality_fields["scan_quality"][scan]),
                     "sensor_mode": int(quality_fields["sensor_mode"][scan]),
+                    "nearest_native_pixel_witness": {
+                        "row": int(scan * 32 + r),
+                        "column": int(c),
+                        "projected_distance_m": float(np.sqrt(distances[nearest])),
+                        "mask_code": int(raw_mask[nearest]),
+                        "qa_raw": int(raw_qa[nearest]),
+                        "neighbour_mask_codes": sorted(set(map(int, neighbour.ravel()))),
+                    },
                     "contexts": [context(polygons, values, nominal, point, r) for r in (250, 1000)],
                 }
             )

@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mersin gerçek piksel sonucu](MERSIN_POINT_RESULT_2026-11-18.md) | 202 ham taramada kayıtlı nokta ve 250 m/1 km çevrelerinin sınıf/kalite incelemesi |
 | [Mersin nokta piksel kontrolü](MERSIN_POINT_PIXELS_2026-11-18.md) | İndirme sonrası nokta ve iki çevrede maske/kalite incelemesinin hazırlığı |
 | [Mersin ham tarama saatleri](MERSIN_NATIVE_TIMES_2026-11-17.md) | 1.617 taramanın zaman uygunluğu, doğru çift seçimi ve özel giriş adımı |
 | [Mersin yerel ham kaynakları](MERSIN_LOCAL_SOURCES_2026-11-17.md) | Nokta incelemesi için tarih kesişimi ve sekiz tam çiftin boyut/hash kontrolü |

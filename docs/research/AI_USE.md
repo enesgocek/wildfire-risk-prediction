@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım gerçek veri çalışması. Kullanıcının indirdiği uydu çiftinin
+makbuz ve dosya denetimi, 202 taramanın yerel piksel hesabı ve ham
+merkez/komşuluk kontrolü araç desteğiyle yürütüldü. Sonuç tek olay ve
+tek geçiş kapsamında tutuldu. Etiket kabulü açık.
+
 18 Kasım 2026. Mersin arşiv noktasında yaklaşık piksel örtüsü ve maske
 kontrolünün kodu araç desteğiyle hazırlandı. Üç yeni davranış kontrolü
 ve 31 mevcut test geçti. Gerçek kaynak incelemesi indirme bekliyor.

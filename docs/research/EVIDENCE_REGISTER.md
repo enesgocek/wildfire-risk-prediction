@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım gerçek nokta incelemesi. İndirilmiş uygun zamanlı çiftin
+202 taraması incelendi. WF1487 noktası ve iki çevresi yaklaşık
+geometride kara sınıfında. Gerçek yangının geçişte etkinliği ve
+başlangıç konumu açık. [Sonuç ve makbuz](../MERSIN_POINT_RESULT_2026-11-18.md).
+
 18 Kasım piksel hazırlığı. Nokta ve iki yarıçap için alan birleştirme,
 çoklu sınıf sınırı ve girdi kalite davranışı sınandı. 34 test geçti.
 Gerçek uydu piksel sonucu indirme bekliyor.
