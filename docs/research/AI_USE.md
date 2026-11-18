@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım devamı. Yerel arşiv açıklamaları ve şemaları tekrar incelendi.
+479 kayıtta saat ve konum duyarlılığının birlikte hesaplanması araç
+desteğiyle yürütüldü. 958 sınır uzaklığı karşılaştırması ve 54 test geçti.
+Sonuçlar tanısal inceleme grupları olarak kaydedildi.
+
 18 Kasım gerçek veri çalışması. Kullanıcının indirdiği uydu çiftinin
 makbuz ve dosya denetimi, 202 taramanın yerel piksel hesabı ve ham
 merkez/komşuluk kontrolü araç desteğiyle yürütüldü. Sonuç tek olay ve

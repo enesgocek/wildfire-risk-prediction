@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım Mersin'de konum ve saat belirsizliği birlikte sınandı.**
+479 kaydın 458'inde iki saat yorumu aynı hedef gününü veriyor. Hedef
+günü aynı kalan ve 250 m çevresi tek hücrede olan 375 kayıt var;
+1 km ölçekte 174 kayıt var. Çevreler varsayımsal konum duyarlılığıdır.
+WF1487'de saat yorumu hem hedef günü hem taramanın önce/sonra yorumunu
+değiştiriyor. 958 bağımsız geometri karşılaştırması ve 54 test geçti.
+Olay kimliği, örtü ve kayıt kapsamı uzlaştırması açık.
+[Referans kararlılığı](MERSIN_REFERENCE_STABILITY_2026-11-18.md).
+
 **18 Kasım uygun zamanlı çiftte gerçek nokta pikselleri incelendi.**
 176.557.039 baytlık çiftin dosya/header kabulü tekrar doğrulandı. WF1487
 noktası ve 250 m/1 km çevresi, 23.16 UTC taramasında yaklaşık geometriyle

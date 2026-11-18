@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım referans kararlılığı. 479 kayıtta hedef günü aynı ve 250 m
+çevresi tek hücrede olan 375, 1 km ölçekte 174 kayıt bulundu. Çevreler
+varsayımsal. Olay ve etiket kabulü açık.
+[Yöntem ve makbuz](../MERSIN_REFERENCE_STABILITY_2026-11-18.md).
+
 18 Kasım gerçek nokta incelemesi. İndirilmiş uygun zamanlı çiftin
 202 taraması incelendi. WF1487 noktası ve iki çevresi yaklaşık
 geometride kara sınıfında. Gerçek yangının geçişte etkinliği ve
