@@ -1730,6 +1730,12 @@ dağılım altında farklı gerçek risk sıralamaları tam kesirli sentetik
 örneklerle doğrulandı. Grup etiketleri ve olay sayılarının bilgi sınırı
 ayrıldı. Sonuç gerçek etiket doğrulaması veya yöntem kabulü değildir.
 
+E193 — 19 Kasım. [Salur'da sonraki birleşme ve başlangıç hücresi](../SALUR_EVENT_CONTEXT_2026-11-19.md).
+Dokuz gruplamada aynı 11 yerel tespit izlendi. En geniş ayarda
+sonraki 1.933,4 m / 49 saat 03 dakikalık kenar, 25,8 km uzaktaki
+eski kaydı bağlayıp ilk hücreyi değiştirdi. Hedef gün sonu kesiminde
+dokuz ayar Salur'u koruyor. Yöntem yönü seçimi bekliyor; etiket kabulü yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

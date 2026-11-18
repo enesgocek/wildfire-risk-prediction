@@ -6,6 +6,13 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım Salur olay bağlamı. Sabit üyeliklerin kaynakla uzlaştırılması,
+zaman kesitlerinin yeniden kurulması, sonraki bağlantı tanığının
+bulunması, regresyon testi ve görsel üretimi yapay zekâ desteğiyle
+yapıldı. Yöntem yönleri öneri olarak sunuldu. Fiziksel olay kimliği
+veya araştırmacı onayı otomatik hesaplamadan türetilmedi.
+[Vaka, hesaplar ve karar sınırı](../SALUR_EVENT_CONTEXT_2026-11-19.md).
+
 19 Kasım PU yöntem incelemesi. Yeni birincil yayının erişimi, yöntem
 koşullarının okunması ve üç tam olasılıklı sentetik karşı örneğin kodlanması
 yapay zekâ desteğiyle yapıldı. Karşı örnekler gerçek yangın verisi veya

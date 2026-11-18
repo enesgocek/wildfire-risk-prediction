@@ -53,6 +53,31 @@ def test_equal_time_processing_is_invariant_to_source_order():
     pd.testing.assert_frame_equal(run(), run(source().iloc[::-1]))
 
 
+def test_future_bridge_can_replace_earliest_cell_with_older_disconnected_detection():
+    frame = source()
+    frame["detection_id"] = ["anchor", "older", "later_bridge"]
+    frame["longitude"] = [31.0, 31.02, 31.01]
+    frame["detection_timestamp_utc"] = [
+        "2019-01-01T23:00:00+00:00",
+        "2019-01-01T22:59:00+00:00",
+        "2019-01-02T23:00:00+00:00",
+    ]
+
+    def inspect(cutoff, gap):
+        return prefix_first_sets(
+            frame, ["anchor"], end_utc=cutoff, distance_m=1000, gap_hours=gap
+        ).iloc[0]
+
+    before = inspect("2019-01-02T22:59:59.999999999+00:00", 48)
+    after = inspect("2019-01-02T23:00:00+00:00", 48)
+    short_gap = inspect("2019-01-02T23:00:00+00:00", 24)
+    assert json.loads(before.earliest_grid_ids_json) == ["G1"]
+    assert json.loads(after.earliest_grid_ids_json) == ["G2"]
+    assert after.first_detection_utc == "2019-01-01T22:59:00+00:00"
+    assert short_gap.first_detection_utc == before.first_detection_utc
+    assert short_gap.member_count == 2 and after.member_count == 3
+
+
 def test_anchor_in_one_branch_does_not_take_first_cell_from_disconnected_branch():
     before = run(anchors=("b",))
     assert json.loads(before.earliest_grid_ids_json.iloc[0]) == ["G2"]

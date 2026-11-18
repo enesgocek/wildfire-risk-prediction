@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım Salur'da sonraki grafik birleşmesinin etkisi kanıtlandı.**
+İşaret çevresindeki aynı 11 tespit dokuz ayarda incelendi. En geniş
+ayarda, 25,8 km uzaktaki eski kayıt iki gün sonraki bir kenarla birleşip
+ilk hücreyi değiştiriyor. Hedef gün sonu kesiminde dokuz ayar Salur'u
+aynı dört ilk hücre içinde koruyor. 20 zaman kesiti ve 9 test geçti.
+Başlangıç geçmişini koruyan izleme provası ile gün sonu kesitleri yönü
+araştırmacı kararına hazır. Etiket ve birinci aşama kabulü açık.
+[Vaka, bağlantı tanığı ve seçenekler](SALUR_EVENT_CONTEXT_2026-11-19.md).
+
 **19 Kasım PU yöntemlerinin bilgi gereksinimleri incelendi.**
 Sınıf oranı bilinmeden SCAR sınaması öneren 2026 çalışmasının tam yöntemi
 kontrol edildi. Başlangıç pozitifleri ve istatistiksel varsayımlar halen
