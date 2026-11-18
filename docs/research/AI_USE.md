@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım görüntü devamı. Açık vaka ve yerel kesitlerin koordinat/tarih
+bağlantısı araç desteğiyle sınandı. İki Gülnar–Silifke arşiv koordinatında
+dört yeni kesit okundu. Görsel ön yorumlar asistan tarafından yapıldı.
+Araştırmacı örtü notları bekleniyor. Yangın etiketi kabulü açık.
+
 18 Kasım ortak inceleme. Mersin'in 479 kaydında saat, konum, CORINE
 2018 örtüsü ve yakınlık kanıtları araç desteğiyle bağlandı. Çevrelerde
 örneklenen piksel sayıları da kaydedildi. Olay tarihi örtüsü ve özgün

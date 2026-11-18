@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım yeni görüntü incelemesi. WF1578 ve WF1579 koordinatlarında
+iki olay öncesi tarihin dört kesiti alındı. Sekiz dosya hash'i ve dört
+SCL hesabı doğrulandı. Araştırmacı örtü notları bekleniyor.
+[Kanıt ve sınırlar](../MERSIN_LOCAL_EVIDENCE_2026-11-18.md).
+
 18 Kasım ortak referans tablosu. 479 kayıtta saat/konum, örtü ve yakın
 kayıt işaretleri bağlandı. Ortak 250 m grubundaki 268 orman/çalılık
 merkezinin 112'sinde çevrede tarım da var. Olay tarihi örtüsü ve kimlik

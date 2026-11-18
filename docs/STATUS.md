@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım açık vaka ve görüntü karşılaştırması yeni kesitlere bağlandı.**
+Üç Mersin vakası ve önceki 14 kesit, arşiv koordinatlarıyla karşılaştırıldı.
+Önceki kesitlerde konum/tarih ortak desteği bulunmadı. Gülnar–Silifke'de
+WF1578 ve WF1579 için 31 Ağustos ve 5 Eylül 2022 kesitleri alındı.
+Sekiz dosya hash'i ve dört SCL hesabı doğrulandı. 37 ilgili test geçti.
+Araştırmacı görsel örtü ön değerlendirmesi bekleniyor. Olay kimliği açık.
+[Mevcut kanıt ve yeni kesitler](MERSIN_LOCAL_EVIDENCE_2026-11-18.md).
+
 **18 Kasım Mersin kanıtları 479 kayıtta birlikte izlendi.**
 Saat/konum, CORINE merkez/çevre örtüsü ve yakın kayıt işaretleri bağlandı.
 Ortak 250 m grubundaki 375 kaydın 268'inin merkezi orman/çalılık; bunların
