@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım planlanmış Anamur/Menderes izleme karşılaştırması kapatıldı.**
+19 farklı tespitin 27 grup×ayar karşılaştırması ve 54 zaman kesiti
+önceki başlangıçları korudu. Yeni bağımsız yangın etiketi kabul edilmedi.
+Birinci aşamada kalan açık konular pozitif kabulü, PU dayanağı ve
+değerlendirme kapsamı. Bitiş tarihi belirlenemiyor. Sonraki üç aşama
+için kabul sonrası 2–4 aktif gün, ölçülmemiş koşullu planlama tahmini.
+[Dört aşama, teknik kapanış ve süre varsayımları](DATASET_STAGE_TIMELINE_2026-11-19.md).
+
 **19 Kasım A yönü seçildi ve başlangıç geçmişi izleme provası tamamlandı.**
 Başlangıç ve birleşme düğümleri ayrı saklanıyor. Salur'un dokuz ayarında
 36 zaman kesiti geçmiş kayıtları değiştirmedi; bilinen sonraki birleşme

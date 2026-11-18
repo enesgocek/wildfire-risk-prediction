@@ -1742,6 +1742,11 @@ geçmiş başlangıç/düğüm/geliş kayıtları sabit kaldı. Aynı 5.304 tesp
 4–426 başlangıç hipotezi oluştu; bunlar yangın sayısı değil. 35 test
 geçti. Etiket ve olay kimliği kabulü açık.
 
+E195 — 19 Kasım. [Anamur/Menderes teknik kapanışı ve dört aşama](../DATASET_STAGE_TIMELINE_2026-11-19.md).
+19 farklı kaynak tespiti, 27 grup×ayar ve 54 zaman kesitinde izlendi.
+Mevcut başlangıçlar korundu; yeni yangın etiketi kabul edilmedi. Teknik
+karşılaştırma kapatıldı. Bilimsel geçiş ve toplam bitiş tarihi açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -6,6 +6,12 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım aşama süreleri. Mevcut çekirdekle Anamur/Menderes karşılaştırması
+ve dört aşamanın kabul/süre planı yapay zekâ desteğiyle hazırlandı.
+Teknik inceleme ile bilimsel kabul ayrıldı. Süre aralıkları ölçülmüş
+üretim süresi veya teslim sözü olarak sunulmadı. Etiket kabulü yapılmadı.
+[Kapsam, sonuçlar ve varsayımlar](../DATASET_STAGE_TIMELINE_2026-11-19.md).
+
 19 Kasım başlangıç geçmişi. Araştırmacının A yönü sonrasında zaman sıralı
 izleme için mevcut çekirdek korundu. Yeni zaman kesiti testleri ve Salur
 üzerinde dokuz ayarlı sınırlı prova yapay zekâ desteğiyle hazırlandı. Doğum/birleşme kayıtları
