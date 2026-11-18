@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım Mersin kanıtları 479 kayıtta birlikte izlendi.**
+Saat/konum, CORINE merkez/çevre örtüsü ve yakın kayıt işaretleri bağlandı.
+Ortak 250 m grubundaki 375 kaydın 268'inin merkezi orman/çalılık; bunların
+112'sinde 250 m çevrede tarım pikseli de var. Dördü 60 dk/5 km yakın
+kayıt işareti taşıyor. Harita 2018'e ait; olay tarihi örtüsü ve özgün
+olay kimliği açık. Bu tablo inceleme amacıyla üretildi. Birinci aşama sürüyor.
+[Ortak referans tablosu](MERSIN_JOINT_REFERENCE_2026-11-18.md).
+
 **18 Kasım Mersin'de konum ve saat belirsizliği birlikte sınandı.**
 479 kaydın 458'inde iki saat yorumu aynı hedef gününü veriyor. Hedef
 günü aynı kalan ve 250 m çevresi tek hücrede olan 375 kayıt var;

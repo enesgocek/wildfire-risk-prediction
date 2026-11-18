@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım ortak inceleme. Mersin'in 479 kaydında saat, konum, CORINE
+2018 örtüsü ve yakınlık kanıtları araç desteğiyle bağlandı. Çevrelerde
+örneklenen piksel sayıları da kaydedildi. Olay tarihi örtüsü ve özgün
+olay kimliği açık kaldı. Etiketli nihai birleştirme yapılmadı.
+
 18 Kasım devamı. Yerel arşiv açıklamaları ve şemaları tekrar incelendi.
 479 kayıtta saat ve konum duyarlılığının birlikte hesaplanması araç
 desteğiyle yürütüldü. 958 sınır uzaklığı karşılaştırması ve 54 test geçti.
