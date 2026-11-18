@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mersin kaynak sürümü kontrolü](MERSIN_SOURCE_REFRESH_2026-11-18.md) | Zenodo, DOI dizinleri, dosya eşleşmesi ve başlangıç rolü kabul durumu |
 | [Gülnar başlangıç ve yayılma bağlamı](GULNAR_START_CONTEXT_2026-11-18.md) | Kurum saatleri, saha haritaları ve iki arşiv noktasının katalog zamanları |
 | [Mersin yerel kanıt ve yeni kesitler](MERSIN_LOCAL_EVIDENCE_2026-11-18.md) | Üç vaka ve 14 eski kesitin karşılaştırması, dört yeni görüntü ve araştırmacı örtü ön notları |
 | [Mersin ortak referans tablosu](MERSIN_JOINT_REFERENCE_2026-11-18.md) | 479 kayıtta saat/konum, merkez ve çevre örtüsü ile yakınlık işaretleri |

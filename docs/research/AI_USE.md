@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım kaynak sürümü. Kamuya açık Zenodo, Crossref ve Europe PMC
+yanıtları araç desteğiyle alındı. Yerel dosyayla eşleşme ve kaynak
+kimliği kontrol edildi. Yayınevi yöntem metnine erişilemediği açık
+kaydedildi. Yayın varlığı ile proje hedefinin kabul koşulları ayrı izlendi.
+
 18 Kasım Gülnar zaman çizelgesi. Kurum kaynaklarının ve saha haritalarının
 incelenmesi, yerel kaynak kopyaları ve katalog karşılaştırması araç
 desteğiyle yapıldı. Kaynak anlatımı ile iki arşiv satırının tekil rolü

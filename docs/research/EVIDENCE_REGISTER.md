@@ -5,6 +5,11 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım kaynak sürümü kontrolü. Tek Zenodo sürümü ve yerel ZIP özeti
+eşleşti. Yayın DOI'si Crossref/Europe PMC kayıtlarında doğrulandı.
+Yayınevi metninde 403 erişim sınırı var. Başlangıç rolü açık.
+[Kaynak ve kabul durumu](../MERSIN_SOURCE_REFRESH_2026-11-18.md).
+
 18 Kasım Gülnar başlangıç/yayılma bağlamı. Kurumların ihbar, başlangıç ve
 müdahale saatleri ile iki noktanın katalog kayıtları birlikte incelendi.
 Sekiz saat senaryosunda hedef günü aynı kaldı. Tekil nokta rolleri açık.

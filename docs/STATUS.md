@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım Mersin kaynağının güncel sürümü doğrulandı.**
+Zenodo sürüm listesinde tek sürüm 1.0.0 var; yayımlanan ZIP'in MD5
+özeti yerel dosyayla eşleşiyor. Crossref ve Europe PMC yayın kimliğini
+doğruladı. Yayınevi HTML/XML erişimi 403 verdi; yöntem metni doğrulanamadı.
+Bu kontrolde yeni arşiv sürümü bulunmadı. Gülnar koordinatlarının
+başlangıç/yayılma rolleri ve dört ilde değerlendirme dayanağı açık.
+[Kaynak sürümü ve kabul durumu](MERSIN_SOURCE_REFRESH_2026-11-18.md).
+
 **18 Kasım Gülnar–Silifke başlangıç/yayılma bağlamı incelendi.**
 07.12 ihbar, 07.13 bildirilen başlangıç, 07.20 ilk müdahale ve yaklaşık
 07.30 ertesi gün anlatımı ayrı kaydedildi. Sekiz saat/UTC senaryosunda
