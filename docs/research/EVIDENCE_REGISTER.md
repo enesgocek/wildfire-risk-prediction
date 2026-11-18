@@ -1736,6 +1736,12 @@ sonraki 1.933,4 m / 49 saat 03 dakikalık kenar, 25,8 km uzaktaki
 eski kaydı bağlayıp ilk hücreyi değiştirdi. Hedef gün sonu kesiminde
 dokuz ayar Salur'u koruyor. Yöntem yönü seçimi bekliyor; etiket kabulü yok.
 
+E194 — 19 Kasım. [Başlangıç geçmişi izleme provası](../EVENT_LINEAGE_PROTOTYPE_2026-11-19.md).
+Araştırmacı A yönünü seçti. Dokuz Salur ayarında 36 zaman kesitinde
+geçmiş başlangıç/düğüm/geliş kayıtları sabit kaldı. Aynı 5.304 tespitte
+4–426 başlangıç hipotezi oluştu; bunlar yangın sayısı değil. 35 test
+geçti. Etiket ve olay kimliği kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

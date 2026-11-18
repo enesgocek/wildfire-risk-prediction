@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Başlangıç geçmişi izleme provası](EVENT_LINEAGE_PROTOTYPE_2026-11-19.md) | Araştırmacının A yönü, doğum/birleşme hipotezleri, Salur'da 36 zaman kesiti ve aynı girdide dokuz ayar |
 | [Salur'da başlangıç ve sonraki birleşme](SALUR_EVENT_CONTEXT_2026-11-19.md) | Dokuz gruplama, 20 zaman kesiti, başlangıcı değiştiren sonraki kenar ve yöntem yönü seçenekleri |
 | [PU yönteminin bilgi gereksinimleri](PU_METHOD_REVIEW_2026-11-19.md) | Yeni SCAR çalışmasının koşulları, tam kesirli sentetik karşı örnekler ve grup/sayım bilgisinin sınırları |
 | [Birinci aşamanın ortak kabul incelemesi](STAGE_ONE_ACCEPTANCE_REVIEW_2026-11-18.md) | Tamamlanan kontroller, dört ilde kaynak kapsamı, ek kanıt gereken üç konu ve devam sınırı |

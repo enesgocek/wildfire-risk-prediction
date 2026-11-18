@@ -129,3 +129,10 @@ Son görsel ve makbuz
 Makbuz SHA-256 `c5d89ef9814379350591ceafb6dc5bca339ed48be23d086442e25ed192a5f1e1`.
 Görsel çıktı açılarak kontrol edildi. Klasör zamanları UTC 18 Kasım;
 çalışma tarihi Türkiye saatiyle 19 Kasım. Birinci aşama açık.
+
+## Sonraki araştırmacı kararı — 19 Kasım
+
+Yukarıdaki seçeneklerin sunulmasından sonra araştırmacı A yönünü seçti.
+Başlangıç geçmişini koruyan sınırlı izleme provası hazırlanması kabul
+edildi. Yön seçimi, gerçek olay kimliği veya etiket/eğitim kabulü değil.
+[Uygulanan prova ve sonuçları](EVENT_LINEAGE_PROTOTYPE_2026-11-19.md).

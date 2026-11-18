@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım A yönü seçildi ve başlangıç geçmişi izleme provası tamamlandı.**
+Başlangıç ve birleşme düğümleri ayrı saklanıyor. Salur'un dokuz ayarında
+36 zaman kesiti geçmiş kayıtları değiştirmedi; bilinen sonraki birleşme
+iki başlangıcı da korudu. Aynı 5.304 tespitte 4–426 başlangıç hipotezi
+oluşuyor; bunlar yangın sayıları değil ve eşik seçilmedi. 35 test geçti.
+Sonraki iş Anamur/Menderes karşılaştırması. Etiket kabulü ve birinci aşama açık.
+[Yöntem yönü, prova ve sınırlamalar](EVENT_LINEAGE_PROTOTYPE_2026-11-19.md).
+
 **19 Kasım Salur'da sonraki grafik birleşmesinin etkisi kanıtlandı.**
 İşaret çevresindeki aynı 11 tespit dokuz ayarda incelendi. En geniş
 ayarda, 25,8 km uzaktaki eski kayıt iki gün sonraki bir kenarla birleşip

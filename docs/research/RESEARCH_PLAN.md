@@ -56,6 +56,12 @@ başarı yüzdesi veya olumlu deney sonucu ilan edilmemiştir.
 hesap olarak kabul etti. Yukarıdaki PR ailesi ifadesi bu güncellemede AP
 ile somutlaştırılır. [Uygulama, sentetik sınama ve kabul sınırı](../EVALUATION_CORE_2026-10-16.md).
 
+19 Kasım yöntem hazırlığı yönü: araştırmacı, sonraki grafik birleşmelerinde
+önceki başlangıç hipotezlerinin korunacağı A izleme provasını seçti.
+Salur üzerinde sınırlı prova yapıldı. Bu yön seçimi olay kimliği,
+gruplama eşiği, gerçek pozitif etiket veya eğitim kabulü sağlamıyor.
+[İzleme provası ve sınırları](../EVENT_LINEAGE_PROTOTYPE_2026-11-19.md).
+
 16 Ekim ön işleme hazırlığı: öğrenilen medyan/ölçek parametreleri yalnız
 eğitim içi her ayrımın eğitim kısmından hesaplanacak şekilde sınandı.
 Gerçek doldurma/ölçekleme/boş sütun politikası seçilmedi; sentetik prova

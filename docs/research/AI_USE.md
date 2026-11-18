@@ -6,6 +6,13 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım başlangıç geçmişi. Araştırmacının A yönü sonrasında zaman sıralı
+izleme için mevcut çekirdek korundu. Yeni zaman kesiti testleri ve Salur
+üzerinde dokuz ayarlı sınırlı prova yapay zekâ desteğiyle hazırlandı. Doğum/birleşme kayıtları
+gerçek yangın kimlikleri sayılmadı. Bilimsel etiket veya eğitim kabulü
+araştırmacı adına yapılmadı.
+[Kod, sonuç ve sınırlar](../EVENT_LINEAGE_PROTOTYPE_2026-11-19.md).
+
 19 Kasım Salur olay bağlamı. Sabit üyeliklerin kaynakla uzlaştırılması,
 zaman kesitlerinin yeniden kurulması, sonraki bağlantı tanığının
 bulunması, regresyon testi ve görsel üretimi yapay zekâ desteğiyle
