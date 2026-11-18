@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**18 Kasım birinci aşamanın kabul koşulları birlikte değerlendirildi.**
+23 seçili vaka sicili, 479 Mersin satırı ve sonraki görsel/zaman notları
+uzlaştırıldı. Teknik kaynak kontrolleri kayıtlı. Güvenilir yeni olay
+eşleşmeleri, dört ilde değerlendirme kapsamı ve PU varsayımlarına dayanak
+açık. Ülke envanterinin güncel API yanıtı ambargolu ve açık dosya sayısı
+sıfır. Birinci aşama kabulü ek kanıt bekliyor.
+[Ortak kabul incelemesi ve devam sınırı](STAGE_ONE_ACCEPTANCE_REVIEW_2026-11-18.md).
+
 **18 Kasım Mersin kaynağının güncel sürümü doğrulandı.**
 Zenodo sürüm listesinde tek sürüm 1.0.0 var; yayımlanan ZIP'in MD5
 özeti yerel dosyayla eşleşiyor. Crossref ve Europe PMC yayın kimliğini

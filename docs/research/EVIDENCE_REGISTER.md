@@ -5,6 +5,10 @@ buraya satır eklenmesi yeni bir bilimsel doğrulama yapıldığı anlamına gel
 
 ## Kanıt düzeyleri
 
+18 Kasım ortak kabul incelemesi. 23 seçili vaka ve 479 Mersin satırı
+güncel kaynak erişimiyle uzlaştırıldı. Üç bilimsel kabul konusu ek
+kanıt bekliyor. [Kabul durumu ve makbuz](../STAGE_ONE_ACCEPTANCE_REVIEW_2026-11-18.md).
+
 18 Kasım kaynak sürümü kontrolü. Tek Zenodo sürümü ve yerel ZIP özeti
 eşleşti. Yayın DOI'si Crossref/Europe PMC kayıtlarında doğrulandı.
 Yayınevi metninde 403 erişim sınırı var. Başlangıç rolü açık.

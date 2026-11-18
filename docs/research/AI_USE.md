@@ -6,6 +6,11 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+18 Kasım kabul incelemesi. Önceki kaynaklar ve güncel envanter erişimi
+araç desteğiyle uzlaştırıldı. Teknik kontrollerle bilimsel kabul konuları
+ayrı değerlendirildi. Altı makbuz geri okundu; üç ek kanıt konusu açık
+kaydedildi. Araştırmacının hedef ve kurumsal talep tercihleri korundu.
+
 18 Kasım kaynak sürümü. Kamuya açık Zenodo, Crossref ve Europe PMC
 yanıtları araç desteğiyle alındı. Yerel dosyayla eşleşme ve kaynak
 kimliği kontrol edildi. Yayınevi yöntem metnine erişilemediği açık
