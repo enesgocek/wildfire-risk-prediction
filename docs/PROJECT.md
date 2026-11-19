@@ -55,6 +55,17 @@ Bu açıklık etiket veya eğitim kabulü değildir. Yeni sürümlü değerlendi
 tanımı [hesap ve ayrım çekirdeğinde](EVALUATION_CORE_2026-10-16.md)
 kayıtlıdır; geçmiş hash ile bağlı başlangıç yapılandırması değiştirilmedi.
 
+20 Kasım 2026 ürün sunumu yönü: araştırmacı ilk üründe yüzde olasılık
+zorunluluğu yerine kırmızı/sarı/yeşil **göreli risk kategorilerini**
+önerdi. Ana yeni orman/çalılık yangını hedefi ve mevcut 24 saatlik ufuk
+korunur; bu karar 7 günlük tahmin, kategori eşiği, kaynak skorunun
+doğrulanmış yangın riskine çevrilmesi veya model kabulü değildir.
+Düşük risk yangın yokluğu, yüksek risk kesin yangın anlamına gelmez;
+hesaplanamayan durum ayrı gösterilir. İlk ürün için yüzde kalibrasyonu
+zorunlu değil; hedef sıralamasının gerekçesi ve değerlendirme dayanağı
+ayrıca gerekir. Yukarıdaki başlangıç tablosu tarihsel amaç kaydıdır.
+[Güncel sunum kararı ve sınırları](SOURCE_RANKING_COMPARABILITY_2026-11-20.md).
+
 14 Ekim 2026 kapsam güncellemesi: araştırmacının A seçeneğiyle, donmuş 2017
 haritasında tamamen ayrık su sınıfı olan hücreler risk hesabı kapsamı dışında
 tutulur. Karışık kara/su hücreleri korunur; nihai habitat uygunluğu ve etiket

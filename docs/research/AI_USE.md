@@ -6,6 +6,27 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+20 Kasım sonraki ürün yönü. Araştırmacının yüzde yerine renklerle
+göreli risk gösterme önerisi, ana yangın hedefi ve 24 saatlik ufuk
+korunarak yapay zekâ desteğiyle kaydedildi. Renk anlamları ve
+hesaplanamayan durum ayrıldı; eşik seçimi veya kaynak skorunu gerçek
+yangın riski kabul etme yapılmadı. Kalibrasyonun ilk gösterimden
+ayrılması, gerçek sıralama değerlendirmesinin gereksiz olduğu iddiası
+değil. Sunum yönü model/etiket veya nihai birleştirme kabulü sayılmadı.
+
+20 Kasım aynı pilotun devamı. Kaydedilmiş kaynak skorlarında ay/çeyrek
+ve eski hücre orman+çalı bantlarıyla karşılaştırılabilirlik tanısı,
+15 davranış testi, bütün 7.047 çiftin ayrı sayımı ve görsel kontrol
+yapay zekâ desteğiyle yürütüldü. Modeller yeniden kurulmadı; gerçek
+Y'ler boş, U negatif yapılmadı. Dar hesapta karşı grup bulunamayan
+31 U korundu. Sonuç farkı yanlılığın nedensel payı veya gerçek yangın
+başarımı sayılmadı. Mevcut kanıtın desteklediği teslim iddiasını
+sınırlandırma önerisi araştırmacıya soruldu; karar ve bilimsel kabul
+asistan tarafından verilmedi. Araştırmacı yön seçmeden risk/etiket
+yeterliliği ayrımını açıklığa kavuşturmak istedi; kapsam değişmedi.
+15 yeni dahil 135 ilgili test geçti.
+[Bulgu, destek sınırı ve teslim seçenekleri](../SOURCE_RANKING_COMPARABILITY_2026-11-20.md).
+
 20 Kasım koşullu sıralama devamı. 877 anahtarlık sınırlı, etiketsiz
 özellik/provenance bağlantısı, güncel dosya kontrolü ve 708/168 ayrım
 önerisi yapay zekâ desteğiyle hazırlandı. Menon ve arkadaşlarının 2015

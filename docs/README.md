@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Kaynak skorlarının mevsim/örtü tanısı](SOURCE_RANKING_COMPARABILITY_2026-11-20.md) | Aynı 168 skorun 7.047 çiftte ayrıştırılması, dar karşılaştırma desteği ve gerçek yangın iddiası için açık kalan karar |
 | [İlk koşullu kaynak sıralama pilotu](CONDITIONAL_PU_RANKING_2026-11-20.md) | 877 etiketsiz özellik anahtarı, yeni birincil sıralama dayanağı, araştırmacının ilk model A kararı ve gerçek yangın başarımı sayılmayan yardımcı sonuçlar |
 | [Kaynak koşullu PU pilot protokolü](SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md) | Araştırmacının A kararı, dokuz konum/gün senaryosu, 503 satırlık coğrafi U kesiti, olası bağımlılık blokları, eski örtü kanıtının fit aktarımı ve geçiş/durdurma koşulları |
 | [424 kaynak satırı ve yöntem yönü](SOURCE_COHORT_DIRECTION_2026-11-19.md) | Mersin fit dönemi, saat/konum sınırları, 380 satır/374 koşullu anahtar, korunmuş WF1538 kararı ve araştırmacıya sunulan kaynak koşullu pilot seçenekleri |

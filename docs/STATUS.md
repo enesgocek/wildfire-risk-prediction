@@ -5,6 +5,42 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**20 Kasım sonraki ürün yönü: yüzde zorunlu değil, kırmızı/sarı/yeşil göreli risk.**
+Araştırmacı bu sunumu önerdi; ana yangın hedefi bırakılmadı ve önceki
+A/B teslim daraltma önerilerinden biri onaylanmış sayılmadı. Düşük
+risk “yangın yok”, yüksek risk “kesin yangın” demeyecek; girdi yetersizliği
+ayrı gri durumunda gösterilebilecek. İlk ürünün yüzde kalibrasyonu
+zorunlu değil; gerçek yangın sıralaması ile geçerli değerlendirme
+dayanağı hâlâ gerekli. Mevcut S kaynak skorları doğrudan doğrulanmış
+yangın rengi yapılamaz. Kategori eşikleri seçilmedi; mevcut 24 saatlik
+ufuk ve veri rolleri korundu, yedi günlük tahmin yetkilendirilmedi.
+Yeni model/etiket/harita/birleştirme yok. Birinci aşamanın açık işi,
+gerekçeli PU hedef/sıralama ve değerlendirme protokolü; mutlak yüzde
+üretmek artık ilk ürün sunumunun zorunlu koşulu değil.
+[Karar, renk anlamları ve kalan bilimsel ayrım](SOURCE_RANKING_COMPARABILITY_2026-11-20.md#aynı-gün-sonraki-ürün-kararı-yüzde-yerine-göreli-risk).
+
+**20 Kasım sabit kaynak skorlarının mevsim/örtü tanısı tamamlandı; teslim yönü soruldu.**
+Yeni eğitim yapılmadan aynı 168 anahtar/7.047 kaynak-U çifti incelendi.
+RF kaynak AUC'si tüm çiftlerde 0,854264; aynı ayda 0,803630; aynı ay
+ve geniş CGLS 2017 orman+çalı bandında 0,711779 (399 çift). Son dar
+hesapta 31 U karşı grup bulamıyor, dosyada korunuyor. 81 kaynağın
+80'i, 87 U'nun 59'u yüksek örtü bandında; düşük bantta yalnız bir
+kaynak var. Çift bileşimi değiştiği için fark nedensel yanlılık veya
+düzeltilmiş yangın başarımı değildir. 15 yeni davranış testi, bütün
+çiftlerin ayrı standart-kütüphane sayımı ve görüntü kontrolü geçti.
+Y boş; yeni L/model/nihai birleştirme yok, 2023–2025 açılmadı.
+Kaynak–hedef/karışım/gerçek değerlendirme açıkları kapanmadı.
+Sınırları açık zayıf gözetim araştırmasını teslim odağı yapma veya
+doğrulanmış olasılık sonucunu tek kabul hedefi olarak tutma seçenekleri
+araştırmacıya sunuldu; **yeni yön henüz seçilmedi**. Araştırmacı veri
+yeterliliği ve risk hedefinden vazgeçme ayrımının açıklanmasını istedi;
+bu yanıt onay sayılmadı, ana amaç değiştirilmedi. PU'nun bütün U'yu
+negatife çevirmeyi gerektirmediği; kaynak skoru, gerçek olay sıralaması
+ve kalibre edilmiş olasılığın farklı kanıt istediği açıklandı. 15 yeni
+dahil 135 ilgili test geçti. Birinci aşama
+başarılı kabul edilmiş değil.
+[Somut sonuçlar, sınırlar ve karar seçenekleri](SOURCE_RANKING_COMPARABILITY_2026-11-20.md).
+
 **20 Kasım etiketsiz özellik incelemesi ve izinli ilk yardımcı model pilotu tamamlandı.**
 380 kaynak satırı/374 farklı merkez anahtarı ile 503 U anahtarı için
 27 özellik ve ayrı provenance hazırlandı: 877 anahtar, 667 gün,

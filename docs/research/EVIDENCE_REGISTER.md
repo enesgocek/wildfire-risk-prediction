@@ -1951,6 +1951,29 @@ kalibrasyon, alfa/beta veya bağımsız test sonucu değil. 120 ilgili test,
 durdu; sabit sıralı tahminle yeni koşu tamamlandı. Y'ler boş; eski L/U
 ve WF1538 korundu, ana yangın modeli ve nihai birleştirme yok.
 
+E219 — 20 Kasım. [Sabit kaynak skorlarının mevsim/örtü karşılaştırılabilirliği](../SOURCE_RANKING_COMPARABILITY_2026-11-20.md).
+81 kaynak/87 U'nun aynı kayıtlı skorları beş şemada incelendi.
+RF tüm çift AUC 0,854264; aynı ay/örtü 0,711779, 399/7.047 çift.
+Dar karşılaştırmaya katılamayan 31 U korundu; düşük örtü bandında
+yalnız bir kaynak var. Bütün şema/model sonuçları, çift puanları ve
+tek gruplu katmanların null AUC'si kayıtlı. 15 yeni test ve standart
+kütüphane ile bütün çift/anahtar/özgün skor geri okuması geçti.
+Fark nedensel yanlılık, gerçek yangın başarımı veya PU koşullarının
+doğrulanması değil. Yeni model/etiket/L yok, sonraki yıllar açılmadı.
+Teslim iddiasına ilişkin iki yön araştırmacıya soruldu; henüz karar
+ve birinci aşama bilimsel kabulü yok. Araştırmacı veri/risk hedefi
+ayrımının açıklanmasını istedi; daraltma onayı veya hedef değişikliği
+yapılmadı. 15 yeni dahil 135 ilgili test geçti.
+
+E220 — 20 Kasım. [Göreli risk kategorileri ürün yönü](../SOURCE_RANKING_COMPARABILITY_2026-11-20.md#aynı-gün-sonraki-ürün-kararı-yüzde-yerine-göreli-risk).
+Araştırmacı yüzde yerine kırmızı/sarı/yeşil sunumunu önerdi; ayrı
+`relative_risk_product_direction_v1` kararı hazırlandı. Bu kayıt ölçülmüş
+başarım değil, araştırmacı ürün yönüdür. İlk ürün için mutlak yüzde
+kalibrasyonu zorunlu tutulmuyor; gerçek yangın hedefiyle sıralama ve
+değerlendirme dayanağı açık. Renk eşikleri, yedi günlük tahmin veya
+S kaynak skorlarını doğrulanmış yangın riski kabulü yok. Ana 24 saat
+hedefi, veri rolleri, boş Y ve son birleştirme onayı korunuyor.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

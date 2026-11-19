@@ -38,6 +38,24 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+20 Kasım sonraki ürün kararı: yüzde yerine göreli düşük/orta/yüksek
+risk gösterimi yönü seçildi. Ana 24 saatlik yangın hedefi korunuyor;
+kategori kesimleri veya yeni yöntem/eğitim kabul edilmedi. İlk ürün
+için mutlak yüzde kalibrasyonu şart koşulmuyor; gerçek hedefle
+sıralama ilişkisi ve uygun değerlendirme hâlâ gerekli. Brier/kalibrasyon
+incelemesi, ileride gerçekten olasılık iddiası kurulursa uygulanır;
+AP ana sıralama ölçütü ve mevcut zaman rolleri değişmedi.
+[Sunum kararı, anlamı ve kapsam sınırı](../SOURCE_RANKING_COMPARABILITY_2026-11-20.md).
+
+20 Kasım aynı gün sabit-skor devamı: 168 anahtardaki kaynak AUC'sinin
+mevsim/örtü karşılaştırma desteğine duyarlılığı incelendi; yeni eğitim
+yok. Bu tanı gerçek yangın veya karışım varsayımı doğrulaması değil.
+Mevcut kanıtla desteklenen teslim iddiasını sınırlama ve asıl doğrulanmış
+olasılık sonucunu tek kabul koşulu tutma seçenekleri araştırmacıya
+sunuldu; yön henüz seçilmedi. Ana hedef veya kabul kapısı bu öneriyle
+değişmedi.
+[Tanı ve karar noktası](../SOURCE_RANKING_COMPARABILITY_2026-11-20.md).
+
 20 Kasım sınırlı yöntem provası: araştırmacının açık A kararıyla,
 2018–2021'in 708 anahtarında kaynak üyeliği S için lojistik ve küçük
 Random Forest kuruldu; 2022'nin 168 anahtarında ve eksiklik kontrolünde
