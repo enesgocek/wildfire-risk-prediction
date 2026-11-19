@@ -1894,6 +1894,17 @@ satırında iki kutu sıfır eşleşme verdi. Ayrı geometri hesabı eşleşti;
 15 davranış testi geçti. Yokluk negatif veya kaynak yanlışlığı yapılmadı.
 İki olası L, U ve WF1538 kararı korundu; yeni etiket/eğitim yok.
 
+E214 — 19 Kasım. [Kaynak havuzu ve yöntem seçenekleri](../SOURCE_COHORT_DIRECTION_2026-11-19.md).
+Çile özgün görsel isteği 401 döndü; özgün video edinilmedi. Güvercinlik
+telemetrisinin rolü/CRS'si doğrulanmadı; koşullu nokta AOI dışında, üç
+çevrede sıfır katalog bağlamı negatif yapılmadı. Mersin'in aynı 424 fit
+kaynak satırında 381 metadata aktarımı; WF1538 korununca 380 satır/374
+koşullu hücre-gün var. Beş ortak anahtar ayrı yangın sayılmadı; 43
+metadata sınırı olan satır atılmadı. 29 davranış testi, ayrı saat/mekânsal
+indeks hesabı ve önceki gerçek L/U dosyalarının hash kontrolü geçti.
+Genel kaynak koşullu pilot yönü araştırmacıya soruldu; kabul edilmedi.
+Yeni L/etiket yok; iki önceki olası öneri korundu. Birinci aşama açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım kaynak havuzu yönü hazırlığı. Çile özgün medya erişimi ve saha
+PDF'sindeki telemetri görsellerinin okunması, Mersin'in aynı 424 fit
+satırının belirsizlik tablosu, alternatif yöntemlerin somutlaştırılması
+ve kod/test/ayrı geri okuma yapay zekâ desteğiyle yürütüldü. Koordinatın
+rolü veya kaynak saatinin ilk uydu tespiti olduğu doğrulanmış sayılmadı.
+381 aktarılabilir metadata satırı gerçek pozitif yapılmadı; WF1538 kararı
+korundu. 29 test otomatik davranış kontrolüdür; bağımsız olay veya insan
+onayı değildir. Genel kaynak-merkez kullanımı yönü araştırmacıya soruldu;
+henüz seçilmedi. Yeni L/etiket, eğitim veya nihai birleştirme yok.
+[Kaynak havuzu, yöntem seçeneği ve sınır](../SOURCE_COHORT_DIRECTION_2026-11-19.md).
+
 19 Kasım Antalya yıllık kaynak devamı. DOI/yayınevi erişimi, PDF
 edinimi, yöntem/harita/koordinat tablosunun görsel okunması ve koşullu
 2018 katalog hesabı yapay zekâ desteğiyle yürütüldü. Ortalama konum

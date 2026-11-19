@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [424 kaynak satırı ve yöntem yönü](SOURCE_COHORT_DIRECTION_2026-11-19.md) | Mersin fit dönemi, saat/konum sınırları, 380 satır/374 koşullu anahtar, korunmuş WF1538 kararı ve araştırmacıya sunulan kaynak koşullu pilot seçenekleri |
 | [Antalya 2018 yıllık kaynak konumu](ANTALYA_ANNUAL_REFERENCE_2026-11-19.md) | Yayınevi bildirisi, merkezi kayıt/ortalama ayrımı, iki koşullu kutuda özgün ve korunmuş katalog karşılaştırması; gün ve etiket kabul sınırı |
 | [Tırazlı ve Muğla yeni kaynak incelemesi](TIRAZLI_SOURCE_REVIEW_2026-11-19.md) | Yazar tezi ve yayınevi makalesi, görsel/metadata kontrolü, başlangıç geometrisi ve tarihli olay verisine erişim sınırı |
 | [WF1538 gündüz ham ve örtü sonucu](WF1538_DAYTIME_REVIEW_2026-11-19.md) | Kaynak/piksel ayrımı, insan örtü notu, incelemede tutma A kararı ve 10 kaynak satırının durum kapanışı |

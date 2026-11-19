@@ -5,6 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım 424 satırlık kaynak havuzunun yöntem seçenekleri hazır; araştırmacı yönü bekleniyor.**
+Mersin 2018–2022 arşivinin dondurulmuş 424 satırı korundu. 381'i yayımlanan
+merkez ve iki saat yorumunda aynı koşullu hücre-güne taşınabiliyor; bu bir
+etiket kabulü değil. WF1538 dışarıda tutulunca 380 satır/374 farklı anahtar
+kalıyor; beş anahtardaki çoğul kayıtlar ayrı yangın sayılmadı. 21 konum,
+6 geçici saat bağlantısı ve 16 gün belirsizliği olan satır korunuyor.
+Kaynak koşullu hata içerebilen pilot protokolü ile yalnız tekil dış kanıta
+dayalı devam seçenekleri somutlaştırılıp araştırmacıya soruldu. Önceki
+tekil L kararları genel merkez-hücre kuralına çevrilmedi. 29 ilgili test ve
+424 satırın ayrı saat/geometri geri okuması geçti. Özgün Çile medyası ve
+Güvercinlik telemetrisi yeni başlangıç kanıtı sağlamadı; yokluk negatif
+yapılmadı. İki olası L, 2.048 U ve WF1538 kararı korundu; yeni L/etiket yok.
+Birinci aşama, PU varsayımları ve değerlendirme dayanağı açık; eğitim yok.
+[Sayımlar, kaynak sınırı ve somut A/B yönleri](SOURCE_COHORT_DIRECTION_2026-11-19.md).
+
 **19 Kasım Antalya 2018 için yeni yayınevi kaynağı ve yıllık konum kontrolü tamamlandı.**
 16 sayfalık bildirinin yöntem/harita/koordinat tablosu incelendi.
 Seçili merkezi kayıt, ortalama merkezden ayrıldı; gün/kimlik yok.
