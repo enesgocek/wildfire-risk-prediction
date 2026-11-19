@@ -6,6 +6,14 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım Marmaris kaynak devamı. Açık bildiri/saha raporu araması,
+PDF okuma ve görsel kontrolü, görüntü bölgesi eşleştirmesi, yaklaşık
+sembol konumu, katalog çevresi ve sınırlı tek ham çift planı yapay zekâ
+desteğiyle hazırlandı. Asistanın görsel kontrolü araştırmacının manuel
+incelemesi sayılmadı. Üç/dört başlangıç kaynak uyuşmazlığı korunup
+L/etiket kabul edilmedi. Ham indirme araştırmacının özel girişini bekliyor.
+[Kaynak ve kontrol raporu](../MARMARIS_SOURCE_MARKER_2026-11-19.md).
+
 19 Kasım hata içerebilen pozitif/PU hazırlığı. Salur'da tam 74 üyelik
 ilk grubun ham kalite/tarama denetimi ve ayrı grafik kapanışı,
 NIPS 2016/AAAI 2017 birincil yöntem incelemesi, tam kesirli oran

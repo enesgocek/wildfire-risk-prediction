@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım L adaylarını genişletmek için Marmaris kaynak haritası incelendi.**
+2022 bildirisindeki başlangıç sembolü yedi görüntü bölgesiyle konumlandı;
+aynı referanstaki dört bölgeyle duyarlılığı kontrol edildi. Sembol merkezi
+kırpılmış AOI dışında, görünür işaret alanı tek hücreyle kesişiyor; en yakın
+kara hücresine zorlanmadı. Belediye üç, saha raporu dört başlangıç anlatıyor;
+gerçek yangın sayısı çıkarılmadı. Yeni L/etiket yok. Fit-rolü döneminden tek
+NOAA-20 ham çifti için yaklaşık 176 MB/15 dakika planı ve iki güncel CMR
+kimlik kontrolü hazır. Araştırmacının özel Earthdata indirmesi gerekiyor.
+İndirme sonrası beş ilk katalog merkezinin ham eşleşmesi kontrol edilecek;
+bu işlem kaynak uyuşmazlığını veya PU kabulünü tek başına çözmeyecek.
+99 ilgili test geçti; birinci aşama açık.
+[Kaynaklar, ölçüm, sınırlar ve sonraki adım](MARMARIS_SOURCE_MARKER_2026-11-19.md).
+
 **19 Kasım hata içerebilen pozitiflerle PU pilotunun girdileri hazırlandı.**
 Araştırmacı A yönünü seçti. Salur'un ilk gruptaki 74 kaydı aynı ham
 tarama aralığında; katı giriş kalite kesimi 54'ünü ve yüksek güvenli

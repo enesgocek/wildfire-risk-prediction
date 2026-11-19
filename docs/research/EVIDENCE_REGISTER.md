@@ -1805,6 +1805,14 @@ sonucuna göre seçilmeyen 2.048 U anahtarı ve tek hücre için olası L öneri
 hazırlandı; diğer üç hücre aynı vaka kimliğinde korundu. Tek kaynak
 vakası, etiket kabulü veya karışım oranı tahmini değil.
 
+E204 — 19 Kasım. [Marmaris yayımlanmış başlangıç işareti](../MARMARIS_SOURCE_MARKER_2026-11-19.md).
+UZAL-CBS 2022 bildirisi ve Ege Orman saha raporu indirildi, ilgili
+sayfalar metin/görsel olarak kontrol edildi. Tek sembol yedi bölgeyle
+konumlandı; AOI dışında kalan merkez en yakın hücreye zorlanmadı.
+Üç/dört başlangıç uyuşmazlığı açık kaldı. Güncel CMR'de tek çiftin
+iki kimliği doğrulandı; ham indirme için araştırmacı girişi gerekiyor.
+Yeni L üyeliği/etiket yok; 99 ilgili davranış testi geçti.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
