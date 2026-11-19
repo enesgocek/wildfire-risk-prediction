@@ -1,5 +1,58 @@
 # Veri setinin dört aşaması ve koşullu süre planı — 19 Kasım 2026
 
+## Aynı gün teslim takvimi güncellemesi
+
+Araştırmacı teslimi **tahminen 1 Ocak 2027** olarak bildirdi; bu resmî
+kesinleştirilmiş son tarih değil. 19 Kasım'dan bu tarihe 43 takvim günü
+var. Aşağıdaki tarihler aktif çalışma, erişim ve kabul koşullarına bağlı
+**planlama hedefleri**; ölçülmüş üretim/eğitim süreleri veya garanti değil.
+Ana hedef, veri ayrımı ve kullanıcı onay kuralları değiştirilmedi.
+
+**Birinci aşama için hedef aralık 26–29 Kasım: 7–10 takvim günü.**
+Bu aralıkta amaç, kaynak koşullu PU yolunun veri üretimine gerekçeli
+olarak açılıp açılamayacağını karara bağlamak. Yeterli dayanak bulunursa
+aşama kabul edilebilir; bulunmazsa aynı tarihte açık bir durdurma/kapsam
+kararı sunulur. Takvim dolması bilimsel tamamlanma sayılmaz. Mevcut
+kanıtla birinci aşamanın başarılı kapanışına güvenilir kesin tarih
+verilemiyor; açık bilgi eksikleri hesaplama süresiyle çözülemeyebilir.
+
+| Hedef aralık | Sınırlı iş paketi / çıktı | Bağımlılık |
+|---|---|---|
+| 19–26 Kasım | Mevcut sabit havuzda kaynak–hedef ilişkisi; yeni/devam olayı belirsizliği; PU ve değerlendirme dayanağının desteklenen/varsayılan/desteklenmeyen yönleri | Aynı vakaları tekrar kontrol ederek yeni kanıt saymama; yalnız açık bir bilgi açığına yönelik işlem |
+| 26 Kasım ilk inceleme, 29 Kasım en geç karar noktası | Birinci aşama geçiş önerisi veya neden geçilemediği ve somut seçenekler | Dayanak yetersizse aşama kabul edilmez; kapsam/iddia değişikliği araştırmacıya ayrıca sorulur |
+| Kabul edilirse 30 Kasım–4 Aralık | Hedef/model satırları, son parça denetimleri, rapora bağlı araştırmacı onayı ve incelenebilir veri paketi | Önceki 2–4 aktif gün tahmini; yeni veri ihtiyacı ve büyük üretim uyuşmazlığı olmaması |
+| 5–16 Aralık | Temel modeller, uygun değerlendirme, hata analizi ve destek varsa kalibrasyon | Veri/yöntem kabulü ve ayrıca eğitim yetkisi; 2024 girdileri/etiket desteği ve yerel kaynaklar doğrulanmış olmalı |
+| 17–23 Aralık | Harita/inceleme arayüzü, yöntem ve sonuç yazımı, sunum | Yalnız desteklenen sonuç ve iddialar; yazım hazırlığı önceki çalışmalarla paralel yapılabilir |
+| 24–31 Aralık | Tekrarlanabilirlik, rapor/sunum kontrolü ve gecikme payı | Kapalı final test ancak ilgili ön koşulları sağlandıktan sonra; eksik kanıt gizlenmez |
+
+29 Kasım, araştırmanın süresiz aynı açık başlıklarda dönmemesi için
+karar hedefidir.
+Beklenen bilimsel dayanak sağlanmazsa yeni kontrol sayısı artırmak yerine
+çözülemeyen bilgi açıkları ve teslim kapsamı somutlaştırılır. Yalnız
+ili/yılı azaltmak konum/zaman veya etiket sorununu kendiliğinden çözmez.
+Yeni kurumsal talep, hedef değişikliği, bulut veya eğitim bu planla
+yetkilendirilmedi. Kullanıcının mevcut kararları geçerli.
+
+### Bu devamda gerçekten ilerletilen iş
+
+Kaynak koşullu protokolün 380 odak satırı, önceden hazırlanmış dokuz
+konum/gün hipotezinde mevcut katalogla karşılaştırıldı. Merkez/aynı gün
+380 kaynak satırının **49'unda** katalog bağlamı var; bunların **3'ünde**
+önceki yedi günlük aynı hücre bağlamı da var. Bu üçü aynı fiziksel olay
+veya devam yangını diye sınıflanmadı; diğer 46'sı doğrulanmış yeni olay
+yapılmadı. Tespit olmayan 331 kaynak satırı negatif yapılmadı. Ayrıntı
+[kaynak protokolünün zaman kontrolündedir](SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md#teslim-takvimi-devamında-katalog-zaman-bağlamı).
+
+Gerekçeli kaynak kabulü, uygulanabilir PU ve değerlendirme dayanağı
+birinci aşamanın aynı üç açık konusudur. Yeni iş paketleri eklenmedi.
+İlk konuya ilişkin bu sınırlı kontrol tamamlandı; bilimsel kabul hâlâ açık.
+Eğitim çalıştırmanın görece kısa olması, doğru değerlendirme, kalibrasyon,
+yerel kaynak yeterliliği ve yazım için zaman ayırma ihtiyacını kaldırmaz.
+2024/2025'in bütün girdilerinin üretime hazır olduğu bu planla varsayılmadı;
+mevcut 72 aylık özellik adayı üretimi 2018–2023 kapsamındadır.
+
+## Önceki aynı gün süre değerlendirmesi
+
 Birinci aşama için güvenilir bitiş tarihi henüz yok. Kaynakların teknik
 incelemesiyle etiket üretimine bilimsel geçişin aynı şey gibi
 anlatılmaması gerekiyor. Birkaç seçili vakada çalışan izleme, dört il

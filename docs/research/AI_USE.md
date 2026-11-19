@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım teslim takvimi devamı. Araştırmacı teslimi tahminen 1 Ocak 2027
+bildirdi. Koşullu çalışma takvimi ve aynı sabit 380 kaynak satırının
+dokuz hücre/gün hipotezinde önceki yedi günlük katalog bağlamı yapay
+zekâ desteğiyle hazırlandı. 84 davranış testi ve 3.417 aralığın ayrı
+zaman hesabı otomatik kontroldür; bağımsız olay/insan doğrulaması değil.
+Eşleşme payı L saflığı veya yakalama oranı, tespit yokluğu negatif,
+önceki tespit aynı fiziksel olay yapılmadı. Takvim tamamlanma garantisi
+veya eğitim onayı sayılmadı. Yeni etiket/model/birleştirme yok.
+[Koşullu takvim](../DATASET_STAGE_TIMELINE_2026-11-19.md),
+[sınırlı zaman kontrolü](../SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md#teslim-takvimi-devamında-katalog-zaman-bağlamı).
+
 19 Kasım kaynak koşullu PU A kararı sonrası. Yöntem yönünü araştırmacı
 seçti; sürümlü protokol, dokuz çevrimdışı konum/gün senaryosu, coğrafi U
 kesiti, ortak hipotez anahtarlarından olası bağımlılık blokları ve mevcut

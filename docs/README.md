@@ -23,7 +23,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 | [Muğla açık kaynak devamı](MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md) | Üç yayının kapsam/zaman/kayıt birimi incelemesi, dört yeni bağlam kaydı ve etiket kabul sınırı |
 | [Kaynak ve hedef kabulü taslağı](SOURCE_ADMISSION_PROTOCOL_DRAFT_2026-11-19.md) | Kanıt düzeyleri, Mersin yöntem metni ve yeni yazışma açmadan ilerleme kararı |
 | [Mersin yazarı için dört teknik soru](research/MERSIN_AUTHOR_QUESTION_DRAFT_2026-11-19.md) | Tarihsel taslak; gönderilmedi ve etkin iletişim görevi değil |
-| [Dört veri seti aşaması ve süre planı](DATASET_STAGE_TIMELINE_2026-11-19.md) | Anamur/Menderes teknik kapanışı, bilimsel geçiş koşulları ve kabul sonrası koşullu süre tahmini |
+| [Dört veri seti aşaması ve süre planı](DATASET_STAGE_TIMELINE_2026-11-19.md) | Tahmini 1 Ocak teslimi, 26–29 Kasım karar hedefi, bilimsel geçiş koşulları ve kabul sonrası koşullu süre tahmini |
 | [Başlangıç geçmişi izleme provası](EVENT_LINEAGE_PROTOTYPE_2026-11-19.md) | Araştırmacının A yönü, doğum/birleşme hipotezleri, Salur'da 36 zaman kesiti ve aynı girdide dokuz ayar |
 | [Salur'da başlangıç ve sonraki birleşme](SALUR_EVENT_CONTEXT_2026-11-19.md) | Dokuz gruplama, 20 zaman kesiti, başlangıcı değiştiren sonraki kenar ve yöntem yönü seçenekleri |
 | [PU yönteminin bilgi gereksinimleri](PU_METHOD_REVIEW_2026-11-19.md) | Yeni SCAR çalışmasının koşulları, tam kesirli sentetik karşı örnekler ve grup/sayım bilgisinin sınırları |

@@ -5,6 +5,22 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım teslim planı ve sabit kaynak havuzunda zaman bağlamı ilerletildi.**
+Araştırmacı teslimi tahminen 1 Ocak 2027 bildirdi. Birinci aşamada
+26–29 Kasım gerekçeli geçiş veya durdurma/kapsam kararı hedefleniyor;
+bilimsel tamamlanma garantisi yok. Kabul sağlanırsa veri paketi için
+önceki 2–4 aktif gün tahminiyle 30 Kasım–4 Aralık planlandı; Aralık
+son haftası rapor/sunum ve gecikme payına ayrıldı. Eğitim ve sonraki
+kapsam kararları ayrıca koşullara bağlı, bu planla yetkilendirilmedi.
+Mevcut 72 aylık özellik üretimi 2018–2023; 2024/2025 girdilerinin tümü
+hazır varsayılmadı. [Koşullu takvim ve üç açık iş](DATASET_STAGE_TIMELINE_2026-11-19.md).
+380 sabit kaynak satırının dokuz hipotezi katalogla incelendi. Merkez/
+aynı gün 49 satırda tespit bağlamı; bunların üçünde önceki yedi günde
+de tespit var. Aynı olay/devam veya gerçek yeni yangın sonucu çıkarılmadı.
+84 ilgili test ve 3.417 aralığın ayrı zaman hesabı geçti; hedefler boş,
+önceki L/U ve WF1538 korundu. Birinci aşama açık; yeni etiket/eğitim yok.
+[Sınırlı zaman kontrolü ve sayımlar](SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md#teslim-takvimi-devamında-katalog-zaman-bağlamı).
+
 **19 Kasım A kararıyla kaynak koşullu PU protokolü ve bağımsız hazırlıkları tamamlandı.**
 Karar yeni sürümlü ayara işlendi; genel kaynak kullanımının araştırılması,
 etiket/eğitim kabulü değil. 380 odak kaydında 250 m çevre 60, 1 km çevre

@@ -1919,6 +1919,17 @@ anahtar türü hatası düzeltildi; başarısız çıktı kabul edilmedi. Bütü
 424 kaynak satırı ve WF1538 kararı korundu. Yeni L/etiket/eğitim yok;
 birinci aşamanın bilimsel kabulü ve PU/değerlendirme dayanağı açık.
 
+E216 — 19 Kasım. [Sabit kaynak havuzunda katalog zaman bağlamı](../SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md#teslim-takvimi-devamında-katalog-zaman-bağlamı).
+380 satırın dokuz hipotezi korundu; önceki genel 479 kaynak sayımı
+yeni sonuç sayılmadı. Fit dönemi 28.396 katalog tespiti kullanıldı.
+Merkez/aynı gün 49 kaynak hipotezinde hedef pencere bağlamı, 9'unda
+önceki yedi gün bağlamı, 3'ünde ikisi var. Yeni/devam yangını veya
+L saflığı/recall çıkarılmadı; sıfır sonuç negatif yapılmadı. 3.420
+hipotezden 3.417 fit aralığı doğrudan zaman karşılaştırmasıyla da
+doğrulandı. 84 ilgili test ve kod kontrolü geçti. Önceki L/U ve
+WF1538 korundu; yeni etiket/eğitim yok. Tahmini 1 Ocak teslimi için
+26–29 Kasım karar hedefi planlandı; bilimsel tamamlanma garantisi değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

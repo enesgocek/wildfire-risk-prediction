@@ -196,3 +196,56 @@ Protokol ve otomatik ölçümler yapay zekâ desteğiyle hazırlandı; A yönü
 araştırmacıya ait. Yeni L ve ikili etiket **0**; bütün kaynak hedefleri
 boş, üyelikleri incelemede. Günlük gözlem `unknown`, pozitif/negatif
 izinleri kapalı. Önceki öneriler/U ve nihai birleştirme onay kuralı korundu.
+
+## Teslim takvimi devamında katalog zaman bağlamı
+
+19 Kasım'da, teslim için tahmini 1 Ocak 2027 tarihi bildirildikten sonra,
+birinci aşamadaki kaynak–hedef ilişkisine yönelik sınırlı çalışma yapıldı.
+Önceki 479 satırlık genel aynı-hücre/gün sayımı yeni sonuç sayılmadı.
+Burada sabit 380 fit kaydında dokuz önceden hazırlanmış hücre/gün
+hipotezinin **önceki yedi günlük bağlamı** ayrıca incelendi. Kaynak odak
+üyeliği sonuca göre değiştirilmedi; yeni eşleşen satır seçimi yapılmadı.
+
+| Konum hipotezi | −1 gün katalog bağlamı | Aynı gün | +1 gün |
+|---|---:|---:|---:|
+| Merkez hücre | 4 / 380 | 49 / 380 | 10 / 379 |
+| 250 m çevrenin kestiği olası hücreler | 4 / 380 | 50 / 380 | 10 / 379 |
+| 1 km çevrenin kestiği olası hücreler | 5 / 380 | 50 / 380 | 10 / 379 |
+
+Karşılaştırma, katalog **merkezinin bu olası hücrelerden birinde olması**
+üzerinden yapıldı. Kaynak noktasına 250/1.000 m uzaklık veya ham yangın
+pikseliyle kesişme ölçümü değildir. Sayılar eşleşen kaynak hipotezleri;
+farklı olay, gerçek pozitif, yakalama oranı veya L saflığı sayılmaz.
+Her hedef pencere `(T,T+24 saat]`, önceki bağlam `(T−7 gün,T]` olarak
+ayrıldı. Yedi gün kabul edilmiş yangın sessizlik süresi değildir.
+
+Merkez/aynı gün grubunda 49 satır hedef pencerede, 9 satır önceki bağlamda,
+3 satır her ikisinde tespit taşıyor. Üç kayıt için devam olasılığı
+görünür hale geldi; aynı olay oldukları doğrulanmadı. Önceki bağlamı
+bulunmayan 46 satır gerçek yeni yangın kabul edilmedi. Sonraki günün
+10 eşleşmesinin 9'unda önceki bağlam da var; en çok eşleşen zaman
+yorumu seçilmedi. Bu sonuçlar kaynak saatini ilk tespit saatine eşitleme
+ve mevcut tespiti yeni olay sayma riskinin ayrı tutulmasını destekliyor.
+
+Katalogda yalnız 2018–2022 metadata seçildikten sonra diğer alanlar
+kullanıldı: **28.396 korunmuş tespit satırı**. Kaynak hipotezlerinin
+3.420 satırı korundu; fit dışında kalan üç konum senaryosu atamasız
+tutuldu, **3.417 aralık** incelendi. Sıfır eşleşme yeterli uydu gözlemi
+veya yangın yokluğu değil. Gözlem/kalite filtresi ve gerçek negatif
+etiketi üretilmedi. 2023/2024/2025 katalog değerleri hesaba alınmadı.
+
+Yeni ve ilgili önceki beş test dosyasında **84 davranış testi**, Ruff
+ve biçim kontrolü geçti. Ayrı doğrudan zaman karşılaştırması, bisect
+ile indekslenen 3.417 aralığın tespit sayılarını ve ilk pencere
+zamanlarını doğruladı. Aynı katalogdan yapılan ikinci hesap bağımsız
+olay veya gözlem doğrulaması değildir.
+
+- Üretici: `scripts/quality/audit_source_conditioned_catalogue_time.py`.
+- Sonuç: `outputs/reports/dataset/source_conditioned_catalogue_time_v1/20261119T202544Z_ec360e57/readback.json`;
+  SHA-256 `e9e17824857986c0aee7294b90df344615fc0092962f644557668b03ab80a562`.
+- Aynı klasörde `separate_readback.json` SHA-256:
+  `5123bee92313d3471bec62558c898beea39e0a5d95fce80e38575c49f16efffc`.
+
+Bu sınırlı zaman incelemesi tamamlandı; bilimsel kaynak/PU/değerlendirme
+kabulü açık. Yeni L, etiket, model veya nihai birleştirme yok. Takvim
+hedefi bu kabulün yerine geçmez.
