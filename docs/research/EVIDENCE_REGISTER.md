@@ -1930,6 +1930,27 @@ doğrulandı. 84 ilgili test ve kod kontrolü geçti. Önceki L/U ve
 WF1538 korundu; yeni etiket/eğitim yok. Tahmini 1 Ocak teslimi için
 26–29 Kasım karar hedefi planlandı; bilimsel tamamlanma garantisi değil.
 
+E217 — 20 Kasım. [Etiketsiz kaynak/U özellik incelemesi](../CONDITIONAL_PU_RANKING_2026-11-20.md#gerçek-inceleme-tablosu-hazır).
+667 seçili günün 1.334 dosyası hash ile kontrol edilerek 374 kaynak
+merkezi ve 503 U için 27 özellik/ayrı provenance bağlandı. 877 anahtarın
+790'ı tam, 87'si eksik; doldurma/eleme yok. 380 kaynak kimliği korunuyor;
+hedefler boş. Geçmiş kaynak zamanları ve bilinmeyen yayın erişimi ayrı
+geri okundu. 708/168 pilot ayrımı ve bir korunmuş sınır anahtarı hazır;
+hipotez desteklerinde bölümler arası ortak anahtar yok. Bu sınırlı
+inceleme bağlantısı nihai etiketli birleştirme veya olay doğrulaması değil.
+
+E218 — 20 Kasım. [Araştırmacı A kararıyla ilk yardımcı modeller](../CONDITIONAL_PU_RANKING_2026-11-20.md#aynı-gün-a-kararı-ve-tamamlanan-ilk-pilot).
+Menon 2015 PMLR kaydı/PDF kimliği doğrulandı; PDF s. 3–4 görüntüden
+incelendi. Koşullu sıralama ilişkisinin proje varsayımlarını doğrulamadığı
+kaydedildi. Araştırmacı sınırlı modeli çalıştırma A yönünü seçti.
+708 anahtar fit, 168 anahtar 2022 inceleme; üç yardımcı S modelinin
+ROC-AUC değerleri 0,820065 / 0,854264 / 0,534483. Gerçek yangın AUC/AP,
+kalibrasyon, alfa/beta veya bağımsız test sonucu değil. 120 ilgili test,
+7.047 çift üzerinden ayrı AUC ve kaydedilen modellerin aynı skorları
+üretmesi kontrolü geçti. İlk kısmi RF koşusu yuvarlama geri okumasında
+durdu; sabit sıralı tahminle yeni koşu tamamlandı. Y'ler boş; eski L/U
+ve WF1538 korundu, ana yangın modeli ve nihai birleştirme yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

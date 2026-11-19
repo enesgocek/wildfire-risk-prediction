@@ -1,9 +1,26 @@
-# Proje durum raporu — 19 Kasım 2026
+# Proje durum raporu — 20 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**20 Kasım etiketsiz özellik incelemesi ve izinli ilk yardımcı model pilotu tamamlandı.**
+380 kaynak satırı/374 farklı merkez anahtarı ile 503 U anahtarı için
+27 özellik ve ayrı provenance hazırlandı: 877 anahtar, 667 gün,
+1.334 dosya hash kontrolü. 790 anahtarın 27 özelliği tam; 87 eksik
+satır doldurulmadan/elenmeden inceleme CSV'sinde korundu. Araştırmacı
+ilk küçük model denemesi için A'yı seçti; yeni yürütme kararı yalnız
+kaynak üyeliği S'yi kapsıyor, gerçek yangın Y'yi değil. 708 fit ve
+168 adet 2022 inceleme anahtarında lojistik/Random Forest/eksiklik
+kontrolü çalıştı. Kaynak üyeliği ROC-AUC sırasıyla 0,820065 / 0,854264 /
+0,534483; gerçek yangın AUC/AP veya risk yüzdesi hesaplanmadı.
+Bir sınır anahtarı, WF1538 kararı ve eski L/U korundu. 120 ilgili test,
+ayrı AUC/fit-istatistiği/model geri okumaları geçti. İlk kısmi RF
+denemesi paralel yuvarlama farkında durdu; sabit sıralı tahminle yeni
+koşu tamamlandı; deney yerel MLflow'a da kaydedildi. Ana yangın modeli/veri seti kabulü, kaynak–hedef
+ilişkisi ve gerçek değerlendirme dayanağı açık; nihai birleştirme yok.
+[İncelenebilir tablo, birincil yöntem, karar ve pilot sonucu](CONDITIONAL_PU_RANKING_2026-11-20.md).
 
 **19 Kasım teslim planı ve sabit kaynak havuzunda zaman bağlamı ilerletildi.**
 Araştırmacı teslimi tahminen 1 Ocak 2027 bildirdi. Birinci aşamada

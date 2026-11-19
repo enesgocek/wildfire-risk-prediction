@@ -6,6 +6,20 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+20 Kasım koşullu sıralama devamı. 877 anahtarlık sınırlı, etiketsiz
+özellik/provenance bağlantısı, güncel dosya kontrolü ve 708/168 ayrım
+önerisi yapay zekâ desteğiyle hazırlandı. Menon ve arkadaşlarının 2015
+birincil makalesi yayınevi/PDF üzerinden doğrulandı; iki kritik sayfa
+asistan tarafından görüntüden okundu. Araştırmacı ilk küçük yardımcı
+model denemesi için A'yı seçti. İzinli lojistik, Random Forest ve
+eksiklik kontrolünün kodu/çalıştırılması/çıktı doğrulaması yapay zekâ
+desteğiyle yürütüldü; 120 davranış testi ve ayrı sayımlar otomatik
+kontroldür. Paralel RF tahminindeki son-bit farkı sabit sıralı tahminle
+giderildi; kısmi ilk koşu korundu. S üyeliği gerçek yangın Y etiketi,
+yardımcı ROC-AUC gerçek AP veya risk kalibrasyonu yapılmadı. Ana yöntem,
+bağımsız olay ve nihai veri seti kabulü iddia edilmedi.
+[Hazırlık, kaynak, karar ve gerçek yardımcı model sonuçları](../CONDITIONAL_PU_RANKING_2026-11-20.md).
+
 19 Kasım teslim takvimi devamı. Araştırmacı teslimi tahminen 1 Ocak 2027
 bildirdi. Koşullu çalışma takvimi ve aynı sabit 380 kaynak satırının
 dokuz hücre/gün hipotezinde önceki yedi günlük katalog bağlamı yapay

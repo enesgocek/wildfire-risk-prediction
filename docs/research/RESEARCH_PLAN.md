@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+20 Kasım sınırlı yöntem provası: araştırmacının açık A kararıyla,
+2018–2021'in 708 anahtarında kaynak üyeliği S için lojistik ve küçük
+Random Forest kuruldu; 2022'nin 168 anahtarında ve eksiklik kontrolünde
+yardımcı ROC-AUC incelendi. Gerçek yangın hedefi Y boş, AP ana ölçütü
+ve 2023/2024/2025 rolleri korunuyor. Kaynak/gerçek sınıf ilişkisi ve
+karışım koşulları henüz kabul edilmedi; ilk yardımcı modelin kurulması
+birinci aşamanın veya nihai etiketli veri setinin kabulü değildir.
+[Birincil dayanak, kapsam ve tamamlanan pilot](../CONDITIONAL_PU_RANKING_2026-11-20.md).
+
 | Aşama | Çıktı | Tamamlanma ölçütü |
 |---|---|---|
 | Olay ve gözlem doğrulaması | Sürümlü olay tanımı, gözlem/eksiklik kaydı | Kaynak eşleşmesi, tekrar gruplaması, kapsam ve belirsizlik gerekçeleri; açık sorunlar kayıtlı |

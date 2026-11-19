@@ -1,0 +1,43 @@
+{
+  "version": "conditional_pu_ranking_evidence_v1",
+  "research_date": "2026-11-20",
+  "timezone": "Europe/Istanbul",
+  "citation": {
+    "title": "Learning from Corrupted Binary Labels via Class-Probability Estimation",
+    "authors": [
+      "Aditya Menon",
+      "Brendan van Rooyen",
+      "Cheng Soon Ong",
+      "Robert C. Williamson"
+    ],
+    "venue": "ICML 2015 / PMLR 37",
+    "pages": "125-134",
+    "publisher_record": "https://proceedings.mlr.press/v37/menon15.html",
+    "primary_pdf": "https://proceedings.mlr.press/v37/menon15.pdf"
+  },
+  "pdf_path": "outputs/reports/dataset/conditional_pu_ranking_v1/sources/20261119T210000Z/menon15.pdf",
+  "pdf_sha256": "5c20f1f2bd415493bbb77966ab9b6b1d1f26b8a4323206dae3df9172e96ded2f",
+  "bytes": 344714,
+  "pdf_pages": 10,
+  "source_receipt_sha256": "4b87d3c09a7934dcff22a79801ad7ccdbc0d186522d1dc5ec098219ea0090a59",
+  "review": {
+    "text_sections": "2, 3.2 and 4",
+    "rendered_pdf_pages_one_based": [
+      3,
+      4
+    ],
+    "render_sha256": {
+      "page-03.png": "4d4b22030b6bf39fc102258cf9946eb27140a60427bd5bd50f577b36d36e5df0",
+      "page-04.png": "9f4d79a210619548da4f916f280aad5c646b73360fa402aa8d1a742df1ba6fa6"
+    },
+    "reviewer": "assistant_not_researcher_or_independent_expert"
+  },
+  "claim_scope": {
+    "AUC_optimization_equivalence_requires_common_class_conditionals_and_positive_enrichment": true,
+    "numerical_noisy_AUC_equals_clean_AUC": false,
+    "AP_invariance_or_fire_probability_calibration_established_for_project": false,
+    "source_target_semantics_validated_for_project": false,
+    "new_paper_implemented_or_fit_now": false
+  },
+  "project_method_direction_pending": true
+}
