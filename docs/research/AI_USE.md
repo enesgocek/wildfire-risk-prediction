@@ -20,6 +20,10 @@ derneği kitabının metin/görsel incelemesi, kaynak notları ve sicil
 genişletme komutu yapay zekâ desteğiyle hazırlandı. Araştırmacı görsel
 onayı veya bağımsız saha doğrulaması olarak sunulmadı. Yeni yazışma
 açılmadı; kaynakların anlam belirsizliği etiket iznine çevrilmedi.
+Sonraki Eker makalesi Word eki, bundled belge çalışma ortamında
+`python-docx` ve doğrudan OOXML hücrelerinden incelendi; kaynak
+alanları ve süre aritmetiği kontrol edildi. Word sayfalarının görsel
+incelemesi veya yeni olay eşleşmesi kabul edildiği iddia edilmedi.
 [Kaynak devamı ve sınırlamalar](../MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md).
 
 19 Kasım kaynak kabulü. Yayınevi yöntem metninin incelenmesi, görünüm

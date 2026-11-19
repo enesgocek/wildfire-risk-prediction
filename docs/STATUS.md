@@ -5,6 +5,14 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım açık envanterin yayınevi eki de alan düzeyinde incelendi.**
+Eker ve arkadaşlarının 2021 büyük yangınları için yayımladığı Word
+ekinde S1 tablosunun 30 veri satırı ve sekiz sütunu doğrulandı.
+15 satırın yer etiketi çalışma illerini içeriyor; saat ve başlangıç
+koordinatı sütunu yok. Tarih kökeni OGM, mekânsal kapsam yangın sonrası
+görüntü. Önceki sicile ayrı yeni olay diye eklenmedi. Birinci aşama açık.
+[Ek dosya, kaynak bağımlılığı ve kontrol](MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md#aynı-gün-ek-kaynak-takibi).
+
 **19 Kasım hücre kapsamı için bütün alanda harita karşılaştırması yapıldı.**
 2.899 AOI kesişiminde CORINE sınıf alanları ölçüldü. Su kuralını geçen
 2.889 hücrede %50 kesimi CGLS 2017 ile 2.044, CORINE 2018 ile 1.656

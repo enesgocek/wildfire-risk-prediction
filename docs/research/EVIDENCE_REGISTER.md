@@ -1767,6 +1767,13 @@ CSV'den sayım kontrolü yapıldı. Araştırmacı A ile asgari yüzdeye göre
 ek eleme yapmadan 2.889 aday hücreyi koruma yönünü seçti. Karar
 makbuzu ve hücre anahtarları doğrulandı; olay/habitat etiketi kabul edilmedi.
 
+E199 — 19 Kasım. [2021 envanterinin Word eki](../MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md#aynı-gün-ek-kaynak-takibi).
+728.180 baytlık yayınevi DOCX dosyası indirildi. S1'in sekiz sütunu,
+30 benzersiz kodu, 2021 günleri ve süre aritmetiği kontrol edildi.
+15 yer etiketi çalışma illerini içeriyor; saat/başlangıç koordinatı
+sütunu yok. Tablo yapısal okundu; görsel araştırmacı onayı sayılmadı.
+Yeni bağımsız olay, saat ölçümü veya etiket kabul edilmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

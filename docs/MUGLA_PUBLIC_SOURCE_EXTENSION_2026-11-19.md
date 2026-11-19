@@ -1,6 +1,6 @@
 # Muğla açık kaynak devamı — 19 Kasım 2026
 
-Araştırmacının yeni yazışma açmadan ilerleme kararı uygulandı. Üç temel
+Araştırmacının yeni yazışma açmadan ilerleme kararı uygulandı. İlk incelemede üç temel
 kaynak ve iki ek kaynak adayı incelendi; dosyalar ve iki PDF sayfasının görsel kopyaları
 yerelde hash ile bağlandı. Çalışma yeni olay etiketi veya birinci aşama
 kabulü sağlamadı. İncelenen kaynaklar bütün açık kaynakların tarandığı
@@ -93,3 +93,41 @@ anlamlı kaynak işi, bu seçili olaylardan birine özgün başlangıç haritas�
 veya açıklanmış olay kaydı eklemek. Böyle bir kanıt bulunmadan kesin
 etiket üretimi, PU kabulü, model eğitimi ve nihai birleştirme açılmadı.
 Yerel 2024/2025 dosyaları okunmadı; gözlem `unknown` kaldı.
+
+## Aynı gün ek kaynak takibi
+
+Eker, Çınar, Baysal ve Aydın'ın 2024 makalesinin yayınevi bağlantılı
+Word eki de indirildi. Tablo S1'de 30 veri satırı ve sekiz sütun var;
+15 satırın il etiketi çalışma illerini içeriyor. Sütunlar vaka kodu,
+yer, başlangıç/bitiş günü, süre ve alanı kapsıyor; saat ve başlangıç
+koordinatı sütunu yok. Makalenin yöntemi tarihleri OGM kayıtlarına,
+mekânsal kapsamı yangın sonrası Sentinel-2 görüntülerine bağlıyor.
+Bu iki bilgi gerçek başlangıç geometrisi veya bağımsız ikinci saat
+ölçümü olarak birleştirilmedi.
+[Yayınevi ve yöntem](https://doi.org/10.1007/s11069-024-06622-0),
+[özgün ek](https://static-content.springer.com/esm/art%3A10.1007%2Fs11069-024-06622-0/MediaObjects/11069_2024_6622_MOESM1_ESM.docx).
+
+Örneğin MATA satırının bitiş günü 7 Eylül 2021. Tarih ve süre
+aritmetiği tutarlı olsa da bu alanın fiziksel sönme anlamı bu incelemede
+doğrulanmadı. Bölgesel/birleşik yer adları da tekil tutuşma kimliği
+yerine geçirilmedi. Yeni satırlar önceki 27 kaynak kaydına eklenmedi;
+olay eşdeğerliği kurulmadan sayı şişirilmedi.
+
+Kontrol, dokunulmamış Word dosyasının tablo hücrelerinde yapıldı.
+Bundled Python `python-docx` okuması ile OOXML'den doğrudan okuma
+248 başlık/veri hücresinin tamamında uzlaştırıldı. İlk yerel XML
+okumasında biçim koşularının arasına eklenen iki yer adı boşluğu
+giderildi; kaynak dosya değiştirilmedi. Görsel Word sayfa incelemesi
+veya araştırmacı değerlendirmesi tamamlandı olarak sunulmadı.
+`audit_eker_supplement.py`, dosya kimliğini, dört tabloyu, S1 şemasını,
+30 benzersiz kodu, 2021 tarihlerini ve süre hesabını kontrol ediyor.
+Bu, kaynak alanlarının hedefe uygun anlamının kabulü değildir. Ruff ve
+biçim kontrolü geçti; yeni ağ işi veya model çalıştırması gerektirmiyor.
+
+Ek dosya 728.180 bayt; SHA-256
+`bca3c83d0e5528589c715110b77356942e801cacc7173c269ba17309eda554a5`.
+Sonuç
+`outputs/reports/dataset/eker_supplement_review_v1/20261119T003750Z_21756817/readback.json`.
+SHA-256 `806f8e8d019fa592b004af69171a4b5010ae2efc87e113ea21322d873fe6cd81`.
+Kaynak belge ve ham tablolar Git'e gönderilmez. Etiket ve birinci aşama
+kabul durumu değişmedi; yeni yazışma açılmadı.
