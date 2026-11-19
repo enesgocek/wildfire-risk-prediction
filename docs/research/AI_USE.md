@@ -6,6 +6,26 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım PU-MIL ve Salur yerel örtüsü. Birincil tam yöntem incelemesi,
+olasılık/sınıflandırma ayrımı için tam kesirli yapay hesap, iki eski
+haritada çevre alanları ve bağımsız alan kontrolü yapay zekâ desteğiyle
+yürütüldü. Olay öncesi görüntünün asistan yorumu ile araştırmacının
+A/B ön notlarına katılması ayrı kaydedildi. Bunlar bağımsız uzman
+incelemesi, yangın veya habitat etiketi sayılmadı. Kamuya açık CMR'de
+iki kaynak kimliği doğrulanıp mevcut güvenli aktarıcı için tek çiftlik
+plan hazırlandı; özel Earthdata girişi araştırmacıya bırakıldı.
+Araştırmacı indirince tek ham pikselin eşleşmesi, kalite bitleri ve
+komşu merkezlerden yaklaşık alanı asistan tarafından incelendi.
+Collection 2 kılavuzundaki M13 uyarısı metin/görsel olarak doğrulandı;
+uyarı otomatik yanlış tespit sayılmadı. Önceki insan çember notu daha
+geniş yaklaşık alana aktarılmadı; yeni görsel ön inceleme sunuldu.
+Araştırmacı geniş alandaki karışık örtüye katıldı ve iki sınır arasına
+ilişkin yaklaşık %60 orman görsel tahmini verdi. Bu insan tahmini ölçüm,
+bütün piksel yüzdesi veya habitat kabulü olarak sunulmadı.
+Model veya nihai birleştirme yapılmadı.
+[Yöntem incelemesi](../PU_MIL_FEASIBILITY_2026-11-19.md),
+[yerel örtü ve devam adımı](../SALUR_LOCAL_COVER_2026-11-19.md).
+
 19 Kasım hücre kapsamı. Bütün AOI hücrelerinde CORINE sınıf alanlarının
 ölçümü, CGLS 2017 ile betimsel karşılaştırma, iki yoğunlaştırma ve ayrı
 kesişim hesapları, görsel ve kapsam seçenekleri yapay zekâ desteğiyle

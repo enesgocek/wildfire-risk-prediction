@@ -1774,6 +1774,28 @@ E199 — 19 Kasım. [2021 envanterinin Word eki](../MUGLA_PUBLIC_SOURCE_EXTENSIO
 sütunu yok. Tablo yapısal okundu; görsel araştırmacı onayı sayılmadı.
 Yeni bağımsız olay, saat ölçümü veya etiket kabul edilmedi.
 
+E200 — 19 Kasım. [PU-MIL tam yöntem incelemesi](../PU_MIL_FEASIBILITY_2026-11-19.md).
+Bao 2018 yayın kimliği iki görünümle, v3 tam metniyle kontrol edildi.
+Üye düzeyindeki yolun sınıflandırma/olasılık ayrımı tam kesirli yapay
+iki karışımla örneklendi. Gerçek veri başarımı veya yöntem kabulü yok.
+
+E201 — 19 Kasım. [Salur yerel örtüsü ve tek çift hazırlığı](../SALUR_LOCAL_COVER_2026-11-19.md).
+İki alternatif kaynak konumu ve ilk yerel tespitin dokuz çevresinde
+eski harita sınıf alanları ölçüldü. Dokuz CORINE sonucu exactextract
+ile kontrol edildi. Araştırmacı A ağaçlık, B ağaçlık/açık alan karışımı
+görsel ön notlarına katıldı. CMR'de tek ham çiftin iki kaydı doğrulandı;
+özel giriş ve indirme sonucu bekleniyor. 137 ilgili test geçti; etiket yok.
+
+E202 — 19 Kasım. [Salur ham piksel sonucu](../SALUR_LOCAL_COVER_2026-11-19.md#aynı-oturumda-indirme-sonrası-ham-piksel-sonucu).
+Araştırmacının tek çift indirmesi bayt/hash ve başlık kontrolünü geçti.
+İlk katalog merkezi ham 19/5113 pikselinde tek eşleşti. QA bit 6,
+Collection 2 kılavuzundan M13 kalite uyarısı olarak doğrulandı; doğrudan
+yanlış tespit sayılmadı. Yaklaşık 0,314 km² alanın %37,6'sı önceki
+inceleme çemberi dışında; yeni mor sınır görseli araştırmacıya sunuldu.
+Araştırmacı karışık örtü notuna katıldı; aradaki bölüm için yaklaşık
+%60 orman görsel tahmini ayrı saklandı, ölçülmüş alan oranı yapılmadı.
+Yalnız yerel tespit/örtü incelemesi, etiket veya gerçek yangın doğrulaması değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

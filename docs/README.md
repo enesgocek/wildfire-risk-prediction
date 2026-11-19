@@ -8,6 +8,8 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Salur yerel örtü incelemesi](SALUR_LOCAL_COVER_2026-11-19.md) | Kaynak işareti/ilk tespit ayrımı, dokuz çevre, araştırmacı ön notları ve tek ham çift indirme planı |
+| [Grup bilgisinden hücreye PU uygulanabilirliği](PU_MIL_FEASIBILITY_2026-11-19.md) | Bao 2018 tam yöntemindeki üye sınıflandırması, nüfus oranı ve hücre olasılığı ayrımı |
 | [Risk hücresi kapsam seçenekleri](CELL_COVER_SCOPE_OPTIONS_2026-11-19.md) | 2.899 hücrede iki haritanın karşılaştırması ve asgari yüzdeyle ek eleme yapmadan 2.889 aday hücreyi koruma kararı |
 | [Muğla açık kaynak devamı](MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md) | Üç yayının kapsam/zaman/kayıt birimi incelemesi, dört yeni bağlam kaydı ve etiket kabul sınırı |
 | [Kaynak ve hedef kabulü taslağı](SOURCE_ADMISSION_PROTOCOL_DRAFT_2026-11-19.md) | Kanıt düzeyleri, Mersin yöntem metni ve yeni yazışma açmadan ilerleme kararı |

@@ -1,5 +1,11 @@
 # PU yönteminin bilgi gereksinimleri — 19 Kasım 2026
 
+**Aynı gün sonraki inceleme:** aşağıda yalnız özeti incelendiği belirtilen
+Bao 2018 çalışmasının tam metni daha sonra ayrıca kontrol edildi.
+Üye düzeyinde sınıflandırma yolu ve kalibrasyon ayrımı
+[yeni raporda](PU_MIL_FEASIBILITY_2026-11-19.md). Önceki inceleme kapsamı
+bu tarihli ekleme ile geriye dönük değiştirilmedi.
+
 Amaç, birinci aşamadaki açık konuları yeni bir algoritmanın gerçekten
 çözüp çözemediğini incelemek. Kaynak taraması ve tam olasılıklı sentetik
 karşı örnekler birlikte kullanıldı. Sonuç, bütün PU yöntemlerinin işe

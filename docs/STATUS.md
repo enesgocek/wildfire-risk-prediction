@@ -5,6 +5,28 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım Salur'da kaynak işareti ve ilk tespit örtüsü ayrıldı.**
+Üç konumun dokuz çevresi iki eski haritada ölçüldü; CORINE alanları
+ayrı hesapla doğrulandı. Olay öncesi görüntüdeki A ağaçlık, B ağaçlık–
+açık alan karışımı ön notlarına araştırmacı katıldı. Eski harita payları
+gerçek örtü yüzdesi sayılmadı. İlk tespitin tek ham çifti için güncel
+CMR kimliği kontrol edilip yaklaşık 187 MB/15 dakika yerel plan hazırlandı.
+Araştırmacının indirmesi sonrası ham 19/5113 pikseli tek eşleşti:
+yüksek güven maskesi, M13 kalite uyarısı ve 0,314 km² yaklaşık alan.
+Önceki çemberin dışındaki %37,6 için araştırmacı karışık örtü notuna
+katıldı; aradaki bölümdeki yaklaşık %60 orman tahmini görsel ön not,
+ölçüm veya eşik değil. Bu örneğin teknik örtü/ham merkez incelemesi tamamlandı.
+Kalite uyarısı otomatik yanlış tespit sayılmadı. Etiket yok; 137 ilgili
+test geçti. Birinci aşama halen açık.
+[Örtü bulgusu, araştırmacı notu ve indirme adımı](SALUR_LOCAL_COVER_2026-11-19.md).
+
+**19 Kasım grup düzeyindeki PU yönteminin tam metni incelendi.**
+Bao ve arkadaşları (2018) üye düzeyinde sınıflandırma yolu da sunuyor;
+eşit test oranlı sınıflandırma doğrudan kalibre edilmiş hücre riski değil.
+Bu ayrım tam kesirli yapay örnekle kontrol edildi. Yöntem mevcut pozitif,
+seçilme ve değerlendirme açıklarını kendiliğinden çözmüyor; kabul edilmedi.
+[Tam yöntem, proje çıkarımı ve yeniden üretim](PU_MIL_FEASIBILITY_2026-11-19.md).
+
 **19 Kasım açık envanterin yayınevi eki de alan düzeyinde incelendi.**
 Eker ve arkadaşlarının 2021 büyük yangınları için yayımladığı Word
 ekinde S1 tablosunun 30 veri satırı ve sekiz sütunu doğrulandı.
