@@ -1885,6 +1885,15 @@ elde edilmedi. PDF'de gömülü ek dosya yok. Altı kaynak dosyası doğrulandı
 risk haritası etikete çevrilmedi. Yeni L/eğitim yok; genel açık veri
 yokluğu veya kaynak-anlamı otomatik doğrulaması iddia edilmedi.
 
+E213 — 19 Kasım. [Antalya 2018 yıllık kaynak konumu](../ANTALYA_ANNUAL_REFERENCE_2026-11-19.md).
+Yeni yayınevi bildirisi 16 sayfa/2.933.569 bayt olarak korundu.
+Yöntem, Şekil 10 ve Tablo 3 görüntüden incelendi. Merkezi örnek
+koordinatı ortalama merkezden ayrıldı; CRS yorumu koşullu, gün/kimlik
+yok. 2018'in 2.482 korunmuş, 37.316 S-NPP ve 34.719 NOAA-20 kaynak
+satırında iki kutu sıfır eşleşme verdi. Ayrı geometri hesabı eşleşti;
+15 davranış testi geçti. Yokluk negatif veya kaynak yanlışlığı yapılmadı.
+İki olası L, U ve WF1538 kararı korundu; yeni etiket/eğitim yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

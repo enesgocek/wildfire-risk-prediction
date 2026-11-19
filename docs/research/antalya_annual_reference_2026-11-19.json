@@ -1,0 +1,123 @@
+{
+  "version": "antalya_annual_reference_context_v1",
+  "review_date": "2026-11-19",
+  "scope": "one_2018_published_selected_record_coordinate_under_explicit_geographic_hypothesis_not_daily_reference_admission",
+  "source": {
+    "authors": [
+      "Kerime Karabacak",
+      "Rüya Bayar",
+      "Özlem Türkşen"
+    ],
+    "year": 2019,
+    "doi": "10.26650/PB/PS12.2019.002.060",
+    "url": "https://iupress.istanbul.edu.tr/book/1st-istanbul-international-geography-congress-proceedings-book/chapter/spatial-statistics-analysis-of-forest-fires-in-antalya-province",
+    "source_type": "primary_university_publisher_proceedings_chapter",
+    "printed_pages": [
+      615,
+      630
+    ],
+    "pdf_pages": 16,
+    "method_pdf_page": 3,
+    "distribution_figure_pdf_page": 10,
+    "coordinate_table_pdf_page": 11,
+    "source_rows_reported_2018": 242,
+    "original_event_table_obtained": false,
+    "pdf_embedded_attachments": 0
+  },
+  "visual_review": {
+    "by": "assistant",
+    "pdf_pages": [
+      3,
+      10,
+      11
+    ],
+    "interpretation": "Method distinguishes a selected most central fire record from mean and median summaries. Table 3 reports its 2018 coordinates; Figure 10 maps 2018 causes without per-record dates.",
+    "researcher_or_independent_expert_review": false,
+    "automatic_meaning_verification": false
+  },
+  "conditional_2018_point": {
+    "year": 2018,
+    "table": "Table_3_Central_Feature_2018",
+    "role": "reported_central_feature_record",
+    "published_x": "30.96",
+    "published_y": "36.93",
+    "longitude_hypothesis": "30.96",
+    "latitude_hypothesis": "36.93",
+    "coordinate_interpretation": "x_longitude_y_latitude_degrees_under_EPSG4326_hypothesis",
+    "crs_verified": false,
+    "coordinate_precision_degrees": "0.01",
+    "rounding_rule_verified": false,
+    "total_location_accuracy_known": false,
+    "source_event_id": null,
+    "source_event_day": null,
+    "source_ignition_time": null,
+    "exact_ignition_position_verified": false,
+    "aggregate_mean_or_median_used": false
+  },
+  "query_design": {
+    "formal_preregistration": false,
+    "source_notes_written_after_initial_probe": true,
+    "boxes_defined_before_query_not_chosen_from_matches": true,
+    "year": 2018,
+    "half_steps_degrees": [
+      "0.005",
+      "0.01"
+    ],
+    "shape": "closed_longitude_latitude_boxes",
+    "first_box": "round_to_nearest_decimal_hypothesis_only",
+    "second_box": "quantization_sensitivity_not_error_bound",
+    "expand_search_after_no_match": false,
+    "choose_day_from_nearest_detection": false
+  },
+  "catalogues": {
+    "retained_project_candidates": {
+      "path": "data/interim/firms_combined_candidates_2018_2024.csv",
+      "date_field": "detection_timestamp_utc",
+      "filter": "year_metadata_first_2018_only_existing_retained_catalogue"
+    },
+    "raw_SNPP": {
+      "path": "data/raw/firms/815579/fire_archive_SV-C2_815579.csv",
+      "date_field": "acq_date",
+      "filter": "2018_only_no_additional_type_or_confidence_filter"
+    },
+    "raw_NOAA20": {
+      "path": "data/raw/firms/815590/fire_archive_J1V-C2_815590.csv",
+      "date_field": "acq_date",
+      "filter": "2018_only_no_additional_type_or_confidence_filter"
+    }
+  },
+  "input_sha256": {
+    "data/interim/firms_combined_candidates_2018_2024.csv": "37ebb8e1f204b28faf2da21661ff6b0f8e9125c25876b7966df3ae9aea7551c5",
+    "data/raw/firms/815579/fire_archive_SV-C2_815579.csv": "346d9e4e09d49d21166e98049635d64326c9330cd42b15b2f44c19456b54d5d2",
+    "data/raw/firms/815590/fire_archive_J1V-C2_815590.csv": "f3b0a716c335e89976fcc2620cc29dc871938411c6ad5b7f8737a4e55c6e46ec",
+    "outputs/reports/dataset/marmaris_L_proposal_v1/20261119T134021Z_5272c4bd/readback.json": "89d0305b9f5c54809e6c1170a30c21fe1a0230da4afc65720d5eef5bc8c5f476",
+    "outputs/reports/dataset/source_linked_L_proposal_v1/20261119T121351Z_2d9aeb30/readback.json": "d0a09ecb249eb81d75e4494beaf0ca9989092c813ddd6b40e4acf0817576ab3e",
+    "outputs/reports/dataset/wf1538_review_retention_v1/20261119T184009Z_0bd7da1f/readback.json": "ed94ee3daa0fcfb9141ab651adb27ecde152023d4f798ab4aefbb8812b551848",
+    "outputs/reports/dataset/noisy_positive_pu_pilot_v1/20261119T121014Z_122b22c7/U_key_sample.csv": "fd77c27454083e45f625e7e94ef0a14e5ace7d65636cace59b92261666c4d19f",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/crossref.json": "d2432cbbd3d367e8a4955fc93576b0b8631f94c8eb8b3c401cbf294fcb62ca28",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/publisher.html": "8795169fe83cef1deba9a2dc51cebf2fe479f92dc6286519ad90e6b4c0a3e964",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/publisher_receipt.json": "378cc6050e1cff975af57e84d6a7af374921d3fdd3e8c5f563be82979605a523",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/karabacak_etal_2019.pdf": "c1ed88a6eb422627ad3d484546210e5f0ec8f64a6b813f51bea2fbb0867c659a",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/pdf_fetch_receipt.json": "8c4972a9b360a21b2ecf10b0ad72931fe3c643dfd3c7de3c7e46de8e3d2c44d2",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/page_text.json": "c9afbac34356e9628b3fd5b740dd2ed97856b28011c9a192a44365742a3de8bd",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/page_3.png": "7a1817e100322717a2ba730780d4b55b82ee2dc8d750adb559d7ec6388df5ab8",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/page_10.png": "b2abf9ee2768285a024ef52295f552102265ee2a4b18145db47da7a57ac97f8a",
+    "outputs/reports/dataset/antalya_2018_source_access_v1/20261119T192114Z/page_11.png": "c012297bd81e4cce35110e0d787f82289a3eec9b862563bba662b9a263fe39a5"
+  },
+  "interpretation_limits": [
+    "No match is not evidence that the administrative fire did not occur.",
+    "No catalogue point does not establish sufficient observation or a negative day.",
+    "Published coordinate role and geographic CRS interpretation remain separate.",
+    "No date was inferred from yearly maps, statistical centroids or nearby satellite data.",
+    "This selected reference is not representative population evaluation or a detection-rate denominator."
+  ],
+  "source_event_day": null,
+  "target": null,
+  "new_L_memberships": 0,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "training_authorized": false,
+  "final_merge_permitted": false,
+  "new_correspondence_started": false
+}

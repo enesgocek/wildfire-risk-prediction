@@ -6,6 +6,15 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım Antalya yıllık kaynak devamı. DOI/yayınevi erişimi, PDF
+edinimi, yöntem/harita/koordinat tablosunun görsel okunması ve koşullu
+2018 katalog hesabı yapay zekâ desteğiyle yürütüldü. Ortalama konum
+ile kayıtlardan seçilen merkezi örnek ayrıldı; kaynak CRS'si ve günü
+doğrulanmış sayılmadı. Ayrı geometri geri okuması ve 15 davranış testi
+otomatik teknik kontrollerdir; bağımsız saha veya insan onayı değildir.
+Sıfır eşleşme negatif yapılmadı; yeni L/etiket veya eğitim yok.
+[Yeni kaynak ve koşullu karşılaştırma](../ANTALYA_ANNUAL_REFERENCE_2026-11-19.md).
+
 19 Kasım Tırazlı kaynak devamı. Açık yazar tezinin bulunması, tarayıcı
 üzerinden indirilmesi, ilgili PDF sayfalarının görsel incelenmesi,
 gömülü fotoğraf metadata alanlarının kontrolü ve hash/makbuz hazırlığı

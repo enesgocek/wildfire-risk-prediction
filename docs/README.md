@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Antalya 2018 yıllık kaynak konumu](ANTALYA_ANNUAL_REFERENCE_2026-11-19.md) | Yayınevi bildirisi, merkezi kayıt/ortalama ayrımı, iki koşullu kutuda özgün ve korunmuş katalog karşılaştırması; gün ve etiket kabul sınırı |
 | [Tırazlı ve Muğla yeni kaynak incelemesi](TIRAZLI_SOURCE_REVIEW_2026-11-19.md) | Yazar tezi ve yayınevi makalesi, görsel/metadata kontrolü, başlangıç geometrisi ve tarihli olay verisine erişim sınırı |
 | [WF1538 gündüz ham ve örtü sonucu](WF1538_DAYTIME_REVIEW_2026-11-19.md) | Kaynak/piksel ayrımı, insan örtü notu, incelemede tutma A kararı ve 10 kaynak satırının durum kapanışı |
 | [Kaynak örnekleminin ham sonuçları](SOURCE_SAMPLE_NATIVE_2026-11-19.md) | Sekiz çift/1.617 tarama, bulut/silinmiş piksel örneği, katalog saat bağlamı ve WF1538 için tek gündüz takibi |

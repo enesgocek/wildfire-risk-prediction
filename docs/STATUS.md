@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım Antalya 2018 için yeni yayınevi kaynağı ve yıllık konum kontrolü tamamlandı.**
+16 sayfalık bildirinin yöntem/harita/koordinat tablosu incelendi.
+Seçili merkezi kayıt, ortalama merkezden ayrıldı; gün/kimlik yok.
+Koşullu boylam/enlem yorumunda iki kutuda korunmuş adaylar ve özgün
+iki kaynak CSV'sinin 2018 satırlarında eşleşme bulunmadı. Sıfır sonuç
+negatif veya kaynak hatası yapılmadı; tarih türetilmedi. Ayrı geometri
+hesabı aynı sayımları verdi; 15 davranış testi ve kod kontrolleri geçti.
+Yeni L/etiket yok; iki olası öneri, 2.048 U ve WF1538 kararı korundu.
+Birinci aşama ve PU/değerlendirme dayanağı açık; eğitim/birleştirme yok.
+[Somut kaynak, sayımlar ve kabul sınırı](ANTALYA_ANNUAL_REFERENCE_2026-11-19.md).
+
 **19 Kasım Tırazlı 2019 için yeni yazar kaynaklı tez incelendi.**
 157 sayfalık PDF yerelde korundu; dört ilgili sayfa görüntüden ve erken
 fotoğrafın gömülü metadata alanları kontrol edildi. Başlangıç girdisinin
