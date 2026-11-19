@@ -1,5 +1,9 @@
 # Kaynak örneklemi: sekiz ham geçişin sonucu — 19 Kasım 2026
 
+**Sonraki takip tamamlandı:** WF1538 gündüz adayı ham pikselde eşleşti;
+kaynak noktası aynı yangın pikselinin dışında. İlk sekiz sonuç aşağıda
+korunuyor. [Gündüz ham/örtü/zaman ve bekleyen insan notu](WF1538_DAYTIME_REVIEW_2026-11-19.md).
+
 Araştırmacının yedi çiftlik özel indirmesi yerelde doğrulandı. Önceki
 WF1206 ile birlikte, dondurulmuş 10 kaynak satırının metadata ile
 taşınabilir sekizinde birer ham çiftin nokta/çevre incelemesi tamamlandı.

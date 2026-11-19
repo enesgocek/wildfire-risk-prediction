@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım WF1538 gündüz ham/örtü/zaman incelemesi tamamlandı; insan örtü notu bekleniyor.**
+İndirilen çiftte tek katalog adayı ham 807/4012 pikseliyle eşleşti:
+nominal yangın maskesi 8, giriş kalite alt yedi biti 0. Kaynak noktası
+komşu kara pikselinde ve yaklaşık yangın alanının 126 m dışında;
+aynı olay kabul edilmedi. 201 kaynak-nokta taraması ayrıca incelendi.
+Eski haritalar çoğunlukla orman/çalılık; 18/23 Mayıs Sentinel görüntülerinde
+düzenli doku ve açık/yeşil alanlar karışık. İki tarihli A/B örtü ön yorumu
+araştırmacıya soruldu. Mayıs'ın 75 kayıtlı AOI adayında dokuz ayar/18 kesitte
+katalog başlangıcı 27 Mayıs 10:30 UTC'de kaldı; gerçek tutuşma doğrulanmadı.
+111 ilgili test geçti; ilk geçici alan/QA yorumları korumalarla düzeltilip
+yeni sürüm üretildi. Yeni L/etiket, eğitim veya nihai birleştirme yok.
+Saat standardı/konum rolü ve birinci aşamanın bilimsel kabulü açık.
+[Ölçümler, iki tarihli görüntü ve insan incelemesi](WF1538_DAYTIME_REVIEW_2026-11-19.md).
+
 **19 Kasım kaynak örnekleminin sekiz ham geçişi tamamlandı; WF1538 gündüz takibi hazır.**
 Yedi yeni çiftin makbuz/bayt/hash'leri doğrulandı. Önceki WF1206 ile
 sekiz çiftte 1.617 tarama, 13 yerel bağlam incelendi; ham tanıklar ayrıca

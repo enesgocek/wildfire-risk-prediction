@@ -1850,6 +1850,15 @@ kalıyor; saat standardı seçilmedi. Tek ek çiftin iki CMR kimliği doğruland
 186.934.166 bayt/15 dakika özel indirme bekliyor. 167 ilgili test geçti;
 10 kaynak satırı, iki olası L önerisi ve U korundu; yeni etiket/eğitim yok.
 
+E209 — 19 Kasım. [WF1538 gündüz ham/örtü/zaman devamı](../WF1538_DAYTIME_REVIEW_2026-11-19.md).
+Tek aday ham 807/4012 pikseliyle eşleşti; maske 8, giriş alt yedi QA
+biti 0. Kaynak noktası komşu kara pikselinde ve yaklaşık yangın alanının
+126 m dışında. İki eski harita ve ayrı CORINE hesabı kontrol edildi;
+18/23 Mayıs ön-T görüntülerinde A/B örtü ön notu araştırmacıya soruldu.
+75 AOI kaydı/dokuz ayar/18 kesitte katalog başlangıç geçmişi korundu.
+111 ilgili test geçti. İlk geçici alan/QA yorumları açık yeni sürümle
+düzeltildi; saat, aynı olay ve gerçek tutuşma kabul edilmedi. Yeni L/etiket yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

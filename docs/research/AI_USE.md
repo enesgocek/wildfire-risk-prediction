@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım WF1538 gündüz devamı. Özel ham indirme araştırmacı tarafından
+yapıldı. Katalog/ham piksel eşleştirme, ayrı kaynak noktası incelemesi,
+yaklaşık geometri ve iki eski harita hesabı, iki kamu Sentinel görüntüsünün
+yerel kalite kontrolü ve dokuz zaman geçmişi tanısı yapay zekâ desteğiyle
+yürütüldü. İlk alan paydası ve QA alanı yorumları kontrol sırasında
+düzeltilip yeni çıktı üretildi; eski çıktılar korundu. A/B örtü ön notu
+asistana ait; araştırmacıdan ayrıca yorum istendi ve henüz kayıtlı değil.
+Otomatik kontrol bağımsız insan/uzman doğrulaması, gerçek yangın veya
+yeni L kabulü sayılmadı.
+[WF1538 gündüz sonucu](../WF1538_DAYTIME_REVIEW_2026-11-19.md).
+
 19 Kasım yedi çift indirme sonrası. Özel indirmeyi araştırmacı tamamladı.
 Makbuz/hash doğrulaması, sekiz çiftte 1.617 taramanın yerel nokta/çevre
 incelemesi, ayrı 13 ham tanık okuması ve mevcut katalogdaki saat/konum
