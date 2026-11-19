@@ -6,6 +6,29 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım hücre kapsamı. Bütün AOI hücrelerinde CORINE sınıf alanlarının
+ölçümü, CGLS 2017 ile betimsel karşılaştırma, iki yoğunlaştırma ve ayrı
+kesişim hesapları, görsel ve kapsam seçenekleri yapay zekâ desteğiyle
+hazırlandı. Harita farkları arazi doğruluğu veya gerçek değişim sayılmadı.
+Araştırmacının A tercihi sonrasında sürümlü yön kaydı ve aynı 2.889
+hücre anahtarının doğrulaması hazırlandı; insan kararı otomatik
+hesaplamaya atfedilmedi. Ek yüzde filtresi veya etiket uygulanmadı.
+[Kapsam seçenekleri](../CELL_COVER_SCOPE_OPTIONS_2026-11-19.md).
+
+19 Kasım açık kaynak devamı. MGM tablosu, belediye anlatımı ve meslek
+derneği kitabının metin/görsel incelemesi, kaynak notları ve sicil
+genişletme komutu yapay zekâ desteğiyle hazırlandı. Araştırmacı görsel
+onayı veya bağımsız saha doğrulaması olarak sunulmadı. Yeni yazışma
+açılmadı; kaynakların anlam belirsizliği etiket iznine çevrilmedi.
+[Kaynak devamı ve sınırlamalar](../MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md).
+
+19 Kasım kaynak kabulü. Yayınevi yöntem metninin incelenmesi, görünüm
+kopyalarının kaydı, kanıt düzeylerinin ayrılması ve yazar için teknik
+soru taslağı yapay zekâ desteğiyle hazırlandı. Üniversite iletişim
+kaynakları doğrulandı. Araştırmacı veya yazar adına açıklama/onay
+üretilmedi ve ileti gönderilmedi.
+[Taslak ve kaynak kanıtı](../SOURCE_ADMISSION_PROTOCOL_DRAFT_2026-11-19.md).
+
 19 Kasım aşama süreleri. Mevcut çekirdekle Anamur/Menderes karşılaştırması
 ve dört aşamanın kabul/süre planı yapay zekâ desteğiyle hazırlandı.
 Teknik inceleme ile bilimsel kabul ayrıldı. Süre aralıkları ölçülmüş

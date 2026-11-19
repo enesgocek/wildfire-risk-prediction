@@ -25,6 +25,13 @@ tekrarlanabilirlik ve veri kabul ölçütleri başvurudan bağımsız korunur.
 - 4 Kasım 2026 yöntem yönü: yeni kurumsal talep açmadan pozitif–belirsiz
   (PU) öğrenmenin uygulanabilirliği araştırılır. Bu tercih yöntem kabulü,
   gerçek pozitif doğrulaması veya model eğitimine başlama onayı değildir.
+- 19 Kasım 2026 kaynak edinimi tercihi: yeni yazışma açmadan açık
+  kaynaklarla devam edilir. Mersin yazarına alan açıklaması soru taslağı
+  tarihsel hazırlıktır; etkin gönderim görevi veya iletişim yetkisi değildir.
+- 19 Kasım 2026 hücre kapsamı yönü: su kuralını geçen 2.889 hücre,
+  asgari orman/çalı yüzdesiyle ek eleme yapılmadan inceleme/veri hazırlama
+  havuzunda korunur. Olayın yerel örtüsü ayrı kontrol edilir. Bu tercih
+  bütün habitat/etiket kabulü veya tüm hücrelerde risk yayımlama izni değildir.
 - Eğitim 2018–2023, doğrulama 2024, kapalı final test 2025'tir. Tahmin anında
   bilinmeyen veriler girdiye alınmaz; ERA5-Land geriye dönük yeniden analizdir.
 - Bir sonucun kaynağı açık olmalıdır: yerel denetim raporu, uzak iş günlüğü,
@@ -34,6 +41,12 @@ tekrarlanabilirlik ve veri kabul ölçütleri başvurudan bağımsız korunur.
 
 ## Yazım ve kayıt
 
+- Kullanıcının 19 Kasım özerk çalışma tercihi: bağımsız ve yetkilendirilmiş
+  işler tamamlandıkça sıradaki işe geçilir; her küçük işin sonunda genel
+  "devam et" yanıtı beklenmez. İnsan değerlendirmesi veya yöntem kararı
+  gerektiğinde somut bulgu, seçenek ve gerekçeli öneri hazırlanarak sorulur.
+  Ara bildirimler kısa ve anlamlı gelişmelere odaklı tutulur. Bilimsel kabul
+  koşulları ve rapora bağlı nihai birleştirme onayı korunur.
 - Kullanıcının 23 Ekim iletişim tercihi: iş bitiminde sohbet içinde yapılan
   işlem, anlaşılır somut örnek, ölçülen bulgu, veriseti hazırlığına katkı,
   açık kalan konu ve sonraki adım açıklanır. Uzun raporu okumak sonuçları

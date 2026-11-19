@@ -1747,6 +1747,26 @@ E195 — 19 Kasım. [Anamur/Menderes teknik kapanışı ve dört aşama](../DATA
 Mevcut başlangıçlar korundu; yeni yangın etiketi kabul edilmedi. Teknik
 karşılaştırma kapatıldı. Bilimsel geçiş ve toplam bitiş tarihi açık.
 
+E196 — 19 Kasım. [Kaynak kabulü taslağı ve Mersin alanları](../SOURCE_ADMISSION_PROTOCOL_DRAFT_2026-11-19.md).
+Yayınevi yöntem/erişim metni web aracıyla incelendi. Dört açık alan anlamı,
+iki kaynak görünümü ve önceki bağlantı raporu hash ile kaydedildi.
+Teknik açıklama taslağı korundu. Araştırmacı yeni yazışma açmadan açık
+kaynaklarla devam etmeyi seçti. Yeni etiket yok.
+
+E197 — 19 Kasım. [Muğla açık kaynak devamı](../MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md).
+Beş kaynak belgesi ve iki PDF görseli kontrol edildi. Yeni sicilde dört ek kaynak
+kaydıyla 27 satır ve 14/24 eğitim il-yılı bağlamı var; ayrı gerçek yangın
+sayısı değil. İlk ihbar/tutuşma, idari satır/olay ve bölge/il ayrımları
+korundu. Yeni yazışma, pozitif/negatif etiket veya eğitim yok.
+
+E198 — 19 Kasım. [Risk hücresi kapsam seçenekleri](../CELL_COVER_SCOPE_OPTIONS_2026-11-19.md).
+2.899 AOI kesişiminde iki yoğunlaştırmayla CORINE alanları ölçüldü.
+2.889 su kuralını geçen hücrede iki haritanın %50 kesimi 478 hücrede
+farklı sonuç veriyor. Beş hücrede ayrı kare kesişimi ve kaydedilmiş
+CSV'den sayım kontrolü yapıldı. Araştırmacı A ile asgari yüzdeye göre
+ek eleme yapmadan 2.889 aday hücreyi koruma yönünü seçti. Karar
+makbuzu ve hücre anahtarları doğrulandı; olay/habitat etiketi kabul edilmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

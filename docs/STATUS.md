@@ -5,6 +5,35 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım hücre kapsamı için bütün alanda harita karşılaştırması yapıldı.**
+2.899 AOI kesişiminde CORINE sınıf alanları ölçüldü. Su kuralını geçen
+2.889 hücrede %50 kesimi CGLS 2017 ile 2.044, CORINE 2018 ile 1.656
+hücre bırakıyor; bu doğruluk veya gerçek örtü değişimi değil. Henüz
+asgari örtü oranı eşiği/ek filtre uygulanmadı. Araştırmacı A'yı seçti:
+asgari yüzdeyle eleme yapmadan aynı 2.889 hücre inceleme havuzunda
+korunacak; olayın yerel örtüsü ayrı kontrol edilecek. Yeni sürümlü
+karar ve hücre anahtarları doğrulandı. Etiket kapıları kapalı.
+40 ilgili davranış testi geçti. Birinci aşamanın olay/PU/değerlendirme
+kabulü halen açık.
+[Seçenekler, sonuçlar ve doğrulama](CELL_COVER_SCOPE_OPTIONS_2026-11-19.md).
+
+**19 Kasım yeni yazışma açmadan Muğla kaynakları genişletildi.**
+MGM, belediye ve meslek derneği yayınları incelendi. Dört yeni bağlam
+kaydıyla seçili sicil 27 satıra, temsil edilen eğitim il-yılı 14/24'e
+çıktı; bunlar bağımsız yangın sayısı veya eksiksiz envanter değil.
+İhbar/başlangıç saati, bölge/il ve idari satır/olay ayrımları korundu.
+Beş belge ve iki PDF görseli hash ile doğrulandı. Yeni etiket kabulü yok.
+[Kaynak bulguları, kapsam ve devam sınırı](MUGLA_PUBLIC_SOURCE_EXTENSION_2026-11-19.md).
+
+**19 Kasım kaynak kabul taslağı hazırlandı; Mersin yöntem metnine erişildi.**
+Yayınevinin yöntem ve erişim bölümleri web aracıyla incelendi. Kaynak,
+operasyonel olay kayıtları ve betimleyici koordinat kullanımını açıklıyor.
+Konumun başlangıç rolü, saat standardı, dosyalar arası anahtar ve kayıt
+birimi/kapsamı belirsizliğini koruyor. Dört teknik soru ve doğrulanmış yazar iletişim yolu
+hazırlandı. Araştırmacı yeni yazışma açmadan açık kaynaklarla devam
+etmeyi seçti. Taslak etkin gönderim görevi değil; etiket izinleri kapalı.
+[Kabul düzeyleri, yeni kaynak bilgisi ve karar](SOURCE_ADMISSION_PROTOCOL_DRAFT_2026-11-19.md).
+
 **19 Kasım planlanmış Anamur/Menderes izleme karşılaştırması kapatıldı.**
 19 farklı tespitin 27 grup×ayar karşılaştırması ve 54 zaman kesiti
 önceki başlangıçları korudu. Yeni bağımsız yangın etiketi kabul edilmedi.

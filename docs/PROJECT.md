@@ -73,6 +73,13 @@ Belirsiz adaylar incelemede korunur. Araştırmacının bu tercihi oran eşiği,
 etiket, dışlama veya nihai birleştirme onayı değildir.
 [Ölçülen gerekçe ve sürümlü tasarım](HABITAT_SPATIAL_REVIEW_2026-10-27.md).
 
+19 Kasım 2026 hücre kapsamı yönü: araştırmacı, asgari orman/çalı
+yüzdesiyle ek eleme yapmadan su kuralını geçen aynı 2.889 hücreyi
+inceleme/veri hazırlama havuzunda korumayı seçti. Olayın yerel örtüsü
+ayrı kontrol edilir. Bu yön bütün habitat/etiket kabulü veya risk
+yayımlama izni değildir.
+[Karşılaştırma ve sürümlü karar](CELL_COVER_SCOPE_OPTIONS_2026-11-19.md).
+
 ### Zaman sözleşmesi
 
 Her satır `(grid_id, prediction_timestamp)` ile tanımlanır. Günlük tahmin saati

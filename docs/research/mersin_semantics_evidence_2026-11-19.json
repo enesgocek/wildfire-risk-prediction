@@ -1,0 +1,44 @@
+{
+  "version": "mersin_source_semantics_review_v1",
+  "client_review_date": "2026-11-19",
+  "scope": "source_document_review_not_label_admission",
+  "publication_url": "https://journals.sagepub.com/doi/full/10.1177/00368504261495731",
+  "public_archive_record": "https://doi.org/10.5281/zenodo.21455927",
+  "methods_snapshot": {
+    "path": "outputs/reports/dataset/mersin_method_access_v1/20261118T234852871_ad9215a9/source_access.json",
+    "sha256": "52dd1465513cb0561ac0dc1fde0c4fb9ee552fb946071a6e72ec2e7e31395e0e",
+    "capture_kind": "web_tool_rendered_publisher_page_not_direct_http_html"
+  },
+  "availability_snapshot": {
+    "path": "outputs/reports/dataset/mersin_method_access_v1/20261118T234852871_ad9215a9/availability_access.json",
+    "sha256": "b79dd9b021620ee3759d4da4164e99d70517f9e2c70602d15b75fc2df4e80071"
+  },
+  "prior_local_linkage_report": {
+    "path": "outputs/reports/dataset/public_start_geometry_v1/20261108T150016Z_5e98d034/readback.json",
+    "sha256": "2763c4a59dfe351296a33c1d2787288f7a51cc1d2bc5af5bf8a8c71df0a1ea7a",
+    "period": "2018-2023",
+    "shared_public_ids": 503,
+    "shared_ids_matching_date_year_district_and_area": 1,
+    "unique_signatures_linked_for_review": 500
+  },
+  "source_claims_supported_by_reviewed_text": [
+    "operational_incident_records_documented_by_suppression_personnel",
+    "regional_coordinate_plausibility_screen_and_descriptive_geographic_use",
+    "public_release_authorization_and_CC_BY_4_0_data_terms"
+  ],
+  "not_established_from_reviewed_methods": [
+    "coordinates_represent_original_ignition_location_and_their_error_or_anonymization",
+    "date_and_ignition_hour_time_semantics_and_time_standard",
+    "intended_cross_file_incident_key",
+    "one_physical_fire_per_row_and_administrative_coverage_exclusions"
+  ],
+  "author_contact_primary_source": "https://uludag.edu.tr/home/personel/davutizci",
+  "author_question_draft": "docs/research/MERSIN_AUTHOR_QUESTION_DRAFT_2026-11-19.md",
+  "correspondence_sent": false,
+  "researcher_contact_direction": "open_sources_only_no_new_correspondence",
+  "daily_observation_status": "unknown",
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "model_ready": false,
+  "final_merge_approval": false
+}

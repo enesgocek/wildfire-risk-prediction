@@ -1,0 +1,125 @@
+{
+  "version": "mugla_public_context_extension_v1",
+  "research_date": "2026-11-19",
+  "scope": "selected_training_source_records_not_distinct_fire_inventory",
+  "new_correspondence_permitted": false,
+  "sources": {
+    "mgm_2023": {
+      "url": "https://www.mgm.gov.tr/FILES/genel/makale/ormanyangin.pdf",
+      "title": "Türkiye’de Büyük Orman Yangınları ve Uydu-Model Verileri Kullanımı",
+      "authors": ["Gülten Çamalan", "İbrahim Çamalan"],
+      "source_family": "OGM_records_as_reproduced_by_MGM",
+      "pdf_page_one_based": 10,
+      "review_method": "assistant_text_and_rendered_table_inspection_not_researcher_review",
+      "path": "outputs/reports/dataset/open_source_extension_v1/20261119T000243Z_0322ddb8/mgm_2023.pdf",
+      "sha256": "d607803fb11634f57445349d9f3c5d095d1d1481529cb8bf1b62e980557b16fb",
+      "render_path": "outputs/reports/dataset/open_source_extension_v1/20261119T000243Z_0322ddb8/mgm_table-10.png",
+      "render_sha256": "ee19702ed46b617a517905ba1f9c8865976727ebc4359fa5360603605a09b698",
+      "raw_tables_redistributed": false
+    },
+    "tod_2023": {
+      "url": "https://www.ormancilardernegi.org/Documents/49acadea-ce7d-44c5-a42b-93c8b8b164e5.pdf",
+      "title": "Orman Yangınları — Orman Yangınlarının Sayısal Analizi",
+      "chapter_authors": ["Erdoğan Atmiş", "Doğanay Tolunay", "Cihan Erdönmez"],
+      "printed_page": 30,
+      "pdf_page_one_based": 53,
+      "source_family": "OGM_statistics_with_authors_analysis",
+      "claim_status": "attributed_published_analysis_not_independent_audit_of_all_OGM_rows",
+      "claim": "Yazarlar 2008 Taşağıl–Karabük/Serik–Akbaş örneğinde tek yangının iki idari kayda ayrıldığını belirtiyor.",
+      "application_limit": "2008 örneği eğitim dışında; Mersin satırlarının aynı olay olduğunu kanıtlamaz.",
+      "path": "outputs/reports/dataset/open_source_extension_v1/20261119T000537Z_4aeccd36/tod_2023.pdf",
+      "sha256": "0a6d00e1a424e2714bea10c71dcb641c88e7069e5ea3e87a8a7e4631ea82384e",
+      "render_path": "outputs/reports/dataset/open_source_extension_v1/20261119T000537Z_4aeccd36/tod_units-053.png",
+      "render_sha256": "f7d4d9024a5ff627beb394de079cbdd4c265d6135ba58f847268396118f17271",
+      "raw_tables_redistributed": false
+    },
+    "avci_2024_suppression_scenario": {
+      "url": "https://doi.org/10.1016/j.ejor.2024.03.005",
+      "repository_url": "https://acikerisim.bakircay.edu.tr/bitstreams/4e7ace21-c3ea-4ea0-bdbd-3e89ffdaecdb/download",
+      "title": "The wildfire suppression problem with multiple types of resources",
+      "source_family": "wildfire_suppression_planning_scenario",
+      "reviewed_pdf_pages_one_based": [12, 13],
+      "claim": "Yatağan'ın gerçek arazi haritası üzerinde varsayılan bir başlangıç hücresiyle söndürme senaryosu kuruluyor.",
+      "added_to_project_cases": false,
+      "reason": "Gerçek arazi üzerinde senaryo başlangıcı, tarihli gözlenmiş yangın kaydı değildir.",
+      "path": "outputs/reports/dataset/open_source_extension_v1/20261119T001630Z_b250fc83/avci_2024.pdf",
+      "sha256": "8410a83b104aa468d3fb76ea49ad443f859740773598008d05c8ad470a3c0993"
+    },
+    "mugla_municipality_20220625": {
+      "url": "https://www.mugla.bel.tr/haber/buyuksehirden-marmaris-yangini-raporu",
+      "publication_date": "2022-06-25",
+      "source_family": "municipal_fire_response_account",
+      "review_result": "Duyuru başlangıç/yayılma haritasından söz ediyor; alınan HTML'de ilgili harita veya rapor dosyası bağlantısı bulunmadı.",
+      "new_map_geometry_retrieved": false,
+      "added_to_project_cases": false,
+      "reason": "Önceki Marmaris 2022 bağlamı yeni bağımsız olay sayılmadı.",
+      "path": "outputs/reports/dataset/marmaris_public_map_access_v1/20261119T001353Z_bf53a8d1/announcement.html",
+      "sha256": "3cb44323dea1990f2d7279d3c570e0b02451470d93f9f23ce73086299af30970"
+    },
+    "mugla_municipality_20220730": {
+      "url": "https://www.mugla.bel.tr/haber/buyuksehir-itfaiyesinden-marmaris-yanginina-aninda-mudahale",
+      "publication_date": "2022-07-30",
+      "source_family": "municipal_fire_response_account",
+      "path": "outputs/reports/dataset/open_source_extension_v1/20261119T000847Z_a0f83d0a/marmaris_20220729.html",
+      "sha256": "48ecba6d9645d070b4b5e3c68dec4075fc25d535144513613977aa87ba73f321"
+    }
+  },
+  "selected_context_records": [
+    {
+      "reference_key": "mgm_mugla_koycegiz_20210729",
+      "source_id": "mgm_2023",
+      "province": "Muğla",
+      "district": "Köyceğiz",
+      "source_record_unit": "Köyceğiz işletme/şeflik",
+      "reported_local_day": "2021-07-29",
+      "date_semantics": "table_date_not_verified_first_ignition_or_first_satellite_detection"
+    },
+    {
+      "reference_key": "mgm_mugla_milas_karacahisar_20210731",
+      "source_id": "mgm_2023",
+      "province": "Muğla",
+      "district": "Milas",
+      "source_record_unit": "Milas/Karacahisar",
+      "reported_local_day": "2021-07-31",
+      "date_semantics": "table_date_not_verified_first_ignition_or_first_satellite_detection"
+    },
+    {
+      "reference_key": "mgm_mugla_marmaris_mp_20210729",
+      "source_id": "mgm_2023",
+      "province": "Muğla",
+      "district": "Marmaris",
+      "source_record_unit": "Muğla MP/Marmaris MP",
+      "reported_local_day": "2021-07-29",
+      "date_semantics": "table_date_not_verified_first_ignition_or_first_satellite_detection"
+    },
+    {
+      "reference_key": "municipal_marmaris_icmeler_20220729",
+      "source_id": "mugla_municipality_20220730",
+      "province": "Muğla",
+      "district": "Marmaris",
+      "reported_local_day": "2022-07-29",
+      "reported_first_alert_clock": "15:41",
+      "reported_first_response_clock": "15:46",
+      "clock_standard_explicit": false,
+      "location_description": "İçmeler, 228. sokak üstü; uygulama oteli etkilenen yapı, başlangıç koordinatı değil",
+      "date_semantics": "reported_incident_day"
+    }
+  ],
+  "table_quality_flags": [
+    {"kind": "regional_scope_not_province", "example": "Nazilli/Bozdoğan", "province": "Aydın", "added_to_project_cases": false},
+    {"kind": "source_date_preserved_not_corrected", "example": "Dalaman", "date_as_printed": "06.10.2021", "conflicts_with": "surrounding_text_July_August_period", "resolution": "unresolved", "added_to_project_cases": false}
+  ],
+  "new_records_share_unresolved": [
+    "original_start_geometry_and_location_uncertainty",
+    "unique_new_event_versus_administrative_or_spread_record",
+    "first_satellite_detection_window_and_event_link",
+    "event_date_local_forest_shrub_cover",
+    "selection_and_evaluation_coverage"
+  ],
+  "matching_ready": false,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "model_ready": false,
+  "final_merge_permitted": false
+}
