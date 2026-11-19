@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım hata içerebilen pozitiflerle PU pilotunun girdileri hazırlandı.**
+Araştırmacı A yönünü seçti. Salur'un ilk gruptaki 74 kaydı aynı ham
+tarama aralığında; katı giriş kalite kesimi 54'ünü ve yüksek güvenli
+24 kaydın tamamını çıkarıyor. Bu kesim uygulanmadı. İki birincil
+çalışmanın hata içerebilen pozitif/PU koşulları ve oran düzeltmeleri
+incelendi. Fit-rolü döneminden, sonuca bakmadan 2.048 U anahtarı seçildi.
+İkinci A kararıyla kaynakla eşleşen tek Salur hücresi için olası L
+üyeliği önerisi hazırlandı; diğer üç hücre korundu. Bütün hedefler boş.
+Tek vaka oran/karışım tahmini için yeterli dayanak sağlamıyor; bilimsel
+kabul ve birinci aşama açık. Hedef etiketi, eğitim ve nihai birleştirme yok.
+[Bulgular, kaynaklar, kararlar ve incelenebilir girdiler](NOISY_POSITIVE_PU_PILOT_2026-11-19.md).
+
 **19 Kasım Salur'da kaynak işareti ve ilk tespit örtüsü ayrıldı.**
 Üç konumun dokuz çevresi iki eski haritada ölçüldü; CORINE alanları
 ayrı hesapla doğrulandı. Olay öncesi görüntüdeki A ağaçlık, B ağaçlık–

@@ -1,0 +1,21 @@
+{
+  "version": "source_linked_L_proposal_v1",
+  "decision_date": "2026-11-19",
+  "decision_authority": "researcher",
+  "decision_source": "explicit_user_selection_A_one_source_matching_cell_as_possible_noisy_L",
+  "scope": "single_Salur_case_membership_proposal_not_global_label_rule",
+  "source_case_id": "salur_2021_07_28",
+  "candidate_grid_id": "E6933_5K_V1_C605_R879",
+  "require_both_marker_fits_and_first_local_native_center_in_same_cell": true,
+  "other_first_cells": "preserve_under_same_case_id_with_unassigned_membership",
+  "candidate_L_is_verified_true_positive": false,
+  "source_location_accuracy_bound_measured": false,
+  "positive_enrichment_verified": false,
+  "global_case_mapping_policy_accepted": false,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "model_ready": false,
+  "training_authorized": false,
+  "final_merge_permitted": false
+}

@@ -1,5 +1,13 @@
 # Kaynak ve hedef kabulü için protokol taslağı — 19 Kasım 2026
 
+**Aynı gün sonraki somutlaştırma:** Salur için ham tespit, kaynakla
+eşleşen hücre ve gerçek pozitif kabulü ayrı tutuldu. Araştırmacının
+iki A yönüyle hata içerebilen pozitif/PU girdi hazırlığı ve tek hücrelik
+olası L üyeliği önerisi hazırlandı. L önerisi Y=1 kabulü değildir;
+bütün PU yöntemleri için kusursuz pozitif zorunluluğu konmadı.
+Seçilme/karışım ve değerlendirme dayanağı yine gerekçelendirilmeli.
+[Somut vaka, yöntemler ve geçiş sınırı](NOISY_POSITIVE_PU_PILOT_2026-11-19.md).
+
 Durum yöntem hazırlığı. Bu metin mevcut kapalı kabul kodunun yerine
 geçmez ve yeni bir etiket üretim yetkisi sağlamaz. Kaynak kökeni,
 olay eşleşmesi ve model değerlendirmesi ayrı kanıt düzeylerinde tutulur.

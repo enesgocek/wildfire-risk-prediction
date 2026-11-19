@@ -1796,6 +1796,15 @@ Araştırmacı karışık örtü notuna katıldı; aradaki bölüm için yaklaş
 %60 orman görsel tahmini ayrı saklandı, ölçülmüş alan oranı yapılmadı.
 Yalnız yerel tespit/örtü incelemesi, etiket veya gerçek yangın doğrulaması değil.
 
+E203 — 19 Kasım. [Hata içerebilen pozitif/PU pilot hazırlığı](../NOISY_POSITIVE_PU_PILOT_2026-11-19.md).
+74 üyelik Salur ilk grubu ham merkez/sınıfla doğrulandı; ayrı ikili
+mesafe kapanışı aynı üyeleri verdi. 54 kalite uyarısı yanlış etiket
+sayılmadı. NIPS 2016/AAAI 2017 kimlik/yöntem ve tam kesirli oran
+hesabı kontrol edildi. Araştırmacının iki A kararıyla yangın/gözlem
+sonucuna göre seçilmeyen 2.048 U anahtarı ve tek hücre için olası L önerisi
+hazırlandı; diğer üç hücre aynı vaka kimliğinde korundu. Tek kaynak
+vakası, etiket kabulü veya karışım oranı tahmini değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

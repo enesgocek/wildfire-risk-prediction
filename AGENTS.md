@@ -25,6 +25,12 @@ tekrarlanabilirlik ve veri kabul ölçütleri başvurudan bağımsız korunur.
 - 4 Kasım 2026 yöntem yönü: yeni kurumsal talep açmadan pozitif–belirsiz
   (PU) öğrenmenin uygulanabilirliği araştırılır. Bu tercih yöntem kabulü,
   gerçek pozitif doğrulaması veya model eğitimine başlama onayı değildir.
+- 19 Kasım 2026 sonraki yöntem yönü: hata içerebilen pozitiflerle PU
+  uygulanabilirliği için girdi/varsayım pilotu hazırlanır. Salur'da iki
+  kaynak işareti uyumu ve ilk yerel ham merkezinin ortak hücresi için
+  olası L üyeliği önerisi hazırlanır; diğer üç ilk hücre aynı vaka
+  kimliğiyle incelemede kalır. Bu kararlar Y=1 etiketi, genel eşleştirme
+  kuralı, karışım varsayımı doğrulaması veya eğitim kabulü değildir.
 - 19 Kasım 2026 kaynak edinimi tercihi: yeni yazışma açmadan açık
   kaynaklarla devam edilir. Mersin yazarına alan açıklaması soru taslağı
   tarihsel hazırlıktır; etkin gönderim görevi veya iletişim yetkisi değildir.

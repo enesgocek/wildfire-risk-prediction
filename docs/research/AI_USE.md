@@ -6,6 +6,16 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım hata içerebilen pozitif/PU hazırlığı. Salur'da tam 74 üyelik
+ilk grubun ham kalite/tarama denetimi ve ayrı grafik kapanışı,
+NIPS 2016/AAAI 2017 birincil yöntem incelemesi, tam kesirli oran
+kontrolü ve girdi hazırlama komutları yapay zekâ desteğiyle yapıldı.
+Araştırmacı önce pilot hazırlığını, sonra kaynakla eşleşen tek hücre
+için olası L önerisini seçti. Bu kararlar bağımsız gerçek pozitif
+doğrulaması sayılmadı. U anahtarları yangın/gözlem sonucuna bakmadan
+seçildi; hedefler boş. Hata/sınıf oranı tahmini veya eğitim yapılmadı.
+[Yöntem ve girdi raporu](../NOISY_POSITIVE_PU_PILOT_2026-11-19.md).
+
 19 Kasım PU-MIL ve Salur yerel örtüsü. Birincil tam yöntem incelemesi,
 olasılık/sınıflandırma ayrımı için tam kesirli yapay hesap, iki eski
 haritada çevre alanları ve bağımsız alan kontrolü yapay zekâ desteğiyle

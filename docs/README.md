@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Hata içerebilen pozitiflerle PU pilot hazırlığı](NOISY_POSITIVE_PU_PILOT_2026-11-19.md) | 74 ham merkez, kalite kesimi, iki birincil yöntem, 2.048 U anahtarı ve tek kaynak hücresi için olası L önerisi |
 | [Salur yerel örtü incelemesi](SALUR_LOCAL_COVER_2026-11-19.md) | Kaynak işareti/ilk tespit ayrımı, dokuz çevre, araştırmacı ön notları ve tek ham çift indirme planı |
 | [Grup bilgisinden hücreye PU uygulanabilirliği](PU_MIL_FEASIBILITY_2026-11-19.md) | Bao 2018 tam yöntemindeki üye sınıflandırması, nüfus oranı ve hücre olasılığı ayrımı |
 | [Risk hücresi kapsam seçenekleri](CELL_COVER_SCOPE_OPTIONS_2026-11-19.md) | 2.899 hücrede iki haritanın karşılaştırması ve asgari yüzdeyle ek eleme yapmadan 2.889 aday hücreyi koruma kararı |
