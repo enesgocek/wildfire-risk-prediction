@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım Marmaris ham/örtü ve sınırlı zaman incelemesi tamamlandı.**
+Araştırmacının indirdiği çiftte beş ana merkez ve bağlantı bağlamındaki
+15 merkez tek tek eşleşti. İki tarihli olay öncesi görüntüde beş alanın
+örtü notu alındı: M1/M4 yol içeren ağaçlık, M3/M5 yükseltili ağaçlık;
+M2 belirsiz. %90/%90–95 görsel tahmin, ölçüm/eşik değil. Dokuz gruplama
+ayarında ilgili katalog ataları 21 Haziran 23:22 UTC'de başlıyor;
+sonraki kayıtlar geçmişi değiştirmiyor. Bu gerçek tutuşma doğrulaması değil.
+Yalnız kaynak sembol alanıyla eşleşen C541/R878 için olası L önerisi
+hazırlama ve diğer hücreleri atamasız koruma seçeneği somutlaştırıldı;
+Salur kararı genellenmedi. Üyelik yönü araştırmacının kararını bekliyor.
+114 ilgili test geçti; yeni L/etiket, eğitim veya nihai birleştirme yok.
+[Ham sonuçlar, insan notu ve üyelik seçenekleri](MARMARIS_SOURCE_MARKER_2026-11-19.md#aynı-gün-indirme-sonrası-ham-örtü-ve-zaman-sonucu).
+
 **19 Kasım L adaylarını genişletmek için Marmaris kaynak haritası incelendi.**
 2022 bildirisindeki başlangıç sembolü yedi görüntü bölgesiyle konumlandı;
 aynı referanstaki dört bölgeyle duyarlılığı kontrol edildi. Sembol merkezi

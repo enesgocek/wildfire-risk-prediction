@@ -1,0 +1,53 @@
+{
+  "version": "marmaris_cover_notes_v1",
+  "review_date": "2026-11-19",
+  "source": "explicit_researcher_visual_reply",
+  "scope": "five_approximate_native_supports_in_two_preT_Sentinel_images",
+  "parent_sha256": "6bd38dabb3f24a6774a3a1a7586050eeae26f62c814aa8c7603d063340b38a61",
+  "figure_sha256": "1b48389c8e865fe5526fa9257fc137027a186d150b6dc8a3b9f090ec12b2b120",
+  "notes": {
+    "M1": {
+      "detection_id": "N20_815590_172025",
+      "researcher_note": "Ormanlık ve bir yol içeriyor; ormanlık alan %90 civarında.",
+      "preliminary_cover": "wooded_with_road",
+      "visual_estimate_percent": 90,
+      "estimate_qualifier": "around"
+    },
+    "M2": {
+      "detection_id": "N20_815590_172075",
+      "researcher_note": "Daha çok dağlık bir alan gibi görünüyor; orman olup olmadığını doğrulayamıyorum.",
+      "preliminary_cover": "uncertain_wooded_cover",
+      "visual_estimate_percent": null
+    },
+    "M3": {
+      "detection_id": "N20_815590_172076",
+      "researcher_note": "Ormanlık ve dağlık; yükseltilerin olması ağaçlık alan olmadığı anlamına gelmiyor.",
+      "preliminary_cover": "wooded_with_relief",
+      "visual_estimate_percent": null
+    },
+    "M4": {
+      "detection_id": "N20_815590_172083",
+      "researcher_note": "Çoğunlukla %90–95 orman ve bir adet ince yol içeriyor.",
+      "preliminary_cover": "wooded_with_road",
+      "visual_estimate_percent": [90, 95],
+      "estimate_qualifier": "rough_range"
+    },
+    "M5": {
+      "detection_id": "N20_815590_172084",
+      "researcher_note": "M3 ile aynı.",
+      "preliminary_cover": "wooded_with_relief",
+      "visual_estimate_percent": null
+    }
+  },
+  "percentages_are_measured_area_fractions": false,
+  "habitat_threshold_accepted": false,
+  "independent_expert_verification": false,
+  "fire_location_within_pixel_verified": false,
+  "L_memberships_created": 0,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "model_ready": false,
+  "training_authorized": false,
+  "final_merge_permitted": false
+}

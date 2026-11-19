@@ -1813,6 +1813,14 @@ konumlandı; AOI dışında kalan merkez en yakın hücreye zorlanmadı.
 iki kimliği doğrulandı; ham indirme için araştırmacı girişi gerekiyor.
 Yeni L üyeliği/etiket yok; 99 ilgili davranış testi geçti.
 
+E205 — 19 Kasım. [Marmaris ham, örtü ve zaman devamı](../MARMARIS_SOURCE_MARKER_2026-11-19.md#aynı-gün-indirme-sonrası-ham-örtü-ve-zaman-sonucu).
+İndirilen çiftte beş ana ve 15 bağlantı-bağlam merkezi tek eşleşti.
+İki olay öncesi tarihte on SCL alanı ayrı sayımla kontrol edildi.
+Araştırmacı M1/M4 ve M3/M5 için ağaçlık ön notu verdi, M2 belirsiz kaldı;
+yüzde tahminleri ölçüm yapılmadı. 614 sınırlı Haziran adayında dokuz
+ayar/18 kesitte geçmiş korundu. Üç hücrelik koşullu seçenek tablosunda
+mevcut L/hedef ataması yok. 114 ilgili test geçti; bilimsel kabul açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

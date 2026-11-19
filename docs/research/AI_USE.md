@@ -6,6 +6,15 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım Marmaris indirme sonrası. Araştırmacı özel indirmeyi tamamladı;
+ham bayt/başlık sonrası 15 merkezin eşleştirilmesi, yaklaşık alanlar,
+eski haritalar, iki tarihli açık RGB/SCL kesitleri ve dokuz ayardaki
+zaman geçmişi yapay zekâ desteğiyle incelendi. M1–M5 örtü ön notları
+araştırmacıdan geldi; M2 belirsizliği ve yüzde tahminlerinin ölçüm
+olmaması korundu. Tek hücre için koşullu L hazırlığı seçenekleri
+oluşturuldu; yöntem/üyelik kararı veya gerçek pozitif kabulü yapılmadı.
+[Ham/örtü/zaman raporu](../MARMARIS_SOURCE_MARKER_2026-11-19.md).
+
 19 Kasım Marmaris kaynak devamı. Açık bildiri/saha raporu araması,
 PDF okuma ve görsel kontrolü, görüntü bölgesi eşleştirmesi, yaklaşık
 sembol konumu, katalog çevresi ve sınırlı tek ham çift planı yapay zekâ

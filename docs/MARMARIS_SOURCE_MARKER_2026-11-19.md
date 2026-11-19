@@ -109,3 +109,124 @@ Eski deneme çıktıları korundu; son sürüm yukarıdaki kimlikle ayrıldı.
 Bunlar gerçek yangın/etiket doğruluğu testleri değil. Gözlem `unknown`;
 etiket izinleri, eğitim ve nihai birleştirme kapalı. Birinci aşama açık;
 bulut işi veya yeni yazışma başlatılmadı.
+
+## Aynı gün: indirme sonrası ham, örtü ve zaman sonucu
+
+Araştırmacının yerel indirmesi tamamlandı. İki dosyada 175.759.551 bayt,
+beklenen SHA-256 değerleri, 6.464×6.400 boyut ve gerçek geolocation
+girdi işaretçisi doğrulandı. Yukarıdaki indirme bekleme kaydı hazırlık
+anının durumudur; aşağıdaki bulgular tamamlanan indirmeye aittir.
+
+Beş planlı katalog merkezi ham seyrek dizide tek eşleşme verdi; merkez
+farkı en çok 0,482 m. Bu yuvarlama uyumu, sensörün gerçek arazi konum
+doğruluğu değil. Hepsi maske 8, nominal güven düzeyinde. QA=384 üç,
+QA=29952 iki kayıtta; alt yedi giriş kalite biti sıfır. Üst yangın testi
+bitleri giriş arızası sayılmadı. Gerçek yangın/yanlış tespit kabulü yapılmadı.
+[NASA kılavuzu, basılı s.5 Tablo 2 ve s.6 Tablo 3](https://www.earthdata.nasa.gov/s3fs-public/2025-06/VIIRS_C2_AF-375m_User_Guide_1.2.pdf).
+Kılavuzun önceden doğrulanmış yerel kopyası yeniden okundu; web aracı
+bu oturumda 403 verdi. Yeni kılavuz sürümü iddiası yok.
+
+| Kod | Katalog son eki | Ham satır/sütun | Yaklaşık alan, km² | Araştırmacının örtü ön notu |
+|---|---|---|---:|---|
+| M1 | 172025 | 5009/1412 | 0,309 | Ormanlık, yol; gözle yaklaşık %90 |
+| M2 | 172075 | 5006/1412 | 0,319 | Dağlık görünüm; orman doğrulanamıyor |
+| M3 | 172076 | 5006/1413 | 0,318 | Yükseltili, ağaçlık alan |
+| M4 | 172083 | 5007/1412 | 0,317 | Ormanlık, ince yol; gözle %90–95 |
+| M5 | 172084 | 5007/1413 | 0,318 | M3 ile aynı ön yorum |
+
+Tam kimlik öneki `N20_815590_`. Yüzdeler araştırmacının görsel tahmini;
+ölçülmüş alan, kapalılık oranı veya kabul eşiği değil. M2 belirsiz kaldı.
+Dağlık/yükseltili olması ağaçlık bulunmadığı anlamında kodlanmadı.
+Yaklaşık sınırlar aynı tarama içindeki 3×3 komşu merkezlerden hesaplandı;
+resmî piksel köşeleri veya pikselin yanan alt bölümü bilinmiyor.
+
+İlk beşi 2 km çemberinde kesip bağlantı grubu gibi sunmamak için, kayıtlı
+aday kataloğun aynı NOAA-20 dakikasındaki **40 AOI kaydı** birlikte
+incelendi. 1 km ayarında bu beşin bağlı olduğu iki grafik grubu 14 ve
+bir üyeli; toplam 15 merkez iki hücreye taşıyor. İkinci hücredeki kayıtlar
+atılmadı. Bütün 15 merkez aynı önbellek çiftinde tek eşleşti; tarama 156,
+23:22:38,865–23:22:39,429 UTC. Üç kayıtta M13 giriş uyarısı var, geolocation
+ve artık bowtie uyarısı yok. Giriş alt yedi biti temiz 12/15; bu kesim
+uygulanmadı. Grafik, ayrı bütün ikili uzaklık/kapanış hesabıyla kontrol edildi.
+Proje AOI'si dışındaki kayıtların kapsandığı iddia edilmedi.
+
+Mesafe ayarı 500 m iken beş tekil bağlantı grubu, 1 km iken 14+1,
+2 km iken 39 üyeli bir grup seçiliyor. Bu sayılar bağımsız gerçek yangın
+sayısı değil. 2 km ayarındaki diğer 24 kaydın ham incelemesi yapılmış
+sayılmadı. Ayara göre ilk hücre listesine üçüncü bir hücre de giriyor.
+
+CGLS 2017'de beş alanın orman/çalı **harita sınıfı payı** %100; CORINE
+2018'de M1 çayırlık, M2/M3/M5 ağırlıkla seyrek bitki, M4 çayırlık ve
+sklerofil karışımı. Sınıf payları ağaçların gerçek alan yüzdesi değil;
+haritaların sınıf/tarih farkı doğruluk veya gerçek örtü değişimi sayılmadı.
+15 CORINE kesişimi exactextract ile ayrıca kontrol edildi; en büyük
+sınıf payı farkı `1,89e-9` altında.
+
+16 ve 18 Haziran 2022 Sentinel-2 L2A görüntülerinden iki küçük bölgede
+RGB/SCL kesitleri okundu. Tahmin kesimi 21 Haziran 00:00 UTC; görüntüler
+bundan önce. 19 uygun metadata kaydındaki aynı gün işlenmiş kopyalar
+ayrı gözlem sayılmadı. Kaynak değişmezliği ve yerel raster geri okuması
+kontrol edildi. Beş alan × iki tarihte SCL sınıfları yalnız 4/5; bulut,
+gölge, kar, su, kusurlu/eksik ve sınıflandırılamayan sınıf sayıları sıfır.
+Bu sayımlar bağımsız olarak yeniden hesaplandı. SCL bitki sınıfı orman
+etiketi, bitkisiz sınıfı kesin orman yokluğu sayılmadı. Ürün üretim zamanı
+kesimden önce olsa bile tarihsel erişilebilirlik doğrulanmış sayılmadı.
+Araştırmacı bu görüntüleri görerek yukarıdaki beş ön notu verdi.
+
+**Zaman devamı:** 1–23 Haziran 2022'nin 614 kayıtlı AOI adayında,
+500/1.000/2.000 m × 24/48/72 saat olmak üzere dokuz ayar incelendi.
+İlk yerel dakika ve hedef pencere sonu için toplam 18 geçmiş karşılaştırması
+yapıldı. Beş ana kaydın ilgili ataları bütün ayarlarda 21 Haziran
+23:22 UTC'de doğuyor; bu sınırlı katalogda tahmin anından önceye bağlanan
+ata yok. Sonraki veriler bu geçmişi değiştirmedi. Bu bulgu gerçek tutuşma
+zamanı, eksiksiz gözlem veya 1 Haziran öncesi sansür çözümü değil.
+
+## Marmaris için somut üyelik seçeneği
+
+Son tablo üç hücreyi de koruyor. `C541_R878` dokuz ayarda kaynakla ilişkili
+ilk hücreler arasında; `C542_R878` altı, `C542_R877` üç ayarda. Bunlar
+aynı veride bağımlı duyarlılık hesapları, dokuz bağımsız kanıt değil.
+İki harita uyumunda sembol alanı yalnız C541/R878'e değiyor; sembol merkezi
+AOI dışında kalmaya devam ediyor. Noktayı en yakın hücreye taşıma yapılmadı.
+
+- **A yönü:** yalnız C541/R878, 21 Haziran hücre-günü için hata içerebilen
+  L üyeliği önerisi hazırlamak; diğer iki hücreyi atamasız korumak.
+  Bu, kesin nokta yerine yayımlanmış sembol alanına dayanan tek-vaka
+  hazırlık kararı olur; yeni genel kural veya Y=1 kabulü olmaz.
+- **B yönü:** daha açık başlangıç geometrisi bulunana kadar üç hücreyi
+  de L'ye atamadan korumak. Daha temkinli, fakat kaynaklı L örneklemi genişlemez.
+
+Araştırmacının Salur kararı Marmaris'e otomatik aktarılmadı. Her iki seçenek
+için mevcut üyelikler ve hedefler atamasız. A yönü için gerekçeli öneri,
+üç/dört kaynak uyuşmazlığını ve sembol konum belirsizliğini kapatmak değil;
+onları koruyarak ikinci vaka üzerinde hata içerebilen L hazırlığını sınamak.
+İki vaka da oran/karışım tahmini veya dört ilde değerlendirme için yeterlilik
+kanıtı değil. Birinci aşamanın bilimsel kabulü açık.
+
+Yeni çıktılar ve SHA-256:
+
+- Ham kontrol: `outputs/reports/dataset/marmaris_native_support_v1/20261119T130257Z_bf16c6bd/readback.json`;
+  `09baaccbd41d5e8a175b2bd988d46acf25c782fd5ac0b20ab21679bea6024ff4`.
+- İki tarih: `outputs/reports/dataset/marmaris_cover_review_v1/20261119T130607Z_f0819694/readback.json`;
+  `6bd38dabb3f24a6774a3a1a7586050eeae26f62c814aa8c7603d063340b38a61`.
+- İnsan notu: `outputs/reports/dataset/marmaris_researcher_cover_v1/20261119T131258Z_0c3894ed/readback.json`;
+  `ea5b8a0dffe0660ad140031e76d34a7890d88d4426f8dbbb28bb58ca1c07ed61`.
+  Açık kayıt: `configs/marmaris_cover_notes_v1.json`.
+- Zaman: `outputs/reports/dataset/marmaris_temporal_context_v1/20261119T131219Z_97f55f00/readback.json`;
+  `e8e0086ffb0caa73fcceb362e5a33bdb061978c4b33be566c99316f5d8264be0`.
+- Seçenek tablosu/şema: `outputs/reports/dataset/marmaris_L_direction_v1/20261119T131723Z_8bba0c84/readback.json`;
+  `c6b5206886af35fa34f7cc195fb662904ea20196e30c1dc1c89c82fd3e3021e4`.
+
+Bu devamda **114 ilgili davranış testi** geçti; ham/alan/katalog ve 18
+zaman karşılaştırması ayrıca çalıştırıldı. Yeni komutlar Ruff/biçim
+kontrolünü geçti. Seçenek tablosunun ilk geri okumasında Windows varsayılan
+metin kodlaması Türkçe notları eşleştiremedi; açık UTF-8 ile yeni sürüm
+üretildi, girdiler ve eski çıktılar korundu. Bu hata etikete dönüşmedi.
+
+Yeni komutlar: `audit_marmaris_native_support.py`,
+`prepare_marmaris_cover_review.py`, `review_marmaris_temporal_context.py`
+ve `prepare_marmaris_L_direction.py` (`scripts/quality/` altında).
+Son kapanışta beş vaka raporu, güncel kod/girdi/çıktı hash'leri, beş insan
+ön notu, 18 zaman karşılaştırması ve üç atamasız hücre seçeneği geri okundu:
+`outputs/reports/dataset/marmaris_case_review_closure_v1/20261119T132001Z_521890ee/readback.json`.
+SHA-256 `c4c28c7a42d4f427869c6981ac8a5ba5ce804e2c718a9bdadbbbca8ecfdae287`.

@@ -8,7 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
-| [Marmaris yayımlanmış başlangıç sembolü](MARMARIS_SOURCE_MARKER_2026-11-19.md) | İkinci vaka için kaynak geometrisi, üç/dört başlangıç uyuşmazlığı ve özel giriş bekleyen tek ham çift |
+| [Marmaris kaynak ve ham piksel incelemesi](MARMARIS_SOURCE_MARKER_2026-11-19.md) | Başlangıç geometrisi, 15 ham merkez, iki tarihli örtü/insan notu, dokuz zaman ayarı ve üyelik seçenekleri |
 | [Hata içerebilen pozitiflerle PU pilot hazırlığı](NOISY_POSITIVE_PU_PILOT_2026-11-19.md) | 74 ham merkez, kalite kesimi, iki birincil yöntem, 2.048 U anahtarı ve tek kaynak hücresi için olası L önerisi |
 | [Salur yerel örtü incelemesi](SALUR_LOCAL_COVER_2026-11-19.md) | Kaynak işareti/ilk tespit ayrımı, dokuz çevre, araştırmacı ön notları ve tek ham çift indirme planı |
 | [Grup bilgisinden hücreye PU uygulanabilirliği](PU_MIL_FEASIBILITY_2026-11-19.md) | Bao 2018 tam yöntemindeki üye sınıflandırması, nüfus oranı ve hücre olasılığı ayrımı |
