@@ -1,0 +1,41 @@
+{
+  "version": "wf1538_cover_notes_v1",
+  "review_date": "2026-11-19",
+  "source": "explicit_researcher_visual_reply",
+  "scope": "A_source_circle_and_B_approximate_native_support_in_two_preT_images",
+  "parent_sha256": "55ac06f4bb6e749a6dffae96c4d92c402b11449937481feba1647a26669146c1",
+  "figure_sha256": "9b3d48ecc189cbcf43456551e2232c954ca14bb5ad67f2dfda8cc47a5b19dc98",
+  "researcher_reply_verbatim": "A da ormanlık alan  B ye   göre daha fazla. A  da yollar  ve hafif  çalılık ya da kısa  bitki örtüsü görünüyor. B de  ise %45  orman  %35  dağlık ve kalan  bölgede  yol  gibi görünüyor.",
+  "notes": {
+    "A": {
+      "geometry_role": "published_source_point_250m_circle",
+      "preliminary_cover": "more_wooded_than_B_with_roads_and_shrub_or_short_vegetation",
+      "visual_wooded_estimate_percent": null
+    },
+    "B": {
+      "geometry_role": "approximate_native_fire_pixel_support",
+      "detection_id": "N20_815590_170090",
+      "preliminary_cover": "mixed_wooded_mountainous_and_road_like_areas",
+      "visual_wooded_estimate_percent": 45,
+      "visual_mountainous_estimate_percent": 35,
+      "remaining_area_note": "road_like_appearance",
+      "road_percent_explicitly_reported": null,
+      "landform_percentage_is_bare_ground_fraction": false,
+      "percentages_form_disjoint_landcover_classes": false,
+      "inferred_remainder_percent_created": false
+    }
+  },
+  "percentages_are_measured_area_fractions": false,
+  "natural_woodland_vs_plantation_vs_agriculture_resolved": false,
+  "habitat_threshold_accepted": false,
+  "independent_expert_verification": false,
+  "same_physical_fire_verified": false,
+  "source_clock_standard_resolved": false,
+  "source_location_error_bound_accepted": false,
+  "L_memberships_created": 0,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "training_authorized": false,
+  "final_merge_permitted": false
+}

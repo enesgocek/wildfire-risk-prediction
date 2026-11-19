@@ -1859,6 +1859,15 @@ biti 0. Kaynak noktası komşu kara pikselinde ve yaklaşık yangın alanının
 111 ilgili test geçti. İlk geçici alan/QA yorumları açık yeni sürümle
 düzeltildi; saat, aynı olay ve gerçek tutuşma kabul edilmedi. Yeni L/etiket yok.
 
+E210 — 19 Kasım. [WF1538 insan notu ve incelemede tutma kararı](../WF1538_DAYTIME_REVIEW_2026-11-19.md#aynı-gün-araştırmacı-notu-ve-a-kararı).
+Araştırmacı A'yı daha ağaçlık, B'yi orman/dağlık/yol karışık olarak
+yorumladı; yüzdeler ölçüm yapılmadı, arazi şekli örtüden ayrı saklandı.
+Kaynak/ham merkez/piksel aynı hücre/günde, kaynak piksel dışında.
+Araştırmacı A'yı seçti; WF1538 L'ye eklenmeden korundu. Sekiz ilk çift
+ve tek takibin küçük ölçüm paketi kapatıldı; iki metadata sınırı çözülmedi.
+41 ilgili test geçti; 10 kaynak satırı ve önceki iki olası L/2.048 U korundu.
+Yeni etiket/eğitim yok; genel birinci aşama kabulü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

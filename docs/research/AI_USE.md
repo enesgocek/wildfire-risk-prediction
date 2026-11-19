@@ -6,6 +6,15 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım WF1538 insan notu ve karar devamı. Araştırmacı A/B örtü ön
+yorumunu ve kaydı L'ye eklemeden incelemede koruma A kararını verdi.
+Bu notların görüntü/rapor hash'lerine bağlanması, aynı hücre/gün geometrik
+kontrolü, somut seçenekler ve 10 satırlık ölçüm paketinin durum kapanışı
+yapay zekâ desteğiyle hazırlandı. Dağlık görünüm bitkisiz örtüye çevrilmedi;
+görsel yüzdeler ölçüm veya eşik yapılmadı. Araştırmacının kararı gerçek
+yangın/pozitif veya bağımsız uzman doğrulaması sayılmadı.
+[İnsan notu ve A kararı](../WF1538_DAYTIME_REVIEW_2026-11-19.md#aynı-gün-araştırmacı-notu-ve-a-kararı).
+
 19 Kasım WF1538 gündüz devamı. Özel ham indirme araştırmacı tarafından
 yapıldı. Katalog/ham piksel eşleştirme, ayrı kaynak noktası incelemesi,
 yaklaşık geometri ve iki eski harita hesabı, iki kamu Sentinel görüntüsünün

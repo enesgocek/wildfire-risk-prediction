@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım WF1538 insan örtü notu ve A kararı kaydedildi; bu ölçüm paketi kapatıldı.**
+Araştırmacı A'yı daha ağaçlık/yol/kısa bitki örtüsü, B'yi yaklaşık %45
+orman, %35 dağlık ve kalan yol benzeri görünüm olarak yorumladı.
+Yüzdeler ölçüm değil; arazi şekli örtüden ayrı tutuldu, yol oranı türetilmedi.
+Kaynak/uydu/alan aynı C642/R876 hücresinde ve aynı hedef gününde;
+126 m kaynak–piksel ayrımı ve konum anlamı belirsiz. Araştırmacı A'yı
+seçti: WF1538 korunuyor, L'ye eklenmiyor. Sekiz ilk çift/tek takip
+kontrolü tamam; 10 satır kayıtlı, iki kaynak metadata sınırı sürüyor.
+41 ilgili test ve karar/girdi/boş-hedef geri okuması geçti. Önceki iki
+olası L önerisi ve 2.048 U değişmedi. Birinci aşama, PU kabulü ve
+etiketli veri seti açık; yeni etiket, eğitim veya nihai birleştirme yok.
+[İnsan notu, A kararı ve 10 satırın kapanışı](WF1538_DAYTIME_REVIEW_2026-11-19.md#aynı-gün-araştırmacı-notu-ve-a-kararı).
+
 **19 Kasım WF1538 gündüz ham/örtü/zaman incelemesi tamamlandı; insan örtü notu bekleniyor.**
 İndirilen çiftte tek katalog adayı ham 807/4012 pikseliyle eşleşti:
 nominal yangın maskesi 8, giriş kalite alt yedi biti 0. Kaynak noktası

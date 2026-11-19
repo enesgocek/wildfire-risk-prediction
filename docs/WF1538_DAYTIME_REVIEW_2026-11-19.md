@@ -105,3 +105,55 @@ Geçici QA alanı etiket veya aday reddinde kullanılmadı.
 Sıradaki insan işlemi yeni indirme değil, A/B örtüsüne ön yorum.
 Sonrasında bu not, kaynak anlamı ve geometrik ayrımla birlikte
 değerlendirilecek; L üyelik yönü otomatik kararlaştırılmayacak.
+
+## Aynı gün araştırmacı notu ve A kararı
+
+Araştırmacı A'da B'ye göre daha fazla ormanlık alan, yollar ve hafif
+çalılık/kısa bitki örtüsü gördüğünü belirtti. B için yaklaşık %45 orman,
+%35 dağlık görünüm, kalan alanda yol benzeri görünüm ön notu verdi.
+Yanıt, görüntünün hash'ine bağlı `configs/wf1538_cover_notes_v1.json`
+dosyasına kaydedildi. Bu bölüm önceki not-bekleniyor durumundan sonraki kayıttır.
+
+Yüzdeler ölçüm veya eşik değil. Dağlık görünüm arazi şeklidir; ormanla
+örtüşebilir. %35 bitkisiz/açık zemin sayılmadı, oranlar ayrı örtü sınıfları
+olarak toplanmadı ve kalan için %20 yol değeri türetilmedi. Doğal orman,
+ağaçlandırma ve tarım ayrımının kesinleştiği iddia edilmedi.
+
+Kaynak noktası, ham merkez ve yaklaşık yangın pikselinin tamamı aynı
+**C642/R876** hücresinde bulundu; iki saat hipotezi ve katalog tanısı
+27 Mayıs 2022 hedef gününü koruyor. Nokta–pikselin 126 m ayrımı ve
+ölçülmemiş kaynak konum hatası devam ediyor. Aynı kaba hücre ve gün,
+aynı fiziksel olay için bağımsız eşleşme kanıtı sayılmadı.
+
+İki somut seçenek hazırlandı: A kaydı incelemede atamasız tutmak;
+B doğrulanmamış kaynak bağlantısıyla tek hücre-gün için hata içerebilen
+L önerisi hazırlamak. A önerildi ve **araştırmacı A'yı seçti**.
+`configs/wf1538_review_retention_v1.json` kararı sonuç raporuna bağlıyor.
+WF1538 silinmedi, L'ye eklenmedi ve Y=0/1 atanmadı. Önceki iki olası
+L önerisi ve 2.048 U anahtarı hash'leriyle değişmeden korundu.
+
+Bu küçük ölçüm paketinde planlanan **sekiz ilk çift ve tek hedefli takip**
+incelendi; 10 kaynak satırının durumları birlikte kayıtlı. WF1342'nin saat
+bağlantısı ve WF1556'nın Mersin dışı noktası çözülmüş sayılmadı. Bu,
+birinci aşamanın bilimsel kabulü veya etiketli veri setinin tamamlanması değil.
+Kapanış tablosundaki bütün hedefler boş, gözlem `unknown`, yeni L sayısı sıfır.
+
+Bu devamda **13 yeni not/kabul koruması dahil 41 ilgili test** geçti.
+Oranların ölçüme çevrilmesi, dağlık görünümün bitkisiz sınıf sayılması,
+türetilmiş yol yüzdesi ve görsel nottan etiket/eğitim izni açılması reddedildi.
+Yeni kapanışta 10 satır, aynı tek hücre/gün, kararın rapor bağlantısı,
+boş hedefler ve eski L/U girdileri geri okundu; ham üretim tekrarlanmadı.
+
+- Somut üyelik seçenekleri:
+  `outputs/reports/dataset/wf1538_membership_review_v1/20261119T183610Z_76a3a7bc/readback.json`,
+  SHA-256 `8feb16a2fd70290bfb17c25ec50dd5a51eeab0d9377d4b9838a5252cf9436468`.
+- A kararı ve 10 satırın durum kapanışı:
+  `outputs/reports/dataset/wf1538_review_retention_v1/20261119T184009Z_0bd7da1f/readback.json`,
+  SHA-256 `ed94ee3daa0fcfb9141ab651adb27ecde152023d4f798ab4aefbb8812b551848`.
+
+Sonraki öncelik, L adaylarının kaynak anlamı/seçilmesi ve değerlendirme
+dayanağına yeni kanıt eklemek. 8 Kasım'da 479 saat bağlantılı satırın kaba
+hücre/gün katalog karşılaştırmasının zaten yapıldığı kontrol edildi;
+aynı sayım bu devamda yeniden üretim gibi sunulmadı. Buradaki 424 satırlık
+fit-rolü örnekleme çerçevesi farklı kapsamda; 10 kontrol satırı bu çerçeveden.
+Daha fazla benzer dosya kontrolü tek başına PU varsayımlarını çözmüyor.
