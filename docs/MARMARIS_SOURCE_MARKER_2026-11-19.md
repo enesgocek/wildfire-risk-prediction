@@ -230,3 +230,18 @@ Son kapanışta beş vaka raporu, güncel kod/girdi/çıktı hash'leri, beş ins
 ön notu, 18 zaman karşılaştırması ve üç atamasız hücre seçeneği geri okundu:
 `outputs/reports/dataset/marmaris_case_review_closure_v1/20261119T132001Z_521890ee/readback.json`.
 SHA-256 `c4c28c7a42d4f427869c6981ac8a5ba5ce804e2c718a9bdadbbbca8ecfdae287`.
+
+## Sonraki aynı gün kararı: A yönü seçildi
+
+Araştırmacı C541/R878 için tek hücrelik olası L önerisi hazırlama yönünü
+seçti. Kaynak sembol alanı esası bu tek vaka için kaydedildi; merkez
+AOI içine taşınmadı, genel eşleştirme kuralı oluşturulmadı. Diğer iki
+hücre atamasız, M2 örtüsü belirsiz korundu. Bu karar Y=1, gerçek pozitif
+veya eğitim kabulü değil. Önceki seçenek/bekleme kayıtları yukarıda tarihsel
+olarak korunuyor. Marmaris önerisi ve iki-vaka inceleme dizini hazır:
+`outputs/reports/dataset/marmaris_L_proposal_v1/20261119T134021Z_5272c4bd/readback.json`.
+SHA-256 `89d0305b9f5c54809e6c1170a30c21fe1a0230da4afc65720d5eef5bc8c5f476`.
+Sonraki teknik iş, ayrıntılı yayımlanmış büyük yangınlara göre elle
+seçim etkisini incelemek üzere kaynak tablosundan uydu sonucuna bakmadan
+örneklem hazırlığı oldu.
+[Seçim tasarımı, ilk kontrol ve devam sınırı](SOURCE_SAMPLING_REVIEW_2026-11-19.md).

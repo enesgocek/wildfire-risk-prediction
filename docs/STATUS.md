@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım Marmaris A kararı uygulandı; kaynak-temelli kontrol örneklemi hazır.**
+C541/R878, 21 Haziran hücre-günü için tek olası L önerisi hazırlandı;
+diğer iki hücre atamasız, M2 belirsiz. Salur ile iki vaka/iki öneri
+inceleme dizininde; 2.048 U anahtarı değişmedi, hedefler boş.
+Kaynak seçimini incelemek için Mersin'in 2018–2022 coğrafi tablosundaki
+424 satırdan yalnız kimlik/yıl ile iki/yıl, toplam 10 satır donduruldu.
+Saat bağlantısı belirsiz ve Mersin dışı koordinatlı iki satır çıkarılmadı;
+sekizi mevcut metadata ile ölçüm aktarımına elverişli. İlk WF1206
+kontrolü için yaklaşık 176 MB/15 dakika tek çift planı hazır; özel
+Earthdata indirmesi gerekiyor. 124 ilgili test geçti. Örnekleme ve
+ölçüm hazırlığı L/etiket/yöntem kabulü veya eğitim değil; birinci aşama açık.
+[Karar, örneklem, eksikler ve sonraki ölçüm](SOURCE_SAMPLING_REVIEW_2026-11-19.md).
+
 **19 Kasım Marmaris ham/örtü ve sınırlı zaman incelemesi tamamlandı.**
 Araştırmacının indirdiği çiftte beş ana merkez ve bağlantı bağlamındaki
 15 merkez tek tek eşleşti. İki tarihli olay öncesi görüntüde beş alanın

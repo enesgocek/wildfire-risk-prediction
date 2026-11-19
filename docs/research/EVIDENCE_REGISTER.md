@@ -1821,6 +1821,15 @@ yüzde tahminleri ölçüm yapılmadı. 614 sınırlı Haziran adayında dokuz
 ayar/18 kesitte geçmiş korundu. Üç hücrelik koşullu seçenek tablosunda
 mevcut L/hedef ataması yok. 114 ilgili test geçti; bilimsel kabul açık.
 
+E206 — 19 Kasım. [Marmaris önerisi ve kaynak seçimi kontrolü](../SOURCE_SAMPLING_REVIEW_2026-11-19.md).
+Araştırmacının A yönüyle yalnız C541/R878 için olası L önerisi hazırlandı;
+iki alternatif ve M2 belirsizliği korundu. İki kaynak-vaka önerisi boş
+hedefli inceleme dizininde; U değişmedi. Mersin'in 424 fit-rolü coğrafi
+satırından yalnız kimlik/yıl ile 10 kontrol satırı sabitlendi; sorunlu
+iki satır değiştirilmedi. İlk WF1206 için tek çiftin iki CMR kimliği
+doğrulandı; özel indirme gerekiyor. 124 ilgili test geçti; etiket/yöntem
+kabulü veya eğitim yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

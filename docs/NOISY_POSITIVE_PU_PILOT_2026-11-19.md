@@ -162,3 +162,15 @@ korunan tek vaka/dört hücre üyeliği geri okundu. Bu dosya sayısı
 bağımsız deney veya eğitim örneği sayısı değildir. Makbuz:
 `outputs/reports/dataset/noisy_positive_pu_closure_v1/20261119T121836Z_71d0dc4b/readback.json`.
 SHA-256 `3607dcbbf9b0ad0ad2b9a63498d4005ac15fcda55ba42dd554985c46c3fbe7d5`.
+
+## Aynı gün kapsam devamı
+
+Marmaris kaynak/ham/örtü/zaman kontrolü ve araştırmacının tek-vaka A
+kararı sonrasında iki kaynak vakası için iki olası L önerisi inceleme
+dizininde tutuluyor. Eski tek-Salur yapılandırması ve makbuzları değiştirilmedi;
+yeni kapsam ayrı çıktı ve `configs/marmaris_L_proposal_v1.json` ile kayıtlı.
+2.048 U anahtarı aynı; hedefler boş, oran/karışım tahmini yok.
+Kaynak seçimi varsayımını incelemek için Mersin'in 2018–2022 coğrafi
+tablosundaki 424 satırdan, yalnız kimlik/yıl kullanılarak 10 kontrol
+satırı donduruldu. Bunlar L üyeleri veya doğrulanmış yangınlar değil.
+[İki öneri ve kaynak-temelli kontrol örneklemi](SOURCE_SAMPLING_REVIEW_2026-11-19.md).

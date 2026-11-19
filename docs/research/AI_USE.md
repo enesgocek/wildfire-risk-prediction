@@ -6,6 +6,15 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım kaynak örnekleme devamı. Araştırmacı Marmaris için yalnız bir
+hücreye olası L önerisi hazırlama A yönünü seçti. Bu kararın sürümlü
+kaydı, iki-vaka inceleme dizini, kimlik/yıl dışında sütun kabul etmeyen
+kaynak seçicisi ve ilk ölçüm planı yapay zekâ desteğiyle hazırlandı.
+10 kaynak satırı koordinat/saat/son alan bağlamından önce sabitlendi;
+eksikleri bulunan iki satır değiştirilmedi. Bu, kör insan deneyi veya
+bağımsız gerçek yangın doğrulaması olarak sunulmadı.
+[Kaynak örneklemi ve sınırlar](../SOURCE_SAMPLING_REVIEW_2026-11-19.md).
+
 19 Kasım Marmaris indirme sonrası. Araştırmacı özel indirmeyi tamamladı;
 ham bayt/başlık sonrası 15 merkezin eşleştirilmesi, yaklaşık alanlar,
 eski haritalar, iki tarihli açık RGB/SCL kesitleri ve dokuz ayardaki
