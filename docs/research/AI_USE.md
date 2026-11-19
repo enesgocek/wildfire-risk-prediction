@@ -6,6 +6,20 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım Tırazlı kaynak devamı. Açık yazar tezinin bulunması, tarayıcı
+üzerinden indirilmesi, ilgili PDF sayfalarının görsel incelenmesi,
+gömülü fotoğraf metadata alanlarının kontrolü ve hash/makbuz hazırlığı
+yapay zekâ desteğiyle yürütüldü. Yazarın OGM köken beyanı özgün kurum
+kaydı sayılmadı; simülasyondan başlangıç koordinatı türetilmedi. Görsel
+inceleme araştırmacı veya bağımsız uzman onayı değildir. Yeni L/etiket
+ve eğitim yok. [Kaynak incelemesi](../TIRAZLI_SOURCE_REVIEW_2026-11-19.md).
+
+Aynı devamda Muğla'nın 2010–2019 kayıtlarını kullanan yayınevi PDF'si
+indirildi. Metin, üç ilgili sayfanın görselleri ve gömülü ek dosya
+durumu yapay zekâ desteğiyle kontrol edildi; erişilen yayında olay
+satırları elde edilemedi. Kaynak makalenin varlığı ve veri atfı,
+verinin projeye alınması veya yeni pozitif doğrulaması sayılmadı.
+
 19 Kasım WF1538 insan notu ve karar devamı. Araştırmacı A/B örtü ön
 yorumunu ve kaydı L'ye eklemeden incelemede koruma A kararını verdi.
 Bu notların görüntü/rapor hash'lerine bağlanması, aynı hücre/gün geometrik

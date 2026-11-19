@@ -1,0 +1,117 @@
+{
+  "version": "tirazli_primary_source_intake_v1",
+  "review_date": "2026-11-19",
+  "scope": "existing_Tirazli_2019_case_new_source_not_new_independent_event",
+  "source": {
+    "url": "https://www.researchgate.net/publication/395273286_Forest_fire_risk_modeling_and_fire_simulation_in_the_southeast_of_Urla_peninsula_Seferihisar-Menderes",
+    "doi": "10.13140/RG.2.2.32357.67049",
+    "author": "Enes Karadeniz",
+    "title": "Urla Yarımadası Güneydoğusunda (Seferihisar-Menderes) Orman Yangını Risk Modellemesi ve Yangın Simülasyonu",
+    "degree": "masters_thesis",
+    "institution_on_cover": "Fırat Üniversitesi",
+    "thesis_year": 2020,
+    "platform_upload_date": "2025-09-05",
+    "event_date": "2019-08-18",
+    "year_roles_are_distinct": true,
+    "source_type": "author_uploaded_primary_thesis_not_official_repository_copy",
+    "official_university_or_YOK_copy_verified": false,
+    "original_OGM_ignition_record_received": false,
+    "source_family": "author_report_of_OGM_input_not_independent_second_field_measurement"
+  },
+  "local_source_directory": "outputs/reports/dataset/tirazli_primary_source_v1/20261119T185740Z",
+  "local_artifact_sha256": {
+    "karadeniz_2020_thesis.pdf": "c22d4f5b13a7d5f3b894c1d43a3f5e5de95d1d4e275dcd73f646e26f319676cf",
+    "fetch_receipt.json": "c78ebdbc901ed78a3c503a21364155ba0f7598f747f7543a7830d8eb1a178adc",
+    "browser_fetch_receipt.json": "c5bb86734f456bdfad37eff898bffa97e53174cfd9e151b04fb7bf19a0b15ae7",
+    "page_text.json": "e741a2876876d4a18755c5a324e5a9b02fdf9e32d48450fbe150cb7a8be975c3",
+    "embedded_image_metadata.json": "d3fdf76b5edd428cac8aa5369289bb7ac3e796286b602a4842351e9f7d429c66",
+    "page_119.png": "bbdb95c2406679ea5b956ad71a23d34a190f997ef7ba590b0d71e29fb44ebe69",
+    "page_130.png": "273506905feb0d8c4307daa4bfbff2e4948f9af457d08df2278bc61f5398322a",
+    "page_132.png": "995e71b90c53e27580371ba6e852f8844777638a37f90f31d00d666dc2a2c426",
+    "page_133.png": "d08ca1b1debcf5c19780e40597b4faa3addc38f02607fa82f916a5783d588ffa"
+  },
+  "source_claims": [
+    {
+      "pdf_page": 119,
+      "printed_page": 102,
+      "figure": "Foto 8",
+      "paraphrase": "Erken yangın fotoğrafı OGM kaynaklı ve başlangıçtan 15 dakika sonrası olarak sunuluyor."
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": 113,
+      "paraphrase": "Yazar, simülasyonda kullandığı başlangıç noktasını OGM’den aldığını belirtiyor. Kurum adı bu beyandan ayrıca doğrulanmadı."
+    }
+  ],
+  "assistant_visual_findings": [
+    {
+      "pdf_page": 119,
+      "printed_page": 102,
+      "finding": "Oblique photo has roads, vegetation and smoke; no explicit ignition coordinate annotation was identified."
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": 113,
+      "finding": "Origin provenance statement visually read; no numeric origin coordinate attached to that statement."
+    },
+    {
+      "pdf_page": 132,
+      "printed_page": 115,
+      "figure": "Harita 29",
+      "finding": "MTT simulation paths and simulated/actual burn outlines; no separately labelled ignition symbol identified in this figure."
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": 116,
+      "figure": "Harita 30",
+      "finding": "Simulated arrival-time classes, earliest band 0–1000 minutes; this is not an observed ignition uncertainty polygon."
+    }
+  ],
+  "visual_findings_are_researcher_review": false,
+  "embedded_photo": {
+    "name": "Image606.jpg",
+    "pdf_page": 119,
+    "width": 656,
+    "height": 400,
+    "exif_field_count": 0,
+    "gps_present_in_embedded_copy": false,
+    "original_photo_metadata_availability_known": false,
+    "camera_location_would_equal_ignition_location": false
+  },
+  "interpretation": {
+    "simulation_convergence_used_as_ignition": false,
+    "earliest_arrival_band_used_as_ignition": false,
+    "photo_smoke_centroid_used_as_ignition": false,
+    "village_centroid_used_as_ignition": false,
+    "all_possible_coordinates_in_thesis_ruled_out": false,
+    "limitation": "Relevant figures and text were reviewed; lack of usable origin geometry here does not establish nonexistence in all public sources."
+  },
+  "unchanged_input_sha256": {
+    "outputs/reports/dataset/wf1538_review_retention_v1/20261119T184009Z_0bd7da1f/readback.json": "ed94ee3daa0fcfb9141ab651adb27ecde152023d4f798ab4aefbb8812b551848",
+    "outputs/reports/dataset/marmaris_L_proposal_v1/20261119T134021Z_5272c4bd/readback.json": "89d0305b9f5c54809e6c1170a30c21fe1a0230da4afc65720d5eef5bc8c5f476",
+    "outputs/reports/dataset/source_linked_L_proposal_v1/20261119T121351Z_2d9aeb30/readback.json": "d0a09ecb249eb81d75e4494beaf0ca9989092c813ddd6b40e4acf0817576ab3e",
+    "outputs/reports/dataset/noisy_positive_pu_pilot_v1/20261119T121014Z_122b22c7/U_key_sample.csv": "fd77c27454083e45f625e7e94ef0a14e5ace7d65636cace59b92261666c4d19f"
+  },
+  "case_disposition": "retain_as_source_context_no_L_assignment",
+  "ignition_point": null,
+  "ignition_coordinates_extracted": false,
+  "same_physical_fire_verified": false,
+  "new_L_memberships": 0,
+  "binary_labels_created": 0,
+  "method_accepted": false,
+  "training_authorized": false,
+  "final_merge_permitted": false,
+  "next_evidence_needed": [
+    "Explicit origin point/area with provenance and uncertainty, or another independently supported event linkage.",
+    "Population/evaluation support and noisy-positive PU assumptions remain separate requirements."
+  ],
+  "new_correspondence_started": false,
+  "acquisition_notes": {
+    "direct_http": 403,
+    "public_browser_download_succeeded": true,
+    "credentials_used": false,
+    "pdf_retained_locally_not_redistributed": true,
+    "poppler_font_warnings_recorded": true,
+    "rendered_pages_visually_readable": true
+  }
+}

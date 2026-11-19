@@ -1,0 +1,53 @@
+{
+  "version": "mugla_2010_2019_source_intake_v1",
+  "review_date": "2026-11-19",
+  "source": {
+    "authors": [
+      "Uğur Baltacı",
+      "Feriha Yıldırım"
+    ],
+    "year": 2021,
+    "doi": "10.17568/ogmoad.708385",
+    "url": "https://dergipark.org.tr/en/pub/ogmoad/article/708385",
+    "pdf_url": "https://dergipark.org.tr/tr/download/article-file/1019319",
+    "scope": "2010-2019_Mugla_regional_forest_directorate_not_Mugla_province_only",
+    "source_type": "publisher_primary_article",
+    "original_input_source_as_cited": "OGM_2020b_fire_register_database",
+    "license_on_pdf": "CC_BY_ND_4_0"
+  },
+  "local_source_directory": "outputs/reports/dataset/mugla_2010_2019_source_v1/20261119T191429Z",
+  "artifact_sha256": {
+    "baltaci_yildirim_2021.pdf": "0035be84d60eee08f5bc711a2e2dafc9cfbf5723e55170998d48c88055b87edd",
+    "fetch_receipt.json": "482aeafe6331a19fe3128ab6a7ab625047da2b0fa6c789a477c662f1322068b5",
+    "page_text.json": "771efd26788efd99a67cec2023c6dbd5fca4ba8a65626ccf57f3a63d2dc4b64f",
+    "page_3.png": "6a9c14cef940d6731ded80f256a0981866294d7dbed5242820e753cfd391406a",
+    "page_10.png": "46f8789b600d0df54a1248add24577d74c1dcb08a9cd9e5e54f9eb3a99772636",
+    "page_11.png": "e8322a85a0485ce5c3876c9f9c042b4d8b95b5077df9e50125fadb1bab3bfa3f"
+  },
+  "pdf_page_count": 11,
+  "pdf_embedded_attachment_count": 0,
+  "review": {
+    "text_scope": "all_11_pages",
+    "assistant_visually_read_pages": [
+      3,
+      10,
+      11
+    ],
+    "method_page": 3,
+    "result_map_page": 10,
+    "input_database_reference_page": 11,
+    "event_date_coordinate_rows_obtained": 0,
+    "original_OGM_input_received": false,
+    "source_meaning": "Published method uses start points; accessible article supplies aggregate analyses and risk maps rather than a downloaded dated event table.",
+    "risk_map_used_as_fire_event_truth": false,
+    "aggregate_counts_used_as_24h_cell_labels": false,
+    "no_public_copy_anywhere_claimed": false,
+    "new_correspondence_started": false,
+    "researcher_or_independent_expert_review": false
+  },
+  "contribution": "Additional primary literature and input-provenance lead; not a new positive training set.",
+  "new_L_memberships": 0,
+  "binary_labels_created": 0,
+  "training_authorized": false,
+  "final_merge_permitted": false
+}

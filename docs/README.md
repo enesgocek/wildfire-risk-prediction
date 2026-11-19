@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Tırazlı ve Muğla yeni kaynak incelemesi](TIRAZLI_SOURCE_REVIEW_2026-11-19.md) | Yazar tezi ve yayınevi makalesi, görsel/metadata kontrolü, başlangıç geometrisi ve tarihli olay verisine erişim sınırı |
 | [WF1538 gündüz ham ve örtü sonucu](WF1538_DAYTIME_REVIEW_2026-11-19.md) | Kaynak/piksel ayrımı, insan örtü notu, incelemede tutma A kararı ve 10 kaynak satırının durum kapanışı |
 | [Kaynak örnekleminin ham sonuçları](SOURCE_SAMPLE_NATIVE_2026-11-19.md) | Sekiz çift/1.617 tarama, bulut/silinmiş piksel örneği, katalog saat bağlamı ve WF1538 için tek gündüz takibi |
 | [Kaynak seçimini inceleme örneklemi](SOURCE_SAMPLING_REVIEW_2026-11-19.md) | İki olası L önerisi, 424 satırdan sonuçtan bağımsız 10 kontrol, WF1206 ham sonucu ve yedi çift için tek girişli indirme kuyruğu |

@@ -1868,6 +1868,23 @@ ve tek takibin küçük ölçüm paketi kapatıldı; iki metadata sınırı çö
 41 ilgili test geçti; 10 kaynak satırı ve önceki iki olası L/2.048 U korundu.
 Yeni etiket/eğitim yok; genel birinci aşama kabulü açık.
 
+E211 — 19 Kasım. [Tırazlı yeni yazar kaynağı](../TIRAZLI_SOURCE_REVIEW_2026-11-19.md).
+2020 tezi açık tarayıcı indirmesiyle alındı; 157 sayfa/13.556.563 bayt
+PDF hash ile korundu. Dört sayfa asistan tarafından görsel incelendi;
+erken fotoğrafın gömülü kopyasında GPS/EXIF yok. Başlangıç girdisinin
+köken beyanı kaydedildi, kullanılabilir başlangıç geometrisi çıkarılmadı.
+Dokuz kaynak dosyası ve dört önceki girdi doğrulandı. İki olası L,
+2.048 U ve WF1538 kararı değişmedi; yeni etiket/eğitim yok. Bu bir
+dosya/metadata geri okuması; otomatik kaynak-anlamı kabulü değildir.
+
+E212 — 19 Kasım. [Muğla 2010–2019 kaynak izi](../TIRAZLI_SOURCE_REVIEW_2026-11-19.md#aynı-devamda-muğlanın-yayımlanmış-başlangıç-verisi-izi).
+Birincil yayınevi makalesi 11 sayfa/4.841.583 bayt olarak alındı.
+Metin ve yöntem/sonuç/kaynak sayfaları görsel incelendi. Başlangıç
+verisinin kurumsal köken atfı var; tarih–koordinat eşli olay tablosu
+elde edilmedi. PDF'de gömülü ek dosya yok. Altı kaynak dosyası doğrulandı;
+risk haritası etikete çevrilmedi. Yeni L/eğitim yok; genel açık veri
+yokluğu veya kaynak-anlamı otomatik doğrulaması iddia edilmedi.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

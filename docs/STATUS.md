@@ -5,6 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım Tırazlı 2019 için yeni yazar kaynaklı tez incelendi.**
+157 sayfalık PDF yerelde korundu; dört ilgili sayfa görüntüden ve erken
+fotoğrafın gömülü metadata alanları kontrol edildi. Başlangıç girdisinin
+OGM kökenli olduğu yazar beyanı var; kullanılabilir açık başlangıç
+koordinatı çıkarılmadı, simülasyon haritası gerçek başlangıç sayılmadı.
+Dokuz kaynak dosyası ve önceki L/U/karar girdileri hash ile geri okundu.
+Yeni L/etiket yok; iki olası öneri ve 2.048 U korundu. Birinci aşama,
+PU varsayımları ve değerlendirme dayanağı açık; eğitim/birleştirme yok.
+[Yeni kaynak, bulunan bilgi ve kabul sınırı](TIRAZLI_SOURCE_REVIEW_2026-11-19.md).
+
+Aynı devamda Muğla 2010–2019 başlangıç verisini kullanan yayınevi
+makalesi de yerelde incelendi. Tarih–koordinat eşli olay satırları elde
+edilmedi; risk haritası etikete çevrilmedi. Altı kaynak dosyası doğrulandı.
+Her iki yeni kaynak bağlam düzeyinde; birinci aşamanın kanıt açığı sürüyor.
+
 **19 Kasım WF1538 insan örtü notu ve A kararı kaydedildi; bu ölçüm paketi kapatıldı.**
 Araştırmacı A'yı daha ağaçlık/yol/kısa bitki örtüsü, B'yi yaklaşık %45
 orman, %35 dağlık ve kalan yol benzeri görünüm olarak yorumladı.
