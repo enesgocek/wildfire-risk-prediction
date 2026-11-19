@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım kaynak koşullu PU A kararı sonrası. Yöntem yönünü araştırmacı
+seçti; sürümlü protokol, dokuz çevrimdışı konum/gün senaryosu, coğrafi U
+kesiti, ortak hipotez anahtarlarından olası bağımlılık blokları ve mevcut
+CORINE kanıtının fit havuzuna aktarımı yapay zekâ desteğiyle hazırlandı.
+74 davranış testi ve ayrı geri okumalar otomatik teknik kontrollerdir;
+insan örtü veya bağımsız yangın doğrulaması değildir. Çevreler gerçek
+konum hata sınırı, gün kaymaları ölçülmüş gecikme yapılmadı. Harita
+grupları olay tipi, coğrafi eşleşme PU varsayımı kabulü sayılmadı.
+WF1538 kararı ve önceki L/U dosyaları korundu; yeni L/etiket/eğitim yok.
+[Protokol, hazırlıklar ve açık bilimsel koşullar](../SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md).
+
 19 Kasım kaynak havuzu yönü hazırlığı. Çile özgün medya erişimi ve saha
 PDF'sindeki telemetri görsellerinin okunması, Mersin'in aynı 424 fit
 satırının belirsizlik tablosu, alternatif yöntemlerin somutlaştırılması

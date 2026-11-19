@@ -1,0 +1,73 @@
+{
+  "version": "source_conditioned_pu_protocol_v1",
+  "decision_date": "2026-11-19",
+  "decision_authority": "researcher",
+  "decision_source": "explicit_user_selection_A_prepare_source_conditioned_PU_pilot_protocol",
+  "decision_parent_sha256": "849f0ef0ad8af1ed88eac2418ddf5c2026db0910a7a852760b710a8821387a06",
+  "status": "protocol_preparation_and_offline_diagnostics_only",
+  "main_target_changed": false,
+  "source_population": "same_424_published_Mersin_rows_2018_2022_not_verified_fires",
+  "diagnostic_focus": "380_metadata_transportable_rows_excluding_researcher_retained_WF1538",
+  "all_source_rows_retained": true,
+  "WF1538_retention_overridden": false,
+  "new_L_memberships_permitted": false,
+  "satellite_results_used_for_selection": false,
+  "habitat_results_used_for_selection": false,
+  "resample_or_replace_frozen_ten_rows": false,
+  "source_final_area_is_predictor": false,
+  "geometry_diagnostics": {
+    "projection": "EPSG:6933",
+    "radii_projection_plane_m": [0, 250, 1000],
+    "circle_quad_segs": 64,
+    "positive_area_intersections_for_nonzero_radius": true,
+    "radii_are_measured_location_error_bounds": false,
+    "all_intersected_cells_are_positive": false,
+    "force_nearest_cell": false
+  },
+  "time_diagnostics": {
+    "keep_both_clock_hypotheses": true,
+    "day_shifts": [-1, 0, 1],
+    "shifts_are_measured_detection_delays": false,
+    "source_clock_is_first_satellite_detection": false,
+    "select_clock_using_satellite_match": false,
+    "start_T_utc": "2018-01-01T00:00:00+00:00",
+    "target_endpoint_strictly_before": "2023-01-01T00:00:00+00:00"
+  },
+  "U_domain_diagnostic": {
+    "input": "unchanged_frozen_2048_U_keys",
+    "review_slice": "retained_water_scope_cell_has_positive_area_in_Mersin",
+    "slice_is_accepted_training_population": false,
+    "new_sampling_permitted": false,
+    "drop_overlaps_with_source_keys": false,
+    "unknown_is_negative": false,
+    "geographic_overlap_proves_shared_class_conditionals": false
+  },
+  "dependency_diagnostic": {
+    "basis": "shared_cell_day_in_1km_and_plus_minus_one_day_hypotheses",
+    "source_rows_are_not_merged": true,
+    "physical_fire_identity_verified": false,
+    "fold_assignment_performed": false
+  },
+  "mixture_requirements": {
+    "source_L_positive_enrichment_verified": false,
+    "shared_class_conditionals_verified": false,
+    "semantic_identifiability_verified": false,
+    "independent_evaluation_supported": false,
+    "alpha": null,
+    "beta": null,
+    "label_noise_fraction": null
+  },
+  "source_coordinate_role_verified": false,
+  "source_record_unit_verified": false,
+  "source_to_first_detection_time_relation_verified": false,
+  "method_accepted": false,
+  "positive_label_permitted": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "training_authorized": false,
+  "model_ready": false,
+  "final_merge_permitted": false,
+  "2023_calibration_values_read_permitted": false,
+  "2024_comparison_values_read_permitted": false,
+  "2025_final_values_read_permitted": false
+}

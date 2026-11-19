@@ -1905,6 +1905,20 @@ indeks hesabı ve önceki gerçek L/U dosyalarının hash kontrolü geçti.
 Genel kaynak koşullu pilot yönü araştırmacıya soruldu; kabul edilmedi.
 Yeni L/etiket yok; iki önceki olası öneri korundu. Birinci aşama açık.
 
+E215 — 19 Kasım. [Kaynak koşullu PU protokolü ve A kararı](../SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md).
+Araştırmacı A yönünü seçti; etiket/eğitim kabulü değil. 380 kayıtta
+250 m çevre 60, 1 km çevre 219 satırda çok hücreli. Dokuz konum/gün
+senaryosu ve 734 Mersin-alanlı hücredeki 503 özgün U satırının kesiti
+hazır; asıl 2.048 U değişmedi. 31 kayıt 14 olası bağımlılık bloğunda;
+yangın sayısı/fold ataması yapılmadı. Önceki CORINE kanıtından 266
+orman/çalı, 103 tarım, 11 diğer merkez; 103 tarım merkezinin 63'ünde
+250 m çevrede odunsu piksel örneği var. Harita kabul/eleme yapılmadı.
+74 ilgili test, 1.140 geometri seçeneğinin ayrı geri okuması, dokuz
+senaryo ve bütün-çiftler bağımlılık grafiği kontrolü geçti. İlk JSON
+anahtar türü hatası düzeltildi; başarısız çıktı kabul edilmedi. Bütün
+424 kaynak satırı ve WF1538 kararı korundu. Yeni L/etiket/eğitim yok;
+birinci aşamanın bilimsel kabulü ve PU/değerlendirme dayanağı açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

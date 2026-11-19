@@ -6,6 +6,12 @@ tamamlanmadı.** Aşağıdaki sayılar etiket veya gerçek yangın sayısı değ
 aynı yayımlanmış arşivin 2018–2022 dönemindeki 424 kaynak satırına aittir.
 2023 kalibrasyon, 2024 karşılaştırma ve 2025 final değerleri hesaba alınmadı.
 
+**Aynı gün sonraki karar:** araştırmacı A'yı seçti. Kaynak koşullu PU
+pilot protokolü ve sınırlı çevrimdışı duyarlılık kontrolleri hazırlandı.
+Aşağıdaki bekleyen seçim açıklaması önceki karar anının kaydıdır;
+seçim etiket veya eğitim kabulü değildir.
+[Yeni protokol, ölçülen sonuçlar ve açık koşullar](SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md).
+
 ## Tamamlanan iş ve sonuç
 
 Daha önce yalnız kimlik/yılla dondurulan 424 satırın tamamı korundu. İlk

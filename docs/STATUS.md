@@ -5,6 +5,23 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım A kararıyla kaynak koşullu PU protokolü ve bağımsız hazırlıkları tamamlandı.**
+Karar yeni sürümlü ayara işlendi; genel kaynak kullanımının araştırılması,
+etiket/eğitim kabulü değil. 380 odak kaydında 250 m çevre 60, 1 km çevre
+219 satırda birden fazla hücreye taşıyor. Dokuz konum/gün senaryosu
+etiket üretmedi; fit dışına kayan alternatif ve U çakışması korunuyor.
+2.048 U değişmeden, Mersin ile pozitif alan paylaşan 734 hücreden gelen
+503 satır ayrı coğrafi inceleme kesitine alındı. Bu sınıf koşullu eşitlik
+kanıtı veya kabul edilmiş eğitim nüfusu değil. Olası ortak anahtarlar
+31 kaydı 14 bağımlılık bloğuna bağlıyor; gerçek olay/fold ataması yok.
+Önceki CORINE kanıtı fit havuzuna aktarıldı: 266 orman/çalı, 103 tarım,
+11 diğer merkez; tarım merkezlerinin 63'ünde 250 m'de odunsu örtü örneği
+var. Otomatik örtü elemesi yapılmadı. 74 ilgili test ve ayrı geri
+okumalar geçti. 424 kaynak satırı, WF1538 kararı, önceki iki olası L ve
+2.048 U korundu; yeni L/etiket yok. Birinci aşamanın bilimsel kabulü,
+kaynak–hedef ilişkisi, PU varsayımları ve değerlendirme dayanağı açık.
+[Tamamlanan protokol, somut bulgular ve geçiş koşulları](SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md).
+
 **19 Kasım 424 satırlık kaynak havuzunun yöntem seçenekleri hazır; araştırmacı yönü bekleniyor.**
 Mersin 2018–2022 arşivinin dondurulmuş 424 satırı korundu. 381'i yayımlanan
 merkez ve iki saat yorumunda aynı koşullu hücre-güne taşınabiliyor; bu bir
