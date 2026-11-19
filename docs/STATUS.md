@@ -5,6 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım kaynak örnekleminin sekiz ham geçişi tamamlandı; WF1538 gündüz takibi hazır.**
+Yedi yeni çiftin makbuz/bayt/hash'leri doğrulandı. Önceki WF1206 ile
+sekiz çiftte 1.617 tarama, 13 yerel bağlam incelendi; ham tanıklar ayrıca
+geri okundu. Yedi noktada nominal kara; WF1431'de komşu taramalarda
+silinmiş piksel/bulut. İncelenen geçişlerde nokta/çevrede yangın sınıfı
+yok; negatif veya yakalama oranı çıkarılmadı. 10 kaynak satırı korunuyor,
+iki metadata engeli sürüyor. Mevcut katalogda WF1538'in 367,60 m yakınında
+10:30 UTC'de tek NOAA-20 adayı bulundu; ilk ham çift gece geçişiydi.
+Saat standardı seçilmedi; katalog adayının bağımsız olay eşitliği bilinmiyor.
+Bu adaya yönelik tek ek ham çift planı hazır: 186.934.166 bayt/15 dakika,
+özel giriş gerekiyor. Takip seçimi sonuç odaklı; ilk örneklem değişmedi.
+167 ilgili test geçti. İki olası L önerisi ve 2.048 U değişmedi;
+yeni L/etiket, eğitim veya nihai birleştirme yok. Birinci aşama açık.
+[Kayıt tablosu, bulut örneği ve yeni indirme adımı](SOURCE_SAMPLE_NATIVE_2026-11-19.md).
+
 **19 Kasım WF1206 ham nokta incelemesi tamamlandı; kalan yedi çift toplu indirmeye hazır.**
 Araştırmacının indirdiği SNPP çiftinin bayt/hash/başlıkları ve 202 taraması
 kontrol edildi. Kaynak noktasını kapsayan tek yerel tarama 23:09 UTC'de;

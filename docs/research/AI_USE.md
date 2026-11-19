@@ -6,6 +6,16 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım yedi çift indirme sonrası. Özel indirmeyi araştırmacı tamamladı.
+Makbuz/hash doğrulaması, sekiz çiftte 1.617 taramanın yerel nokta/çevre
+incelemesi, ayrı 13 ham tanık okuması ve mevcut katalogdaki saat/konum
+karşılaştırması yapay zekâ desteğiyle yürütüldü. Yedi nominal kara noktası
+ve bir bulut/silinmiş piksel örneği negatif yapılmadı. WF1538'in gündüz
+adayı için takip planı sonuç odaklı olarak açıkça ayrıldı; saat standardı
+seçilmedi. İnsan örtü incelemesi veya bağımsız gerçek pozitif doğrulaması
+iddia edilmedi; yeni L/etiket ve eğitim yok.
+[Ham sonuçlar ve tek takip hazırlığı](../SOURCE_SAMPLE_NATIVE_2026-11-19.md).
+
 19 Kasım WF1206 indirme sonrası. Özel Earthdata girişi ve indirme
 araştırmacı tarafından yapıldı. Makbuz/hash/başlık kontrolü, 202 ham taramada
 nokta ve yaklaşık çevre incelemesi, ayrı tanık geri okuması ve kalan yedi

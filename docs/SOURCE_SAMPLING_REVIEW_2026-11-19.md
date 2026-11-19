@@ -1,5 +1,9 @@
 # Kaynak seçimini inceleme örneklemi — 19 Kasım 2026
 
+**Aynı gün sonraki sonuç:** yedi yeni çift indirildi, sekiz kaydın ham
+incelemesi tamamlandı. Önceki hazırlık kaydı aşağıda korunuyor.
+[Sekiz sonuç, katalog saat bağlamı ve WF1538 takip adımı](SOURCE_SAMPLE_NATIVE_2026-11-19.md).
+
 ## Neden bu adıma geçildi?
 
 Araştırmacının Marmaris A kararıyla C541/R878, 21 Haziran 2022 hücre-günü

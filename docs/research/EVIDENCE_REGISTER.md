@@ -1840,6 +1840,16 @@ doğrulandı; 1.258.097.196 bayt, tek giriş/işçi, en fazla 60 dakika
 indirme kuyruğu hazır, özel indirme bekliyor. 154 ilgili test ve ayrı
 ham tanık/kod/girdi geri okuması geçti. Yeni L/etiket veya eğitim yok.
 
+E208 — 19 Kasım. [Sekiz kaynak satırının ham ve katalog bağlamı](../SOURCE_SAMPLE_NATIVE_2026-11-19.md).
+Araştırmacının yedi çift indirmesi yerelde doğrulandı. WF1206 dahil
+sekiz çift/1.617 tarama, 13 yerel bağlam ve ayrı ham tanıklar incelendi.
+Yedi noktada nominal kara; WF1431'de silinmiş piksel/bulut. Yokluk
+negatif veya yakalama oranına çevrilmedi. Mevcut katalogda WF1538'in
+367,60 m yakınındaki tek gündüz adayı iki saat yorumunda farklı yerde
+kalıyor; saat standardı seçilmedi. Tek ek çiftin iki CMR kimliği doğrulandı,
+186.934.166 bayt/15 dakika özel indirme bekliyor. 167 ilgili test geçti;
+10 kaynak satırı, iki olası L önerisi ve U korundu; yeni etiket/eğitim yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
