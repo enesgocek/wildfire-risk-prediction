@@ -8,7 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
-| [Kaynak seçimini inceleme örneklemi](SOURCE_SAMPLING_REVIEW_2026-11-19.md) | Marmaris A kararı, iki olası L önerisi, 424 kaynak satırından sonuçtan bağımsız 10 kontrol ve WF1206 ölçüm planı |
+| [Kaynak seçimini inceleme örneklemi](SOURCE_SAMPLING_REVIEW_2026-11-19.md) | İki olası L önerisi, 424 satırdan sonuçtan bağımsız 10 kontrol, WF1206 ham sonucu ve yedi çift için tek girişli indirme kuyruğu |
 | [Marmaris kaynak ve ham piksel incelemesi](MARMARIS_SOURCE_MARKER_2026-11-19.md) | Başlangıç geometrisi, 15 ham merkez, iki tarihli örtü/insan notu, dokuz zaman ayarı ve üyelik seçenekleri |
 | [Hata içerebilen pozitiflerle PU pilot hazırlığı](NOISY_POSITIVE_PU_PILOT_2026-11-19.md) | 74 ham merkez, kalite kesimi, iki birincil yöntem, 2.048 U anahtarı ve tek kaynak hücresi için olası L önerisi |
 | [Salur yerel örtü incelemesi](SALUR_LOCAL_COVER_2026-11-19.md) | Kaynak işareti/ilk tespit ayrımı, dokuz çevre, araştırmacı ön notları ve tek ham çift indirme planı |

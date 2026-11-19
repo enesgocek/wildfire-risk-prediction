@@ -125,3 +125,116 @@ sınırları geri okundu. Bu kontrol örneklemi şimdilik yalnız Mersin'de;
 dört ile genellenmedi. Yeni sınıf/hata oranı veya model başarısı ölçülmedi.
 Gözlem `unknown`, etiket izinleri kapalı. Birinci aşamanın bilimsel kabulü,
 eğitim ve nihai birleştirme açık onay/kanıt kapılarında kalıyor.
+
+## Aynı gün WF1206 ham sonucu ve yedi çiftlik kuyruk
+
+Araştırmacı özel Earthdata indirmesini tamamladı. Sonuç dosyasının tamamlanma
+makbuzu, plan hash'i, 175.717.496 ham baytın iki dosya hash'i ve gerçek
+InputPointer/boyut/zaman başlıkları yerelde doğrulandı. Bu bölüm önceki
+indirme-bekliyor durumundan sonra elde edilen yeni sonuçtur.
+
+### Tek geçişte gerçekten ne görüldü?
+
+Ham çiftte **202 tarama** ayrı okundu. Kaynak noktası ve 1 km çevresini
+kesen yerel yaklaşık destek yalnız tarama **113** içinde bulundu:
+24 Haziran 2018 **23:09:22,529–23:09:23,093 UTC**. Tarama kalite alanı
+0; `sensor_mode` ham değeri 5 ayrıca saklandı, yeni anlam ataması yapılmadı.
+
+| İnceleme birimi | Yerel sonuç | Sınır |
+|---|---|---|
+| Kaynak noktası | Kapsayan yaklaşık pikseller maske 5, nominal kara | Gerçek tutuşma koordinatı olduğu doğrulanmadı |
+| 250 m ve 1 km çevre | Yaklaşık destek ve maske 5 alanı yaklaşık %100; diğer maske sınıfları 0 | EPSG:6933 düzleminde komşu merkezlerden türetilmiş alan; resmî piksel köşeleri değil |
+| En yakın ham merkez | Satır 3628, sütun 2004; maske 5, ham QA 0 | 191,51 m projeksiyon uzaklığı konum doğruluk ölçüsü değil |
+| Merkezin 3×3 komşuluğu | Dokuz değerin tamamı maske 5 | Ayrı sınırlı ham okuma ile yeniden doğrulandı |
+| Kaynak saatine göre fark | UTC yorumunda 537,38 dk; Türkiye yorumunda 717,38 dk | Tespit gecikmesi veya yangının sürdüğü süre değil |
+
+Geometri aynı tarama içindeki komşu merkezlerden türetiliyor; kenar
+satır/sütunları yeniden kurulmadı. Alanlar piksel örtüşmelerini toplayarak
+değil birleşimlerini alarak hesaplandı. Kaydedilen yaklaşık 1 payındaki
+10^-14 mertebesindeki kayan nokta farkları raporda elle düzeltilmedi;
+kapanışta 10^-12 toleransla kontrol edildi. Bu tek geçişte, bu iki
+yaklaşık çevrede yangın/bulut maske sınıfı bulunmadı.
+
+**Bu sonuç negatif etiket değildir.** Bildirilen son alan 0,2 ha,
+geçiş sırasındaki aktif alan değil. Söndürülme zamanı, saat standardı ve
+koordinatın başlangıç rolü bilinmiyor. Geçişin bildirilen zamandan yaklaşık
+9 veya 12 saat sonra olması da yokluğu yorumlamayı sınırlar. Kaynağı yanlış
+ilan etmedik; yeni L önerisi veya Y=0/1 üretmedik. Günlük gözlem hâlâ
+`unknown`, negatif/pozitif etiket izinleri kapalı.
+
+### Kalan yedi satırın ölçüm hazırlığı
+
+Yalnız dondurulmuş örneklemdeki metadata ile taşınabilir sekiz satırdan
+ham incelemesi tamamlanan WF1206 ayrıldı. Kalanlar **WF1207, WF1300,
+WF1351, WF1421, WF1431, WF1504 ve WF1538**. Saat bağlantısı belirsiz WF1342
+ve Mersin dışı koordinatlı WF1556 örneklemde tutuluyor; yerlerine satır
+alınmadı. 10 satırın biri ham incelendi; yedisi indirme bekliyor; ikisinin
+kaynak metadata engeli sürüyor. Bunlar veri setinin tamamlanma yüzdesi değildir.
+
+Her satır için iki saat yorumundan da sonraki ilk kayıtlı hücre geçişi,
+en fazla 24 saatlik metadata aralığında seçildi. Yangın/kalite sayıları
+seçim tablosundan ayrıldı; bu değerlere göre kolay geçiş seçilmedi.
+Hücre taramasının bulunması noktanın gerçek ham kapsamasını kanıtlamıyor;
+her satırda indirme sonrası ayrıca kontrol edilecek. Fit rolü 2018–2022
+korundu; 2023 kalibrasyon, 2024 karşılaştırma ve 2025 kapalı test değerleri
+bu devamda işlenmedi.
+
+14 tam dosya için ürün başına gruplu **dört açık CMR metadata sorgusu**
+yapıldı. Kimlik/boyut/zaman ve tek dosya URL politikaları doğrulandı;
+ham veri ya da kimlik bilgisi istenmedi. Yedi plan standart tek-çift
+çalıştırıcısıyla geri yüklendi. Toplam boyut **1.258.097.196 bayt**
+(yaklaşık 1,26 GB / 1,17 GiB). Özel indirme henüz başlamadı.
+
+Yeni küçük kuyruk mevcut tek-çift güvenli aktarıcıyı değiştirmeden çağırır:
+
+- Özel giriş bir kez, yalnız terminalde; parola/token rapora veya komuta yazılmaz.
+- Bir işçi; her çocuk 900 saniye. Özel giriş sonrası indirme kuyruğu 3.600
+  saniye; 930 saniyelik rezerv kalmadan yeni çift başlatılmaz.
+- İlk hata veya süre rezervinde durur; ham/kısmi dosyaları korur.
+  Kendiliğinden yeniden deneme/başlatma veya dosya silme yok.
+- Yeniden elle çalıştırıldığında yalnız tamamlanma makbuzu, plan ve
+  yaşayan ham bayt hash'leri doğrulanan çiftler atlanır.
+- Yalnız bayt/başlık kontrolü; mekânsal kabul, günlük gözlem, etiket,
+  model eğitimi ve bulut işi başlatılmaz. Mekânsal inceleme sonra yerelde yapılır.
+- `--run` verilmeden yalnız hazırlık kontrolü yapılır; indirme başlamaz.
+
+Araştırmacının PowerShell'de çalıştıracağı komut:
+
+```powershell
+$yanginProje = 'C:\PROJELERIM\wildfire-risk-prediction'
+Set-Location $yanginProje
+& "$yanginProje\.venv\Scripts\python.exe" "$yanginProje\scripts\firms\run_source_review_queue.py" --plan "$yanginProje\outputs\reports\dataset\source_review_queue_v1\20261119T141303Z_9c1e2156\queue_plan.json" --run --prompt-login
+```
+
+Bitince yalnız genel durum ve sonuç klasörü paylaşılır; parola, token,
+bağlantı veya terminal dökümü paylaşılmaz. Süre sınırına ulaşırsa yedi
+çiftin tamamlandığı varsayılmaz; makbuzdan gerçek biten sayısı okunur.
+
+### Yeni çıktı kimlikleri ve doğrulama
+
+| Çıktı | Yerel dosya | SHA-256 |
+|---|---|---|
+| WF1206 indirme makbuzu | `outputs/reports/dataset/observation_core_native_v1/20261119T134819Z_b9d99fad/native_probe.json` | `a675b5c25b90b2a78fd1da70dfacca0697a3e2b61af0e4f90164cfe1d4e77d4c` |
+| WF1206 nokta/çevre | `outputs/reports/dataset/source_sample_point_v1/20261119T140051Z_000dc2bf/readback.json` | `9970de0d18f2717c0f72294e35a61938f55af452d034d3f341e2ecc10edc7efa` |
+| Kalan yedi metadata | `outputs/reports/dataset/source_queue_metadata_v1/20261119T140541Z_58ea114d/readback.json` | `5980e221bd3d74eff6ad6b17fd17fb11c48fe5e9aa6373eb1aaa30c2f88da04d` |
+| İndirme kuyruk planı | `outputs/reports/dataset/source_review_queue_v1/20261119T141303Z_9c1e2156/queue_plan.json` | `dc6f2e51af888f7650a6a3652d50286f5c6d3b06becc91590a2929f246f27f01` |
+| Ayrı geri okuma/kapanış | `outputs/reports/dataset/source_review_closure_v1/20261119T141502Z_a8204f2c/readback.json` | `548f9976667c22dd88a57bd009650e8aa972f38ba32b1e4f6d82c106f47c7776` |
+
+Yeni komutlar: `audit_source_sample_point.py`, `prepare_source_queue_metadata.py`,
+`prepare_source_review_queue.py`, `audit_source_review_closure.py` (quality)
+ve `scripts/firms/run_source_review_queue.py`. Eski hash-bağlı aktarıcı,
+geometri hesabı ve önceki çıktılar değiştirilmedi.
+
+Bu devamda **154 ilgili test** geçti: kaynak örnekleme ve yeni kuyruk,
+alan birleşimi/sınıf sınırı, L2 geometri, güvenli aktarım ve hedef kabul
+testleri. Yeni 24 kuyruk testi kapsam/süre/etiket kapılarının genişletilmesini,
+örnek değiştirmeyi, sonraki veri rollerini, giriş bilgilerinin kalıcılaşmasını,
+ilk hatadan sonra ilerlemeyi ve süre rezervini kontrol ediyor.
+Ayrı kapanışta ham 3×3 tanık/koordinat uzaklığı ve kod/girdi hash'leri
+geri okundu; önceki iki olası L önerisi ve 2.048 U anahtarı değişmedi.
+
+Bu kontrolün katkısı, ayrıntılı büyük yangın anlatılarıyla sınırlı kalmadan
+kaynak satırlarının uydu ölçümüne nasıl taşındığını sınamak. Küçük, yalnız
+Mersin'e ait 10 satırlık kontrol genellenebilir başarı, sınıf/hata oranı veya
+PU kabulü sağlamaz. Önce kalan ölçümler, ardından birlikte yöntem koşulları
+incelenecek; birinci aşamanın bilimsel kabulü hâlâ açık.

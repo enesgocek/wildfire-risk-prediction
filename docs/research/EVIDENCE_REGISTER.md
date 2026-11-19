@@ -1830,6 +1830,16 @@ iki satır değiştirilmedi. İlk WF1206 için tek çiftin iki CMR kimliği
 doğrulandı; özel indirme gerekiyor. 124 ilgili test geçti; etiket/yöntem
 kabulü veya eğitim yapılmadı.
 
+E207 — 19 Kasım. [WF1206 ham sonucu ve yedi çiftlik indirme hazırlığı](../SOURCE_SAMPLING_REVIEW_2026-11-19.md#aynı-gün-wf1206-ham-sonucu-ve-yedi-çiftlik-kuyruk).
+Araştırmacının indirdiği çiftin 202 taraması incelendi; kaynak noktası ve
+yaklaşık 250 m/1 km çevresi tek yerel geçişte nominal kara. İki saat
+yorumuna göre yaklaşık 9/12 saatlik fark tespit gecikmesi sayılmadı;
+söndürülme ve başlangıç konumu bilinmediğinden negatif üretilmedi.
+Kalan yedi kaynak satırının 14 dosyası dört açık CMR metadata sorgusuyla
+doğrulandı; 1.258.097.196 bayt, tek giriş/işçi, en fazla 60 dakika
+indirme kuyruğu hazır, özel indirme bekliyor. 154 ilgili test ve ayrı
+ham tanık/kod/girdi geri okuması geçti. Yeni L/etiket veya eğitim yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

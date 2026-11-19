@@ -6,6 +6,15 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+19 Kasım WF1206 indirme sonrası. Özel Earthdata girişi ve indirme
+araştırmacı tarafından yapıldı. Makbuz/hash/başlık kontrolü, 202 ham taramada
+nokta ve yaklaşık çevre incelemesi, ayrı tanık geri okuması ve kalan yedi
+kaynak satırının tek girişli sınırlı indirme hazırlığı yapay zekâ desteğiyle
+yürütüldü. Otomatik kontrol insan incelemesi veya bağımsız doğrulama
+olarak sunulmadı. Nominal kara görülen tek geçiş negatif yapılmadı;
+saat/başlangıç/söndürülme belirsizlikleri korundu. Yeni L/etiket ve eğitim yok.
+[Ham sonuç ve kuyruk sınırları](../SOURCE_SAMPLING_REVIEW_2026-11-19.md#aynı-gün-wf1206-ham-sonucu-ve-yedi-çiftlik-kuyruk).
+
 19 Kasım kaynak örnekleme devamı. Araştırmacı Marmaris için yalnız bir
 hücreye olası L önerisi hazırlama A yönünü seçti. Bu kararın sürümlü
 kaydı, iki-vaka inceleme dizini, kimlik/yıl dışında sütun kabul etmeyen

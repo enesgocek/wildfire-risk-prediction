@@ -5,6 +5,22 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**19 Kasım WF1206 ham nokta incelemesi tamamlandı; kalan yedi çift toplu indirmeye hazır.**
+Araştırmacının indirdiği SNPP çiftinin bayt/hash/başlıkları ve 202 taraması
+kontrol edildi. Kaynak noktasını kapsayan tek yerel tarama 23:09 UTC'de;
+projeksiyon düzlemindeki 250 m/1 km çevreler yaklaşık piksel geometrisinde
+nominal kara, maske 5. İki saat yorumuna göre bildirilen zamandan yaklaşık
+9/12 saat sonra; söndürülme zamanı ve koordinatın başlangıç rolü bilinmiyor.
+Tespit yokluğu negatif yapılmadı. 10 kaynak satırı korunuyor: biri ham
+incelendi, yedisi ölçüm için indirme bekliyor, ikisinin metadata sorunu sürüyor.
+Kalan yedi çift için dört açık CMR metadata sorgusu ve standart plan kontrolleri
+tamamlandı: toplam 1.258.097.196 bayt, tek özel giriş, bir işçi, indirmeler
+en fazla 60 dakika; her çocuk en fazla 15 dakika, ilk hatada durma.
+Ham indirme henüz başlamadı. 154 ilgili test ve ayrı ham tanık geri okuması
+geçti. Yeni L/etiket yok; iki olası L önerisi ve 2.048 U değişmedi.
+Birinci aşamanın bilimsel kabulü açık.
+[Bulgu, sınırlar ve tek girişli indirme komutu](SOURCE_SAMPLING_REVIEW_2026-11-19.md#aynı-gün-wf1206-ham-sonucu-ve-yedi-çiftlik-kuyruk).
+
 **19 Kasım Marmaris A kararı uygulandı; kaynak-temelli kontrol örneklemi hazır.**
 C541/R878, 21 Haziran hücre-günü için tek olası L önerisi hazırlandı;
 diğer iki hücre atamasız, M2 belirsiz. Salur ile iki vaka/iki öneri
