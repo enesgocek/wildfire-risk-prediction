@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>Yangın araştırması — veri inceleme masası</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f5f8;color:#203047;font:15px/1.5 Arial,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{font-size:27px;margin:0 0 4px}h2{font-size:20px;margin:0 0 12px}p{margin:8px 0}header{margin-bottom:20px}.muted{color:#59677b}.notice{background:#fff7dd;border-left:4px solid #a47b21;padding:12px 16px;margin:18px 0}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card,section{background:white;border:1px solid #dce2eb;border-radius:8px;padding:16px}.card strong{display:block;font-size:25px;color:#193b65}.filters{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:20px 0 12px}label{display:flex;flex-direction:column;gap:4px;font-size:13px}select,input,button{font:inherit;border:1px solid #bdc8d7;border-radius:5px;padding:8px;background:white;color:#203047}button{cursor:pointer}button:hover{background:#eaf0f8}button:disabled{opacity:.4;cursor:default}#search{width:240px}.tablebox{overflow:auto;max-height:540px;border:1px solid #dce2eb;border-radius:6px}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px 10px;border-bottom:1px solid #e4e8ee;text-align:left;white-space:nowrap}th{background:#edf2f8;position:sticky;top:0;z-index:1}tbody tr{cursor:pointer}tbody tr:hover,tbody tr.chosen{background:#eaf3ff}.pages{display:flex;justify-content:space-between;align-items:center;margin:12px 0 20px;gap:10px}.detailgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.details{padding:0}.details table{font-size:13px}.details td{white-space:normal;overflow-wrap:anywhere}.details td:first-child{width:65%}.details th{position:static}.empty{padding:30px;color:#59677b}.small{font-size:12px}code{font-size:12px;overflow-wrap:anywhere}footer{padding-top:20px;color:#59677b;font-size:12px}@media(max-width:850px){main{padding:16px}.cards{grid-template-columns:1fr 1fr}.detailgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body><main>
+<header><h1>Veri inceleme masası</h1><p class="muted">Yangın riski araştırması · 2018–2022 · 27 çevresel özellik · Yerel inceleme</p></header>
+<div class="notice"><strong>Bu paket etiketli eğitim veri seti veya risk tahmini değildir.</strong><br>Gerçek yangın hedefleri boş. Kaynak adayları doğrulanmış yeni yangın, belirsiz U örnekleri yangın yokluğu sayılmadı. Eksik değerler korundu.</div>
+<div class="cards"><div class="card"><strong id="total">—</strong>Farklı hücre–gün</div><div class="card"><strong>2.048</strong>Belirsiz U örneği · dört il</div><div class="card"><strong>374</strong>Kaynak merkezi adayı · Mersin</div><div class="card"><strong id="incomplete">—</strong>En az bir özelliği eksik satır</div></div>
+<div class="filters">
+<label>İnceleme grubu<select id="group"><option value="">Tümü</option><option value="U_belirsiz">Belirsiz U</option><option value="kaynak_merkezi_adayi">Kaynak merkezi adayı</option></select></label>
+<label>İl alanı<select id="province"><option value="">Tümü</option><option value="Antalya">Antalya</option><option value="Mersin">Mersin</option><option value="Mugla">Muğla</option><option value="Izmir">İzmir</option></select></label>
+<label>Yıl<select id="year"><option value="">Tümü</option><option>2018</option><option>2019</option><option>2020</option><option>2021</option><option>2022</option></select></label>
+<label>Eksiklik<select id="missing"><option value="">Tümü</option><option value="yes">En az bir eksik</option><option value="no">27 özellik tam</option></select></label>
+<label>Hücre veya tarih ara<input id="search" type="search" placeholder="Örn. C605 veya 2021-07"></label><button id="reset">Filtreleri temizle</button>
+</div>
+<p id="count" aria-live="polite"></p>
+<div class="tablebox"><table id="data"><thead><tr><th>Tarih (UTC)</th><th>Hücre</th><th>İl alanı</th><th>Köken</th><th>Eksik</th><th>Sıcaklık °C</th><th>Yağış 24s mm</th><th>Orman %</th><th>Çalı %</th><th>NDVI 30g</th></tr></thead><tbody id="body"></tbody></table></div>
+<div class="pages"><span id="range"></span><div><button id="prev">Önceki</button> <button id="next">Sonraki</button></div></div>
+<section id="detail"><h2>Seçili satırın ayrıntıları</h2><p class="muted">Tabloda bir satıra tıkla. Bütün özellikler ve ayrı kaynak/zaman bilgileri burada görünür.</p></section>
+<footer><p>İl alanları, hücrenin il sınırıyla pozitif alan kesişimidir; sınır hücreleri birden fazla ile ait olabilir. Kaynak adayları yalnız Mersin arşivinden gelir. Bu örneklem bütün günlerin 2.889 hücrelik tam paneli değildir.</p><p>Dinamik girdiler tahmin anından önceki gözlemlerdir. ERA5-Land geriye dönük yeniden analizdir; tarihsel yayın erişimi bilinmiyor. Mevcut tahmin sözleşmesi T=00:00 UTC (Türkiye 03:00), sonraki 24 saat. Bu sayfa model eğitimi veya nihai birleştirme kabulü vermez.</p><p>Tam hassasiyetli sayılar: inceleme.csv · Zaman/kalite alanları: kaynak_izleri.csv · Açıklamalar: ozellik_sozlugu.json</p></footer>
+</main>
+<script type="application/json" id="payload">__PAYLOAD_JSON__</script>
+<script>
+'use strict';
+const payload=JSON.parse(document.getElementById('payload').textContent), rows=payload.rows;
+const byId=id=>document.getElementById(id), provinceNames={Mugla:'Muğla',Izmir:'İzmir',Mersin:'Mersin',Antalya:'Antalya'};
+const key=r=>r.grid_id+'|'+r.prediction_timestamp_utc, qa=new Map(payload.provenance.map(r=>[key(r),r]));
+const format=(v,d=3)=>v===null||v===undefined?'Eksik':typeof v==='number'?v.toLocaleString('tr-TR',{maximumFractionDigits:d}):String(v);
+const provinceLabel=v=>v.split('|').map(x=>provinceNames[x]||x).join(' / ');
+let filtered=rows,page=0,selected=null;const size=40;
+byId('total').textContent=rows.length.toLocaleString('tr-TR');byId('incomplete').textContent=rows.filter(r=>r.eksik_ozellik_sayisi>0).length.toLocaleString('tr-TR');
+function cell(tr,value){const td=document.createElement('td');td.textContent=value;tr.appendChild(td);return td;}
+function detail(row){selected=key(row);const host=byId('detail');host.replaceChildren();
+const heading=document.createElement('h2');heading.textContent=row.grid_id+' · '+row.prediction_timestamp_utc.slice(0,10);host.appendChild(heading);
+const note=document.createElement('p');note.textContent=(row.inceleme_grubu==='U_belirsiz'?'Belirsiz U örneği':'Kaynak merkezi hipotezi')+' · '+provinceLabel(row.il_alan_kesisimi)+' · Gerçek Y: atanmadı';host.appendChild(note);
+const grid=document.createElement('div');grid.className='detailgrid';host.appendChild(grid);
+function table(title,pairs){const section=document.createElement('div');section.className='details';const h=document.createElement('h2');h.textContent=title;section.appendChild(h);const t=document.createElement('table');for(const [a,b] of pairs){const tr=document.createElement('tr');cell(tr,a);cell(tr,b);t.appendChild(tr);}section.appendChild(t);grid.appendChild(section);}
+table('27 özellik',payload.dictionary.map(f=>[f.meaning_tr+' ['+f.unit+']',format(row[f.name],6)]));
+const q=qa.get(key(row));table('Kaynak ve zaman bilgileri',Object.entries(q).filter(([name])=>!['grid_id','prediction_timestamp_utc'].includes(name)).map(([a,b])=>[a,format(b,6)]));
+const evidence=document.createElement('p');evidence.className='muted';evidence.textContent=row.inceleme_grubu==='U_belirsiz'?'Örnekleme ağırlığı: '+format(row.sampling_weight,8)+'. Bu, sınıf ağırlığı veya gerçek negatif etiketi değildir.':'Aynı anahtardaki kaynak kayıt sayısı: '+format(row.kaynak_kayit_sayisi)+'. Kayıt sayısı bağımsız yangın sayısı değildir.';host.appendChild(evidence);
+draw();}
+function draw(){const body=byId('body');body.replaceChildren();
+for(const row of filtered.slice(page*size,(page+1)*size)){const tr=document.createElement('tr');if(key(row)===selected)tr.className='chosen';
+const fields=[row.prediction_timestamp_utc.slice(0,10),row.grid_id,provinceLabel(row.il_alan_kesisimi),row.inceleme_grubu==='U_belirsiz'?'Belirsiz U':'Kaynak adayı',row.eksik_ozellik_sayisi,format(row.temperature_mean_c),format(row.rain_24h_nonnegative_mm),format(row.forest_fraction===null?null:100*row.forest_fraction,1),format(row.shrub_fraction===null?null:100*row.shrub_fraction,1),format(row.vegetation_30d_ndvi_median_mean)];fields.forEach(x=>cell(tr,x));tr.addEventListener('click',()=>detail(row));body.appendChild(tr);}
+if(!filtered.length){const tr=document.createElement('tr');const td=cell(tr,'Bu filtrelerde satır yok.');td.colSpan=10;td.className='empty';body.appendChild(tr);}
+byId('count').textContent=filtered.length.toLocaleString('tr-TR')+' / '+rows.length.toLocaleString('tr-TR')+' satır gösteriliyor. Bir satır seçerek ayrıntıları inceleyebilirsin.';
+byId('range').textContent=filtered.length?(page*size+1)+'–'+Math.min((page+1)*size,filtered.length)+' / '+filtered.length:'0 satır';byId('prev').disabled=page===0;byId('next').disabled=(page+1)*size>=filtered.length;}
+function apply(){const g=byId('group').value,p=byId('province').value,y=byId('year').value,m=byId('missing').value,s=byId('search').value.trim().toLowerCase();filtered=rows.filter(r=>(!g||r.inceleme_grubu===g)&&(!p||r.il_alan_kesisimi.split('|').includes(p))&&(!y||r.prediction_timestamp_utc.startsWith(y))&&(!m||(m==='yes'?r.eksik_ozellik_sayisi>0:r.eksik_ozellik_sayisi===0))&&(!s||(r.grid_id+' '+r.prediction_timestamp_utc).toLowerCase().includes(s)));page=0;draw();}
+['group','province','year','missing'].forEach(id=>byId(id).addEventListener('change',apply));byId('search').addEventListener('input',apply);
+byId('reset').addEventListener('click',()=>{['group','province','year','missing','search'].forEach(id=>byId(id).value='');apply();});byId('prev').addEventListener('click',()=>{page--;draw();});byId('next').addEventListener('click',()=>{page++;draw();});draw();
+</script></body></html>

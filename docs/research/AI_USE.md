@@ -6,6 +6,27 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+20 Kasım dört il uydu PU yönü. Mevcut adayların fit-rolü kesiti ve
+U bağlamı yapay zekâ desteğiyle hazırlandı; 6.514 aday gerçek yangın
+sayılmadı, iki U örtüşmesi silinmedi. Önceki R22'nin yayınevi yöntemi
+yeniden incelendi. Araştırmacı dört il protokolünü hazırlama A yönünü
+seçti; yeni karar protokol/yerel tanıyla sınırlı. Yeni L/Y, model veya
+nihai birleştirme kabulü yok. Beş yeni test ve bütün anahtarların
+ayrı geri okuması otomatik kontrollerdir.
+[A kararı ve sayım sınırları](../SATELLITE_PU_DIRECTION_2026-11-20.md).
+
+20 Kasım dört il U devamı. Özgün 2.048 U anahtarına 27 özellik ve
+ayrı provenance bağlama, 2.482 dosya kontrolü, 2.422 anahtarlık yerel
+inceleme paketi ve yüzde gerektirmeyen sıralama aritmetiği yapay zekâ
+desteğiyle hazırlandı. Örneklem/eksikler/boş hedefler korundu; son
+etiketli birleştirme, yeni model veya risk rengi yok. Otomatik teknik
+kontroller ve ayrı geri okumalar gerçek yangın veya insan doğrulaması
+değil. Tarayıcı kontrolü açık adres doğrulama engeliyle durdu; görsel
+UI kabulü iddia edilmedi. Ana 24 saat hedefi ve bilimsel kapılar korundu.
+Sonraki araştırmacı bildirimi 2.422/503 sayımları ve satır açılışını
+doğruladı; ayrı makbuz yalnız bu sınırlı insan UI kontrolünü kaydetti.
+[İncelenebilir paket ve açık sınırlar](../PU_REVIEW_PACKAGE_2026-11-20.md).
+
 20 Kasım sonraki ürün yönü. Araştırmacının yüzde yerine renklerle
 göreli risk gösterme önerisi, ana yangın hedefi ve 24 saatlik ufuk
 korunarak yapay zekâ desteğiyle kaydedildi. Renk anlamları ve

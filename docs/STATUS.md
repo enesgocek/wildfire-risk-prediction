@@ -5,6 +5,40 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**20 Kasım dört ilde uydu adaylarıyla PU protokolü hazırlama A yönü seçildi.**
+Eski 7.610 anahtarlık envanterin 6.514'ü fit-rolü 2018–2022 kesitinde;
+4 yıl-sonu anahtarı ve 1.092 kalibrasyon-rolü anahtarı özgün dosyada
+korunuyor. Bu gerçek yangın veya kabul edilmiş L sayısı değil. Özgün
+2.048 U'nun ikisinde aday bağlamı var; ikisi de silinmeden/etiketlenmeden
+korundu. Aynı kaynakla dört il PU protokolü önerisi araştırmacı tarafından
+seçildi; yeni karar yalnız protokol/yerel tanı için. Dokuz ayarda aynı
+fit kaynağının başlangıç geçmişi hazırlanacak; üretim ayarı seçilmedi.
+Ana hedef, gerçek Y'nin boşluğu, eğitim ve nihai birleştirme kapıları
+değişmedi. [Sayımlar, birincil yöntem bağlamı ve A kararı](SATELLITE_PU_DIRECTION_2026-11-20.md).
+Son bu kapsamda 233 ilgili test, sekiz Python dosyası kod/biçim ve
+18 staged metin dosyasının gizlilik kontrolü geçti; ham/ara veri dışarı alınmadı.
+
+**20 Kasım dört ilde aynı 2.048 U anahtarının özellikleri ve 2.422 satırlık inceleme paketi hazırlandı.**
+1.477 hücre/1.241 gün için 2.482 günlük dosya hash/zaman/şema kontrolü
+geçti. 1.763 U satırında 27 özellik tam; 285 eksik satır korundu.
+Mersin'in eski 503 U değeri birebir yeniden üretildi. İl alanı kesişim
+sayımları Antalya 679, İzmir 423, Mersin 503, Muğla 471; sınırdaki 28
+U nedeniyle bu sayılar toplanmaz. Yeniden örnekleme veya doldurma yok.
+374 Mersin kaynak hipoteziyle birlikte yalnız inceleme amaçlı 2.422
+anahtar (2.125 tam/297 eksik) HTML/CSV/ZIP paketine alındı. Gerçek Y
+boş, model/risk rengi/nihai etiketli birleştirme yok. Bu örneklem bütün
+72 aylık arşiv veya dört ilde doğrulanmış pozitif havuzu değil.
+CSV/gömülü JSON/ZIP ve özgün anahtar/ağırlık/zamanlar ayrı geri okundu.
+Tarayıcı kontrolü yerel erişim ve güvenilir adres saptama engeliyle
+tamamlanmadı; filtrelerin görsel/etkileşim kabulü iddia edilmedi.
+Yüzde gerektirmeyen yeni sıralama aritmetiği yalnız sentetik örneklerde
+doğrulandı; gerçek yangın AP'si hesaplanmadı. 26 yeni dahil 228 ilgili
+test geçti. Araştırmacı, 2.422/503 ekran sayımlarını ve satır ayrıntılarını
+kendi tarayıcısında doğruladığını bildirdi; ayrı hash bağlı UI makbuzu
+kaydedildi. Bu yöntem/etiket veya birleştirme onayı değil. Kaynak–hedef/PU ve
+değerlendirme dayanağı açık, birinci aşama kabul edilmiş değil.
+[İnceleme paketi, somut sayımlar, değerlendirme hazırlığı ve açık işler](PU_REVIEW_PACKAGE_2026-11-20.md).
+
 **20 Kasım sonraki ürün yönü: yüzde zorunlu değil, kırmızı/sarı/yeşil göreli risk.**
 Araştırmacı bu sunumu önerdi; ana yangın hedefi bırakılmadı ve önceki
 A/B teslim daraltma önerilerinden biri onaylanmış sayılmadı. Düşük

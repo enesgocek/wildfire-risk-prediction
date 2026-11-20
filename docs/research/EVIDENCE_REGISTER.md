@@ -1974,6 +1974,34 @@ değerlendirme dayanağı açık. Renk eşikleri, yedi günlük tahmin veya
 S kaynak skorlarını doğrulanmış yangın riski kabulü yok. Ana 24 saat
 hedefi, veri rolleri, boş Y ve son birleştirme onayı korunuyor.
 
+E221 — 20 Kasım. [Dört ilde özgün U özellik hazırlığı](../PU_REVIEW_PACKAGE_2026-11-20.md).
+1.477 hücre/1.241 gün, 2.482 dosya kontrolü; aynı 2.048 U'da 1.763
+tam/285 eksik satır korundu. Eski 503 Mersin U değeri aynı; örneklem,
+ağırlık ve boş Y değişmedi. 28 U iki il alanında, il sayıları toplanmaz.
+Kaynak zamanları ve özgün CSV tasarımı standart kütüphane ile ayrıca
+doğrulandı. Gerçek negatif veya operasyonel yayın erişimi çıkarılmadı.
+
+E222 — 20 Kasım. [Yerel PU inceleme paketi ve sıralama aritmetiği](../PU_REVIEW_PACKAGE_2026-11-20.md).
+374 kaynak/2.048 U ile 2.422 örnek anahtarı; 2.125 tam/297 eksik,
+tamamı Y boş. HTML/CSV/ZIP ve kaynak eşlemesi hazır; gömülü JSON ve
+ZIP içerik hash'leri ayrı okundu. UI tarayıcı kontrolü erişim/adres
+doğrulama engeliyle tamamlanmadı. Kalibre yüzde gerektirmeyen AP/PR/ROC
+aritmetiği 1.134 küçük sentetik düzende tam kesirle sınandı; gerçek
+kaynak/yangın AP'si değil. Yeni etiket/model/risk rengi/nihai birleştirme
+yok. Altı U/yedi paket/13 sıralama yeni test; bilimsel kabul hâlâ açık.
+Son birleşik koşuda 228 ilgili test geçti. Araştırmacı 2.422/503 ekran
+sayımları ile satır ayrıntılarını doğruladığını bildirdi; ayrı makbuz
+yalnız bu insan UI kontrolünü kayıtlıyor, bilimsel veri kabulü değil.
+
+E223 — 20 Kasım. [Dört ilde uydu adaylarıyla PU hazırlama A yönü](../SATELLITE_PU_DIRECTION_2026-11-20.md).
+Eski 7.610 anahtarın 6.514'ü fit-rolü kesitinde; dört yıl-sonu ve
+1.092 kalibrasyon-rolü anahtarı özgün dosyada korundu. İki U aday
+bağlamı silinmedi/etiketlenmedi. Beş test ve bütün anahtarların ayrı
+geri okuması geçti. R22 yöntemi yayınevi metninden yeniden incelendi;
+otomatik negatif üretimi alınmadı. Araştırmacı protokol/yerel tanı A
+yönünü seçti; aynı fit girdide dokuz ayarlı başlangıç geçmişi sıradaki
+iş. Gerçek yangın/L/Y, yeni model, ana yöntem veya final merge kabulü yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

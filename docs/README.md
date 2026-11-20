@@ -8,6 +8,8 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Dört ilde uydu adaylarıyla PU yönü](SATELLITE_PU_DIRECTION_2026-11-20.md) | Mevcut 6.514 fit-rolü aday anahtarı, iki U örtüşmesi, önceki birincil uygulamanın sınırı ve araştırmacının dört il protokolü hazırlama A kararı |
+| [Dört ilde U özellikleri ve incelenebilir PU paketi](PU_REVIEW_PACKAGE_2026-11-20.md) | Özgün 2.048 U/374 kaynak anahtarı, yerel HTML/CSV/ZIP, eksiklik ve il sınırı sayımları, yüzde gerektirmeyen sıralama hazırlığı ve tamamlanmayan tarayıcı kontrolü |
 | [Kaynak skorlarının mevsim/örtü tanısı](SOURCE_RANKING_COMPARABILITY_2026-11-20.md) | Aynı 168 skorun 7.047 çiftte ayrıştırılması, dar karşılaştırma desteği ve gerçek yangın iddiası için açık kalan karar |
 | [İlk koşullu kaynak sıralama pilotu](CONDITIONAL_PU_RANKING_2026-11-20.md) | 877 etiketsiz özellik anahtarı, yeni birincil sıralama dayanağı, araştırmacının ilk model A kararı ve gerçek yangın başarımı sayılmayan yardımcı sonuçlar |
 | [Kaynak koşullu PU pilot protokolü](SOURCE_CONDITIONED_PU_PROTOCOL_2026-11-19.md) | Araştırmacının A kararı, dokuz konum/gün senaryosu, 503 satırlık coğrafi U kesiti, olası bağımlılık blokları, eski örtü kanıtının fit aktarımı ve geçiş/durdurma koşulları |

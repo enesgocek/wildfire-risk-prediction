@@ -38,6 +38,14 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+20 Kasım ürün yönü sonrası hazırlık: özgün dört il U örnekleminin
+2.048 anahtarında özellik/provenance hazır; 374 kaynak hipoteziyle
+2.422 anahtarlık sınırlı inceleme paketi üretildi. Y'ler boş, gerçek
+model verisi veya son birleştirme değil. Kalibre yüzde istemeyen
+sıralama aritmetiği ayrı sentetik testlerle hazırlandı; ana AP ve
+gerçek hedef kabulü korunuyor. Tarayıcıda UI kontrolü tamamlanmadı.
+[Hazırlık ve ilerleme sınırı](../PU_REVIEW_PACKAGE_2026-11-20.md).
+
 20 Kasım sonraki ürün kararı: yüzde yerine göreli düşük/orta/yüksek
 risk gösterimi yönü seçildi. Ana 24 saatlik yangın hedefi korunuyor;
 kategori kesimleri veya yeni yöntem/eğitim kabul edilmedi. İlk ürün
