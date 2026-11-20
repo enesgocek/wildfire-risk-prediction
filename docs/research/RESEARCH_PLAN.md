@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+20 Kasım yeni yardımcı fit A kararıyla dokuz ayarda 27 küçük model
+tamamlandı. Ayrı model/fit-istatistiği/çift hesabı ve bağlam tanısı
+hazır; sonuçlar gerçek yangın AP'si veya risk olasılığı sayılmıyor.
+Sıra benzerliği yüksek olsa da ilk 40 U listesi ayarlara duyarlı.
+Statik bağlam ile günlük hava katkısını ayıracak 18 ek RF ablation
+önerisi hazır; yeni karar olmadan çalıştırılmadı. Birinci aşama
+kabulü, hedefe aktarım ve değerlendirme dayanağı açık kalıyor.
+[Tamamlanan deney ve sonraki sınırlı soru](../SATELLITE_PU_PILOT_RESULTS_2026-11-20.md).
+
 20 Kasım dört il uydu PU A hazırlığı yürütüldü: aynı fit kaynağında
 dokuz kronolojik geçmiş/üç prefix ve iki haritada ilk merkez bağlamı
 hazır. Geçmiş koruması fiziksel yeni yangın kabulü değil. Sonraki A

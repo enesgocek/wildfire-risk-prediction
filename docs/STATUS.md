@@ -5,6 +5,26 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**20 Kasım yeni A kararıyla dört ildeki 27 yardımcı model tamamlandı.**
+2018–2021 fit / 2022 tanısında dokuz ayar × lojistik/RF/eksiklik
+kontrolü çalıştı. Yardımcı aday üyeliği AUC aralıkları 0,732975–0,756560 /
+0,748275–0,780221 / 0,527009–0,530883; bunlar gerçek yangın başarımı
+veya olasılığı değil. 27 modelin tahminleri birebir, fit-only medyan/
+ölçekleme ve bütün çiftlerin ayrı skaler AUC hesabı doğrulandı.
+Aynı ay+örtü bandı+ortak il RF tanısı 0,727735–0,766310; yalnız
+317/400 U karşı grup buluyor, 83 U dosyada korunuyor. Aynı 400 U'da
+RF sıralama korelasyonu 0,970092–0,990483 olsa da ilk 40 listenin
+27–38'i ayarlar arasında ortak. Tek ayar/risk eşiği seçilmedi.
+Sonuçlar yerel MLflow'a yedekli kaydedildi; dış izleme/bulut yok.
+Sekiz yeni davranış dahil 54 ilgili test ve beş Python dosyası kod/
+biçim kontrolü geçti. Yeni Y/kabul edilmiş L, ana yangın modeli,
+2023–2025 değerleri ve nihai birleştirme yok. **Bu sınırlı deney
+tamam; birinci aşamanın bilimsel kabulü açık.** Statik örtü seçilmesi
+ile günlük meteoroloji katkısını ayıracak aynı dokuz ayarda 18 ek
+yardımcı RF denemesinin somut planı hazır; ek fit yapılmadı,
+önceki 27-model izni genişletilmedi.
+[Sonuçlar, somut karşılaştırmalar ve sıradaki deney önerisi](SATELLITE_PU_PILOT_RESULTS_2026-11-20.md).
+
 **20 Kasım örtü A kararı uygulandı; yeni yardımcı deney için somut plan hazır.**
 2017 ana / 2018 yardımcı bağlamıyla 1.670 farklı hücre-gün için olası
 L önerisi hazırlandı; 62.331 ilk-hücre satırı, karışık kayıtlar ve

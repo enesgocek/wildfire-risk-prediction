@@ -6,6 +6,18 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+20 Kasım dört il yardımcı model deneyi. Araştırmacının yeni A kararı
+donmuş plana bağlanarak 27 model otomatik çalıştırıldı. Kayıtlı
+modellerin tahmin, fit medyanı/ölçekleme ve ayrı skaler AUC geri
+okuması, mevsim/örtü/il ve sabit U sıralama tanısı, yerel MLflow
+kaydı yapay zekâ desteğiyle yürütüldü. Grafik asistan tarafından
+görsel olarak okundu; bu araştırmacı/saha doğrulaması değil. Sekiz
+yeni davranış dahil 54 ilgili test geçti. Sonuçlar yalnız aday S
+üyeliği için; gerçek Y/yangın AP'si, ana risk ürünü ve final merge
+yok. 18 ek özellik-grubu modelinin kodu/planı hazırlandı fakat
+önceki 27-model kararıyla çalıştırılmadı; ayrı karar bekleniyor.
+[Deney ve katkı sınırı](../SATELLITE_PU_PILOT_RESULTS_2026-11-20.md).
+
 20 Kasım sonraki örtü A kararının uygulanması. Araştırmacının 2017 ana/
 2018 yardımcı tercihi ile olası öneri bayrakları, 1.670 öneri + 2.048
 özgün U için 3.718 X anahtarı ve dokuz ayarlı deney planı yapay zekâ

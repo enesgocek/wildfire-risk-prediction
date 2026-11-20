@@ -1,0 +1,25 @@
+{
+  "version": "satellite_pu_ranking_execution_v1",
+  "decision_date": "2026-11-20",
+  "decision_authority": "researcher",
+  "decision_source": "explicit_user_selection_A_run_four_province_satellite_auxiliary_pilot",
+  "plan_readback_sha256": "cbc928c456464d80118afafd304a9981c004bec7ba3f42d2acab75e0ad568e24",
+  "auxiliary_model_fitting_authorized": true,
+  "authorized_models": [
+    "logistic_regression",
+    "random_forest",
+    "missingness_control"
+  ],
+  "maximum_fits": 27,
+  "maximum_wall_minutes": 15,
+  "local_only": true,
+  "Y_remains_null": true,
+  "daily_observation_status": "unknown",
+  "main_fire_model_training_authorized": false,
+  "accepted_L_or_Y_created": false,
+  "negative_label_permitted": false,
+  "fire_probabilities_or_validated_risk_colors_permitted": false,
+  "true_fire_AP_or_AUC_permitted": false,
+  "final_merge_permitted": false,
+  "scientific_values_2023_2024_2025_read_permitted": false
+}

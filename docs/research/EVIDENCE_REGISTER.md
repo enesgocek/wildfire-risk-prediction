@@ -2038,6 +2038,26 @@ dosyasının kod/biçim kontrolü geçti; son pin eklemesinde ilgili on
 test tekrar geçti. Ana model, gerçek Y/yangın AP'si, risk rengi,
 2023–2025 bilimsel değerleri ve final merge kapalı.
 
+E228 — 20 Kasım. [Dört ilde onaylı 27 yardımcı model](../SATELLITE_PU_PILOT_RESULTS_2026-11-20.md).
+Araştırmacının ayrı A kararı donmuş plana bağlandı. Dokuz ayarda
+aynı U ve dönem rolleriyle lojistik/RF/eksiklik kontrolü tamamlandı;
+aday S AUC aralıkları 0,732975–0,756560 / 0,748275–0,780221 /
+0,527009–0,530883. 27 model/tahmin CSV'si birebir geri okundu;
+fit-only medyan ve ölçekleme ile ayrı skaler çift AUC doğrulandı.
+Yerel MLflow'da 27 ölçü geri okundu, önce SQLite yedeği alındı.
+Gerçek Y/yangın başarımı veya ana model kabulü değildir.
+
+E229 — 20 Kasım. [Sabit skorların karşılaştırma ve sıra desteği](../SATELLITE_PU_PILOT_RESULTS_2026-11-20.md#aynı-skorların-mevsim-örtü-il-ve-eksiklik-tanısı).
+Aynı ay+örtü bandı+ortak il RF tanısı 0,727735–0,766310; 317/400 U
+karşı grup buluyor, kalan 83 korunuyor. Karşılaştırma havuzu farkı
+nedensel düzeltme değil. Aynı 400 U'da Spearman 0,970092–0,990483;
+ilk 40 listelerinde 27–38 ortak anahtar var, risk başarımı değil.
+İl üyelikleri kesişebilir; bağımsız saha/yangın doğrulaması yok.
+54 ilgili test/beş dosya kod-biçim geçti. Aynı dokuz ayarda yalnız
+hava ve yalnız statik bağlam için 18 ek RF önerisi hazır; yeni
+fit yapılmadı, ayrı karar bekleniyor. Gerçek Y, 2023–2025 ve
+nihai birleştirme açılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

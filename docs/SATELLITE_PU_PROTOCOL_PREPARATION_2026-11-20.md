@@ -10,6 +10,12 @@ kararıyla **2017 ana / 2018 yardımcı örtü bağlamı** ve aşağıdaki olas�
 L öneri hazırlığı seçildi. Yeni model kurma kararı verilmedi;
 birinci aşamanın bilimsel kabulü açık.
 
+Aynı gün sonraki güncelleme: araştırmacı ayrı kararla 27 yardımcı
+model denemesini onayladı ve deney tamamlandı. Aşağıdaki bekleyen
+fit ifadeleri hazırlık anının kaydıdır; yeni izin ve ölçülen sonuçlar
+[ayrı sonuç raporundadır](SATELLITE_PU_PILOT_RESULTS_2026-11-20.md).
+Gerçek Y, ana model ve nihai birleştirme kabulü verilmedi.
+
 ## 1. Aynı fit kaynağının dokuz ayarda geçmişi korundu
 
 Type=0 ve nominal/yüksek güvenli aynı **28.396 fit tespiti**, 2018–2022,
