@@ -38,12 +38,24 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+20 Kasım dört il uydu PU A hazırlığı yürütüldü: aynı fit kaynağında
+dokuz kronolojik geçmiş/üç prefix ve iki haritada ilk merkez bağlamı
+hazır. Geçmiş koruması fiziksel yeni yangın kabulü değil. Sonraki A
+kararıyla 2017 ana/2018 yardımcı örtü bağlamı ve 1.670 olası öneri
+hazırlandı; özgün 2.048 U ile 3.718 X anahtarı geri okundu. Dokuz
+ayarda aynı 1.648/400 U, 2018–2021 fit / 2022 tanı ve en çok 27 sabit
+yardımcı model için plan hazır; yeni fit kararı bekleniyor. Ana yöntem,
+gerçek Y, kapalı 2023–2025 ve son birleştirme kapıları değişmedi.
+[Uygulanan hazırlık ve açık sınır](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md).
+
 20 Kasım ürün yönü sonrası hazırlık: özgün dört il U örnekleminin
 2.048 anahtarında özellik/provenance hazır; 374 kaynak hipoteziyle
 2.422 anahtarlık sınırlı inceleme paketi üretildi. Y'ler boş, gerçek
 model verisi veya son birleştirme değil. Kalibre yüzde istemeyen
 sıralama aritmetiği ayrı sentetik testlerle hazırlandı; ana AP ve
-gerçek hedef kabulü korunuyor. Tarayıcıda UI kontrolü tamamlanmadı.
+gerçek hedef kabulü korunuyor. Asistanın otomatik tarayıcı kontrolü
+tamamlanmadı; sonraki araştırmacı bildirimi 2.422/503 sayımlarını
+ve satır ayrıntılarının çalışmasını insan UI kontrolü olarak doğruladı.
 [Hazırlık ve ilerleme sınırı](../PU_REVIEW_PACKAGE_2026-11-20.md).
 
 20 Kasım sonraki ürün kararı: yüzde yerine göreli düşük/orta/yüksek

@@ -5,6 +5,43 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**20 Kasım örtü A kararı uygulandı; yeni yardımcı deney için somut plan hazır.**
+2017 ana / 2018 yardımcı bağlamıyla 1.670 farklı hücre-gün için olası
+L önerisi hazırlandı; 62.331 ilk-hücre satırı, karışık kayıtlar ve
+önceki WF1538/Salur/Marmaris kararları korundu. Gerçek Y ve kabul
+edilmiş L boş. Özgün 2.048 U ile birlikte 3.718 X anahtarı hazır:
+3.344 tam / 374 eksik, doldurma veya yeniden örnekleme yok. Öneriler
+için 797 günün 1.594 dosyası güncel hash/geçmiş pencere kontrolünden
+geçti; U'nun önceki değerleri birebir korundu. Bir metadata CSV tür
+hatasında ilk koşu durdu, kısmi dosyalar korundu; düzeltmeden sonra
+tam yeni koşu başarıyla geri okundu. Öneri/X/rol tabloları ayrıca
+doğrulandı. Aynı 1.648 fit / 400 inceleme U ile dokuz ayarda sabit
+lojistik, küçük RF ve eksiklik kontrolü (en çok 27 yardımcı fit)
+önerisi somutlaştırıldı. Ortak gözlenen grafik bloğu yok; gerçek olay
+bağımsızlığı ve kör test kabulü yok. **Yeni model denemesi için ayrı
+araştırmacı kararı bekleniyor; eğitim çalıştırılmadı.** 289 ilgili
+test ve 15 Python dosyasının kod/biçim kontrolü geçti; son pin eklemesi
+sonrası ilgili on test yeniden geçti. Nihai birleştirme, risk rengi,
+gerçek yangın AP'si veya birinci aşama bilimsel kabulü yok.
+[Uygulanan karar, somut sayımlar ve deney planı](SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md#4-örtü-a-kararı-sonrası-tamamlanan-somut-pilot-girdileri).
+
+**20 Kasım A yönü sonrası dört ilde başlangıç ve yerel örtü hazırlığı tamamlandı.**
+Aynı 28.396 fit tespiti dokuz ayarda başlangıç geçmişi korunarak işlendi;
+sonraki birleşmelerin gizleyebildiği 33–191 ek hücre-gün anahtarı ayara
+göre korundu. Bunlar ek gerçek yangın/başarı değil. Üç ek zaman kesiti
+geçmişi birebir korudu; dokuz DAG ve ilk-hücre/üyelik sayımı ayrı okundu.
+Her 28.396 merkez iki tarihsel haritayla incelendi; 62.331
+ilk-hücre×başlangıç×ayar satırı gerçek ilk merkezlerle bağlandı. Örnek
+1 km/24 saatte 2017 haritasında bütün ilk merkezleri odunsu olan bir
+grubu bulunan 1.357 fit anahtarı, iki haritada aynı şartla 491 anahtar
+var. Bu sayımlar örtü doğruluğu/L saflığı değil. CORINE 2018'in 2018
+olayını izleyebilmesi nedeniyle bu ilk tanıda ana/yardımcı harita
+rolü soruldu; sonraki A kararı ve uygulaması yukarıda. Bu ilk koşuda
+12 yeni dahil 271 ilgili test geçti.
+Yeni L/Y, model, üretim ayarı veya nihai birleştirme yok; bilimsel
+birinci aşama kabulü değişmedi.
+[Tamamlanan protokol girdileri, somut örnek ve açık karar](SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md).
+
 **20 Kasım dört ilde uydu adaylarıyla PU protokolü hazırlama A yönü seçildi.**
 Eski 7.610 anahtarlık envanterin 6.514'ü fit-rolü 2018–2022 kesitinde;
 4 yıl-sonu anahtarı ve 1.092 kalibrasyon-rolü anahtarı özgün dosyada

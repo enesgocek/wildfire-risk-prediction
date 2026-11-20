@@ -2002,6 +2002,42 @@ otomatik negatif üretimi alınmadı. Araştırmacı protokol/yerel tanı A
 yönünü seçti; aynı fit girdide dokuz ayarlı başlangıç geçmişi sıradaki
 iş. Gerçek yangın/L/Y, yeni model, ana yöntem veya final merge kabulü yok.
 
+E224 — 20 Kasım. [Dört ilde kronolojik başlangıç provası](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md).
+Aynı 28.396 fit tespiti/dokuz ayar; 33–191 sonradan gizlenebilen
+anahtar ayara göre korundu. Üç kesimde geçmiş eşit; dokuz DAG/üyelik
+ve ilk-hücre sayımı ayrıca okundu. 6.694 birleşim anahtarı, dördü
+yıl-sonu incelemesinde. Bunlar yangın/başarı sayısı veya seçilmiş
+üretim ayarı değil. Yeni L/Y/model/birleştirme yok.
+
+E225 — 20 Kasım. [İlk merkezlerde iki harita ve kabul öncesi örtü bağlamı](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md).
+28.396 merkez ve 62.331 ilk-hücre×başlangıç×ayar satırı; bütün harita
+değerleri ve ilk kaynak kimlikleri ayrı okundu. Örnek 1 km/24 saatte
+2017 bütün-ilk-merkez odunsu bağlamı 1.357 anahtar, iki harita şartı
+491. Harita uyumu doğruluk, piksel merkezi tüm yanan örtü veya L
+saflığı değil. 2018 haritasının olay-sonrası etkisi açık. 12 yeni dahil
+271 ilgili test geçti. Üretim örtü kuralı veya gerçek yangın etiketi yok.
+
+E226 — 20 Kasım. [Örtü A kararı ve olası öneriler](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md#4-örtü-a-kararı-sonrası-tamamlanan-somut-pilot-girdileri).
+Araştırmacı 2017 ana/2018 yardımcı yönünü seçti. Bütün 62.331 ilk-hücre
+satırı korunarak 1.670 farklı olası öneri anahtarı hazırlandı. WF1538
+bilinen anahtarı dokuz ayarda öneri dışında, önceki Salur/Marmaris
+makbuzları aynı. Gerçek Y ve kabul edilmiş L atanmadı. Ayrı CSV
+döngüsü bütün öneri bayraklarını ve özgün alanları doğruladı; karar
+gerçek pozitif veya örtü doğruluğu kanıtı değildir.
+
+E227 — 20 Kasım. [Özellik/rol girdileri ve yeni yardımcı deney önerisi](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md#dönem-ayrımı-ve-yeni-deney-önerisi).
+Öneriler için 797 gün/1.594 dosya güncel hash ve geçmiş pencereyle
+okundu; aynı 2.048 U ile 3.718 anahtar, 3.344 tam/374 eksik satır.
+İlk boş-hedef CSV tür hatasında kısmi çıktı korundu; tam yeni koşu
+başarılı. Ayrı okuma U değerlerini, ham kimliklerden gözlenen grafik
+bağlamını ve 1.648/400 U dönemlerini doğruladı; ortak gözlenen blok
+yok, fiziksel olay bağımsızlığı iddiası yok. Dokuz ayar/üç sabit
+yardımcı model için en çok 27 fitlik somut plan hazır; **fit yapılmadı,
+yeni araştırmacı kararı bekleniyor**. 289 ilgili test ve 15 Python
+dosyasının kod/biçim kontrolü geçti; son pin eklemesinde ilgili on
+test tekrar geçti. Ana model, gerçek Y/yangın AP'si, risk rengi,
+2023–2025 bilimsel değerleri ve final merge kapalı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

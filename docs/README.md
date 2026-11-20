@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Uydu PU başlangıç/örtü protokol hazırlığı](SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md) | Dokuz geçmiş, 2017 ana/2018 yardımcı A kararı, 1.670 olası öneri/2.048 U için 3.718 X anahtarı, 289 ilgili test ve yeni yardımcı fit kararı bekleyen somut deney planı |
 | [Dört ilde uydu adaylarıyla PU yönü](SATELLITE_PU_DIRECTION_2026-11-20.md) | Mevcut 6.514 fit-rolü aday anahtarı, iki U örtüşmesi, önceki birincil uygulamanın sınırı ve araştırmacının dört il protokolü hazırlama A kararı |
 | [Dört ilde U özellikleri ve incelenebilir PU paketi](PU_REVIEW_PACKAGE_2026-11-20.md) | Özgün 2.048 U/374 kaynak anahtarı, yerel HTML/CSV/ZIP, eksiklik ve il sınırı sayımları, yüzde gerektirmeyen sıralama hazırlığı ve tamamlanmayan tarayıcı kontrolü |
 | [Kaynak skorlarının mevsim/örtü tanısı](SOURCE_RANKING_COMPARABILITY_2026-11-20.md) | Aynı 168 skorun 7.047 çiftte ayrıştırılması, dar karşılaştırma desteği ve gerçek yangın iddiası için açık kalan karar |

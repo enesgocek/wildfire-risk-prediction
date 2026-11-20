@@ -6,6 +6,27 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+20 Kasım sonraki örtü A kararının uygulanması. Araştırmacının 2017 ana/
+2018 yardımcı tercihi ile olası öneri bayrakları, 1.670 öneri + 2.048
+özgün U için 3.718 X anahtarı ve dokuz ayarlı deney planı yapay zekâ
+desteğiyle hazırlandı. İlk metadata CSV tür hatası korunarak kaydedildi;
+düzeltme sonrası tam yeni veri okuması yapıldı. Ayrı ham-kimlik/CSV/
+zaman okuması otomatik kontrol; bağımsız saha veya insan doğrulaması
+değil. 289 ilgili test ve 15 Python dosyasının kod/biçim kontrolü geçti;
+son pin eklemesi sonrası ilgili on test tekrar geçti. Yeni model fit
+edilmedi; yeni yardımcı deney için ayrı araştırmacı kararı bekleniyor.
+Gerçek Y/kabul edilmiş L, risk ürünü veya nihai birleştirme yok.
+[Uygulanan yön ve somut hazırlık](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md).
+
+20 Kasım A yönünün yürütülmesi. Donmuş çekirdek değiştirilmeden
+28.396 tespitin dokuz ayarlı geçmişi ve üç prefix provası, iki haritada
+yerel merkez bağlamı ve 62.331 ilk-hücre satırı yapay zekâ desteğiyle
+hazırlandı. Ayrı DAG/CSV/raster okumaları ve 271 ilgili test otomatik
+kontrollerdir; gerçek yangın/habitat veya insan doğrulaması değil.
+12 yeni davranış testi eklendi. Yeni L/Y, model veya nihai birleştirme
+yok; harita rolü/yerel örtü kabulü ve gerçek değerlendirme açık kaldı.
+[Somut protokol hazırlığı](../SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md).
+
 20 Kasım dört il uydu PU yönü. Mevcut adayların fit-rolü kesiti ve
 U bağlamı yapay zekâ desteğiyle hazırlandı; 6.514 aday gerçek yangın
 sayılmadı, iki U örtüşmesi silinmedi. Önceki R22'nin yayınevi yöntemi
