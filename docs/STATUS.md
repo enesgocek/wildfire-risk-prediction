@@ -1,9 +1,27 @@
-# Proje durum raporu — 20 Kasım 2026
+# Proje durum raporu — 21 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**21 Kasım devam kontrolü: onaylı 18 ek model ve ayrı tanı tamam; yeniden fit yok.**
+20 Kasım makbuzları, 36 model/skor dosyası, girdi ve üretici kimlikleri
+doğrulandı. Yalnız meteoroloji yardımcı S AUC'si 0,656835–0,666836;
+yalnız statik örtü/arazi 0,755997–0,785273. Statik model altı ayarda
+önceki tam RF'den yüksek; gerçek yangın/günlük risk başarımı değil.
+Aynı hücrede statik skor bütün günlerde sabit. Mevcut örneklemde
+aynı hücre+aynı ay karşılaştırması yalnız üç çift; günlük ayrım
+iddiası için yeterli destek sayılmadı. 18 model, fit medyanları ve
+skaler çift AUC ayrı doğrulanmış; yerel MLflow'a 18 ölçü yedekli
+kaydedildi. Son koşuda 62 ilgili test/beş Python dosyası kod-biçim
+geçti. Yeni Y/L, 2023–2025 erişimi, risk rengi veya final merge yok.
+Sıradaki ayrı takvim kontrolü için 1.443 hücre–yıl–ay / 44.082
+anahtarın yalnız metadata kapsamı hazır; 42.393 ek X incelemesi
+gerekir. Özgün 2.048 U korunuyor. Yeni havuz kaynak koşullu tanı
+olacağı için yöntem yönü araştırmacıya soruldu; henüz seçilmedi,
+özellik çıkarımı/ek eğitim başlamadı. Birinci aşama kabulü açık.
+[Tamamlanan 18-model sonucu, üç çiftlik açık ve somut sonraki öneri](SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md).
 
 **20 Kasım yeni A kararıyla dört ildeki 27 yardımcı model tamamlandı.**
 2018–2021 fit / 2022 tanısında dokuz ayar × lojistik/RF/eksiklik

@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 20 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 21 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Meteoroloji ve statik bağlam sonuçları](SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md) | Onaylı 18 RF, üç çiftlik aynı-hücre/ay destek açığı, 21 Kasım kimlik/MLflow kapanışı, 62 ilgili test ve seçilmemiş 44.082 anahtarlık ayrı takvim kontrolü önerisi |
 | [Dört il yardımcı uydu model sonuçları](SATELLITE_PU_PILOT_RESULTS_2026-11-20.md) | Onaylı 27 model, ayrı model/ön işleme/AUC okuması, mevsim/örtü/il ve sabit U sırası tanısı, yerel MLflow, 54 ilgili test ve henüz çalıştırılmamış 18 ek özellik-grubu deneyi önerisi |
 | [Uydu PU başlangıç/örtü protokol hazırlığı](SATELLITE_PU_PROTOCOL_PREPARATION_2026-11-20.md) | Dokuz geçmiş, 2017 ana/2018 yardımcı A kararı, 1.670 olası öneri/2.048 U için 3.718 X anahtarı, 289 ilgili test ve yeni yardımcı fit kararı bekleyen somut deney planı |
 | [Dört ilde uydu adaylarıyla PU yönü](SATELLITE_PU_DIRECTION_2026-11-20.md) | Mevcut 6.514 fit-rolü aday anahtarı, iki U örtüşmesi, önceki birincil uygulamanın sınırı ve araştırmacının dört il protokolü hazırlama A kararı |

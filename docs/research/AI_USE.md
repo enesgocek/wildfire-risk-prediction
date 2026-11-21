@@ -6,6 +6,18 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+21 Kasım devam kontrolü. Önceden onaylanan ve 20 Kasım'da tamamlanan
+18 meteoroloji/statik modelin makbuzları, dosya ve girdi kimlikleri
+yapay zekâ desteğiyle doğrulandı; modeller yeniden eğitilmedi.
+Ayrı geri okuma model tahminlerini, fit medyanlarını ve skaler AUC'yi
+kontrol ediyor; aynı hücre/ay desteği yalnız üç çift. Yerel MLflow
+kaydı yedekli kapatıldı. 62 ilgili test ve beş Python dosyası kod/
+biçim geçti; gerçek yangın veya insan doğrulaması sayılmıyor.
+Kaynak koşullu takvim kontrolünün 44.082 anahtarlık metadata önerisi
+hazırlandı; yeni X, U örneklemi, Y/L, model veya final merge yok.
+Yeni havuzun yöntem yönü araştırmacıya soruldu, henüz seçilmedi.
+[Sonuç ve katkı sınırı](../SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md).
+
 20 Kasım dört il yardımcı model deneyi. Araştırmacının yeni A kararı
 donmuş plana bağlanarak 27 model otomatik çalıştırıldı. Kayıtlı
 modellerin tahmin, fit medyanı/ölçekleme ve ayrı skaler AUC geri

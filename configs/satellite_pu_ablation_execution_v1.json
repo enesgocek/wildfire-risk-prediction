@@ -1,0 +1,19 @@
+{
+  "version": "satellite_pu_ablation_execution_v1",
+  "decision_date": "2026-11-20",
+  "decision_authority": "researcher",
+  "decision_source": "explicit_user_selection_A_run_18_static_weather_auxiliary_ablations",
+  "plan_readback_sha256": "408ca6c8edba32c7c67668819fc9588868b3bce358cd38fcfe06d64a6b93d0f5",
+  "new_auxiliary_fitting_authorized": true,
+  "maximum_new_fits": 18,
+  "maximum_wall_minutes": 15,
+  "local_only": true,
+  "Y_remains_null": true,
+  "daily_observation_status": "unknown",
+  "new_Y_or_accepted_L_permitted": false,
+  "main_fire_model_training_authorized": false,
+  "fire_probability_or_validated_risk_color_permitted": false,
+  "scientific_values_2023_2024_2025_read_permitted": false,
+  "negative_label_permitted": false,
+  "final_merge_permitted": false
+}

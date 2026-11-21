@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+21 Kasım devamında 20 Kasım'da tamamlanan 18 meteoroloji/statik RF
+ve ayrı tanı doğrulandı; yeniden fit yapılmadı. Statik aday ayrımı
+güçlü, aynı hücre+aynı ay desteği yalnız üç çift. Bu, günlük gerçek
+yangın sıralaması kabulü değil. Kaynak koşullu ayrı takvim kontrolü
+için 44.082 anahtarlık metadata kapsamı somutlaştırıldı; 42.393 ek
+X incelemesi gerekir. Bu yeni yöntem yönü seçilmedi; özgün U,
+gerçek Y, kapalı yıllar ve son birleştirme kapıları korunuyor.
+[Somut sonuç ve sonraki yöntem kararı](../SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md).
+
 20 Kasım yeni yardımcı fit A kararıyla dokuz ayarda 27 küçük model
 tamamlandı. Ayrı model/fit-istatistiği/çift hesabı ve bağlam tanısı
 hazır; sonuçlar gerçek yangın AP'si veya risk olasılığı sayılmıyor.

@@ -2058,6 +2058,25 @@ hava ve yalnız statik bağlam için 18 ek RF önerisi hazır; yeni
 fit yapılmadı, ayrı karar bekleniyor. Gerçek Y, 2023–2025 ve
 nihai birleştirme açılmadı.
 
+E230 — 21 Kasım kayıt kapanışı; deney 20 Kasım. [Onaylı 18 meteoroloji/statik RF](../SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md).
+Yeni 18-fit A kararıyla tamamlanan deney ve ayrı denetim kimlikleri
+doğrulandı; yeniden fit yok. Hava yardımcı S AUC 0,656835–0,666836,
+statik 0,755997–0,785273; statik altı ayarda tam RF'den yüksek.
+18 model/tahmin, fit medyanı ve skaler çift hesabı doğrulandı;
+statik skor aynı hücrede değişmiyor. Aynı hücre+aynı ay yalnız üç
+çift: gerçek günlük yangın başarımı çıkarılmadı. Yerel MLflow'a
+18 ölçü yedekli kaydedildi. Son koşuda 62 ilgili test/beş Python
+dosyası kod-biçim geçti. Yeni Y/L/kapalı yıllar/final merge yok.
+
+E231 — 21 Kasım. [Seçilmemiş kaynak koşullu takvim kontrolü kapsamı](../SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md#seçilmemiş-sonraki-yöntem-önerisi).
+1.670 olası öneri anahtarından 1.443 hücre–yıl–ay, 44.082 plan
+anahtarı; 37.509 fit / 6.573 adet 2022 tanı rolü. 1.689 anahtar
+mevcut X incelemesinde, 42.393 ek inceleme gerekir. 3.648 günlük
+dosya indeks/varlık/boyut olarak mevcut; içerik yeni okunmadı.
+Özgün 2.048 U değişmedi, aday günleri dışlanmadı, bütün Y/L boş.
+Bu kaynak koşullu havuz nüfusu temsil eden/operasyonel test değil.
+Yöntem yönü soruldu; henüz yeni X, örneklem veya model kabulü yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

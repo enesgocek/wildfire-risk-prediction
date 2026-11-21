@@ -1,0 +1,22 @@
+{
+  "version": "source_calendar_control_proposal_v1",
+  "prepared_date": "2026-11-21",
+  "status": "method_direction_proposal_only_not_selected",
+  "purpose": "quantify_same_grid_year_month_calendar_support_before_new_cohort_selection",
+  "anchor_scope": "union_of_1670_possible_satellite_proposal_keys_not_accepted_L",
+  "calendar_scope": "all_days_in_the_same_grid_year_month_subject_only_to_temporal_role_boundary",
+  "exclude_days_because_a_candidate_or_detection_exists": false,
+  "all_nine_scenarios_retained_without_production_selection": true,
+  "source_conditioning_makes_this_a_population_representative_U_sample": false,
+  "source_conditioned_calendar_is_an_operational_or_blind_test": false,
+  "original_2048_U_keys_or_design_weights_changed": false,
+  "daily_observation_status": "unknown",
+  "candidate_absence_means_fire_absence": false,
+  "method_direction_selected": false,
+  "new_feature_extraction_authorized": false,
+  "new_model_fitting_authorized": false,
+  "accepted_L_or_Y_assignment_permitted": false,
+  "negative_label_permitted": false,
+  "final_merge_permitted": false,
+  "scientific_values_2023_2024_2025_read_permitted": false
+}

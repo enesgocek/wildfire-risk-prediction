@@ -1,5 +1,11 @@
 # Dört il uydu adaylarıyla yardımcı model denemesinin sonuçları
 
+21 Kasım güncellemesi: aşağıdaki sonraki 18-model önerisi araştırmacı
+tarafından ayrıca onaylandı; 20 Kasım deney/ayrı tanısı tamamlanmış
+olarak geri okundu. Güncel sonuçlar ve dar zaman desteği açığı
+[ayrı rapordadır](SATELLITE_PU_ABLATION_RESULTS_2026-11-21.md).
+Aşağıdaki ilk sonuçlar ve o andaki öneri kaydı korunur.
+
 20 Kasım 2026. Araştırmacının yeni A kararıyla dokuz ayarda **27
 yardımcı model** çalıştırıldı; tamamı kayıtlı modellerden yeniden
 tahmin edilerek doğrulandı. Dört ilin 2022 inceleme örnekleminde
