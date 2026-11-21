@@ -2116,6 +2116,30 @@ testi sonrası tam koşu kapandı. Burges 2005 resmî yayın kaydı/tam
 PDF yöntemi kontrol edildi; doğrusal yerel uyarlama öneridir,
 yangın/PU geçerliliği kanıtı değil. A/B yeni yöntem yönü açık.
 
+E236 — 21 Kasım. [A seçimiyle dokuz günlük çift pilotu](../TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md).
+35.376 fit-only satır, 15 alan, dokuz doğrusal fit; 2022 aynı çift
+AUC 0,585685–0,595230. Dokuz model/ölçek/çift kimliği ve 36 ölçü
+ayrı doğrulandı; yerel yedekli MLflow tam değer geri okuması geçti.
+Yakın tarihlerde ayrım 0,520107–0,541187; gerçek yangın AP'si/olasılığı
+veya ilk aşama kabulü değil. Ek il tablosunun ASCII/ad hatası ayrı
+makbuzda düzeltildi; 36 il–ayar birleşimi dolu, 144 ölçü. Özgün
+yanlış boş kesitler korundu; ana 36 ölçü/model değişmedi.
+
+E237 — 21 Kasım. [Mevcut skorların korunmuş tespit geçmişi tanısı](../TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md).
+6.573 takvim günü için hedef/önceki yedi gün ve gözlenen 2 km/72 saat
+grafik bağı incelendi; yeni fit/etiket/eleme yok. Diğer tarihte korunmuş
+tespit bulunmayan çift AUC 0,586589–0,596206; yangın yokluğu değil.
+Aynı gözlenen grafiği paylaşan yalnız 22–27 çift; fiziksel olay bağı
+kanıtı değil. Önceki yedi günde kayıt yok kesiti 0,593772–0,607460;
+yedi gün sessizlik kuralı kabul edilmedi. Son birleşik 36 test geçti.
+
+E238 — 21 Kasım. [Farklı Mersin kaynak takvimi metadata önerisi](../CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md).
+Eski hash'li 81/87 anahtarın tam 15 alanlı 79/79 kesitinde yalnız
+iki aynı-hücre/ay çifti var. 78 kaynak hücre–ayı, 2.383 takvim günü,
+318 mevcut/2.065 ek yerel X ihtiyacı. WF1538 kararı ve U korunuyor.
+Yeni X, günlük bilimsel veri okuması, skor/model veya etiket yok.
+Ayrı kaynak kaydı gerçek Y testi kabulü değil; yöntem yönü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

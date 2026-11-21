@@ -5,6 +5,28 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**21 Kasım A seçimiyle dokuz günlük doğrusal sıralama pilotu tamamlandı.**
+35.376 benzersiz fit satırı, 15 dinamik alan ve ayara göre
+28.081–39.014 gün çiftiyle dokuz model kuruldu; 2022'nin aynı
+5.733–6.406 tam-girdi çiftinde yardımcı AUC 0,585685–0,595230.
+Tam RF'den 8/9 ayarda küçük farkla yüksek; gerçek yangın başarımı
+değil. 1–3 gün aralıklı çiftlerde 0,520107–0,541187; günlük uyarı
+iddiası açık. Dokuz model/fit ölçeği/çift kimliği ve 36 ölçü ayrı
+doğrulandı, yerel MLflow'da tam değerlerle okundu. İlk ek il tablosu
+ASCII/Türkçe ad farkında iki ili boş saydı; özgün kayıt korundu,
+36 il–ayar/144 ölçü ayrı düzeltildi. Korunmuş tespit/önceki yedi gün
+tanısı sorunu tek başına çözmedi; bilinmeyen gün negatif yapılmadı.
+Son birleşik koşuda 36 ilgili test geçti. Yeni gerçek Y/L, kapalı yıl,
+üretim ayarı/risk rengi veya final merge yok. Onaylı pilot tamam;
+birinci aşama bilimsel kabulü açık.
+[Sonuç ve somut günlük örnek](TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md).
+
+Sıradaki farklı-kaynak incelemesi için Mersin'in mevcut 81 kaynak /
+87 U anahtarı yalnız iki tam aynı-hücre/ay çifti sağlıyor. 78 kaynak
+hücre–ayında 2.383 günlük ayrı takvim, 318 mevcut / 2.065 ek yerel
+X ihtiyacı var. Yeni X/skor/fit yapılmadı; yeni kaynak/takvim yönü
+[somut A/B önerisinde](CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md).
+
 **21 Kasım sabit modellerin günlük takvim tanısı tamamlandı.**
 27 mevcut RF yeniden fit edilmeden aynı 6.573 adet 2022 anahtarında
 incelendi. Aynı hücre–yıl–ayda tam RF yardımcı çift AUC'si

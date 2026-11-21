@@ -6,6 +6,26 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+21 Kasım günlük çift pilotu. Araştırmacının açık A seçimi kayıtlı
+kapsama bağlandı; dokuz doğrusal model, fit-only ölçek, aynı 2022
+çiftlerinde karşılaştırma ve ayrı model/çift/36 ölçü denetimi yapay
+zekâ desteğiyle yürütüldü. Yerel MLflow yedeği ve tam değer okuması
+tamamlandı. Gün yakınlığı ve korunmuş tespit geçmişi tanıları
+otomatik hesaplandı. Grafik asistan tarafından incelendi; insan
+onayı sayılmadı. Ek il tablosundaki ASCII/Türkçe ad hatası özgün
+dosya korunarak yeni makbuzla düzeltildi. Son birleşik koşuda 36
+ilgili test geçti. Yeni model dışındaki teknik işler rutin devam
+kapsamında; gerçek Y/L ve nihai birleştirme yapılmadı.
+[Sonuç, hata kaydı ve katkı sınırı](../TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md).
+
+21 Kasım farklı kaynak hazırlığı. Mevcut 81 kaynak/87 U anahtarının
+metadata ve eski X tamlık desteği incelendi; yalnız iki aynı-hücre/ay
+çifti bulundu. 2.383 anahtarlık ayrı 2022 takvimi ve 2.065 ek X
+ihtiyacı yapay zekâ desteğiyle somutlaştırıldı; yeni ham günlük veri,
+X/skor/fit oluşturulmadı. Bu farklı kayıt kökeni bağımsız gerçek
+yangın doğrulaması sayılmadı; yeni örneklem yönü için seçenek hazır.
+[Hazırlık ve sınır](../CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md).
+
 21 Kasım günlük yöntem hazırlığı. Geniş takvimde gözlenen grafik
 zaman bağı ve tam 15 alanlı çift sayımı yapay zekâ desteğiyle
 incelendi. Tekrarlı erişim nedeniyle uzayan ilk denetim sonuç

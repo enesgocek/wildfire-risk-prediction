@@ -38,6 +38,20 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+21 Kasım açık A yönü uygulandı: 15 dinamik alanda dokuz doğrusal
+gün-çifti modeli tamamlandı. Yardımcı AUC 0,585685–0,595230,
+yakın 1–3 gün çiftlerinde 0,520107–0,541187. Dokuz model,
+ölçekleme, çift kimlikleri ve 36 ölçü ayrı doğrulandı. Bu sonuç
+günlük gerçek yangın hedefini kabul ettirmiyor; daha çok ayar
+deneyerek sonuç kovalanmıyor. Gözlenen devam tanısı tamamlandı,
+source/gözlem ve gerçek hedef aktarımı belirsizliği korundu.
+Mevcut Mersin kaynağında aynı-yer/ay desteği iki çift; ayrı
+2.383 günlük takvim ve sabit-model sınaması için somut öneri hazır.
+Yeni kaynak örneklemi yönü, yeni X/skor/fit veya final merge kabulü
+olarak kaydedilmedi.
+[Pilot sonucu](../TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md) ·
+[Farklı kaynak için kapsam](../CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md).
+
 21 Kasım sabit RF takvim tanısı tamamlandı: aynı hücre–yıl–ayda
 tam model yardımcı çift AUC'si 0,568463–0,587403, statik model
 0,5. İl kesitleri günlük ayrımın her yerde kurulmadığını gösteriyor.

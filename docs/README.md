@@ -8,6 +8,8 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Gün farklarını öğrenen dokuz pilotun sonucu](TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md) | Açık A seçimi, 9 doğrusal model, aynı çiftlerde 36 ayrı ölçü, yakın tarihlerde zayıf ayrım, yerel MLflow, il düzeltmesi ve gözlenen devam bağlamı |
+| [Mersin kaynağıyla ayrı takvim önerisi](CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md) | 81 kaynak/87 U için iki çiftlik mevcut destek; 78 kaynak hücre–ayında 2.383 gün/2.065 ek X ihtiyacı, henüz uygulanmamış ayrı kaynak sınaması |
 | [Günlük öğrenme için somut yöntem seçenekleri](TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md) | Tamamlanan grafik/zaman ve 15 dinamik alan desteği, 0 ortak gözlenen blok, birincil çift kaybı kaynağı ve henüz uygulanmamış A/B model önerisi |
 | [Aynı hücre/ayda sabit model tanısı](SOURCE_CALENDAR_DIAGNOSTIC_2026-11-21.md) | 27 mevcut RF ile yeni fit olmadan 6.573 tarih, 162 ayrı ölçü kontrolü, il farkları ve günlük ayrımın açık sınırı |
 | [Takvim kontrolünün özellik hazırlığı](SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md) | Tamamlanan 44.082 X/QA anahtarı, 41.358 tam/2.724 eksik, değişmez ay makbuzları ve ayrı geri okuma, 42 ilgili test ve henüz puanlama yapılmamış sabit-model tanı önerisi |
