@@ -6,6 +6,26 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+21 Kasım günlük yöntem hazırlığı. Geniş takvimde gözlenen grafik
+zaman bağı ve tam 15 alanlı çift sayımı yapay zekâ desteğiyle
+incelendi. Tekrarlı erişim nedeniyle uzayan ilk denetim sonuç
+makbuzu olmadan durduruldu; üretici korunup vektör maskesiyle yeni
+koşu tamamlandı. Ortak dönem bloğu 0; gerçek olay bağımsızlığı değil.
+Bir ek davranış testi geçti. Resmî Microsoft yayın kaydı ve tam
+makale yöntemi incelenerek doğrusal çift kaybı önerisi hazırlandı;
+yeni fit, araştırmacı kararı veya gerçek yangın kanıtı sayılmadı.
+[Destek, kaynak ve yeni yöntem seçenekleri](../TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md).
+
+21 Kasım sabit-model takvim tanısı. Araştırmacının özerk devam
+talimatı somut tanı planına bağlandı; ayrı A formu seçilmiş gibi
+kaydedilmedi. 27 RF ile aynı 6.573 tarihin puanlanması, 162 ölçünün
+ayrı skaler/sıra-toplamı hesabı, il alanı desteği ve yerel MLflow
+kaydı yapay zekâ desteğiyle yürütüldü. 26 ilgili test ve altı
+Python dosyası kod/biçim geçti. Grafik asistan tarafından incelendi;
+araştırmacı görsel onayı veya saha doğrulaması olarak sunulmadı.
+Yeni fit, Y/kabul edilmiş L ve nihai birleştirme yapılmadı.
+[Sonuç ve katkı sınırı](../SOURCE_CALENDAR_DIAGNOSTIC_2026-11-21.md).
+
 21 Kasım tamamlanan takvim X hazırlığı. 44.082 anahtarın 3.648
 günlük dosyadan hash/geçmiş pencere/eksiklik kontrolü, 60 ayın
 değişmez makbuzları ve ayrı snapshot/standart tarih geri okuması

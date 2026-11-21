@@ -2097,6 +2097,25 @@ Python dosyası kod/biçim geçti. Yeni S/Y/L/eğitim/final merge yok.
 değil. 27 mevcut RF ile 6.573 güne yeni fit olmadan tanı önerisi
 somutlaştırıldı; yeni yön soruldu, henüz puanlama yapılmadı.
 
+E234 — 21 Kasım. [Sabit RF'lerin aynı-hücre/ay takvim tanısı](../SOURCE_CALENDAR_DIAGNOSTIC_2026-11-21.md).
+Özerk devam talimatıyla somut plan uygulandı; yeni eğitim yok.
+27 eski model, aynı 6.573 tarih, yardımcı gösterge; gerçek Y/L boş.
+Tam RF çift AUC 0,568463–0,587403, statik 0,5; meteoroloji ve il
+kesitleri raporlandı. 27 tahmin birebir, 162 ölçü ayrı hesapla aynı.
+26 ilgili test, altı Python kod/biçim ve yerel yedekli MLflow kaydı
+geçti. Bu bulgu gerçek yangın becerisi, saha/insan doğrulaması,
+bağımsız olay sayımı veya nihai veri seti kabulü değil.
+
+E235 — 21 Kasım. [Geniş takvimin zaman/grafik ve günlük çift desteği](../TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md).
+2.306 anahtarda gözlenen grafik bağlamı; dönemler arasında ve eski
+fit/yeni 2022 arasında ortak 2 km/72 saat grafik bloğu 0. Gerçek
+olay bağımsızlığı değil. Tam 15 dinamik alanla fit 28.081–39.014,
+2022 5.733–6.406 olası çift; yeni matris/fit yok. İlk yavaş denetim
+makbuzsuz durdurulup üretici korundu; vektör maskesi ve bir davranış
+testi sonrası tam koşu kapandı. Burges 2005 resmî yayın kaydı/tam
+PDF yöntemi kontrol edildi; doğrusal yerel uyarlama öneridir,
+yangın/PU geçerliliği kanıtı değil. A/B yeni yöntem yönü açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

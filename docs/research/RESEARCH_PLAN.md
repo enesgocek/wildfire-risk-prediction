@@ -38,6 +38,19 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+21 Kasım sabit RF takvim tanısı tamamlandı: aynı hücre–yıl–ayda
+tam model yardımcı çift AUC'si 0,568463–0,587403, statik model
+0,5. İl kesitleri günlük ayrımın her yerde kurulmadığını gösteriyor.
+27 eski model, 162 ayrı ölçü kontrolü; yeni fit yok. Özerk devam
+talimatı yalnız somut tanı kapsamına bağlandı. Bu sonuç gerçek
+yangın AP'si, risk rengi veya birinci aşama bilimsel kabulü değil.
+Geniş takvimin zaman/grafik bağı tamamlandı: ortak gözlenen blok 0;
+fiziksel olay bağımsızlığı doğrulanmadı. Tam günlük alanlarla olası
+çift desteği sayıldı; aynı yerde günleri karşılaştıran doğrusal
+kayıp için somut öneri hazır. Yeni öğrenme yönü henüz seçilmedi.
+[Destek ve yöntem seçimi](../TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md).
+[Tanı ve açık kapı](../SOURCE_CALENDAR_DIAGNOSTIC_2026-11-21.md).
+
 21 Kasım X hazırlığı kapandı: 44.082 anahtar, 41.358 tam/2.724
 eksik; 1.689 önceki X/QA birebir aynı. Ayrı zaman/anahtar/ay ve
 eksiklik kontrolü geçti. Bu, etiketli eğitim veri seti değil.

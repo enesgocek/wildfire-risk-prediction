@@ -5,6 +5,26 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**21 Kasım sabit modellerin günlük takvim tanısı tamamlandı.**
+27 mevcut RF yeniden fit edilmeden aynı 6.573 adet 2022 anahtarında
+incelendi. Aynı hücre–yıl–ayda tam RF yardımcı çift AUC'si
+0,568463–0,587403; meteoroloji 0,553183–0,581686; statik model
+tam 0,5. İki tarafta meteoroloji tam olduğunda tam RF aralığı
+0,576583–0,594518. İl tanısında Muğla meteoroloji aralığı
+0,491701–0,582492; bütün illerde günlük risk başarımı gösterilmiş
+sayılmadı. 27 tahmin ve 162 ölçü ayrı yöntemle doğrulandı, yerel
+MLflow kaydı yedekli tamamlandı. 26 ilgili test/altı Python dosyası
+kod-biçim geçti. Devam/özerklik talimatı somut sabit-model planına
+bağlandı; yeni fit, gerçek Y/L, risk rengi veya final merge yok.
+Geniş takvimde 2 km/72 saat gözlenen grafik üzerinden dönemler arası
+ortak blok 0; fiziksel olay bağımsızlığı kanıtı değil. Tam 15 günlük
+alanla olası fit çifti 28.081–39.014, 2022 çifti 5.733–6.406.
+Bir ek destek testiyle son birleşik koşu 27 test/yedi Python dosyası
+kod-biçim kontrolü geçti. Yeni kayıp/öğrenme yönü gerektiren
+[dokuz küçük günlük çift modeli A önerisi](TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md)
+somutlaştırıldı; yeni fit yapılmadı. Birinci aşama bilimsel kabulü açık.
+[Sonuç, anlaşılır örnek ve sınırlamalar](SOURCE_CALENDAR_DIAGNOSTIC_2026-11-21.md).
+
 **21 Kasım takvim kontrolünün özellik hazırlığı ve ayrı geri okuması tamamlandı.**
 44.082 anahtar / 60 ay / 1.824 gün, 3.648 dosya güncel hash/geçmiş
 pencere kontrolü geçti. 41.358 satırda 27 X tam, 2.724 eksik satır

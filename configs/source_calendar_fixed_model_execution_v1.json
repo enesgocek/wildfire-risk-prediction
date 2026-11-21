@@ -1,0 +1,21 @@
+{
+  "version": "source_calendar_fixed_model_execution_v1",
+  "decision_date": "2026-11-21",
+  "decision_authority": "researcher",
+  "decision_source": "user_authorizes_autonomous_progress_after_specific_fixed_model_diagnostic_proposal",
+  "decision_form_was_explicit_A_selection": false,
+  "plan_readback_sha256": "9bdbbee2d4398fd2ae95e0ec1b27fdd286f589133d52a50b2b89873abe01271f",
+  "fixed_model_scoring_authorized": true,
+  "new_auxiliary_source_indicator_codes_authorized": true,
+  "indicator_is_verified_fire_Y": false,
+  "scope": "fixed_27_RF_2022_source_conditioned_calendar_diagnostic_only",
+  "model_refitting_authorized": false,
+  "new_hyperparameter_or_scenario_selection_authorized": false,
+  "original_U_or_weights_changed": false,
+  "new_Y_or_accepted_L_assignment_authorized": false,
+  "negative_label_permitted": false,
+  "fire_probabilities_or_validated_risk_colors_authorized": false,
+  "scientific_values_2023_2024_2025_read_permitted": false,
+  "daily_observation_status": "unknown",
+  "final_merge_permitted": false
+}
