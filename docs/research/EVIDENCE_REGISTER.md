@@ -2077,6 +2077,14 @@ dosya indeks/varlık/boyut olarak mevcut; içerik yeni okunmadı.
 Bu kaynak koşullu havuz nüfusu temsil eden/operasyonel test değil.
 Yöntem yönü soruldu; henüz yeni X, örneklem veya model kabulü yok.
 
+E232 — 21 Kasım. [Kaynak koşullu takvim X hazırlığına geçiş](../SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md).
+Önerilen hazırlık sonrası devam talimatı yalnız X/zaman/eksiklik
+kapsamına bağlandı; yeni eğitim/etiket izni değil. 44.082 anahtar
+aylık değişmez dosya/makbuz ve atomik geçici durumla işleniyor.
+İlk 24 ay/14.584 satır kayıtlı; tam makbuz henüz yok. 42 ilgili
+test geçti. Özgün U, boş gerçek Y/L, kapalı yıllar ve final merge
+kapıları korundu; otomatik kontrol bağımsız saha doğrulaması değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

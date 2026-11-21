@@ -1,0 +1,22 @@
+{
+  "version": "source_calendar_feature_preparation_v1",
+  "decision_date": "2026-11-21",
+  "decision_authority": "researcher",
+  "decision_source": "user_followup_continue_after_recommended_calendar_feature_preparation",
+  "decision_form_was_explicit_A_selection": false,
+  "proposal_readback_sha256": "ee08ef36aefab7ae66b2c2c7ff87f0cc5d10d8d077e1cafad61c5d202ca9a6e5",
+  "scope": "local_source_conditioned_calendar_X_time_missingness_preparation_only",
+  "calendar_feature_preparation_selected": true,
+  "new_feature_extraction_authorized": true,
+  "local_only": true,
+  "source_conditioning_is_population_representative": false,
+  "original_U_keys_or_weights_changed": false,
+  "new_U_sample_or_weights_created": false,
+  "new_S_membership_assignment_permitted": false,
+  "accepted_L_or_Y_assignment_permitted": false,
+  "negative_label_permitted": false,
+  "new_model_fitting_authorized": false,
+  "scientific_values_2023_2024_2025_read_permitted": false,
+  "daily_observation_status": "unknown",
+  "final_merge_permitted": false
+}

@@ -5,6 +5,15 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**21 Kasım sonraki devam: ayrı takvim kontrolünün X hazırlığı sürüyor.**
+Önerilen 44.082 anahtarın yerel özellik/zaman/eksiklik hazırlığı
+devam talimatıyla başlatıldı. 2018–2019'un ilk 24 ayı beklenen
+14.584 satırla hash'li ay makbuzlarına alındı. Kalan aylar sürüyor;
+tam sonuç makbuzu henüz yok. 42 ilgili hazırlık/ay kontrolü/ayrı
+okuyucu testi geçti. Yeni eğitim, S/Y/L atama veya final merge
+açılmadı; özgün U ve kapalı yıllar korunuyor.
+[Kapsam, devam mekanizması ve güncel çalışma](SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md).
+
 **21 Kasım devam kontrolü: onaylı 18 ek model ve ayrı tanı tamam; yeniden fit yok.**
 20 Kasım makbuzları, 36 model/skor dosyası, girdi ve üretici kimlikleri
 doğrulandı. Yalnız meteoroloji yardımcı S AUC'si 0,656835–0,666836;

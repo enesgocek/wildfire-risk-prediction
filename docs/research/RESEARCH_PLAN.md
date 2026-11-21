@@ -38,6 +38,14 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+21 Kasım sonraki devam talimatı, ayrı kaynak koşullu takvim
+kontrolünün yalnız yerel X/zaman/eksiklik hazırlığına bağlandı.
+44.082 anahtar aylık değişmez checkpoint'lerle işleniyor; tamamlanmış
+inceleme makbuzu henüz yok. Yeni U örneklemi, S/Y/L, eğitim veya
+nihai birleştirme kabulü değil. İlk 24 ay/14.584 satır mühürlendi;
+42 ilgili test geçti. Önceki öneri kaydı tarihsel olarak korunuyor.
+[Devam ve kapsam kaydı](../SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md).
+
 21 Kasım devamında 20 Kasım'da tamamlanan 18 meteoroloji/statik RF
 ve ayrı tanı doğrulandı; yeniden fit yapılmadı. Statik aday ayrımı
 güçlü, aynı hücre+aynı ay desteği yalnız üç çift. Bu, günlük gerçek

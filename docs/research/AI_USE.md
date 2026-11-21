@@ -6,6 +6,15 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+21 Kasım takvim X hazırlığı. Devam talimatı önerilen ayrı kontrolün
+özellik/zaman/eksiklik kapsamına bağlandı; seçenek formunda ayrıca
+A seçilmiş gibi kaydedilmedi. Aylık değişmez CSV/makbuz, atomik
+geçici durum ve aynı kod/girdiyle devam ile ayrı geri okuyucu yapay
+zekâ desteğiyle hazırlandı. 42 ilgili test geçti; ilk 24 ay/14.584
+satır kaydedildi, kalan iş sürüyor. Yeni S/Y/L, model veya final
+merge yok; teknik kontroller insan/yangın doğrulaması değil.
+[Hazırlık ve katkı sınırı](../SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md).
+
 21 Kasım devam kontrolü. Önceden onaylanan ve 20 Kasım'da tamamlanan
 18 meteoroloji/statik modelin makbuzları, dosya ve girdi kimlikleri
 yapay zekâ desteğiyle doğrulandı; modeller yeniden eğitilmedi.
