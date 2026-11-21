@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+21 Kasım X hazırlığı kapandı: 44.082 anahtar, 41.358 tam/2.724
+eksik; 1.689 önceki X/QA birebir aynı. Ayrı zaman/anahtar/ay ve
+eksiklik kontrolü geçti. Bu, etiketli eğitim veri seti değil.
+2022'nin 6.573 takvim gününde önceki sabit RF'lerin günlük davranışını
+yeni fit yapmadan inceleme önerisi hazır; yeni puanlama/kaynak
+göstergesi yönü soruldu. Gerçek Y/L, bilimsel kabul, kapalı yıllar
+ve nihai birleştirme koşulları değişmedi.
+[Tam hazırlık ve sonraki somut öneri](../SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md#tamamlanan-x-ve-eksiklik-sonucu).
+
 21 Kasım sonraki devam talimatı, ayrı kaynak koşullu takvim
 kontrolünün yalnız yerel X/zaman/eksiklik hazırlığına bağlandı.
 44.082 anahtar aylık değişmez checkpoint'lerle işleniyor; tamamlanmış

@@ -2085,6 +2085,18 @@ aylık değişmez dosya/makbuz ve atomik geçici durumla işleniyor.
 test geçti. Özgün U, boş gerçek Y/L, kapalı yıllar ve final merge
 kapıları korundu; otomatik kontrol bağımsız saha doğrulaması değil.
 
+E233 — 21 Kasım. [Takvim X/QA hazırlığının kapanışı](../SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md#tamamlanan-x-ve-eksiklik-sonucu).
+44.082 anahtar, 60 ay/1.824 gün, 3.648 günlük içerik hash/zaman
+kontrolü; 41.358 tam/2.724 eksik satır korundu. 1.689 önceki X/QA
+birebir aynı. 45 hücre–ayda 1.374 satırın tam hava vektörü eksik;
+1.398 grupta farklı günlük vektör var. Ayrı anahtar/metadata/ay
+makbuzu ve standart ISO tarih kontrolü geçti; ham büyük dosyalar
+ikinci kontrolde tekrar hash edilmedi. 42 ilgili test ve beş
+Python dosyası kod/biçim geçti. Yeni S/Y/L/eğitim/final merge yok.
+2022 başka-tarih bağlamı 7.124 eşleşme; gerçek karşıt etiket çifti
+değil. 27 mevcut RF ile 6.573 güne yeni fit olmadan tanı önerisi
+somutlaştırıldı; yeni yön soruldu, henüz puanlama yapılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

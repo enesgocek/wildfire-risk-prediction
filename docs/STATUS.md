@@ -5,6 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**21 Kasım takvim kontrolünün özellik hazırlığı ve ayrı geri okuması tamamlandı.**
+44.082 anahtar / 60 ay / 1.824 gün, 3.648 dosya güncel hash/geçmiş
+pencere kontrolü geçti. 41.358 satırda 27 X tam, 2.724 eksik satır
+korundu. 2022 tanısında 6.573 satırın 5.982'si tam; meteorolojisi
+tam 6.207, eksik 366. Bütün havuzda 45 hücre–ay grubunun 1.374
+satırında tam hava vektörü yok; 1.398 grupta günlük vektör değişiyor.
+Önceki 1.689 X/QA birebir aynı; özgün U/ağırlıkları korundu.
+Yeni S/Y/L, eğitim, kapalı yıl veya nihai birleştirme yok. 42 ilgili
+test ve beş Python dosyası kod/biçim kontrolü geçti. Takvim bağlamı
+7.124 adet 2022 başka-tarih karşılığı sağlıyor; bunlar karşıt yangın
+etiketi çiftleri değil. Mevcut 27 RF'yi yeniden fit etmeden yalnız
+bu 2022 takviminde inceleme planı hazır; puanlama/yeni yardımcı
+gösterge kullanımı için yön soruldu, henüz çalıştırılmadı. Birinci
+aşama bilimsel kabulü açık. [Tam sonuç ve dosyalar](SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md#tamamlanan-x-ve-eksiklik-sonucu).
+
 **21 Kasım sonraki devam: ayrı takvim kontrolünün X hazırlığı sürüyor.**
 Önerilen 44.082 anahtarın yerel özellik/zaman/eksiklik hazırlığı
 devam talimatıyla başlatıldı. 2018–2019'un ilk 24 ayı beklenen

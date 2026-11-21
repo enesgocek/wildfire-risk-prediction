@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+21 Kasım tamamlanan takvim X hazırlığı. 44.082 anahtarın 3.648
+günlük dosyadan hash/geçmiş pencere/eksiklik kontrolü, 60 ayın
+değişmez makbuzları ve ayrı snapshot/standart tarih geri okuması
+yapay zekâ desteğiyle yürütüldü. 41.358 tam/2.724 eksik satır
+korundu; 1.689 eski X/QA birebir aynı. 42 ilgili test ve beş Python
+dosyası kod/biçim geçti. Teknik kontrol gerçek yangın/insan doğrulaması
+değil. Sabit 27 modelin yalnız 2022 takviminde inceleme önerisi
+hazırlandı; yeni puanlama, kaynak gösterge kodu, model, Y/L veya
+final merge yapılmadı. Yeni yön araştırmacıya soruldu.
+[Tamamlanan çalışma ve katkı sınırı](../SOURCE_CALENDAR_FEATURE_PREPARATION_2026-11-21.md#tamamlanan-x-ve-eksiklik-sonucu).
+
 21 Kasım takvim X hazırlığı. Devam talimatı önerilen ayrı kontrolün
 özellik/zaman/eksiklik kapsamına bağlandı; seçenek formunda ayrıca
 A seçilmiş gibi kaydedilmedi. Aylık değişmez CSV/makbuz, atomik
