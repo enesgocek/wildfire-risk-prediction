@@ -38,6 +38,17 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+21 Kasım sonraki açık A seçimiyle ayrı Mersin takvimi tamamlandı:
+2.383 X, 318 eski X/QA eşit, 79 tam kaynak günü, dokuz sabit model
+ve 2.329 aynı-hücre/ay çifti. Yardımcı AUC 0,522542–0,540575;
+yakın 1–3 gün çiftlerinde 0,450000–0,465909. Güçlü gerçek yangın
+aktarımı kabul edilmedi. Daha fazla model aramak yerine plandaki
+FWI/resmî tehlike referansının küçük metadata/edinim hazırlığı
+yapıldı; standart FWI mevcut özetlerden uydurulmadı. Portal giriş/
+lisans adımı kullanıcıda; FWI veya yeni etiket/fit henüz yok.
+[Farklı kaynak sonucu](../CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md) ·
+[Referansın uygulanabilirlik adımı](../FWI_REFERENCE_PILOT_2026-11-21.md).
+
 21 Kasım açık A yönü uygulandı: 15 dinamik alanda dokuz doğrusal
 gün-çifti modeli tamamlandı. Yardımcı AUC 0,585685–0,595230,
 yakın 1–3 gün çiftlerinde 0,520107–0,541187. Dokuz model,

@@ -2140,6 +2140,26 @@ iki aynı-hücre/ay çifti var. 78 kaynak hücre–ayı, 2.383 takvim günü,
 Yeni X, günlük bilimsel veri okuması, skor/model veya etiket yok.
 Ayrı kaynak kaydı gerçek Y testi kabulü değil; yöntem yönü açık.
 
+E239 — 21 Kasım. [Ayrı Mersin takvimi ve sabit model sonucu](../CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md).
+2.383 anahtar, 336 gün/672 dosya, 2.323 tam/60 eksik; 318 önceki
+X/QA birebir aynı. Ayrı rol/UTC/ay ve gözlenen grafik okuması geçti.
+Dokuz model değişmeden 2.329 çiftte yardımcı AUC 0,522542–0,540575;
+1–3 gün kesiti 0,450000–0,465909. İki ayrı çift/puan yöntemi ve
+45 ölçü aynı; yerel yedekli MLflow tam değerlerle doğrulandı.
+Gerçek yangın başarımı/negatif/etiket veya ana yöntem kabulü değil.
+
+E240 — 21 Kasım. [Plandaki FWI referansının metadata/edinim hazırlığı](../FWI_REFERENCE_PILOT_2026-11-21.md).
+Resmî ECMWF/EWDS ürün kimliği, Haziran 2022 form seçenekleri ve
+giriş/lisans gereksinimi görüldü; istek/kimlik/lisans işlemi yapılmadı.
+32 MiB sınırlı yerel NetCDF/CF başlık okuyucusu hazır; kurulu GDAL
+netCDF/HDF5 sürücüsü var. Değer dizisi, operasyonel zaman eşleşmesi,
+FWI hesabı veya modele katma kabul edilmedi. Mevcut etiket boşluğunu
+gideren sonuç sayılmadı; kullanıcı edinimi bekleniyor.
+
+E239/E240 son teknik kontrolü: 57 ilgili test, yedi Python dosyası
+kod/biçim ve üç makbuzun güncel üretici/çıktı hash kontrolü geçti.
+Dört FWI zaman testi sentetik; gerçek veri edinimi/kabulü değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

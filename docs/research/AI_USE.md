@@ -6,6 +6,27 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+21 Kasım ayrı Mersin takvimi. Araştırmacının ikinci açık A seçimiyle
+2.383 X/QA hazırlığı, 672 günlük içerik hash/pencere kontrolü,
+318 eski kayıt eşitliği ve ayrı UTC/ay/grafik okuması yapay zekâ
+desteğiyle yürütüldü. Dokuz model yeniden fit edilmeden puanlandı;
+matris skorları, iki ayrı çift kurma ve skaler 45 ölçü kontrolü
+yapıldı. Yerel MLflow tam değer okuması tamamlandı. Bunlar gerçek
+yangın veya insan doğrulaması değil; zayıf sonuç açık raporlandı.
+[Sonuç ve katkı sınırı](../CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md).
+
+21 Kasım planlı FWI referansı. Resmî ürün/form ve oturum durumu
+yapay zekâ desteğiyle incelendi; kimlik bilgisi, lisans kabulü ve
+indirme yapılmadı. Kısıtlı yerel NetCDF/CF metadata okuyucusu ve
+sentetik zaman kontrolleri hazırlandı. Dosya/gerçek FWI yok;
+operasyonel erişim veya etiket boşluğu çözülmüş sayılmadı.
+[İnsan işlemi ve sınır](../FWI_REFERENCE_PILOT_2026-11-21.md).
+
+Bu devamın son ilgili birleşik koşusunda 57 test, yedi Python
+dosyası kod/biçim ve üç bilimsel sonuç/üretici hash kontrolü geçti.
+FWI'ye ait dört zaman testi sentetiktir; sağlayıcı verisiyle ölçüm
+veya araştırmacı onayı değildir.
+
 21 Kasım günlük çift pilotu. Araştırmacının açık A seçimi kayıtlı
 kapsama bağlandı; dokuz doğrusal model, fit-only ölçek, aynı 2022
 çiftlerinde karşılaştırma ve ayrı model/çift/36 ölçü denetimi yapay

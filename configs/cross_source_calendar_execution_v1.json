@@ -1,0 +1,21 @@
+{
+  "version": "cross_source_calendar_execution_v1",
+  "decision_date": "2026-11-21",
+  "decision_source": "researcher_explicit_A_separate_Mersin_calendar_and_fixed_model_diagnostic",
+  "proposal_sha256": "07c0430bba04db18303767882fd5bdf9eae1f1233f7743977c90d48bd10dbfb7",
+  "calendar_keys": 2383,
+  "exploratory_year": 2022,
+  "local_chunk_limit_seconds": 900,
+  "local_X_preparation_authorized": true,
+  "fixed_nine_model_scoring_authorized": true,
+  "existing_source_membership_auxiliary_indicator_authorized": true,
+  "new_model_fitting_authorized": false,
+  "original_U_or_weights_changed": false,
+  "new_Y_or_accepted_L_authorized": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "scientific_values_2023_2024_2025_read_permitted": false,
+  "download_or_cloud_permitted": false,
+  "risk_probability_or_validated_colors_authorized": false,
+  "final_merge_permitted": false
+}

@@ -8,6 +8,8 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Ayrı Mersin takvimi sonucu](CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md) | Açık A ile 2.383 X, 318 eşit önceki kayıt, dokuz sabit model/2.329 çift ve zayıf günlük aktarım; 45 ayrı hesap ve yerel kayıt |
+| [FWI referansı için küçük edinim hazırlığı](FWI_REFERENCE_PILOT_2026-11-21.md) | Resmî EWDS formu/oturum kontrolü, bir aylık sınırlı istek, metadata okuyucusu; giriş/lisans kullanıcıda, dosya henüz yok |
 | [Gün farklarını öğrenen dokuz pilotun sonucu](TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md) | Açık A seçimi, 9 doğrusal model, aynı çiftlerde 36 ayrı ölçü, yakın tarihlerde zayıf ayrım, yerel MLflow, il düzeltmesi ve gözlenen devam bağlamı |
 | [Mersin kaynağıyla ayrı takvim önerisi](CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md) | 81 kaynak/87 U için iki çiftlik mevcut destek; 78 kaynak hücre–ayında 2.383 gün/2.065 ek X ihtiyacı, henüz uygulanmamış ayrı kaynak sınaması |
 | [Günlük öğrenme için somut yöntem seçenekleri](TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md) | Tamamlanan grafik/zaman ve 15 dinamik alan desteği, 0 ortak gözlenen blok, birincil çift kaybı kaynağı ve henüz uygulanmamış A/B model önerisi |

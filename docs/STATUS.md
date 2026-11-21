@@ -5,6 +5,30 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**21 Kasım ayrı Mersin takvimi ve dokuz sabit-model sınaması tamamlandı.**
+A seçimiyle 2.383 anahtar, 11 ay/336 gün, 672 güncel dosya hash/
+geçmiş pencere kontrolünden geçti. 2.323 tam/60 eksik satır korundu;
+81 kaynak gününün 79'u tam. 318 eski X/QA birebir aynı; ayrı
+UTC/rol/ay kontrolü ve gözlenen grafik bağı (ortak fit bloğu 0)
+geçti. Aynı dokuz model yeniden fit edilmeden 2.329 çiftte
+incelendi: yardımcı AUC 0,522542–0,540575; 1–3 gün aralığında
+0,450000–0,465909. Farklı kaynağa güçlü günlük aktarım gösterilmedi;
+kaynak konum/saat/kapsam belirsizliği nedeniyle gerçek yangın
+başarımı veya yalnız model hatası sayılmadı. Skorlar, çiftler ve
+45 ölçü ayrı hesapla doğrulandı; yerel MLflow tam geri okuması geçti.
+Yeni fit, gerçek Y/L, risk rengi, kapalı yıl veya final merge yok.
+[Tamamlanan çalışma ve incelenebilir dosyalar](CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md).
+
+Plana bağlı FWI/resmî meteorolojik tehlike referansının küçük
+Haziran 2022 veri denemesi hazırlandı. Resmî EWDS formu incelendi;
+giriş/lisans gerekiyor, indirme yapılmadı. Boyut/yol/gerçek NetCDF
+ve CF-zaman başlığı okuyucusu hazır, mevcut netCDF sürücüsü yeterli.
+FWI değeri okunmadı/hesaplanmadı veya veri setine eklenmedi.
+[İnsan işlemi, tam seçimler ve kabul sınırı](FWI_REFERENCE_PILOT_2026-11-21.md).
+Birinci aşamanın hedef/yöntem bilimsel kabulü hâlâ açık.
+Son ilgili birleşik koşu 57 test; bu aşamanın yedi Python dosyası
+kod/biçim ve üç bilimsel makbuzun güncel üretici/çıktı hash'i geçti.
+
 **21 Kasım A seçimiyle dokuz günlük doğrusal sıralama pilotu tamamlandı.**
 35.376 benzersiz fit satırı, 15 dinamik alan ve ayara göre
 28.081–39.014 gün çiftiyle dokuz model kuruldu; 2022'nin aynı
