@@ -11,28 +11,39 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
    eklemekten önce karar/gecikme incelemesini sun. Mevcut
    [birinci aşama karar dosyası](STAGE_ONE_DECISION_PACKET_2026-11-22.md)
    hazır; bunu yeniden sıfırdan üretme. Üç bilimsel kapı açık.
-2. `data/raw/external/cems_fwi_pilot_v1/` içindeki kullanıcı
-   teslimini kontrol et. 22 Kasım'da klasör boştu; kullanıcı henüz
-   indirmediğini, giriş/indirme adımını yapacağını bildirdi.
-3. Özgün dosyayı değiştirmeden kimlik/boyut/türünü incele. Yalnız
-   gerçek Haziran 2022 bölgesel `.nc` için
-   `scripts/quality/inspect_fwi_reference_metadata.py --file <gerçek yerel dosya>`
-   kullan. Üst sınır 32 MiB; ZIP veya başka tür doğrudan bu okuyucuya
-   verilmez. Kısmi/yanlış dosya ve kaynak baytları korunur.
-4. Başlık, değişken ve zaman tanımı uygun değilse değerleri açıp
-   modele katma. Nominal zaman yayımlanma/edinim zamanı değildir.
-   FWI referansı, gerçek yeni yangın etiketi veya olasılığı değildir.
+2. Haziran 2022 NetCDF teslim alındı ve incelendi; yeniden başlatma.
+   [Gerçek FWI kalite sonucu](FWI_RECEIVED_REVIEW_2026-11-22.md) ve
+   aşağıdaki makbuzlardan devam et. `data/raw/external/cems_fwi_pilot_v1/`
+   içine tek 1 Haziran 2022 GRIB eş dosyası bekleniyor. Formda yalnız
+   gün ve biçim değişecek; tam seçimler raporda. Giriş/anahtar tarama.
+3. GRIB gelirse özgün baytları koruyup
+   `scripts/quality/inspect_fwi_grib_header.py --file <gerçek yerel dosya>`
+   ile yalnız başlığını incele. Üst sınır 32 MiB; ZIP başka kapsayıcı
+   olarak önce incelenir. Mevcut NetCDF silinmez veya dönüştürülmez.
+   GRIB başlığı henüz gerçek dosyayla sınanmış değil.
+4. GRIB zaman/forcing alanları, NetCDF'in nominal 00:00 forecast
+   reference ekseni ve resmî yerel öğlen açıklaması karşılaştırılır.
+   Başlıktan yayımlanma/edinim zamanı türetilmez; otomatik T−1 veya
+   aynı-gün model girdisi kabul edilmez. GRIB tüm sorunu çözmeyebilir.
+   FWI referansı gerçek yeni yangın etiketi veya olasılığı değildir.
 5. Sonucu tarihli rapor, STATUS ve o günün Diary kaydına bağla.
    Yeni bilimsel yön veya insan değerlendirmesi gerekiyorsa somut
    bulgu ve gerekçeli seçenek sun. Nihai birleştirme kapısını koru.
 
-Dosya yoksa yeni indirilmiş gibi ilerleme. Referans edinimini
+GRIB yoksa yeni indirilmiş gibi ilerleme. Referans edinimini
 beklemek, mevcut kanıtla birinci aşama karar dosyasının hazırlanmasını
 engellemez; [plan incelemesindeki üç açık kapı](DELIVERY_PLAN_REVIEW_2026-11-22.md#birinci-aşamanın-üç-geçiş-koşulu)
 esas alınır. Giriş/parola/anahtar dosyalarını tarama veya yazdırma.
 
 ## Tekrar yapılmayacak tamamlanmış işler
 
+- Haziran 2022 NetCDF: 30 bant/49 × 21, 26.190 sonlu ve 4.680 eksik
+  nokta-gün; negatif/maskelenmemiş NaN/sonsuz 0. Özgün dosya SHA-256
+  `e6b57e8ecbd5836f141eb6d0cbd17dc283d6569bb194c5496861d4ba8e5f5a8e`.
+  `fwi_received_quality_v1/20261122T165059Z_42a37e1b/readback.json`
+  SHA-256 `a66cdd0f6cdcdd74e1d195a6285eb73d003f775a2e59c6de7667a93ac476bc13`.
+  Başlık makbuzu ve 36 testin kapsamı raporda. Nominal zaman kabulü açık;
+  gerçek GRIB kontrolü veya FWI model karşılaştırması henüz yapılmadı.
 - 44.082 anahtarlık kaynak koşullu X/QA incelemesi tamam.
   `source_calendar_feature_review_v1/20261121T164603Z_741c2896/readback.json`
   SHA-256: `b718ed5d7ff492ddaf6d5217e7f88b3f62a6024a9d2138f4225154b3e3576040`.

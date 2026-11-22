@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**22 Kasım FWI kullanıcı teslimi: başlık ve sayısal kalite kontrolü tamam.**
+100.424 baytlık özgün NetCDF, Haziran 2022'nin 30 gününü ve 49 × 21
+noktalı 0,25° ızgarayı içeriyor. Toplam 30.870 nokta-günün 26.190'ı
+sonlu, 4.680'i sağlayıcı maskesiyle eksik; maskelenmemiş NaN/sonsuz
+ve negatif 0. Eksikler korundu, 100 üstündeki bir FWI değeri yüzde
+veya otomatik hata sayılmadı. Nominal 00:00 ekseni forecast reference
+olarak tanımlı; yerel öğlen/forcing ve erişim zamanı eşleşmesi açık.
+Bir günlük GRIB eş dosyasıyla özgün başlık kontrolü sırada; okuyucu
+hazır, gerçek GRIB henüz yok. 36 ilgili test, dört Python dosyası
+kod/biçim ve özgün girdi/çıktı/üretici hash kontrolleri geçti.
+2023–2025, yeni fit, özellik bağlama, etiket ve nihai birleştirme yok.
+Önceki aşağıdaki “dosya yok” notları edinimden önceki tarihli durumu
+yansıtıyor. [Ölçümler, sınırlama ve tek günlük indirme seçimi](FWI_RECEIVED_REVIEW_2026-11-22.md).
+
 **22 Kasım devamı: birinci aşama karar dosyası ve dosya metadata envanteri tamam.**
 Doğrulanmış özellik aday dizinindeki 2018–2023 için 2.191 gün /
 4.382 dosya mevcut, kayıtlı boyutlarla uyumlu; eksik dosya ve boyut

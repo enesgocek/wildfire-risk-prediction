@@ -2181,6 +2181,19 @@ eşiği yapılmadı. Üç yeni envanter testi dahil 31 ilgili koruma
 testi ve iki Python dosyası kod/biçim geçti. Geçiş/etiket/model veya
 nihai birleştirme kabulü yok; FWI kullanıcı dosyası bekleniyor.
 
+E243 — 22 Kasım. [Kullanıcının teslim ettiği FWI dosyasının yerel incelemesi](../FWI_RECEIVED_REVIEW_2026-11-22.md).
+Özgün 100.424 bayt NetCDF, 30 Haziran 2022 günü/49 × 21 nokta:
+26.190 sonlu, 4.680 işaretli eksik; negatif ve maskelenmemiş NaN/
+sonsuz 0. Günde 873/156 sayıları 30 günlük CSV'den geri okundu.
+Bir FWI değeri 100 üstünde; endeks yüzde veya üstten kırpılan ölçek
+sayılmadı. Başlık/kalite makbuzları raporda hash ile bağlı; dört girdi,
+bir çıktı ve iki üretici güncel hash'i eşleşti. Nominal 00:00 forecast
+reference ekseninin yerel öğlen/forcing/erişim karşılığı açık. Resmî
+CEMS/ECMWF açıklamasıyla karşılaştırıldı; yeni bir günlük GRIB başlık
+kontrolü hazır, gerçek GRIB henüz yok. Dört yeni sentetik dahil 36
+ilgili test ve dört Python dosyası kod/biçim geçti. Zaman/girdi/etiket/
+risk rengi veya nihai birleştirme kabulü değil; kapalı yıllar açılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

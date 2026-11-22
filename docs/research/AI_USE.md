@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+22 Kasım FWI teslim incelemesi. Araştırmacı dosyayı indirdi ve yerel
+klasöre koydu; giriş/lisans işlemi asistan tarafından yapılmadı.
+Özgün NetCDF başlığı, 30 günlük sınırlı kalite hesabı, bağımsız
+bant saati ve dosya/üretici/çıktı hash kontrolü yapay zekâ desteğiyle
+yürütüldü. Yerel öğlen açıklaması resmî kaynakla karşılaştırıldı;
+nominal saatten operasyonel erişim veya otomatik geçmiş-gün kuralı
+üretilmedi. Dört yeni sentetik test dahil 36 ilgili test geçti;
+hazır GRIB okuyucusu gerçek GRIB üzerinde henüz çalıştırılmadı.
+Sonuçlar insan doğrulaması, gerçek yangın etiketi veya yeni model
+başarımı değildir. [Dosya, ölçüm ve katkı sınırı](../FWI_RECEIVED_REVIEW_2026-11-22.md).
+
 22 Kasım karar dosyası devamı. Özellik dosyalarının yalnız kayıtlı
 gün/yol/boyut ve mevcut olma bilgileri yapay zekâ desteğiyle sayıldı;
 2.191 gün/4.382 dosya mevcut, kayıtlı boyutta. Günlük içerik veya

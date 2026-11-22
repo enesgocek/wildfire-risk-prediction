@@ -1,0 +1,14 @@
+{
+  "version": "fwi_delivery_quality_review_v1",
+  "decision_source": "user_delivery_of_requested_pilot_followed_by_necessary_local_quality_inspection",
+  "scope": "one_received_June_2022_FWI_file_quality_only",
+  "source_file_sha256": "e6b57e8ecbd5836f141eb6d0cbd17dc283d6569bb194c5496861d4ba8e5f5a8e",
+  "header_readback_sha256": "63006cb114152f3501b52465411930632771eed3032b6860399438e0d60be955",
+  "local_value_quality_read_authorized": true,
+  "new_2023_2024_2025_values_permitted": false,
+  "automatic_T_minus_one_feature_admission": false,
+  "operational_availability_verified": false,
+  "new_model_or_labels_permitted": false,
+  "risk_band_or_probability_permitted": false,
+  "final_merge_permitted": false
+}

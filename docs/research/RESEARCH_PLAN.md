@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+22 Kasım kullanıcı FWI teslimi incelendi: 30 günlük özgün Haziran
+2022 dosyasında 26.190 sonlu/4.680 eksik nokta-gün; negatif veya
+maskelenmemiş tanımsız değer 0. Dosyanın nominal 00:00 saatinin
+forcing/yerel öğlen/edinim karşılığı açık olduğundan model girdisi
+kabul edilmedi. Tek günlük GRIB eş dosyasının başlık denetimi
+hazırlandı; gerçek GRIB henüz yok. 36 ilgili test ve özgün bayt/
+üretici kontrolleri geçti. FWI etiket boşluğunu veya üç bilimsel
+geçişi çözmüş sayılmadı. [Sonuç ve sonraki küçük adım](../FWI_RECEIVED_REVIEW_2026-11-22.md).
+
 22 Kasım devamı: üç geçiş konusu için güncel karar dosyası hazır;
 bilimsel geçiş kabul edilmedi. Dosya değerlerini açmadan hazır aday
 özellik dizini sayıldı: 2018–2023 için 2.191 gün/4.382 dosya mevcut

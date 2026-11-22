@@ -8,11 +8,12 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Teslim edilen FWI dosyasının incelemesi](FWI_RECEIVED_REVIEW_2026-11-22.md) | Gerçek Haziran 2022 NetCDF/30 bant, sayısal kalite ve hash; açık zaman tanımı, tek günlük GRIB eş dosyası için somut seçimler |
 | [Birinci aşama karar dosyası](STAGE_ONE_DECISION_PACKET_2026-11-22.md) | Üç bilimsel geçiş konusu, 2.191 gün/4.382 dosyalık içerik okumayan envanter, 2024/2025'in bu dizinde bulunmaması ve birleştirme öncesi bağımlılıklar |
 | [Kısa devam kaydı](NEXT_SESSION.md) | İlk sonraki iş, FWI edinim bağımlılığı, yeniden çalıştırılmayacak sonuçlar ve sabit kabul kapıları |
 | [Kesinti paylı teslim planı incelemesi](DELIVERY_PLAN_REVIEW_2026-11-22.md) | 19 Kasım hedeflerine göre gerçek ilerleme, açık üç bilimsel kapı, 40 günlük koşullu pencere ve kota/erişim payı |
 | [Ayrı Mersin takvimi sonucu](CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md) | Açık A ile 2.383 X, 318 eşit önceki kayıt, dokuz sabit model/2.329 çift ve zayıf günlük aktarım; 45 ayrı hesap ve yerel kayıt |
-| [FWI referansı için küçük edinim hazırlığı](FWI_REFERENCE_PILOT_2026-11-21.md) | Resmî EWDS formu/oturum kontrolü, bir aylık sınırlı istek, metadata okuyucusu; giriş/lisans kullanıcıda, dosya henüz yok |
+| [FWI referansı için küçük edinim hazırlığı](FWI_REFERENCE_PILOT_2026-11-21.md) | 21 Kasım tarihsel edinim planı ve metadata okuyucusu; sonraki gerçek teslim yukarıdaki 22 Kasım raporunda |
 | [Gün farklarını öğrenen dokuz pilotun sonucu](TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md) | Açık A seçimi, 9 doğrusal model, aynı çiftlerde 36 ayrı ölçü, yakın tarihlerde zayıf ayrım, yerel MLflow, il düzeltmesi ve gözlenen devam bağlamı |
 | [Mersin kaynağıyla ayrı takvim önerisi](CROSS_SOURCE_CALENDAR_PROPOSAL_2026-11-21.md) | 81 kaynak/87 U için iki çiftlik mevcut destek; 78 kaynak hücre–ayında 2.383 gün/2.065 ek X ihtiyacı, henüz uygulanmamış ayrı kaynak sınaması |
 | [Günlük öğrenme için somut yöntem seçenekleri](TEMPORAL_PAIRWISE_PROPOSAL_2026-11-21.md) | Tamamlanan grafik/zaman ve 15 dinamik alan desteği, 0 ortak gözlenen blok, birincil çift kaybı kaynağı ve henüz uygulanmamış A/B model önerisi |
