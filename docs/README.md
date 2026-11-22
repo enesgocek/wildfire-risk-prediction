@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 21 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 22 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,8 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Kısa devam kaydı](NEXT_SESSION.md) | İlk sonraki iş, FWI edinim bağımlılığı, yeniden çalıştırılmayacak sonuçlar ve sabit kabul kapıları |
+| [Kesinti paylı teslim planı incelemesi](DELIVERY_PLAN_REVIEW_2026-11-22.md) | 19 Kasım hedeflerine göre gerçek ilerleme, açık üç bilimsel kapı, 40 günlük koşullu pencere ve kota/erişim payı |
 | [Ayrı Mersin takvimi sonucu](CROSS_SOURCE_CALENDAR_RESULTS_2026-11-21.md) | Açık A ile 2.383 X, 318 eşit önceki kayıt, dokuz sabit model/2.329 çift ve zayıf günlük aktarım; 45 ayrı hesap ve yerel kayıt |
 | [FWI referansı için küçük edinim hazırlığı](FWI_REFERENCE_PILOT_2026-11-21.md) | Resmî EWDS formu/oturum kontrolü, bir aylık sınırlı istek, metadata okuyucusu; giriş/lisans kullanıcıda, dosya henüz yok |
 | [Gün farklarını öğrenen dokuz pilotun sonucu](TEMPORAL_PAIRWISE_RESULTS_2026-11-21.md) | Açık A seçimi, 9 doğrusal model, aynı çiftlerde 36 ayrı ölçü, yakın tarihlerde zayıf ayrım, yerel MLflow, il düzeltmesi ve gözlenen devam bağlamı |

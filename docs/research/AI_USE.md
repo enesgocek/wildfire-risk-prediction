@@ -6,6 +6,14 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+22 Kasım teslim planı değerlendirmesi. Eski koşullu plan ile kayıtlı
+X/model/farklı-kaynak sonuçları yapay zekâ desteğiyle karşılaştırıldı.
+Üç temel makbuzun içerik hash'i tekrar eşleşti; ham bilimsel veri veya
+modeller yeniden üretilmedi. Kota/erişim payı ve kısa devam kaydı
+hazırlandı. Teslim garantisi, bilimsel kabul veya yeni araştırmacı
+yöntem onayı uydurulmadı. Önceki 57 test yeni test sayılmadı.
+[Değerlendirme ve katkı sınırı](../DELIVERY_PLAN_REVIEW_2026-11-22.md).
+
 21 Kasım ayrı Mersin takvimi. Araştırmacının ikinci açık A seçimiyle
 2.383 X/QA hazırlığı, 672 günlük içerik hash/pencere kontrolü,
 318 eski kayıt eşitliği ve ayrı UTC/ay/grafik okuması yapay zekâ

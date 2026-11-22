@@ -2160,6 +2160,16 @@ E239/E240 son teknik kontrolü: 57 ilgili test, yedi Python dosyası
 kod/biçim ve üç makbuzun güncel üretici/çıktı hash kontrolü geçti.
 Dört FWI zaman testi sentetik; gerçek veri edinimi/kabulü değil.
 
+E241 — 22 Kasım. [İlerleme ve teslim planı incelemesi](../DELIVERY_PLAN_REVIEW_2026-11-22.md).
+19 Kasım hedefleri, tamamlanan 44.082 X, dokuz günlük pilot ve
+2.383 Mersin takvimiyle karşılaştırıldı. Üç mevcut makbuzun içerik
+hash'i kayıtlı kimlikle eşleşti; yeni model veya ham veri denetimi
+değil. 1 Ocak tahmini tarihe 40 gün, 26–29 Kasım karar hedefine
+4–7 gün; üç bilimsel geçiş kapısı açık. Kota/erişim payı, kısa devam
+kaydı ve teslim tamponu planlandı; kabul veya yetişme garantisi yok.
+FWI klasörü boş, kullanıcı edinimi yapacağını bildirdi. Önceki testler
+bugünün bilimsel sonucu olarak sayılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

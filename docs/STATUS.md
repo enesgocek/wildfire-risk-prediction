@@ -1,9 +1,20 @@
-# Proje durum raporu — 21 Kasım 2026
+# Proje durum raporu — 22 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**22 Kasım teslim planı ve kesinti sonrası devam düzeni gözden geçirildi.**
+Tahmini 1 Ocak'a 40 takvim günü var; 26–29 Kasım ilk aşama karar
+hedefi henüz geçmedi. Teknik ilerleme belirgin, fakat kaynak/PU/
+değerlendirme geçişi açık ve yetişme garantisi yok. Sürekli prompt
+varsayımı yerine toplu iş/karar, değişmez makbuzdan devam ve Aralık
+sonunda teslim payı belgelendi. Üç mevcut temel makbuzun hash'i
+kayıtlı kimlikle eşleşti; yeni deney/test sonucu üretilmedi.
+FWI klasörü boş; araştırmacı henüz indirmediğini ve edinim adımını
+yapacağını bildirdi. [Koşullu plan ve ilerleme karşılaştırması](DELIVERY_PLAN_REVIEW_2026-11-22.md) ·
+[Bir sonraki oturumda ilk iş](NEXT_SESSION.md).
 
 **21 Kasım ayrı Mersin takvimi ve dokuz sabit-model sınaması tamamlandı.**
 A seçimiyle 2.383 anahtar, 11 ay/336 gün, 672 güncel dosya hash/

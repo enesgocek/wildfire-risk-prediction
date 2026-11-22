@@ -38,6 +38,14 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+22 Kasım plan değerlendirmesi: 26–29 Kasım ilk aşama karar hedefi
+korundu; takvim ilerlemesi bilimsel kabul sayılmadı. Tamamlanan X ve
+yardımcı modeller teknik ilerleme sağladı; üç geçiş kapısı açık.
+Kota/erişim bekleyişi, toplu kararlar, checkpoint'ten devam ve
+24–31 Aralık teslim payı ayrıca gösterildi. Yeni deney veya hedef/
+kapsam değişikliği yok; tahmini 1 Ocak için garanti verilmedi.
+[İlerleme ve kesinti paylı plan](../DELIVERY_PLAN_REVIEW_2026-11-22.md).
+
 21 Kasım sonraki açık A seçimiyle ayrı Mersin takvimi tamamlandı:
 2.383 X, 318 eski X/QA eşit, 79 tam kaynak günü, dokuz sabit model
 ve 2.329 aynı-hücre/ay çifti. Yardımcı AUC 0,522542–0,540575;
