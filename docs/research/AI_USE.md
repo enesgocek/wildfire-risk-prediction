@@ -6,6 +6,16 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+22 Kasım karar dosyası devamı. Özellik dosyalarının yalnız kayıtlı
+gün/yol/boyut ve mevcut olma bilgileri yapay zekâ desteğiyle sayıldı;
+2.191 gün/4.382 dosya mevcut, kayıtlı boyutta. Günlük içerik veya
+2023–2025 bilimsel değerleri okunmadı; hash yenilemesi sayılmadı.
+Üç bilimsel geçiş konusu tek karar dosyasında birleştirildi; bu,
+bilimsel kabul veya insan doğrulaması değil. Üç yeni dahil 31 ilgili
+koruma testi ve iki Python dosyası kod/biçim geçti. Yeni model, etiket
+veya nihai veri birleştirmesi yapılmadı.
+[Çalışma ve katkı sınırı](../STAGE_ONE_DECISION_PACKET_2026-11-22.md).
+
 22 Kasım teslim planı değerlendirmesi. Eski koşullu plan ile kayıtlı
 X/model/farklı-kaynak sonuçları yapay zekâ desteğiyle karşılaştırıldı.
 Üç temel makbuzun içerik hash'i tekrar eşleşti; ham bilimsel veri veya

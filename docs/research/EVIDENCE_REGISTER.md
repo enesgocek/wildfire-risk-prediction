@@ -2170,6 +2170,17 @@ kaydı ve teslim tamponu planlandı; kabul veya yetişme garantisi yok.
 FWI klasörü boş, kullanıcı edinimi yapacağını bildirdi. Önceki testler
 bugünün bilimsel sonucu olarak sayılmadı.
 
+E242 — 22 Kasım. [Birinci aşama karar dosyası ve metadata envanteri](../STAGE_ONE_DECISION_PACKET_2026-11-22.md).
+Hash'li hazır aday özellik dizininde 2018–2023 için 2.191 gün /
+4.382 dosya mevcut ve kayıtlı boyutta; eksik/boyut uyuşmazlığı 0.
+Günlük içerikler okunmadı, içerik hash'leri yeniden hesaplanmadı.
+2024/2025 bu dizinde yok;
+disk/sağlayıcı genelinde yokluk veya final erişimi anlamına gelmez.
+Üç bilimsel geçiş konusu açık; yardımcı AUC otomatik kabul/red
+eşiği yapılmadı. Üç yeni envanter testi dahil 31 ilgili koruma
+testi ve iki Python dosyası kod/biçim geçti. Geçiş/etiket/model veya
+nihai birleştirme kabulü yok; FWI kullanıcı dosyası bekleniyor.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

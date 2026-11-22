@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**22 Kasım devamı: birinci aşama karar dosyası ve dosya metadata envanteri tamam.**
+Doğrulanmış özellik aday dizinindeki 2018–2023 için 2.191 gün /
+4.382 dosya mevcut, kayıtlı boyutlarla uyumlu; eksik dosya ve boyut
+uyuşmazlığı 0. İçerik değerleri okunmadı, günlük içerik hash'leri
+yenilenmedi. Bu dizin 2024/2025'i kapsamıyor; diskte başka kaynak
+olmadığı veya o yılların bilimsel değerlerinin açıldığı anlamına
+gelmiyor. Ek hazırlık bağımlılığı teslim planında görünür tutuldu.
+Üç bilimsel geçiş konusu, desteklenen/varsayılan/açık yönleriyle
+[karar dosyasında](STAGE_ONE_DECISION_PACKET_2026-11-22.md) toplandı.
+Üç yeni envanter testi dahil 31 ilgili koruma testi ve iki Python
+dosyası kod/biçim kontrolü geçti. FWI dosyası hâlâ yok; yeni model,
+etiket, geçiş kabulü veya birleştirme yapılmadı.
+
 **22 Kasım teslim planı ve kesinti sonrası devam düzeni gözden geçirildi.**
 Tahmini 1 Ocak'a 40 takvim günü var; 26–29 Kasım ilk aşama karar
 hedefi henüz geçmedi. Teknik ilerleme belirgin, fakat kaynak/PU/

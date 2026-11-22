@@ -8,7 +8,9 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 1. Mevcut tarih ile [kesinti paylı planı](DELIVERY_PLAN_REVIEW_2026-11-22.md)
    karşılaştır. 26–29 Kasım karar hedefi geçmişse yeni küçük model
-   eklemekten önce karar/gecikme incelemesini sun.
+   eklemekten önce karar/gecikme incelemesini sun. Mevcut
+   [birinci aşama karar dosyası](STAGE_ONE_DECISION_PACKET_2026-11-22.md)
+   hazır; bunu yeniden sıfırdan üretme. Üç bilimsel kapı açık.
 2. `data/raw/external/cems_fwi_pilot_v1/` içindeki kullanıcı
    teslimini kontrol et. 22 Kasım'da klasör boştu; kullanıcı henüz
    indirmediğini, giriş/indirme adımını yapacağını bildirdi.
@@ -44,6 +46,11 @@ esas alınır. Giriş/parola/anahtar dosyalarını tarama veya yazdırma.
   yukarıdaki üç temel makbuz 22 Kasım'da yeniden hash ile eşleşti.
 - Günlük ve farklı-kaynak sıralama zayıflığı açık. Yeni denemeler,
   yalnız yüksek bir sayı aramak amacıyla otomatik çoğaltılmaz.
+- 22 Kasım metadata envanteri: hazır özellik aday dizinindeki 2.191
+  gün/4.382 dosya yerinde ve kayıtlı boyutta. 2024/2025 bu dizinde
+  yok; bütün disk/sağlayıcı envanteri veya içerik hash kontrolü değil.
+  `delivery_readiness_metadata_v1/20261122T111335Z_6aba3549/readback.json`
+  SHA-256: `ee92667192b0ec173b2f7f20f601f636f2d54b485e82d9a3b050dddc5ba5d919`.
 
 Yollar `outputs/reports/dataset/` altındadır. Girdi/kod değişikliği
 görülürse eski tamamlanmayı yeni sürüme taşımadan önce farkı incele.

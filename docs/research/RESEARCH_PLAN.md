@@ -38,6 +38,14 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+22 Kasım devamı: üç geçiş konusu için güncel karar dosyası hazır;
+bilimsel geçiş kabul edilmedi. Dosya değerlerini açmadan hazır aday
+özellik dizini sayıldı: 2018–2023 için 2.191 gün/4.382 dosya mevcut
+ve kayıtlı boyutta. Bu dizin 2024/2025'i kapsamıyor; onların verileri
+açılmadı veya küresel yokluk iddia edilmedi. Son parça hash denetimi
+yerine geçmez. Yeni model/etiket yok; 31 ilgili koruma testi geçti.
+[Kanıt ve açık bağımlılıklar](../STAGE_ONE_DECISION_PACKET_2026-11-22.md).
+
 22 Kasım plan değerlendirmesi: 26–29 Kasım ilk aşama karar hedefi
 korundu; takvim ilerlemesi bilimsel kabul sayılmadı. Tamamlanan X ve
 yardımcı modeller teknik ilerleme sağladı; üç geçiş kapısı açık.
