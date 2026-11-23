@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım kullanıcı ekran kontrolü alındı; deneysel inceleme sürümü kapandı.**
+Doğru v2 ekrandaki 44.082 / 6.573 / 242 sayım bağlamı ve satır
+ayrıntıları araştırmacı tarafından doğrulandı. İlk 2.422 satırlık
+sayfa eski v1 idi. Otomatik tarayıcı başarısı veya etiket kabulü
+sayılmadı. On paket dosyası, makbuzlar ve ZIP güncel hash'lerle
+eşleşti; dosyalar yeniden üretilmeden ayrı kapanış makbuzu yazıldı.
+Yeni test/model/eğitim veya nihai birleştirme yapılmadı. İnceleme
+sürümünün teknik veri ve kullanılabilirlik kontrolleri tamam;
+ana yöntemin bilimsel geçişi açık.
+[Kullanıcı bildirimi ve kapanış kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md#sonraki-kullanıcı-doğrulaması-ve-kapanış).
+
 **23 Kasım açık A kararı: incelenebilir deneysel S/U paketi hazır; ekran kontrolü kullanıcıda.**
 2018–2022 mevcut kaynak koşullu takviminden 44.082 satır/822 hücre,
 27 özellik; 41.358 tam/2.724 eksik satır korundu. 1.670 birleşim

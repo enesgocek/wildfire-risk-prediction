@@ -6,6 +6,14 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım kullanıcı ekran doğrulaması. Araştırmacının doğru v2 sayfası
+için bildirdiği sayım/ayrıntı doğrulaması ayrı makbuzla kaydedildi;
+asistan tarayıcıda görmüş veya satır etiketlerini insan doğrulamış
+sayılmadı. Yapay zekâ destekli on dosya/makbuz/ZIP hash kontrolü
+geçti; üretim, test veya eğitim yeniden çalıştırılmadı. Kullanıcı
+kullanılabilirlik bildirimi bilimsel kabul yetkisine dönüştürülmedi.
+[Katkı ve kapanış](../EXPERIMENTAL_SU_PACKAGE_2026-11-23.md#sonraki-kullanıcı-doğrulaması-ve-kapanış).
+
 23 Kasım deneysel paket. Araştırmacının açık A kararıyla mevcut
 özellik/provenance ve aday geçmişleri birebir kopyalandı; dokuz
 üyelik önerisi, eksik sayıları ve il alan kesişimleri yapay zekâ

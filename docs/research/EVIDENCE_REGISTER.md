@@ -2227,6 +2227,14 @@ eşleşti; gerçek tarayıcı kontrolü file protokol politikası nedeniyle
 yapılamadı, kullanıcıya soruldu. 33 ilgili test/dört Python kod-biçim
 geçti. Yeni fit, gerçek etiket, kapalı yıl veya final merge yok.
 
+E247 — 23 Kasım. [Deneysel paketin kullanıcı ekran kontrolü ve kapanışı](../EXPERIMENTAL_SU_PACKAGE_2026-11-23.md#sonraki-kullanıcı-doğrulaması-ve-kapanış).
+Doğru v2 sayfasındaki 44.082 / 6.573 / 242 sayım bağlamı ve satır
+ayrıntıları kullanıcı bildirimiyle doğrulandı. Önceki 2.422 satırlık
+sayfa v1'di; veri kaybı değildi. On paket dosyası, iki makbuz ve ZIP
+hash'i güncel kimlikle eşleşti; ayrı kullanılabilirlik makbuzu yazıldı.
+Otomatik tarayıcı gözlemi, etiket kabulü, yeni test/fit veya nihai
+birleştirme değil. Önceki 33 test bu devamda yeniden çalıştırılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

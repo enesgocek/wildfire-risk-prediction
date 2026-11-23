@@ -6,12 +6,13 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
-0. Açık A ile deneysel paket tamam: [kullanım/denetim kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
-   Önce kullanıcının bekleyen ekran kontrolü yanıtını değerlendir.
+0. Açık A ile deneysel paket ve kullanıcı ekran kontrolü tamam:
+   [kullanım/denetim/kapanış kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
    Paket dizini `experimental_SU_inspection_v2/20261123T102954Z_6d6e52c1`:
    44.082 satır, yıl 2022 filtresi 6.573, ayrıca S grubu 242 (ayar: tümü).
-   Tarayıcı aracının file protokol reddini alternatif yüzey/dolaylı
-   yürütmeyle aşma; kullanıcı kendi tarayıcında kontrol edecek.
+   Araştırmacı doğru v2 sayfasındaki kontrolleri doğruladı; tekrar
+   aynı ekran onayını isteme. Tarayıcı aracının file protokol reddini
+   alternatif yüzey/dolaylı yürütmeyle aşma.
    Bu ekran yanıtı bilimsel/etiket/final merge onayı değildir.
    Dosyaları yeniden üretme; gerekirse yeni düzeltme sürümü kullan.
 1. Mevcut tarih ile [kesinti paylı planı](DELIVERY_PLAN_REVIEW_2026-11-22.md)
@@ -46,7 +47,8 @@ esas alınır. Giriş/parola/anahtar dosyalarını tarama veya yazdırma.
 - Deneysel paket: 44.082 anahtar/27 özellik ve dokuz mevcut öneri.
   Paket SHA `86270dea5d9d12a1764ead780dcfa79166bed60a0977bf712e3df497d84bc366`;
   ayrı veri/arşiv audit SHA `85fb7ac20f5d3e0564fe2ec66a5e4801f469d5c860cd5933b6a17e5be6c74356`.
-  Tam dizinler raporda. Kullanıcı ekran kontrolü henüz alınmadı.
+  Tam dizinler raporda. Kullanıcı ekran kontrolü alındı; kapanış SHA
+  `8dbadb81ebfd4537f620d8a571a46523c5e593cbd49ac6d68ec5665379978d06`.
 - FWI 203 satır / 196 çift kıyası, ayrı örnek/çift/50 özet/70 hücre
   denetimi ve yerel MLflow kapanışı tamam. Sonuç makbuzu
   `fwi_reference_comparison_run_v1/20261123T101431Z_805e6449/readback.json`,

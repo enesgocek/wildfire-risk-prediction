@@ -8,7 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
-| [İncelenebilir deneysel S/U paketi](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md) | Açık A ile 44.082 satır/822 hücre/27 özellik, dokuz öneri ve korunmuş eksikler; veri/ZIP denetimi tamam, ekran kullanıcı kontrolünde |
+| [İncelenebilir deneysel S/U paketi](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md) | Açık A ile 44.082 satır/822 hücre/27 özellik; veri/ZIP denetimi ve kullanıcı ekran kontrolü tamam, bilimsel etiket/eğitim kabulü değil |
 | [Birinci aşama sonrası kapsam seçeneği](STAGE_ONE_NEXT_SCOPE_2026-11-23.md) | Ana hedef korunarak deneysel S/U hazırlığı ile yalnız doğrulanmış hedefle geçişin yararı/sınırı; henüz kabul kararı değil |
 | [FWI referansı ile sabit model sonuçları](FWI_REFERENCE_RESULTS_2026-11-23.md) | 203 ortak satır/196 çift; FWI 0,637755, modeller 0,612245–0,642857; yakın gün sınırı, ayrı 50/70 ölçü denetimi ve yerel kayıt |
 | [FWI özgün zaman ve biçim kontrolü](FWI_LOCAL_TIME_REVIEW_2026-11-23.md) | Tek günlük GRIB/NetCDF 873 değer ve maske eşitliği; yerel öğlen, artım yorum düzeltmesi; 203 anahtarlık sınırlı karşılaştırma önerisi |

@@ -1,5 +1,12 @@
 # İncelenebilir deneysel S/U paketi
 
+**23 Kasım sonraki kontrol: araştırmacı doğru v2 ekranındaki
+sayımları ve satır ayrıntılarını doğruladı.** Önce açılan 2.422
+satırlık ekran eski v1 paketiydi; veri kaybı değildi. Deneysel
+inceleme sürümünün veri/arşiv ve kullanıcı kullanılabilirlik kontrolü
+tamamlandı. Bu, yangın etiketi veya nihai birleştirme onayı değil.
+Aşağıdaki bekleme notları ilk paket tesliminin tarihsel durumudur.
+
 23 Kasım 2026. Araştırmacı açık A seçimiyle ana 24 saatlik hedefi
 araştırma sorusu olarak koruyup mevcut verilerden incelenebilir
 deneysel paket hazırlanmasını istedi. **Paket ve bağımsız veri/arşiv
@@ -115,3 +122,24 @@ izin verdi; koşullu kaynak bağlamını doğrulanmış yangın hedefi yapmadı.
 Yeni model eğitimine veya nihai birleştirmeye ayrıca geçilmedi.
 Önce ekran incelemesinin sonucu kaydedilecek; ardından deney kapsamı
 bu paket ve açık iddia sınırlarıyla somutlaştırılabilir.
+
+## Sonraki kullanıcı doğrulaması ve kapanış
+
+Araştırmacı doğru `experimental_SU_inspection_v2` sayfasını açtıktan
+sonra, istenen sayım ve ayrıntı kontrollerinin doğru olduğunu bildirdi.
+Doğrulama bağlamı 44.082 başlangıç satırı, yıl 2022 için 6.573 ve
+tüm ayarlarda öneri/S filtresiyle 242 satır ile satır ayrıntılarıydı.
+Bu kullanıcı bildirimi; otomatik tarayıcı gözlemi veya bilimsel
+satır/etiket incelemesi olarak kaydedilmedi.
+
+On çıktı dosyasının hash'i, paket ve ayrı audit makbuzları ile ZIP
+hash'i güncel dosyalarla yeniden eşleşti. Paket, HTML veya ZIP yeniden
+üretilmedi; önceki makbuzlar değişmedi. Yalnız kapanış makbuzu eklendi:
+`outputs/reports/dataset/experimental_SU_usability_receipt_v2/20261123T130043Z_0563772d/readback.json`,
+SHA-256 `8dbadb81ebfd4537f620d8a571a46523c5e593cbd49ac6d68ec5665379978d06`.
+
+Bu devam yalnız kullanıcı kontrolünün kaydı ve dosya bütünlüğü
+doğrulamasıdır; bilimsel üretim veya yeni test koşusu yapılmadı.
+Önceki 33 test tarihsel sonuç olarak kalır. İnceleme sürümü hazır;
+ana yöntem/gerçek hedef değerlendirmesi, yeni eğitim kapsamı ve
+nihai etiketli birleştirme ayrı karar/koruma koşullarıdır.

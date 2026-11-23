@@ -38,6 +38,13 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım sonraki kontrol: araştırmacı doğru v2 inceleme ekranındaki
+sayım/ayrıntı işlevlerini doğruladı. On çıktı dosyası ve ZIP güncel
+hash'lerle eşleşti; ayrı kullanıcı kullanılabilirlik kapanış makbuzu
+yazıldı. Yeni bilimsel üretim/test yok. Deneysel inceleme sürümünün
+teknik kapanışı, ana yöntemin bilimsel geçişi veya eğitim izni değil.
+[Kapanış ve korunan sınır](../EXPERIMENTAL_SU_PACKAGE_2026-11-23.md#sonraki-kullanıcı-doğrulaması-ve-kapanış).
+
 23 Kasım açık A: ana hedef araştırma sorusu olarak korunarak mevcut
 2018–2022 kaynak koşullu takvimden deneysel S/U paketi hazırlandı.
 44.082 satır, 27 özellik, dokuz öneri; gerçek Y/L boş, bilinmeyen
