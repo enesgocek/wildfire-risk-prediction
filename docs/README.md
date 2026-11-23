@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 22 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 23 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [FWI özgün zaman ve biçim kontrolü](FWI_LOCAL_TIME_REVIEW_2026-11-23.md) | Tek günlük GRIB/NetCDF 873 değer ve maske eşitliği; yerel öğlen, artım yorum düzeltmesi; 203 anahtarlık sınırlı karşılaştırma önerisi |
 | [Teslim edilen FWI dosyasının incelemesi](FWI_RECEIVED_REVIEW_2026-11-22.md) | Gerçek Haziran 2022 NetCDF/30 bant, sayısal kalite ve hash; açık zaman tanımı, tek günlük GRIB eş dosyası için somut seçimler |
 | [Birinci aşama karar dosyası](STAGE_ONE_DECISION_PACKET_2026-11-22.md) | Üç bilimsel geçiş konusu, 2.191 gün/4.382 dosyalık içerik okumayan envanter, 2024/2025'in bu dizinde bulunmaması ve birleştirme öncesi bağımlılıklar |
 | [Kısa devam kaydı](NEXT_SESSION.md) | İlk sonraki iş, FWI edinim bağımlılığı, yeniden çalıştırılmayacak sonuçlar ve sabit kabul kapıları |

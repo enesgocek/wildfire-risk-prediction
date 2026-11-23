@@ -38,6 +38,14 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım GRIB eş dosyası geldi: 873 değer/156 eksik maske NetCDF ile
+birebir. Yerel 12:00 başlığı doğrulandı; 8 zaman artımını sekiz alan
+sayma çıkarımı ayrı kayıtla geri çekildi. Kesin son forcing/erişim
+ve otomatik T−1 kabulü yok. 203 mevcut Mersin anahtarıyla, yeni fit
+olmadan yapılabilecek geriye dönük FWI kıyas yönü karar için hazır;
+henüz uygulanmadı. Beş yeni davranış testi dahil 41 ilgili test geçti.
+[Bulgular ve yöntem kararı](../FWI_LOCAL_TIME_REVIEW_2026-11-23.md).
+
 22 Kasım kullanıcı FWI teslimi incelendi: 30 günlük özgün Haziran
 2022 dosyasında 26.190 sonlu/4.680 eksik nokta-gün; negatif veya
 maskelenmemiş tanımsız değer 0. Dosyanın nominal 00:00 saatinin

@@ -1,6 +1,6 @@
 # Kısa devam kaydı
 
-Güncelleme: 22 Kasım 2026. Bu dosya durum/kontrol sırasıdır;
+Güncelleme: 23 Kasım 2026. Bu dosya durum/kontrol sırasıdır;
 yeni yetki, otomatik görev veya bilimsel kabul makbuzu değildir.
 AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
@@ -11,32 +11,35 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
    eklemekten önce karar/gecikme incelemesini sun. Mevcut
    [birinci aşama karar dosyası](STAGE_ONE_DECISION_PACKET_2026-11-22.md)
    hazır; bunu yeniden sıfırdan üretme. Üç bilimsel kapı açık.
-2. Haziran 2022 NetCDF teslim alındı ve incelendi; yeniden başlatma.
-   [Gerçek FWI kalite sonucu](FWI_RECEIVED_REVIEW_2026-11-22.md) ve
-   aşağıdaki makbuzlardan devam et. `data/raw/external/cems_fwi_pilot_v1/`
-   içine tek 1 Haziran 2022 GRIB eş dosyası bekleniyor. Formda yalnız
-   gün ve biçim değişecek; tam seçimler raporda. Giriş/anahtar tarama.
-3. GRIB gelirse özgün baytları koruyup
-   `scripts/quality/inspect_fwi_grib_header.py --file <gerçek yerel dosya>`
-   ile yalnız başlığını incele. Üst sınır 32 MiB; ZIP başka kapsayıcı
-   olarak önce incelenir. Mevcut NetCDF silinmez veya dönüştürülmez.
-   GRIB başlığı henüz gerçek dosyayla sınanmış değil.
-4. GRIB zaman/forcing alanları, NetCDF'in nominal 00:00 forecast
-   reference ekseni ve resmî yerel öğlen açıklaması karşılaştırılır.
-   Başlıktan yayımlanma/edinim zamanı türetilmez; otomatik T−1 veya
-   aynı-gün model girdisi kabul edilmez. GRIB tüm sorunu çözmeyebilir.
-   FWI referansı gerçek yeni yangın etiketi veya olasılığı değildir.
+2. NetCDF ve GRIB teslimi/kontrolü tamam; yeniden indirme veya aynı
+   kalite koşularını tekrarlama. [23 Kasım zaman ve eşitlik incelemesi](FWI_LOCAL_TIME_REVIEW_2026-11-23.md)
+   güncel kayıttır. Genel GDAL geçerli zaman 0 ve ilk 00–21 enumerasyonu
+   bilimsel zaman kanıtı değildir. Artım düzeltme makbuzu esas alınır.
+3. Rapordaki A/B günlük FWI referans karşılaştırma yönüne kullanıcının
+   yanıtını kontrol et. A yalnız geriye dönük, önceki gün takvim FWI'si
+   ile dokuz mevcut modelin ortak sonlu anahtar/çift karşılaştırmasıdır;
+   operasyonel erişim veya ana model girdisi kabulü değildir. 203 anahtar,
+   7 kaynak anahtarı, maske kontrolünden önce 196 olası çift var.
+4. Yön seçilmeden bu yeni değerlendirmeyi yürütme. Seçilirse sınır
+   15 dakika, yerel; yeni fit, indirme, bulut, 2023–2025, gerçek Y/L,
+   negatif atama, renk veya final merge yok. Eksik desteği değiştirme.
+   Önce koordinat/mesafe, zaman varsayımı ve ortak örneklem doğrulanır.
 5. Sonucu tarihli rapor, STATUS ve o günün Diary kaydına bağla.
    Yeni bilimsel yön veya insan değerlendirmesi gerekiyorsa somut
    bulgu ve gerekçeli seçenek sun. Nihai birleştirme kapısını koru.
 
-GRIB yoksa yeni indirilmiş gibi ilerleme. Referans edinimini
-beklemek, mevcut kanıtla birinci aşama karar dosyasının hazırlanmasını
-engellemez; [plan incelemesindeki üç açık kapı](DELIVERY_PLAN_REVIEW_2026-11-22.md#birinci-aşamanın-üç-geçiş-koşulu)
+Referans incelemesinin bitmesi, ana yöntemin bilimsel geçişi değildir;
+[plan incelemesindeki üç açık kapı](DELIVERY_PLAN_REVIEW_2026-11-22.md#birinci-aşamanın-üç-geçiş-koşulu)
 esas alınır. Giriş/parola/anahtar dosyalarını tarama veya yazdırma.
 
 ## Tekrar yapılmayacak tamamlanmış işler
 
+- GRIB/NetCDF 1 Haziran: 873 sonlu değer ve 156 eksik maske birebir.
+  Güncel zaman yorumu `fwi_increment_interpretation_v1/20261123T002508Z_5c7204e9/readback.json`,
+  SHA `befa8ecc8e7da5dbc580aa379530ba3ea0426879f2b5411c74a525b86e236ea3`.
+  İlk saat enumerasyonu kabul edilmedi; yayımlanma saati bilinmiyor.
+  Karşılaştırma planı `fwi_reference_comparison_plan_v1/20261123T002128Z_66578e13/readback.json`,
+  SHA `d8326d3bd0b54a5b95cdf66e5309b6e6138e7b49f6a06574ba8c37f26b67bdbf`.
 - Haziran 2022 NetCDF: 30 bant/49 × 21, 26.190 sonlu ve 4.680 eksik
   nokta-gün; negatif/maskelenmemiş NaN/sonsuz 0. Özgün dosya SHA-256
   `e6b57e8ecbd5836f141eb6d0cbd17dc283d6569bb194c5496861d4ba8e5f5a8e`.

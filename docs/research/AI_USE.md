@@ -6,6 +6,16 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım GRIB incelemesi. Dosyayı araştırmacı indirdi; kaynak baytları
+yapay zekâ destekli başlık ayrıştırma ve tek gün sayısal karşılaştırmada
+korundu. Resmî ecCodes tanımları sabit Git kimliğiyle okundu; uzak kod
+çalıştırılmadı. 873 değer ve eksik maskesi birebir. İlk artım/alan
+sayısı yorumu ek resmî şablon kontrolünde geri çekildi; eski makbuz
+korunarak ayrı düzeltme üretildi. Bu otomatik kontroller insan veya
+saha doğrulaması değildir. 203 anahtarlık karşılaştırma planı yalnız
+hazırlandı; yeni performans hesabı veya fit yapılmadı. Beş yeni test
+dahil 41 ilgili test geçti. [Katkı ve hata düzeltme kaydı](../FWI_LOCAL_TIME_REVIEW_2026-11-23.md).
+
 22 Kasım FWI teslim incelemesi. Araştırmacı dosyayı indirdi ve yerel
 klasöre koydu; giriş/lisans işlemi asistan tarafından yapılmadı.
 Özgün NetCDF başlığı, 30 günlük sınırlı kalite hesabı, bağımsız

@@ -2194,6 +2194,18 @@ kontrolü hazır, gerçek GRIB henüz yok. Dört yeni sentetik dahil 36
 ilgili test ve dört Python dosyası kod/biçim geçti. Zaman/girdi/etiket/
 risk rengi veya nihai birleştirme kabulü değil; kapalı yıllar açılmadı.
 
+E244 — 23 Kasım. [Tek günlük FWI özgün saat ve biçim kontrolü](../FWI_LOCAL_TIME_REVIEW_2026-11-23.md).
+2.088 bayt GRIB2, yerel 12:00/PDT 4.93; sayısal ızgara aynı,
+873 değer ve 156 eksik maske NetCDF ilk bandıyla birebir. Genel
+GDAL geçerli saat 0 kullanılmadı. İlk 00–21 alan enumerasyonu
+zaman artımı yorum hatası olarak ayrı makbuzla geri çekildi;
+8 × 3 saatlik artım kaydı kesin son alan veya yayımlanma saati
+sayılmadı. Kaynak şablonlar sabit ECMWF Git kimliğiyle bağlı.
+203 anahtar/7 hücre/7 kaynak anahtarı, FWI desteği öncesi 196 çift:
+yalnız sonraki karşılaştırmanın hazırlığı, yeni performans değil.
+41 ilgili test ve beş yeni Python dosyası kod/biçim geçti. Yeni
+model, etiket, kapalı yıl, risk rengi veya final merge yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

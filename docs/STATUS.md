@@ -1,9 +1,24 @@
-# Proje durum raporu — 22 Kasım 2026
+# Proje durum raporu — 23 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**23 Kasım tek günlük GRIB kontrolü tamam; NetCDF ile sayısal eşitlik doğrulandı.**
+2.088 baytlık tek alan, aynı 49 × 21 ızgara: 873 sonlu değer birebir
+aynı, 156 eksik noktanın maskesi aynı. PDT 4.93 başlığı yerel 12:00
+ve enterpolasyon yöntemi içeriyor; genel okuyucunun sıfır geçerli
+saati reddedildi. İlk 00–21 saat enumerasyonu artım sayısını alan
+sayısı yorumladığından ayrı makbuzla geri çekildi. Güncel yorum
+8 adet 3 saat artımı kaydıdır; son kullanılan alan veya gerçek
+yayımlanma saati doğrulanmış değil. Aynı-gün 00:00 erişimi ve
+otomatik T−1 kabul edilmedi. 41 ilgili test ve beş yeni Python dosyası
+kod/biçim kontrolü geçti. Sonraki yöntem kararı için 2–30 Haziran
+Mersin kesitinde dokuz ayarda aynı 203 anahtar/7 hücre/7 kaynak
+anahtarı ve FWI desteği öncesi 196 çift sayıldı; yeni karşılaştırma
+ve fit yapılmadı. Yeni indirme, kapalı yıl, Y/L, risk rengi veya merge
+yok. [İnceleme ve somut A/B karşılaştırma yönü](FWI_LOCAL_TIME_REVIEW_2026-11-23.md).
 
 **22 Kasım FWI kullanıcı teslimi: başlık ve sayısal kalite kontrolü tamam.**
 100.424 baytlık özgün NetCDF, Haziran 2022'nin 30 gününü ve 49 × 21
