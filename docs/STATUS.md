@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım sonraki deney hazırlığı: doğrusal olmayan günlük sıralama önerisi hazır; eğitim başlamadı.**
+Mevcut 44.082 satırdan aynı 15 dinamik alanla dokuz hücre–ay grup
+envanteri çıkarıldı. Ayara göre 938–1.160 bilgi taşıyan öğrenme
+grubu / 28.068–34.887 tam satır ve 28.081–39.014 potansiyel çift var.
+2022'de aynı 5.982 tam satır/5.733–6.406 çift; sayılar eski doğrusal
+karşılaştırmayla eşleşti. Mevcut ayrı Mersin kesiti 2.323 tam
+satır/2.329 çifti koruyor. Tek sabit XGBoost rank:pairwise önerisi,
+dokuz model, yeni ayar aramadan ve 15 dakika yerel hesaplama sınırıyla
+araştırmacıya sunuldu. Paket kurulu değil; 3.4.1 bağımlılık planı
+hazır, kurulum/eğitim yapılmadı. Beş yeni dahil 33 ilgili test ve
+üç Python dosyası kod/biçim geçti. Yeni Y/L, 2023–2025 değeri,
+skor, risk rengi veya final merge yok.
+[Hipotez, sabit plan, kurulum ve karar kapsamı](NONLINEAR_RANK_PROPOSAL_2026-11-23.md).
+
 **23 Kasım kullanıcı ekran kontrolü alındı; deneysel inceleme sürümü kapandı.**
 Doğru v2 ekrandaki 44.082 / 6.573 / 242 sayım bağlamı ve satır
 ayrıntıları araştırmacı tarafından doğrulandı. İlk 2.422 satırlık

@@ -6,6 +6,16 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım sonraki model önerisi. Mevcut kullanıcıca incelenmiş
+paketin hücre–ay grupları, aynı 15 dinamik alan ve eksiklik
+maskesiyle yapay zekâ desteğiyle sayıldı. Eski doğrusal deneyin
+dokuz öğrenme/değerlendirme çift sayısı eşleşti; model eğitilmedi
+ve skor üretilmedi. Resmî XGBoost belgeleri ve PyPI paket kaydı
+incelendi; sabit deney ve bağımlılık planı hazırlandı, kurulum
+yapılmadı. Beş yeni dahil 33 ilgili test geçti. Bu hazırlık
+araştırmacı eğitim kararı veya PU bilimsel doğrulaması değil.
+[Katkı ve karar sınırı](../NONLINEAR_RANK_PROPOSAL_2026-11-23.md).
+
 23 Kasım kullanıcı ekran doğrulaması. Araştırmacının doğru v2 sayfası
 için bildirdiği sayım/ayrıntı doğrulaması ayrı makbuzla kaydedildi;
 asistan tarayıcıda görmüş veya satır etiketlerini insan doğrulamış

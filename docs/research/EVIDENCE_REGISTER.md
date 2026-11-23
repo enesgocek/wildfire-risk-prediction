@@ -2235,6 +2235,16 @@ hash'i güncel kimlikle eşleşti; ayrı kullanılabilirlik makbuzu yazıldı.
 Otomatik tarayıcı gözlemi, etiket kabulü, yeni test/fit veya nihai
 birleştirme değil. Önceki 33 test bu devamda yeniden çalıştırılmadı.
 
+E248 — 23 Kasım. [Sabit doğrusal olmayan sıralama önerisi ve grup desteği](../NONLINEAR_RANK_PROPOSAL_2026-11-23.md).
+44.082 mevcut anahtar/15 dinamik alan; dokuz ayarda 938–1.160
+bilgi taşıyan öğrenme grubu ve 28.068–34.887 tam satır. Potansiyel
+öğrenme çiftleri 28.081–39.014, 2022 çiftleri 5.733–6.406; eski
+doğrusal sayılarla eşleşti. Ayrı mevcut Mersin 2.323 tam satır/
+2.329 çifti korudu. XGBoost yok; resmî 3.4.1 Windows paket kaydı
+ve sabit öneri parametreleri belgelendi, kurulum yapılmadı. Beş
+yeni dahil 33 ilgili test/üç Python kod-biçim geçti. Yeni model,
+skor, Y/L veya final merge yok; araştırmacı yön seçimi bekleniyor.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

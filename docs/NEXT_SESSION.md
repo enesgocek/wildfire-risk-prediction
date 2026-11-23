@@ -6,6 +6,19 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+Öncelik: [sabit XGBoost günlük sıralama önerisi](NONLINEAR_RANK_PROPOSAL_2026-11-23.md)
+araştırmacıya A/B olarak sunuldu; yanıtı kontrol et. Henüz yeni
+eğitim veya kurulum izni yok. A seçilirse ayrı yürütme kararıyla
+en fazla dokuz model, 2018–2021 öğrenme / mevcut iki 2022 incelemesi;
+3.4.1 bağımlılık kurulumu ve uyum kontrolünden sonra 15 dakika
+yerel CPU sınırı uygulanır. Öneri dosyasını geçmişe dönük izin
+makbuzu olarak değiştirme; yeni yürütme kaydı kullan. B seçilirse
+eğitim açmadan mevcut veri/sonuçlarla yöntem yazımı sürer.
+Hazırlık makbuzu `nonlinear_rank_preparation_v1/20261123T131121Z_14674f77/readback.json`,
+SHA `cda37ee7be3820cc1396e939f7eeef78799ae262f21103da3029edd4710454c9`.
+Girdi desteği tamam; yeniden çıkarma. Kaynak koşullu sıra öğrenmesi
+gerçek yangın PU riskinin bilimsel kabulü değildir.
+
 0. Açık A ile deneysel paket ve kullanıcı ekran kontrolü tamam:
    [kullanım/denetim/kapanış kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
    Paket dizini `experimental_SU_inspection_v2/20261123T102954Z_6d6e52c1`:

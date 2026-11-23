@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım yeni deney hazırlığı: aynı hücre/ay sıralamasında dinamik
+etkileşimleri sınayacak sabit XGBoost önerisi hazırlandı. Girdi
+grupları ve potansiyel çiftler eski doğrusal karşılaştırma sayılarıyla
+eşleşti. Ana soru korunuyor; aday/atamasız uygunluk kodu gerçek
+Y/L değildir. Dokuz yeni eğitim ve paket kurulumu henüz onaylanmadı
+ve yapılmadı. Beş yeni dahil 33 ilgili koruma testi geçti; yeni
+skor veya kapalı yıl erişimi yok.
+[Hipotez, öğrenme/değerlendirme sözleşmesi](../NONLINEAR_RANK_PROPOSAL_2026-11-23.md).
+
 23 Kasım sonraki kontrol: araştırmacı doğru v2 inceleme ekranındaki
 sayım/ayrıntı işlevlerini doğruladı. On çıktı dosyası ve ZIP güncel
 hash'lerle eşleşti; ayrı kullanıcı kullanılabilirlik kapanış makbuzu
