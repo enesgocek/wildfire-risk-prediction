@@ -2217,6 +2217,16 @@ Python dosyası kod/biçim geçti. Model yükleme/fit, yeni veri edinimi,
 kapalı yıllar, Y/L, risk rengi veya final merge yok. Bu referans
 gerçek yangın veya operasyonel erişim doğrulaması değildir.
 
+E246 — 23 Kasım. [A seçimiyle incelenebilir deneysel S/U paketi](../EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
+44.082 kaynak koşullu anahtar/822 hücre/27 özellik; 41.358 tam,
+2.724 eksik, 1.670 öneri birleşimi ve dokuz ayrı ayar. Y/L boş,
+gözlem unknown; eski U ağırlıkları aktarılmadı. Kaynaklar bayt
+kopyası; ayrı 396.738 bayrak/anahtar/eksik/zaman ve ZIP CRC/üye
+eşitliği denetimi geçti. Görüntüleme verisi kaynak sayılarıyla
+eşleşti; gerçek tarayıcı kontrolü file protokol politikası nedeniyle
+yapılamadı, kullanıcıya soruldu. 33 ilgili test/dört Python kod-biçim
+geçti. Yeni fit, gerçek etiket, kapalı yıl veya final merge yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -6,6 +6,14 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+0. Açık A ile deneysel paket tamam: [kullanım/denetim kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
+   Önce kullanıcının bekleyen ekran kontrolü yanıtını değerlendir.
+   Paket dizini `experimental_SU_inspection_v2/20261123T102954Z_6d6e52c1`:
+   44.082 satır, yıl 2022 filtresi 6.573, ayrıca S grubu 242 (ayar: tümü).
+   Tarayıcı aracının file protokol reddini alternatif yüzey/dolaylı
+   yürütmeyle aşma; kullanıcı kendi tarayıcında kontrol edecek.
+   Bu ekran yanıtı bilimsel/etiket/final merge onayı değildir.
+   Dosyaları yeniden üretme; gerekirse yeni düzeltme sürümü kullan.
 1. Mevcut tarih ile [kesinti paylı planı](DELIVERY_PLAN_REVIEW_2026-11-22.md)
    karşılaştır. 26–29 Kasım karar hedefi geçmişse yeni küçük model
    eklemekten önce karar/gecikme incelemesini sun. Mevcut
@@ -20,12 +28,11 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
    203 sonlu anahtar, 196 çift, FWI 0,637755; dokuz eski skor
    0,612245–0,642857. Gerçek yangın veya operasyonel kabul değil.
    Aynı işi yeniden çalıştırma veya yeni veri isteme.
-4. [Sonraki kapsam A/B dosyası](STAGE_ONE_NEXT_SCOPE_2026-11-23.md)
-   için araştırmacı açık A seçti. A, ana hedefi
-   araştırma sorusu olarak koruyarak mevcut verilerle incelenebilir
-   deneysel S/U paketi hazırlamaktır; gerçek yangın veri kabulü veya
-   final merge değil. FWI üç bilimsel boşluğu kapatmadı;
-   yeni geniş değerlendirme, fit veya edinim yetkisi çıkarma.
+4. [Sonraki kapsam dosyasında](STAGE_ONE_NEXT_SCOPE_2026-11-23.md)
+   açık A seçimiyle deneysel S/U hazırlığı tamamlandı. Ana hedef
+   araştırma sorusu olarak korundu; gerçek yangın veri kabulü veya
+   final merge olmadı. Üç bilimsel boşluk ve yeni eğitim/deney
+   kapsamı ayrı değerlendirilir; yeni yetki çıkarma.
 5. Sonucu tarihli rapor, STATUS ve o günün Diary kaydına bağla.
    Yeni bilimsel yön veya insan değerlendirmesi gerekiyorsa somut
    bulgu ve gerekçeli seçenek sun. Nihai birleştirme kapısını koru.
@@ -36,6 +43,10 @@ esas alınır. Giriş/parola/anahtar dosyalarını tarama veya yazdırma.
 
 ## Tekrar yapılmayacak tamamlanmış işler
 
+- Deneysel paket: 44.082 anahtar/27 özellik ve dokuz mevcut öneri.
+  Paket SHA `86270dea5d9d12a1764ead780dcfa79166bed60a0977bf712e3df497d84bc366`;
+  ayrı veri/arşiv audit SHA `85fb7ac20f5d3e0564fe2ec66a5e4801f469d5c860cd5933b6a17e5be6c74356`.
+  Tam dizinler raporda. Kullanıcı ekran kontrolü henüz alınmadı.
 - FWI 203 satır / 196 çift kıyası, ayrı örnek/çift/50 özet/70 hücre
   denetimi ve yerel MLflow kapanışı tamam. Sonuç makbuzu
   `fwi_reference_comparison_run_v1/20261123T101431Z_805e6449/readback.json`,

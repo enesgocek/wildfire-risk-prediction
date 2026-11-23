@@ -1,0 +1,17 @@
+{
+  "version": "experimental_su_inspection_v2",
+  "decision_date": "2026-11-23",
+  "decision_source": "explicit_researcher_A_preserve_main_target_prepare_inspectable_experimental_SU_package",
+  "scope": "existing_source_conditioned_2018_2022_calendar_snapshots_and_unchanged_scenario_proposals",
+  "keys": 44082,
+  "scenarios": 9,
+  "new_training_authorized": false,
+  "new_data_acquisition_authorized": false,
+  "scientific_values_2023_2024_2025_read_authorized": false,
+  "source_proposal_is_true_Y": false,
+  "unassigned_calendar_is_true_negative": false,
+  "main_method_scientifically_accepted": false,
+  "daily_observation_status": "unknown",
+  "negative_label_permitted": false,
+  "final_labelled_merge_authorized": false
+}

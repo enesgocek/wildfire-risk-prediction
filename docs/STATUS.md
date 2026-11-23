@@ -5,6 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım açık A kararı: incelenebilir deneysel S/U paketi hazır; ekran kontrolü kullanıcıda.**
+2018–2022 mevcut kaynak koşullu takviminden 44.082 satır/822 hücre,
+27 özellik; 41.358 tam/2.724 eksik satır korundu. 1.670 birleşim
+önerisi ve dokuz ayrı ayar (412 ayara duyarlı anahtar) görünür.
+Yeni Y/L veya negatif etiket oluşturulmadı; eski U örnekleme
+ağırlıkları aktarılmadı. Birebir kaynak CSV kopyaları, tam kaynak/
+zaman bilgisi, HTML inceleme ve 15,9 MB ZIP üretildi. Ayrı 396.738
+üyelik işareti, anahtar/eksik/zaman ve ZIP üye/CRC kontrolü geçti.
+Beş yeni dahil 33 ilgili test ve dört Python dosyası kod/biçim geçti.
+Tarayıcı aracı yerel file protokolünü reddetti; gerçek ekran
+çalışması görülmüş sayılmadı, kullanıcıya 44.082 / 6.573 / 242
+filtre kontrolü sunuldu. Ana yöntem bilimsel kabulü ve nihai
+etiketli birleştirme açık; yeni fit veya veri edinimi yok.
+[Paketi açma, somut örnek ve makbuzlar](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
+
 **23 Kasım devamı: sınırlı FWI referans karşılaştırması ve ayrı denetimi tamam.**
 Somut A önerisi sonrası devam talimatıyla 7 Mersin hücresi / 203 gün
 ve aynı 196 çift incelendi. FWI önceki nominal günden alındı; bütün

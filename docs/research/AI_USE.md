@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım deneysel paket. Araştırmacının açık A kararıyla mevcut
+özellik/provenance ve aday geçmişleri birebir kopyalandı; dokuz
+üyelik önerisi, eksik sayıları ve il alan kesişimleri yapay zekâ
+desteğiyle inceleme metadatası olarak hazırlandı. Ayrı okuyucu
+44.082 anahtar, 396.738 bayrak, zaman sınırları, görüntüleme sayıları
+ve ZIP bayt/CRC bütünlüğünü kontrol etti. Beş yeni dahil 33 ilgili
+test geçti. Computer-use tarayıcı aracı file protokolünü reddetti;
+engel aşılmadı, gerçek ekran kontrolü kullanıcıya bırakıldı. Bu
+otomatik işlem insan veri/etiket kabulü değildir. Yeni eğitim veya
+nihai birleştirme yapılmadı. [Katkı, sınır ve makbuzlar](../EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
+
 23 Kasım FWI kıyası. Somut A önerisinden sonraki devam talimatı
 bu sınırlı iş için kaydedildi; araştırmacının açıkça A yazdığı
 iddia edilmedi. Yerel coğrafi örnekleme, 203 günlük bağlam kaydı,

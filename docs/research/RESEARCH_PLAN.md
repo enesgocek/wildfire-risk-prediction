@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım açık A: ana hedef araştırma sorusu olarak korunarak mevcut
+2018–2022 kaynak koşullu takvimden deneysel S/U paketi hazırlandı.
+44.082 satır, 27 özellik, dokuz öneri; gerçek Y/L boş, bilinmeyen
+günler negatif değil. Veri/ZIP ve 396.738 bayrak kontrolü tamam;
+33 ilgili test geçti. Otomatik tarayıcı file protokolünü reddetti,
+ekranın kullanıcı kontrolü bekleniyor. Bu, ana yöntem bilimsel
+geçişi veya etiketli final merge kabulü değil.
+[İnceleme sürümü ve sınırlar](../EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).
+
 23 Kasım devamı: somut A önerisi sonrası devam talimatıyla sınırlı
 FWI kıyası tamam. Aynı 203 satır/196 çiftte FWI 0,637755, dokuz
 kayıtlı model 0,612245–0,642857. Yakın gün ve küçük kaynak örneği
