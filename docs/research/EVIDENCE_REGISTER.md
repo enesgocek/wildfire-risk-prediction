@@ -2257,6 +2257,32 @@ okundu. Yedi yeni dahil 40 ilgili test / beş Python kod-biçim geçti.
 Mevcut paket korunarak veri/yöntem teslim taslağı yazıldı. Yeni
 Y/L, kapalı yıl, renk veya final merge yok; bilimsel geçiş açık.
 
+E250 — 23 Kasım. [Kaynak/skor desteği ve meteoroloji QA incelemesi](../DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md).
+8.956 kohort üyeliği, 245 ortak ve 8.711 farklı anahtar; 80.604
+skor satırı, özellik/kaynak bağlantısı ve betimleyici sıra alanları
+ayrı doğrulandı. Meteoroloji eksikleri dört ilde 366, Mersin'de 60;
+kaynak geçerli alan payı sıfır. Dolu ama kısmi 1.188/394 meteoroloji
+kaydı ana tam-alan uygunluğu değildir. Üç eski QA profiliyle 540
+sonuç ayrı hesaplandı; pozitif alan eski skoru tam geri verdi.
+Sıra farkı gerçek risk güven aralığı, eksik kaynak yangın yokluğu değil.
+
+E251 — 23 Kasım. [Mevcut tam-alan kuralıyla sabit öğrenme uyumu](../DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md#3-aynı-modeller-tam-alan-kuralına-uygun-öğrenmeyle-kuruldu).
+Uzun özerk devam ve 3 Ekim ana kuralıyla aynı dokuz XGBoost ayrı
+kuruldu. 23.280–29.140 fit satırı, 777–967 grup; 28,48 saniye.
+Aynı tam-alan 2022 çiftlerinde yeni yardımcı AUC dört ilde
+0,567280–0,601843, ayrı Mersin'de 0,528110–0,566892. Otomatik
+iyileşme veya ana risk başarımı kabul edilmedi. Dokuz model/fit/
+skor ve 270 ölçü ayrı doğrulandı; yerel MLflow 270 tam geri okundu.
+Bu teknik uyumda yeni harf-A yanıtı veya gerçek etiket iddia edilmedi.
+
+E252 — 23 Kasım. [A seçimiyle yerel araştırma prototipi](../RESEARCH_PROTOTYPE_2026-11-23.md).
+İki 2022 takvimi/dokuz ayar/27 özellik, kaynak ve kalite görünümü
+hazır. 8.956 üyelik, 241.812 skor ve 241.812 özellik değeri ayrı
+eşleşti. 65 farklı ilgili Python ve yedi gerçek Node testi geçti.
+Veri ve mantık kontrolü tarayıcı render sayılmadı; yeni ekran
+kontrolü kullanıcıda. Ana 24 saat soru korunuyor; risk olasılığı,
+renk, Y/L, kapalı yıl veya final merge yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

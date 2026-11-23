@@ -118,6 +118,36 @@ erişim saati doğrulanmamıştır. Bu kıyas yeni XGBoost deneyiyle aynı
 
 ## Tekrarlanabilirlik ve henüz desteklenmeyen iddialar
 
+### Aynı gün sonraki kalite uyumu ve prototip yönü
+
+İlk XGBoost koşusu 15 alanın doluluğunu esas alan geniş meteoroloji
+desteğiyle öğrenmiştir. Kaynak alan payları ayrıca incelendiğinde,
+sonlu değerin tam hücre desteği olmadığı gösterilmiştir. 3 Ekim'de
+tanımlanmış tam alan ana profil / %90 duyarlılık / pozitif alan
+izleme kuralları değişmeden, 540 sabit model ölçüsünde ayrı
+denetlenmiştir. Meteoroloji eksiklerinin alan desteği sıfır;
+bitki örtüsü eksiklerinde ilgili retained snapshot yoktur. Fiziksel
+eksiklik nedeni veya bulut etkisi bu bayraklarla tekilleştirilmemiştir.
+
+Aynı sabit XGBoost yaklaşımı, tam alan kuralına uyumlu 2018–2021
+öğrenme satırlarıyla dokuz ayrı modelde uygulanmıştır. 2022'de
+aynı tam-alan çiftlerinde eski geniş-alan model ve doğrusal skorla
+karşılaştırma yapılmıştır. Öğrenme 23.280–29.140 satır/777–967
+hücre–aydır. Yeni yardımcı AUC dört ilde 0,567280–0,601843,
+ayrı Mersin'de 0,528110–0,566892'dir. Bu sayılar önceki farklı
+paydalı sonuçların yerine yazılmamıştır. Otomatik iyileşme veya
+gerçek yangın doğrulaması kabul edilmemiştir.
+[Ortak-payda kıyas ve denetimler](../DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md).
+
+Araştırmacı sonraki A seçimiyle teknik S/U sürümünün ardından yerel
+araştırma prototipine geçişi seçmiştir. Mevcut iki 2022 takvimi ve
+dokuz kaliteye uyumlu modelin sonuçları, kaynak/kalite/27 özellik
+bağlantısıyla görüntülenir. Sıra grafiği aynı hücre/ay içinde
+tanımlıdır; risk olasılığı, gerçek negatif veya canlı tahmin değildir.
+[Prototip ve henüz otomatik yapılmamış tarayıcı kontrolü](../RESEARCH_PROTOTYPE_2026-11-23.md).
+Ana yangın hedefine ilişkin bilimsel koşullar bu çalışma yönüyle
+doğrulanmış sayılmamıştır.
+
 Girdi/çıktı/üretici hash'leri, sürümlü açık yapılandırmalar, ayrı
 denetleyiciler ve yerel MLflow kayıtları tutulmuştur. Son deneyde
 yeniden yüklenen dokuz modelin skorları, aynı çift kimlikleri ve

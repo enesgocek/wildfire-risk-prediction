@@ -1,5 +1,12 @@
 # Sabit XGBoost günlük sıralama deneyi — sonuç ve ayrı denetim
 
+**Sonraki 23 Kasım kalite notu:** Aşağıdaki ilk modeller tam 15
+alanlı geniş meteoroloji desteğiyle kuruldu; tam-alan ana profille
+öğrenilmiş sayılmamalı. Mevcut meteoroloji kuralına ayrı kalite
+uyumu ve aynı tam-alan çiftlerinde kıyas sonradan tamamlandı.
+[Yeni sürüm, sonuçlar ve kaynak desteği](DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md).
+Önceki deney dosyaları ve buradaki tarihsel sayılar korunuyor.
+
 23 Kasım 2026. [Somut A önerisinin](NONLINEAR_RANK_PROPOSAL_2026-11-23.md)
 ardından gelen devam talimatı, önerilen kapsamda ilerleme olarak
 kaydedildi; kullanıcının harf olarak A yazdığı iddia edilmedi.

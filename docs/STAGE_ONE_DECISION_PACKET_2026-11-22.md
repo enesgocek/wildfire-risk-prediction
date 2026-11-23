@@ -8,6 +8,14 @@ veya nihai birleştirme yapılmadı.
 
 ## Karar için kısa sonuç
 
+**23 Kasım daha sonraki geçiş yönü:** kapsam/eksiklik ve eski
+meteoroloji profili denetimi, aynı sabit yaklaşımın tam-alanla
+öğrenme uyumu tamamlandı. Araştırmacı açık A ile teknik deneysel
+veriden yerel araştırma prototipine geçişi seçti. [Kullanım ve
+doğrulama sınırı](RESEARCH_PROTOTYPE_2026-11-23.md). Bu, aşağıdaki
+üç bilimsel koşulun geçtiği veya nihai etiketli birleştirme
+onayı değildir; teknik teslim ve koşullu prototip yolu ayrı tutulur.
+
 **23 Kasım sonraki kanıt notu:** FWI kıyası, 44.082 satırlık
 incelenebilir deneysel paketin teknik/kullanıcı kontrolü ve sabit
 dokuz XGBoost karşılaştırması artık tamamlandı. Bunlar aşağıdaki

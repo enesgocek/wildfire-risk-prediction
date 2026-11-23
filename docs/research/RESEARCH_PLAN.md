@@ -38,6 +38,18 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım uzun özerk devam ve sonraki açık A: kaynak/skor bağlantılı
+iki 2022 takvimi, eksiklik bağlamı ve eski meteoroloji QA profilleri
+ayrı denetlendi. Mevcut ana tam-alan kuralına uyum için aynı sabit
+dokuz model ayrı sürümde kuruldu; 270 ölçü/yeniden yükleme ve
+yerel geri okuma geçti. Teknik deneysel teslim hazır. Araştırmacı,
+ana hedefi koruyup doğrulanmış risk iddiası olmayan yerel araştırma
+prototipini seçti. Ekranın veri/mantık kontrolleri tamam; yeni
+tarayıcı kontrolü kullanıcıda. 65 tekil ilgili Python ve yedi Node
+testi geçti. Üç bilimsel koşul ve nihai etiketli birleştirme açık.
+[Kalite sonuçları](../DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md) ·
+[Prototip ve kullanıcı kontrolü](../RESEARCH_PROTOTYPE_2026-11-23.md).
+
 23 Kasım somut A önerisi sonrası devam: sabit dokuz XGBoost modeli
 aynı 15 alanda/2018–2021 ile kuruldu, mevcut iki 2022 takviminde
 incelendi. Dört ilde üç ayarda artış, altısında azalma; ayrı Mersin

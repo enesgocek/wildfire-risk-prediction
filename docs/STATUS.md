@@ -5,6 +5,28 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım uzun devamı: kapsam/kalite işleri kapandı; açık A ile yerel araştırma prototipi hazır.**
+İki 2022 takviminin 8.956 üyeliği / 245 ortak / 8.711 farklı
+anahtarı, 80.604 skor satırı ve kaynak bağlantıları ayrı denetlendi.
+Meteorolojide eksik alan desteği ile dolu ama kısmi alan ayrıldı;
+3 Ekim'in üç profiliyle 540 sabit skor ölçüsü doğrulandı. Aynı
+sabit model, ana tam-alan kuralıyla 23.280–29.140 fit satırında
+dokuz kez kuruldu; 28,48 saniye, 900 saniye sınırı. Ortak tam-alan
+2022 çiftlerinde yeni yardımcı AUC dört ilde 0,567280–0,601843,
+Mersin'de 0,528110–0,566892; daha yüksek puan için kural gevşetilmedi.
+270 ölçü ve model/fit/skor denetimi, yerel MLflow tam geri okuma geçti.
+[Kapsam, kalite ve bütün makbuzlar](DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md).
+
+Araştırmacı A ile koşulları açık araştırma prototipini seçti.
+İki takvim, dokuz ayar, filtreler, aynı-hücre/ay sıra grafiği,
+27 özellik ve kaynak/kalite ayrıntısı yerelde hazır. 65 farklı
+ilgili Python ve yedi Node testi geçti; 241.812 skor ve aynı
+sayıda özellik değeri ayrı eşleşti. Gerçek tarayıcı ekran kontrolü
+kullanıcıda; eski ekran onayı yeni prototipe aktarılmadı.
+[Açılış ve gerçek doğrulama sınırı](RESEARCH_PROTOTYPE_2026-11-23.md).
+Teknik deneysel teslim hazır; ana hedefin üç bilimsel koşulu,
+Y/L, risk renkleri, kapalı yıllar ve final merge kapıları korunuyor.
+
 **23 Kasım sonraki devam: sabit dokuz XGBoost deneyi ve kapanışı tamam.**
 Somut A önerisi sonrası devam talimatı ayrı yürütme kaydıyla
 uygulandı. SHA ile sabitlenmiş XGBoost 3.4.1 kuruldu; aynı 15

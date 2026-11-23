@@ -1,0 +1,20 @@
+{
+  "version": "research_prototype_direction_v1",
+  "decision_date": "2026-11-23",
+  "decision_source": "explicit_researcher_A_conditional_research_prototype",
+  "scope": "local_offline_inspection_of_existing_2022_results_and_features",
+  "conditional_research_workflow_selected": true,
+  "primary_research_question_hours": 24,
+  "technical_experimental_data_delivery_complete": true,
+  "main_fire_risk_method_scientifically_validated": false,
+  "source_context_scores_are_verified_fire_risk": false,
+  "new_training_authorized": false,
+  "scientific_years_2023_2024_2025_open_authorized": false,
+  "true_Y_or_accepted_L_created": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "probability_or_validated_risk_colors_authorized": false,
+  "live_forecast_authorized": false,
+  "external_publication_or_raw_data_upload_authorized": false,
+  "final_merge_authorized": false
+}

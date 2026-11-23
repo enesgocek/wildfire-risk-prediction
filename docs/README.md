@@ -8,6 +8,9 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Yerel araştırma prototipi](RESEARCH_PROTOTYPE_2026-11-23.md) | Açık A ile iki 2022 takvimi, dokuz ayar, sıra grafiği, 27 özellik/kalite/kaynak; payload ve mantık geçti, yeni tarayıcı kontrolü kullanıcıda |
+| [Kapsam ve meteoroloji kuralına uyum](DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md) | 8.711 tekil/8.956 üyelik/80.604 skor; eksiklik kökeni, üç eski QA profili, dokuz tam-alan model ve ortak-payda sonuçlar |
+| [Araştırma geçiş kararı](RESEARCH_TRANSITION_DECISION_2026-11-23.md) | Araştırmacının A seçimiyle deneysel prototip yönü; ana yangın hedefi ve bilimsel açıklar korunuyor |
 | [Sabit XGBoost sıralama sonucu](NONLINEAR_RANK_RESULTS_2026-11-23.md) | Dokuz sınırlı fit, iki mevcut 2022 takviminde karışık/olumlu yardımcı bulgular; 4.420 ayrı hesap, 252 yerel ölçü ve korunan hedef sınırı |
 | [Veri/yöntem teslim taslağı](research/DATASET_METHODS_DRAFT_2026-11-23.md) | 44.082 satırlık kaynak koşullu deneysel paket, özellik/üyelik/zaman tasarımı, doğrusal/XGBoost karşılaştırması ve henüz desteklenmeyen iddialar |
 | [Doğrusal olmayan günlük sıralama önerisi](NONLINEAR_RANK_PROPOSAL_2026-11-23.md) | Tarihsel hazırlık: aynı 15 alanda sabit XGBoost hipotezi, dokuz ayarın grup sayıları ve karar kapsamı; sonraki uygulama yukarıdaki sonuç raporunda |

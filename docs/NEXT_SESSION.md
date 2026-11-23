@@ -6,25 +6,38 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
-Öncelik: [tamamlanan sabit XGBoost sonuçlarını](NONLINEAR_RANK_RESULTS_2026-11-23.md)
-ve [hazır veri/yöntem metnini](research/DATASET_METHODS_DRAFT_2026-11-23.md)
-esas alarak birinci aşama geçiş/kapsam değerlendirmesini ilerlet.
-Somut A önerisinden sonraki devam talimatı ayrı yürütme kaydıyla
-uygulandı; tekrar kurulum/eğitim izni isteme ve aynı dokuz modeli
-yeniden çalıştırma. Eski önerinin false izinleri değiştirilmedi.
-Dokuz fit, 4.420 ayrı ölçü denetimi ve yerel 252 MLflow ölçüsü
-tamam. Dört ilde üç ayar iyileşti, ayrı Mersin'de dokuz ayar
-iyileşti; yakın gün/yön ve gerçek hedef koşulları hâlâ açık.
-Yeni parametre veya model ailesi sırf yüksek sonuç aramak için
-eklenmeyecek. Teknik deneysel paket hazır; ana yöntemin üç bilimsel
-koşulu bununla otomatik geçilmez. Yeni bilimsel yön gerekirse somut
-bulgu/seçenek hazırlanır; eski ekran kontrolü yeniden istenmez.
+Öncelik: [yeni yerel araştırma prototipinin](RESEARCH_PROTOTYPE_2026-11-23.md)
+kullanıcı tarayıcı yanıtını kontrol et. Açılış:
+`historical_research_prototype_v1/20261123T144811Z_555ee371/inceleme.html`.
+İlk kartlar 6.573 / 4.841 / 225 / 185; ayrı Mersin 2.383 /
+1.929 / 81 / 68. Grafik ve 27 özellik ayrıntısı soruldu. Yanıt
+yoksa başarı varsayma; tarayıcı aracı yerel file protokolünü
+reddettiği için başka protokol/yüzeyle aşma. Olumlu yanıt gelirse
+yalnız kullanılabilirlik olarak, bu makbuz/hash'e bağlı kaydet.
+Sorun gelirse mevcut çıktıyı koruyup düzeltmeyi yeni sürümle üret.
 
-Kapanış `nonlinear_rank_closure_v1/20261123T133013Z_64470446/readback.json`,
-SHA `f291058ddfbbbcc486bba01e128eae9c53cc600eede33161e74569835a3db466`.
-Deney/audit kimlikleri sonuç raporunda; 40 ilgili test geçti.
-Yeni çalışma mevcut sonucu ve yöntem taslağını kullanmalı;
-2023–2025, yeni etiket veya nihai birleştirme izni çıkarılmamalı.
+Araştırmacı **A: koşullu araştırma prototipine geç** yönünü açıkça
+seçti; bu yönü veya eski ekran onayını tekrar sorma. Aynı açık A
+yeni eğitim, kapalı yıl veya gerçek risk kabulü değil. Teknik
+deneysel veri teslimi hazır; ana yöntemin üç bilimsel koşulu açık.
+65 tekil ilgili Python ve yedi gerçek Node testi geçti; payload'da
+241.812 skor ve aynı sayıda özellik değeri ayrı doğrulandı.
+Mantık makbuzu `historical_research_prototype_logic_v1/20261123T145137Z_c68e784a/readback.json`,
+SHA `790b254519e8eaf6c5e6c50b89d088cb99f51055d4114db5bb6adde05faafc6a`.
+
+23 Kasım özerk devam tercihi yeniden teyit edildi: insan girdisi
+gerekmeyen yetkili işler ardışık yürütülür; her küçük işte genel
+devam yanıtı beklenmez. Bu devamda kaynak/skor dışa aktarımı,
+üç eski meteoroloji profili ve ana tam-alan kuralıyla dokuz sabit
+model ayrı tamamlandı. [Kapsam/kalite raporu](DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md)
+esas alınır; aynı işleri tekrar etme. Eski geniş-alan modelleri
+tam-alanla eğitilmiş gibi sunma. Daha yüksek skor için kalite
+kuralını gevşetme veya yeni model/parametre araması ekleme.
+
+Yeni çalışma prototip yanıtından ve mevcut sonuçlardan devam
+etmeli. Ana Y/L, 2023–2025 ve nihai etiketli birleştirme kapıları
+bu yön seçiminden açılmaz. Gerekli yeni bilimsel karar somut
+bulgu ve seçenekle sorulur; rutin iş için yeniden onay istenmez.
 
 0. Açık A ile deneysel paket ve kullanıcı ekran kontrolü tamam:
    [kullanım/denetim/kapanış kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).

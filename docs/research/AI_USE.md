@@ -6,6 +6,21 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım uzun özerk devam. Yapay zekâ desteğiyle mevcut 2022
+skorları kaynak satırlarına bağlandı, kapsam/eksiklik ile kayıtlı
+meteoroloji alan desteği ayrıldı. 3 Ekim'in sabit tam-alan kuralı,
+önceden seçilmiş model yaklaşımına ayrı dokuzlu kalite uyum
+koşusunda uygulandı; yeni açık A yanıtı uydurulmadı. Ayrı kayıt
+uzun özerk devam talimatına ve mevcut kurala dayanıyor. Sonraki
+gerçek A seçimi ise yerel araştırma prototipini kapsıyor.
+Prototipin 241.812 skor ve özellik değerleri ayrı kontrol edildi;
+65 farklı ilgili Python ve yedi Node testi geçti. Asistan gerçek
+tarayıcı ekranını veya yeni kullanıcı kontrolünü görmüş sayılmadı;
+ekran sayımları/grafik/ayrıntı için araştırmacıya soruldu. Yapay
+zekâ destekli literatür koşul incelemesi yöntem kanıtı değildir.
+[Kapsam/kalite](../DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md) ve
+[prototip/katkı sınırı](../RESEARCH_PROTOTYPE_2026-11-23.md).
+
 23 Kasım somut model önerisi sonrası devam. Araştırmacının devam
 talimatı, bir önceki somut A kapsamına bağlı ayrı yürütme kaydı
 olarak yazıldı; açık harf yanıtı veya bilimsel kabul uydurulmadı.
