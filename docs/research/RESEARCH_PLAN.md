@@ -38,6 +38,15 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım devamı: somut A önerisi sonrası devam talimatıyla sınırlı
+FWI kıyası tamam. Aynı 203 satır/196 çiftte FWI 0,637755, dokuz
+kayıtlı model 0,612245–0,642857. Yakın gün ve küçük kaynak örneği
+sınırları açık; yöntem veya gerçek yangın başarımı kabulü değil.
+Bağımsız örnek/çift/50 özet/70 hücre hesabı ve yerel MLflow tam
+geri okuma geçti. Altı yeni dahil 39 ilgili test; yeni fit veya
+ana veri seti birleştirme yok. Üç bilimsel geçiş konusu açık.
+[Bulgular ve teslim iddiasına etkisi](../FWI_REFERENCE_RESULTS_2026-11-23.md).
+
 23 Kasım GRIB eş dosyası geldi: 873 değer/156 eksik maske NetCDF ile
 birebir. Yerel 12:00 başlığı doğrulandı; 8 zaman artımını sekiz alan
 sayma çıkarımı ayrı kayıtla geri çekildi. Kesin son forcing/erişim

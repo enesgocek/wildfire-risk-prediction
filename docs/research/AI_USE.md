@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım FWI kıyası. Somut A önerisinden sonraki devam talimatı
+bu sınırlı iş için kaydedildi; araştırmacının açıkça A yazdığı
+iddia edilmedi. Yerel coğrafi örnekleme, 203 günlük bağlam kaydı,
+196 çift ve 50 özet ölçü yapay zekâ desteğiyle hesaplandı. Ayrı
+okuyucu özgün değerleri, skorları, eşlemeyi ve 70 hücre ölçüsünü
+kontrol etti. Grafik asistan tarafından görüldü; insan incelemesi
+sayılmadı. Sayısal merkez toleransının metreye bağlı düzeltmesi
+raporda açık. Yerel MLflow yedeği ve 50 tam değer okuması tamam;
+son birleşik koşu 39 ilgili test. Yeni model, gerçek Y/L veya risk
+doğrulaması üretilmedi. [Katkı ve sınırlamalar](../FWI_REFERENCE_RESULTS_2026-11-23.md).
+
 23 Kasım GRIB incelemesi. Dosyayı araştırmacı indirdi; kaynak baytları
 yapay zekâ destekli başlık ayrıştırma ve tek gün sayısal karşılaştırmada
 korundu. Resmî ecCodes tanımları sabit Git kimliğiyle okundu; uzak kod

@@ -15,15 +15,17 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
    kalite koşularını tekrarlama. [23 Kasım zaman ve eşitlik incelemesi](FWI_LOCAL_TIME_REVIEW_2026-11-23.md)
    güncel kayıttır. Genel GDAL geçerli zaman 0 ve ilk 00–21 enumerasyonu
    bilimsel zaman kanıtı değildir. Artım düzeltme makbuzu esas alınır.
-3. Rapordaki A/B günlük FWI referans karşılaştırma yönüne kullanıcının
-   yanıtını kontrol et. A yalnız geriye dönük, önceki gün takvim FWI'si
-   ile dokuz mevcut modelin ortak sonlu anahtar/çift karşılaştırmasıdır;
-   operasyonel erişim veya ana model girdisi kabulü değildir. 203 anahtar,
-   7 kaynak anahtarı, maske kontrolünden önce 196 olası çift var.
-4. Yön seçilmeden bu yeni değerlendirmeyi yürütme. Seçilirse sınır
-   15 dakika, yerel; yeni fit, indirme, bulut, 2023–2025, gerçek Y/L,
-   negatif atama, renk veya final merge yok. Eksik desteği değiştirme.
-   Önce koordinat/mesafe, zaman varsayımı ve ortak örneklem doğrulanır.
+3. Araştırmacının sonraki devam talimatıyla önerilen sınırlı FWI
+   kıyası tamamlandı. [Sonuç ve bağımsız kontrol](FWI_REFERENCE_RESULTS_2026-11-23.md):
+   203 sonlu anahtar, 196 çift, FWI 0,637755; dokuz eski skor
+   0,612245–0,642857. Gerçek yangın veya operasyonel kabul değil.
+   Aynı işi yeniden çalıştırma veya yeni veri isteme.
+4. [Sonraki kapsam A/B dosyası](STAGE_ONE_NEXT_SCOPE_2026-11-23.md)
+   için araştırmacı açık A seçti. A, ana hedefi
+   araştırma sorusu olarak koruyarak mevcut verilerle incelenebilir
+   deneysel S/U paketi hazırlamaktır; gerçek yangın veri kabulü veya
+   final merge değil. FWI üç bilimsel boşluğu kapatmadı;
+   yeni geniş değerlendirme, fit veya edinim yetkisi çıkarma.
 5. Sonucu tarihli rapor, STATUS ve o günün Diary kaydına bağla.
    Yeni bilimsel yön veya insan değerlendirmesi gerekiyorsa somut
    bulgu ve gerekçeli seçenek sun. Nihai birleştirme kapısını koru.
@@ -34,6 +36,13 @@ esas alınır. Giriş/parola/anahtar dosyalarını tarama veya yazdırma.
 
 ## Tekrar yapılmayacak tamamlanmış işler
 
+- FWI 203 satır / 196 çift kıyası, ayrı örnek/çift/50 özet/70 hücre
+  denetimi ve yerel MLflow kapanışı tamam. Sonuç makbuzu
+  `fwi_reference_comparison_run_v1/20261123T101431Z_805e6449/readback.json`,
+  SHA `5e5a7bd7a920b15d1288c7969b9841c62ac9948af5e74255c901ff6eb5a4d40c`.
+  Audit ve kapanış hash'leri raporda; yerel run
+  `08392c8a196648e29a09574452ccb21d`. Bir nominal gün kaydırması
+  yalnız bu karşılaştırma için kullanıldı; operasyonel model girdisi değil.
 - GRIB/NetCDF 1 Haziran: 873 sonlu değer ve 156 eksik maske birebir.
   Güncel zaman yorumu `fwi_increment_interpretation_v1/20261123T002508Z_5c7204e9/readback.json`,
   SHA `befa8ecc8e7da5dbc580aa379530ba3ea0426879f2b5411c74a525b86e236ea3`.

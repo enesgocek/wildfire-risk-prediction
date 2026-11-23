@@ -5,6 +5,24 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım devamı: sınırlı FWI referans karşılaştırması ve ayrı denetimi tamam.**
+Somut A önerisi sonrası devam talimatıyla 7 Mersin hücresi / 203 gün
+ve aynı 196 çift incelendi. FWI önceki nominal günden alındı; bütün
+satırlar sonlu, veri kaybı yok. Yardımcı çift AUC: FWI 0,637755,
+dokuz mevcut model 0,612245–0,642857. Yakın 1–3 gün çiftlerinde
+FWI 0,547619; model aralığı 0,476190–0,547619. Belirgin model
+üstünlüğü/gerçek yangın başarımı kabul edilmedi. 196 çift yalnız 7
+kaynak gününe dayanıyor. 203 örnek, 1.827 eski skor, 196 çift ve
+50 özet/70 hücre ölçüsü ayrı hesapla eşleşti. Yerel MLflow 50 tam
+ölçüyü geri okudu. Altı yeni dahil 39 ilgili test ve beş Python
+dosyası kod/biçim geçti. Yeni model yükleme/fit, veri indirme, kapalı
+yıl, gerçek Y/L, risk rengi veya final merge yok. Üç bilimsel geçiş
+konusu açık; otomatik yeni model/indirme kuyruğu açılmadı.
+[Sonuç, somut günlük örnek ve açık kalan karar](FWI_REFERENCE_RESULTS_2026-11-23.md).
+Sonraki [deneysel S/U hazırlığı / yalnız doğrulanmış hedefle geçiş
+seçenekleri](STAGE_ONE_NEXT_SCOPE_2026-11-23.md) somutlaştırılarak
+araştırmacıya sunuldu; henüz yön seçilmiş sayılmadı.
+
 **23 Kasım tek günlük GRIB kontrolü tamam; NetCDF ile sayısal eşitlik doğrulandı.**
 2.088 baytlık tek alan, aynı 49 × 21 ızgara: 873 sonlu değer birebir
 aynı, 156 eksik noktanın maskesi aynı. PDT 4.93 başlığı yerel 12:00

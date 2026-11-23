@@ -8,6 +8,8 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Birinci aşama sonrası kapsam seçeneği](STAGE_ONE_NEXT_SCOPE_2026-11-23.md) | Ana hedef korunarak deneysel S/U hazırlığı ile yalnız doğrulanmış hedefle geçişin yararı/sınırı; henüz kabul kararı değil |
+| [FWI referansı ile sabit model sonuçları](FWI_REFERENCE_RESULTS_2026-11-23.md) | 203 ortak satır/196 çift; FWI 0,637755, modeller 0,612245–0,642857; yakın gün sınırı, ayrı 50/70 ölçü denetimi ve yerel kayıt |
 | [FWI özgün zaman ve biçim kontrolü](FWI_LOCAL_TIME_REVIEW_2026-11-23.md) | Tek günlük GRIB/NetCDF 873 değer ve maske eşitliği; yerel öğlen, artım yorum düzeltmesi; 203 anahtarlık sınırlı karşılaştırma önerisi |
 | [Teslim edilen FWI dosyasının incelemesi](FWI_RECEIVED_REVIEW_2026-11-22.md) | Gerçek Haziran 2022 NetCDF/30 bant, sayısal kalite ve hash; açık zaman tanımı, tek günlük GRIB eş dosyası için somut seçimler |
 | [Birinci aşama karar dosyası](STAGE_ONE_DECISION_PACKET_2026-11-22.md) | Üç bilimsel geçiş konusu, 2.191 gün/4.382 dosyalık içerik okumayan envanter, 2024/2025'in bu dizinde bulunmaması ve birleştirme öncesi bağımlılıklar |

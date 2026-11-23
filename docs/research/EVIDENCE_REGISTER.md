@@ -2206,6 +2206,17 @@ yalnız sonraki karşılaştırmanın hazırlığı, yeni performans değil.
 41 ilgili test ve beş yeni Python dosyası kod/biçim geçti. Yeni
 model, etiket, kapalı yıl, risk rengi veya final merge yok.
 
+E245 — 23 Kasım. [Sınırlı geriye dönük FWI ve dokuz sabit skor kıyası](../FWI_REFERENCE_RESULTS_2026-11-23.md).
+203 ortak sonlu anahtar/7 hücre/7 kaynak günü, aynı 196 çift.
+FWI 0,637755; model aralığı 0,612245–0,642857. 1–3 gün uzaklıkta
+42 çift/FWI 0,547619; küçük örnek ve gerçek kaynak anlamı sınırı
+korundu. 203 ham örnek, 1.827 kayıtlı skor, 196 çift, 50 özet ve
+70 hücre ölçüsü ayrı hesapla eşleşti. Yerel MLflow yedekli kapandı,
+50 ölçü tam değerle okundu. Altı yeni dahil 39 ilgili test ve beş
+Python dosyası kod/biçim geçti. Model yükleme/fit, yeni veri edinimi,
+kapalı yıllar, Y/L, risk rengi veya final merge yok. Bu referans
+gerçek yangın veya operasyonel erişim doğrulaması değildir.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
