@@ -38,6 +38,17 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım somut A önerisi sonrası devam: sabit dokuz XGBoost modeli
+aynı 15 alanda/2018–2021 ile kuruldu, mevcut iki 2022 takviminde
+incelendi. Dört ilde üç ayarda artış, altısında azalma; ayrı Mersin
+genelinde dokuz ayarda artış var. Yakın gün ve zamansal yön sınırı
+korunuyor. 4.420 sonuç satırı ayrı hesapla, yeniden yüklenen model
+skorları ve eski çift kimlikleriyle eşleşti. Yerel MLflow 252 özeti
+geri okudu; yedi yeni dahil 40 ilgili test geçti. Yeni Y/L, kapalı
+yıl, risk rengi veya final merge yok; üç bilimsel kapı açık.
+[Sonuç](../NONLINEAR_RANK_RESULTS_2026-11-23.md) ve
+[tamamlanan işlere dayalı yöntem taslağı](DATASET_METHODS_DRAFT_2026-11-23.md).
+
 23 Kasım yeni deney hazırlığı: aynı hücre/ay sıralamasında dinamik
 etkileşimleri sınayacak sabit XGBoost önerisi hazırlandı. Girdi
 grupları ve potansiyel çiftler eski doğrusal karşılaştırma sayılarıyla

@@ -2245,6 +2245,18 @@ ve sabit öneri parametreleri belgelendi, kurulum yapılmadı. Beş
 yeni dahil 33 ilgili test/üç Python kod-biçim geçti. Yeni model,
 skor, Y/L veya final merge yok; araştırmacı yön seçimi bekleniyor.
 
+E249 — 23 Kasım. [Sabit dokuz XGBoost ve ayrı denetim](../NONLINEAR_RANK_RESULTS_2026-11-23.md).
+Somut A önerisi sonrası devam talimatıyla SHA-kilitli 3.4.1 kurulumu
+ve 2018–2021 / iki mevcut 2022 takvimi deneyi tamamlandı. Dokuz
+fit 56,27 saniye; dört il genelinde yeni yardımcı AUC
+0,565731–0,609741 (üç ayarda artış), ayrı Mersin'de
+0,553242–0,588235 (dokuz ayarda artış). Gerçek yangın başarımı
+veya istatistiksel anlamlılık iddiası yok. Ayrı model yükleme,
+çift kimliği ve 4.420 sonuç satırı eşleşti; yerel 252 ölçü tam geri
+okundu. Yedi yeni dahil 40 ilgili test / beş Python kod-biçim geçti.
+Mevcut paket korunarak veri/yöntem teslim taslağı yazıldı. Yeni
+Y/L, kapalı yıl, renk veya final merge yok; bilimsel geçiş açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

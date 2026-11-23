@@ -8,7 +8,9 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
-| [Doğrusal olmayan günlük sıralama önerisi](NONLINEAR_RANK_PROPOSAL_2026-11-23.md) | Aynı 15 alanda sabit XGBoost rank:pairwise hipotezi; dokuz ayarın girdi/grup sayıları, iki mevcut 2022 değerlendirmesi ve henüz verilmemiş eğitim kararı |
+| [Sabit XGBoost sıralama sonucu](NONLINEAR_RANK_RESULTS_2026-11-23.md) | Dokuz sınırlı fit, iki mevcut 2022 takviminde karışık/olumlu yardımcı bulgular; 4.420 ayrı hesap, 252 yerel ölçü ve korunan hedef sınırı |
+| [Veri/yöntem teslim taslağı](research/DATASET_METHODS_DRAFT_2026-11-23.md) | 44.082 satırlık kaynak koşullu deneysel paket, özellik/üyelik/zaman tasarımı, doğrusal/XGBoost karşılaştırması ve henüz desteklenmeyen iddialar |
+| [Doğrusal olmayan günlük sıralama önerisi](NONLINEAR_RANK_PROPOSAL_2026-11-23.md) | Tarihsel hazırlık: aynı 15 alanda sabit XGBoost hipotezi, dokuz ayarın grup sayıları ve karar kapsamı; sonraki uygulama yukarıdaki sonuç raporunda |
 | [İncelenebilir deneysel S/U paketi](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md) | Açık A ile 44.082 satır/822 hücre/27 özellik; veri/ZIP denetimi ve kullanıcı ekran kontrolü tamam, bilimsel etiket/eğitim kabulü değil |
 | [Birinci aşama sonrası kapsam seçeneği](STAGE_ONE_NEXT_SCOPE_2026-11-23.md) | Ana hedef korunarak deneysel S/U hazırlığı ile yalnız doğrulanmış hedefle geçişin yararı/sınırı; henüz kabul kararı değil |
 | [FWI referansı ile sabit model sonuçları](FWI_REFERENCE_RESULTS_2026-11-23.md) | 203 ortak satır/196 çift; FWI 0,637755, modeller 0,612245–0,642857; yakın gün sınırı, ayrı 50/70 ölçü denetimi ve yerel kayıt |

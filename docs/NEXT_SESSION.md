@@ -6,18 +6,25 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
-Öncelik: [sabit XGBoost günlük sıralama önerisi](NONLINEAR_RANK_PROPOSAL_2026-11-23.md)
-araştırmacıya A/B olarak sunuldu; yanıtı kontrol et. Henüz yeni
-eğitim veya kurulum izni yok. A seçilirse ayrı yürütme kararıyla
-en fazla dokuz model, 2018–2021 öğrenme / mevcut iki 2022 incelemesi;
-3.4.1 bağımlılık kurulumu ve uyum kontrolünden sonra 15 dakika
-yerel CPU sınırı uygulanır. Öneri dosyasını geçmişe dönük izin
-makbuzu olarak değiştirme; yeni yürütme kaydı kullan. B seçilirse
-eğitim açmadan mevcut veri/sonuçlarla yöntem yazımı sürer.
-Hazırlık makbuzu `nonlinear_rank_preparation_v1/20261123T131121Z_14674f77/readback.json`,
-SHA `cda37ee7be3820cc1396e939f7eeef78799ae262f21103da3029edd4710454c9`.
-Girdi desteği tamam; yeniden çıkarma. Kaynak koşullu sıra öğrenmesi
-gerçek yangın PU riskinin bilimsel kabulü değildir.
+Öncelik: [tamamlanan sabit XGBoost sonuçlarını](NONLINEAR_RANK_RESULTS_2026-11-23.md)
+ve [hazır veri/yöntem metnini](research/DATASET_METHODS_DRAFT_2026-11-23.md)
+esas alarak birinci aşama geçiş/kapsam değerlendirmesini ilerlet.
+Somut A önerisinden sonraki devam talimatı ayrı yürütme kaydıyla
+uygulandı; tekrar kurulum/eğitim izni isteme ve aynı dokuz modeli
+yeniden çalıştırma. Eski önerinin false izinleri değiştirilmedi.
+Dokuz fit, 4.420 ayrı ölçü denetimi ve yerel 252 MLflow ölçüsü
+tamam. Dört ilde üç ayar iyileşti, ayrı Mersin'de dokuz ayar
+iyileşti; yakın gün/yön ve gerçek hedef koşulları hâlâ açık.
+Yeni parametre veya model ailesi sırf yüksek sonuç aramak için
+eklenmeyecek. Teknik deneysel paket hazır; ana yöntemin üç bilimsel
+koşulu bununla otomatik geçilmez. Yeni bilimsel yön gerekirse somut
+bulgu/seçenek hazırlanır; eski ekran kontrolü yeniden istenmez.
+
+Kapanış `nonlinear_rank_closure_v1/20261123T133013Z_64470446/readback.json`,
+SHA `f291058ddfbbbcc486bba01e128eae9c53cc600eede33161e74569835a3db466`.
+Deney/audit kimlikleri sonuç raporunda; 40 ilgili test geçti.
+Yeni çalışma mevcut sonucu ve yöntem taslağını kullanmalı;
+2023–2025, yeni etiket veya nihai birleştirme izni çıkarılmamalı.
 
 0. Açık A ile deneysel paket ve kullanıcı ekran kontrolü tamam:
    [kullanım/denetim/kapanış kaydı](EXPERIMENTAL_SU_PACKAGE_2026-11-23.md).

@@ -8,6 +8,18 @@ veya nihai birleştirme yapılmadı.
 
 ## Karar için kısa sonuç
 
+**23 Kasım sonraki kanıt notu:** FWI kıyası, 44.082 satırlık
+incelenebilir deneysel paketin teknik/kullanıcı kontrolü ve sabit
+dokuz XGBoost karşılaştırması artık tamamlandı. Bunlar aşağıdaki
+22 Kasım durumunun sonrasıdır; tarihsel sonuçlar değiştirilmedi.
+XGBoost ayrı Mersin'de dokuz ayarda, dört il genelinde üç ayarda
+eski doğrusal skoru geçti; yakın gün/yön sınırları ve üç bilimsel
+koşul devam ediyor. [Yeni deney ve denetim](NONLINEAR_RANK_RESULTS_2026-11-23.md),
+[mevcut veriye dayalı yöntem taslağı](research/DATASET_METHODS_DRAFT_2026-11-23.md)
+karar için hazır. Sırf daha yüksek skor bulmak için yeni modeller
+eklemek yerine bu kanıtla kapsam/varsayım değerlendirmesi yapılmalı.
+Teknik inceleme sürümü hazır; bu not bilimsel geçiş onayı değildir.
+
 Özellik hazırlığı, zaman/anahtar denetimleri ve sınırlı yardımcı
 deneyler mevcut. Ana 24 saatlik yeni orman/çalılık yangını riskini
 değerlendirecek kaynak/PU dayanağı hâlâ açık. Bugünkü öneri bu

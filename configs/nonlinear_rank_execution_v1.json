@@ -1,0 +1,28 @@
+{
+  "version": "nonlinear_rank_execution_v1",
+  "decision_date": "2026-11-23",
+  "decision_source": "user_continue_after_specific_A_XGBoost_ranking_proposal",
+  "decision_interpretation": "continue_with_the_concrete_recommended_A_scope_not_a_literal_letter_A_reply",
+  "proposal_sha256": "aa1390ef4466d63142b125fda869f348136989b091276e90635e666681b3f98b",
+  "preparation_sha256": "cda37ee7be3820cc1396e939f7eeef78799ae262f21103da3029edd4710454c9",
+  "new_models_authorized": 9,
+  "fit_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "exploratory_assessment_year": 2022,
+  "local_time_limit_seconds": 900,
+  "dependency": "xgboost==3.4.1",
+  "wheel_sha256": "2d30fa513673101f542fdcbd18f30c8f96c064046f798635ac08663e9969f81b",
+  "scientific_values_2023_2024_2025_read_permitted": false,
+  "hyperparameter_search_permitted": false,
+  "original_U_or_weights_changed": false,
+  "true_Y_or_accepted_L_assignment_authorized": false,
+  "negative_label_permitted": false,
+  "daily_observation_status": "unknown",
+  "fire_probabilities_or_validated_risk_colors_authorized": false,
+  "cloud_permitted": false,
+  "final_merge_permitted": false
+}

@@ -5,6 +5,24 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım sonraki devam: sabit dokuz XGBoost deneyi ve kapanışı tamam.**
+Somut A önerisi sonrası devam talimatı ayrı yürütme kaydıyla
+uygulandı. SHA ile sabitlenmiş XGBoost 3.4.1 kuruldu; aynı 15
+dinamik alan/2018–2021 öğrenme ve iki mevcut 2022 takvimi kullanıldı.
+Dokuz fit 56,27 saniyelik çocuk süreçte tamamlandı; 900 saniye
+sınırı, dört CPU iş parçacığı ve sabit parametreler korundu.
+Dört ilde yardımcı çift AUC yeni 0,565731–0,609741 (yalnız üç
+ayarda artış); ayrı Mersin'de 0,553242–0,588235 (dokuz ayarda
+artış). Yakın gün/yön ayrımı hâlâ sınırlı; gerçek yangın başarımı
+veya en iyi üretim ayarı kabul edilmedi. Dokuz modelin yeniden
+yüklenen skorları, çift kimlikleri ve 4.420 sonuç satırı ayrı hesapla
+eşleşti; yerel MLflow 252 özeti tam geri okudu. Yedi yeni dahil
+40 ilgili test ve beş Python dosyası kod/biçim geçti. 44.082
+satırlık paket korundu; Y/L, kapalı yıllar, renk ve final merge yok.
+[Sonuç ve denetim](NONLINEAR_RANK_RESULTS_2026-11-23.md).
+[Veri/yöntem teslim taslağı](research/DATASET_METHODS_DRAFT_2026-11-23.md)
+tamamlanan işlerle yazıldı; üç bilimsel geçiş koşulu açık.
+
 **23 Kasım sonraki deney hazırlığı: doğrusal olmayan günlük sıralama önerisi hazır; eğitim başlamadı.**
 Mevcut 44.082 satırdan aynı 15 dinamik alanla dokuz hücre–ay grup
 envanteri çıkarıldı. Ayara göre 938–1.160 bilgi taşıyan öğrenme

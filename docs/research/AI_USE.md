@@ -6,6 +6,18 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım somut model önerisi sonrası devam. Araştırmacının devam
+talimatı, bir önceki somut A kapsamına bağlı ayrı yürütme kaydı
+olarak yazıldı; açık harf yanıtı veya bilimsel kabul uydurulmadı.
+Yapay zekâ destekli kodla SHA-kilitli XGBoost 3.4.1 kurulumu,
+dokuz sabit CPU sıralama modeli, iki mevcut 2022 değerlendirmesi,
+ayrı 4.420 sonuç/skor/çift denetimi ve yerel 252 MLflow ölçüsü
+tamamlandı. Yedi yeni dahil 40 ilgili test geçti. Grafik asistan
+tarafından incelendi; kullanıcı bu grafiği onaylamış sayılmadı.
+Veri/yöntem taslağı mevcut sonuçlardan yazıldı; insan saha
+etiketlemesi, gerçek yangın doğrulaması veya yayın başarısı değildir.
+[Sonuç ve katkı sınırı](../NONLINEAR_RANK_RESULTS_2026-11-23.md).
+
 23 Kasım sonraki model önerisi. Mevcut kullanıcıca incelenmiş
 paketin hücre–ay grupları, aynı 15 dinamik alan ve eksiklik
 maskesiyle yapay zekâ desteğiyle sayıldı. Eski doğrusal deneyin

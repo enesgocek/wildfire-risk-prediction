@@ -1,5 +1,10 @@
 # Deneysel S/U paketi sonrası tek sabit doğrusal olmayan sıralama önerisi
 
+**Sonraki 23 Kasım kaydı:** Bu somut öneriden sonraki devam
+talimatıyla ayrı yürütme yapılandırması oluşturuldu ve deney
+tamamlandı. [Sonuç ve ayrı denetim](NONLINEAR_RANK_RESULTS_2026-11-23.md).
+Aşağıdaki metin hazırlık anını anlatır; eski öneri izinleri değiştirilmedi.
+
 23 Kasım 2026. Girdi ve grup desteği hesaplandı; **yeni model eğitimi,
 paket kurulumu veya skor üretimi yapılmadı.** Kullanıcının son devam
 talimatı yöntem/deney hazırlığı olarak uygulandı. Önceki açık A kararı
