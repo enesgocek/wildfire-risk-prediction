@@ -1,5 +1,11 @@
 # Yerel araştırma prototipi — geçmiş 2022 sonuç incelemesi
 
+**Güncel v2:** Rutin kullanıcı ekran testi talebi geri çekildi;
+bu kontroller asistan tarafından otomatik yapıldı. Güncel açılış
+`outputs/reports/dataset/historical_research_prototype_v2/20261123T195053Z_aa61b349/inceleme.html`.
+[Dokuz DOM etkileşim testi ve kapsamı](#sonraki-teknik-kontrol-düzeltmesi-ve-v2).
+Aşağıdaki v1 üretim ve önceki kontrol isteği tarihsel kayıttır.
+
 23 Kasım 2026. Araştırmacı **A: koşullu araştırma prototipine geç**
 yönünü açıkça seçti. [Yöntem/teslim önerisi](RESEARCH_TRANSITION_DECISION_2026-11-23.md)
 bu kararla uygulandı; `configs/research_prototype_direction_v1.json`
@@ -103,3 +109,56 @@ kullanıldı; barındırma, yeni Site veya dış veri yüklemesi yapılmadı.
 
 Hash'ler ilgili `readback.json` dosyasına aittir. Bilimsel veri ve
 skorlar değiştirilmedi; görüntüleme dosyaları ayrı sürümde tutuldu.
+
+## Sonraki teknik kontrol düzeltmesi ve v2
+
+23 Kasım'da araştırmacı sayım, filtre ve ekran işlevi kontrollerinin
+asistanın teknik işi olduğunu belirtti. Önceki teknik kullanıcı
+kontrol isteği geri çekildi; olumlu manuel onay uydurulmadı.
+Tercih AGENTS.md'ye kalıcı yazıldı. Yöntem/alan yorumu veya
+yalnız araştırmacının erişebildiği gerçek müdahale dışında rutin
+testler kullanıcıya ilerleme kapısı yapılmayacak.
+
+jsdom 31.0.1, `package.json` ve bütünlük bilgili kilitle yalnız
+test bağımlılığı olarak kuruldu. HTML ve mevcut JS, çevrimdışı
+DOM ortamında çalıştırıldı; yerel dosyaya tarayıcı/localhost erişimi
+veya ağ yüklemesi yapılmadı. Bu ortam işlev testlerini destekler;
+CSS yerleşimi/görsel render doğrulamaz.
+[Resmî çalıştırma ve render sınırı](https://github.com/jsdom/jsdom#executing-scripts).
+
+V1'de yedi gerçek DOM etkileşim testi geçti. Test ilk yazıldığında
+uygun olmayan bir kayıt için grafik beklemişti; koşul, destekli
+kayıt seçimine göre düzeltildi. Desteksiz kayıtların boş puan ve
+gerekçe göstermesi ayrıca sınandı; uygulamanın doğru davranışı
+hata diye düzeltilmedi. Kullanıcının 2.038 sayısı teknik olarak
+yeniden üretildi: dört il takvimi ve Mersin il ek filtresi.
+
+V2'de aşağıdaki iyileştirmeler yapıldı:
+
+- Kartın adı **Puan hesaplanan kayıt**; altında meteoroloji ve
+  15 dinamik girdi koşulu yazıyor.
+- İnceleme grubu ile il ek filtresi ayrı ve aktif bağlam görünür.
+- Grup değişince il/hücre ek filtreleri temizleniyor; diğer görünüm
+  tercihleri ekranda kalıyor.
+- İlk ayrıntı için uygun bir kayıt varsa seçiliyor; desteksiz
+  kayıtlar tablodan silinmiyor ve elle seçilebiliyor.
+
+V2'de **dokuz otomatik DOM testi** geçti: kartlar, 2.038 il filtresi,
+2.383 ayrı Mersin/1.929 puanlanan kayıt, satır ve klavye seçimi,
+SVG noktaları, 27 özellik satırı, sayfalama, boş sonuç/sıfırlama,
+dokuz ayar, desteksiz kayıt ve yeni arayüz bağlamı. Bunlar gerçek
+tarayıcı görsel kabulü diye sunulmadı. Manuel teknik kapı yok.
+
+Üretici `scripts/quality/upgrade_research_prototype_ui.py`;
+test `tests/js/research_prototype_dom.test.cjs`.
+V1 korunur; `review_data.js` ve `research-core.js` v1'den birebir
+kopyalanmıştır. Bilimsel değer, skor, hedef veya model değişmemiştir.
+İlk v2 taslağındaki uzun satır stil kusuru kaynak kopyası korunarak
+giderildi; teslim sürümü aşağıdaki yeni koşudur, önceki çıktı silinmedi.
+
+- Dizin: `historical_research_prototype_v2/20261123T195053Z_aa61b349`.
+- `readback.json` SHA-256:
+  `1afe43954ce0ccbe139df71e414fda7b0d0faf9dbfc332ae66fbc0beea80caa1`.
+- `dom_interactions.tap`: gerçek test çıktısı.
+- `actual_browser_visual_render_verified=false`;
+  `user_technical_test_gate_required=false`.

@@ -38,6 +38,14 @@ model girdisi olamaz.
 
 ## Araştırma aşamaları ve kabul ölçütleri
 
+23 Kasım teknik iş bölümü açıklığıyla rutin ekran testi kullanıcı
+kapısı kaldırıldı. Veri, filtre ve işlev denetimleri asistanın
+sorumluluğunda; v2 arayüzün dokuz otomatik DOM testi geçti.
+Görsel render doğrulaması yapılmış sayılmadı; bu sınır teknik
+ilerlemeyi kullanıcı yanıtına bağlamaz. Araştırmacıdan yöntem,
+alan yorumu ve gerçekten yalnız kendisinin yapabildiği müdahale
+gerekirse karar istenir. Ana bilimsel kabul koşulları korunuyor.
+
 23 Kasım uzun özerk devam ve sonraki açık A: kaynak/skor bağlantılı
 iki 2022 takvimi, eksiklik bağlamı ve eski meteoroloji QA profilleri
 ayrı denetlendi. Mevcut ana tam-alan kuralına uyum için aynı sabit

@@ -1,0 +1,11 @@
+{
+  "name": "wildfire-research-ui-tests",
+  "private": true,
+  "description": "Offline DOM and interaction tests for the local research prototype",
+  "scripts": {
+    "test:prototype-core": "node --test tests/js/research_prototype.test.cjs",
+    "test:prototype-dom": "node --test tests/js/research_prototype_dom.test.cjs"
+  },
+  "engines": { "node": ">=26.0.0" },
+  "devDependencies": { "jsdom": "31.0.1" }
+}

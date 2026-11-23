@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**23 Kasım teknik iş bölümü düzeltmesi: kullanıcı ekran testi kapısı kaldırıldı; v2 otomatik DOM kontrolleri geçti.**
+Sayım/filtre/tıklama/sayfalama/grafik/özellik açılması asistanın
+teknik işi olarak AGENTS.md'ye kaydedildi. jsdom 31.0.1 yalnız
+geliştirme/test bağımlılığı olarak sabitlendi. Gerçek HTML ve
+denetlenmiş payload ile dokuz çevrimdışı DOM testi geçti; kullanıcı
+bildirimindeki 2.038 sayısı dört-il takvimi/Mersin ek filtresiyle
+yeniden üretildi. Ayrı Mersin takvimi 2.383 / 1.929 verdi.
+Puan kartı ve filtre bağlamı açıklaştırıldı; v2 veri/hesap kodu
+v1 ile byte olarak aynı. Yeni model/etiket/yıl veya bilimsel sonuç
+yok. Görsel tarayıcı render doğrulaması hâlâ yapılmış sayılmıyor;
+bu sınırlama kullanıcı teknik onayı bekleme nedeni değildir.
+[Güncel v2 dosyası ve kontrol makbuzu](RESEARCH_PROTOTYPE_2026-11-23.md#sonraki-teknik-kontrol-düzeltmesi-ve-v2).
+
 **23 Kasım uzun devamı: kapsam/kalite işleri kapandı; açık A ile yerel araştırma prototipi hazır.**
 İki 2022 takviminin 8.956 üyeliği / 245 ortak / 8.711 farklı
 anahtarı, 80.604 skor satırı ve kaynak bağlantıları ayrı denetlendi.

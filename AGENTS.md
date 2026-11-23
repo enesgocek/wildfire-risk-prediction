@@ -47,6 +47,14 @@ tekrarlanabilirlik ve veri kabul ölçütleri başvurudan bağımsız korunur.
 
 ## Yazım ve kayıt
 
+- Kullanıcının 23 Kasım teknik iş bölümü açıklaması: sayım, filtre, satır
+  seçimi, sayfalama, grafik/ayrıntı açılması ve benzeri rutin teknik kontroller
+  asistanın sorumluluğudur; kullanıcıya test görevi veya ilerleme kapısı olarak
+  aktarılmaz. Uygun otomasyonla yapılır. Araç kısıtı varsa doğrulama sınırı
+  açık kaydedilir ve bağımsız işler sürdürülür; yapılmamış görsel tarayıcı
+  kontrolü yapılmış sayılmaz. Kullanıcıya bilimsel/yöntem kararı, alan bilgisiyle
+  insan yorumu veya yalnız kendisinin erişebildiği gerçek müdahale gerektiğinde
+  danışılır. Eski rutin ekran kontrolü talepleri bu açıklıkla ilerleme koşulu değildir.
 - Kullanıcının 19 Kasım özerk çalışma tercihi: bağımsız ve yetkilendirilmiş
   işler tamamlandıkça sıradaki işe geçilir; her küçük işin sonunda genel
   "devam et" yanıtı beklenmez. İnsan değerlendirmesi veya yöntem kararı

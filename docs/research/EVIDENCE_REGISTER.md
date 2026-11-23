@@ -2283,6 +2283,16 @@ Veri ve mantık kontrolü tarayıcı render sayılmadı; yeni ekran
 kontrolü kullanıcıda. Ana 24 saat soru korunuyor; risk olasılığı,
 renk, Y/L, kapalı yıl veya final merge yok.
 
+E253 — 23 Kasım. [Rutin teknik kapının kaldırılması ve v2 DOM kontrolü](../RESEARCH_PROTOTYPE_2026-11-23.md#sonraki-teknik-kontrol-düzeltmesi-ve-v2).
+Kullanıcı teknik ekran testi istemediğini netleştirdi; tercih
+AGENTS.md'ye kaydedildi. V1'de yedi, açık etiket/filtre bağlamlı
+v2'de dokuz gerçek çevrimdışı DOM etkileşim testi geçti. 2.038
+sayısı dört il/Mersin ek filtresiyle, 2.383/1.929 ayrı Mersin
+takvimiyle yeniden üretildi. Grafik/özellik/sayfalama/boş sonuç
+test edildi; görsel tarayıcı render ve manuel onay iddia edilmedi.
+V1 ve bilimsel payload/hesap çekirdeği aynı kaldı. Yeni model,
+etiket, kapalı yıl ve final merge yok; kullanıcı teknik kapısı yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

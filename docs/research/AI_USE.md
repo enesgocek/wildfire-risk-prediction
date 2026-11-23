@@ -6,6 +6,17 @@ sürer; bu kayıt imzalanmış beyan veya danışman onayı değildir.
 
 ## Kullanım kapsamı
 
+23 Kasım teknik iş bölümü düzeltmesi. Araştırmacının açıklığıyla
+rutin kullanıcı ekran kontrolü talebi geri çekildi. Yapay zekâ
+desteğiyle gerçek HTML/JS ve kayıtlı payload üzerinde çevrimdışı
+DOM etkileşim testleri kuruldu; v2'de dokuz test geçti. Sayı/filtre,
+satır/klavye seçimi, sayfalama, SVG ve 27 özellik doğrulaması insan
+kontrolü diye yazılmadı. Görsel tarayıcı renderi de yapılmış
+sayılmadı; bu sınır kullanıcıya teknik görev aktaran kapı değildir.
+Etiket ve filtre açıklıkları yeni UI sürümüne alındı; bilimsel
+payload ve hesap çekirdeği değişmedi.
+[Kanıt ve sınır](../RESEARCH_PROTOTYPE_2026-11-23.md#sonraki-teknik-kontrol-düzeltmesi-ve-v2).
+
 23 Kasım uzun özerk devam. Yapay zekâ desteğiyle mevcut 2022
 skorları kaynak satırlarına bağlandı, kapsam/eksiklik ile kayıtlı
 meteoroloji alan desteği ayrıldı. 3 Ekim'in sabit tam-alan kuralı,

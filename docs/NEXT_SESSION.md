@@ -6,15 +6,22 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
-Öncelik: [yeni yerel araştırma prototipinin](RESEARCH_PROTOTYPE_2026-11-23.md)
-kullanıcı tarayıcı yanıtını kontrol et. Açılış:
-`historical_research_prototype_v1/20261123T144811Z_555ee371/inceleme.html`.
-İlk kartlar 6.573 / 4.841 / 225 / 185; ayrı Mersin 2.383 /
-1.929 / 81 / 68. Grafik ve 27 özellik ayrıntısı soruldu. Yanıt
-yoksa başarı varsayma; tarayıcı aracı yerel file protokolünü
-reddettiği için başka protokol/yüzeyle aşma. Olumlu yanıt gelirse
-yalnız kullanılabilirlik olarak, bu makbuz/hash'e bağlı kaydet.
-Sorun gelirse mevcut çıktıyı koruyup düzeltmeyi yeni sürümle üret.
+Öncelik: [otomatik teknik kontrolü tamamlanmış yerel prototipten](RESEARCH_PROTOTYPE_2026-11-23.md)
+devam et. Kullanıcıya rutin kart/sayım/filtre/satır/grafik testi
+yaptırma; eski kullanıcı ekran testi talebi geri çekildi. Kullanıcı
+23 Kasım'da bu görevlerin asistanın işi olduğunu netleştirdi;
+bu açıklık AGENTS.md içinde kayıtlı. Görsel render yapılmış
+sayılmayacak; bu sınır rutin teknik işi kullanıcıya aktaran kapı değildir.
+
+Güncel arayüz:
+`historical_research_prototype_v2/20261123T195053Z_aa61b349/inceleme.html`.
+Dokuz çevrimdışı gerçek DOM etkileşim testi; kartlar, 2.038
+Mersin il filtresi, ayrı 2.383 Mersin takvimi, sayfalama,
+satır/klavye seçimi, SVG grafik, 27 özellik ve kalite davranışı
+geçti. Puan kartı açık adlandırıldı; aktif il ek filtresi gösteriliyor,
+inceleme grubu değişince il/hücre ek filtreleri temizleniyor.
+Veri payload'ı ve hesap çekirdeği v1 ile byte olarak aynı.
+Makbuz SHA `1afe43954ce0ccbe139df71e414fda7b0d0faf9dbfc332ae66fbc0beea80caa1`.
 
 Araştırmacı **A: koşullu araştırma prototipine geç** yönünü açıkça
 seçti; bu yönü veya eski ekran onayını tekrar sorma. Aynı açık A
@@ -34,8 +41,8 @@ esas alınır; aynı işleri tekrar etme. Eski geniş-alan modelleri
 tam-alanla eğitilmiş gibi sunma. Daha yüksek skor için kalite
 kuralını gevşetme veya yeni model/parametre araması ekleme.
 
-Yeni çalışma prototip yanıtından ve mevcut sonuçlardan devam
-etmeli. Ana Y/L, 2023–2025 ve nihai etiketli birleştirme kapıları
+Yeni çalışma kullanıcıdan teknik test yanıtı beklemeden mevcut
+prototip ve sonuçlardan devam etmeli. Ana Y/L, 2023–2025 ve nihai etiketli birleştirme kapıları
 bu yön seçiminden açılmaz. Gerekli yeni bilimsel karar somut
 bulgu ve seçenekle sorulur; rutin iş için yeniden onay istenmez.
 
