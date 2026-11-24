@@ -1,9 +1,20 @@
-# Proje durum raporu — 24 Kasım 2026
+# Proje durum raporu — 25 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**25 Kasım: yeni yardımcı olay kaynağının somut pilot önerisi hazır.**
+Mesogeos'un açık ayrı vektör klasörü ve dosya başlıkları okundu. 34 alan,
+EPSG:5643 ve hazır örneklerdeki eksi bir gün dönüşümü doğrulandı; yanlış
+gün/CRS aktarımını önleyen inceleme planı hazırlandı. Yeni kaynaktan olay
+satırı açılmadı. Yaklaşık 53 MB ilk tablo, ilgili kayıt varsa toplam 160 MB
+yardımcı alan incelemesi; 900 saniye sınırı. Mevcut 65 uygun Mersin gününün
+51–52'si yayımlanan üst tarihe kadar geliyor; bu yeni olay eşleşmesi değil.
+43 ilgili test ve ayrı 19 girdi/sekiz destek sayısı denetimi geçti.
+Yeni kaynak yöntem kapsamı için araştırmacıya A/B sunulacak; pilot henüz
+yürütülmedi. [Bulgu ve somut öneri](MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md).
 
 **24 Kasım sonraki devam: bütünleşik araştırma raporu hazır.**
 Veri, yöntem, dört seçili gerçek çalışma, ortak çift sonuçları, kaynak

@@ -1926,6 +1926,15 @@ araştırmacının elle yaptığı iş veya yangın etiketi onayı olarak sunulm
 Ana hedef, elde edilen kaynak sıralaması ve açık doğrulama koşulları ayrı
 yazıldı. Yeni öğrenme, veri edinimi veya nihai etiketli birleştirme yoktur.
 
+### 25 Kasım Mesogeos yardımcı kaynak hazırlığı
+
+Mevcut literatürden bilinen kaynağın güncel açık erişimi, kod/şema/koordinat
+ve tarih ekseni incelemesi yapay zekâ desteğiyle yapıldı. Sınırlı anonim
+metadata ve dosya başlıkları alındı; yeni olay satırları açılmadı. Hazırlık
+kodları, davranış kontrolleri ve ayrı sayı/hash denetimi otomatik yürütüldü.
+Bu sonuçlar insan yangın doğrulaması, bağımsız saha verisi veya pilotun
+kabulü olarak sunulmadı. Yeni kaynak tercihi araştırmacıya sunulacak.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

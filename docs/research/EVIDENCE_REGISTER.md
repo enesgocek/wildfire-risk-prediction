@@ -2370,6 +2370,16 @@ korundu; yeni deney/yıl/etiket/nihai merge yok. Word render bileşeni olmadığ
 için doğrulanmamış DOCX teslim edilmedi. Üretim SHA `7ca3f6cb…353daa`,
 audit `f7f5dca8…ff1196`; tam hash ve kapsam bağlı raporda.
 
+E263 — 25 Kasım. [Mesogeos yardımcı kaynak hazırlığı](../MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md).
+Açık klasör/kod listesi ve yalnız 1.755 bayt vektör başlığında 34 alan,
+23.225 kaynak satırı bildirimi, boyut/indeks eşliği ve EPSG:5643 doğrulandı.
+Yazar hazır örnek kodunun eksi bir gün dönüşümü saptandı. Yeni olay satırı
+açılmadı; 23.225 bağımsız yangın sayısı değil. 81 eski kaynak-gün/iki eski
+2022 takviminden sekiz tarih destek sayısı hesaplandı. 43 ilgili test,
+19 hazırlık girdisi ve ayrı başlık/CRS/boyut/sayı geri denetimi geçti.
+Pilot ve yeni kaynak tercihi henüz yürütülmemiştir. Hazırlık SHA
+`cd8ad5fd…691bd3`, audit `de8b848e…9c2ac7`; tam kimlikler raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

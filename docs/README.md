@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 24 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 25 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mesogeos yardımcı kaynak önerisi](MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md) | Açık vektör listesi/34 alan/EPSG:5643, bir günlük eksen farkı; iki aşamalı 53/160 MB öneri, ayrı destek denetimi ve 43 ilgili test; yeni olay satırı veya etiket kabulü yok |
 | [Bütünleşik araştırma raporu](THESIS_RESEARCH_REPORT_2026-11-24.md) | 11 sayfalık PDF, veri/yöntem/literatür/sonuç/sınır; sekiz tablo 126 hücre, 675 aritmetik ve 18 aralık kontrolü; bütün sayfalar görsel incelendi |
 | [Taşınabilir araştırma paketi](PORTABLE_RESEARCH_RELEASE_2026-11-24.md) | Tek başlangıç sayfası, 499 dosya/24 MB ZIP, paket içi kanıtlar; 39 Python ve çıkarılmış klasörde 14 DOM testi |
 | [Coğrafi araştırma prototipi v3](GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md) | 244 hücre konumu, 12 örnek/kanıt gezinmesi; 30 Python/14 DOM testi, ayrı köşe ve değişmez bilimsel veri denetimi |

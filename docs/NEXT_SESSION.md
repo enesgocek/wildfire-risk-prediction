@@ -1,10 +1,25 @@
 # Kısa devam kaydı
 
-Güncelleme: 24 Kasım 2026. Bu dosya durum/kontrol sırasıdır;
+Güncelleme: 25 Kasım 2026. Bu dosya durum/kontrol sırasıdır;
 yeni yetki, otomatik görev veya bilimsel kabul makbuzu değildir.
 AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
+
+[Mesogeos yardımcı kaynak önerisi](MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md)
+hazır; araştırmacının A/B seçimini mevcut sohbetten kontrol et. Genel
+devam talimatı öncesindeki hazırlık bu yeni kaynağın benimsenmesi değildir.
+Öneri 53 MB ilk tablo, gerekirse toplam 159.822.559 bayt; 900 saniye ve
+yalnız 2018–2022 yardımcı bağlam incelemesi. 34 alan/EPSG:5643/eksi bir
+gün hazır örnek ekseni metadata/koddan doğrulandı. Ham olay satırı yok;
+UTC, nokta/alan ve kapsam doğruluğu kabul edilmedi. Yeni kaynak yokluğu
+negatif değildir; eğitim/Y/L/2023–2025/final merge açılmaz.
+Hazırlık `mesogeos_reference_preparation_v1/20261124T224948Z_e1def508`,
+ayrı audit `mesogeos_reference_preparation_audit_v1/20261124T225146Z_5ae84eea`.
+43 ilgili test geçti; aynı üstveri paketlerini yeniden üretme. A seçilirse
+önerideki yıl/alan/tarih/CRS ve durma kurallarıyla somut edinim/inceleme
+yürütmesini hazırla; `execute_authorized=false` olan tarihsel öneriyi
+sessizce düzenleme. UTC run kimliği 24, yerel çalışma tarihi 25 Kasım.
 
 Mevcut sonuçları yeniden üretmeden [11 sayfalık araştırma raporunu](THESIS_RESEARCH_REPORT_2026-11-24.md)
 esas al. 44.082 özellik/üyelik, 675 ölçü aritmetiği, 18 aralık ve sekiz
