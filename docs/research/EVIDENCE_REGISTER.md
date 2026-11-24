@@ -2392,6 +2392,16 @@ hash'i kapanış sonrası ayrı kaydedildi. Geometri SHA `60f4cdd5…4b3c1e`,
 audit `544f5fe7…ba1d44`, özet `0cbc801c…3426e`; tam hash ve sınırlar raporda.
 Yeni S/Y/L, model, kapalı yıl veya final merge yok.
 
+E265 — 25 Kasım. [32 kaynak kaydı ve güncel aşama](../MESOGEOS_CANDIDATE_REVIEW_2026-11-25.md).
+Araştırmacının açık A tercihi sonrası 32 farklı durum, iki harita/saat
+ve dokuz geçmiş ayarıyla incelendi. Ana 2017 haritasında 11 odunsu,
+8 tarım/13 diğer; 576 koşullu satırın vaka düzeyinde beşi bütün
+ayarlarda ve hedef gününde kararlı öneri. Gerçek yangın veya S kabulü
+değil. 30 ilgili test, doğrudan raster pencere ve standart saat/skaler
+jeodezik geri denetimi geçti. Eski S/U hash'i korundu; yeni model/yıl/
+Y/L/final merge yok. Hazırlık SHA `ae94cfbf…0ecb48`, audit
+`c1a181f9…b09b449`; tam kimlik ve varsayımlar raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

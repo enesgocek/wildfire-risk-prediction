@@ -6,6 +6,22 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+**Araştırmacı yeni A yönünü açıkça seçti ve 32 kayıt incelemesi tamamlandı.**
+[Sonuç ve aşama durumu](MESOGEOS_CANDIDATE_REVIEW_2026-11-25.md): 11 ana
+harita orman/çalılık merkezi; iki saat/dokuz ayarda 576 koşullu satır,
+beşinde tüm ayarlarda öneri ve aynı hedef günü. Bunlar kabul edilmiş
+S veya gerçek yangın değil. 30 ilgili test ve ayrı piksel/saat/mesafe
+denetimi geçti. Çalışma `mesogeos_candidate_context_v1/20261124T234645Z_8d88cfe5`,
+audit `mesogeos_candidate_context_audit_v1/20261124T234801Z_9b662cb9`.
+Mevcut S/U/model ve kapalı yıllar korunuyor. Aynı A'yı tekrar sorma,
+aynı kaynağı indirme veya eski modelleri yeniden kurma. Ek az sayıdaki
+öneri ana hedef/P-U/değerlendirme dayanağını kapatmadı. 26–29 Kasım
+karar incelemesinde bu açıkları açıkça esas al; takvim nedeniyle kabul
+etme. Tahmini 1 Ocak'a 25 Kasım itibarıyla 37 gün var. Teknik araştırma
+teslim temeli mevcut, doğrulanmış risk sistemi garantisi yok.
+
+### Önceki yardımcı kaynak ve yöntem kararı kaydı
+
 **Mesogeos A yardımcı kaynak pilotu tamamlandı; yeniden indirme.**
 [Sonuç raporu](MESOGEOS_REFERENCE_RESULTS_2026-11-25.md): 92 kaynak kaydı,
 30 içeride/62 dışarıda nokta, ham hücre/gün aramasında 60 eski S/5 U/27

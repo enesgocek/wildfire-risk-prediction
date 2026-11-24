@@ -1947,6 +1947,16 @@ onayı değildir. Ham bilimsel dosyalar ve kapanan akış logu ayrı doğruland�
 Kaynak noktaları otomatik gerçek yangın etiketi veya bağımsız saha kanıtı
 olarak kabul edilmedi; eski S/U ve modeller değiştirilmedi.
 
+### 25 Kasım 32 adayın koşullu hazırlığı ve takvim değerlendirmesi
+
+Araştırmacının açık yöntem seçimi sonrasında 32 kaydın iki tarihsel harita,
+iki saat varsayımı ve dokuz yakın geçmiş bağlamı yapay zekâ desteğiyle
+hazırlandı. Ayrı raster pencere/saat/mesafe geri hesapları ve testler
+otomatik yürütüldü. Ayarlara göre kararlı beş öneri, insan tarafından
+doğrulanmış yangın veya kabul edilmiş üyelik olarak yazılmadı. 25 Kasım
+durumu eski planla karşılaştırıldı; takvim kararı ve bilimsel kabul ayrı
+tutuldu. Yeni iletişim, indirme, eğitim ve nihai birleştirme yapılmadı.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

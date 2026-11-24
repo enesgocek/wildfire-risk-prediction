@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**25 Kasım açık A sonrası: 32 kaydın ayrı aday hazırlığı tamamlandı.**
+Ana 2017 merkez bağlamı 11 orman/çalılık, 8 tarım, 13 diğer; 32 hücre
+su kapsamında korunuyor. İki koşullu saat/dokuz yakın-geçmiş ayarında
+576 satır üretildi. Beş kayıt bütün 18 ayarda ve hedef gününde kararlı
+koşullu öneri; gerçek beş yeni yangın değil. Dört kaydın hedef günü
+saat duyarlılığında değişiyor. 30 ilgili test ve ayrı doğrudan raster/
+standart saat/skaler mesafe denetimi geçti. Eski S/U/model değişmedi.
+Teknik paket/prototip/rapor hazır; üç ana bilimsel geçiş konusu açık.
+26–29 Kasım karar aralığı henüz geçmedi; tahmini 1 Ocak'a 37 gün var.
+Doğrulanmış risk sistemi için yetişme garantisi yok.
+[32 kayıt sonucu ve aşama değerlendirmesi](MESOGEOS_CANDIDATE_REVIEW_2026-11-25.md).
+
 **25 Kasım sonraki devam: Mesogeos yardımcı kaynak pilotu ve ayrı denetimi tamamlandı.**
 159.822.559 bayt kaynak, özgün 900 saniye sınırında alındı; yalnız
 2018–2022 alanları ve dört ildeki 92 kaydın geometrileri incelendi.

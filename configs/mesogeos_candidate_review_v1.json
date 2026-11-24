@@ -1,0 +1,22 @@
+{
+  "version": "mesogeos_candidate_review_v1",
+  "decision_date": "2026-11-25",
+  "decision_source": "explicit_user_acceptance_recommended_32_case_review",
+  "selected_direction": "A_prepare_separate_noisy_S_proposals_after_context_checks",
+  "reference_audit_sha256": "544f5fe7490ae72ec109bed48d6cd60be09404784bfd0baf540136e263ba1d44",
+  "review_cases": 32,
+  "primary_cover_context": "CGLS2017_center_only_not_event_date_truth",
+  "auxiliary_cover_context": "CORINE2018_not_mandatory_can_postdate_fire",
+  "distance_sensitivity_m": [500, 1000, 2000],
+  "history_sensitivity_hours": [24, 48, 72],
+  "clock_sensitivity": ["preserved_MODIS_UTC_if_lineage_correct", "minus_3h_stress_only_not_claimed_local_time"],
+  "same_event_identity_accepted": false,
+  "production_scenario_selected": false,
+  "existing_SU_memberships_changed": false,
+  "new_Y_or_accepted_L": false,
+  "negative_labels": false,
+  "new_model_training_or_prediction": false,
+  "scientific_values_2023_to_2025": false,
+  "download_or_cloud": false,
+  "final_merge": false
+}
