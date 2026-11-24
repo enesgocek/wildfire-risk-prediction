@@ -7,6 +7,12 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+Aynı gün sonraki [v3 konum/kanıt arayüzü](../GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md),
+mevcut bilimsel değerleri değiştirmeden 244 hücreyi ve 12 açıklayıcı
+örneği görünür kıldı. 30 Python/14 DOM testi ve ayrı koordinat/bağlam
+denetimi geçti; bu bilimsel etiket veya risk kabulü değildir. Gerçek
+tarayıcı görsel kontrolü yapılmış sayılmadı; rutin kullanıcı test kapısı yok.
+
 Araştırmacı sonraki “önerinden devam” yanıtıyla kaynak-örtüşmesi
 önerisinin A yönünü seçti; [yürütme ve ayrı audit tamamlandı](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
 405 ölçü/47.889 çift kaydı, 135 eski sonuç/270 fark, yerel 405

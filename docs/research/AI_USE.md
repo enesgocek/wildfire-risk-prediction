@@ -1896,6 +1896,17 @@ veya gerçek yangın etiketi yoktur; ortak anahtar katkısının ayrılması
 ana yangın hedefine aktarım doğrulaması olarak sunulmadı.
 [Sonuç ve katkı sınırı](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
 
+### 24 Kasım coğrafi araştırma prototipi
+
+Yerel hücre konum görünümü, 12 eski örneğe geçiş, mevcut sonuç ve
+kanıt bağlantıları yapay zekâ desteğiyle geliştirildi. Sites becerisinin
+yerel depo akışı kullanıldı; veri dış servise yüklenmedi. Kaynak
+koordinatların ayrı geri dönüş denetimi ve çevrimdışı DOM etkileşim
+testleri otomatik yapıldı; araştırmacı/uzman görsel doğrulaması veya
+gerçek tarayıcı render kontrolü olarak sunulmadı. Bilimsel veri ve
+hesap çekirdeği korunarak yeni model/etiket üretilmedi.
+[V3 ve sınırlar](../GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

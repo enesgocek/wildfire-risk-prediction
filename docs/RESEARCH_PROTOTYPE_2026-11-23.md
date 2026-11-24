@@ -1,5 +1,9 @@
 # Yerel araştırma prototipi — geçmiş 2022 sonuç incelemesi
 
+**24 Kasım sonraki sürüm:** [konum ve kanıt gezinmeli v3](GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md)
+hazır; bilimsel payload/çekirdek v2 ile aynı. Aşağıdaki v2/v1 kayıtları
+kendi tarihlerindeki durumları korur. Güncel açılış yeni rapordadır.
+
 **Güncel v2:** Rutin kullanıcı ekran testi talebi geri çekildi;
 bu kontroller asistan tarafından otomatik yapıldı. Güncel açılış
 `outputs/reports/dataset/historical_research_prototype_v2/20261123T195053Z_aa61b349/inceleme.html`.

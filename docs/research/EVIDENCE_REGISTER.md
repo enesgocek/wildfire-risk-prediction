@@ -2344,6 +2344,15 @@ ve 34 ilgili test geçti. Yeni fit/tahmin/etiket/yıl yok; gerçek
 yangın aktarımı doğrulanmadı. Run SHA `7f6e16ff…a5d23`, audit
 `caf4f765…c2275`, kapanış `aa2e31f9…023f5`; tam hash sonuç raporunda.
 
+E260 — 24 Kasım. [Coğrafi araştırma prototipi v3](../GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md).
+244 hücre, 12 önceki örnek ve mevcut sonuç/kanıt bağlantıları yerel
+arayüze eklendi. 89.527 geometri köşesi ve 12 aralık değeri ayrı
+eşleşti; bilimsel payload/hesap çekirdeği v2 ile aynı byte. 30 Python
+ve 14 gerçek çevrimdışı DOM testi bu devamda geçti. Görsel tarayıcı
+render veya insan yangın/örtü doğrulaması değil; kullanıcı teknik
+test kapısı yok. Yeni fit/tahmin/etiket/kapalı yıl/final merge yok.
+V3 SHA `f6140ef7…43f4a8`, audit `3b31d988…f5c135`; tam hash raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

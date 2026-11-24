@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**24 Kasım sonraki devam: konum ve kanıt gezinmeli araştırma prototipi v3 hazır.**
+244 kayıtlı hücre kaynak grid geometrisiyle haritada seçilebilir;
+yaklaşma/geri dönüş, 12 örneğe geçiş ve mevcut karşılaştırma özeti
+eklendi. 89.527 köşe, örnek anahtarları ve mevcut aralıklar ayrı
+eşleşti. Skor/özellik payload'ı ve hesap çekirdeği v2 ile byte olarak
+aynı; yeni model/etiket/yıl/renk sınıfı yok. Bu devamda 30 Python
+ve 14 çevrimdışı DOM testi geçti. Gerçek tarayıcı görsel render
+doğrulanmadı; kullanıcı teknik test kapısı yok.
+[Açılış, kullanım ve makbuzlar](GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md).
+
 **24 Kasım A seçimi sonrası: kaynak-örtüşmesi sınaması tamamlandı ve ayrı doğrulandı.**
 Araştırmacının “önerinden devam” yanıtı önerilen A'nın yürütme kararı
 olarak kaydedildi. Mevcut skorlarla 405 ölçü / 47.889 model-grup çift

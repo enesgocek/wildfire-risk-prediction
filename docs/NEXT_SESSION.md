@@ -6,6 +6,17 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+Güncel inceleme ekranı [coğrafi araştırma prototipi v3](GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md):
+`historical_research_prototype_v3/20261124T173653Z_3a064f3e/inceleme.html`.
+244 hücre haritası, yaklaşma/klavye seçimi, 12 örnek ve mevcut sonuç
+özeti hazır. 30 Python/14 DOM testi, 89.527 köşelik ayrı geometri
+ve değişmez bilimsel byte denetimi geçti. Aynı UI'ı veya bilimsel
+hesapları yeniden üretme; önceki v2 atıfları tarihsel bağlamdır.
+Görsel tarayıcı doğrulaması yapılmış sayılmaz; bu sınır kullanıcıya
+rutin test kapısı olmaz. Kaynak skorunu risk sınıfına çevirme veya
+yeni model/yıl/etiket açma. Mevcut prototip/teslimi açık bilimsel
+sınırlarıyla ilerlet; gerçek yöntem tercihi gerekirse somut seçenekle sor.
+
 Araştırmacı “önerinden devam” ile [kaynak-örtüşmesi önerisinin](SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md)
 A yönünü seçti; sınama **tamamlandı**. Aynı kararı tekrar sorma.
 [Güncel sonuç](SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md):
