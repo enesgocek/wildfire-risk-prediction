@@ -1,6 +1,6 @@
 # Belge dizini ve proje mimarisi
 
-Güncelleme: 23 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
+Güncelleme: 24 Kasım 2026. Güncel ilerleme, bilimsel yöntem, işlem rehberi ve
 tarihsel kayıtların görevleri aşağıda ayrılmıştır. 4 Kasım kararıyla TÜBİTAK
 başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korunur.
 
@@ -8,6 +8,9 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Yerel araştırma teslimi ve skor desteği](LOCAL_RESEARCH_RELEASE_2026-11-24.md) | 54/864/6.456/5.262 bağımsız hesap, 198 dosyalık yerel paket ve ZIP denetimi; mevcut 2022 skorları, yeni eğitim/etiket yok |
+| [Veri kartı](research/DATASET_CARD_2026-11-24.md) | 44.082 anahtar, 27 alan, üyelik/eksiklik/kapsam ve kullanım sınırı |
+| [Model kartı](research/MODEL_CARD_2026-11-24.md) | Dokuz tam-alan XGBoost, 15 dinamik alan, mevcut yardımcı sonuçlar ve açık aktarım sınırı |
 | [Yerel araştırma prototipi](RESEARCH_PROTOTYPE_2026-11-23.md) | Açık A ile iki 2022 takvimi/dokuz ayar; v2'de dokuz otomatik DOM testi, açık puan kartı ve filtre bağlamı; kullanıcı teknik test kapısı kaldırıldı |
 | [Kapsam ve meteoroloji kuralına uyum](DATASET_SUPPORT_AND_WEATHER_REVIEW_2026-11-23.md) | 8.711 tekil/8.956 üyelik/80.604 skor; eksiklik kökeni, üç eski QA profili, dokuz tam-alan model ve ortak-payda sonuçlar |
 | [Araştırma geçiş kararı](RESEARCH_TRANSITION_DECISION_2026-11-23.md) | Araştırmacının A seçimiyle deneysel prototip yönü; ana yangın hedefi ve bilimsel açıklar korunuyor |

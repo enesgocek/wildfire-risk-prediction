@@ -1,0 +1,19 @@
+{
+  "version": "frozen_score_diagnostics_v1",
+  "analysis_date": "2026-11-24",
+  "scope": "posthoc_description_of_existing_2022_primary_weather_common_pair_scores",
+  "groupings": ["province_area_intersections", "calendar_month", "cell_seen_in_frozen_model_fit"],
+  "aggregations": ["pair_weighted", "equal_source_day", "equal_cell_month", "equal_cell"],
+  "sensitivity": "remove_one_assessment_cell_without_refitting",
+  "all_nine_scenarios_retained": true,
+  "new_model_training": false,
+  "new_predictions": false,
+  "new_threshold_selection": false,
+  "source_context_is_true_fire": false,
+  "unassigned_is_true_negative": false,
+  "main_AP_replaced": false,
+  "new_Y_or_accepted_L": false,
+  "closed_year_2023_2024_2025_values": false,
+  "risk_probabilities_or_validated_colors": false,
+  "final_merge": false
+}

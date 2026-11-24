@@ -1,10 +1,21 @@
 # Kısa devam kaydı
 
-Güncelleme: 23 Kasım 2026. Bu dosya durum/kontrol sırasıdır;
+Güncelleme: 24 Kasım 2026. Bu dosya durum/kontrol sırasıdır;
 yeni yetki, otomatik görev veya bilimsel kabul makbuzu değildir.
 AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
+
+24 Kasım devamında üç iş kapandı: sabit skor destek/yoğunlaşma tanısı,
+veri/model kartları ve 198 dosyalık tek yerel araştırma teslimi.
+[Güncel sonuç ve makbuzlar](LOCAL_RESEARCH_RELEASE_2026-11-24.md).
+Son teslim `local_research_release_v2/20261124T023339Z_6f277b31`,
+ayrı audit `local_research_release_audit_v1/20261124T023357Z_4c357a37`.
+34 ilgili test geçti. Aynı destek hesabını, paket kopyasını veya model
+fitini yeniden başlatma. Mevcut iki 2022 takvimindeki aktarım ve hata
+örneklerinin bilimsel tartışması sıradadır; yeni eğitim/yıl/renk için
+bu teknik kapanışı yetki sayma. Aşağıdaki prototip kontrolleri tamamlanmış
+bağlamdır; araştırmacıdan rutin teknik onay beklenmez.
 
 Öncelik: [otomatik teknik kontrolü tamamlanmış yerel prototipten](RESEARCH_PROTOTYPE_2026-11-23.md)
 devam et. Kullanıcıya rutin kart/sayım/filtre/satır/grafik testi

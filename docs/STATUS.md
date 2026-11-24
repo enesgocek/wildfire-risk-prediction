@@ -1,9 +1,24 @@
-# Proje durum raporu — 23 Kasım 2026
+# Proje durum raporu — 24 Kasım 2026
 
 Bu rapor, en son paylaşılan çalışma çıktısını ve kayıtlı yerel denetimleri
 ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
+
+**24 Kasım: sabit skor desteği, veri/model kartları ve denetlenmiş yerel araştırma teslimi tamam.**
+Yeni eğitim/tahmin olmadan 54 genel, 864 bağlam, 6.456 kaynak-gün/model
+ve 5.262 hücre-çıkarma satırı ayrı ilişkisel hesapla doğrulandı.
+Ana modelin dört-il ölçüsü 135–143 hücreye yayılıyor; en yoğun hücre
+çiftlerin %2,65–3,06'sını taşıyor. Bu tanı gerçek yangın hedefini
+doğrulamıyor. 44.082 satır/27 özellik, ayrı üyelik ve kaynak parçaları,
+dokuz model ve iki 2022 takviminin arayüzü 198 dosyalık yerel teslimde
+toplandı; dizin/ZIP ve bilimsel kapsam denetimi geçti. 34 ilgili test
+geçti; kullanıcıya teknik test görevi yok. Güncel teslim
+`local_research_release_v2/20261124T023339Z_6f277b31`.
+[Bulgular, kartlar, açılış ve makbuzlar](LOCAL_RESEARCH_RELEASE_2026-11-24.md).
+Y/L, gözlem/negatif etiketi, 2023–2025 ve final merge kapıları korunur.
+Geçmiş 23 Kasım ekran talebi aşağıda tarihsel kayıttır; güncel olarak
+geri çekilmiştir, ilerleme koşulu değildir.
 
 **23 Kasım teknik iş bölümü düzeltmesi: kullanıcı ekran testi kapısı kaldırıldı; v2 otomatik DOM kontrolleri geçti.**
 Sayım/filtre/tıklama/sayfalama/grafik/özellik açılması asistanın

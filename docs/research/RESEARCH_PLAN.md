@@ -5,6 +5,16 @@ Kayıt tarihi: 9 Ekim 2026. Durum: bitirme çalışmasının araştırma çerçe
 Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 önceki başvuru niyeti tarihsel kayıttır.
 
+## 24 Kasım yerel araştırma teslimi
+
+Mevcut 2022 skorlarının destek/yoğunlaşma tanısı, veri/model kartları
+ve ayrı parçalı yerel teslim tamamlandı. 198 dosyalık dizin/ZIP,
+44.082 anahtar/27 alan, dokuz model ve bilinmeyen hedef durumu ayrı
+denetlendi. [Güncel sonuç ve sınır](../LOCAL_RESEARCH_RELEASE_2026-11-24.md).
+Bu teknik kapanış kaynak-bağlam sırasını gerçek yangın hedefine
+doğrulamış saymaz; aşağıdaki araştırma soruları ve bilimsel kabul
+ölçütleri korunur. Yeni model/yıl erişimi veya final merge yetkisi değildir.
+
 ## Amaç ve kapsam
 
 Antalya, Muğla, İzmir ve Mersin'de, uygun bitki örtüsüne sahip hücreler için

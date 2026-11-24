@@ -1854,6 +1854,17 @@ Saat uçlarının seçimi, kabul edilmiş paketlerin geri okunması ve
 tarama zamanlarının karşılaştırılması yapay zekâ desteğiyle yürütüldü.
 [Mersin tarama saatleri](../MERSIN_SCAN_TIMES_2026-11-13.md).
 
+### 24 Kasım sabit skor incelemesi ve yerel teslim
+
+Mevcut 2022 skorlarının il/ay/hücre desteği, eşit kaynak-gün ve
+hücre ağırlıklı özetleri ile tek değerlendirme hücresi çıkarma
+tanıları yapay zekâ desteğiyle hazırlandı. Ayrı ilişkisel çift hesabı,
+veri/model kartları, kaynak parçalarını değiştirmeden kopyalayan
+yerel paket ve dizin/ZIP bütünlük denetimi aynı destekle yürütüldü.
+Otomatik hesap insan görsel değerlendirmesi sayılmadı. Yeni model,
+tahmin, yangın etiketi, kapalı yıl veya nihai etiketli birleştirme
+yapılmadı. Sayısal bulgular kaynak-bağlam sırasıyla sınırlıdır.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

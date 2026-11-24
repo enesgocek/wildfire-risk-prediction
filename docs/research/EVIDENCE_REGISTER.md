@@ -2293,6 +2293,22 @@ test edildi; görsel tarayıcı render ve manuel onay iddia edilmedi.
 V1 ve bilimsel payload/hesap çekirdeği aynı kaldı. Yeni model,
 etiket, kapalı yıl ve final merge yok; kullanıcı teknik kapısı yok.
 
+E254 — 24 Kasım. [Sabit skor destek tanısı ve ayrı hesap](../LOCAL_RESEARCH_RELEASE_2026-11-24.md).
+Mevcut 2022 skorlarıyla 54 genel, 864 bağlam, 6.456 kaynak-gün/model
+ve 5.262 hücre-çıkarma satırı bağımsız ilişkisel hesapla eşleşti.
+Ana model dört ilde 135–143 hücreye dayanır; en yoğun hücrenin
+çift payı %2,65–3,06. Eşit hücre/gün ağırlığı da raporlandı;
+anlamlılık, mekânsal çapraz doğrulama veya gerçek yangın başarımı değil.
+Makbuzlar `b888b1a1…f1efc9` ve `2aa0472d…1393d2`; tam hash raporda.
+
+E255 — 24 Kasım. [Veri/model kartları ve yerel araştırma teslimi](../LOCAL_RESEARCH_RELEASE_2026-11-24.md).
+44.082 satırlık ayrı parçalar, dokuz model ve iki 2022 takvimi
+198 dosyada korundu; 195 kopya kaynakla aynı byte. 20.207.221 bayt
+ZIP'in hash/boyut/CRC/üye ve dizin eşliği, boş Y/L ve model/şema/yıl
+koşulları ayrı denetlendi. 34 ilgili test geçti. Son teslim makbuzu
+`0e11f0ef…0990d2`, audit `7b730b6e…2d25de`; tam hash raporda.
+Yeni eğitim/tahmin, kapalı yıl, gerçek risk kabulü veya final merge yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
