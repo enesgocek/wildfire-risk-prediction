@@ -6,6 +6,18 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+Güncel tek giriş [taşınabilir araştırma paketi](PORTABLE_RESEARCH_RELEASE_2026-11-24.md):
+`portable_research_release_v1/20261124T190220Z_58fe285c/package/index.html`.
+499 dosya/24.032.305 bayt ZIP; ayrı veri/model parçaları ve v3 UI
+korundu, üç kanıt bağlantısı içeri alındı. 39 Python ve farklı
+klasöre çıkarılmış içerikte 14 DOM testi geçti; 20 HTML/üç dinamik
+kanıt hedefi yerelde çözüldü. Bilimsel hesaplar yeniden çalışmadı.
+Eski klasörleri silme veya aynı paketi yeniden üretme; güncel
+girişte satır sayıları/kullanım açıklanıyor. Gerçek tarayıcı görsel
+render iddia etme veya kullanıcıya rutin test kapısı koyma.
+Paketin teknik teslimi ana yangın hedefini, yeni eğitim/yıl/renk
+ve nihai etiketli birleştirmeyi kabul etmiş sayılmaz.
+
 Güncel inceleme ekranı [coğrafi araştırma prototipi v3](GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md):
 `historical_research_prototype_v3/20261124T173653Z_3a064f3e/inceleme.html`.
 244 hücre haritası, yaklaşma/klavye seçimi, 12 örnek ve mevcut sonuç

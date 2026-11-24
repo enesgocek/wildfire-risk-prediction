@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**24 Kasım sonraki devam: taşınabilir inceleme paketi ve tek başlangıç sayfası hazır.**
+Güncel v3 ekranı, ayrı veri/model parçaları, sonuç ekleri ve 272 belge
+anlık görüntüsü 499 dosyalık / 24.032.305 bayt ZIP'te toplandı.
+191 eski üye ve v3 bilimsel/UI byte'ları korundu; yalnız üç kanıt
+bağlantısının adresi paket içine taşındı. 39 Python testi, dizin/ZIP
+bütünlüğü, 20 HTML/üç kanıt bağlantısı ve farklı klasöre çıkarılan
+arayüzün 14 DOM testi geçti. Gerçek tarayıcı görsel render kontrolü
+değil; yeni fit/tahmin/etiket/yıl/final merge yok.
+[Açılış, kapsam ve makbuzlar](PORTABLE_RESEARCH_RELEASE_2026-11-24.md).
+
 **24 Kasım sonraki devam: konum ve kanıt gezinmeli araştırma prototipi v3 hazır.**
 244 kayıtlı hücre kaynak grid geometrisiyle haritada seçilebilir;
 yaklaşma/geri dönüş, 12 örneğe geçiş ve mevcut karşılaştırma özeti

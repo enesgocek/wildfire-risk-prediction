@@ -7,6 +7,11 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+Aynı gün sonraki [taşınabilir teslim](../PORTABLE_RESEARCH_RELEASE_2026-11-24.md)
+499 dosyada mevcut ayrı parçaları, v3 ekranını ve kanıtları bir araya
+getirdi. Farklı klasöre çıkarma/dosya/bağlantı/DOM kontrolleri geçti;
+bu bilimsel veri birleştirmesi veya ana hedef kabulü değildir.
+
 Aynı gün sonraki [v3 konum/kanıt arayüzü](../GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md),
 mevcut bilimsel değerleri değiştirmeden 244 hücreyi ve 12 açıklayıcı
 örneği görünür kıldı. 30 Python/14 DOM testi ve ayrı koordinat/bağlam

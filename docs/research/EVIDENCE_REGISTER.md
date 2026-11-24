@@ -2353,6 +2353,14 @@ render veya insan yangın/örtü doğrulaması değil; kullanıcı teknik
 test kapısı yok. Yeni fit/tahmin/etiket/kapalı yıl/final merge yok.
 V3 SHA `f6140ef7…43f4a8`, audit `3b31d988…f5c135`; tam hash raporda.
 
+E261 — 24 Kasım. [Taşınabilir araştırma paketi](../PORTABLE_RESEARCH_RELEASE_2026-11-24.md).
+499 dosya/24.032.305 bayt ZIP; 191 eski üye ve v3 bilimsel byte'ları
+korundu. Üç kanıt yolu paket içine taşınırken içerikleri aynı kaldı.
+39 Python, 20 HTML/üç kanıt hedefi ve ayrı klasöre çıkarılmış arayüzde
+14 DOM testi geçti. 44.082/822/27 ve boş Y/L/unknown/false doğrulandı.
+Görsel tarayıcı kontrolü veya nihai etiketli birleştirme değil.
+Teslim SHA `ddb18f8e…7a677`, audit `d1aeee73…10d3a`; tam hash raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1,5 +1,10 @@
 # Araştırma prototipi v3 — hücre konumu ve kanıt gezinmesi
 
+**Aynı gün sonraki teslim:** v3 bilimsel/UI dosyaları korunarak
+[taşınabilir inceleme paketine](PORTABLE_RESEARCH_RELEASE_2026-11-24.md)
+alındı. Yeni tek başlangıç ve paket içi kanıt bağlantıları bu rapordadır;
+aşağıdaki özgün v3 klasörü korunur.
+
 24 Kasım 2026. Mevcut koşullu araştırma prototipinin yerel kullanım
 güncellemesidir. Yeni yöntem, eğitim, tahmin veya risk kategorisi yoktur.
 Sites becerisinin yerel depo akışı kullanıldı; kayıt, hosting, dış

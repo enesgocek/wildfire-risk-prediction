@@ -1907,6 +1907,16 @@ gerçek tarayıcı render kontrolü olarak sunulmadı. Bilimsel veri ve
 hesap çekirdeği korunarak yeni model/etiket üretilmedi.
 [V3 ve sınırlar](../GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md).
 
+### 24 Kasım taşınabilir araştırma teslimi
+
+Mevcut ayrı veri parçaları, v3 inceleme ekranı, sonuç ekleri ve belge
+anlık görüntülerini taşınabilir bir yerel pakette toplama çalışması
+yapay zekâ desteğiyle hazırlandı. Belge bağlantıları paket içine
+taşınırken bilimsel payload ve hesap çekirdeği korunur. Bütünlük,
+yerel bağlantı ve farklı klasöre çıkarma kontrolleri otomatik yapılır;
+bunlar araştırmacı etiket onayı veya görsel tarayıcı doğrulaması değildir.
+Nihai etiketli birleştirme, yeni eğitim ve dış veri yayını kapsam dışıdır.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
