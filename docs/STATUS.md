@@ -5,7 +5,21 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
-**25 Kasım: yeni yardımcı olay kaynağının somut pilot önerisi hazır.**
+**25 Kasım sonraki devam: Mesogeos yardımcı kaynak pilotu ve ayrı denetimi tamamlandı.**
+159.822.559 bayt kaynak, özgün 900 saniye sınırında alındı; yalnız
+2018–2022 alanları ve dört ildeki 92 kaydın geometrileri incelendi.
+30 kaynak noktası son yanmış alan içinde/sınırında, 62'si dışında;
+hepsi 1 km içinde. Ham gün/hücre bağlam aramasında 60 eski S önerisi,
+5 atamasız U ve 27 eski takvimde bulunmayan anahtar var. Bunlar gerçek
+yangın veya yeni etiket sayısı değildir. 53 ilgili test ve ayrı ham
+kayıt/geometri/hash denetimi geçti. HTTP durması sonrası normal tarayıcı
+devamı ve kapanmış log hash istisnası ayrı kaydedildi. Yeni S/Y/L,
+model, 2023–2025 değer erişimi veya final merge yok. Sıradaki yöntem
+seçimi, farklı 32 durumun ayrı S önerisi hazırlığına aday edilmesi veya
+yalnız yardımcı kanıt olarak tutulmasıdır.
+[Bulgular, doğrulama ve sınırlar](MESOGEOS_REFERENCE_RESULTS_2026-11-25.md).
+
+**25 Kasım önceki hazırlık: yeni yardımcı olay kaynağının somut pilot önerisi hazırlandı.**
 Mesogeos'un açık ayrı vektör klasörü ve dosya başlıkları okundu. 34 alan,
 EPSG:5643 ve hazır örneklerdeki eksi bir gün dönüşümü doğrulandı; yanlış
 gün/CRS aktarımını önleyen inceleme planı hazırlandı. Yeni kaynaktan olay

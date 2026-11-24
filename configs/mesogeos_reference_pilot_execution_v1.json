@@ -1,0 +1,21 @@
+{
+  "version": "mesogeos_reference_pilot_execution_v1",
+  "decision_date": "2026-11-25",
+  "decision_source": "user_continue_after_concrete_recommended_A_reference_pilot",
+  "selected_direction": "A_run_bounded_supplementary_reference_review",
+  "proposal_sha256": "361bfd4bfd97ad6bd5c5083677b993d6119bc0856accf9d9466a8560e6b9ab8e",
+  "preparation_sha256": "cd8ad5fd5517bdd7f698e33d26c8ac41ee70449d4004733eb36e1578ba691bd3",
+  "preparation_audit_sha256": "de8b848e7f46094b082114697d6fcfb2285670846b64531b8040b8d5079c2ac7",
+  "reference_acquisition_and_context_review": true,
+  "maximum_runtime_seconds": 900,
+  "maximum_total_file_bytes": 170000000,
+  "new_model_training": false,
+  "new_model_predictions": false,
+  "target_or_accepted_L_assignment": false,
+  "negative_label_assignment": false,
+  "years_2023_to_2025_scientific_values": false,
+  "risk_categories": false,
+  "cloud_execution": false,
+  "external_contact": false,
+  "final_merge": false
+}

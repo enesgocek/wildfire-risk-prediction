@@ -6,6 +6,24 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+**Mesogeos A yardımcı kaynak pilotu tamamlandı; yeniden indirme.**
+[Sonuç raporu](MESOGEOS_REFERENCE_RESULTS_2026-11-25.md): 92 kaynak kaydı,
+30 içeride/62 dışarıda nokta, ham hücre/gün aramasında 60 eski S/5 U/27
+takvimde olmayan anahtar. 53 ilgili test ve ayrı ham/geometri denetimi
+geçti. İlk HTTP durması ve normal tarayıcı devamı ayrı makbuzlarda;
+akış logunun kapanış hash'i ayrı korunur. Ham tarihe eksi bir gün
+uygulanmadı; saat/hedef/olay/örtü kabulü yok. Mevcut S/U değişmedi.
+
+Sonraki gerçek yöntem kararı: farklı 32 durum için hata içerebilen
+S önerisi hazırlığına yönelmek mi, 92 kaydı yalnız yardımcı kanıt olarak
+tutmak mı? Mevcut sohbetten bu yeni tercihi kontrol et; önceki A yalnız
+yardımcı kaynak incelemesiydi. Yeni Y/L, eğitim veya nihai merge açılmaz.
+Geometri `mesogeos_reference_geometry_review_v1/20261124T232735Z_136d2a12`,
+audit `mesogeos_reference_pilot_audit_v1/20261124T233152Z_7d080df8`,
+son özet `mesogeos_reference_context_summary_v1/20261124T233320Z_8e214f1b`.
+
+### Önceki karar öncesi hazırlık — tarihsel kayıt
+
 [Mesogeos yardımcı kaynak önerisi](MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md)
 hazır; araştırmacının A/B seçimini mevcut sohbetten kontrol et. Genel
 devam talimatı öncesindeki hazırlık bu yeni kaynağın benimsenmesi değildir.
@@ -20,6 +38,8 @@ ayrı audit `mesogeos_reference_preparation_audit_v1/20261124T225146Z_5ae84eea`.
 önerideki yıl/alan/tarih/CRS ve durma kurallarıyla somut edinim/inceleme
 yürütmesini hazırla; `execute_authorized=false` olan tarihsel öneriyi
 sessizce düzenleme. UTC run kimliği 24, yerel çalışma tarihi 25 Kasım.
+
+### Önceki tamamlanmış teslimler — koru, yeniden üretme
 
 Mevcut sonuçları yeniden üretmeden [11 sayfalık araştırma raporunu](THESIS_RESEARCH_REPORT_2026-11-24.md)
 esas al. 44.082 özellik/üyelik, 675 ölçü aritmetiği, 18 aralık ve sekiz

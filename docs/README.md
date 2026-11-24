@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Mesogeos yardımcı kaynak sonucu](MESOGEOS_REFERENCE_RESULTS_2026-11-25.md) | 92 açık yıl/AOI kaydı, 30/62 nokta–alan ilişkisi, yalnız bağlam için 60 S/5 U/27 eksik anahtar; 53 test ve ayrı ham/geometri denetimi, yeni etiket/eğitim yok |
 | [Mesogeos yardımcı kaynak önerisi](MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md) | Açık vektör listesi/34 alan/EPSG:5643, bir günlük eksen farkı; iki aşamalı 53/160 MB öneri, ayrı destek denetimi ve 43 ilgili test; yeni olay satırı veya etiket kabulü yok |
 | [Bütünleşik araştırma raporu](THESIS_RESEARCH_REPORT_2026-11-24.md) | 11 sayfalık PDF, veri/yöntem/literatür/sonuç/sınır; sekiz tablo 126 hücre, 675 aritmetik ve 18 aralık kontrolü; bütün sayfalar görsel incelendi |
 | [Taşınabilir araştırma paketi](PORTABLE_RESEARCH_RELEASE_2026-11-24.md) | Tek başlangıç sayfası, 499 dosya/24 MB ZIP, paket içi kanıtlar; 39 Python ve çıkarılmış klasörde 14 DOM testi |

@@ -2380,6 +2380,18 @@ açılmadı; 23.225 bağımsız yangın sayısı değil. 81 eski kaynak-gün/iki
 Pilot ve yeni kaynak tercihi henüz yürütülmemiştir. Hazırlık SHA
 `cd8ad5fd…691bd3`, audit `de8b848e…9c2ac7`; tam kimlikler raporda.
 
+E264 — 25 Kasım. [Mesogeos yardımcı kaynak pilot sonucu](../MESOGEOS_REFERENCE_RESULTS_2026-11-25.md).
+159.822.559 bayt/468,906 saniye; 23.225 kaydın yalnız izinli 2018–2022
+alanlarından seçilen dört ildeki 92 kaynak kaydı ve geometrisi incelendi.
+30 nokta son alan içinde/sınırında, 62 dışında; tüm mesafeler 1 km içinde.
+Ham gün/hücre bağlam araması 60 eski S/5 U/27 takvim dışı anahtar verdi;
+yeni etiket/üyelik kabulü değil. 53 ilgili test, ayrı ham DBF/SHX/SHP
+geri okuması ve sabit S/U hash kontrolü geçti. İlk HTTP durması korunup
+normal tarayıcı edinimi ayrı devamla tamamlandı; yalnız akış logunun ilk
+hash'i kapanış sonrası ayrı kaydedildi. Geometri SHA `60f4cdd5…4b3c1e`,
+audit `544f5fe7…ba1d44`, özet `0cbc801c…3426e`; tam hash ve sınırlar raporda.
+Yeni S/Y/L, model, kapalı yıl veya final merge yok.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

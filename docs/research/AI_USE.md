@@ -1935,6 +1935,18 @@ kodları, davranış kontrolleri ve ayrı sayı/hash denetimi otomatik yürütü
 Bu sonuçlar insan yangın doğrulaması, bağımsız saha verisi veya pilotun
 kabulü olarak sunulmadı. Yeni kaynak tercihi araştırmacıya sunulacak.
 
+### 25 Kasım Mesogeos yardımcı kaynak pilotunun yürütülmesi
+
+Araştırmacının A yönündeki devamından sonra sınırlı açık dosya edinimi,
+yıl alanı korumalı seçim, ham koordinat/geometri ve mevcut takvim bağlam
+denetimleri yapay zekâ desteğiyle yürütüldü. HTTP uyarısında duruldu;
+aynı açık dosya asistanın normal tarayıcı indirmesiyle tamamlandı. Bu adım
+araştırmacının elle yaptığı iş olarak yazılmadı. Üç panelli geometri şekli
+üretildi ve asistan tarafından görüntü olarak incelendi; insan yangın/örtü
+onayı değildir. Ham bilimsel dosyalar ve kapanan akış logu ayrı doğrulandı.
+Kaynak noktaları otomatik gerçek yangın etiketi veya bağımsız saha kanıtı
+olarak kabul edilmedi; eski S/U ve modeller değiştirilmedi.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
