@@ -6,6 +6,17 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+Mevcut sonuçları yeniden üretmeden [11 sayfalık araştırma raporunu](THESIS_RESEARCH_REPORT_2026-11-24.md)
+esas al. 44.082 özellik/üyelik, 675 ölçü aritmetiği, 18 aralık ve sekiz
+tablonun 126 hücresi kontrol edildi; bütün sayfalar görsel incelendi.
+Güncel PDF `thesis_research_report_v1/20261124T192159Z_4f479211` altındadır.
+Okulun biçim/kapak bilgileri henüz uyarlanmadı. Birlikte gelen Word
+render bileşeni olmadığından doğrulanmamış DOCX teslim etme. Rapor yeni
+bilimsel kabul, öğrenme, sonraki yılları açma veya etiketli merge izni değil.
+Hedef aktarımı ve gözlem açığı sürer; tekrar küçük paket/aynı deney
+üretmek bu açığı kapatmaz. Yeni bilimsel adım somut gerekçe ve kapsamla
+hazırlanmalı; önceki bağımsız teknik işler tamamlanmıştır.
+
 Güncel tek giriş [taşınabilir araştırma paketi](PORTABLE_RESEARCH_RELEASE_2026-11-24.md):
 `portable_research_release_v1/20261124T190220Z_58fe285c/package/index.html`.
 499 dosya/24.032.305 bayt ZIP; ayrı veri/model parçaları ve v3 UI

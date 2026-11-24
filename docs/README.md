@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Bütünleşik araştırma raporu](THESIS_RESEARCH_REPORT_2026-11-24.md) | 11 sayfalık PDF, veri/yöntem/literatür/sonuç/sınır; sekiz tablo 126 hücre, 675 aritmetik ve 18 aralık kontrolü; bütün sayfalar görsel incelendi |
 | [Taşınabilir araştırma paketi](PORTABLE_RESEARCH_RELEASE_2026-11-24.md) | Tek başlangıç sayfası, 499 dosya/24 MB ZIP, paket içi kanıtlar; 39 Python ve çıkarılmış klasörde 14 DOM testi |
 | [Coğrafi araştırma prototipi v3](GEOGRAPHIC_RESEARCH_PROTOTYPE_2026-11-24.md) | 244 hücre konumu, 12 örnek/kanıt gezinmesi; 30 Python/14 DOM testi, ayrı köşe ve değişmez bilimsel veri denetimi |
 | [Kaynak-örtüşmesi sınama sonucu](SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md) | Açık A ile 405 ölçü, 47.889 çift kaydı, 135 eski/270 yeni fark ve yerel MLflow geri okuma; yakın gün sınırı korunuyor |

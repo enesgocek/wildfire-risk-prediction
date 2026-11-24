@@ -5,6 +5,16 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**24 Kasım sonraki devam: bütünleşik araştırma raporu hazır.**
+Veri, yöntem, dört seçili gerçek çalışma, ortak çift sonuçları, kaynak
+örtüşmesi, iyi/zayıf örnekler ve açık bilimsel konular 11 sayfalık PDF'de
+toplandı. Sekiz tablonun 126 hücresi, 675 eski ölçünün aritmetiği ve 18
+aralık hücresi ayrı geri okumayla eşleşti; 11 sayfanın tamamı asistan
+tarafından görüntü olarak incelendi. Word render bileşeni yok; doğrulanmamış
+DOCX teslim edilmedi. Yeni eğitim/tahmin/etiket/yıl/final merge yok.
+Bu çalışma okul biçimine uyarlanmış son teslim veya ana yangın hedefinin
+kabulü değildir. [Çıktı ve denetim](THESIS_RESEARCH_REPORT_2026-11-24.md).
+
 **24 Kasım sonraki devam: taşınabilir inceleme paketi ve tek başlangıç sayfası hazır.**
 Güncel v3 ekranı, ayrı veri/model parçaları, sonuç ekleri ve 272 belge
 anlık görüntüsü 499 dosyalık / 24.032.305 bayt ZIP'te toplandı.

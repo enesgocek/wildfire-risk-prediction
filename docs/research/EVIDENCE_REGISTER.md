@@ -2361,6 +2361,15 @@ korundu. Üç kanıt yolu paket içine taşınırken içerikleri aynı kaldı.
 Görsel tarayıcı kontrolü veya nihai etiketli birleştirme değil.
 Teslim SHA `ddb18f8e…7a677`, audit `d1aeee73…10d3a`; tam hash raporda.
 
+E262 — 24 Kasım. [Bütünleşik araştırma raporu](../THESIS_RESEARCH_REPORT_2026-11-24.md).
+11 sayfalık PDF; 44.082 özellik/üyelik kaydı, 675 mevcut ölçü aritmetiği,
+18 sonuç aralığı, PDF'deki sekiz tablonun 126 hücresi ve dört gerçek yayın
+bağlantısı geri kontrol edildi. Son 11 sayfa görüntüsünün tamamı asistan
+tarafından görsel incelendi; araştırmacı etiket incelemesi değil. Veri/model
+korundu; yeni deney/yıl/etiket/nihai merge yok. Word render bileşeni olmadığı
+için doğrulanmamış DOCX teslim edilmedi. Üretim SHA `7ca3f6cb…353daa`,
+audit `f7f5dca8…ff1196`; tam hash ve kapsam bağlı raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

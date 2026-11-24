@@ -3,6 +3,15 @@
 24 Kasım 2026. Mevcut araştırma çıktılarının teslim metnine aktarımı
 içindir; kapsam/yöntem, okul biçimi veya danışman kabulü kararı değildir.
 
+## Aynı gün sonraki bütünleşik rapor
+
+Aşağıdaki iskelet, [11 sayfalık PDF araştırma raporuna](../THESIS_RESEARCH_REPORT_2026-11-24.md)
+dönüştürüldü. Veri/yöntem/sonuç metni, dört birincil yayın kaydı ve
+kaynak-örtüşmesi sonucu birlikte işlendi. Bütün sayfalar asistan tarafından
+görsel incelendi; 126 tablo hücresi ve 18 sonuç aralığı geri doğrulandı.
+Bu, okulun nihai biçim/kapak uyarlaması veya araştırmacı yöntem kabulü değil.
+Aşağıdaki tablo rapor üretiminden önceki iskeletin tarihsel kaydıdır.
+
 ## Bölümler ve hazır metinler
 
 | Bölüm | Kaynak metin ve yapılacak ayrım |

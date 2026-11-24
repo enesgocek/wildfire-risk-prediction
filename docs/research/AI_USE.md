@@ -1917,6 +1917,15 @@ yerel bağlantı ve farklı klasöre çıkarma kontrolleri otomatik yapılır;
 bunlar araştırmacı etiket onayı veya görsel tarayıcı doğrulaması değildir.
 Nihai etiketli birleştirme, yeni eğitim ve dış veri yayını kapsam dışıdır.
 
+### 24 Kasım bütünleşik araştırma raporu
+
+Mevcut bilimsel metinlerin birleştirilmesi, seçilmiş dört çalışmanın birincil
+kayıt kontrolü, PDF üretimi ve sayı/tablo denetimleri yapay zekâ desteğiyle
+hazırlandı. Son 11 sayfa asistan tarafından görüntü olarak incelendi;
+araştırmacının elle yaptığı iş veya yangın etiketi onayı olarak sunulmadı.
+Ana hedef, elde edilen kaynak sıralaması ve açık doğrulama koşulları ayrı
+yazıldı. Yeni öğrenme, veri edinimi veya nihai etiketli birleştirme yoktur.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

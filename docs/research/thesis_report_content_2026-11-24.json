@@ -1,0 +1,146 @@
+{
+  "version": "research_report_v1",
+  "date": "24 Kasım 2026",
+  "title": "Orman yangını riski araştırmasında veri hazırlığı ve günlük sıralama",
+  "subtitle": "Antalya Muğla İzmir ve Mersin üzerine deneysel çalışma",
+  "pages": [
+    {
+      "heading": "1 Araştırmanın amacı ve mevcut sonuç",
+      "blocks": [
+        {"type": "p", "text": "Bu çalışma, Antalya, Muğla, İzmir ve Mersin'de 5 km hücreler için sonraki 24 saatte yeni orman veya çalılık yangını oluşma riskini araştırır. Çalışmanın bu sürümünde 44.082 hücre–gün ve 27 özellik içeren deneysel veri paketi, dokuz günlük sıralama modeli ve geçmiş sonuçların incelenebildiği yerel prototip hazırlanmıştır. Kaynak kayıtları ile uydu adaylarının gerçek yeni yangına aktarımı henüz doğrulanmadığından elde edilen puanlar yangın olasılığı olarak yorumlanmaz."},
+        {"type": "h", "text": "Özet"},
+        {"type": "p", "text": "Veri hazırlığı; meteoroloji, arazi ve örtü bilgisi ile geçmiş bitki örtüsü özetlerini ortak hücre ve zaman anahtarında izler. Uydu tespitleri bağımsız yangın sayılmaz; tespit bulunmayan günlere otomatik yangın yok etiketi atanmaz. Özellikler, kaynak üyeliği önerileri ve köken bilgileri ayrı dosyalarda tutulur. Bu yaklaşım, gözlem ve olay belirsizliklerinin modelleme sırasında kaybolmasını önlemeyi amaçlar."},
+        {"type": "p", "text": "Mevcut deneylerde 2018–2021 ile öğrenen sabit XGBoost sıralama modelleri, aynı hücrenin aynı ayındaki kaynak veya aday bağlamlı günleri atamasız günlerle karşılaştırmıştır. Daha önce incelenmiş 2022 takvimlerinde ana modelin genel çift kredisi dört ilde 0,567280–0,601843, ayrı Mersin takviminde 0,528110–0,566892 arasındadır. Yakın günlerde ayrım daha sınırlıdır. Bu aralıklar dokuz gruplama ayarının minimum ve maksimumudur; güven aralığı veya gerçek yangın başarımı değildir."},
+        {"type": "h", "text": "Araştırma soruları"},
+        {"type": "p", "text": "Birinci soru, belirsiz kaynak ve uydu kayıtları korunarak izlenebilir bir hücre–gün veri paketinin kurulup kurulamayacağıdır. İkinci soru, günlük hava ve geçmiş bitki örtüsü bilgilerinin aynı yer ve ay içindeki kaynak günlerini sıralamaya katkısıdır. Üçüncü soru, gözlenen ayrımın gruplama ayarları, gün uzaklığı ve kaynak örtüşmesine ne kadar duyarlı olduğudur."},
+        {"type": "p", "text": "Teknik veri hazırlığı ve sınırlı sıralama araştırması somut çıktılar üretmiştir. Ana 24 saatlik yangın hedefi, doğrulanmış etiketli eğitim veri seti ve operasyonel uyarı ürünü ise henüz tamamlanmış sonuçlar değildir. Rapor, bu ayrımı veri tasarımından sonuçların yorumuna kadar korur."}
+      ]
+    },
+    {
+      "heading": "2 Literatürdeki konum ve katkı",
+      "blocks": [
+        {"type": "p", "text": "Ertesi gün yangın tahmini daha önce çalışılmış bir problemdir. Apostolakis ve arkadaşları [1], Yunanistan için günlük yangın oluşumunu 500 m hücrelerde ele almış; çevresel özellikler, ağaç toplulukları ve sinir ağlarıyla bir yöntem sunmuştur. Zaman ve mekân bağımlılığı ile dengesiz değerlendirme dağılımına dikkat çekmeleri bu çalışma için yöntemsel dayanak oluşturur. Onların etiket ve değerlendirme düzeni buradaki belirsiz S/U takvimiyle eşdeğer değildir."},
+        {"type": "p", "text": "Kondylatos ve arkadaşlarının Mesogeos çalışması [2], Akdeniz için 2006–2022 dönemini 1 km ve günlük çözünürlükte bir veri küpünde bir araya getirir. Yangın tehlikesi ile yanmış alan tahmini için ayrı görevler tanımlar. Bu örnek, çok kaynaklı veri hazırlığının başlı başına araştırma bileşeni olduğunu gösterir; burada kullanılan 5 km örneklem Mesogeos'un yeniden üretimi veya ondan daha kapsamlı bir ürün değildir."},
+        {"type": "p", "text": "Huot ve arkadaşlarının Next Day Wildfire Spread çalışması [3], ABD'de mevcut yangınların bir gün sonraki yayılımına odaklanır. Yeni bir yangının başlaması ile sürmekte olan yangının yayılması ayrı hedeflerdir. Bu nedenle yayılım çalışmasının başarı değerleri, bu projenin yeni yangın hedefine doğrudan karşılaştırma olarak taşınmamıştır."},
+        {"type": "p", "text": "Kiryo ve arkadaşları [4], pozitif ve etiketsiz verilerle öğrenmede negatif olmayan risk kestiricisi sunar. Çalışma, etiketsiz örneklerin doğrudan negatif kabul edilmesinin zorunlu olmadığını gösteren yöntemsel bir kaynaktır. Buradaki S adayları hata içerebilir ve kaynakla seçilmiştir; mevcut rank:pairwise deneyi [4]'teki kestiricinin uygulanması veya PU varsayımlarının doğrulanması değildir."},
+        {"type": "table", "name": "literature"},
+        {"type": "p", "text": "Bu araştırmanın somut katkısı; dört il için kaynak izi korunmuş deneysel veri hazırlığı, hücre örtüsü ile adayın yerel örtüsünün ayrılması ve günlük sıralamanın dokuz ayarda incelenmesidir. Kaynak örtüşmesi ve yakın gün sınamalarının birlikte raporlanması da bu uygulamanın katkısıdır. Bunlar yeni bir genel algoritma, dünyada ilk uygulama veya literatüre göre kanıtlanmış üstünlük iddiası oluşturmaz."}
+      ]
+    },
+    {
+      "heading": "3 Veri kapsamı ve belirsizliklerin korunması",
+      "blocks": [
+        {"type": "p", "text": "Örnek birimi, grid_id ve 00:00 UTC tahmin zamanıyla tanımlanan hücre–gündür. Araştırma hedefi için pencere (T, T+24 saat] olarak korunur. Önceden tanımlanan su kuralından sonra 2.889 hücre hazırlık havuzundadır. Kaynak veya aday bağlamıyla seçilmiş hücre–ay takvimlerinden oluşan mevcut deneysel paket, bu havuzun bütün günlerini kapsayan bir nüfus paneli değildir [K1]."},
+        {"type": "table", "name": "dataset"},
+        {"type": "p", "text": "27 alanın 11'i ERA5-Land meteoroloji özeti, 12'si statik arazi veya örtü, dördü geçmiş NDVI/NDMI özetidir. Eksik değerler sıfırla doldurulmamıştır. Bütün 27 alanın dolu olması ile modelin tam hücre meteoroloji desteğine sahip olması ayrı koşullardır. Yeniden analiz verisinin geçmiş T anında operasyonel olarak erişilebilir olduğu gösterilmemiştir."},
+        {"type": "h", "text": "Örtü ve kaynak üyeliği"},
+        {"type": "p", "text": "CGLS 2017 ana örtü bağlamıdır; CORINE 2018 yardımcı incelemede kullanılır. Hücredeki orman/çalılık oranı ile ilk uydu adayının yerel örtüsü ayrı kontrol edilir. Karma hücreler asgari örtü yüzdesiyle otomatik dışlanmaz. İki haritanın tarih ve sınıf farkları nedeniyle aralarındaki uyum doğrudan doğruluk ölçümü sayılmaz."},
+        {"type": "p", "text": "S, kaynak veya uydu aday bağlamı taşıyan üyelik önerisini; U, atamasız ve belirsiz günleri ifade eder. 500, 1.000 ve 2.000 m ile 24, 48 ve 72 saatin birleşiminden dokuz gruplama ayarı korunur. Gruplama penceresi ana tahmin ufkunu değiştirmez. İlk tespit fiziksel tutuşma zamanı, aday sayısı da bağımsız yangın sayısı değildir."},
+        {"type": "p", "text": "Gerçek hedef ve kabul edilmiş L üyeliği alanları boştur. Günlük gözlem durumu unknown, negatif etiket izni false kalır. Özellik tablosu, üyelik önerileri ve köken kayıtları ayrı tutulduğu için daha sonra yöntem değişirse eski belirsizliklerin üzeri yazılmaz. Kaynakla seçilmiş bu örneklemden genel saha yangın sıklığı hesaplanamaz."}
+      ]
+    },
+    {
+      "heading": "4 Günlük sıralama yöntemi",
+      "blocks": [
+        {"type": "p", "text": "Yürütülen pilotun öğrenme görevi, aynı hücrenin aynı takvim ayındaki kaynak bağlamlı günü diğer uygun günlerden üstte sıralamaktır. Bu koşullu görev, gerçek yeni yangın olasılığını öğrenmekle aynı değildir. Her grupta en az bir kaynak bağlamlı ve bir atamasız uygun gün aranır. Kütüphane içinde kullanılan 1/0 uygunluk işareti bilimsel yangın Y=1/Y=0 etiketi değildir [K2]."},
+        {"type": "table", "name": "model"},
+        {"type": "p", "text": "Dinamik girdiler; önceki sıcaklığın ortalama, alt ve üst değerleri, çiy noktası, iki rüzgâr özeti, yüzey toprak nemi, 24/72/168/336 saat yağış birikimleri ile geçmiş 30/60 günlük NDVI ve NDMI medyan özetleridir. Statik örtü, koordinat, hücre kimliği ve tarih doğrudan bu 15 alanlık modelin girdisi değildir. Aynı hücre ve ayda karşılaştırma yapmak, sabit yer ve mevsim farklarının etkisini sınırlamayı amaçlar; bütün karıştırıcı etkilerin giderildiği anlamına gelmez."},
+        {"type": "h", "text": "Kalite desteği ve karşılaştırmalar"},
+        {"type": "p", "text": "Ana model, 15 sonlu dinamik alanın yanında önceden belirlenen tam hücre meteoroloji desteğini ve yağış kalite koşullarını ister. Eksik hava verisi veya büyük negatif yağış uyarısı olan kayıtlar bu puanlama desteğine alınmaz. Paket içinde kayıtlar korunur. Ana öğrenme örneklemi ayara göre 23.280–29.140 satır ve 777–967 hücre–ay grubudur."},
+        {"type": "p", "text": "Önceki geniş meteoroloji destekli XGBoost ve dondurulmuş doğrusal sıralama modeli, ana değerlendirmeyle aynı uygun çiftlerde karşılaştırılmıştır. Geniş destekli modelin öğrenme kalitesi ana modelinkiyle aynı kabul edilmez. Dokuz ayarın tamamı raporlanır; 2022'ye göre parametre taraması, erken durdurma veya üretim ayarı seçimi yapılmamıştır."},
+        {"type": "p", "text": "PU yaklaşımı araştırmanın yönüdür; mevcut model hata içeren pozitifler için gürültü düzeltmesi yapan kabul edilmiş bir PU kestiricisi değildir. Kaynağa dahil olma süreci ve yanlış pozitif oranı bilinmediğinden skorun gerçek yangın hedefine aktarımı ayrıca kanıt gerektirir."}
+      ]
+    },
+    {
+      "heading": "5 Değerlendirme düzeni ve ölçünün anlamı",
+      "blocks": [
+        {"type": "p", "text": "Öğrenmede 2018–2021, değerlendirmede daha önce incelenmiş 2022 kullanılmıştır. 2022 kör final test değildir. Genel plandaki 2023 kalibrasyon, 2024 karşılaştırma ve kapalı 2025 final rolleri bu deneylere dahil edilmemiştir. Böylece mevcut sonuçların kapsamı ile gelecekteki değerlendirme tasarımı birbirinden ayrılır."},
+        {"type": "table", "name": "cohorts"},
+        {"type": "p", "text": "İki takvim 245 anahtarda ortaktır: 8.956 takvim üyeliği, 8.711 farklı hücre–güne karşılık gelir. Bunlar bağımsız olay sayısı olarak toplanamaz. Dört il takvimine Mersin il filtresi uygulanınca görülen 2.038 satır, ayrı Mersin kaynak takviminin 2.383 satırıyla aynı seçim değildir. İl alanları hücrenin il geometrisiyle kesişimini gösterdiğinden örtüşebilir."},
+        {"type": "h", "text": "Yardımcı çift kredisi"},
+        {"type": "p", "text": "Her uygun kaynak günü s ve aynı hücre/aydaki atamasız gün u için C(s,u) hesaplanır. Kaynak gününün puanı yüksekse kredi 1, puanlar eşitse 0,5, düşükse 0'dır. Raporlanan genel değer bu kredilerin ortalamasıdır. Örneğin 0,60, söz konusu kaynak–atamasız gün karşılaştırmalarının ortalama kredisidir; yüzde 60 yangın olasılığı veya yüzde 60 doğru yangın tahmini anlamına gelmez."},
+        {"type": "p", "text": "Genel ölçü yanında 1–3 gün uzaklıktaki çiftler, daha uzak günler ve kaynak gününden önceki/sonraki günler ayrı incelenir. Aynı kaynak günü birçok çiftte bulunabileceği için çift sayısı bağımsız örnek sayısı değildir. Ana araştırma için seçilen AP ve yardımcı trapez PR-AUC bu vekil ölçünün isimleri değildir; gerçek hedefe ilişkin AP başarımı burada hesaplanmış sayılmaz."},
+        {"type": "p", "text": "Ayrı Mersin takviminde 81 kaynak gününün 65'i ana destek koşuluyla değerlendirilebilir. Kaynak koordinatının anlamı, saatin standardı ve kayıt kapsamı tam açıklanmış değildir. Ayrı bir kaynaktan gelmek, kaydın bağımsız ve hatasız gerçek yangın etiketi olduğu anlamına gelmez."},
+        {"type": "p", "text": "Hücrelere eşit ağırlık ve tek değerlendirme hücresini çıkarma kontrolleri de yapılmıştır. Bunlar destek yoğunlaşmasını inceleyen hesaplar olup mekânsal çapraz doğrulama veya yeni bir öğrenme değildir. Aynı hücrelerin öğrenme ve değerlendirmede bulunması, mekânsal genelleme iddiasını ayrıca sınırlar."}
+      ]
+    },
+    {
+      "heading": "6 Mevcut modellerin karşılaştırılması",
+      "blocks": [
+        {"type": "p", "text": "Tablo, üç mevcut model türünü ana kalite desteğini geçen aynı 2022 çiftlerinde karşılaştırır [K2]. Her aralık dokuz ayarın minimum ve maksimumudur. Güven aralığı, anlamlılık testi veya bağımsız tekrar değildir."},
+        {"type": "table", "name": "results"},
+        {"type": "h", "text": "Genel ayrım ile günlük yakın ayrım"},
+        {"type": "p", "text": "Dört ilde ayın bütün günlerine karşı yapılan karşılaştırma, ana modelde 0,567280–0,601843 aralığındadır. Karşılaştırma yalnız 1–3 gün uzaklıktaki günlerle sınırlanınca 0,514130–0,575943 olur. Ayrı Mersin'de yakın gün aralığı 0,482094–0,542700'dür. Bu bulgu, ay içindeki genel ayrımın yeni yangının belirli gününü başarılı biçimde seçme kanıtı sayılamayacağını gösterir."},
+        {"type": "p", "text": "Karmaşık model her kesitte doğrusal modele üstün değildir. Geniş meteoroloji destekli eski modelin bazı değerlerinin daha yüksek olması da ana veri kalitesi kuralının gevşetilmesi için kanıt değildir. Farklı öğrenme örneklemleri, aynı değerlendirme çiftleri kullanılsa bile sonuçları etkileyebilir."},
+        {"type": "h", "text": "Değerlendirme desteği"},
+        {"type": "p", "text": "Dört ilde genel ölçü ayara göre 165–186 kaynak günü, 135–143 hücre ve 4.702–5.287 çiftle desteklenir. Mersin'de 65 kaynak günü, 56 hücre ve 1.921 çift vardır. Hücrelere eşit ağırlıklı ana kredi sırasıyla 0,565556–0,609538 ve 0,527512–0,569478'dir. Bu özetler tek bir yoğun hücrenin bütün sonucu taşıyıp taşımadığını incelemeye yardımcı olur; yeni saha doğrulaması sağlamaz."},
+        {"type": "p", "text": "Önceki FWI referansı yalnız Haziran 2022'de yedi Mersin hücresi ve 196 ortak çiftte yapılmıştır. O kesitin FWI değeri 0,637755'tir; mevcut dokuz ana XGBoost modeliyle aynı kapsamlı karşılaştırma değildir. Buradan bu rapordaki modelin FWI'yi geçtiği veya geçemediği yönünde genel bir sonuç çıkarılmamıştır."}
+      ]
+    },
+    {
+      "heading": "7 Kaynak örtüşmesine duyarlılık",
+      "blocks": [
+        {"type": "p", "text": "Ayrı Mersin değerlendirmesinin dört ildeki uydu aday takvimiyle ortak kayıtlar taşıması, kaynakların ayrılığı hakkında ek kontrol gerektirir. Sabit modeller yeniden öğrenilmeden üç iç içe kaynak grubu incelenmiştir [K3]. G0 özgün takvimdir. G1, herhangi bir ayarda aynı hücre–günde uydu S önerisi bulunan altı kaynak gününü dışarıda bırakır. G2, dört il takviminde herhangi bir kayıt olarak bulunan üç ek kaynak gününü de dışarıda bırakır."},
+        {"type": "table", "name": "overlap"},
+        {"type": "p", "text": "Tablodaki kaynak günleri ana değerlendirme desteğini geçen günlerdir; başlangıç havuzları G0/G1/G2 için 81/75/72 gündür. Çıkarılan kaynak günleri yeni kontrol veya negatif gün yapılmamıştır. Özgün uygun atamasız karşılaştırma günleri korunmuştur. Genel çift sayıları 1.921/1.744/1.656, yakın çift sayıları 363/332/314'tür."},
+        {"type": "h", "text": "Ölçülen sonuç ve yorum"},
+        {"type": "p", "text": "Doğrudan anahtar örtüşmesi çıkarılınca genel kaynak sıralaması bütünüyle kaybolmamış; yakın günlerdeki sınırlı ayrım sürmüştür. Aynı ayar içinde G1'in G0'a genel kredi farkı −0,007404 ile +0,012454; G2'nin farkı −0,013368 ile +0,008340 arasındadır. Bunlar eşdeğerlik veya anlamlılık testi değildir."},
+        {"type": "p", "text": "Kaynak gününden önceki ve sonraki günlerle karşılaştırma da farklı davranır. Özgün Mersin grubunda ana kredi önceki günlerde 0,597208–0,631605, sonraki günlerde 0,436275–0,520697'dir. Yön farkı tek başına neden belirlemez; tarihleri yüksek puan elde etmek için kaydırma veya fiziksel yangın süreci çıkarma gerekçesi olarak kullanılmamıştır."},
+        {"type": "p", "text": "Üç grup aynı takvimin iç içe alt kümeleridir. Bu kontrol, eğitimden mekânsal ayrılığı, gerçek olayların bağımsızlığını veya kaynak konumlarının doğruluğunu kanıtlamaz. İncelenen şey yalnız belirlenen anahtar örtüşmesinin mevcut sabit skor sonuçlarına etkisidir. Hesaplar 405 ölçü ve 47.889 tekrarlı model/grup çift kaydı üzerinden ayrı denetimle eşleşmiştir."}
+      ]
+    },
+    {
+      "heading": "8 Örnek günler ve ayar duyarlılığı",
+      "blocks": [
+        {"type": "p", "text": "Genel ortalamaların örnek düzeyindeki farklılıkları gizlememesi için kaynak günleri envanteri hazırlanmıştır [K4]. Dokuz ayarın tamamında desteği bulunan 165 dört il ve 65 ayrı Mersin takvim üyeliğinden, her takvim için alt, orta ve üst sıradan ikişer açıklayıcı örnek seçilmiştir. Seçim kuralı deterministiktir; 12 örnek nüfusu temsil eden rastgele örneklem değildir ve seçilen örneklerde Muğla bulunmaz."},
+        {"type": "table", "name": "cases"},
+        {"type": "p", "text": "Antalya C596/R882 için 12 Nisan kaynak günü dokuz modelde de 30 günün sonuncusudur. Aynı günün önceki 168 saat yağışı yaklaşık 12,436 mm, atamasız referans günleri medyanı 1,196 mm'dir. Antalya C572/R867 için 22 Eylül kaynak günü ise ortalama 1,222 sıradadır; yağışı yaklaşık 0,018 mm, referans medyanı 0,612 mm'dir. Bu değerler çevresel bağlamı tanımlar; model kararının nedensel açıklaması değildir."},
+        {"type": "h", "text": "Belirsizliğin örnek düzeyindeki etkisi"},
+        {"type": "p", "text": "Dört ilde 57/165, ayrı Mersin'de 27/65 kaynak gününün kredi aralığı dokuz ayar boyunca 0,5'in iki yanına geçer. Ayar başına kredi genişliğinin medyanı sırasıyla 0,275862 ve 0,310345'tir. Bu hesap, ayar duyarlılığına işaret eder; 0,5 burada bir yangın karar eşiği veya risk sınıfı değildir."},
+        {"type": "p", "text": "Farklı ayarlar hem öğrenilen modeli hem bazı günlerde karşılaştırma kümesini etkiler. Dolayısıyla her değişim yalnız olay gruplamasının etkisi diye yorumlanamaz. Yüksek puanlı U günü yanlış pozitif, düşük puanlı S günü yanlış negatif olarak sayılmamıştır: güvenilir gerçek Y etiketleri yoktur. Bu örnekler hangi koşullarda model ile kaynak gününün uyuşmadığını görünür kılar."}
+      ]
+    },
+    {
+      "heading": "9 İnceleme prototipi ve tekrarlanabilirlik",
+      "blocks": [
+        {"type": "p", "text": "Yerel prototip geçmiş 2022 kayıtlarını ve önceden üretilmiş skorları okur. Canlı tahmin servisi değildir. Kullanıcı takvim, il, hücre, tarih ve kalite desteğini seçerek model puanını, aynı hücre/ay sırasını ve özellikleri birlikte inceleyebilir. Haritadaki 244 hücre konum seçimi içindir; renkler yangın tehlike sınıfı veya gerçek yangın sınırı göstermez [K5]."},
+        {"type": "table", "name": "delivery"},
+        {"type": "p", "text": "44.082 sayısı deneysel veri paketinin tamamıdır; ekranın varsayılan 2022 takvimi 6.573 satırdır. Ayrı Mersin takvimi 2.383 satır içerir. Eski 2.422 satırlık ekran önceki sınırlı örnekleme aittir. Ekrandaki satır sayısını tek başına bütün veri miktarı veya eğitim örneklemi olarak yorumlamak doğru değildir."},
+        {"type": "h", "text": "İz ve denetim düzeni"},
+        {"type": "p", "text": "Veri ve model kartları, girdilerin SHA-256 özetleri, sabit yapılandırmalar ve ayrı hesap denetimleri korunmuştur. Mevcut model sonuçları için skor geri okuma ve ilişkisel çift hesapları kullanılmıştır. Kaynak örtüşmesi çalışmasında eski ölçülerin geri elde edilmesiyle yeni alt küme farkları ayrı kontrol edilmiştir. Bu rapor için modeller yeniden öğrenilmemiş ve yeni tahmin üretilmemiştir."},
+        {"type": "p", "text": "Taşınabilir paket 499 dosya içerir. Dizin ve ZIP bütünlüğü, yerel kanıt bağlantıları ve başka klasöre çıkarılmış arayüzün çevrimdışı DOM davranışları denetlenmiştir. Bunlar bütün tarayıcılarda görsel render kontrolü, bilimsel etiket doğrulaması veya ham verilerden uçtan uca yeniden öğrenme kanıtı değildir. Tarihsel ham veri yollarının tamamı paket içine taşınmamıştır."},
+        {"type": "p", "text": "Paket yerel inceleme içindir; dış veri yayını ve bütün kaynakların yeniden dağıtım lisansı onayı anlamına gelmez. Nihai etiketli veri birleştirmesi yapılmamıştır. Böyle bir birleştirme için meteoroloji, arazi/örtü, bitki örtüsü, gözlem ve hedef parçalarının güncel son denetimi ile denetim raporuna bağlı araştırmacı onayı gereklidir."}
+      ]
+    },
+    {
+      "heading": "10 Tartışma ve sonraki bilimsel gereksinimler",
+      "blocks": [
+        {"type": "p", "text": "Araştırma; çok kaynaklı özelliklerin izlenebilir hazırlanması, gözlem yokluğunun negatif etiketle karıştırılmaması ve kaynak günlerinin günlük sıralanmasının sınanması bakımından somut bir aşamaya ulaşmıştır. En önemli sonuç yalnız genel kredinin 0,5'in üstünde bulunması değildir. Yakın günlerdeki zayıflama ve örneklerin ayarlar arasında yer değiştirmesi, mevcut verinin hangi iddiaları taşımadığını da göstermektedir."},
+        {"type": "h", "text": "Başlıca sınırlamalar"},
+        {"type": "p", "text": "Birincisi, S adaylarının yeni doğal yangınları ne ölçüde temsil ettiği ve yanlış pozitif oranı bilinmemektedir. Kaynak konumları, saatler, olay birimi ve kayıt kapsamı tam çözülmemiştir. İkincisi, atamasız günlerin yeterince gözlenmiş yangınsız günler olduğu gösterilmemiştir. Bu iki konu, seçilmiş kaynak üyeliğinden gerçek hedefe geçişi sınırlar."},
+        {"type": "p", "text": "Üçüncüsü, örneklem kaynak koşullu hücre–ay takvimidir. Nüfus düzeyinde yangın sıklığı, kalibrasyon ve yanlış alarm yükü bu takvimden doğrudan çıkarılamaz. Dördüncüsü, 2022 keşif sırasında incelenmiştir; bağımsız final test değildir. Mekânsal ayrılık, gelecek yıllar ve operasyonel girdi erişimi ayrıca değerlendirilmemiştir. Kaynak örtüşmesini çıkarmak bu açıkları kapatmaz."},
+        {"type": "h", "text": "Öncelikli ilerleme koşulları"},
+        {"type": "p", "text": "Gerçek yangın riski iddiasına geçmek için önce hedef aktarımı, gözlem desteği ve kaynak seçimi varsayımları gerekçelendirilmelidir. Kabul edilebilir bir yöntem ve değerlendirme protokolü netleşirse yeni öğrenme veya sonraki yılların kullanımı ayrıca kararlaştırılabilir. Bilinmeyen günlerin negatif yapılması, keyfî kırmızı/sarı/yeşil eşikleri ve yalnız görünümü değiştiren olasılık ifadeleri bu kanıt gereksinimini gidermez."},
+        {"type": "p", "text": "Mevcut sonuçlar, sınırları açık bir zayıf gözetimli günlük sıralama araştırması ve incelenebilir teknik veri paketi olarak raporlanabilir. Ana 24 saatlik yeni orman/çalılık yangını hedefi araştırma amacı olarak korunur. Bu sürüm, hedefin başarıyla tamamlandığı veya sahada kullanılabilecek bir uyarı sisteminin doğrulandığı sonucu değildir."},
+        {"type": "h", "text": "Katkı şeffaflığı"},
+        {"type": "p", "text": "Kod, otomatik denetimler, kaynak araştırması ve rapor metni yapay zekâ desteğiyle hazırlanmıştır. Araştırmacının yöntem tercihleri ve sınırlı görsel örtü notları karar kayıtlarında ayrı tutulur. Otomatik hesaplar araştırmacının elle yaptığı işlemler olarak sunulmaz. Akademik teslimde katkı beyanının ilgili kurum koşullarına göre araştırmacı tarafından kontrol edilmesi gerekir."}
+      ]
+    },
+    {
+      "heading": "11 Kaynaklar ve hesapların izlenmesi",
+      "blocks": [
+        {"type": "references"},
+        {"type": "h", "text": "Yerel kanıt kayıtları"},
+        {"type": "p", "text": "K1 deneysel S/U paketi; K2 ana tam alan meteoroloji destekli sıralama koşusu; K3 kaynak örtüşmesi değerlendirmesi; K4 kaynak günleri ve açıklayıcı örnekler; K5 taşınabilir yerel teslimdir. Kimlikler aşağıda verilmiştir. Tüm klasörler depo içindeki outputs/reports/dataset altında bulunur; readback.json ve ilişkili ayrı denetim makbuzları dosya hash'leriyle bağlantılıdır."},
+        {"type": "evidence"},
+        {"type": "p", "text": "Bu rapor, 24 Kasım 2026 tarihinde mevcut sonuçları bir araya getirir. Deney ve veri sürümlerinin tarihleri değiştirilmemiştir. Rapor tabloları K1/K2/K3/K4 kayıtlarından yeniden okunarak hazırlanmıştır; yeni model deneyi değildir. Ayrıntılı kaynak sicili, veri/model kartları ve yapay zekâ katkı kaydı proje belgelerinde korunur."}
+      ]
+    }
+  ],
+  "references": [
+    {"id": "1", "text": "Apostolakis, A., Girtsou, S., Giannopoulos, G., Bartsotas, N. S. ve Kontoes, C. (2022). Estimating Next Day's Forest Fire Risk via a Complete Machine Learning Methodology. Remote Sensing, 14(5), 1222.", "url": "https://doi.org/10.3390/rs14051222", "verified_url": "https://www.mdpi.com/2072-4292/14/5/1222", "verified_scope": "Yazarlar, başlık, yıl ve ilgili problem/yöntem bölümleri"},
+    {"id": "2", "text": "Kondylatos, S., Prapas, I., Camps-Valls, G. ve Papoutsis, I. (2023). Mesogeos: A multi-purpose dataset for data-driven wildfire modeling in the Mediterranean. Advances in Neural Information Processing Systems, 36, Datasets and Benchmarks.", "url": "https://papers.nips.cc/paper_files/paper/2023/hash/9ee3ed2dd656402f954ef9dc37e39f48-Abstract-Datasets_and_Benchmarks.html", "verified_url": "https://papers.nips.cc/paper_files/paper/2023/file/9ee3ed2dd656402f954ef9dc37e39f48-Paper-Datasets_and_Benchmarks.pdf", "verified_scope": "Konferans kaydı, yazarlar ve veri/görev özeti; PDF'de Spyros, kayıtta Spyridon ad varyantı"},
+    {"id": "3", "text": "Huot, F., Hu, R. L., Goyal, N., Sankar, T., Ihme, M. ve Chen, Y.-F. (2022 sürümü). Next Day Wildfire Spread: A Machine Learning Data Set to Predict Wildfire Spreading from Remote-Sensing Data. arXiv:2112.02447v2. İlgili dergi DOI: 10.1109/TGRS.2022.3192974.", "url": "https://arxiv.org/abs/2112.02447v2", "verified_url": "https://arxiv.org/abs/2112.02447", "verified_scope": "Yazar ön baskısının başlık, yazarlar, v2 tarihi, ilgili DOI ve yayılım görevi özeti"},
+    {"id": "4", "text": "Kiryo, R., Niu, G., du Plessis, M. C. ve Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. Advances in Neural Information Processing Systems, 30.", "url": "https://proceedings.neurips.cc/paper/2017/hash/7cce53cf90577442771720a370c3c723-Abstract.html", "verified_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/7cce53cf90577442771720a370c3c723-Paper.pdf", "verified_scope": "Konferans kaydı, yazarlar ve yöntem özeti; mevcut projenin bu kestiriciyi çalıştırdığı ileri sürülmez"}
+  ]
+}
