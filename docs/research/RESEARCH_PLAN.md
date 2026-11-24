@@ -7,6 +7,12 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+Aynı gün sonraki [kaynak-örtüşmesi önerisi](../SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md)
+65/59/56 kaynak günü ve 1.921/1.744/1.656 mevcut çift desteğiyle
+somutlaştırıldı. Yeni değerlendirme çalışmadı; örneklem yönü
+araştırmacıya sunuluyor. Yalnız aynı anahtar katkısını sınar,
+gerçek yangına aktarımı veya bağımsız olay kimliğini doğrulamaz.
+
 Aynı gün sonraki çalışma, [mevcut 2022 örneklerini](../FROZEN_CASE_REVIEW_2026-11-24.md)
 ve [sonuç/tartışma taslağını](RESULTS_DISCUSSION_DRAFT_2026-11-24.md)
 tamamladı. 12 deterministik alt/orta/üst örnek ve dokuz ayarda da

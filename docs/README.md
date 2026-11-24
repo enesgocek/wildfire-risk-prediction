@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Kaynak-örtüşmesi değerlendirme önerisi](SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md) | Hazır 65/59/56 kaynak-gün desteği, sabit karşılaştırma günleri ve en fazla 405 ölçülük yöntem kararı; yürütülmedi |
 | [Bitirme iskeleti ve iddia–kanıt haritası](research/THESIS_CLAIM_MAP_2026-11-24.md) | Hazır bölüm metinleri, on somut iddia/kaynak ve desteklenmeyen ifadeler |
 | [Kaynak-gün örnek incelemesi](FROZEN_CASE_REVIEW_2026-11-24.md) | 251 üyelik envanteri, 12 alt/orta/üst örnek, 3.132 çift, 180 özellik bağlamı; ayar duyarlılığı ve ayrı hesaplar |
 | [Sonuç/tartışma teslim taslağı](research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md) | Tamamlanan veri, ortak-payda modelleri, günlük yakın ayrım, örnekler ve desteklenmeyen bilimsel iddialar |

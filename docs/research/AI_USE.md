@@ -1877,6 +1877,15 @@ başarımı uydurulmadı. Bitirme bölüm iskeleti ve on iddianın kaynak
 eşlemesi aynı destekle hazırlandı.
 [Örnekler ve sınırlar](../FROZEN_CASE_REVIEW_2026-11-24.md).
 
+### 24 Kasım kaynak-örtüşmesi protokol hazırlığı
+
+Mevcut anahtar/üyelik/kalite kayıtlarıyla üç iç içe örneklemin desteği,
+karşılaştırma günü sözleşmesi ve durma koşulları yapay zekâ desteğiyle
+hazırlandı. Ayrı CSV hesabı plan desteğini geri doğruladı. Yeni
+performans deneyi veya gerçek yangın doğrulaması yapılmadı; örneklem
+kapsamı kararı araştırmacıya sunuldu.
+[Öneri ve doğrulama sınırı](../SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

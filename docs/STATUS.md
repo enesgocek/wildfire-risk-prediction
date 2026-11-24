@@ -5,6 +5,18 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**24 Kasım sonraki hazırlık: kaynak-örtüşmesini ayıran somut değerlendirme önerisi hazır; yeni ölçüm çalıştırılmadı.**
+Ayrı Mersin'in 81 kaynak gününden 65'i ana kaliteye uygun. Altı uygun
+gün aynı hücre/günde uydu S önerisiyle örtüşüyor; bu günler çıkarılınca
+59 gün/1.744 çift, dört-il takviminde anahtarı hiç olmayan daha dar
+kesitte 56 gün/1.656 çift kalıyor. Karşılaştırma günleri sabit, çıkarılan
+kaynaklar U/negatif yapılmıyor. 81 anahtar ve 15 destek satırı özgün
+CSV'lerden ayrı doğrulandı; üç yeni dahil 31 ilgili test bu devamda geçti.
+Öneri en fazla 405 mevcut-skor ölçüsü/900 saniye; yeni fit/tahmin/yıl
+yok. Aynı anahtar ayrılığı gerçek olay bağımsızlığı veya yangın doğrulaması değil.
+[Kapsam, ölçülen destek, durma koşulları ve A/B kararı](SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md).
+Araştırmacı yeni değerlendirme kapsamını seçmeden önerilen sonuç hesabı başlatılmadı.
+
 **24 Kasım sonraki devam: örnek düzeyinde sıralama incelemesi ve sonuç/tartışma taslağı hazır.**
 251 kaynak-gün üyeliği envanteri korundu; dokuz ayarda destekli
 165 dört-il ve 65 ayrı Mersin örneğinden alt/orta/üst 12 örnek aynı

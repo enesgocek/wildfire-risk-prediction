@@ -6,6 +6,22 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+Güncel karar bekleyen iş [aynı-anahtar kaynak örtüşmesi önerisidir](SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md).
+Bu, eski prototip A yönünü tekrar sormaz. Hazırlık makbuzu
+`source_disjoint_evaluation_preparation_v1/20261124T030406Z_9554fb98`;
+ayrı audit `source_disjoint_preparation_audit_v1/20261124T030456Z_26cc1be8`.
+65 uygun Mersin kaynak günü; altı aynı-anahtar S çıkarılınca 59/1.744
+çift, dört-il takviminde hiç olmayan kesitte 56/1.656 çift. Özgün
+karşılaştırma günleri korunur; dışarıdaki kaynak U yapılmaz.
+31 ilgili test geçti. Yeni performans ölçüsü/tahmin/fit yapılmadı.
+
+Araştırmacı öneriyi seçerse bu makbuza bağlı ayrı yürütme kararı
+kaydedilerek en fazla 405 mevcut-skor ölçüsü/900 saniye çalıştırılır;
+G0'ın 135 eski ölçüsü aynen geri doğrulanır. Seçmeden yeni deney
+başlatma veya geçmiş hazırlığı yürütme onayı sayma. Ana hedefin kanıt
+açığını bu örtüşme tanısının çözdüğünü ileri sürme. Araştırmacı B'yi
+seçerse ek sınamayı açmadan mevcut prototip/teslim hazırlığına devam et.
+
 24 Kasım sonraki devamda [kaynak-gün örnek incelemesi](FROZEN_CASE_REVIEW_2026-11-24.md)
 ve [sonuç/tartışma metni](research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md)
 tamamlandı. 251 envanter, 12 açıklayıcı örnek, 3.132 karşılaştırma,

@@ -2325,6 +2325,16 @@ betimsel medyanları ayrı doğrulandı. PNG'ler asistanın araçla görsel
 kontrolünden geçti; uzman etiketlemesi değil. Önceki veri/model
 paketi değiştirilmedi; gerçek yangın aktarımı ve final merge açık.
 
+E258 — 24 Kasım. [Kaynak-örtüşmesi önerisinin yerel hazırlanması](../SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md).
+81 Mersin kaynak günü / 65 ana-kalite uygun gün. Altı aynı-anahtar
+uydu önerisi ayrılınca 59/1.744 çift; dört-il takviminde anahtarı
+bulunmayan kesit 56/1.656 çift. Özgün CSV'lerden 81 kaynak ve 15
+destek satırı ayrı eşleşti; üç yeni dahil 31 ilgili test bu devamda
+geçti. Yalnız örneklem hazırlığı, yeni skor ölçüsü yok. En fazla
+405 mevcut-skor ölçüsü için araştırmacı kararı beklenir. Anahtar
+ayrılığı gerçek olay bağımsızlığı veya Y doğrulaması sayılmadı.
+Plan SHA `c20b988b…ffa45f`, audit `8b8064f8…cc9e23`; tam hash raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte
