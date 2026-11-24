@@ -1,5 +1,10 @@
 # Aynı hücre–gün örtüşmesini ayıran değerlendirme önerisi
 
+**Aynı gün sonraki karar ve sonuç:** araştırmacı önerilen A'yı seçti.
+405 ölçülük yürütme ve ayrı doğrulama tamamlandı;
+[güncel sonuç raporu](SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
+Aşağıdaki metin karar öncesi hazırlık kaydıdır; yeni bekleyen karar değildir.
+
 24 Kasım 2026. **Hazırlık ve örneklem denetimi tamam; önerilen yeni
 başarım hesabı çalıştırılmadı.** Araştırmacının yöntem kararı beklenir.
 Bu, önceki koşullu prototip yönünü yeniden sormaz; değerlendirme

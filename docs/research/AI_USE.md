@@ -1886,6 +1886,16 @@ performans deneyi veya gerçek yangın doğrulaması yapılmadı; örneklem
 kapsamı kararı araştırmacıya sunuldu.
 [Öneri ve doğrulama sınırı](../SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md).
 
+### 24 Kasım A sonrası kaynak-örtüşmesi sınaması
+
+Araştırmacının önerilen A'yı seçmesinden sonra, mevcut skorlarla üç
+iç içe kaynak kesitinin 405 ölçüsü hesaplandı. Bağımsız CSV çift
+kurma denetimi, yerel MLflow geri okuma, sonuç şekli ve teslim
+metinlerine ekleme yapay zekâ desteğiyle yürütüldü. Yeni fit/tahmin
+veya gerçek yangın etiketi yoktur; ortak anahtar katkısının ayrılması
+ana yangın hedefine aktarım doğrulaması olarak sunulmadı.
+[Sonuç ve katkı sınırı](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

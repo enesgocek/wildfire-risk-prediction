@@ -36,10 +36,13 @@ tablosunda iki koşu adı ve ortak değerlendirme paydası açık tutulur.
 | T08 | 165 dört-il / 65 Mersin üyenin 57 / 27'sinde ayar kredileri 0,5'in iki tarafındadır | Örnek envanteri/sentez audit'i; karar eşiği veya anlamlılık sonucu değildir |
 | T09 | Alt/orta/üst 12 örnek aynı açık seçim kuralıyla gösterilmiştir | 3.132 karşılaştırma, 180 bağlam ve 360 sıra audit'i; temsilî rastgele örneklem veya gerçek hata sayımı değildir |
 | T10 | Yerel teslim 198 dosyada paketlenip ZIP/dizin eşliği denetlenmiştir | Teslim/audit makbuzu; nihai etiketli birleştirme veya dış veri yayını değildir |
+| T11 | Altı aynı-anahtar kaynak çıkarılınca ana model genel kredisi 0,529817–0,577408; daha dar G2'de 0,523853–0,569444'tür | A ile yürütülen 405 ölçü/47.889 çift kaydı ve ayrı audit; gerçek yangın aktarımı veya eşdeğerlik testi değildir |
 
 Tam kaynak yolları/hash'ler [teslim raporunda](../LOCAL_RESEARCH_RELEASE_2026-11-24.md)
 ve [örnek incelemesinde](../FROZEN_CASE_REVIEW_2026-11-24.md) bulunur.
 Yeni veri/model gelirse bu eşleme de yenilenir.
+Aynı gün sonraki [kaynak-örtüşmesi sonucu](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md)
+T11'de ayrıca kaydedildi; önceki G0 sonuçları geriye dönük değiştirilmedi.
 
 ## Desteklenmeyen ifadeler
 

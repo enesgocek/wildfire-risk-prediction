@@ -8,8 +8,9 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
-| [Kaynak-örtüşmesi değerlendirme önerisi](SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md) | Hazır 65/59/56 kaynak-gün desteği, sabit karşılaştırma günleri ve en fazla 405 ölçülük yöntem kararı; yürütülmedi |
-| [Bitirme iskeleti ve iddia–kanıt haritası](research/THESIS_CLAIM_MAP_2026-11-24.md) | Hazır bölüm metinleri, on somut iddia/kaynak ve desteklenmeyen ifadeler |
+| [Kaynak-örtüşmesi sınama sonucu](SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md) | Açık A ile 405 ölçü, 47.889 çift kaydı, 135 eski/270 yeni fark ve yerel MLflow geri okuma; yakın gün sınırı korunuyor |
+| [Kaynak-örtüşmesi değerlendirme önerisi](SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md) | Karar öncesi 65/59/56 kaynak-gün planı; sonraki A yürütmesi sonuç raporunda |
+| [Bitirme iskeleti ve iddia–kanıt haritası](research/THESIS_CLAIM_MAP_2026-11-24.md) | Hazır bölüm metinleri, 11 somut iddia/kaynak ve desteklenmeyen ifadeler |
 | [Kaynak-gün örnek incelemesi](FROZEN_CASE_REVIEW_2026-11-24.md) | 251 üyelik envanteri, 12 alt/orta/üst örnek, 3.132 çift, 180 özellik bağlamı; ayar duyarlılığı ve ayrı hesaplar |
 | [Sonuç/tartışma teslim taslağı](research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md) | Tamamlanan veri, ortak-payda modelleri, günlük yakın ayrım, örnekler ve desteklenmeyen bilimsel iddialar |
 | [Yerel araştırma teslimi ve skor desteği](LOCAL_RESEARCH_RELEASE_2026-11-24.md) | 54/864/6.456/5.262 bağımsız hesap, 198 dosyalık yerel paket ve ZIP denetimi; mevcut 2022 skorları, yeni eğitim/etiket yok |

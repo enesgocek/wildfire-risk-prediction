@@ -120,3 +120,29 @@ incelemesi, eksik kanıtı yalnız daha çok model veya rapor üreterek
 tamamlamaz. Yerel deneysel teslim hazır olsa da nihai etiketli
 birleştirme, güncel ayrı parça denetimi ve rapora bağlı kullanıcı
 onayını ayrıca gerektirir. [AI katkı kaydı](AI_USE.md).
+
+## Aynı gün sonraki çalışma: ortak anahtar katkısı
+
+Araştırmacının A seçimiyle, aynı hücre/günde herhangi bir dört-il
+uydu adayına denk gelen altı Mersin kaynak günü kaynak listesinden
+çıkarılmıştır. Özgün 65 uygun gün/1.921 çifte karşı G1'de 59 gün/
+1.744 çift, dört-il takviminde anahtarı hiç bulunmayan G2'de 56 gün/
+1.656 çift vardır. Karşılaştırma günleri sabit tutulmuş, dışarıda
+kalan kaynak günleri yeni U veya gerçek negatif yapılmamıştır.
+
+Ana tam-alan modelinin genel yardımcı kredisi G0'da
+0,528110–0,566892, G1'de 0,529817–0,577408 ve G2'de
+0,523853–0,569444'tür. Aynı model/ayarın G0'a göre genel farkı
+G1'de −0,007404/+0,012454, G2'de −0,013368/+0,008340 aralığındadır.
+Genel kaynak-bağlam ayrımı yalnız altı ortak anahtara dayanmıyor
+görünmektedir; istatistiksel eşdeğerlik veya gerçek yangın doğrulaması
+iddia edilmemiştir. 1–3 gün kesitinde G1 0,493976–0,554217,
+G2 0,480892–0,535032 ile günlük yakın ayrım sınırı sürmektedir.
+
+Dokuz ayar ve üç mevcut skor için 405 ölçü, 47.889 model/grup çift
+kaydı, 135 eski ölçü ve 270 fark ayrı hesapla doğrulanmıştır. Yerel
+deney kaydında bütün 405 değer geri okunmuştur. Gruplar iç içe,
+günler bağımlıdır; anahtar ayrılığı olay veya mekânsal bağımsızlık
+değildir. Kaynağın konum/zaman/kapsam belirsizliği aynı durumdadır.
+Yeni öğrenme/tahmin, kapalı yıl veya etiket açılmamıştır.
+[Protokole bağlı sonuç ve makbuzlar](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).

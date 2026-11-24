@@ -2335,6 +2335,15 @@ geçti. Yalnız örneklem hazırlığı, yeni skor ölçüsü yok. En fazla
 ayrılığı gerçek olay bağımsızlığı veya Y doğrulaması sayılmadı.
 Plan SHA `c20b988b…ffa45f`, audit `8b8064f8…cc9e23`; tam hash raporda.
 
+E259 — 24 Kasım. [A ile mevcut skorların kaynak-örtüşmesi sınaması](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
+Üç iç içe kaynak kesitiyle 405 ölçü; 47.889 model/grup çift kaydı,
+135 eski sonuç ve 270 fark bağımsız doğrudan CSV hesabıyla eşleşti.
+Ana model genel ayrımı G1/G2'de benzer aralıkta; yakın gün sınırı
+korunuyor. Yerel MLflow 405 tam geri okuma, 162 figür değeri eşliği
+ve 34 ilgili test geçti. Yeni fit/tahmin/etiket/yıl yok; gerçek
+yangın aktarımı doğrulanmadı. Run SHA `7f6e16ff…a5d23`, audit
+`caf4f765…c2275`, kapanış `aa2e31f9…023f5`; tam hash sonuç raporunda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

@@ -1,0 +1,18 @@
+{
+  "version": "source_disjoint_evaluation_execution_v1",
+  "decision_date": "2026-11-24",
+  "decision_source": "user_accepted_current_recommended_A_with_onerinden_devam",
+  "selected_direction": "A_run_bounded_frozen_source_overlap_assessment",
+  "preparation_readback_sha256": "c20b988ba0ab1387f4e4121efeabe6a6939e30eac2bedbf7c6ba9cfbafffa45f",
+  "preparation_audit_sha256": "8b8064f890449a626a25cbd3cb3c9063cdfe83f67405c558cafa2aa090cc9e23",
+  "maximum_metric_rows": 405,
+  "maximum_runtime_seconds": 900,
+  "existing_year": 2022,
+  "new_training": false,
+  "new_predictions": false,
+  "new_source_membership": false,
+  "new_Y_or_L": false,
+  "closed_years": false,
+  "risk_probability_or_validated_colors": false,
+  "final_merge": false
+}

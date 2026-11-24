@@ -7,6 +7,13 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+Araştırmacı sonraki “önerinden devam” yanıtıyla kaynak-örtüşmesi
+önerisinin A yönünü seçti; [yürütme ve ayrı audit tamamlandı](../SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
+405 ölçü/47.889 çift kaydı, 135 eski sonuç/270 fark, yerel 405
+değer geri okuma eşleşti. G1/G2 genel ayrımı korunurken yakın gün
+sınırı sürüyor; gerçek yangın aktarımı doğrulanmadı. Yeni fit/tahmin,
+etiket, yıl ve final merge yok; önceki karar-bekleme paragrafı tarihsel.
+
 Aynı gün sonraki [kaynak-örtüşmesi önerisi](../SOURCE_DISJOINT_EVALUATION_PROPOSAL_2026-11-24.md)
 65/59/56 kaynak günü ve 1.921/1.744/1.656 mevcut çift desteğiyle
 somutlaştırıldı. Yeni değerlendirme çalışmadı; örneklem yönü

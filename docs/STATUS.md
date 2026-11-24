@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**24 Kasım A seçimi sonrası: kaynak-örtüşmesi sınaması tamamlandı ve ayrı doğrulandı.**
+Araştırmacının “önerinden devam” yanıtı önerilen A'nın yürütme kararı
+olarak kaydedildi. Mevcut skorlarla 405 ölçü / 47.889 model-grup çift
+kaydı üretildi; 135 eski sonuç ve 270 yeni alt-kesit farkı ayrı hesapla
+eşleşti. Ana model genel kredi aralığı G0'da 0,528110–0,566892,
+G1'de 0,529817–0,577408, G2'de 0,523853–0,569444. Altı ortak
+aynı-anahtar kaydı çıkarınca genel ayrım korunuyor; yakın gün ayrımı
+zayıf kalıyor. Bu bulgu gerçek yangın doğrulaması veya eşdeğerlik
+testi değil. Yerel MLflow 405 değeri aynen geri okudu; üç yeni dahil
+34 ilgili test bu devamda geçti. Yeni fit/tahmin/Y/L/yıl/final merge yok.
+[Sonuç, sınır, şekil ve makbuzlar](SOURCE_DISJOINT_EVALUATION_RESULTS_2026-11-24.md).
+Aşağıdaki karar bekleyen hazırlık, bu A seçiminden önceki tarihsel durumdur.
+
 **24 Kasım sonraki hazırlık: kaynak-örtüşmesini ayıran somut değerlendirme önerisi hazır; yeni ölçüm çalıştırılmadı.**
 Ayrı Mersin'in 81 kaynak gününden 65'i ana kaliteye uygun. Altı uygun
 gün aynı hücre/günde uydu S önerisiyle örtüşüyor; bu günler çıkarılınca
