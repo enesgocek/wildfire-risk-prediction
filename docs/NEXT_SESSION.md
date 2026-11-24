@@ -6,6 +6,22 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+24 Kasım sonraki devamda [kaynak-gün örnek incelemesi](FROZEN_CASE_REVIEW_2026-11-24.md)
+ve [sonuç/tartışma metni](research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md)
+tamamlandı. 251 envanter, 12 açıklayıcı örnek, 3.132 karşılaştırma,
+180 özellik bağlamı ve 360 günlük sıra ayrı doğrulandı. 108 eski ölçü
+iki takvim/genel/yakın-gün şeklinde çizildi; sayıları kaynak makbuzuyla
+eşleşti. Bu devamda 31 ilgili test geçti. Aynı incelemeyi yeniden
+üretme; ilk paket ve yeni ek raporlar ayrı değişmez sürümlerdir.
+
+[Bitirme iskeleti ve on iddianın kaynak eşlemesi](research/THESIS_CLAIM_MAP_2026-11-24.md)
+de hazırlandı. Sıradaki bilimsel hazırlık: açık aktarım ihtiyacını
+mevcut kanıt, örneklem/yıl, varsayım, karşılaştırma ve durma koşulu
+belirli somut deney önerisine dönüştürmek. Yeni model, yıl erişimi,
+risk rengi veya etiket kabulü
+bu hazırlıktan çıkmaz. Örneklerin alt/üst sırası gerçek yanlış
+negatif/pozitif olarak sunulmaz; yöntem kararı gerekirse kullanıcıya sorulur.
+
 24 Kasım devamında üç iş kapandı: sabit skor destek/yoğunlaşma tanısı,
 veri/model kartları ve 198 dosyalık tek yerel araştırma teslimi.
 [Güncel sonuç ve makbuzlar](LOCAL_RESEARCH_RELEASE_2026-11-24.md).

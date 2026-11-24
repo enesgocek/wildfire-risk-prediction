@@ -1,0 +1,20 @@
+{
+  "version": "frozen_case_review_v1",
+  "analysis_date": "2026-11-24",
+  "scope": "posthoc_existing_2022_scores_and_features_only",
+  "case_pool": "source_context_in_all_nine_scenarios_with_all_nine_existing_pair_credits",
+  "case_order": "arithmetic_mean_of_nine_primary_weather_source_day_order_credits_then_grid_then_time",
+  "illustrative_selection_per_cohort": "two_lowest_two_highest_then_two_central_remaining_order_positions",
+  "illustrative_cases_per_cohort": 6,
+  "feature_reference": "same_cohort_cell_month_eligible_days_unassigned_in_all_nine_scenarios",
+  "feature_comparison": "source_value_reference_median_and_tie_half_credit_not_model_attribution",
+  "timeline": "all_eligible_same_cell_month_days_nine_frozen_primary_score_ranks_one_is_highest",
+  "near_days": [1, 3],
+  "new_training": false,
+  "new_predictions": false,
+  "new_risk_thresholds": false,
+  "new_fire_labels": false,
+  "closed_years": false,
+  "causal_feature_explanation": false,
+  "final_merge": false
+}

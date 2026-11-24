@@ -1865,6 +1865,18 @@ Otomatik hesap insan görsel değerlendirmesi sayılmadı. Yeni model,
 tahmin, yangın etiketi, kapalı yıl veya nihai etiketli birleştirme
 yapılmadı. Sayısal bulgular kaynak-bağlam sırasıyla sınırlıdır.
 
+### 24 Kasım sonraki örnek incelemesi ve tartışma
+
+251 kaynak-gün üyeliğinin sabit skorlarla incelenmesi, açıklayıcı
+12 örnek için seçim kuralı, dinamik özellik bağlamları, iki bilimsel
+şekil ve ayrı sayısal denetleyiciler yapay zekâ desteğiyle hazırlandı.
+PNG'leri asistan araçla görüntüledi; insan araştırmacı/uzman gözlem
+veya yangın etiketi onayı olarak kaydedilmedi. Tamamlanan ölçülerden
+sonuç/tartışma taslağı yazıldı; bilimsel özgünlük veya gerçek yangın
+başarımı uydurulmadı. Bitirme bölüm iskeleti ve on iddianın kaynak
+eşlemesi aynı destekle hazırlandı.
+[Örnekler ve sınırlar](../FROZEN_CASE_REVIEW_2026-11-24.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

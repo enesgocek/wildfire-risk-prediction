@@ -2309,6 +2309,22 @@ koşulları ayrı denetlendi. 34 ilgili test geçti. Son teslim makbuzu
 `0e11f0ef…0990d2`, audit `7b730b6e…2d25de`; tam hash raporda.
 Yeni eğitim/tahmin, kapalı yıl, gerçek risk kabulü veya final merge yok.
 
+E256 — 24 Kasım. [Mevcut kaynak-gün örneklerinin bağlamı](../FROZEN_CASE_REVIEW_2026-11-24.md).
+251 üyelik envanteri; dokuz ayarda destekli 165 dört-il / 65 Mersin
+üyeden deterministik alt/orta/üst 12 örnek. Ham sabit skorlarla
+3.132 karşılaştırma, 180 özellik medyan/bağlamı ve 360 günlük sıra
+ayrı hesapla doğrulandı. Üç yeni dahil 31 ilgili test bu devamda geçti.
+Alt örnekler gerçek kaçırılmış yangın; atamasız üst günler yanlış
+alarm sayılmadı. Üretim ve audit SHA'ları raporda; yeni Y/L/fit yok.
+
+E257 — 24 Kasım. [Duyarlılık sentezi ve teslim tartışması](../research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md).
+57/165 dört-il ve 27/65 ayrı Mersin kaynak-gününde dokuz ayar kredi
+aralığı 0,5'in iki tarafında; karar eşiği/anlamlılık sonucu değil.
+İki takvim/genel/yakın-gün figürünün 108 eski ölçüsü ve iki takvimin
+betimsel medyanları ayrı doğrulandı. PNG'ler asistanın araçla görsel
+kontrolünden geçti; uzman etiketlemesi değil. Önceki veri/model
+paketi değiştirilmedi; gerçek yangın aktarımı ve final merge açık.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

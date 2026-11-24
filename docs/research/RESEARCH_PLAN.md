@@ -7,6 +7,13 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+Aynı gün sonraki çalışma, [mevcut 2022 örneklerini](../FROZEN_CASE_REVIEW_2026-11-24.md)
+ve [sonuç/tartışma taslağını](RESULTS_DISCUSSION_DRAFT_2026-11-24.md)
+tamamladı. 12 deterministik alt/orta/üst örnek ve dokuz ayarda da
+destekli 230 takvim üyeliğinin duyarlılığı incelendi; iki takvim
+bağımsız olay sayısı gibi toplanmaz. 108 eski figür ölçüsü ayrı
+eşleşti. Yeni model/yıl/etiket yok; bu iş ana hedefi doğrulamaz.
+
 Mevcut 2022 skorlarının destek/yoğunlaşma tanısı, veri/model kartları
 ve ayrı parçalı yerel teslim tamamlandı. 198 dosyalık dizin/ZIP,
 44.082 anahtar/27 alan, dokuz model ve bilinmeyen hedef durumu ayrı

@@ -8,6 +8,9 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Bitirme iskeleti ve iddia–kanıt haritası](research/THESIS_CLAIM_MAP_2026-11-24.md) | Hazır bölüm metinleri, on somut iddia/kaynak ve desteklenmeyen ifadeler |
+| [Kaynak-gün örnek incelemesi](FROZEN_CASE_REVIEW_2026-11-24.md) | 251 üyelik envanteri, 12 alt/orta/üst örnek, 3.132 çift, 180 özellik bağlamı; ayar duyarlılığı ve ayrı hesaplar |
+| [Sonuç/tartışma teslim taslağı](research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md) | Tamamlanan veri, ortak-payda modelleri, günlük yakın ayrım, örnekler ve desteklenmeyen bilimsel iddialar |
 | [Yerel araştırma teslimi ve skor desteği](LOCAL_RESEARCH_RELEASE_2026-11-24.md) | 54/864/6.456/5.262 bağımsız hesap, 198 dosyalık yerel paket ve ZIP denetimi; mevcut 2022 skorları, yeni eğitim/etiket yok |
 | [Veri kartı](research/DATASET_CARD_2026-11-24.md) | 44.082 anahtar, 27 alan, üyelik/eksiklik/kapsam ve kullanım sınırı |
 | [Model kartı](research/MODEL_CARD_2026-11-24.md) | Dokuz tam-alan XGBoost, 15 dinamik alan, mevcut yardımcı sonuçlar ve açık aktarım sınırı |

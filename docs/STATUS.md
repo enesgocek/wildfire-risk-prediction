@@ -5,6 +5,20 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**24 Kasım sonraki devam: örnek düzeyinde sıralama incelemesi ve sonuç/tartışma taslağı hazır.**
+251 kaynak-gün üyeliği envanteri korundu; dokuz ayarda destekli
+165 dört-il ve 65 ayrı Mersin örneğinden alt/orta/üst 12 örnek aynı
+kuralla seçildi. 3.132 ayar/gün karşılaştırması, 180 özellik bağlamı
+ve 360 günlük sıra ayrı hesapla eşleşti. Dört ilde 57/165, ayrı
+Mersin'de 27/65 örnekte dokuz ayarın kredileri 0,5'in iki tarafına
+geçiyor; bu karar eşiği veya anlamlılık testi değil, duyarlılık tanısı.
+108 eski ölçülük karşılaştırma şekli ve iki PNG hazır; üç yeni dahil
+31 ilgili test bu devamda geçti. Yeni model/tahmin/etiket/yıl yok.
+[Örnekler ve makbuzlar](FROZEN_CASE_REVIEW_2026-11-24.md) ·
+[Bitirme sonuç/tartışma taslağı](research/RESULTS_DISCUSSION_DRAFT_2026-11-24.md).
+[Bölüm iskeleti ve iddia–kanıt haritası](research/THESIS_CLAIM_MAP_2026-11-24.md)
+de hazır; tarihsel koşular güncel sonuçlarla karıştırılmıyor.
+
 **24 Kasım: sabit skor desteği, veri/model kartları ve denetlenmiş yerel araştırma teslimi tamam.**
 Yeni eğitim/tahmin olmadan 54 genel, 864 bağlam, 6.456 kaynak-gün/model
 ve 5.262 hücre-çıkarma satırı ayrı ilişkisel hesapla doğrulandı.
