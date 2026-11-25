@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**25 Kasım sonraki devam: tek hücrelik yerel Landsat provası tamamlandı.**
+Yedi sahne, iki yıl/30–60 gün için dört tanısal özet; önceki denemeler
+dahil 738,802 saniye, 13.028.791 yanıt gövdesi baytı ve 204 HTTP denemesi.
+Özgün süre/bayt sınırı korundu; GCP veya ücretli hesap/işlem yok.
+2022 eski karşılığa en büyük NDVI farkı 0,000153023, NDMI 0,000076771;
+tek hücrede küçük fark, yöntem eşdeğerliği kabulü değil. 2024 iki sahne
+kalite sonrası tümü eksik; iki pencerenin aynı olması ayrı doğrulandı.
+40 ilgili test ve ayrı hash/sayaç/pikselden özet geri hesabı geçti.
+İki basit sınır ağırlığı yaklaşımı farkı kapatmadı. Tüm 2024 üretimi,
+model/etiket/final merge yok. Dört ilde birer hücre için 2022/15 dakika/
+256 MiB genişletme önerisi hazır, henüz yürütülmedi; yeni karar gerekir.
+[Sonuçlar, sınırlar ve somut öneri](LOCAL_LANDSAT_COMPATIBILITY_RESULTS_2026-11-25.md).
+
 **25 Kasım sonraki devam: sınırlı 2024 kaynak/girdi incelemesi tamamlandı.**
 2024'ten 2.960 katalog tespiti, 320 kaynak günü/505 hücre; bunlar yangın
 veya yeni S sayısı değil. 366 günlük meteoroloji geri okumasında 1.061.034

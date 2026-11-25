@@ -1,0 +1,10 @@
+{
+  "version": "local_landsat_compatibility_continuation_v1",
+  "reason": "isolate_budgeted_HTTP_proxy_from_GDAL_process_after_interrupted_local_connections",
+  "previous_directory": "outputs/reports/dataset/local_landsat_compatibility_v1/20261125T091810Z_f69e6587",
+  "previous_network_sha256": "3bc55ad10e6c0560b3d9585d4241e6c2b2e76602af085589fe8f478071071250",
+  "previous_catalog_sha256": "12a01d94dcaad4e4ed522ca3e184bbe93ea3b779ef29585fa7a99094b7a7d699",
+  "original_time_byte_request_limits_unchanged": true,
+  "prior_body_bytes": 2264215,
+  "prior_requests": 28
+}

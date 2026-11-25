@@ -2424,6 +2424,19 @@ Eski 2024 meteoroloji okumaları açık kaydedildi. Yeni model/etiket/merge
 yok; yerel Landsat önerisi yürütülmedi. Sonuç SHA `bf53e0a9…cf1e6`,
 audit `6095a5c7…c6245`; tam kimlik ve erişim sınırları raporda.
 
+E268 — 25 Kasım. [Yerel Landsat provası ve ayrı denetim](../LOCAL_LANDSAT_COMPATIBILITY_RESULTS_2026-11-25.md).
+Somut A sonrası devamla tek hücre/iki yıl/30–60 gün; yedi sahne ve dört
+tanısal özet. Önceki denemeler dahil 738,802 saniye/13.028.791 HTTP gövde
+baytı/204 istek, özgün sınırlar korunarak tamamlandı. 40 güncel ilgili
+test, ayrı hash/sayaç/alan/skaler özet geri okuması geçti. 2022 en büyük
+NDVI/NDMI farkı 0,000153023/0,000076771; eşdeğerlik veya gerçek yangın
+başarımı değil. 2024'te iki sahne tümü kalite-eksik; iki pencerenin aynı
+olmasının nedeni ayrı açıklandı. Çevrimdışı üç ağırlık varsayımı/12 özet
+eski farkı kapatmadı. Koşu SHA `2ff84132…42d5`, audit `371d6170…3460`,
+tanısal inceleme `17882ef8…f34d`; tam kimlikler raporda. GCP/ücretli
+işlem, yeni model/etiket veya merge yok. Dört ilde 2022 genişletmesi
+hazır öneri; yürütme veya bilimsel kabul kararı değil.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

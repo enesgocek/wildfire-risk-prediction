@@ -6,6 +6,36 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+**Tek hücrelik yerel Landsat A provası tamamlandı; tekrar çalıştırma.**
+[Sonuç](LOCAL_LANDSAT_COMPATIBILITY_RESULTS_2026-11-25.md): 7 sahne/4 özet,
+738,802 saniye/13.028.791 yanıt gövdesi baytı/204 istek; önceki denemeler
+ve teknik onarım özgün bütçenin içinde. Ayrı audit ve çevrimdışı alan
+duyarlılığı tamam. 40 güncel ilgili test geçti. Eski üreticiler ve
+başarılı yeni üretici kodu hash ile sabit; biçim için değiştirme.
+2024 tam üretim ve yöntem eşdeğerliği kabulü yok; yeni model çalışmadı.
+
+**Sonraki gerçek kapsam kararı dört ilde 2022 uyumluluk örneklemidir.**
+`landsat_spatial_compatibility_preparation_v1/20261125T093449Z_263452e2/proposal.json`
+SHA `7d191d1c49ae6c6b353fe2819cda40963591ee42f3107ea40269896b7dc363a7`;
+`execute_authorized=false`. Mevcut sohbetten bu yeni seçimi kontrol et.
+Öneri: Antalya C594/R879, İzmir C526/R902, Mersin C652/R878, Muğla
+C550/R879; 1 Temmuz 2022/30–60 gün, en fazla 900 saniye/256 MiB/2.048
+HTTP/40 tekil sahne. Yalnız eski iki penceresi sonlu, AOI kesri ≥0,9
+havuzun il bazında üst ortanca kimlikleri; yangın/örtü temsiliyeti yok.
+Yeni izin yalnız bu kapsamı açabilir; bütün 2024 üretimi, eşdeğerlik
+eşiği/özellik kabulü, yeni fit/tahmin/etiket veya merge yetkisi olmaz.
+2023/2024/2025 yeni bilimsel gövdesi açılmaz. Süresi bitmiş tek hücre
+yürütme kararını yeniden kullanma veya eski bütçeyi sıfırlama.
+
+Son başarılı klasör `local_landsat_compatibility_v1/20261125T092425Z_afc36fb5`,
+audit `local_landsat_compatibility_audit_v1/20261125T092809Z_3454247d`,
+çevrimdışı inceleme `local_landsat_diagnostic_review_v1/20261125T093305Z_71e6f651`.
+Tam makbuz hash'leri raporda. Başarısız/yarıda kesilen denemeler korundu;
+sonuç diye raporlanmaz. Teknik/prototip geçişini veya tek hücre A seçimini
+tekrar sorma. Ana hedefin üç bilimsel koşulu açık kalır.
+
+### Önceki tek hücre karar hazırlığı — tarihsel
+
 **2024 ilk uygulanabilirlik A yönü yürütüldü; aynı kararı tekrar sorma.**
 Araştırmacının somut A sonrası devam talimatı, ayrı execution kaydında
 bağlandı; tarihsel öneri değiştirilmedi. [Sonuç](2024_FEASIBILITY_RESULTS_2026-11-25.md):

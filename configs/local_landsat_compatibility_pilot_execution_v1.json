@@ -1,0 +1,16 @@
+{
+  "version": "local_landsat_compatibility_pilot_execution_v1",
+  "decision_date": "2026-11-25",
+  "decision_source": "user_continue_after_specific_recommended_A_local_Landsat_pilot",
+  "proposal_sha256": "ffdfa7154d3339172dd512fc7d39dddcf0cdc73874c8d01ee354e0c9be44f41c",
+  "original_probe_start_utc": "2026-11-25T09:12:40+00:00",
+  "prior_probe_body_bytes": 68772,
+  "prior_probe_request_attempts": 2,
+  "max_seconds": 900,
+  "max_body_bytes": 134217728,
+  "max_requests": 512,
+  "max_unique_scenes": 20,
+  "full_2024_production": false,
+  "model_training_or_prediction": false,
+  "new_labels_or_final_merge": false
+}

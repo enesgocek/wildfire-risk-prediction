@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Yerel Landsat uyumluluk sonucu](LOCAL_LANDSAT_COMPATIBILITY_RESULTS_2026-11-25.md) | Tek hücrede 7 sahne/4 tanısal özet; 40 test/ayrı audit, eski yöntemle küçük açık farklar ve henüz yürütülmemiş dört il örneklem önerisi |
 | [2024 kaynak ve girdi sonucu](2024_FEASIBILITY_RESULTS_2026-11-25.md) | 2.960 tespit/366 gün meteoroloji; 1.797 tespit destekli, 2024 NDVI/NDMI eksikliği; 32 test/ayrı denetim ve yürütülmemiş sınırlı yerel Landsat önerisi |
 | [Aşama geçişi ve ayrı yıl önerisi](STAGE_TRANSITION_REVIEW_2026-11-25.md) | Tamamlanmış teknik geçiş/açık bilimsel kabul ayrımı; sekiz makbuz/dokuz model kimliği, metadata kontrolü ve yürütülmemiş sınırlı 2024 önerisi |
 | [Mesogeos 32 kayıt ve aşama durumu](MESOGEOS_CANDIDATE_REVIEW_2026-11-25.md) | Açık A sonrası 11 ana harita odunsu merkezi/576 koşullu satır/beş kararlı öneri; 30 test ve ayrı denetim, açık bilimsel geçiş ve 37 günlük koşullu teslim penceresi |

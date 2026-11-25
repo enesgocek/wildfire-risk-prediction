@@ -1,1 +1,9 @@
 *.geojson -text
+# Preserve exact bytes of the hash-bound 25 November Landsat pilot producers.
+configs/local_landsat_compatibility_continuation_v1.json -text whitespace=cr-at-eol
+configs/local_landsat_compatibility_pilot_execution_v1.json -text whitespace=cr-at-eol
+scripts/quality/run_local_landsat_compatibility.py -text whitespace=cr-at-eol
+scripts/quality/audit_local_landsat_compatibility.py -text whitespace=cr-at-eol
+scripts/quality/review_local_landsat_diagnostics.py -text whitespace=cr-at-eol
+scripts/quality/prepare_landsat_spatial_compatibility.py -text whitespace=cr-at-eol
+src/wildfire_risk_prediction/landsat_local_pilot.py -text whitespace=cr-at-eol

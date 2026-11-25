@@ -7,6 +7,16 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+25 Kasım sonraki [yerel Landsat provası](../LOCAL_LANDSAT_COMPATIBILITY_RESULTS_2026-11-25.md)
+somut A sonrası devam yönüyle tek hücrede yedi sahne/dört tanısal özeti
+tamamladı. GCP/ücretli işlem olmadan 738,802 saniye ve 13.028.791 yanıt
+gövdesi baytı; eski denemeler dahil özgün sınırlar korundu. 40 güncel
+ilgili test/ayrı hesap denetimi geçti. Eski 2022 karşılıkla küçük farklar
+açık; iki basit ağırlık varsayımı bunları kapatmadı. Eşdeğerlik/özellik
+kabulü, tüm 2024 üretimi veya model tahmini yok. Dört ilde 2022 için
+birer hücrelik yeni sınırlı uyumluluk önerisi hazır; henüz yürütülmedi.
+Önceki paragraftaki tek hücre karar bekleme durumu tarihsel hazırlıktır.
+
 25 Kasım sonraki [2024 uygulanabilirlik sonucu](../2024_FEASIBILITY_RESULTS_2026-11-25.md)
 somut A sonrası devam yönüyle sınırlı 2024 erişimini kaydeder. 2.960
 katalog tespiti ve 366 meteoroloji günü incelendi; ana 15 alanlı model

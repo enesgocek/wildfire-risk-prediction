@@ -1979,6 +1979,21 @@ webde koleksiyon metadata'sı okundu, uydu bantları indirilmedi. Yeni
 edinim/uyumluluk önerisi araştırmacıya sunulacak; kabul edilmiş yöntem
 veya bağımsız yangın/örtü doğrulaması sayılmadı.
 
+### 25 Kasım yerel Landsat yürütmesi ve çevrimdışı inceleme
+
+Araştırmacının somut tek hücre A önerisi sonrası devam talimatı ayrı
+yürütme kaydına bağlandı. Yapay zekâ desteğiyle sınırlı veri erişimi,
+yerel kalite/indeks hesaplaması, ayrı hash/bütçe/zaman ve pikselden özet
+denetimi tamamlandı. İlk teknik kesinti ve kod anlık görüntüleri korundu;
+aynı özgün bütçe içinde süreç ayrımıyla devam edildi. Gerekli bant
+parçalarının yedi sahnede okunması gerçek koşuda gözlendi. 40 ilgili
+test geçti; gerçek yangın veya eski üretimle eşdeğerlik doğrulanmadı.
+Asistan iki basit ağırlık duyarlılığı ve karşılaştırma grafiğini hazırlayıp
+grafiği görüntü olarak inceledi. Bu kullanıcı/uzman örtü değerlendirmesi
+değildir. Dört ilde yeni örneklem önerisi çevrimdışı hazırlandı; seçilmedi
+ve yürütülmedi. Ücretli hesap/işlem, yeni eğitim/tahmin/etiket/merge yok.
+[Katkı, ölçümler ve sınırlar](../LOCAL_LANDSAT_COMPATIBILITY_RESULTS_2026-11-25.md).
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru
