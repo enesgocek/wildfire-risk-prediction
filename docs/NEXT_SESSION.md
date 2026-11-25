@@ -6,6 +6,25 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+**Aşama kararı ve yeni yıl erişim seçimini mevcut sohbetten kontrol et.**
+[Güncel geçiş dosyası](STAGE_TRANSITION_REVIEW_2026-11-25.md), mevcut
+23 Kasım A yönünü tekrar sormadan teknik araştırma geçişini tamamlandı,
+ana yangın hedefine bilimsel kabulü açık olarak ayırdı. Yeni öneri
+`configs/2024_source_replication_feasibility_proposal_v1.json`;
+`execute_authorized=false`, 2024 bilimsel değerleri henüz açılmadı.
+Somut A yalnız en fazla 900 saniyelik yerel 2024 katalog/özellik
+uygulanabilirliği incelemesi içindir; yeni fit/tahmin/indirme veya
+nihai birleştirme değil. Onay gelirse bilimsel alanlardan önce yıl
+metadata kapısını uygula; 2023/2025 değerlerini açma. Sonraki olası
+sabit-model yöntemi dokuz ayar/15 alan/2018–2021 fit olarak öneride
+korunuyor, ilk işin izni bunu yürütme izni sayılmıyor. Eksik girdide
+somut edinim ve hesap kapsamı hazırlanır. A seçimini teknik/prototip
+yönü için yeniden isteme veya eski 2022 sonuçlarını tekrar üretme.
+Hazırlık `stage_transition_review_v1/20261124T235727Z_04796a5a`;
+sekiz makbuz/dokuz model kimliği ve yalnız metadata kontrolü geçti.
+
+### Önceki 32 kayıt inceleme kapanışı
+
 **Araştırmacı yeni A yönünü açıkça seçti ve 32 kayıt incelemesi tamamlandı.**
 [Sonuç ve aşama durumu](MESOGEOS_CANDIDATE_REVIEW_2026-11-25.md): 11 ana
 harita orman/çalılık merkezi; iki saat/dokuz ayarda 576 koşullu satır,

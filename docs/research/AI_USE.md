@@ -1957,6 +1957,15 @@ doğrulanmış yangın veya kabul edilmiş üyelik olarak yazılmadı. 25 Kasım
 durumu eski planla karşılaştırıldı; takvim kararı ve bilimsel kabul ayrı
 tutuldu. Yeni iletişim, indirme, eğitim ve nihai birleştirme yapılmadı.
 
+### 25 Kasım aşama geçişi ve ayrı yıl önerisi hazırlığı
+
+Eski karar ve kanıtların ayrıştırılması, sekiz makbuz/dokuz model dosyası
+kimliği ve metadata dizini kontrolü yapay zekâ desteğiyle tamamlandı.
+2024 bilimsel gövde değerleri okunmadan sınırlı uygulanabilirlik önerisi
+hazırlandı. Teknik geçişin önceden seçildiği açık kaydedildi; bilimsel
+varsayımlar doğrulanmış veya yeni yıl kararı verilmiş sayılmadı. Yeni
+model, gerçek etiket, deney sonucu veya nihai birleştirme üretilmedi.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

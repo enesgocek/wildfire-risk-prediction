@@ -2402,6 +2402,16 @@ jeodezik geri denetimi geçti. Eski S/U hash'i korundu; yeni model/yıl/
 Y/L/final merge yok. Hazırlık SHA `ae94cfbf…0ecb48`, audit
 `c1a181f9…b09b449`; tam kimlik ve varsayımlar raporda.
 
+E266 — 25 Kasım. [Aşama ayrımı ve ayrı yıl hazırlığı](../STAGE_TRANSITION_REVIEW_2026-11-25.md).
+Sekiz eski makbuz/dokuz sabit model/15 alan kimliği eşleşti. Donmuş
+özellik metadata dizini 2.191 gün/2018–2023; 2024'ün bütün diskte yokluğu
+iddia edilmedi. Birleşik FIRMS CSV'sinde tek şema satırı okundu, gövde
+okunmadı. Yeni yıl/model/etiket/merge yok. 23 Kasım teknik A geçişi ile
+açık bilimsel kabul ayrıldı; yürütülmemiş 900 saniyelik yerel 2024
+uygulanabilirlik önerisi hazırlandı. SHA `df45ac45…67446a`; tam kimlik
+raporda. Bu kontrol eski deneylerin yeniden yürütülmesi veya nihai
+parça kabulü değil; eski test sayısı güncel diye kullanılmadı.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

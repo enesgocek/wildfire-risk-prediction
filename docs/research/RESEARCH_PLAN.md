@@ -7,6 +7,15 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+25 Kasım [aşama geçiş değerlendirmesi](../STAGE_TRANSITION_REVIEW_2026-11-25.md)
+teknik kapanış ile ana hedefin bilimsel kabulünü ayrı netleştirdi.
+Araştırmacının 23 Kasım seçtiği deneysel prototip yolu zaten tamamlanmış
+teknik geçiştir; yeniden aynı karar beklenmez. Üç bilimsel koşul açık
+kalır. Sekiz makbuz/dokuz model kimliği doğrulandı; 2024'te ayrı yıl
+sınamasının ilk uygulanabilirlik işi için somut, yürütülmemiş öneri
+hazırlandı. Henüz 2024/2023/2025 bilimsel değer erişimi veya yeni model
+izni yok; ayrı yıl sonucu da gerçek yangın doğrulaması sayılmayacaktır.
+
 Aynı gün sonraki [taşınabilir teslim](../PORTABLE_RESEARCH_RELEASE_2026-11-24.md)
 499 dosyada mevcut ayrı parçaları, v3 ekranını ve kanıtları bir araya
 getirdi. Farklı klasöre çıkarma/dosya/bağlantı/DOM kontrolleri geçti;

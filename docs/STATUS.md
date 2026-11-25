@@ -5,6 +5,17 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**25 Kasım sonraki devam: aşama geçiş dosyası netleştirildi, ayrı yıl önerisi hazır.**
+23 Kasım'da seçilmiş deneysel teknik/prototip geçişi tamamlanmış kabulüyle
+kaydedildi; bu eski karar tekrar sorulmaz. Ana hedefin üç bilimsel kabul
+konusu açık. Sekiz makbuz, dokuz sabit model ve 15 alan sırası güncel
+kimliklerle eşleşti. Eski özellik dizininde 2.191 gün/2018–2023 var;
+2024 bu dizinde yok, tüm diskte yokluğu iddia edilmiyor. Birleşik FIRMS
+CSV'sinin yalnız şeması okundu. Yeni öneri: 2024'te ayrı yıl sınamasının
+yerel uygulanabilirliğini 900 saniyede incelemek; yeni yıl bilimsel
+erişimi henüz yetkilendirilmedi. Yeni model/tahmin/etiket veya nihai
+birleştirme yok. [Aşama sonucu ve somut kapsam](STAGE_TRANSITION_REVIEW_2026-11-25.md).
+
 **25 Kasım açık A sonrası: 32 kaydın ayrı aday hazırlığı tamamlandı.**
 Ana 2017 merkez bağlamı 11 orman/çalılık, 8 tarım, 13 diğer; 32 hücre
 su kapsamında korunuyor. İki koşullu saat/dokuz yakın-geçmiş ayarında

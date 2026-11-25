@@ -8,6 +8,7 @@ başvurusu planlanmıyor; bu düzen araştırmanın izlenebilirliği için korun
 
 | Belge | Sorumluluk |
 |---|---|
+| [Aşama geçişi ve ayrı yıl önerisi](STAGE_TRANSITION_REVIEW_2026-11-25.md) | Tamamlanmış teknik geçiş/açık bilimsel kabul ayrımı; sekiz makbuz/dokuz model kimliği, metadata kontrolü ve yürütülmemiş sınırlı 2024 önerisi |
 | [Mesogeos 32 kayıt ve aşama durumu](MESOGEOS_CANDIDATE_REVIEW_2026-11-25.md) | Açık A sonrası 11 ana harita odunsu merkezi/576 koşullu satır/beş kararlı öneri; 30 test ve ayrı denetim, açık bilimsel geçiş ve 37 günlük koşullu teslim penceresi |
 | [Mesogeos yardımcı kaynak sonucu](MESOGEOS_REFERENCE_RESULTS_2026-11-25.md) | 92 açık yıl/AOI kaydı, 30/62 nokta–alan ilişkisi, yalnız bağlam için 60 S/5 U/27 eksik anahtar; 53 test ve ayrı ham/geometri denetimi, yeni etiket/eğitim yok |
 | [Mesogeos yardımcı kaynak önerisi](MESOGEOS_REFERENCE_PROPOSAL_2026-11-25.md) | Açık vektör listesi/34 alan/EPSG:5643, bir günlük eksen farkı; iki aşamalı 53/160 MB öneri, ayrı destek denetimi ve 43 ilgili test; yeni olay satırı veya etiket kabulü yok |
