@@ -6,6 +6,37 @@ AGENTS.md, STATUS ve araştırma sözleşmeleri geçerli.
 
 ## İlk yapılacak iş
 
+**2024 ilk uygulanabilirlik A yönü yürütüldü; aynı kararı tekrar sorma.**
+Araştırmacının somut A sonrası devam talimatı, ayrı execution kaydında
+bağlandı; tarihsel öneri değiştirilmedi. [Sonuç](2024_FEASIBILITY_RESULTS_2026-11-25.md):
+2.960 tespit/320 kaynak günü/505 hücre, 366 günlük meteoroloji geri
+okuması/1.061.034 satır; 1.797 tespit tam alan meteoroloji destekli.
+32 ilgili test ve ayrı hash/sayım denetimi geçti. Ana 15 alan için 2024
+NDVI/NDMI kontrol edilen depolarda ve küçük pilot takvimlerinde yok.
+2023'ü sınırsız taşıma veya eksik dört alanı doldurma; yeni fit/tahmin
+yetkisi çıkarma. 2024 meteorolojisinin eski kontrollerde okunduğu biliniyor;
+bu yılı küresel ilk okuma veya kör final diye sunma. 2025 kapalıdır.
+
+Yeni bilimsel edinim/yöntem yönü seçimini mevcut sohbetten kontrol et:
+`configs/local_landsat_compatibility_pilot_proposal_v1.json` henüz
+`execute_authorized=false`. Önerilen A: aynı 15 alanı koruyarak C517/R913
+hücresinde 2022/2024 Temmuz 1, 30/60 günlük geçmiş için yerel Landsat
+uyumluluk provası; en fazla 128 MiB/900 saniye/20 sahne, GCP/ücretli
+abonelik yok. Raster erişimi ve sayısal eşdeğerlik henüz doğrulanmadı.
+STAC koleksiyon metadata'sı webden okundu; alan/tarih sorgusu web
+aracınca açılamadı, sağlayıcıda veri yok denmez. B ayrı meteoroloji
+yardımcı sınama yönüdür; ana XGBoost'un aynı yöntem sınaması sayılmaz.
+Yeni kaynak ve hesap kapsamı seçilmeden veri indirme başlatma. Tarihsel
+öneriyi sessizce değiştirmek yerine yürütme kararını ayrı bağla.
+
+Güncel ilk iş `2024_replication_feasibility_v1/20261125T001419Z_2e1802f8`,
+audit `2024_replication_feasibility_audit_v1/20261125T001641Z_f8eab957`.
+Eski ara/başarısız denemeler korundu; otoritatif makbuzlar bunlardır.
+Son parent kapanmış child.log hash'ini ayrı doğruladı. Araştırma teknik
+geçişi zaten tamam; bu iş üç açık bilimsel koşulu kapatmadı.
+
+### Önceki geçiş ve 2024 karar hazırlığı — tarihsel
+
 **Aşama kararı ve yeni yıl erişim seçimini mevcut sohbetten kontrol et.**
 [Güncel geçiş dosyası](STAGE_TRANSITION_REVIEW_2026-11-25.md), mevcut
 23 Kasım A yönünü tekrar sormadan teknik araştırma geçişini tamamlandı,

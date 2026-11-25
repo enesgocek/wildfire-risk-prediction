@@ -7,6 +7,14 @@ Araştırma kabul ölçütleri ve akademik dürüstlük koşulları korunur;
 
 ## 24 Kasım yerel araştırma teslimi
 
+25 Kasım sonraki [2024 uygulanabilirlik sonucu](../2024_FEASIBILITY_RESULTS_2026-11-25.md)
+somut A sonrası devam yönüyle sınırlı 2024 erişimini kaydeder. 2.960
+katalog tespiti ve 366 meteoroloji günü incelendi; ana 15 alanlı model
+için 2024 bitki örtüsü girdisi eksik. Yeni fit/tahmin/etiket/merge yok;
+2023/2025 bilimsel gövdeleri açılmadı. Eski 2024 meteoroloji denetimleri
+nedeniyle küresel ilk okuma/körlük iddiası kurulmaz. Tek hücrede yerel
+Landsat uyumluluk yolu somut öneri; henüz yürütülmedi ve yeni karar bekler.
+
 25 Kasım [aşama geçiş değerlendirmesi](../STAGE_TRANSITION_REVIEW_2026-11-25.md)
 teknik kapanış ile ana hedefin bilimsel kabulünü ayrı netleştirdi.
 Araştırmacının 23 Kasım seçtiği deneysel prototip yolu zaten tamamlanmış

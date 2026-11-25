@@ -1966,6 +1966,19 @@ hazırlandı. Teknik geçişin önceden seçildiği açık kaydedildi; bilimsel
 varsayımlar doğrulanmış veya yeni yıl kararı verilmiş sayılmadı. Yeni
 model, gerçek etiket, deney sonucu veya nihai birleştirme üretilmedi.
 
+### 25 Kasım 2024 kaynak/meteoroloji incelemesi ve yerel Landsat önerisi
+
+Somut öneriye devam talimatıyla sınırlı 2024 kaynak incelemesi, 366 günlük
+meteoroloji geri hesabı ve ayrı sayım/hash denetimi yapay zekâ desteğiyle
+yürütüldü. Diğer yılların bilimsel alanları opak tutuldu. Bitki örtüsü
+depo/pilot takvim metadata'sı incelendi; gerçek yangın etiketi, model
+eğitimi veya tahmin üretilmedi. Eski 2024 meteoroloji incelemeleri
+belirlendiğinde küresel ilk açılış/körlük ifadesi düzeltilerek açıklandı.
+Birincil USGS/Microsoft kaynaklarıyla yerel Landsat yolu araştırıldı;
+webde koleksiyon metadata'sı okundu, uydu bantları indirilmedi. Yeni
+edinim/uyumluluk önerisi araştırmacıya sunulacak; kabul edilmiş yöntem
+veya bağımsız yangın/örtü doğrulaması sayılmadı.
+
 ## Resmî kaynak ve beyan koşulu
 
 4 Kasım güncellemesi: aşağıdaki TÜBİTAK kaynak kaydı geçmiş başvuru

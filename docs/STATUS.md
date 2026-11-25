@@ -5,6 +5,19 @@ ayrı belirtir. Canlı VM/API sorgusu yerine geçmez.
 
 ## Güncel aşama
 
+**25 Kasım sonraki devam: sınırlı 2024 kaynak/girdi incelemesi tamamlandı.**
+2024'ten 2.960 katalog tespiti, 320 kaynak günü/505 hücre; bunlar yangın
+veya yeni S sayısı değil. 366 günlük meteoroloji geri okumasında 1.061.034
+hücre–gün ve 878.400 tam alan uygun kayıt doğrulandı. 1.797 tespit bağlı
+meteoroloji kuralını geçiyor. Ana modelin dört NDVI/NDMI alanı için 2024
+girdisi kontrol edilen tam depolarda ve küçük pilot takvimlerinde yok.
+15 alanlı model çalışmadı; eksiklere değer uydurulmadı. 32 ilgili test ve
+ayrı kaynak/meteoroloji sayım-hash denetimi geçti. 2024 meteorolojisinin
+eski kontrollerde incelendiği ayrıca açıklandı; bütün yıl ilk kez/kör
+açılmış gibi sunulmaz. Yeni öneri: GCP kullanmadan tek hücrede en fazla
+128 MiB/900 saniye yerel Landsat uyumluluk provası; henüz yürütülmedi.
+[Somut eksik, bulgular ve sonraki seçenek](2024_FEASIBILITY_RESULTS_2026-11-25.md).
+
 **25 Kasım sonraki devam: aşama geçiş dosyası netleştirildi, ayrı yıl önerisi hazır.**
 23 Kasım'da seçilmiş deneysel teknik/prototip geçişi tamamlanmış kabulüyle
 kaydedildi; bu eski karar tekrar sorulmaz. Ana hedefin üç bilimsel kabul

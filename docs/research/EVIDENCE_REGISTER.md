@@ -2412,6 +2412,18 @@ uygulanabilirlik önerisi hazırlandı. SHA `df45ac45…67446a`; tam kimlik
 raporda. Bu kontrol eski deneylerin yeniden yürütülmesi veya nihai
 parça kabulü değil; eski test sayısı güncel diye kullanılmadı.
 
+E267 — 25 Kasım. [2024 kaynak ve girdi incelemesi](../2024_FEASIBILITY_RESULTS_2026-11-25.md).
+Somut A sonrası devamla 2024 alanları incelendi; diğer yılların bilimsel
+alanları opak kaldı. 2.960 tespit/320 kaynak günü/505 hücre, 366 günün
+1.061.034 meteoroloji satırı; 878.400 tam alan uygun satır. 1.797 tespit
+bağlı günde meteoroloji destekli; gerçek olay/S değil. Kontrol edilen
+vejetasyon depoları ve dört küçük pilot takviminde 2024 yok. 32 ilgili
+test, ayrı kaynak/CSV sayımı ve hash denetimi geçti. En büyük sayısal
+fark 5,68434e-14; eski CSV 1e-12 toleransı, maskeler/QA tam eşit.
+Eski 2024 meteoroloji okumaları açık kaydedildi. Yeni model/etiket/merge
+yok; yerel Landsat önerisi yürütülmedi. Sonuç SHA `bf53e0a9…cf1e6`,
+audit `6095a5c7…c6245`; tam kimlik ve erişim sınırları raporda.
+
 ## Yeni kanıt ekleme koşulları
 
 Tarih, kapsam, kaynak dosya/rapor, doğrulama yöntemi, sonuç ve sınırlama birlikte

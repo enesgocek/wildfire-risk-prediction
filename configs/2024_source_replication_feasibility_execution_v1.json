@@ -1,0 +1,19 @@
+{
+  "version": "2024_source_replication_feasibility_execution_v1",
+  "decision_date": "2026-11-25",
+  "decision_source": "user_continue_after_concrete_recommended_A_2024_feasibility_proposal",
+  "decision_interpretation": "continue_the_specific_limited_2024_feasibility_review_not_an_explicit_letter_A_reply",
+  "proposal_sha256": "9581e96cdb79e4535dd6d11de3ad7b36f70cf126b61a0604749cdda781e43d74",
+  "preparation_receipt_sha256": "df45ac450e854a0e1db83f40308b621aed48d36be1fa3405ce8883d0a267446a",
+  "scientific_years_for_this_review": [2024],
+  "weather_input_readiness": "2024_local_daily_raw_and_derived_QA_only",
+  "local_time_limit_seconds": 900,
+  "new_model_training": false,
+  "new_model_predictions": false,
+  "new_S_or_Y_or_L": false,
+  "negative_label_permitted": false,
+  "scientific_values_2023_or_2025": false,
+  "download_or_cloud": false,
+  "external_contact": false,
+  "final_merge": false
+}
